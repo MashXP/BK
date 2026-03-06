@@ -56,15 +56,26 @@ Immortalization allows cells to bypass senescence.
 *   **Tumor Suppressor Inactivation**: pRB, p53, SEN6.
 
 ### Viral Immortalization Systems
-1.  **SV40 (Simian Virus 40)**:
-    *   **T-antigen**: The key viral protein.
-    *   **Mechanism**:
-        *   T-antigen binds **Rb** (Retinoblastoma protein), releasing the **E2F** transcription factor. Free E2F induces S-phase gene transcription.
-        *   T-antigen sequesters and inactivates **p53** (which normally triggers apoptosis or cycle arrest).
-2.  **HPV (Human Papillomavirus) E6/E7**:
-    *   **E6**: Binds **p53** and promotes its degradation (blocks apoptosis). Induces hTERT expression.
-    *   **E7**: Binds **pRb**, releasing **E2F** (pushes cell to S phase).
-3.  **Other Systems**:
-    *   EBV (Epstein-Barr Virus)
-    *   MycT58A
-    *   RasV12
+Viral systems bypass senescence by targeting the cell cycle "guardians": **p53** and **pRb**.
+
+#### 1. SV40 (Simian Virus 40) Large T-Antigen
+The most common system for mammalian cells.
+*   **Mechanism vs. pRb**: T-antigen binds **pRb**, releasing the transcription factor **E2F**. Free E2F induces S-phase gene transcription.
+*   **Mechanism vs. p53**: T-antigen sequesters and inactivates **p53**, blocking apoptosis and G1 arrest.
+*   **Efficiency**: Very high, but can lead to genomic instability (aneuploidy).
+
+#### 2. HPV (Human Papillomavirus) E6/E7
+Preferred for epithelial cells; more targeted than SV40.
+*   **E6 (p53 Destroyer)**: Recruits ubiquitin ligase to **p53** for proteasomal degradation. Also induces **hTERT** (telomerase) expression.
+*   **E7 (pRb Inactivator)**: Binds to **pRb**, displacing **E2F**. Can also trigger pRb degradation.
+
+#### 3. EBV (Epstein-Barr Virus)
+The gold standard for creating **human B-lymphocytes** (LCLs).
+*   **LMP-1**: Mimics a constitutively active CD40 receptor, triggering NF-κB and PI3K/Akt survival pathways.
+*   **EBNA-2**: Transcriptional activator of host genes like *c-myc*.
+
+#### 4. Oncogenic Synergy: MycT58A and RasV12
+Usually delivered via viral vectors to provide a "push" to the cell cycle.
+*   **MycT58A**: Stabilized mutant of *c-myc* that drives rapid cycle progression and metabolic change.
+*   **RasV12**: Constitutively active Ras providing constant growth factor signaling (MAPK/ERK).
+*   **Cooperation**: Often used with SV40 or E6/E7 to prevent **Oncogene-Induced Senescence (OIS)**.
