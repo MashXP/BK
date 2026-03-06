@@ -23,5 +23,4 @@ Cell culture
 ## 2026-03-06
 1. So sánh đặc điểm giữa cell line và tế bào sơ cấp
 2. Hoạt động của hệ thống SV40 Immortalization
-3. Nêu ứng dụng của CNTB Động vật
-4. 
+3. Nêu ứng dụng của CNTB Động vật.
