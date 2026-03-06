@@ -1,0 +1,822 @@
+[
+  {
+    "question": "Which of the following domains of life are classified as prokaryotes?",
+    "options": [
+      "Bacteria and Archaea",
+      "Archaea and Eukarya",
+      "Bacteria and Eukarya",
+      "Only Bacteria"
+    ],
+    "answer": "Bacteria and Archaea"
+  },
+  {
+    "question": "Mitochondria are believed to have evolved from which bacterial group through endosymbiosis?",
+    "options": [
+      "Cyanobacteria",
+      "Proteobacteria",
+      "Thermotoga",
+      "Gram-positive bacteria"
+    ],
+    "answer": "Proteobacteria"
+  },
+  {
+    "question": "Chloroplasts are believed to have evolved from which bacterial group through endosymbiosis?",
+    "options": [
+      "Proteobacteria",
+      "Gram-positive bacteria",
+      "Cyanobacteria",
+      "Archaea"
+    ],
+    "answer": "Cyanobacteria"
+  },
+  {
+    "question": "What term describes the DNA passed on from ancestors that has been preserved over evolutionary time?",
+    "options": [
+      "Mutated",
+      "Transferred",
+      "Conserved",
+      "Fragmented"
+    ],
+    "answer": "Conserved"
+  },
+  {
+    "question": "According to the Three-Domain System, which of the following kingdoms belongs to the Domain Eukarya?",
+    "options": [
+      "Fungi",
+      "Plantae",
+      "Animalia",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What is the approximate size range for 'most bacteria' as indicated on the relative size scale?",
+    "options": [
+      "10 meters to 1 meter",
+      "1 millimeter to 10 micrometers",
+      "10 micrometers to 1 micrometer",
+      "1 micrometer to 10 nanometers"
+    ],
+    "answer": "10 micrometers to 1 micrometer"
+  },
+  {
+    "question": "Which type of microscopy can visualize ribosomes, which are typically around 20-30 nm?",
+    "options": [
+      "Unaided eye",
+      "Light microscopy",
+      "Super-resolution microscopy",
+      "Electron microscopy"
+    ],
+    "answer": "Electron microscopy"
+  },
+  {
+    "question": "A microbiologist wants to observe the internal ultrastructure of a bacterium's flagellum. Which microscopy technique would be most appropriate, and why might light microscopy be insufficient?",
+    "options": [
+      "Light microscopy; it provides high resolution for internal structures.",
+      "Unaided eye; the flagellum is large enough to be seen.",
+      "Electron microscopy; it offers the resolution needed to visualize nanoscale internal structures, unlike light microscopy which is limited to structures above 200 nm.",
+      "Super-resolution microscopy; it's best for visualizing overall cell morphology but not internal details."
+    ],
+    "answer": "Electron microscopy; it offers the resolution needed to visualize nanoscale internal structures, unlike light microscopy which is limited to structures above 200 nm."
+  },
+  {
+    "question": "The normal microbiota in an infant's intestine is mentioned to produce which vitamin?",
+    "options": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin K"
+    ],
+    "answer": "Vitamin K"
+  },
+  {
+    "question": "What is the approximate size of the bacteria shown in Figure 1.7, depicting microbiota on the human tongue?",
+    "options": [
+      "0.2 µm",
+      "20 µm",
+      "2 µm",
+      "2 mm"
+    ],
+    "answer": "2 µm"
+  },
+  {
+    "question": "What is the term for spherical-shaped bacteria?",
+    "options": [
+      "Bacilli",
+      "Spirilla",
+      "Cocci",
+      "Vibrios"
+    ],
+    "answer": "Cocci"
+  },
+  {
+    "question": "Rod-shaped bacteria are known by which term?",
+    "options": [
+      "Cocci",
+      "Bacilli",
+      "Spirochetes",
+      "Vibrios"
+    ],
+    "answer": "Bacilli"
+  },
+  {
+    "question": "When cocci divide in one plane and remain attached to form a chain, what arrangement is produced?",
+    "options": [
+      "Diplococci",
+      "Tetrads",
+      "Streptococci",
+      "Staphylococci"
+    ],
+    "answer": "Streptococci"
+  },
+  {
+    "question": "What arrangement of cocci results from division in multiple, random planes, forming grape-like clusters?",
+    "options": [
+      "Sarcinae",
+      "Tetrads",
+      "Diplococci",
+      "Staphylococci"
+    ],
+    "answer": "Staphylococci"
+  },
+  {
+    "question": "A very short, fat rod-shaped bacterium is known as a:",
+    "options": [
+      "Vibrio",
+      "Spirillum",
+      "Coccobacillus",
+      "Spirochete"
+    ],
+    "answer": "Coccobacillus"
+  },
+  {
+    "question": "Which type of spiral bacterium is characterized by a comma-shaped or curved rod morphology?",
+    "options": [
+      "Spirillum",
+      "Spirochete",
+      "Vibrio",
+      "Bacillus"
+    ],
+    "answer": "Vibrio"
+  },
+  {
+    "question": "Which domain do *Haloarcula*, known for their square shape and halophilic nature, belong to?",
+    "options": [
+      "Bacteria",
+      "Eukarya",
+      "Archaea",
+      "Virus"
+    ],
+    "answer": "Archaea"
+  },
+  {
+    "question": "What is the region in a prokaryotic cell where the cell's DNA is located, which is not enclosed by a membrane?",
+    "options": [
+      "Nucleus",
+      "Mitochondrion",
+      "Nucleoid",
+      "Ribosome"
+    ],
+    "answer": "Nucleoid"
+  },
+  {
+    "question": "Which of the following structures is considered universal (found in all) bacteria, according to the presentation's labeled diagrams?",
+    "options": [
+      "Capsule",
+      "Flagella",
+      "70S Ribosomes",
+      "Pilus"
+    ],
+    "answer": "70S Ribosomes"
+  },
+  {
+    "question": "What is the primary function of fimbriae in bacteria?",
+    "options": [
+      "Locomotion",
+      "DNA transfer",
+      "Attachment to surfaces",
+      "Energy storage"
+    ],
+    "answer": "Attachment to surfaces"
+  },
+  {
+    "question": "How does a bacterial capsule contribute to virulence?",
+    "options": [
+      "By preventing antibiotic entry",
+      "By protecting the pathogen from phagocytosis by host cells",
+      "By increasing its metabolic rate",
+      "By facilitating its movement"
+    ],
+    "answer": "By protecting the pathogen from phagocytosis by host cells"
+  },
+  {
+    "question": "A new strain of *Klebsiella pneumoniae* is isolated that lacks a glycocalyx. Predict its likely impact on pathogenicity and its susceptibility to host defenses compared to a wild-type strain.",
+    "options": [
+      "Its pathogenicity would increase due to better nutrient absorption, and it would be more resistant to host defenses.",
+      "Its pathogenicity would decrease due to impaired attachment and increased susceptibility to phagocytosis, making it less able to cause disease.",
+      "Its motility would improve, but its ability to survive desiccation would be reduced.",
+      "It would be unaffected since the glycocalyx is primarily for environmental protection, not host interaction."
+    ],
+    "answer": "Its pathogenicity would decrease due to impaired attachment and increased susceptibility to phagocytosis, making it less able to cause disease."
+  },
+  {
+    "question": "What type of flagellar arrangement describes bacteria with flagella distributed randomly over the entire cell surface?",
+    "options": [
+      "Monotrichous",
+      "Lophotrichous",
+      "Peritrichous",
+      "Amphitrichous"
+    ],
+    "answer": "Peritrichous"
+  },
+  {
+    "question": "What are bacteria that lack flagella called?",
+    "options": [
+      "Motile",
+      "Flagellated",
+      "Atrichous",
+      "Piliated"
+    ],
+    "answer": "Atrichous"
+  },
+  {
+    "question": "Which component of the bacterial flagellum is embedded within the cell envelope and acts as the motor?",
+    "options": [
+      "Filament",
+      "Hook",
+      "Basal body",
+      "Pilus"
+    ],
+    "answer": "Basal body"
+  },
+  {
+    "question": "How do the basal bodies of Gram-negative and Gram-positive bacteria typically differ?",
+    "options": [
+      "Gram-positive bacteria have a more complex basal body with multiple rings, while Gram-negative bacteria have a simpler one.",
+      "Gram-negative bacteria have a more complex basal body with multiple rings anchored through two membranes, while Gram-positive bacteria have a simpler one anchored primarily in one membrane and the peptidoglycan.",
+      "Gram-negative bacteria lack a basal body, relying solely on the hook and filament.",
+      "The basal bodies are identical in both Gram-positive and Gram-negative bacteria."
+    ],
+    "answer": "Gram-negative bacteria have a more complex basal body with multiple rings anchored through two membranes, while Gram-positive bacteria have a simpler one anchored primarily in one membrane and the peptidoglycan."
+  },
+  {
+    "question": "What are the two primary modes of flagellar-driven motility for bacteria, described as alternating movements?",
+    "options": [
+      "Glide and swim",
+      "Crawl and jump",
+      "Run and tumble",
+      "Push and pull"
+    ],
+    "answer": "Run and tumble"
+  },
+  {
+    "question": "Axial filaments, also known as endoflagella, are characteristic of which type of spiral bacteria?",
+    "options": [
+      "Vibrios",
+      "Spirilla",
+      "Spirochetes",
+      "Coccobacilli"
+    ],
+    "answer": "Spirochetes"
+  },
+  {
+    "question": "What is the primary function of a sex pilus in bacteria?",
+    "options": [
+      "Attachment to host cells",
+      "Motility",
+      "Connecting two bacterial cells for DNA transfer",
+      "Formation of biofilms"
+    ],
+    "answer": "Connecting two bacterial cells for DNA transfer"
+  },
+  {
+    "question": "R factors are a type of plasmid that primarily carry genes for what?",
+    "options": [
+      "Cell division",
+      "Photosynthesis",
+      "Antibiotic resistance",
+      "Structural components"
+    ],
+    "answer": "Antibiotic resistance"
+  },
+  {
+    "question": "Discuss the long-term implications of widespread R factor presence in bacterial populations for public health, particularly in the context of emerging infectious diseases.",
+    "options": [
+      "R factors will lead to the extinction of all bacteria, thus eliminating infectious diseases.",
+      "Widespread R factors contribute significantly to the rise of multidrug-resistant bacteria, making existing antibiotics ineffective and complicating treatment of infections, leading to higher morbidity and mortality.",
+      "R factors promote genetic diversity, which is universally beneficial for bacterial ecosystems and human health.",
+      "The presence of R factors is a temporary phenomenon that has no lasting impact on antibiotic efficacy."
+    ],
+    "answer": "Widespread R factors contribute significantly to the rise of multidrug-resistant bacteria, making existing antibiotics ineffective and complicating treatment of infections, leading to higher morbidity and mortality."
+  },
+  {
+    "question": "What is an F+ cell?",
+    "options": [
+      "A bacterial cell that lacks a flagellum",
+      "A bacterial cell that contains the F plasmid and can act as a DNA donor during conjugation",
+      "A bacterial cell that is resistant to F-type antibiotics",
+      "A bacterial cell that can only receive DNA during conjugation"
+    ],
+    "answer": "A bacterial cell that contains the F plasmid and can act as a DNA donor during conjugation"
+  },
+  {
+    "question": "What is the first step in bacterial genetic transformation, as described in the notes?",
+    "options": [
+      "Recombination occurs between donor and recipient DNA",
+      "The recipient cell synthesizes new DNA",
+      "The recipient cell takes up donor DNA fragments from the environment",
+      "Donor DNA degrades immediately upon entry"
+    ],
+    "answer": "The recipient cell takes up donor DNA fragments from the environment"
+  },
+  {
+    "question": "Do bacteria reproduce during conjugation?",
+    "options": [
+      "Yes, conjugation is a form of asexual reproduction.",
+      "No, conjugation is a mechanism of genetic transfer, not reproduction.",
+      "Only in F+ cells, but not in F- cells.",
+      "Yes, but only in the presence of antibiotics."
+    ],
+    "answer": "No, conjugation is a mechanism of genetic transfer, not reproduction."
+  },
+  {
+    "question": "What is the primary stain used in the Gram staining procedure?",
+    "options": [
+      "Safranin",
+      "Iodine",
+      "Crystal violet",
+      "Alcohol"
+    ],
+    "answer": "Crystal violet"
+  },
+  {
+    "question": "After performing a Gram stain, what color would Gram-negative bacteria appear?",
+    "options": [
+      "Purple",
+      "Blue",
+      "Pink or Red",
+      "Yellow"
+    ],
+    "answer": "Pink or Red"
+  },
+  {
+    "question": "A patient presents with a severe bacterial infection. A Gram stain of the infected tissue reveals Gram-negative rods. Explain how this initial finding immediately guides the physician's choice of antibiotics, considering the structural differences between Gram-positive and Gram-negative bacteria.",
+    "options": [
+      "The physician would prescribe antibiotics that target the thick peptidoglycan layer, as Gram-negative bacteria have a prominent one.",
+      "The physician would prescribe antibiotics that are effective against Gram-negative bacteria, as their outer membrane and periplasmic space make them intrinsically more resistant to certain drugs, necessitating a different class of antibiotics than those effective against Gram-positive organisms.",
+      "The physician would opt for a broad-spectrum antibiotic that targets both Gram-positive and Gram-negative bacteria indiscriminately.",
+      "The Gram stain result is irrelevant for antibiotic choice; further biochemical tests are always required before any treatment."
+    ],
+    "answer": "The physician would prescribe antibiotics that are effective against Gram-negative bacteria, as their outer membrane and periplasmic space make them intrinsically more resistant to certain drugs, necessitating a different class of antibiotics than those effective against Gram-positive organisms."
+  },
+  {
+    "question": "What structural component of the bacterial cell wall determines its Gram reaction?",
+    "options": [
+      "Plasma membrane",
+      "Capsule",
+      "Flagella",
+      "Peptidoglycan layer"
+    ],
+    "answer": "Peptidoglycan layer"
+  },
+  {
+    "question": "In Gram-negative bacteria, where is the thin peptidoglycan layer located?",
+    "options": [
+      "Outside the outer membrane",
+      "Between the plasma membrane and an outer membrane (in the periplasmic space)",
+      "Internal to the plasma membrane",
+      "Absent completely"
+    ],
+    "answer": "Between the plasma membrane and an outer membrane (in the periplasmic space)"
+  },
+  {
+    "question": "What are the two main disaccharide units that make up the peptidoglycan backbone?",
+    "options": [
+      "Glucose and Fructose",
+      "N-acetylglucosamine (NAG) and N-acetylmuramic acid (NAM)",
+      "Ribose and Deoxyribose",
+      "Chitin and Cellulose"
+    ],
+    "answer": "N-acetylglucosamine (NAG) and N-acetylmuramic acid (NAM)"
+  },
+  {
+    "question": "What enzyme does penicillin inactivate, thereby preventing the synthesis of cross-bridges in the peptidoglycan layer?",
+    "options": [
+      "Lysozyme",
+      "Transpeptidase (Penicillin Binding Protein)",
+      "DNA gyrase",
+      "RNA polymerase"
+    ],
+    "answer": "Transpeptidase (Penicillin Binding Protein)"
+  },
+  {
+    "question": "Given that peptidoglycan contains D-amino acids, while typical bacterial proteins are composed of L-amino acids, hypothesize why the presence of D-amino acids in peptidoglycan could be advantageous for bacterial survival.",
+    "options": [
+      "D-amino acids enhance the flexibility of the cell wall, aiding motility.",
+      "D-amino acids are readily available in the environment, making peptidoglycan synthesis more efficient.",
+      "D-amino acids make the peptidoglycan layer more susceptible to degradation by host enzymes, facilitating nutrient recycling.",
+      "The presence of D-amino acids in peptidoglycan makes it resistant to proteolytic enzymes (peptidases) produced by host organisms or other microbes, which typically recognize and cleave L-amino acid linkages, thus protecting the cell wall from degradation."
+    ],
+    "answer": "The presence of D-amino acids in peptidoglycan makes it resistant to proteolytic enzymes (peptidases) produced by host organisms or other microbes, which typically recognize and cleave L-amino acid linkages, thus protecting the cell wall from degradation."
+  },
+  {
+    "question": "Which of the following components are unique to the Gram-positive cell wall and are not found in Gram-negative bacteria?",
+    "options": [
+      "Peptidoglycan and Plasma membrane",
+      "Lipopolysaccharide (LPS) and Outer membrane",
+      "Teichoic acid and Lipoteichoic acid",
+      "Porins and Lipoproteins"
+    ],
+    "answer": "Teichoic acid and Lipoteichoic acid"
+  },
+  {
+    "question": "*Mycobacterium* species have a cell wall that contains a high percentage (60%) of what unique component, in addition to peptidoglycan?",
+    "options": [
+      "Teichoic acid",
+      "Lipopolysaccharide",
+      "Mycolic acid",
+      "Capsule"
+    ],
+    "answer": "Mycolic acid"
+  },
+  {
+    "question": "Explain why *Mycobacterium* species, despite being technically Gram-positive, do not stain effectively with the Gram stain and require an alternative staining method.",
+    "options": [
+      "They have a very thin peptidoglycan layer, causing them to decolorize easily like Gram-negatives.",
+      "They possess a thick, waxy layer of mycolic acid outside their peptidoglycan layer, which prevents the crystal violet-iodine complex from penetrating the cell or being retained effectively, requiring a specialized acid-fast stain.",
+      "They are wall-less bacteria, so the Gram stain procedure is irrelevant.",
+      "Their plasma membrane is unusually permeable, causing the stain to leak out rapidly."
+    ],
+    "answer": "They possess a thick, waxy layer of mycolic acid outside their peptidoglycan layer, which prevents the crystal violet-iodine complex from penetrating the cell or being retained effectively, requiring a specialized acid-fast stain."
+  },
+  {
+    "question": "What is the space between the plasma membrane and the outer membrane in Gram-negative bacteria called?",
+    "options": [
+      "Cytoplasm",
+      "Nucleoid",
+      "Periplasmic space",
+      "Glycocalyx"
+    ],
+    "answer": "Periplasmic space"
+  },
+  {
+    "question": "What are the three main components of Lipopolysaccharide (LPS) in the Gram-negative outer membrane?",
+    "options": [
+      "NAG, NAM, and Peptide chain",
+      "Lipid A, Core polysaccharide, and O polysaccharide",
+      "Phospholipid, Protein, and Sterol",
+      "Fimbriae, Pili, and Flagella"
+    ],
+    "answer": "Lipid A, Core polysaccharide, and O polysaccharide"
+  },
+  {
+    "question": "Which component of the Gram-negative outer membrane is an endotoxin that can cause fever, dilation of blood vessels, and shock?",
+    "options": [
+      "O polysaccharide",
+      "Core polysaccharide",
+      "Lipid A",
+      "Porin protein"
+    ],
+    "answer": "Lipid A"
+  },
+  {
+    "question": "A patient is diagnosed with sepsis caused by a Gram-negative bacterium. The patient rapidly develops a high fever, hypotension, and goes into shock. Explain the molecular mechanism primarily responsible for these severe systemic symptoms.",
+    "options": [
+      "The bacteria's flagella are causing an excessive immune response leading to shock.",
+      "The massive replication of bacteria consumes all host nutrients, leading to organ failure.",
+      "The breakdown of the Gram-negative bacterial outer membrane releases Lipid A (endotoxin) into the bloodstream, triggering an excessive inflammatory response that causes fever, vasodilation, and potentially septic shock.",
+      "The bacteria are actively secreting exotoxins that directly damage host tissues and organs, leading to rapid systemic collapse."
+    ],
+    "answer": "The breakdown of the Gram-negative bacterial outer membrane releases Lipid A (endotoxin) into the bloodstream, triggering an excessive inflammatory response that causes fever, vasodilation, and potentially septic shock."
+  },
+  {
+    "question": "What are the two main types of molecules that primarily make up the lipid bilayer of the plasma membrane?",
+    "options": [
+      "Carbohydrates and Nucleic acids",
+      "Phospholipids and Proteins",
+      "Sterols and Polysaccharides",
+      "DNA and RNA"
+    ],
+    "answer": "Phospholipids and Proteins"
+  },
+  {
+    "question": "Which type of protein is embedded within or spans the entire lipid bilayer of the plasma membrane, often serving as transport channels?",
+    "options": [
+      "Peripheral proteins",
+      "Integral proteins",
+      "Associated proteins",
+      "Surface proteins"
+    ],
+    "answer": "Integral proteins"
+  },
+  {
+    "question": "What characteristic feature is present in the plasma membranes of *Mycoplasma* that is generally absent in other bacteria, making them an exception?",
+    "options": [
+      "Thick peptidoglycan layer",
+      "Outer membrane",
+      "Sterols",
+      "Flagella"
+    ],
+    "answer": "Sterols"
+  },
+  {
+    "question": "Infoldings of the plasma membrane that function in cellular respiration in some aerobic prokaryotes are called:",
+    "options": [
+      "Thylakoid membranes",
+      "Chromatophores",
+      "Respiratory membranes",
+      "Gas vacuoles"
+    ],
+    "answer": "Respiratory membranes"
+  },
+  {
+    "question": "What is the primary function of chromatophores in photosynthetic bacteria like purple sulfur bacteria?",
+    "options": [
+      "Storage of sulfur granules",
+      "Site of carbon dioxide fixation",
+      "Contain pigments and enzymes for photosynthesis",
+      "Aid in cell motility"
+    ],
+    "answer": "Contain pigments and enzymes for photosynthesis"
+  },
+  {
+    "question": "Compare and contrast the photosynthetic processes in cyanobacteria and purple sulfur bacteria, specifically regarding their electron donors and oxygen production.",
+    "options": [
+      "Cyanobacteria use sulfur compounds as electron donors and do not produce oxygen, while purple sulfur bacteria use water and produce oxygen.",
+      "Both cyanobacteria and purple sulfur bacteria use water as an electron donor and produce oxygen.",
+      "Cyanobacteria use water as an electron donor and produce oxygen (oxygenic photosynthesis), whereas purple sulfur bacteria use alternative electron donors like sulfur compounds and do not produce oxygen (anoxygenic photosynthesis).",
+      "Both types of bacteria primarily rely on chemosynthesis, not photosynthesis."
+    ],
+    "answer": "Cyanobacteria use water as an electron donor and produce oxygen (oxygenic photosynthesis), whereas purple sulfur bacteria use alternative electron donors like sulfur compounds and do not produce oxygen (anoxygenic photosynthesis)."
+  },
+  {
+    "question": "Does passive transport across the plasma membrane require the cell to expend energy?",
+    "options": [
+      "Yes, always",
+      "No, never",
+      "Only for facilitated diffusion",
+      "Only for simple diffusion"
+    ],
+    "answer": "No, never"
+  },
+  {
+    "question": "What happens to a bacterial cell when placed in a hypotonic solution, assuming it has a strong cell wall?",
+    "options": [
+      "It undergoes plasmolysis and shrinks.",
+      "It bursts due to osmotic lysis.",
+      "Water moves into the cell, but the strong cell wall prevents excessive swelling or bursting.",
+      "There is no net movement of water across the membrane."
+    ],
+    "answer": "Water moves into the cell, but the strong cell wall prevents excessive swelling or bursting."
+  },
+  {
+    "question": "Which type of transport requires energy, depends on membrane carrier proteins, and can involve adding functional groups to substances during transport?",
+    "options": [
+      "Simple diffusion",
+      "Facilitated diffusion",
+      "Osmosis",
+      "Active transport"
+    ],
+    "answer": "Active transport"
+  },
+  {
+    "question": "What internal structure is universally found in all bacteria, according to the presentation's diagrams (specifically highlighted in red)?",
+    "options": [
+      "Capsule",
+      "Flagella",
+      "70S Ribosomes",
+      "Pilus"
+    ],
+    "answer": "70S Ribosomes"
+  },
+  {
+    "question": "What are the smaller, circular pieces of DNA found in prokaryotic cells, separate from the main chromosome?",
+    "options": [
+      "Nucleoids",
+      "Plasmids",
+      "Ribosomes",
+      "Inclusions"
+    ],
+    "answer": "Plasmids"
+  },
+  {
+    "question": "What is the total Svedberg unit (S) value for a complete prokaryotic ribosome, formed from its two subunits?",
+    "options": [
+      "80S",
+      "70S",
+      "60S",
+      "100S"
+    ],
+    "answer": "70S"
+  },
+  {
+    "question": "Explain the principle by which antibiotics that target the 70S ribosome selectively inhibit bacterial growth without significantly harming human cells.",
+    "options": [
+      "70S ribosomes are exclusively found in human cells, making bacterial cells immune to these antibiotics.",
+      "Antibiotics targeting 70S ribosomes exploit the structural differences between prokaryotic (70S) and eukaryotic (80S) ribosomes. They bind specifically to bacterial ribosomes, inhibiting bacterial protein synthesis, while human cells' 80S ribosomes remain largely unaffected, minimizing host toxicity.",
+      "These antibiotics work by directly attacking bacterial DNA, not ribosomes.",
+      "The antibiotics function by disrupting the bacterial cell wall, which is absent in human cells."
+    ],
+    "answer": "Antibiotics targeting 70S ribosomes exploit the structural differences between prokaryotic (70S) and eukaryotic (80S) ribosomes. They bind specifically to bacterial ribosomes, inhibiting bacterial protein synthesis, while human cells' 80S ribosomes remain largely unaffected, minimizing host toxicity."
+  },
+  {
+    "question": "Which type of bacterial inclusion contains ribulose 1,5 diphosphate carboxylase and is involved in CO₂ fixation?",
+    "options": [
+      "Volutin granules",
+      "Polysaccharide granules",
+      "Carboxysome",
+      "Magnetosomes"
+    ],
+    "answer": "Carboxysome"
+  },
+  {
+    "question": "*Bacillus anthracis*, the bacterium that causes anthrax, is noted for producing which highly resistant survival structure?",
+    "options": [
+      "Capsule",
+      "Fimbriae",
+      "Endospore",
+      "Biofilm"
+    ],
+    "answer": "Endospore"
+  },
+  {
+    "question": "What is the process of endospore formation called?",
+    "options": [
+      "Binary fission",
+      "Conjugation",
+      "Sporulation",
+      "Budding"
+    ],
+    "answer": "Sporulation"
+  },
+  {
+    "question": "Design a sterilization protocol targeting *Clostridium botulinum* endospores in canned food, justifying each step based on the known resistance mechanisms of endospores.",
+    "options": [
+      "A simple boiling process for 5 minutes is sufficient because heat easily denatures endospore proteins.",
+      "Exposure to UV light for 10 minutes will sterilize the food by damaging endospore DNA.",
+      "A high-temperature, high-pressure sterilization (autoclaving) is required for an extended period (e.g., 121°C at 15 psi for 15-20 minutes) because endospores possess an extremely thick spore coat, low water content, and high calcium dipicolinate concentration, conferring extreme resistance to heat, radiation, and chemicals, necessitating conditions more stringent than those for vegetative cells.",
+      "Freezing the canned food for several hours will kill all endospores by crystal formation."
+    ],
+    "answer": "A high-temperature, high-pressure sterilization (autoclaving) is required for an extended period (e.g., 121°C at 15 psi for 15-20 minutes) because endospores possess an extremely thick spore coat, low water content, and high calcium dipicolinate concentration, conferring extreme resistance to heat, radiation, and chemicals, necessitating conditions more stringent than those for vegetative cells."
+  },
+  {
+    "question": "According to the taxonomic hierarchy, which of the following is the most inclusive (broadest) rank?",
+    "options": [
+      "Species",
+      "Genus",
+      "Family",
+      "Domain"
+    ],
+    "answer": "Domain"
+  },
+  {
+    "question": "In the phylogenetic tree of prokaryotes, which two groups are found within the Domain Archaea?",
+    "options": [
+      "Gram-positive bacteria and Cyanobacteria",
+      "Methanogens and Hyperthermophiles",
+      "Proteobacteria and Spirochetes",
+      "Chlamydias and Green sulfur bacteria"
+    ],
+    "answer": "Methanogens and Hyperthermophiles"
+  },
+  {
+    "question": "What is a major reference manual for bacterial identification based on various characteristics, as mentioned in the notes?",
+    "options": [
+      "The Diagnostic and Statistical Manual of Mental Disorders",
+      "Bergey's Manual of Determinative Bacteriology",
+      "The Merck Manual",
+      "The Physician's Desk Reference"
+    ],
+    "answer": "Bergey's Manual of Determinative Bacteriology"
+  },
+  {
+    "question": "If a microbiology lab report form has the 'acid-fast bacilli' box checked, what disease might be suspected?",
+    "options": [
+      "Gonorrhea",
+      "Syphilis",
+      "Tuberculosis",
+      "Cholera"
+    ],
+    "answer": "Tuberculosis"
+  },
+  {
+    "question": "A clinician suspects a patient has tuberculosis. Based on the requisition form, which specific test would they request, and what characteristic of the causative agent makes this test necessary?",
+    "options": [
+      "A routine Gram stain, because *Mycobacterium tuberculosis* is Gram-positive.",
+      "A 'Gram neg. rods' culture, because tuberculosis is caused by a Gram-negative bacterium.",
+      "An 'Acid-Fast Bacilli' test, because *Mycobacterium tuberculosis* has a waxy mycolic acid cell wall that resists destaining, making it acid-fast.",
+      "A 'Gonococci' screening culture, as tuberculosis is a sexually transmitted infection."
+    ],
+    "answer": "An 'Acid-Fast Bacilli' test, because *Mycobacterium tuberculosis* has a waxy mycolic acid cell wall that resists destaining, making it acid-fast."
+  },
+  {
+    "question": "Which of the following bacterial groups is described as 'wall-less'?",
+    "options": [
+      "Actinomycetes",
+      "Mycoplasmas",
+      "Lactobacillaceae",
+      "Micrococcaceae"
+    ],
+    "answer": "Mycoplasmas"
+  },
+  {
+    "question": "What does a 'polytomy' indicate in a phylogenetic tree, as shown in the rRNA-based classification?",
+    "options": [
+      "A clear, resolved evolutionary divergence",
+      "An unresolved pattern of evolutionary divergence",
+      "The fusion of two distinct lineages",
+      "Horizontal gene transfer events"
+    ],
+    "answer": "An unresolved pattern of evolutionary divergence"
+  },
+  {
+    "question": "Which subgroup of Proteobacteria includes *Rhizobium*, known for nitrogen fixation in legume root nodules, and is hypothesized to be the origin of mitochondria?",
+    "options": [
+      "Alphaproteobacteria",
+      "Betaproteobacteria",
+      "Gammaproteobacteria",
+      "Deltaproteobacteria"
+    ],
+    "answer": "Alphaproteobacteria"
+  },
+  {
+    "question": "*Helicobacter pylori*, a bacterium known to cause stomach ulcers, belongs to which subgroup of Proteobacteria?",
+    "options": [
+      "Alphaproteobacteria",
+      "Betaproteobacteria",
+      "Gammaproteobacteria",
+      "Epsilonproteobacteria"
+    ],
+    "answer": "Epsilonproteobacteria"
+  },
+  {
+    "question": "Which bacterial group is characterized by being obligate intracellular parasites that lack peptidoglycan and cause diseases like trachoma and nongonococcal urethritis?",
+    "options": [
+      "Spirochetes",
+      "Cyanobacteria",
+      "Chlamydias",
+      "Actinomycetes"
+    ],
+    "answer": "Chlamydias"
+  },
+  {
+    "question": "The obligate intracellular parasitism of Chlamydias implies significant metabolic dependency on their host. Elaborate on the challenges this lifestyle presents for antibiotic development.",
+    "options": [
+      "Chlamydias are resistant to all known antibiotics, making treatment impossible.",
+      "Their reliance on host cells means that antibiotics targeting Chlamydias must penetrate host cells to reach the bacteria, and there is a risk of harming host cells due to off-target effects, complicating drug specificity and delivery.",
+      "Chlamydias mutate rapidly, quickly developing resistance to any new antibiotic.",
+      "This lifestyle enhances their ability to synthesize their own essential compounds, making them less susceptible to metabolic inhibitors."
+    ],
+    "answer": "Their reliance on host cells means that antibiotics targeting Chlamydias must penetrate host cells to reach the bacteria, and there is a risk of harming host cells due to off-target effects, complicating drug specificity and delivery."
+  },
+  {
+    "question": "What is the primary method of reproduction for bacteria, as illustrated in the lecture notes?",
+    "options": [
+      "Sexual reproduction",
+      "Budding",
+      "Conjugation",
+      "Binary fission"
+    ],
+    "answer": "Binary fission"
+  },
+  {
+    "question": "In *Hyphomicrobium*, what mode of cell division is characterized by a smaller, spherical outgrowth from the parent cell?",
+    "options": [
+      "Binary fission",
+      "Sporulation",
+      "Budding",
+      "Fragmentation"
+    ],
+    "answer": "Budding"
+  },
+  {
+    "question": "What unique components are found in archaeal cell membranes instead of fatty acids, which are typical of bacterial and eukaryotic membranes?",
+    "options": [
+      "Sterols",
+      "Peptidoglycan units",
+      "Isoprene chains",
+      "Teichoic acids"
+    ],
+    "answer": "Isoprene chains"
+  },
+  {
+    "question": "Which sugar replaces N-acetylmuramic acid (NAM) in the pseudomurein cell wall of Archaea?",
+    "options": [
+      "N-acetylglucosamine (NAG)",
+      "N-acetyl talosaminuronic acid (NAT)",
+      "Glucose",
+      "Ribose"
+    ],
+    "answer": "N-acetyl talosaminuronic acid (NAT)"
+  },
+  {
+    "question": "Based on the structural differences between bacterial peptidoglycan and archaeal pseudomurein, explain why antibiotics like penicillin and enzymes like lysozyme, which target the bacterial cell wall, are ineffective against archaea.",
+    "options": [
+      "Archaea lack a cell wall entirely, so these agents have no target.",
+      "Archaea have a thicker cell wall that physically blocks these agents.",
+      "Archaeal pseudomurein contains N-acetyl talosaminuronic acid instead of NAM, β(1,3) glycosidic bonds instead of β(1,4), and lacks D-amino acids. Penicillin specifically targets bacterial transpeptidases involved in D-amino acid cross-linking, and lysozyme cleaves β(1,4) bonds. These distinct chemical structures mean the targets are either absent or structurally different in archaea, rendering the agents ineffective.",
+      "Archaea have a unique outer membrane that prevents the entry of antibiotics and enzymes."
+    ],
+    "answer": "Archaeal pseudomurein contains N-acetyl talosaminuronic acid instead of NAM, β(1,3) glycosidic bonds instead of β(1,4), and lacks D-amino acids. Penicillin specifically targets bacterial transpeptidases involved in D-amino acid cross-linking, and lysozyme cleaves β(1,4) bonds. These distinct chemical structures mean the targets are either absent or structurally different in archaea, rendering the agents ineffective."
+  }
+]

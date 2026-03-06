@@ -1,0 +1,15 @@
+# _auto_summary
+
+- [[1.History of Microbiology_analysis.md]]
+- [[11.Viruses_Viroids_Prions_analysis.md]]
+- [[12.Identification of Microorganisms_analysis.md]]
+- [[13. SCP production.md]]
+- [[14. Ethanol production.md]]
+- [[15. Penicillin production.md]]
+- [[2-3.Bacteria_analysis.md]]
+- [[4.The Control of Microbial Growth_analysis.md]]
+- [[5.Microbial Growth_analysis.md]]
+- [[6.The Growth of Bacterial Cultures_analysis.md]]
+- [[7. Yeasts_analysis.md]]
+- [[8. Molds_analysis.md]]
+- [[9-10.Protists_analysis.md]]

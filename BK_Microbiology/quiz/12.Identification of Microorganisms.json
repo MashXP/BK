@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What are the two primary approaches to microorganism identification outlined in the learning outcomes?",
+    "options": [
+      "Morphological/Physiological & Nucleotide/Protein Sequence",
+      "Staining/Culture & Biochemical/Genetic",
+      "Phenotypic/Genotypic & Immunological/Microscopic",
+      "Biochemical/Microscopic & Virulence/Resistance"
+    ],
+    "answer": "Morphological/Physiological & Nucleotide/Protein Sequence"
+  },
+  {
+    "question": "Which publication is cited on page 4 as a key reference for bacterial identification, structured into four divisions/phyla in its 1980-1984 edition?",
+    "options": [
+      "Bergey's Manual of Determinative Bacteriology",
+      "Diagnostic Microbiology Handbook",
+      "The Prokaryotes",
+      "Manual of Clinical Microbiology"
+    ],
+    "answer": "Bergey's Manual of Determinative Bacteriology"
+  },
+  {
+    "question": "According to the 1980-1984 edition of Bergey's Manual, which volume primarily contains Gram-negative bacteria of medical and industrial importance?",
+    "options": [
+      "Volume 1",
+      "Volume 2",
+      "Volume 3",
+      "Volume 4"
+    ],
+    "answer": "Volume 1"
+  },
+  {
+    "question": "Which type of bacteria would primarily be found in Volume 2 of the 1980-1984 Bergey's Manual of Determinative Bacteriology?",
+    "options": [
+      "Gram-positive bacteria",
+      "Archaea",
+      "Actinomycetes",
+      "Gram-negative bacteria of medical importance"
+    ],
+    "answer": "Gram-positive bacteria"
+  },
+  {
+    "question": "In the phylogenetic diagram from Bergey's Manual of Systematic Bacteriology, which group is depicted as \"WALL-LESS (BACTERIA)\" and appears to originate from the Gram-positive lineage?",
+    "options": [
+      "Mycoplasmas",
+      "Halophiles",
+      "Spirochetes",
+      "Enterobacteriaceae"
+    ],
+    "answer": "Mycoplasmas"
+  },
+  {
+    "question": "The phylogenetic diagram presented on page 5 features a critical annotation regarding its representation of bacteria. What does this annotation state?",
+    "options": [
+      "It provides a clear evolutionary history of bacteria.",
+      "It does not provide a clear evolutionary history of bacteria.",
+      "It is limited to medically important bacteria.",
+      "It accurately depicts horizontal gene transfer."
+    ],
+    "answer": "It does not provide a clear evolutionary history of bacteria."
+  },
+  {
+    "question": "Which of the following groups is classified under \"THIN, GRAM-NEGATIVE CELL WALLS (BACTERIA)\" in the phylogenetic diagram on page 5?",
+    "options": [
+      "Actinomycetes",
+      "Lactobacillaceae",
+      "Methanogens",
+      "Enterobacteriaceae"
+    ],
+    "answer": "Enterobacteriaceae"
+  },
+  {
+    "question": "All of the following are classical phenotypic criteria used for bacterial classification in Bergey's Manual EXCEPT:",
+    "options": [
+      "Gram stain reaction",
+      "Cell shape",
+      "Ribosomal RNA sequence analysis",
+      "Oxygen requirement"
+    ],
+    "answer": "Ribosomal RNA sequence analysis"
+  },
+  {
+    "question": "The current editions of Bergey's Manual of Determinative Bacteriology are organized according to evolutionary relationships based on what specific molecular sequence?",
+    "options": [
+      "rpoB gene",
+      "16S rDNA sequences",
+      "Plasmid replication genes",
+      "Cell wall peptidoglycan composition"
+    ],
+    "answer": "16S rDNA sequences"
+  },
+  {
+    "question": "How many volumes comprise the current editions of Bergey's Manual of Determinative Bacteriology?",
+    "options": [
+      "Four",
+      "Five",
+      "Six",
+      "Seven"
+    ],
+    "answer": "Five"
+  },
+  {
+    "question": "In the current editions of Bergey's Manual, which volume is dedicated to the phylum Firmicutes?",
+    "options": [
+      "Volume 1",
+      "Volume 2",
+      "Volume 3",
+      "Volume 4"
+    ],
+    "answer": "Volume 3"
+  },
+  {
+    "question": "A researcher wants to classify a newly discovered archaeon. Which volume of the current Bergey's Manual would be most relevant for initial consultation?",
+    "options": [
+      "Volume 1 (2001)",
+      "Volume 3 (2009)",
+      "Volume 4 (2011)",
+      "Volume 5 (2012)"
+    ],
+    "answer": "Volume 1 (2001)"
+  },
+  {
+    "question": "The characteristic microscopic morphology of Actinomycetes on page 8 is described and visually represented as:",
+    "options": [
+      "Spherical clusters",
+      "Rods in palisade arrangement",
+      "Branching filamentous structures",
+      "Spiral-shaped cells"
+    ],
+    "answer": "Branching filamentous structures"
+  },
+  {
+    "question": "Based on the images provided, what is the typical cell shape of bacteria belonging to the genus Bacillus?",
+    "options": [
+      "Coccus",
+      "Spirillum",
+      "Vibrio",
+      "Rod"
+    ],
+    "answer": "Rod"
+  },
+  {
+    "question": "The genus Bacillus, known for its rod shape, belongs to which bacterial phylum according to the current Bergey's Manual?",
+    "options": [
+      "Proteobacteria",
+      "Actinobacteria",
+      "Firmicutes",
+      "Bacteroidetes"
+    ],
+    "answer": "Firmicutes"
+  },
+  {
+    "question": "Using the provided dichotomous key (page 10), identify a Gram-negative bacterium that is oxidase-negative and cannot utilize citrate.",
+    "options": [
+      "Klebsiella pneumoniae",
+      "Yersinia enterocolitica",
+      "Staphylococcus aureus",
+      "Bordetella bronchiseptica"
+    ],
+    "answer": "Yersinia enterocolitica"
+  },
+  {
+    "question": "According to the dichotomous key for human pathogens (page 10), which characteristic distinguishes Staphylococcus aureus from Nocardia asteroides after a Gram-positive reaction?",
+    "options": [
+      "Cell shape (cocci vs. rods)",
+      "Oxidase positivity",
+      "Urea hydrolysis",
+      "H2S production"
+    ],
+    "answer": "Cell shape (cocci vs. rods)"
+  },
+  {
+    "question": "A Gram-positive rod is isolated. If it is acid-fast, what is the most likely identification according to the key on page 10?",
+    "options": [
+      "Erysipelothrix rhusiopathiae",
+      "Nocardia asteroides",
+      "Arcanobacterium phocae",
+      "Staphylococcus aureus"
+    ],
+    "answer": "Nocardia asteroides"
+  },
+  {
+    "question": "A Gram-negative rod is isolated. It is oxidase-positive, produces H2S, and hydrolyzes urea. What is the bacterium according to the key on page 10?",
+    "options": [
+      "Brucella cell",
+      "Bordetella bronchiseptica",
+      "Aeromonas hydrophila",
+      "Mannheimia haemolytica"
+    ],
+    "answer": "Bordetella bronchiseptica"
+  },
+  {
+    "question": "Which of the following is a key characteristic of all members of the family Enterobacteriaceae as stated in the introduction on page 11?",
+    "options": [
+      "They ferment lactose",
+      "They produce oxidase",
+      "They are Gram-positive",
+      "They do not contain oxidase"
+    ],
+    "answer": "They do not contain oxidase"
+  },
+  {
+    "question": "According to the flowchart on page 11, which metabolic characteristic distinguishes Escherichia, Enterobacter, and Citrobacter from Salmonella and Shigella?",
+    "options": [
+      "Citrate utilization",
+      "Sorbitol fermentation",
+      "Lactose fermentation",
+      "Acetoin production"
+    ],
+    "answer": "Lactose fermentation"
+  },
+  {
+    "question": "Assume you have a Gram-negative bacterium that ferments lactose, cannot use citric acid as its sole carbon source, and does not ferment sorbitol. What is the bacterium according to the flowchart on page 11?",
+    "options": [
+      "E. coli O157",
+      "other Escherichia coli strains",
+      "Citrobacter",
+      "Shigella"
+    ],
+    "answer": "E. coli O157"
+  },
+  {
+    "question": "Based on the Enterobacteriaceae flowchart (page 11), if a bacterium ferments lactose and utilizes citric acid as its sole carbon source, which two genera could it be?",
+    "options": [
+      "Escherichia and Shigella",
+      "Citrobacter and Enterobacter",
+      "Salmonella and Citrobacter",
+      "Enterobacter and Escherichia"
+    ],
+    "answer": "Citrobacter and Enterobacter"
+  },
+  {
+    "question": "What is the name of the rapid identification system illustrated on page 12 for identifying enteric bacteria?",
+    "options": [
+      "API 20E",
+      "Vitek 2",
+      "MicroScan",
+      "EnteroPluri test"
+    ],
+    "answer": "EnteroPluri test"
+  },
+  {
+    "question": "In the EnteroPluri test, how is the final code number for identification generated?",
+    "options": [
+      "By observing the color changes and referring to a printed color chart",
+      "By measuring the turbidity in each compartment after incubation",
+      "By summing assigned values for each positive test within predefined groups",
+      "By analyzing specific enzyme activities using a fluorometer"
+    ],
+    "answer": "By summing assigned values for each positive test within predefined groups"
+  },
+  {
+    "question": "The EnteroPluri test results for Citrobacter freundii show code 32362, but the table also lists 62343 for 'Atypical Test Results: None'. Why can one species have two different code numbers?",
+    "options": [
+      "The organism can mutate during the test",
+      "The incubation temperature varies",
+      "Different strains of the same species can exhibit variations in biochemical reactions",
+      "The test is designed for multiple species simultaneously"
+    ],
+    "answer": "Different strains of the same species can exhibit variations in biochemical reactions"
+  },
+  {
+    "question": "A bacterial strain tested with the EnteroPluri system yields positive results for Glucose, Gas, H₂S, Adonitol, Lactose, V-P, Dulcitol, and Urease. Using the values provided for C. freundii (1,2,4 scheme) on page 12, what would be the resulting 5-digit code number?",
+    "options": [
+      "32362",
+      "62343",
+      "72772",
+      "36342"
+    ],
+    "answer": "32362"
+  },
+  {
+    "question": "Which of the following is listed as a characteristic under \"Chemical composition of cell wall\" in related scientific reports on page 13?",
+    "options": [
+      "Colony shape",
+      "Spore color",
+      "Peptidoglycan",
+      "Vegetative cell shape"
+    ],
+    "answer": "Peptidoglycan"
+  },
+  {
+    "question": "When analyzing the chemical composition of a bacterial cell wall, which of these amino acid derivatives is explicitly mentioned as a key component on page 13?",
+    "options": [
+      "Proline",
+      "Tryptophan",
+      "Diaminopimelic acid",
+      "Valine"
+    ],
+    "answer": "Diaminopimelic acid"
+  },
+  {
+    "question": "The chemical structure labeled \"Lysine\" on page 14 is an example of what type of biological molecule?",
+    "options": [
+      "Carbohydrate",
+      "Lipid",
+      "Amino acid",
+      "Nucleic acid"
+    ],
+    "answer": "Amino acid"
+  },
+  {
+    "question": "The structures of meso-DAP and L-DAP on page 15 illustrate which type of isomerism relevant to microbial cell wall components?",
+    "options": [
+      "Positional isomerism",
+      "Geometric isomerism",
+      "Stereoisomerism",
+      "Structural isomerism"
+    ],
+    "answer": "Stereoisomerism"
+  },
+  {
+    "question": "Which of these gene sequences is not specifically listed on page 17 for microorganism identification?",
+    "options": [
+      "16S rDNA",
+      "23S rDNA",
+      "5S rDNA",
+      "18S rDNA"
+    ],
+    "answer": "5S rDNA"
+  },
+  {
+    "question": "What is the initial step after primer design in the method for identifying microorganisms based on specific gene sequences, as outlined on page 17?",
+    "options": [
+      "Phylogenetic tree construction",
+      "PCR fragment sequencing",
+      "Multiple sequence alignment",
+      "PCR"
+    ],
+    "answer": "PCR"
+  },
+  {
+    "question": "After sequencing PCR fragments, the next logical step in sequence-based identification is to:",
+    "options": [
+      "Analyze protein folding patterns",
+      "Perform Gram staining",
+      "Search for sequence similarity in databases",
+      "Conduct metabolic assays"
+    ],
+    "answer": "Search for sequence similarity in databases"
+  },
+  {
+    "question": "What is the first step in constructing a phylogenetic tree from sequence data, according to page 17?",
+    "options": [
+      "Choosing evolutionary models",
+      "Determining reliability",
+      "Multiple sequence alignment",
+      "Performing a BLAST search"
+    ],
+    "answer": "Multiple sequence alignment"
+  },
+  {
+    "question": "Why is 16S rDNA a commonly used gene for bacterial identification and phylogenetic studies?",
+    "options": [
+      "It is a highly variable gene, allowing discrimination even between closely related species.",
+      "It is only present in pathogenic bacteria, simplifying identification.",
+      "It is present in all bacteria, contains highly conserved regions for primers, and variable regions for discrimination.",
+      "It encodes for a protein essential for bacterial virulence."
+    ],
+    "answer": "It is present in all bacteria, contains highly conserved regions for primers, and variable regions for discrimination."
+  },
+  {
+    "question": "What does the acronym BLAST stand for?",
+    "options": [
+      "Bacterial Localization And Sequencing Tool",
+      "Basic Local Alignment Search Tool",
+      "Biological Linkage Analysis System Tool",
+      "Bioinformatics Logic And Sequence Translation"
+    ],
+    "answer": "Basic Local Alignment Search Tool"
+  },
+  {
+    "question": "Which specific BLAST program, as mentioned on page 18, is designed to search nucleotide databases using a nucleotide query sequence?",
+    "options": [
+      "blastp",
+      "blastx",
+      "tblastn",
+      "blastn"
+    ],
+    "answer": "blastn"
+  },
+  {
+    "question": "When performing a BLAST search, what type of input is accepted for the \"Query Sequence\" field, as shown on page 18?",
+    "options": [
+      "Only FASTA sequences",
+      "Accession numbers, gi numbers, or FASTA sequences",
+      "Protein sequences only",
+      "Only GenBank flat files"
+    ],
+    "answer": "Accession numbers, gi numbers, or FASTA sequences"
+  },
+  {
+    "question": "In the BLAST \"Program Selection\" section (page 19), which option is optimized for identifying \"Highly similar sequences\"?",
+    "options": [
+      "discontiguous megablast",
+      "blastn",
+      "megablast",
+      "tblastx"
+    ],
+    "answer": "megablast"
+  },
+  {
+    "question": "A researcher wants to find very distantly related sequences in a database using BLAST. Which optimization setting, shown on page 19, would be most appropriate?",
+    "options": [
+      "Highly similar sequences (megablast)",
+      "More dissimilar sequences (discontiguous megablast)",
+      "Somewhat similar sequences (blastn)",
+      "Conserved domain search"
+    ],
+    "answer": "More dissimilar sequences (discontiguous megablast)"
+  },
+  {
+    "question": "In the \"Graphic Summary\" of BLAST results (page 20), what does a red bar representing a hit indicate about its alignment score?",
+    "options": [
+      "The score is less than 40",
+      "The score is between 50-80",
+      "The score is 80-200",
+      "The score is >=200"
+    ],
+    "answer": "The score is >=200"
+  },
+  {
+    "question": "The BLAST graphic summary (page 20) displays the \"Distribution of 111 Blast Hits on the Query Sequence.\" What is the primary purpose of this graphic?",
+    "options": [
+      "To show the phylogenetic relationship of hits",
+      "To visualize the coverage and quality of alignments of database sequences against the query",
+      "To list all the organisms found in the database",
+      "To provide detailed sequence alignments"
+    ],
+    "answer": "To visualize the coverage and quality of alignments of database sequences against the query"
+  },
+  {
+    "question": "If a BLAST hit appeared as a dark blue bar in the graphic summary (page 20), what would be its alignment score range?",
+    "options": [
+      "<40",
+      "40-50",
+      "50-80",
+      "80-200"
+    ],
+    "answer": "40-50"
+  },
+  {
+    "question": "In the BLAST \"Descriptions\" table (page 21), what does the \"E value\" column represent?",
+    "options": [
+      "The exact number of matching bases",
+      "The probability of finding a match by chance",
+      "The total length of the query sequence",
+      "The percentage of query sequence covered"
+    ],
+    "answer": "The probability of finding a match by chance"
+  },
+  {
+    "question": "Which column in the BLAST \"Descriptions\" table (page 21) typically provides the full name of the matching organism and the gene sequence identified?",
+    "options": [
+      "Max score",
+      "Query cover",
+      "Description",
+      "Accession"
+    ],
+    "answer": "Description"
+  },
+  {
+    "question": "A BLAST result (page 21) shows a 100% Query cover and an E value of 0.0. What does this strongly suggest about the match?",
+    "options": [
+      "The match is likely coincidental",
+      "The query sequence is highly divergent from the subject",
+      "There is a highly significant and near-perfect match",
+      "The subject sequence is truncated"
+    ],
+    "answer": "There is a highly significant and near-perfect match"
+  },
+  {
+    "question": "In the detailed BLAST \"Alignments\" section (page 22), what does \"Identities: 471/471(100%)\" specifically indicate?",
+    "options": [
+      "The query sequence has 471 gaps",
+      "The subject sequence is 471 bases long",
+      "There are 471 identical bases out of 471 aligned positions",
+      "The alignment score is 471"
+    ],
+    "answer": "There are 471 identical bases out of 471 aligned positions"
+  },
+  {
+    "question": "What does a vertical bar (\"|\") in the middle line of a BLAST sequence alignment (page 22) denote?",
+    "options": [
+      "A gap in the alignment",
+      "A mismatch between query and subject",
+      "An identical base between query and subject",
+      "A conservative substitution"
+    ],
+    "answer": "An identical base between query and subject"
+  },
+  {
+    "question": "If a BLAST alignment (page 22) displays \"Gaps: 10/500(2%)\", what does this mean for the alignment?",
+    "options": [
+      "The query sequence has 10 unaligned bases",
+      "There are 10 insertions or deletions across 500 aligned positions",
+      "The subject sequence is 10 bases shorter",
+      "The alignment is 98% identical"
+    ],
+    "answer": "There are 10 insertions or deletions across 500 aligned positions"
+  }
+]

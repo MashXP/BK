@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the biochemical definition of fermentation?",
+    "options": [
+      "The use of technology to produce food",
+      "The breakdown of molecules like glucose anaerobically to generate energy",
+      "The growth of microorganisms in a large steel vessel",
+      "The purification of proteins from animal cells"
+    ],
+    "answer": "The breakdown of molecules like glucose anaerobically to generate energy",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How is 'Fermentation Technology' defined in the text?",
+    "options": [
+      "The study of yeast cultures only",
+      "The application of fermentation for the production of useful compounds",
+      "The process of cleaning industrial effluents",
+      "The chemical breakdown of substances using oxygen"
+    ],
+    "answer": "The application of fermentation for the production of useful compounds",
+    "shuffleOptions": true
+  },
+  {
+    "question": "According to the text, how many major groups of commercially important fermentations are there?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": "4",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does the acronym SCP stand for in the context of microbial biomass?",
+    "options": [
+      "Single-Cell Protein",
+      "Synthetic-Cell Production",
+      "Systematic Chemical Process",
+      "Simple Carbon Protein"
+    ],
+    "answer": "Single-Cell Protein",
+    "shuffleOptions": true
+  },
+  {
+    "question": "During which growth phase are primary metabolites produced?",
+    "options": [
+      "Lag phase",
+      "Log phase",
+      "Stationary phase",
+      "Death phase"
+    ],
+    "answer": "Log phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which phase of microbial growth is associated with the production of secondary metabolites?",
+    "options": [
+      "Lag phase",
+      "Exponential phase",
+      "Stationary phase",
+      "Deceleration phase"
+    ],
+    "answer": "Stationary phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is considered a primary metabolite?",
+    "options": [
+      "Penicillin",
+      "Toxins",
+      "Ethanol",
+      "Pigments"
+    ],
+    "answer": "Ethanol",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is an example of a secondary metabolite?",
+    "options": [
+      "Amino acids",
+      "Antibiotics",
+      "Vitamins",
+      "Nucleotides"
+    ],
+    "answer": "Antibiotics",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which type of culture system is described as a 'closed' system with limited initial nutrients?",
+    "options": [
+      "Continuous culture",
+      "Fed-batch culture",
+      "Batch culture",
+      "Open system culture"
+    ],
+    "answer": "Batch culture",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary function of secondary metabolites?",
+    "options": [
+      "Essential for growth and development",
+      "Required for reproduction",
+      "Ecological functions like defense",
+      "Breakdown of glucose for energy"
+    ],
+    "answer": "Ecological functions like defense",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is an advantage of Single-Cell Protein (SCP) over traditional grains?",
+    "options": [
+      "It is easier to harvest and purify",
+      "It contains all essential amino acids in full",
+      "Microorganisms grow much faster than protein-rich grains",
+      "It requires seasonal harvesting"
+    ],
+    "answer": "Microorganisms grow much faster than protein-rich grains",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which is a major disadvantage of Single-Cell Protein (SCP)?",
+    "options": [
+      "Low protein content",
+      "Slow growth rate",
+      "Difficulty in harvesting and purification",
+      "High cost of raw materials"
+    ],
+    "answer": "Difficulty in harvesting and purification",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which property is NOT listed as a requirement for SCP microorganisms?",
+    "options": [
+      "High protein content",
+      "Absence of pathogenicity",
+      "Requirement for expensive mineral sources",
+      "Good digestibility"
+    ],
+    "answer": "Requirement for expensive mineral sources",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is it easier to produce enzymes from microbes than from plants or animals?",
+    "options": [
+      "Microbes have fewer genes",
+      "Microbial productivity is infinitely easier to improve",
+      "Microbes do not require any nutrients",
+      "Plant enzymes are always toxic"
+    ],
+    "answer": "Microbial productivity is infinitely easier to improve",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In recombinant technology, which organism is used to produce human Insulin?",
+    "options": [
+      "E. coli",
+      "Aspergillus niger",
+      "Yeast",
+      "Kluyveromyces lactis"
+    ],
+    "answer": "Yeast",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which recombinant product is produced using the host organism S. cerevisiae?",
+    "options": [
+      "Human Growth Hormone (hGH)",
+      "Hepatitis B vaccine",
+      "Chymosin",
+      "Interferon"
+    ],
+    "answer": "Hepatitis B vaccine",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the origin of the enzyme Chymosin used in fermentation?",
+    "options": [
+      "Human",
+      "Hepatitis virus",
+      "Calf",
+      "Humicola lanuginosa"
+    ],
+    "answer": "Calf",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is an advantage of Fed-batch culture?",
+    "options": [
+      "It is the simplest process to conduct",
+      "It requires the lowest technical skills",
+      "Broth viscosity and toxin concentrations can be reduced",
+      "It has the highest downtime for cleaning"
+    ],
+    "answer": "Broth viscosity and toxin concentrations can be reduced",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a major limitation of Batch culture?",
+    "options": [
+      "Increased risk of cell mutation",
+      "Low productivity due to high downtime",
+      "Requires constant addition of nutrients",
+      "High capital investment"
+    ],
+    "answer": "Low productivity due to high downtime",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Continuous culture is characterized by:",
+    "options": [
+      "A closed system with no nutrient addition",
+      "A steady-state where nutrients are added and culture is removed simultaneously",
+      "The use of wooden barrels and off-line control",
+      "Increasing volume throughout the process"
+    ],
+    "answer": "A steady-state where nutrients are added and culture is removed simultaneously",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which strategy involves modifying pathways using genomics or proteomics to increase production?",
+    "options": [
+      "Process Optimization",
+      "Metabolic Engineering",
+      "Downstream Processing",
+      "Inoculum Development"
+    ],
+    "answer": "Metabolic Engineering",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of these is a component of a fermentation process dealing with the handling of waste?",
+    "options": [
+      "Media Formulation",
+      "Extraction",
+      "Disposal",
+      "Sterilization"
+    ],
+    "answer": "Disposal",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What criteria can be used to classify fermentation methods?",
+    "options": [
+      "Type of medium (Liquid vs Solid State)",
+      "Oxygen requirements (Aerobic vs Anaerobic)",
+      "Process type (Batch vs Fed-batch vs Continuous)",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which recombinant product is derived from Humicola lanuginosa?",
+    "options": [
+      "Lipase",
+      "Insulin",
+      "Superoxide dismutase",
+      "tPA"
+    ],
+    "answer": "Lipase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the main advantage of Continuous Culture regarding productivity?",
+    "options": [
+      "It allows for the easiest maintenance of sterility",
+      "It reduces downtime significantly compared to batch processes",
+      "It does not require sophisticated equipment",
+      "It prevents any genetic changes in the organism"
+    ],
+    "answer": "It reduces downtime significantly compared to batch processes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following products were primarily produced in the Pre-1900 era?",
+    "options": [
+      "Antibiotics and Enzymes",
+      "Beer, Wine, and Vinegar",
+      "Single-Cell Protein",
+      "Heterologous proteins"
+    ],
+    "answer": "Beer, Wine, and Vinegar",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What technology was introduced during the 1900-1940 era?",
+    "options": [
+      "Computerized control loops",
+      "Steel vessels with air spargers and mechanical stirring",
+      "Animal cell reactors",
+      "Synthetic Biology"
+    ],
+    "answer": "Steel vessels with air spargers and mechanical stirring",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The era from 1940 to the present is specifically noted for the production of:",
+    "options": [
+      "Acetone and Butanol",
+      "Glycerol",
+      "Penicillin and Amino acids",
+      "Soy sauce"
+    ],
+    "answer": "Penicillin and Amino acids",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In what year were pure yeast cultures introduced into fermentation?",
+    "options": [
+      "1886",
+      "1900",
+      "1940",
+      "1964"
+    ],
+    "answer": "1886",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Pressure cycle' or 'jet vessels' technology is associated with which era?",
+    "options": [
+      "Pre-1900",
+      "1940-Date",
+      "1964-Date",
+      "1982-Date"
+    ],
+    "answer": "1964-Date",
+    "shuffleOptions": true
+  },
+  {
+    "question": "When did the era of Animal Cell Reactors and Monoclonal antibodies begin?",
+    "options": [
+      "1940",
+      "1964",
+      "1982",
+      "2000"
+    ],
+    "answer": "1982",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which organism is used to produce tissue Plasminogen Activator (tPA)?",
+    "options": [
+      "Yeast",
+      "E. coli",
+      "Aspergillus niger",
+      "Kluyveromyces lactis"
+    ],
+    "answer": "E. coli",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What characterized the technology of the Pre-1900 era?",
+    "options": [
+      "Computerized control loops",
+      "Wooden barrels and thermometers",
+      "Sterilizable electrodes",
+      "Genetic engineering"
+    ],
+    "answer": "Wooden barrels and thermometers",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary difference between SmF and SSF classification?",
+    "options": [
+      "The type of oxygen control",
+      "The type of medium (Liquid vs Solid)",
+      "The temperature of the process",
+      "The phase of metabolite production"
+    ],
+    "answer": "The type of medium (Liquid vs Solid)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which era focuses on Synthetic Biology and the improvement of established fermentations?",
+    "options": [
+      "1964-Date",
+      "1982-Date",
+      "2000-Date",
+      "1940-Date"
+    ],
+    "answer": "2000-Date",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of these is a primary reason for using Fed-batch culture instead of Batch culture?",
+    "options": [
+      "To avoid the use of sophisticated equipment",
+      "To achieve long-term synthesis and increased yield",
+      "To simplify the process for unskilled labor",
+      "To prevent the addition of nutrients after the start"
+    ],
+    "answer": "To achieve long-term synthesis and increased yield",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a limitation shared by both Continuous and Fed-batch cultures as per the text?",
+    "options": [
+      "Both are closed systems",
+      "Both require sophisticated equipment for flow control",
+      "Both have high downtime",
+      "Both are used only for SCP"
+    ],
+    "answer": "Both require sophisticated equipment for flow control",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Sterilizable electrodes for pH and oxygen control were key features introduced in which era?",
+    "options": [
+      "1900-1940",
+      "1940-Date",
+      "1982-Date",
+      "2000-Date"
+    ],
+    "answer": "1940-Date",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the context of SCP, what does the text mean by 'Incomplete Nutrition'?",
+    "options": [
+      "It lacks carbohydrates",
+      "It is not a suitable source for all essential amino acids",
+      "It has no protein content",
+      "It cannot be digested by any animal"
+    ],
+    "answer": "It is not a suitable source for all essential amino acids",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which host organism is used for producing IFN \u03b1-2a (Interferon)?",
+    "options": [
+      "S. cerevisiae",
+      "Kluyveromyces lactis",
+      "E. coli",
+      "Aspergillus niger"
+    ],
+    "answer": "E. coli",
+    "shuffleOptions": true
+  }
+]

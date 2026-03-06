@@ -1,0 +1,527 @@
+\section{Introduction to Conduction Heat Transfer}
+
+\subsection{What is Conduction Heat Transfer?}
+Conduction is the transfer of thermal energy from more energetic particles to less energetic particles of a substance due to direct interaction. It occurs through molecular collisions and electron motion.
+
+\subsection{Conduction Mechanism}
+\begin{itemize}
+    \item \textbf{In Solids:} Energy transfer primarily occurs through two mechanisms:
+        \begin{enumerate}
+            \item \textbf{Lattice Vibrations:} The vibration of atoms or molecules in an orderly crystalline structure or amorphous arrangement, transferring energy to adjacent atoms.
+            \item \textbf{Free Electrons:} In electrically conductive materials (e.g., metals), a large number of free electrons move randomly, carrying and transferring energy quickly. This is why metals are excellent thermal conductors.
+        \end{enumerate}
+    \item \textbf{In Liquids and Gases:} Energy transfer occurs through the random motion and collisions of molecules. Since molecules are farther apart and their motion is less constrained compared to solids, conduction in fluids is generally less efficient.
+\end{itemize}
+Conduction can occur in all states of matter: solids, liquids, and gases.
+
+\section{Material Properties Influencing Conduction}
+
+\subsection{Thermal Conductivity ($\kth$)}
+\begin{itemize}
+    \item \textbf{Definition:} Thermal conductivity is a fundamental material property that quantifies its ability to conduct heat. It represents the rate of heat transfer through a unit thickness of the material per unit area per unit temperature difference.
+    \item \textbf{Significance:}
+        \begin{itemize}
+            \item Materials with \textbf{high thermal conductivity} are effective \textbf{conductors} (e.g., metals like diamond, silver, copper, aluminum). They allow heat to flow through them easily.
+            \item Materials with \textbf{low thermal conductivity} are effective \textbf{insulators} (e.g., air, urethane, rigid foam, glass fiber). They resist heat flow.
+        \end{itemize}
+    \item \textbf{Factors Affecting $\kth$:}
+        \begin{itemize}
+            \item \textbf{Temperature (Varying Thermal Conductivity):} Thermal conductivity often varies with temperature, sometimes significantly. For example, for some materials, it can be expressed as a linear function, $\kth(\T) = \kth_0 (1 + \beta \T)$, where $\kth_0$ is the thermal conductivity at a reference temperature and $\beta$ is the temperature coefficient of thermal conductivity. For problems involving large temperature differences, an average thermal conductivity, $\kth_{\text{avg}}$, can be used, often calculated as the arithmetic mean $\kth_{\text{avg}} = (\kth_1 + \kth_2)/2$ or integrated average $\kth_{\text{avg}} = \frac{1}{\T_2-\T_1} \int_{\T_1}^{\T_2} \kth(\T) d\T$.
+            \item \textbf{Phase:} The thermal conductivity of a substance typically changes drastically with its phase (e.g., solid $>$ liquid $>$ gas for most substances).
+            \item \textbf{Purity and Structure:} Impurities and crystalline structure can influence $\kth$.
+        \end{itemize}
+\end{itemize}
+
+\subsection{Thermal Diffusivity ($\alphaD$)}
+\begin{itemize}
+    \item \textbf{Definition:} Thermal diffusivity is a measure of how quickly thermal disturbances propagate through a material. It is defined as the ratio of heat conducted to heat stored.
+    \item \textbf{Formula Relationship:} $\alphaD = \kth / (\rhoD \Cp)$, where $\rhoD$ is density and $\Cp$ is specific heat capacity.
+    \item \textbf{Physical Meaning:} A high thermal diffusivity indicates that a material can transmit heat quickly relative to its ability to store thermal energy. This property is particularly important in transient (time-dependent) heat conduction problems.
+\end{itemize}
+
+\section{Thermodynamic Laws Relevant to Heat Transfer}
+
+The fundamental principles governing energy transfer are rooted in thermodynamics:
+\begin{itemize}
+    \item \textbf{Zeroth Law:} Defines thermal equilibrium and forms the basis for temperature measurement. It states that if two systems are each in thermal equilibrium with a third system, then they are in thermal equilibrium with each other.
+    \item \textbf{First Law (Conservation of Energy):} States that energy can change forms (e.g., heat, work, internal energy) but cannot be created or destroyed. The total energy of an isolated system remains constant. This law forms the basis for energy balance equations in heat transfer. The driving force for heat transfer is temperature difference.
+    \item \textbf{Second Law:} Dictates the direction of spontaneous processes. It states that the entropy of an isolated system always increases over time. For heat transfer, this implies that heat always flows naturally from a region of higher temperature to a region of lower temperature.
+    \item \textbf{Third Law:} Concerns the behavior of entropy as temperature approaches absolute zero. It states that the entropy of a system approaches a constant minimum value as its temperature approaches absolute zero.
+\end{itemize}
+
+\section{Heat Transfer Regimes: Steady vs. Transient State}
+
+Understanding how temperature changes with time is crucial for classifying heat transfer problems:
+\begin{itemize}
+    \item \textbf{Steady-State Condition:}
+        \begin{itemize}
+            \item Temperatures at all points within the system remain constant over time ($\partial \T / \partial \tVar = 0$).
+            \item The rate of heat entering a control volume equals the rate of heat leaving it, implying no net change in stored energy within the volume.
+            \item This represents a stable, equilibrium condition.
+        \end{itemize}
+    \item \textbf{Transient (Non-Steady) Condition:}
+        \begin{itemize}
+            \item Temperatures within the system vary with time ($\partial \T / \partial \tVar \neq 0$).
+            \item There is an accumulation or depletion of energy within the system as heat input and output rates are not balanced.
+            \item This is typical during heating up or cooling down processes, or when external conditions change.
+        \end{itemize}
+\end{itemize}
+
+\section{General Heat Conduction Equation}
+
+\subsection{Derivation Concept (Energy Balance)}
+The general heat conduction equation is derived by applying the principle of energy conservation (First Law of Thermodynamics) to a small, differential control volume within the conducting medium. This involves considering:
+\begin{itemize}
+    \item The net rate of heat conduction into and out of the volume element ($\Qdot_x, \Qdot_{x+\Delta x}$, etc.).
+    \item The rate of heat generated within the volume element ($\Qdot_{\text{generated}} = \gdot V_{\text{element}}$).
+    \item The rate of change of thermal energy stored within the volume element ($\frac{d E_{\text{storage}}}{d \tVar} = \rhoD V_{\text{element}} \Cp \frac{\partial \T}{\partial \tVar}$).
+\end{itemize}
+The general energy balance for a differential control volume is:
+\begin{equation}
+\label{eq:general_energy_balance_differential_theory}
+    \Qdot_{\text{in}} + \Qdot_{\text{generated}} = \Qdot_{\text{out}} + \frac{d E_{\text{storage}}}{d \tVar}
+\end{equation}
+By expressing the conduction terms using Fourier's Law ($\Qdot_x = -\kth A \frac{\partial \T}{\partial x}$) and taking limits as the volume element approaches zero, a partial differential equation describing the temperature distribution is obtained.
+
+\subsection{General Heat Conduction Equation Forms}
+\subsubsection*{General Heat Conduction Equation (with variable $\kth$ and $\gdot$)}
+\paragraph*{Cartesian Coordinates ($\x, \y, \z$)}
+\begin{equation}
+\label{eq:hce_cartesian_variable_k_theory}
+    \frac{\partial}{\partial \x}\left(\kth \frac{\partial \T}{\partial \x}\right) + \frac{\partial}{\partial \y}\left(\kth \frac{\partial \T}{\partial \y}\right) + \frac{\partial}{\partial \z}\left(\kth \frac{\partial \T}{\partial \z}\right) + \gdot = \rhoD \Cp \frac{\partial \T}{\partial \tVar}
+\end{equation}
+
+\paragraph*{Cylindrical Coordinates ($\rcoord, \phiC, \z$)}
+\begin{equation}
+\label{eq:hce_cylindrical_variable_k_theory}
+    \frac{1}{\rcoord} \frac{\partial}{\partial \rcoord}\left(\kth \rcoord \frac{\partial \T}{\partial \rcoord}\right) + \frac{1}{\rcoord^2} \frac{\partial}{\partial \phiC}\left(\kth \frac{\partial \T}{\partial \phiC}\right) + \frac{\partial}{\partial \z}\left(\kth \frac{\partial \T}{\partial \z}\right) + \gdot = \rhoD \Cp \frac{\partial \T}{\partial \tVar}
+\end{equation}
+
+\paragraph*{Spherical Coordinates ($\rcoord, \thetaS, \phiC$)}
+\begin{equation}
+\label{eq:hce_spherical_variable_k_theory}
+    \frac{1}{\rcoord^2} \frac{\partial}{\partial \rcoord}\left(\kth \rcoord^2 \frac{\partial \T}{\partial \rcoord}\right) + \frac{1}{\rcoord^2 \sin^2 \thetaS} \frac{\partial}{\partial \phiC}\left(\kth \frac{\partial \T}{\partial \phiC}\right) + \frac{1}{\rcoord^2 \sin \thetaS} \frac{\partial}{\partial \thetaS}\left(\kth \sin \thetaS \frac{\partial \T}{\partial \thetaS}\right) + \gdot = \rhoD \Cp \frac{\partial \T}{\partial \tVar}
+\end{equation}
+
+\subsubsection*{Heat Conduction Equation (with constant $\kth$)}
+By dividing by $\kth$ and using the definition $\alphaD = \kth/(\rhoD \Cp)$:
+
+\paragraph*{Cartesian Coordinates ($\x, \y, \z$)}
+\begin{equation}
+\label{eq:hce_cartesian_constant_k_theory}
+    \frac{\partial^2 \T}{\partial \x^2} + \frac{\partial^2 \T}{\partial \y^2} + \frac{\partial^2 \T}{\partial \z^2} + \frac{\gdot}{\kth} = \frac{1}{\alphaD} \frac{\partial \T}{\partial \tVar}
+\end{equation}
+
+\paragraph*{Cylindrical Coordinates ($\rcoord, \phiC, \z$)}
+\begin{equation}
+\label{eq:hce_cylindrical_constant_k_theory}
+    \frac{1}{\rcoord} \frac{\partial}{\partial \rcoord}\left(\rcoord \frac{\partial \T}{\partial \rcoord}\right) + \frac{1}{\rcoord^2} \frac{\partial^2 \T}{\partial \phiC^2} + \frac{\partial^2 \T}{\partial \z^2} + \frac{\gdot}{\kth} = \frac{1}{\alphaD} \frac{\partial \T}{\partial \tVar}
+\end{equation}
+
+\paragraph*{Spherical Coordinates ($\rcoord, \thetaS, \phiC$)}
+\begin{equation}
+\label{eq:hce_spherical_constant_k_theory}
+    \frac{1}{\rcoord^2} \frac{\partial}{\partial \rcoord}\left(\rcoord^2 \frac{\partial \T}{\partial \rcoord}\right) + \frac{1}{\rcoord^2 \sin^2 \thetaS} \frac{\partial^2 \T}{\partial \phiC^2} + \frac{1}{\rcoord^2 \sin \thetaS} \frac{\partial}{\partial \thetaS}\left(\sin \thetaS \frac{\partial \T}{\partial \thetaS}\right) + \frac{\gdot}{\kth} = \frac{1}{\alphaD} \frac{\partial \T}{\partial \tVar}
+\end{equation}
+
+\subsection{Simplified Cases for Constant $\kth$ in 1D Cartesian}
+\begin{itemize}
+    \item \textbf{General 1D:} $\frac{\partial^2 \T}{\partial \x^2} + \frac{\gdot}{\kth} = \frac{1}{\alphaD} \frac{\partial \T}{\partial \tVar}$
+    \item \textbf{Steady-state, no heat generation ($\partial \T / \partial \tVar = 0, \gdot = 0$):} $\frac{d^2 \T}{d \x^2} = 0$ \quad (Called the \textbf{Laplace Equation})
+    \item \textbf{Steady-state with heat generation ($\partial \T / \partial \tVar = 0$):} $\frac{d^2 \T}{d \x^2} + \frac{\gdot}{\kth} = 0$ \quad (Called the \textbf{Poisson Equation})
+    \item \textbf{Transient, no heat generation ($\gdot = 0$):} $\frac{\partial^2 \T}{\partial \x^2} = \frac{1}{\alphaD} \frac{\partial \T}{\partial \tVar}$ \quad (Called the \textbf{Diffusion Equation})
+\end{itemize}
+
+\section{Heat Generation in Solids}
+Heat generation occurs within the solid medium itself, often due to electrical resistance, nuclear reactions, or chemical reactions. The rate of heat generation can be uniform or variable throughout the solid.
+
+\subsection{Temperature Distribution with Heat Generation}
+When heat is generated uniformly within a solid, the temperature distribution is affected.
+\begin{itemize}
+    \item \textbf{Plane Wall with Uniform Heat Generation:} The temperature profile will be parabolic.
+    \item \textbf{Cylinder with Uniform Heat Generation:} For a long cylinder, heat is transferred radially outwards.
+    \item \textbf{Sphere with Uniform Heat Generation:} Heat is transferred radially outwards from the center.
+\end{itemize}
+The maximum temperature within a solid with uniform heat generation typically occurs at the center if the surfaces are maintained at a constant temperature.
+
+\section{Thermal Resistance Network}
+The concept of thermal resistance is analogous to electrical resistance and is very useful for analyzing steady-state heat transfer through composite walls or systems involving multiple heat transfer modes in series or parallel.
+
+\subsection{Basic Thermal Resistances}
+\begin{itemize}
+    \item \textbf{Conduction Resistance (Plane Wall):} $\Rth_{\text{cond}} = L/(\kth \A)$
+    \item \textbf{Convection Resistance:} $\Rth_{\text{conv}} = 1/(\hC \A)$
+    \item \textbf{Radiation Resistance:} $\Rth_{\text{rad}} = 1/(\hC_{\text{rad}} \A)$, where $\hC_{\text{rad}}$ is a linearized radiation heat transfer coefficient.
+\end{itemize}
+
+\subsection{Series and Parallel Networks}
+\begin{itemize}
+    \item \textbf{Resistances in Series:} For multiple layers or combined modes in series, the total resistance is the sum of individual resistances: $\Rth_{\text{total}} = \sum \Rth_i$.
+    \item \textbf{Resistances in Parallel:} For heat transfer paths in parallel, the reciprocal of the total resistance is the sum of the reciprocals of individual resistances: $1/\Rth_{\text{total}} = \sum (1/\Rth_i)$.
+\end{itemize}
+
+\subsection{Overall Heat Transfer Coefficient ($\Uoverall$)}
+For combined heat transfer through composite walls (e.g., conduction, convection, and radiation), an overall heat transfer coefficient, $\Uoverall$, is often used to simplify calculations. It relates the total heat transfer rate to the overall temperature difference and the total area.
+\begin{equation*}
+    \Qdot = \Uoverall \A \Delta \T_{\text{overall}}
+\end{equation*}
+The overall heat transfer coefficient is related to the total thermal resistance: $\Uoverall \A = 1/\Rth_{\text{total}}$.
+
+\section{Boundary and Initial Conditions}
+To solve the heat conduction equation, which is a partial differential equation, specific conditions are required for the temperature or its derivatives at the boundaries of the system and, for transient problems, at an initial time.
+
+\subsection{Common Types of Boundary Conditions (BCs)}
+\begin{enumerate}
+    \item \textbf{Constant Temperature Boundary Condition (Dirichlet BC):}
+        \begin{itemize}
+            \item The temperature at a specified boundary surface is known and remains constant.
+            \item Mathematical Form: $\T(x_0, \tVar) = \T_{\text{fixed}}$
+            \item Example: A wall surface maintained at a fixed temperature by contact with a well-regulated fluid or a phase-change material.
+        \end{itemize}
+
+    \item \textbf{Constant Heat Flux Boundary Condition (Neumann BC):}
+        \begin{itemize}
+            \item The heat flux at a specified boundary surface is known and constant. This is typically given as a value like $\qdot_0$.
+            \item From Fourier's Law, this implies a fixed temperature gradient at the surface.
+            \item Mathematical Form: $-\kth \frac{\partial \T}{\partial \x}|_{x_0} = \qdot_{\text{fixed}}''$
+            \item \textbf{Special Case: Insulated Boundary (Adiabatic):} If the boundary is perfectly insulated, there is no heat transfer across it.
+                \begin{itemize}
+                    \item Mathematical Form: $-\kth \frac{\partial \T}{\partial \x}|_{x_0} = 0 \implies \frac{\partial \T}{\partial \x}|_{x_0} = 0$
+                    \item This condition also applies at a plane of symmetry where there is no heat flow across that plane due to symmetry.
+                \end{itemize}
+        \end{itemize}
+
+    \item \textbf{Convection Boundary Condition (Robin BC):}
+        \begin{itemize}
+            \item Heat transfer at the boundary occurs by convection between the solid surface and an adjacent fluid at a known ambient temperature $\Tinf$.
+            \item The heat conducted to the surface equals the heat convected away from the surface.
+            \item Mathematical Form: $-\kth \frac{\partial \T}{\partial \x}|_{x_0} = \hC (\T(x_0, \tVar) - \Tinf)$
+        \end{itemize}
+
+    \item \textbf{Radiation Boundary Condition (Robin BC):}
+        \begin{itemize}
+            \item Heat transfer at the boundary occurs by radiation between the solid surface and the surroundings at a known temperature $\Tsur$.
+            \item The heat conducted to the surface equals the heat radiated away from the surface.
+            \item Mathematical Form: $-\kth \frac{\partial \T}{\partial \x}|_{x_0} = \epsilonR \sigmaSB (\T(x_0, \tVar)^4 - \T_{\text{sur}}^4)$
+        \end{itemize}
+
+    \item \textbf{Interface Boundary Condition (Between two materials):}
+        \begin{itemize}
+            \item At the interface between two different materials (A and B), two conditions must be satisfied:
+                \begin{enumerate}
+                    \item \textbf{Temperature Continuity:} The temperature at the interface must be the same for both materials.
+                        \begin{itemize}
+                            \item Mathematical Form: $\T_A(x_{\text{int}}, \tVar) = \T_B(x_{\text{int}}, \tVar)$
+                        \end{itemize}
+                    \item \textbf{Heat Flux Continuity:} The heat flux across the interface must be conserved (no heat accumulation at the interface itself, assuming negligible interface thermal resistance).
+                        \begin{itemize}
+                            \item Mathematical Form: $-\kth_A \frac{\partial \T_A}{\partial \x}|_{x_{\text{int}}} = -\kth_B \frac{\partial \T_B}{\partial \x}|_{x_{\text{int}}}$
+                        \end{itemize}
+                \end{enumerate}
+        \end{itemize}
+\end{enumerate}
+
+\subsection{Initial Conditions (ICs)}
+\begin{itemize}
+    \item For transient (time-dependent) heat conduction problems, an initial condition is required to specify the temperature distribution throughout the medium at the beginning of the process ($\tVar = 0$).
+    \item Mathematical Form: $\T(\x, \y, \z, 0) = F(\x, \y, \z)$
+    \item This means the temperature at every point in the domain is known at time zero.
+\end{itemize}
+
+\section{Heat Transfer Applications}
+
+Heat transfer principles are fundamental to the design, analysis, and operation of countless engineering systems and natural phenomena, including:
+\begin{itemize}
+    \item \textbf{Energy Systems:} Power plants (boilers, condensers), internal combustion engines, solar collectors.
+    \item \textbf{Thermal Management:} Cooling of electronic devices, heating/cooling in buildings (HVAC systems), thermal insulation.
+    \item \textbf{Industrial Processes:} Heat exchangers, furnaces, dryers, chemical reactors.
+    \item \textbf{Biological Systems:} Thermoregulation of the human body, medical devices.
+    \item \textbf{Everyday Appliances:} Refrigerators, ovens, water heaters, radiators.
+\end{itemize}
+
+ % Start formulas on a new page for clarity
+\section{Formulas Summary}
+
+\subsection{Fundamental Definitions and Laws}
+\subsubsection*{Fourier's Law of Conduction}
+\begin{align}
+\label{eq:fourier_qdot_formula}
+    \Qdot_{\text{cond}} &= -\kth \A \frac{d\T}{d\x} && \text{(Heat Transfer Rate)} \\
+    \qdot'' &= \frac{\Qdot_{\text{cond}}}{\A} = -\kth \frac{d\T}{d\x} && \text{(Heat Flux)}
+\end{align}
+where: \\
+$\Qdot_{\text{cond}}$ = Heat transfer rate (W) \\
+$\qdot''$ = Heat flux (W/m$^2$) \\
+$\kth$ = Thermal conductivity (W/m$\cdot$K) \\
+$\A$ = Area perpendicular to the heat flow (m$^2$) \\
+$\T$ = Temperature (K or $^\circ$C) \\
+$\x$ = Spatial coordinate in direction of heat flow (m) \\
+$d\T/d\x$ = Temperature gradient (K/m)
+
+\subsubsection*{Thermal Resistance (Plane Wall)}
+\begin{equation}
+\label{eq:thermal_resistance_formula}
+    \Rth_{\text{cond}} = \frac{L}{\kth \A}
+\end{equation}
+where: \\
+$\Rth_{\text{cond}}$ = Thermal resistance due to conduction (K/W or $^\circ$C/W) \\
+$L$ = Thickness of the wall (m) \\
+$\kth$ = Thermal conductivity (W/m$\cdot$K) \\
+$\A$ = Area perpendicular to heat flow (m$^2$)
+
+Heat transfer rate through a plane wall in terms of thermal resistance:
+\begin{equation}
+\label{eq:heat_transfer_R_formula}
+    \Qdot = \frac{\T_1 - \T_2}{\Rth_{\text{total}}}
+\end{equation}
+where: \\
+$\Qdot$ = Heat transfer rate (W) \\
+$\T_1, \T_2$ = Temperatures on either side of the wall/system (K or $^\circ$C) \\
+$\Rth_{\text{total}}$ = Total thermal resistance (K/W or $^\circ$C/W)
+
+\subsubsection*{Thermal Diffusivity}
+\begin{equation}
+\label{eq:thermal_diffusivity_formula}
+    \alphaD = \frac{\kth}{\rhoD \Cp}
+\end{equation}
+where: \\
+$\alphaD$ = Thermal diffusivity (m$^2$/s) \\
+$\kth$ = Thermal conductivity (W/m$\cdot$K) \\
+$\rhoD$ = Density (kg/m$^3$) \\
+$\Cp$ = Specific heat capacity (J/kg$\cdot$K)
+
+\subsubsection*{Heat Generation}
+Total heat generated within a volume element:
+\begin{equation}
+\label{eq:heat_generation_total_formula}
+    \Qdot_{\text{generated}} = \gdot V_{\text{element}}
+\end{equation}
+where: \\
+$\Qdot_{\text{generated}}$ = Total rate of heat generated (W) \\
+$\gdot$ = Volumetric heat generation rate (W/m$^3$) \\
+$V_{\text{element}}$ = Volume of the element (m$^3$)
+
+Rate of heat generation per unit volume from electrical resistance (wire):
+\begin{equation}
+    \gdot = \frac{I^2 R_e}{V_{\text{wire}}} \quad \text{or} \quad \gdot = \frac{V_e^2}{R_e V_{\text{wire}}} \quad \text{(W/m$^3$)}
+\end{equation}
+where: \\
+$I$ = Electric current (A) \\
+$R_e$ = Electrical resistance ($\Omega$) \\
+$V_e$ = Electric potential difference (V) \\
+$V_{\text{wire}}$ = Volume of the wire (m$^3$)
+
+\subsubsection*{Change in Internal Energy / Energy Balance over Time}
+Rate of change of internal energy for an element or system:
+\begin{equation}
+\label{eq:internal_energy_rate_formula}
+    \frac{\Delta E_{\text{element}}}{\Delta \tVar} = \rhoD V_{\text{element}} \Cp \frac{\Delta \T}{\Delta \tVar}
+\end{equation}
+where: \\
+$\Delta E_{\text{element}}/\Delta \tVar$ = Rate of change of internal energy (W) \\
+$\Delta \T$ = Change in temperature (K or $^\circ$C) \\
+$\Delta \tVar$ = Change in time (s)
+
+For an overall energy balance over time (for a kettle example):
+\begin{equation}
+    \Qdot = \frac{\Delta E}{\Delta \tVar}
+\end{equation}
+where: \\
+$\Qdot$ = Net heat transfer rate (W) \\
+$\Delta E$ = Total energy transferred (J) \\
+$\Delta \tVar$ = Total time (s)
+
+\subsection{General Heat Conduction Equation Forms}
+The general energy balance for a differential control volume:
+\begin{equation}
+\label{eq:general_energy_balance_differential_formal_formula}
+    \frac{\partial}{\partial \x}\left(\kth \frac{\partial \T}{\partial \x}\right) + \frac{\partial}{\partial \y}\left(\kth \frac{\partial \T}{\partial \y}\right) + \frac{\partial}{\partial \z}\left(\kth \frac{\partial \T}{\partial \z}\right) + \gdot = \rhoD \Cp \frac{\partial \T}{\partial \tVar} \quad \text{(Cartesian, variable k)}
+\end{equation}
+(Parameters defined above for general HCE forms in theory section)
+
+\subsubsection*{Forms for Constant $\kth$ (by Coordinate System)}
+\paragraph*{Cartesian Coordinates ($\x, \y, \z$)}
+\begin{equation}
+\label{eq:hce_cartesian_constant_k_formula_full_formula}
+    \frac{\partial^2 \T}{\partial \x^2} + \frac{\partial^2 \T}{\partial \y^2} + \frac{\partial^2 \T}{\partial \z^2} + \frac{\gdot}{\kth} = \frac{1}{\alphaD} \frac{\partial \T}{\partial \tVar}
+\end{equation}
+
+\paragraph*{Cylindrical Coordinates ($\rcoord, \phiC, \z$)}
+\begin{equation}
+\label{eq:hce_cylindrical_constant_k_formula_full_formula}
+    \frac{1}{\rcoord} \frac{\partial}{\partial \rcoord}\left(\rcoord \frac{\partial \T}{\partial \rcoord}\right) + \frac{1}{\rcoord^2} \frac{\partial^2 \T}{\partial \phiC^2} + \frac{\partial^2 \T}{\partial \z^2} + \frac{\gdot}{\kth} = \frac{1}{\alphaD} \frac{\partial \T}{\partial \tVar}
+\end{equation}
+
+\paragraph*{Spherical Coordinates ($\rcoord, \thetaS, \phiC$)}
+\begin{equation}
+\label{eq:hce_spherical_constant_k_formula_full_formula}
+    \frac{1}{\rcoord^2} \frac{\partial}{\partial \rcoord}\left(\rcoord^2 \frac{\partial \T}{\partial \rcoord}\right) + \frac{1}{\rcoord^2 \sin^2 \thetaS} \frac{\partial^2 \T}{\partial \phiC^2} + \frac{1}{\rcoord^2 \sin \thetaS} \frac{\partial}{\partial \thetaS}\left(\sin \thetaS \frac{\partial \T}{\partial \thetaS}\right) + \frac{\gdot}{\kth} = \frac{1}{\alphaD} \frac{\partial \T}{\partial \tVar}
+\end{equation}
+
+\subsubsection*{Simplified 1D Heat Conduction Equations (Constant $\kth$)}
+\paragraph*{1D Cartesian (Plane Wall)}
+\begin{itemize}
+    \item \textbf{General 1D:} $\frac{\partial^2 \T}{\partial \x^2} + \frac{\gdot}{\kth} = \frac{1}{\alphaD} \frac{\partial \T}{\partial \tVar}$
+    \item \textbf{Steady-state, no heat generation (Laplace):} $\frac{d^2 \T}{d \x^2} = 0$
+    \item \textbf{Steady-state with heat generation (Poisson):} $\frac{d^2 \T}{d \x^2} + \frac{\gdot}{\kth} = 0$
+    \item \textbf{Transient, no heat generation (Diffusion):} $\frac{\partial^2 \T}{\partial \x^2} = \frac{1}{\alphaD} \frac{\partial \T}{\partial \tVar}$
+\end{itemize}
+General solution for 1D Steady-state, no heat generation: $\T(\x) = C_1 \x + C_2$.
+
+\paragraph*{1D Cylindrical (Radial)}
+\begin{itemize}
+    \item \textbf{General 1D:} $\frac{1}{\rcoord} \frac{\partial}{\partial \rcoord}\left(\rcoord \frac{\partial \T}{\partial \rcoord}\right) + \frac{\gdot}{\kth} = \frac{1}{\alphaD} \frac{\partial \T}{\partial \tVar}$
+    \item \textbf{Steady-state, no heat generation:} $\frac{d}{d \rcoord}\left(\rcoord \frac{d \T}{d \rcoord}\right) = 0$
+    \item \textbf{Solution for steady-state, no heat generation:} $\T(\rcoord) = C_1 \ln \rcoord + C_2$ \\
+    \quad where $C_1, C_2$ are integration constants.
+\end{itemize}
+
+\paragraph*{1D Spherical (Radial)}
+\begin{itemize}
+    \item \textbf{General 1D:} $\frac{1}{\rcoord^2} \frac{\partial}{\partial \rcoord}\left(\rcoord^2 \frac{\partial \T}{\partial \rcoord}\right) + \frac{\gdot}{\kth} = \frac{1}{\alphaD} \frac{\partial \T}{\partial \tVar}$
+    \item \textbf{Steady-state, no heat generation:} $\frac{d}{d \rcoord}\left(\rcoord^2 \frac{d \T}{d \rcoord}\right) = 0$
+\end{itemize}
+
+\subsection{Heat Generation in Special Geometries}
+\subsubsection*{Maximum Temperature Rise ($\Delta \T_{\text{max}}$) for Uniform Heat Generation}
+\begin{itemize}
+    \item \textbf{Plane Wall:} $\Delta \T_{\text{max}} = \frac{\gdot L^2}{2\kth}$
+    \item \textbf{Cylinder:} $\Delta \T_{\text{max}} = \frac{\gdot R^2}{4\kth}$
+    \item \textbf{Sphere:} $\Delta \T_{\text{max}} = \frac{\gdot R^2}{6\kth}$
+\end{itemize}
+where: \\
+$L$ = Half-thickness of the plane wall (m) \\
+$R$ = Radius of the cylinder or sphere (m) \\
+$\gdot$ = Uniform volumetric heat generation rate (W/m$^3$) \\
+$\kth$ = Thermal conductivity (W/m$\cdot$K)
+
+\subsection{Varying Thermal Conductivity}
+For linear variation: $\kth(\T) = \kth_0 (1 + \beta \T)$
+\begin{itemize}
+    \item $\kth_0$ = Thermal conductivity at reference temperature (W/m$\cdot$K)
+    \item $\beta$ = Temperature coefficient of thermal conductivity (1/K or 1/$^\circ$C)
+\end{itemize}
+Average thermal conductivity:
+\begin{equation}
+    \kth_{\text{avg}} = \frac{1}{\T_2-\T_1} \int_{\T_1}^{\T_2} \kth(\T) d\T
+\end{equation}
+For linear variation, $\kth_{\text{avg}} = \kth_0 \left(1 + \beta \frac{\T_1 + \T_2}{2}\right) = \frac{\kth(\T_1) + \kth(\T_2)}{2}$.
+
+\subsection{Boundary Conditions Formulas}
+\begin{enumerate}
+    \item \textbf{Constant Temperature (Dirichlet):} $\T(x_0, \tVar) = \T_{\text{fixed}}$ \\
+    \quad where: \\
+    \quad $x_0$ = Position of the boundary (m) \\
+    \quad $\T_{\text{fixed}}$ = Fixed temperature at the boundary (K or $^\circ$C)
+    \item \textbf{Constant Heat Flux (Neumann):} $-\kth \frac{\partial \T}{\partial \x}|_{x_0} = \qdot_{\text{fixed}}''$ \\
+    \quad where: \\
+    \quad $x_0$ = Position of the boundary (m) \\
+    \quad $\qdot_{\text{fixed}}''$ = Fixed heat flux at the boundary (W/m$^2$)
+        \begin{itemize}
+            \item \textbf{Insulated/Symmetric:} $\frac{\partial \T}{\partial \x}|_{x_0} = 0$
+        \end{itemize}
+    \item \textbf{Convection (Robin):} $-\kth \frac{\partial \T}{\partial \x}|_{x_0} = \hC (\T(x_0, \tVar) - \Tinf)$ \\
+    \quad where: \\
+    \quad $x_0$ = Position of the boundary (m) \\
+    \quad $\hC$ = Convection heat transfer coefficient (W/m$^2$$\cdot$K) \\
+    \quad $\T(x_0, \tVar)$ = Temperature of the surface at $x_0$ (K or $^\circ$C) \\
+    \quad $\Tinf$ = Ambient fluid temperature (K or $^\circ$C)
+    \item \textbf{Radiation (Robin):} $-\kth \frac{\partial \T}{\partial \x}|_{x_0} = \epsilonR \sigmaSB (\T(x_0, \tVar)^4 - \T_{\text{sur}}^4)$ \\
+    \quad where: \\
+    \quad $x_0$ = Position of the boundary (m) \\
+    \quad $\epsilonR$ = Emissivity of the surface (dimensionless, $0 \le \epsilonR \le 1$) \\
+    \quad $\sigmaSB$ = Stefan-Boltzmann constant ($5.67 \times 10^{-8}$ W/m$^2$$\cdot$K$^4$) \\
+    \quad $\T(x_0, \tVar)$ = Absolute temperature of the surface (K) \\
+    \quad $\T_{\text{sur}}$ = Absolute temperature of the surroundings (K)
+    \item \textbf{Interface (between Material A and B at $x_{\text{int}}$):}
+        \begin{itemize}
+            \item Temperature continuity: $\T_A(x_{\text{int}}, \tVar) = \T_B(x_{\text{int}}, \tVar)$
+            \item Heat flux continuity: $-\kth_A \frac{\partial \T_A}{\partial \x}|_{x_{\text{int}}} = -\kth_B \frac{\partial \T_B}{\partial \x}|_{x_{\text{int}}}$ \\
+            \quad where: \\
+            \quad $x_{\text{int}}$ = Position of the interface (m) \\
+            \quad $\kth_A, \kth_B$ = Thermal conductivities of material A and B (W/m$\cdot$K)
+        \end{itemize}
+\end{enumerate}
+
+\subsection{Thermal Resistance Networks (Formulas)}
+\subsubsection*{Individual Thermal Resistances}
+\begin{itemize}
+    \item \textbf{Conduction (Plane Wall):} $\Rth_{\text{cond,wall}} = \frac{L}{\kth \A}$ (K/W or $^\circ$C/W)
+    \item \textbf{Conduction (Cylinder):} $\Rth_{\text{cond,cyl}} = \frac{\ln(r_2/r_1)}{2\pi L \kth}$ (K/W or $^\circ$C/W) \\
+    \quad where $r_1, r_2$ are inner and outer radii, $L$ is length.
+    \item \textbf{Conduction (Sphere):} $\Rth_{\text{cond,sph}} = \frac{r_2 - r_1}{4\pi r_1 r_2 \kth}$ (K/W or $^\circ$C/W) \\
+    \quad where $r_1, r_2$ are inner and outer radii.
+    \item \textbf{Convection:} $\Rth_{\text{conv}} = \frac{1}{\hC \A}$ (K/W or $^\circ$C/W)
+    \item \textbf{Radiation (Linearized):} $\Rth_{\text{rad}} = \frac{1}{\hC_{\text{rad}} \A}$ (K/W or $^\circ$C/W) \\
+    \quad where $\hC_{\text{rad}} = \epsilonR \sigmaSB (\T_s + \T_{\text{sur}})(\T_s^2 + \T_{\text{sur}}^2)$ (W/m$^2$$\cdot$K)
+\end{itemize}
+
+\subsubsection*{Total Resistance for Series Network}
+\begin{equation}
+    \Rth_{\text{total}} = \Rth_1 + \Rth_2 + \dots + \Rth_n
+\end{equation}
+Heat transfer rate for series network:
+\begin{equation}
+    \Qdot = \frac{\T_{\text{overall,in}} - \T_{\text{overall,out}}}{\Rth_{\text{total}}}
+\end{equation}
+
+\subsubsection*{Total Resistance for Parallel Network}
+\begin{equation}
+    \frac{1}{\Rth_{\text{total}}} = \frac{1}{\Rth_1} + \frac{1}{\Rth_2} + \dots + \frac{1}{\Rth_n}
+\end{equation}
+
+\subsubsection*{Overall Heat Transfer Coefficient ($\Uoverall$)}
+\begin{equation}
+    \Uoverall = \frac{1}{\A \Rth_{\text{total}}}
+\end{equation}
+or, for a plane wall with convection on both sides and conduction through the wall:
+\begin{equation}
+    \frac{1}{\Uoverall \A} = \frac{1}{\hC_1 \A} + \frac{L}{\kth \A} + \frac{1}{\hC_2 \A}
+\end{equation}
+So,
+\begin{equation}
+    \frac{1}{\Uoverall} = \frac{1}{\hC_1} + \frac{L}{\kth} + \frac{1}{\hC_2}
+\end{equation}
+General heat transfer rate using $\Uoverall$:
+\begin{equation}
+    \Qdot = \Uoverall \A \Delta \T_{\text{overall}}
+\end{equation}
+where: \\
+$\Uoverall$ = Overall heat transfer coefficient (W/m$^2$$\cdot$K) \\
+$\Delta \T_{\text{overall}}$ = Overall temperature difference across the system (K or $^\circ$C)
+
+\subsection{Other Heat Transfer Mechanisms (Briefly Mentioned)}
+
+\subsubsection*{Convection}
+Newton's Law of Cooling:
+\begin{equation}
+    \Qdot_{\text{conv}} = \hC \A (\T_s - \T_f)
+\end{equation}
+where: \\
+$\Qdot_{\text{conv}}$ = Convection heat transfer rate (W) \\
+$\hC$ = Convection heat transfer coefficient (W/m$^2$$\cdot$K) \\
+$\A$ = Surface area (m$^2$) \\
+$\T_s$ = Surface temperature (K or $^\circ$C) \\
+$\T_f$ = Fluid temperature (K or $^\circ$C)
+
+\subsubsection*{Radiation}
+Stefan-Boltzmann Law (for ideal emitter/blackbody):
+\begin{equation}
+    \Qdot_{\text{rad}} = \epsilonR \sigmaSB \A \T_s^4
+\end{equation}
+where: \\
+$\Qdot_{\text{rad}}$ = Radiation heat transfer rate (W) \\
+$\epsilonR$ = Emissivity of the surface (dimensionless, $0 \le \epsilonR \le 1$) \\
+$\sigmaSB$ = Stefan-Boltzmann constant ($5.67 \times 10^{-8}$ W/m$^2$$\cdot$K$^4$) \\
+$\A$ = Surface area (m$^2$) \\
+$\T_s$ = Absolute surface temperature (K)
+
+\subsubsection*{Energy Flow in Mass Transfer (Example)}
+\begin{equation}
+    \Qdot = \dot{m} \Cp \Delta \T
+\end{equation}
+where: \\
+$\Qdot$ = Energy flow rate (W) \\
+$\dot{m}$ = Mass flow rate (kg/s) \\
+$\Cp$ = Specific heat capacity of the fluid (J/kg$\cdot$K) \\
+$\Delta \T$ = Change in temperature (K or $^\circ$C)

@@ -1,0 +1,512 @@
+[
+  {
+    "question": "Which of the following is NOT listed as a learning outcome for this presentation?",
+    "options": [
+      "Bacterial division",
+      "Generation time",
+      "Viral replication",
+      "Growth curve"
+    ],
+    "answer": "Viral replication"
+  },
+  {
+    "question": "A microbiologist is attempting to determine the growth rate of a novel bacterium. They use a batch culture method and monitor turbidity over time. After plotting log(OD) vs time, they notice the graph is not a perfectly straight line during the log phase. Which of the following is the most likely reason for a deviation from linearity in the log phase when using turbidity as a measure?",
+    "options": [
+      "The culture has entered the death phase.",
+      "The spectrophotometer is broken.",
+      "The bacterial cells are clumped together, or the cell density is too high, exceeding the linear range of the spectrophotometer.",
+      "The pH of the medium is too low."
+    ],
+    "answer": "The bacterial cells are clumped together, or the cell density is too high, exceeding the linear range of the spectrophotometer."
+  },
+  {
+    "question": "The process of bacterial division is primarily achieved through which mechanism?",
+    "options": [
+      "Mitosis",
+      "Meiosis",
+      "Budding",
+      "Binary fission"
+    ],
+    "answer": "Binary fission"
+  },
+  {
+    "question": "In a dividing *Bacillus licheniformis* cell, what structure is observed forming inwards to separate daughter cells?",
+    "options": [
+      "Plasma membrane",
+      "Cell wall",
+      "Partially formed cross-wall",
+      "Nucleoid"
+    ],
+    "answer": "Partially formed cross-wall"
+  },
+  {
+    "question": "Which of the following is the correct sequence of events during bacterial cell division?",
+    "options": [
+      "DNA replication → cross-wall forms → cell elongates → cells separate.",
+      "Cell elongates → DNA replication → plasma membrane constricts → cross-wall forms → cells separate.",
+      "Plasma membrane constricts → DNA replication → cell elongates → cells separate.",
+      "Cells separate → cross-wall forms → DNA replication → cell elongates."
+    ],
+    "answer": "Cell elongates → DNA replication → plasma membrane constricts → cross-wall forms → cells separate."
+  },
+  {
+    "question": "Compare and contrast binary fission and budding in microorganisms.",
+    "options": [
+      "Binary fission produces unequal daughter cells, while budding produces equal daughter cells.",
+      "Budding involves the formation of a cross-wall, while binary fission does not.",
+      "Binary fission results in two approximately equal daughter cells after symmetrical division, whereas budding involves a smaller outgrowth from a parent cell that eventually detaches.",
+      "Both budding and binary fission are forms of sexual reproduction in bacteria."
+    ],
+    "answer": "Binary fission results in two approximately equal daughter cells after symmetrical division, whereas budding involves a smaller outgrowth from a parent cell that eventually detaches."
+  },
+  {
+    "question": "What is defined as \"the time required for a cell to divide and its population to double\"?",
+    "options": [
+      "Doubling time",
+      "Lag time",
+      "Generation time",
+      "Exponential time"
+    ],
+    "answer": "Generation time"
+  },
+  {
+    "question": "What environmental factor is mentioned as influencing bacterial generation time?",
+    "options": [
+      "Light intensity",
+      "pH levels",
+      "Temperature",
+      "Atmospheric pressure"
+    ],
+    "answer": "Temperature"
+  },
+  {
+    "question": "If a bacterial population starts with 1 cell, how many cells will there be after 5 generations?",
+    "options": [
+      "10",
+      "16",
+      "32",
+      "64"
+    ],
+    "answer": "32"
+  },
+  {
+    "question": "What is the base-10 logarithm of 1,024?",
+    "options": [
+      "1.51",
+      "3.01",
+      "4.52",
+      "6.02"
+    ],
+    "answer": "3.01"
+  },
+  {
+    "question": "In the formula N₊ = N₀. 2ⁿ, what does N₊ represent?",
+    "options": [
+      "Initial number of cells",
+      "Final number of cells",
+      "Number of generations",
+      "Logarithm of cells"
+    ],
+    "answer": "Final number of cells"
+  },
+  {
+    "question": "Which formula is used to calculate the number of cell generations (n) given the initial (N₀) and final (N₊) cell numbers?",
+    "options": [
+      "N₊ = N₀. 2ⁿ",
+      "logN₊ = logN₀ + n.log2",
+      "n = (logN₊ – logN₀)/log2",
+      "g = (t-t₀)/n"
+    ],
+    "answer": "n = (logN₊ – logN₀)/log2"
+  },
+  {
+    "question": "A bacterial culture has 10⁴ cells/ml at 6h and 10⁸ cells/ml at 10h. Using the provided formula, calculate the generation time (g) in hours.",
+    "options": [
+      "0.301 h",
+      "1.204 h",
+      "4 h",
+      "0.75 h"
+    ],
+    "answer": "0.301 h"
+  },
+  {
+    "question": "A bacterial culture with an initial count of 2 x 10³ cells/ml grows for 3 hours and reaches a final count of 1.6 x 10⁵ cells/ml. What is the approximate generation time of this bacterium in minutes? (Assume log2 = 0.301).",
+    "options": [
+      "20 minutes",
+      "30 minutes",
+      "45 minutes",
+      "60 minutes"
+    ],
+    "answer": "30 minutes"
+  },
+  {
+    "question": "When plotting bacterial growth, what does the \"Log10 of number of cells\" axis typically show?",
+    "options": [
+      "A sharply rising exponential curve.",
+      "A linear increase.",
+      "A fluctuating pattern.",
+      "A constant value."
+    ],
+    "answer": "A linear increase."
+  },
+  {
+    "question": "Why are logarithmic scales generally used to graph bacterial growth?",
+    "options": [
+      "To make small numbers visible.",
+      "Because bacterial growth is always slow.",
+      "To manage the enormous number of cells produced and linearize the exponential growth.",
+      "To hide fluctuations in population."
+    ],
+    "answer": "To manage the enormous number of cells produced and linearize the exponential growth."
+  },
+  {
+    "question": "An *E. coli* cell, doubling every 20 minutes, can reach approximately 1 million cells in how many generations?",
+    "options": [
+      "10 generations",
+      "20 generations",
+      "30 generations",
+      "40 generations"
+    ],
+    "answer": "20 generations"
+  },
+  {
+    "question": "According to the notes, how long would it take for a single *E. coli* cell to reach a population of 1 billion if it doubles every 20 minutes?",
+    "options": [
+      "Less than 7 hours",
+      "10 hours",
+      "24 hours",
+      "30 hours"
+    ],
+    "answer": "10 hours"
+  },
+  {
+    "question": "What are the four sequential phases of bacterial growth?",
+    "options": [
+      "Initial, rapid, slow, decline.",
+      "Lag, log, stationary, death.",
+      "Adaptation, division, maintenance, lysis.",
+      "Growth, plateau, fall, dormant."
+    ],
+    "answer": "Lag, log, stationary, death."
+  },
+  {
+    "question": "During which phase of the bacterial growth curve is there an intense activity preparing for population growth, but no increase in population?",
+    "options": [
+      "Log phase",
+      "Lag phase",
+      "Stationary phase",
+      "Death phase"
+    ],
+    "answer": "Lag phase"
+  },
+  {
+    "question": "The logarithmic, or exponential, increase in population occurs during which phase?",
+    "options": [
+      "Lag phase",
+      "Log phase",
+      "Stationary phase",
+      "Death phase"
+    ],
+    "answer": "Log phase"
+  },
+  {
+    "question": "A bacterial culture is inoculated into a fresh medium and shows a prolonged lag phase. Which of the following is the most likely reason for this extended lag, assuming all physical growth conditions (temperature, pH) are optimal?",
+    "options": [
+      "The culture is contaminated with a bacteriophage.",
+      "The inoculum cells were previously in a death phase or dormant state and require time to synthesize necessary enzymes for the new medium.",
+      "The concentration of limiting nutrients in the fresh medium is extremely high.",
+      "The growth medium lacks essential amino acids."
+    ],
+    "answer": "The inoculum cells were previously in a death phase or dormant state and require time to synthesize necessary enzymes for the new medium."
+  },
+  {
+    "question": "During the stationary phase of a batch bacterial culture, what is the primary physiological reason for the balance between cell division and cell death, leading to no net increase in population?",
+    "options": [
+      "Accumulation of essential nutrients and reduction of toxic waste products.",
+      "Rapid increase in metabolic rate and DNA replication.",
+      "Depletion of essential nutrients, accumulation of toxic waste products, and unfavorable environmental changes.",
+      "Increased production of antibiotics by the bacteria."
+    ],
+    "answer": "Depletion of essential nutrients, accumulation of toxic waste products, and unfavorable environmental changes."
+  },
+  {
+    "question": "The Direct Microscopic Count method relies on counting cells within a:",
+    "options": [
+      "Culture plate",
+      "Defined volume of fluid",
+      "Spectrophotometer",
+      "Colony forming unit"
+    ],
+    "answer": "Defined volume of fluid"
+  },
+  {
+    "question": "What is the depth of a Petroff-Hausser counting chamber typically used for bacteria?",
+    "options": [
+      "0.1 mm",
+      "0.05 mm",
+      "0.02 mm",
+      "1.0 mm"
+    ],
+    "answer": "0.02 mm"
+  },
+  {
+    "question": "A Hemocytometer has a chamber height (hc) of 0.1 mm, while a Petroff-Hausser chamber has an hc of 0.02 mm. This difference indicates that:",
+    "options": [
+      "Hemocytometers are exclusively for human cells.",
+      "Petroff-Hausser chambers are designed for smaller volumes suitable for bacterial counting.",
+      "Hemocytometers have a larger grid area.",
+      "Petroff-Hausser chambers require more sample volume."
+    ],
+    "answer": "Petroff-Hausser chambers are designed for smaller volumes suitable for bacterial counting."
+  },
+  {
+    "question": "If a large square in a Petroff-Hausser chamber, with a volume of 1/1,250,000 of a milliliter, contains 18 bacterial cells, what is the estimated concentration of cells per milliliter?",
+    "options": [
+      "1.8 x 10⁶ cells/ml",
+      "1.8 x 10⁷ cells/ml",
+      "2.25 x 10⁷ cells/ml",
+      "1.4 x 10⁶ cells/ml"
+    ],
+    "answer": "2.25 x 10⁷ cells/ml"
+  },
+  {
+    "question": "Which of the following is a significant limitation of the direct microscopic count method using a Petroff-Hausser chamber?",
+    "options": [
+      "It is very time-consuming compared to other methods.",
+      "It requires specialized sterile equipment not widely available.",
+      "It cannot distinguish between live and dead bacterial cells.",
+      "It is only accurate for very dilute samples."
+    ],
+    "answer": "It cannot distinguish between live and dead bacterial cells."
+  },
+  {
+    "question": "In the plate count method, what does CFU stand for?",
+    "options": [
+      "Cell Forming Unit",
+      "Countable Fission Unit",
+      "Colony Forming Unit",
+      "Culture Filtration Unit"
+    ],
+    "answer": "Colony Forming Unit"
+  },
+  {
+    "question": "Each visible colony on an agar plate in the plate count method is assumed to originate from what?",
+    "options": [
+      "Multiple cells",
+      "A single viable microbial cell",
+      "A spore",
+      "An aggregation of dead cells"
+    ],
+    "answer": "A single viable microbial cell"
+  },
+  {
+    "question": "A microbiology student performs a plate count. A plate from a 1:10,000 (10⁻⁴) dilution shows 75 colonies. What is the estimated number of bacteria per ml in the original sample?",
+    "options": [
+      "7.5 x 10³ bacteria/ml",
+      "7.5 x 10⁴ bacteria/ml",
+      "7.5 x 10⁵ bacteria/ml",
+      "7.5 x 10⁶ bacteria/ml"
+    ],
+    "answer": "7.5 x 10⁵ bacteria/ml"
+  },
+  {
+    "question": "In the pour plate method, where do colonies grow?",
+    "options": [
+      "Only on the surface of the medium.",
+      "Only embedded within the medium.",
+      "Both on the surface and embedded within the solidified medium.",
+      "In a liquid layer above the medium."
+    ],
+    "answer": "Both on the surface and embedded within the solidified medium."
+  },
+  {
+    "question": "The spread plate method results in colonies growing:",
+    "options": [
+      "Only on the surface of the medium.",
+      "Primarily embedded within the medium.",
+      "In a turbid layer throughout the medium.",
+      "Exclusively at the bottom of the petri dish."
+    ],
+    "answer": "Only on the surface of the medium."
+  },
+  {
+    "question": "A researcher is working with an obligate anaerobe and needs to determine its viable cell count using a plating method. Which plating technique would be most appropriate to ensure conditions suitable for its growth, and why?",
+    "options": [
+      "Spread plate, because it allows for direct exposure to the atmosphere.",
+      "Pour plate, because embedding cells in agar reduces oxygen exposure, favoring anaerobic growth.",
+      "Direct microscopic count, as it does not require culturing.",
+      "Filtration, to concentrate cells before surface plating."
+    ],
+    "answer": "Pour plate, because embedding cells in agar reduces oxygen exposure, favoring anaerobic growth."
+  },
+  {
+    "question": "The filtration method for measuring microbial growth is particularly useful for samples that have:",
+    "options": [
+      "Very high microbial concentrations.",
+      "Low microbial concentrations.",
+      "Viscous properties.",
+      "Solid particles."
+    ],
+    "answer": "Low microbial concentrations."
+  },
+  {
+    "question": "The Most Probable Number (MPN) method is based on the principle that:",
+    "options": [
+      "All cells in a sample will form colonies.",
+      "The greater the number of bacteria, the more dilution is needed to prevent growth in a dilution series.",
+      "Turbidity directly correlates with viable cell count.",
+      "Gas production is the sole indicator of microbial growth."
+    ],
+    "answer": "The greater the number of bacteria, the more dilution is needed to prevent growth in a dilution series."
+  },
+  {
+    "question": "In an X-gal assay, what enzyme cleaves X-gal to produce a blue precipitate?",
+    "options": [
+      "Lactase",
+      "Amylase",
+      "β-D-galactosidase",
+      "DNA ligase"
+    ],
+    "answer": "β-D-galactosidase"
+  },
+  {
+    "question": "Which of the following appearances in a liquid culture tube indicates \"heavy or abundant microbial growth\"?",
+    "options": [
+      "Clear",
+      "Slightly cloudy",
+      "Cloudy",
+      "Turbid"
+    ],
+    "answer": "Turbid"
+  },
+  {
+    "question": "The presence of a gas bubble in an inverted Durham tube within a fermentation broth typically indicates:",
+    "options": [
+      "Inadequate mixing of the medium.",
+      "Production of acid from carbohydrate fermentation.",
+      "Microbial metabolic activity leading to gas production.",
+      "Contamination by atmospheric gases."
+    ],
+    "answer": "Microbial metabolic activity leading to gas production."
+  },
+  {
+    "question": "A sample from a water source is tested using the MPN method. One tube containing phenol red lactose broth turns yellow but shows no gas in the Durham tube. Another tube containing phenol red glucose broth shows both a yellow color and a gas bubble. What can be inferred about the bacteria's metabolism regarding these two carbohydrates?",
+    "options": [
+      "The bacteria ferment both lactose and glucose, with gas production only from glucose.",
+      "The bacteria ferment lactose but not glucose.",
+      "The bacteria ferment glucose but not lactose.",
+      "The bacteria can only produce acid from lactose, not gas."
+    ],
+    "answer": "The bacteria ferment both lactose and glucose, with gas production only from glucose."
+  },
+  {
+    "question": "In a typical MPN experiment using three sets of five tubes, what combination of positive tubes (e.g., 5-3-1) corresponds to an MPN index of 110 per 100 ml?",
+    "options": [
+      "4-2-0",
+      "5-0-0",
+      "5-3-1",
+      "5-3-2"
+    ],
+    "answer": "5-3-1"
+  },
+  {
+    "question": "The MPN method provides a statistical estimate of microbial numbers, often accompanied by:",
+    "options": [
+      "A direct count on an agar plate.",
+      "The exact number of viable cells.",
+      "A 95% confidence interval.",
+      "A dry weight measurement."
+    ],
+    "answer": "A 95% confidence interval."
+  },
+  {
+    "question": "If an MPN test yields a pattern of 5-2-0 positive tubes for dilutions of 10mL, 1mL, and 0.1mL respectively, what does \"0 positive tubes\" for the 0.1mL inoculum mean?",
+    "options": [
+      "The bacteria grew too fast.",
+      "No viable microorganisms were present in those specific 0.1mL aliquots.",
+      "The medium was inhibitory.",
+      "All cells were dead."
+    ],
+    "answer": "No viable microorganisms were present in those specific 0.1mL aliquots."
+  },
+  {
+    "question": "Which instrument is used to measure turbidity by passing a light beam through a bacterial suspension and measuring transmitted light?",
+    "options": [
+      "Microscope",
+      "Centrifuge",
+      "Spectrophotometer",
+      "pH meter"
+    ],
+    "answer": "Spectrophotometer"
+  },
+  {
+    "question": "Which indirect method for estimating bacterial numbers involves centrifuging a cell-containing solution to collect biomass, washing it, and then drying it to a constant mass?",
+    "options": [
+      "Turbidity",
+      "Plate count",
+      "Most Probable Number",
+      "Dry weight"
+    ],
+    "answer": "Dry weight"
+  },
+  {
+    "question": "The ATP bioluminescence assay relies on the principle that the amount of light produced is directly proportional to the amount of what molecule?",
+    "options": [
+      "Glucose",
+      "DNA",
+      "ATP",
+      "Luciferin"
+    ],
+    "answer": "ATP"
+  },
+  {
+    "question": "What enzyme is required for the ATP bioluminescence reaction to produce light?",
+    "options": [
+      "Amylase",
+      "Luciferase",
+      "Beta-galactosidase",
+      "DNA polymerase"
+    ],
+    "answer": "Luciferase"
+  },
+  {
+    "question": "In the ATP bioluminescence method for estimating microbial numbers, why is it crucial to ensure that the sample being analyzed contains only metabolically active cells or that inactive ATP is removed?",
+    "options": [
+      "Because luciferase only functions in dead cells.",
+      "Because ATP is rapidly degraded by light.",
+      "Because the assay measures ATP, and ATP from dead or inactive cells would lead to an overestimation of viable cells.",
+      "Because D-luciferin is inhibited by ATP from non-viable cells."
+    ],
+    "answer": "Because the assay measures ATP, and ATP from dead or inactive cells would lead to an overestimation of viable cells."
+  },
+  {
+    "question": "When constructing a growth curve for a batch culture, what is the final step after taking periodic samples and determining cell biomass?",
+    "options": [
+      "Sterilize the culture vessel.",
+      "Plot the collected data showing biomass dependence on culture time.",
+      "Increase the incubation temperature.",
+      "Add more nutrients to the medium."
+    ],
+    "answer": "Plot the collected data showing biomass dependence on culture time."
+  },
+  {
+    "question": "According to the instructions for constructing a growth curve, sampling should continue until when?",
+    "options": [
+      "The culture reaches its maximum turbidity.",
+      "The amount of biomass starts to decrease with culture time.",
+      "All nutrients in the medium are depleted.",
+      "The pH of the culture changes significantly."
+    ],
+    "answer": "The amount of biomass starts to decrease with culture time."
+  },
+  {
+    "question": "What is the primary reason for performing periodic sampling and biomass determination until the amount of biomass decreases when constructing a bacterial growth curve?",
+    "options": [
+      "To ensure the accuracy of the initial inoculum size.",
+      "To identify the optimal temperature for growth.",
+      "To capture all distinct phases of the growth curve, including the death phase.",
+      "To precisely calculate the generation time during the lag phase."
+    ],
+    "answer": "To capture all distinct phases of the growth curve, including the death phase."
+  }
+]

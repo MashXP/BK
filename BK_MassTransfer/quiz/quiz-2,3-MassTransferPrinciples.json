@@ -1,0 +1,552 @@
+[
+  {
+    "question": "What is defined as the net movement of mass from one location to another driven by a concentration gradient?",
+    "options": [
+      "Heat Transfer",
+      "Mass Transfer",
+      "Fluid Dynamics",
+      "Thermodynamics"
+    ],
+    "answer": "Mass Transfer"
+  },
+  {
+    "question": "The random, individual movement of molecules through a fluid is often referred to as:",
+    "options": [
+      "Laminar flow",
+      "Turbulent flow",
+      "A random walk process",
+      "Bulk convection"
+    ],
+    "answer": "A random walk process"
+  },
+  {
+    "question": "What is the mathematical expression for the general rate of any transfer process?",
+    "options": [
+      "Rate = Resistance / Driving Force",
+      "Rate = Driving Force / Resistance",
+      "Rate = Mass * Acceleration",
+      "Rate = Force * Distance"
+    ],
+    "answer": "Rate = Driving Force / Resistance"
+  },
+  {
+    "question": "In Fick's First Law ($J_{Az} = -D_{AB} dc_A/dz$), what does the negative sign indicate?",
+    "options": [
+      "Diffusion is slowing down",
+      "The diffusion coefficient is negative",
+      "Diffusion occurs in the direction of decreasing concentration",
+      "The concentration is negative"
+    ],
+    "answer": "Diffusion occurs in the direction of decreasing concentration"
+  },
+  {
+    "question": "What does the symbol $J_{Az}$ represent in Fick's Law?",
+    "options": [
+      "Total Molar Flux relative to stationary coordinates",
+      "Molar Flux relative to the molar average velocity",
+      "Mass transfer coefficient",
+      "Concentration gradient"
+    ],
+    "answer": "Molar Flux relative to the molar average velocity"
+  },
+  {
+    "question": "What does the symbol $N_A$ represent?",
+    "options": [
+      "Molar Flux relative to a stationary observer (Total Flux)",
+      "Diffusive Flux only",
+      "Avogadro's Number",
+      "Reynolds Number"
+    ],
+    "answer": "Molar Flux relative to a stationary observer (Total Flux)"
+  },
+  {
+    "question": "For a binary mixture of gases A and B, what is 'Equimolar Counter-diffusion'?",
+    "options": [
+      "Gas A diffuses but Gas B is stagnant",
+      "Flux of A is equal and opposite to Flux of B ($J_{Az} = -J_{Bz}$)",
+      "Flux of A is equal to Flux of B ($J_{Az} = J_{Bz}$)",
+      "Convection dominates diffusion"
+    ],
+    "answer": "Flux of A is equal and opposite to Flux of B ($J_{Az} = -J_{Bz}$)"
+  },
+  {
+    "question": "In the case of 'Diffusion of A through Stagnant B', what is the value of $N_B$?",
+    "options": [
+      "N_B = -N_A",
+      "N_B = N_A",
+      "N_B = 0",
+      "N_B = 1"
+    ],
+    "answer": "N_B = 0"
+  },
+  {
+    "question": "Which parameter accounts for the tortuous path in porous solids?",
+    "options": [
+      "Void fraction ($\\varepsilon$)",
+      "Tortuosity ($\\tau$)",
+      "Density ($\\rho$)",
+      "Viscosity ($\\mu$)"
+    ],
+    "answer": "Tortuosity ($\\tau$)"
+  },
+  {
+    "question": "What is 'Void Fraction' ($\\varepsilon$) in a porous solid?",
+    "options": [
+      "Total Volume / Solid Volume",
+      "Open Void Volume / Total Volume",
+      "Solid Volume / Total Volume",
+      "Mass / Volume"
+    ],
+    "answer": "Open Void Volume / Total Volume"
+  },
+  {
+    "question": "Which dimensionless number relates momentum diffusivity (viscosity) to mass diffusivity?",
+    "options": [
+      "Reynolds Number",
+      "Schmidt Number ($N_{Sc}$)",
+      "Sherwood Number",
+      "Prandtl Number"
+    ],
+    "answer": "Schmidt Number ($N_{Sc}$)"
+  },
+  {
+    "question": "How does the magnitude of diffusivity in liquids compare to gases?",
+    "options": [
+      "Liquids are $10^5$ times faster",
+      "Liquids are $10^5$ times slower",
+      "They are roughly equal",
+      "Liquids do not diffuse"
+    ],
+    "answer": "Liquids are $10^5$ times slower"
+  },
+  {
+    "question": "In the linear driving force model for convection, $N_A = k_c (c_{L1} - c_{Li})$, what is $k_c$?",
+    "options": [
+      "Thermal conductivity",
+      "Mass transfer coefficient",
+      "Diffusion coefficient",
+      "Viscosity"
+    ],
+    "answer": "Mass transfer coefficient"
+  },
+  {
+    "question": "Which equation is commonly used to estimate gas diffusivity empirically?",
+    "options": [
+      "Bernoulli's Equation",
+      "Fuller et al. Equation",
+      "Stokes' Law",
+      "Fourier's Law"
+    ],
+    "answer": "Fuller et al. Equation"
+  },
+  {
+    "question": "For diffusion from a sphere, the surface area $A$ is equal to:",
+    "options": [
+      "$\\pi r^2$",
+      "$2 \\pi r L$",
+      "$4 \\pi r^2$",
+      "$\\frac{4}{3} \\pi r^3$"
+    ],
+    "answer": "$4 \\pi r^2$"
+  },
+  {
+    "question": "In the flux equation for stagnant B, what does $p_{BM}$ stand for?",
+    "options": [
+      "Partial Pressure of Bulk Material",
+      "Log Mean Partial Pressure of B",
+      "Arithmetic Mean Pressure",
+      "Bubble Point Mean"
+    ],
+    "answer": "Log Mean Partial Pressure of B"
+  },
+  {
+    "question": "Effective Diffusivity ($D_{A,eff}$) in porous solids is defined as:",
+    "options": [
+      "$D_{AB} \\times \\tau / \\varepsilon$",
+      "$D_{AB} \\times \\varepsilon / \\tau$",
+      "$D_{AB} \\times \\varepsilon \\times \\tau$",
+      "$D_{AB}$"
+    ],
+    "answer": "$D_{AB} \\times \\varepsilon / \\tau$"
+  },
+  {
+    "question": "What condition implies $D_{AB} = D_{BA}$ in a binary gas mixture?",
+    "options": [
+      "Always true for ideal binary gas mixtures",
+      "Only at high pressure",
+      "Only when molecular weights are equal",
+      "Never true"
+    ],
+    "answer": "Always true for ideal binary gas mixtures"
+  },
+  {
+    "question": "Which experimental method is mentioned for determining gas diffusion coefficients?",
+    "options": [
+      "The Two-Bulb Method",
+      "The Centrifuge Method",
+      "The Distillation Method",
+      "The Titration Method"
+    ],
+    "answer": "The Two-Bulb Method"
+  },
+  {
+    "question": "In the Arnold Diffusion Cell (falling liquid level), the process is assumed to be:",
+    "options": [
+      "Unsteady state",
+      "Pseudo-steady state",
+      "Turbulent",
+      "Equilibrium governed"
+    ],
+    "answer": "Pseudo-steady state"
+  },
+  {
+    "question": "What is the typical range of the Schmidt Number for gases?",
+    "options": [
+      "0.01 - 0.1",
+      "0.5 - 2.0",
+      "100 - 500",
+      "1000 - 10000"
+    ],
+    "answer": "0.5 - 2.0"
+  },
+  {
+    "question": "In the general flux equation $N_A = -c D_{AB} dx_A/dz + (c_A/c)(N_A + N_B)$, the second term represents:",
+    "options": [
+      "Molecular Diffusion",
+      "Bulk Convection",
+      "Thermal Diffusion",
+      "Pressure Diffusion"
+    ],
+    "answer": "Bulk Convection"
+  },
+  {
+    "question": "For diffusion in a non-porous solid cylinder, the diffusion is typically:",
+    "options": [
+      "Linear along the length",
+      "Radial (logarithmic profile)",
+      "Turbulent",
+      "Convective"
+    ],
+    "answer": "Radial (logarithmic profile)"
+  },
+  {
+    "question": "If the total pressure P is doubled, how does gas diffusivity $D_{AB}$ change according to Fuller's equation?",
+    "options": [
+      "It doubles",
+      "It stays the same",
+      "It is halved (proportional to 1/P)",
+      "It quadruples"
+    ],
+    "answer": "It is halved (proportional to 1/P)"
+  },
+  {
+    "question": "According to Fuller's equation, gas diffusivity is proportional to Temperature (T) raised to what power?",
+    "options": [
+      "1.0",
+      "0.5",
+      "1.75",
+      "2.0"
+    ],
+    "answer": "1.75"
+  },
+  {
+    "question": "Why is Log Mean Partial Pressure ($p_{BM}$) used instead of the arithmetic mean in Stagnant B diffusion?",
+    "options": [
+      "Because the concentration profile of B is linear",
+      "Because the concentration profile of B is logarithmic (non-linear)",
+      "It is easier to calculate",
+      "Because the pressure is constant"
+    ],
+    "answer": "Because the concentration profile of B is logarithmic (non-linear)"
+  },
+  {
+    "question": "In dilute liquid solutions, the term $x_{BM}$ approaches:",
+    "options": [
+      "0",
+      "0.5",
+      "1.0",
+      "Infinity"
+    ],
+    "answer": "1.0"
+  },
+  {
+    "question": "For evaporation from a sphere, the time for complete evaporation $t_F$ is proportional to:",
+    "options": [
+      "Initial radius $r_1$",
+      "Square of initial radius $r_1^2$",
+      "Cube of initial radius $r_1^3$",
+      "Inverse of radius $1/r_1$"
+    ],
+    "answer": "Square of initial radius $r_1^2$"
+  },
+  {
+    "question": "In the tapered tube derivation, which quantity is constant along the length of the tube?",
+    "options": [
+      "Flux $N_A$ (mol/m2.s)",
+      "Total Molar Rate $\\bar{N}_A$ (mol/s)",
+      "Concentration Gradient",
+      "Cross-sectional Area"
+    ],
+    "answer": "Total Molar Rate $\\bar{N}_A$ (mol/s)"
+  },
+  {
+    "question": "How does Tortuosity ($\\tau$) affect the flux in porous solids?",
+    "options": [
+      "Increases flux by shortening the path",
+      "Decreases flux by increasing the effective path length",
+      "Has no effect on flux",
+      "Increases flux by increasing pore size"
+    ],
+    "answer": "Decreases flux by increasing the effective path length"
+  },
+  {
+    "question": "In Equimolar Counter-diffusion, the total pressure is constant. What does this imply about the concentration gradient?",
+    "options": [
+      "It is zero",
+      "It is logarithmic",
+      "It is linear",
+      "It is exponential"
+    ],
+    "answer": "It is linear"
+  },
+  {
+    "question": "If $p_{A1}$ is very small compared to Total Pressure P (dilute gas), $p_{BM}$ can be approximated as:",
+    "options": [
+      "0",
+      "$p_{A1}$",
+      "Total Pressure P",
+      "$p_{A1}/2$"
+    ],
+    "answer": "Total Pressure P"
+  },
+  {
+    "question": "In the Arnold Cell (falling liquid level), the rate of liquid level drop $dz/dt$ is related to:",
+    "options": [
+      "The viscosity of the liquid",
+      "The molar flux $N_A$ and liquid density",
+      "The turbulence of the gas",
+      "The solubility of the gas"
+    ],
+    "answer": "The molar flux $N_A$ and liquid density"
+  },
+  {
+    "question": "Why is the Schmidt number for liquids (~1000) much larger than for gases (~1)?",
+    "options": [
+      "Liquids have high diffusivity and low viscosity",
+      "Liquids have low diffusivity and high viscosity",
+      "Liquids are compressible",
+      "Liquids have lower density"
+    ],
+    "answer": "Liquids have low diffusivity and high viscosity"
+  },
+  {
+    "question": "Which formula represents the total concentration $c$ for an ideal gas?",
+    "options": [
+      "$c = RT/P$",
+      "$c = P/RT$",
+      "$c = P V$",
+      "$c = n R T$"
+    ],
+    "answer": "$c = P/RT$"
+  },
+  {
+    "question": "For diffusion through a tapered tube, the radius $r$ is typically assumed to vary with distance $z$:",
+    "options": [
+      "Linearly",
+      "Exponentially",
+      "Logarithmically",
+      "Quadratically"
+    ],
+    "answer": "Linearly"
+  },
+  {
+    "question": "In the general flux equation, if $N_A = -N_B$ (equimolar counter-diffusion), what happens to the convection term?",
+    "options": [
+      "It becomes infinite",
+      "It becomes zero",
+      "It doubles",
+      "It remains unchanged"
+    ],
+    "answer": "It becomes zero"
+  },
+  {
+    "question": "If a porous solid has a void fraction $\\varepsilon = 0.5$ and tortuosity $\\tau = 2.0$, the effective diffusivity is:",
+    "options": [
+      "0.25 times $D_{AB}$",
+      "4.0 times $D_{AB}$",
+      "Equal to $D_{AB}$",
+      "2.5 times $D_{AB}$"
+    ],
+    "answer": "0.25 times $D_{AB}$"
+  },
+  {
+    "question": "For diffusion from a sphere into a stagnant medium, as $r$ increases to infinity, the concentration of A approaches:",
+    "options": [
+      "The surface concentration",
+      "Zero (or the bulk concentration)",
+      "Infinity",
+      "Saturation"
+    ],
+    "answer": "Zero (or the bulk concentration)"
+  },
+  {
+    "question": "What is the concentration of an ideal gas at 1 atm and 300 K? (R = 0.08206 L.atm/mol.K)",
+    "options": [
+      "0.0407 mol/L",
+      "24.6 mol/L",
+      "1.0 mol/L",
+      "0.082 mol/L"
+    ],
+    "answer": "0.0407 mol/L"
+  },
+  {
+    "question": "Calculate the flux $J_{Az}$ if $D_{AB} = 1 \\times 10^{-5} m^2/s$ and the concentration gradient $dc_A/dz = -500 \\ mol/m^4$.",
+    "options": [
+      "0.005 mol/m2.s",
+      "0.05 mol/m2.s",
+      "5.0 mol/m2.s",
+      "50 mol/m2.s"
+    ],
+    "answer": "0.005 mol/m2.s"
+  },
+  {
+    "question": "If $p_{B1} = 0.8$ atm and $p_{B2} = 0.4$ atm, what is the Log Mean Partial Pressure $p_{BM}$?",
+    "options": [
+      "0.60 atm",
+      "0.577 atm",
+      "0.65 atm",
+      "0.50 atm"
+    ],
+    "answer": "0.577 atm"
+  },
+  {
+    "question": "In an equimolar diffusion process, if Flux A is $2.5 \\ mol/m^2.s$, what is Flux B?",
+    "options": [
+      "2.5 mol/m2.s",
+      "-2.5 mol/m2.s",
+      "0",
+      "5.0 mol/m2.s"
+    ],
+    "answer": "-2.5 mol/m2.s"
+  },
+  {
+    "question": "Calculate the effective diffusivity $D_{eff}$ if $D_{AB} = 10^{-9} m^2/s$, $\\varepsilon = 0.4$, and $\\tau = 2.0$.",
+    "options": [
+      "2.0 x 10^-9 m2/s",
+      "0.2 x 10^-9 m2/s",
+      "0.8 x 10^-9 m2/s",
+      "1.0 x 10^-9 m2/s"
+    ],
+    "answer": "0.2 x 10^-9 m2/s"
+  },
+  {
+    "question": "If the temperature of a gas doubles from 300K to 600K, by what factor does diffusivity increase (assuming $T^{1.75}$)?",
+    "options": [
+      "1.75",
+      "2.0",
+      "3.36",
+      "4.0"
+    ],
+    "answer": "3.36"
+  },
+  {
+    "question": "If the pressure of a gas is tripled, what happens to the diffusivity?",
+    "options": [
+      "Increases by 3",
+      "Decreases to 1/3",
+      "Stays the same",
+      "Increases by 9"
+    ],
+    "answer": "Decreases to 1/3"
+  },
+  {
+    "question": "Calculate the Schmidt number if viscosity $\\mu = 1.8 \\times 10^{-5} kg/m.s$, density $\\rho = 1.2 kg/m^3$, and $D = 1.5 \\times 10^{-5} m^2/s$.",
+    "options": [
+      "0.1",
+      "1.0",
+      "1.5",
+      "1000"
+    ],
+    "answer": "1.0"
+  },
+  {
+    "question": "For steady diffusion through a stagnant film ($z = 0.1 m$), if $(p_{A1} - p_{A2}) = 0.2 atm$, $P = 1 atm$, $p_{BM} = 0.9 atm$, and $D_{AB}/RT = 1 \\times 10^{-5} mol/m.s.atm$. What is Flux $N_A$?",
+    "options": [
+      "2.22 x 10^-5 mol/m2.s",
+      "1.8 x 10^-5 mol/m2.s",
+      "2.0 x 10^-5 mol/m2.s",
+      "1.0 x 10^-5 mol/m2.s"
+    ],
+    "answer": "2.22 x 10^-5 mol/m2.s"
+  },
+  {
+    "question": "In a Falling Liquid Level problem, if the level drops from 0.1m to 0.2m, what is the value of $(z_F^2 - z_0^2)$ used in the calculation?",
+    "options": [
+      "0.1 m^2",
+      "0.03 m^2",
+      "0.01 m^2",
+      "0.05 m^2"
+    ],
+    "answer": "0.03 m^2"
+  },
+  {
+    "question": "Convert a flux of $0.05 \\ kg \\ mol / s \\cdot m^2$ to $g \\ mol / s \\cdot cm^2$.",
+    "options": [
+      "0.005",
+      "0.5",
+      "5.0",
+      "50.0"
+    ],
+    "answer": "0.005"
+  },
+  {
+    "question": "If the mole fraction of A in a liquid is $x_A = 0.2$, what is $x_B$ in a binary solution?",
+    "options": [
+      "0.2",
+      "0.5",
+      "0.8",
+      "1.0"
+    ],
+    "answer": "0.8"
+  },
+  {
+    "question": "Calculate the molar density ($c_{av} = \\rho / M$) of water if $\\rho = 1000 kg/m^3$ and $M = 18 kg/kmol$.",
+    "options": [
+      "55.5 kmol/m^3",
+      "18 kmol/m^3",
+      "1000 kmol/m^3",
+      "0.018 kmol/m^3"
+    ],
+    "answer": "55.5 kmol/m^3"
+  },
+  {
+    "question": "For radial diffusion in a cylinder, if inner radius $r_1 = 1m$ and outer radius $r_2 = 2.718m$, what is the value of $\\ln(r_2/r_1)$?",
+    "options": [
+      "0.5",
+      "1.0",
+      "2.0",
+      "2.718"
+    ],
+    "answer": "1.0"
+  },
+  {
+    "question": "If the total molar rate $\\bar{N}_A$ is $10 mol/s$ through a tapered tube, what is the flux at a cross-section with Area = $2 m^2$?",
+    "options": [
+      "20 mol/m2.s",
+      "5 mol/m2.s",
+      "10 mol/m2.s",
+      "2 mol/m2.s"
+    ],
+    "answer": "5 mol/m2.s"
+  },
+  {
+    "question": "Which factor does NOT appear in the Fuller et al. equation for gas diffusivity?",
+    "options": [
+      "Temperature",
+      "Pressure",
+      "Molar Mass",
+      "Fluid Velocity"
+    ],
+    "answer": "Fluid Velocity"
+  }
+]

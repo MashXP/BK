@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Which of the following best describes a membrane in the context of separation processes?",
+    "options": [
+      "A thick barrier that prevents all transport between two phases",
+      "A selective barrier that permits the separation of certain species based on sieving or sorption-diffusion",
+      "A completely permeable layer that mixes two phases homogeneously",
+      "A solid block used to increase pressure in a system"
+    ],
+    "answer": "A selective barrier that permits the separation of certain species based on sieving or sorption-diffusion"
+  },
+  {
+    "question": "In a membrane separation process, what is the stream that passes through the membrane called?",
+    "options": [
+      "Retentate",
+      "Feed",
+      "Permeate",
+      "Concentrate"
+    ],
+    "answer": "Permeate"
+  },
+  {
+    "question": "Which of the following is NOT a pressure-driven membrane process?",
+    "options": [
+      "Reverse Osmosis",
+      "Ultrafiltration",
+      "Dialysis",
+      "Microfiltration"
+    ],
+    "answer": "Dialysis"
+  },
+  {
+    "question": "What is the typical pore size range for Microfiltration (MF) membranes?",
+    "options": [
+      "1 to 100 nm",
+      "0.1 to 10 $\\mu m$",
+      "< 1 nm",
+      "> 1 mm"
+    ],
+    "answer": "0.1 to 10 $\\mu m$"
+  },
+  {
+    "question": "In the context of filtration flow models, what characterizes 'Cross-flow filtration'?",
+    "options": [
+      "Feed flows perpendicular to the membrane surface",
+      "Feed flows parallel to the membrane surface",
+      "Retained particles form a thick cake that stops filtration immediately",
+      "All liquid is forced through the membrane in a single pass"
+    ],
+    "answer": "Feed flows parallel to the membrane surface"
+  },
+  {
+    "question": "Which mechanism is primarily responsible for separation in Ultrafiltration (UF)?",
+    "options": [
+      "Solution-diffusion",
+      "Sieving or size exclusion",
+      "Electromigration",
+      "Vaporization"
+    ],
+    "answer": "Sieving or size exclusion"
+  },
+  {
+    "question": "What is the primary driving force for Reverse Osmosis (RO)?",
+    "options": [
+      "Concentration difference",
+      "Temperature difference",
+      "Pressure difference",
+      "Electrical potential"
+    ],
+    "answer": "Pressure difference"
+  },
+  {
+    "question": "According to the Van't Hoff equation, how is osmotic pressure ($\\pi$) calculated?",
+    "options": [
+      "$$\\pi = \\frac{n}{V_m}RT$$",
+      "$$\\pi = nRT$$",
+      "$$\\pi = \\frac{V_m}{n}RT$$",
+      "$$\\pi = \\frac{n}{R}TV_m$$"
+    ],
+    "answer": "$$\\pi = \\frac{n}{V_m}RT$$"
+  },
+  {
+    "question": "What happens to a cell placed in a hypertonic solution?",
+    "options": [
+      "It swells and bursts",
+      "It remains unchanged",
+      "It shrinks and shrivels",
+      "It divides rapidly"
+    ],
+    "answer": "It shrinks and shrivels"
+  },
+  {
+    "question": "In the diffusion-type model for Reverse Osmosis, how is the solvent (water) flux ($N_w$) expressed?",
+    "options": [
+      "$$N_w = A_w(\\Delta P - \\Delta \\pi)$$",
+      "$$N_w = A_w(\\Delta P + \\Delta \\pi)$$",
+      "$$N_w = A_w(\\Delta \\pi - \\Delta P)$$",
+      "$$N_w = A_s(c_1 - c_2)$$"
+    ],
+    "answer": "$$N_w = A_w(\\Delta P - \\Delta \\pi)$$"
+  },
+  {
+    "question": "How is solute rejection ($R$) defined in Reverse Osmosis?",
+    "options": [
+      "$$R = \\frac{c_2}{c_1}$$",
+      "$$R = 1 - \\frac{c_2}{c_1}$$",
+      "$$R = \\frac{c_1}{c_2} - 1$$",
+      "$$R = c_1 - c_2$$"
+    ],
+    "answer": "$$R = 1 - \\frac{c_2}{c_1}$$"
+  },
+  {
+    "question": "Which process involves the transport of dissolved species through a membrane driven by a concentration gradient, often used in medical hemodialysis?",
+    "options": [
+      "Reverse Osmosis",
+      "Electrodialysis",
+      "Dialysis",
+      "Pervaporation"
+    ],
+    "answer": "Dialysis"
+  },
+  {
+    "question": "In Electrodialysis, what drives the removal of salts from an aqueous solution?",
+    "options": [
+      "Hydrostatic pressure",
+      "Applied electrical potential",
+      "Vacuum pressure",
+      "Temperature gradient"
+    ],
+    "answer": "Applied electrical potential"
+  },
+  {
+    "question": "Pervaporation is a combination of which two processes?",
+    "options": [
+      "Permeation and Vaporization",
+      "Precipitation and Evaporation",
+      "Permeation and Condensation",
+      "Filtration and Sedimentation"
+    ],
+    "answer": "Permeation and Vaporization"
+  },
+  {
+    "question": "What is a common industrial application of Pervaporation?",
+    "options": [
+      "Desalination of sea water",
+      "Clarification of fruit juice",
+      "Preparation of absolute alcohol (azeotrope separation)",
+      "Hemodialysis"
+    ],
+    "answer": "Preparation of absolute alcohol (azeotrope separation)"
+  },
+  {
+    "question": "Which of the following is NOT a category of membrane materials?",
+    "options": [
+      "Polymeric membranes",
+      "Inorganic membranes",
+      "Liquid membranes",
+      "Plasma membranes"
+    ],
+    "answer": "Plasma membranes"
+  },
+  {
+    "question": "What is the unit 'Barrer' used to measure?",
+    "options": [
+      "Membrane thickness",
+      "Permeability coefficient",
+      "Osmotic pressure",
+      "Pore size"
+    ],
+    "answer": "Permeability coefficient"
+  },
+  {
+    "question": "Which mechanism of gas transport occurs when the pore diameter is much smaller than the mean free path of the gas molecules?",
+    "options": [
+      "Bulk flow",
+      "Knudsen diffusion",
+      "Molecular sieving",
+      "Solution-diffusion"
+    ],
+    "answer": "Knudsen diffusion"
+  },
+  {
+    "question": "The Solution-Diffusion model for gas transport through a dense membrane involves three steps. Which is the correct order?",
+    "options": [
+      "Diffusion -> Dissolution -> Desorption",
+      "Dissolution -> Diffusion -> Desorption",
+      "Adsorption -> Filtration -> Evaporation",
+      "Desorption -> Diffusion -> Dissolution"
+    ],
+    "answer": "Dissolution -> Diffusion -> Desorption"
+  },
+  {
+    "question": "How is Membrane Selectivity ($\\alpha_{AB}$) generally defined?",
+    "options": [
+      "The ratio of the permeability of component A to component B",
+      "The sum of the permeabilities of A and B",
+      "The difference between the flux of A and B",
+      "The ratio of membrane thickness to pore size"
+    ],
+    "answer": "The ratio of the permeability of component A to component B"
+  },
+  {
+    "question": "In the series resistance model for membrane processes, the total resistance is the sum of:",
+    "options": [
+      "The membrane resistance only",
+      "The boundary layer resistances and the membrane resistance",
+      "The feed pressure and the permeate pressure",
+      "The osmotic pressure and the hydraulic pressure"
+    ],
+    "answer": "The boundary layer resistances and the membrane resistance"
+  },
+  {
+    "question": "What is 'Permeance' ($P_M$) analogous to in mass transfer?",
+    "options": [
+      "Diffusion coefficient",
+      "Mass transfer coefficient",
+      "Solubility coefficient",
+      "Viscosity"
+    ],
+    "answer": "Mass transfer coefficient"
+  },
+  {
+    "question": "In the Complete Mixing Model for gas permeation, what does the variable $\\theta$ represent?",
+    "options": [
+      "The membrane thickness",
+      "The separation factor",
+      "The cut or fraction of feed permeated",
+      "The temperature"
+    ],
+    "answer": "The cut or fraction of feed permeated"
+  },
+  {
+    "question": "Which equation represents the overall material balance in the Complete Mixing Model?",
+    "options": [
+      "$$L_f = L_o + V_p$$",
+      "$$L_f = L_o - V_p$$",
+      "$$L_f = L_o \\times V_p$$",
+      "$$V_p = L_f + L_o$$"
+    ],
+    "answer": "$$L_f = L_o + V_p$$"
+  },
+  {
+    "question": "If the permeability of Oxygen is $500$ and Nitrogen is $50$, what is the separation factor $\\alpha^*$?",
+    "options": [
+      "10",
+      "450",
+      "550",
+      "0.1"
+    ],
+    "answer": "10"
+  },
+  {
+    "question": "In Reverse Osmosis, if the applied pressure difference $(\\Delta P)$ increases while osmotic pressure difference $(\\Delta \\pi)$ remains constant, what happens to the water flux?",
+    "options": [
+      "It decreases",
+      "It remains the same",
+      "It increases",
+      "It becomes zero"
+    ],
+    "answer": "It increases"
+  },
+  {
+    "question": "Which of the following is an inorganic membrane material?",
+    "options": [
+      "Cellulose acetate",
+      "Polysulphone",
+      "Ceramic",
+      "Polypropylene"
+    ],
+    "answer": "Ceramic"
+  },
+  {
+    "question": "What is the relationship between Permeability ($P_i$), Solubility ($K_i$ or $S$), and Diffusivity ($D_i$)?",
+    "options": [
+      "$$P_i = K_i / D_i$$",
+      "$$P_i = K_i + D_i$$",
+      "$$P_i = K_i D_i$$",
+      "$$P_i = D_i - K_i$$"
+    ],
+    "answer": "$$P_i = K_i D_i$$"
+  },
+  {
+    "question": "In a dead-end filtration system, what causes the increase in filtration resistance over time?",
+    "options": [
+      "Decrease in feed pressure",
+      "Formation and growth of a cake on the membrane surface",
+      "Increase in membrane pore size",
+      "Cross-flow velocity"
+    ],
+    "answer": "Formation and growth of a cake on the membrane surface"
+  },
+  {
+    "question": "Which membrane process is traditionally used for separating yeast from fermentation broth?",
+    "options": [
+      "Reverse Osmosis",
+      "Microfiltration",
+      "Gas Permeation",
+      "Electrodialysis"
+    ],
+    "answer": "Microfiltration"
+  },
+  {
+    "question": "In the context of RO, what does the parameter $B$ represent?",
+    "options": [
+      "Water permeability constant",
+      "Solute permeability constant (often involving distribution coefficient)",
+      "Membrane thickness",
+      "Osmotic pressure"
+    ],
+    "answer": "Solute permeability constant (often involving distribution coefficient)"
+  },
+  {
+    "question": "Why is a sweep gas sometimes used on the permeate side of a membrane module?",
+    "options": [
+      "To increase the pressure on the permeate side",
+      "To help remove the permeate and maintain the driving force",
+      "To clean the membrane surface",
+      "To heat up the membrane"
+    ],
+    "answer": "To help remove the permeate and maintain the driving force"
+  },
+  {
+    "question": "Which of the following polymers is hydrophobic?",
+    "options": [
+      "Cellulose acetate",
+      "Polytetrafluoroethylene (PTFE)",
+      "Wool",
+      "Nylon"
+    ],
+    "answer": "Polytetrafluoroethylene (PTFE)"
+  },
+  {
+    "question": "In gas permeation through dense membranes, what defines the 'Solution-Diffusion' mechanism?",
+    "options": [
+      "Gases pass through large pores based on density",
+      "Gases dissolve in the membrane material and diffuse through the solid matrix",
+      "Gases react chemically with the membrane surface",
+      "Gases are separated by electric charge"
+    ],
+    "answer": "Gases dissolve in the membrane material and diffuse through the solid matrix"
+  },
+  {
+    "question": "Calculate the solute rejection $R$ if the feed concentration is $10$ kg/m$^3$ and the product concentration is $0.39$ kg/m$^3$.",
+    "options": [
+      "0.039",
+      "0.961",
+      "0.39",
+      "10.39"
+    ],
+    "answer": "0.961"
+  },
+  {
+    "question": "What is the typical molecular weight cut-off range for Ultrafiltration?",
+    "options": [
+      "10 to 50 Daltons",
+      "1,000 to 80,000 Daltons",
+      "> 1,000,000 Daltons",
+      "< 10 Daltons"
+    ],
+    "answer": "1,000 to 80,000 Daltons"
+  },
+  {
+    "question": "Which component balance equation allows you to solve for the reject composition $x_o$ in the Complete Mixing Model?",
+    "options": [
+      "$$x_o = \\frac{x_f - \\theta y_p}{1 - \\theta}$$",
+      "$$x_o = x_f + y_p$$",
+      "$$x_o = \\frac{y_p}{x_f}$$",
+      "$$x_o = (1 - \\theta)(x_f - y_p)$$"
+    ],
+    "answer": "$$x_o = \\frac{x_f - \\theta y_p}{1 - \\theta}$$"
+  },
+  {
+    "question": "In Electrodialysis, what specifically allows Na+ ions to pass while rejecting Cl- ions?",
+    "options": [
+      "Anion exchange membrane",
+      "Cation exchange membrane",
+      "Neutral porous membrane",
+      "Ceramic filter"
+    ],
+    "answer": "Cation exchange membrane"
+  },
+  {
+    "question": "For a dilute solution in RO calculations, what approximation is often made regarding $C_{w2}$?",
+    "options": [
+      "It is equal to the feed concentration",
+      "It is negligible",
+      "It is approximately the density of the solvent",
+      "It is equal to the solute concentration"
+    ],
+    "answer": "It is approximately the density of the solvent"
+  },
+  {
+    "question": "What distinguishes Nanofiltration (NF) from Reverse Osmosis (RO)?",
+    "options": [
+      "NF uses higher pressures than RO",
+      "NF has looser pores and rejects divalent ions but passes some monovalent ions",
+      "NF is driven by concentration gradient, RO by pressure",
+      "NF uses only ceramic membranes"
+    ],
+    "answer": "NF has looser pores and rejects divalent ions but passes some monovalent ions"
+  },
+  {
+    "question": "In the series resistance model, if the mass transfer coefficient $k_{c1}$ is very large (infinite), what does this imply about the boundary layer resistance?",
+    "options": [
+      "The resistance is infinite",
+      "The resistance is zero",
+      "The resistance is equal to the membrane resistance",
+      "The concentration at the interface is zero"
+    ],
+    "answer": "The resistance is zero"
+  },
+  {
+    "question": "What is the phase of the product leaving the membrane in a Pervaporation process?",
+    "options": [
+      "Liquid",
+      "Solid precipitate",
+      "Vapor",
+      "Supercritical fluid"
+    ],
+    "answer": "Vapor"
+  },
+  {
+    "question": "What is the retentate in a dialysis process often called?",
+    "options": [
+      "Diffusate",
+      "Dialysate",
+      "Permeate",
+      "Filtrate"
+    ],
+    "answer": "Dialysate"
+  },
+  {
+    "question": "Which factor generally increases the spaces between polymer chains and facilitates diffusional motion in dialysis membranes?",
+    "options": [
+      "Drying",
+      "Swelling of the polymer",
+      "Freezing",
+      "Compressing"
+    ],
+    "answer": "Swelling of the polymer"
+  },
+  {
+    "question": "When calculating membrane area ($A_m$) in gas permeation, which of the following variables is NOT directly in the denominator of the standard equation?",
+    "options": [
+      "Permeability ($P'_A$)",
+      "Feed Flow Rate ($L_f$)",
+      "Membrane thickness ($t$)",
+      "Pressure difference terms"
+    ],
+    "answer": "Feed Flow Rate ($L_f$)"
+  },
+  {
+    "question": "Which of the following is defined as the volume flowing through the membrane per unit area per unit time?",
+    "options": [
+      "Selectivity",
+      "Permeation Flux",
+      "Permeability Coefficient",
+      "Sorption Coefficient"
+    ],
+    "answer": "Permeation Flux"
+  },
+  {
+    "question": "Hybrid membranes, also known as Mixed Matrix Membranes, typically consist of:",
+    "options": [
+      "Two different liquid layers",
+      "Organic and inorganic components",
+      "Two different gases",
+      "A metal sheet and a plastic sheet"
+    ],
+    "answer": "Organic and inorganic components"
+  },
+  {
+    "question": "In the quadratic equation solution for $y_p$ in gas permeation, what does the variable $r$ represent?",
+    "options": [
+      "Radius of the pore",
+      "Resistance of the membrane",
+      "Pressure ratio ($p_l / p_h$)",
+      "Gas constant"
+    ],
+    "answer": "Pressure ratio ($p_l / p_h$)"
+  },
+  {
+    "question": "Which filtration type involves the feed flowing normal (perpendicular) to the membrane surface?",
+    "options": [
+      "Cross-flow filtration",
+      "Tangential flow filtration",
+      "Dead-end filtration",
+      "Dialysis"
+    ],
+    "answer": "Dead-end filtration"
+  },
+  {
+    "question": "What is the primary mechanism of separation in gas permeation through microporous solids when pore size is very small?",
+    "options": [
+      "Solution-diffusion",
+      "Knudsen diffusion",
+      "Bulk flow",
+      "Phase inversion"
+    ],
+    "answer": "Knudsen diffusion"
+  }
+]

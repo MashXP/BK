@@ -1,0 +1,57 @@
+\section{Liquid - Solid Equilibrium}
+
+\subsection{Notations and Units}
+\begin{center}
+\begin{tabular}{p{0.1\linewidth} p{0.15\linewidth} p{0.65\linewidth}}
+\toprule
+\textbf{Not.} & \textbf{Units} & \textbf{Definition} \\
+\midrule
+$K_x, x_i$ & - & Dist./Part. coeff. \\
+$C$ & mol/L & Concentration \\
+$T$ & K & Temperature \\
+$\Delta H$ & J/mol & Std. enthalpy change \\
+$\lambda_{melt}$ & J/mol & Latent heat of melting \\
+$P$ & Pa, atm & Vapor pressure \\
+$P^0$ & Pa, atm & Pure solvent V.P. \\
+$\Delta T$ & K & Depr. / Elev. \\
+$K_f, K_b$ & K kg/mol & Cryo. / Ebull. constant \\
+$\pi$ & atm & Osmotic pressure \\
+$F, C, P$ & - & Phase Rule: D.o.F, Comp., Ph. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Colligative Properties}
+Applicable to very dilute solutions:
+\begin{itemize}
+    \item \textbf{Vapor Pressure Depression}:
+    \begin{equation}
+        \frac{P_{solv}^0 - P}{P_{solv}^0} = x_{solute} \approx \frac{m_{solute}/M_{solute}}{m_{solvent}/M_{solvent}}
+    \end{equation}
+    \item \textbf{Freezing Point Depression \& Boiling Point Elevation}:
+    \begin{equation}
+        \Delta T = K \cdot C_m \quad \text{where } K = \frac{R T_0^2 M_{solvent}}{1000 \lambda}
+    \end{equation}
+    \item \textbf{Osmotic Pressure} ($\pi$):
+    \begin{equation}
+        \pi V = nRT \implies \pi = CRT
+    \end{equation}
+\end{itemize}
+
+\subsection{Solid Solubility}
+\textbf{Effect of Temperature (Sreder Equation)}:
+For ideal solutions ($\Delta H \approx \lambda_{melting}$):
+\begin{equation}
+    \ln x_i = -\frac{\lambda_i}{R} \left( \frac{1}{T} - \frac{1}{T_0} \right) \implies x_i = k \cdot \exp\left(-\frac{\lambda_i}{RT}\right)
+\end{equation}
+
+\subsection{Two-Component Phase Diagrams}
+\begin{itemize}
+    \item \textbf{Eutectic Point}: Minimum $T$ where liquid and two solids coexist. $c = 2 - 3 + 1 = 0$ (at const $P$).
+    \item \textbf{Lever Rule}: 
+    \begin{equation}
+        \frac{m_{solid}}{m_{liquid}} = \frac{l_{\text{liquid}}}{l_{\text{solid}}}
+    \end{equation}
+\end{itemize}
+\vspace{0.2cm}
+

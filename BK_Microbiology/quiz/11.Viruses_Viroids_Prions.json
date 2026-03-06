@@ -1,0 +1,522 @@
+[
+  {
+    "question": "What is the main subject of the presentation based on the title slide?",
+    "options": [
+      "Bacteria",
+      "Fungi",
+      "Viruses",
+      "Protozoa"
+    ],
+    "answer": "Viruses"
+  },
+  {
+    "question": "Which of the following topics is NOT listed in the agenda for the presentation?",
+    "options": [
+      "Morphology",
+      "Classification",
+      "Metabolism",
+      "Multiplication"
+    ],
+    "answer": "Metabolism"
+  },
+  {
+    "question": "Among the following, which virus is notably bullet-shaped according to the morphology slide?",
+    "options": [
+      "Poliovirus",
+      "Adenovirus",
+      "Rabies virus",
+      "Tobacco mosaic virus"
+    ],
+    "answer": "Rabies virus"
+  },
+  {
+    "question": "What is the approximate diameter of a Human red blood cell, providing context for viral sizes?",
+    "options": [
+      "300 nm",
+      "1000 nm",
+      "3000 nm",
+      "10,000 nm"
+    ],
+    "answer": "10,000 nm"
+  },
+  {
+    "question": "What is a VIRION defined as?",
+    "options": [
+      "A protein coat without nucleic acid.",
+      "A complete, fully developed, infectious viral particle.",
+      "Any infectious agent that causes disease.",
+      "A bacterial cell infected by a virus."
+    ],
+    "answer": "A complete, fully developed, infectious viral particle."
+  },
+  {
+    "question": "A virion is composed of nucleic acid surrounded by what type of macromolecule?",
+    "options": [
+      "Lipid",
+      "Carbohydrate",
+      "Protein",
+      "Polysaccharide"
+    ],
+    "answer": "Protein"
+  },
+  {
+    "question": "Which of the following is NOT listed as a primary criterion for virus classification?",
+    "options": [
+      "Disease symptoms",
+      "Infected hosts",
+      "Viral metabolism",
+      "Genetic material types"
+    ],
+    "answer": "Viral metabolism"
+  },
+  {
+    "question": "If a novel infectious agent is discovered to be approximately 20 nm in its shortest dimension and is described as a short, thin rod, which known infectious agent from the morphology section does it most closely resemble in shape and relative size?",
+    "options": [
+      "Poliovirus",
+      "Prion",
+      "Vaccinia virus",
+      "Ebola virus"
+    ],
+    "answer": "Prion"
+  },
+  {
+    "question": "In viral nomenclature, what suffix is typically used for family names?",
+    "options": [
+      "-virus",
+      "-viridae",
+      "-ales",
+      "-virion"
+    ],
+    "answer": "-viridae"
+  },
+  {
+    "question": "A viral species is defined as a group of viruses sharing the same genetic information and what other characteristic?",
+    "options": [
+      "Morphological type",
+      "Replication mechanism",
+      "Ecological niche (host range)",
+      "Disease symptoms"
+    ],
+    "answer": "Ecological niche (host range)"
+  },
+  {
+    "question": "Human alphaherpesvirus 3 is classified under which viral family?",
+    "options": [
+      "Retroviridae",
+      "Picornaviridae",
+      "Orthoherpesviridae",
+      "Rhabdoviridae"
+    ],
+    "answer": "Orthoherpesviridae"
+  },
+  {
+    "question": "Which human herpesvirus (HHV) is known to cause chickenpox?",
+    "options": [
+      "HHV-1",
+      "HHV-2",
+      "HHV-3",
+      "HHV-4"
+    ],
+    "answer": "HHV-3"
+  },
+  {
+    "question": "Which genus is associated with both HHV-6 and HHV-7?",
+    "options": [
+      "Simplexvirus",
+      "Varicellovirus",
+      "Roseolovirus",
+      "Cytomegalovirus"
+    ],
+    "answer": "Roseolovirus"
+  },
+  {
+    "question": "A newly identified animal virus has a double-stranded RNA genome and directly produces mRNA inside its capsid before releasing it into the host cytoplasm. According to the Baltimore classification, to which group and general family characteristic (from the provided family list) would it most likely belong?",
+    "options": [
+      "Group I, Poxviridae",
+      "Group III, Reoviridae",
+      "Group IV, Picornaviridae",
+      "Group V, Rhabdoviridae"
+    ],
+    "answer": "Group III, Reoviridae"
+  },
+  {
+    "question": "What is the innermost component of a rhabdovirus particle as highlighted in the diagram?",
+    "options": [
+      "Capsid",
+      "Envelope",
+      "RNA",
+      "Spikes"
+    ],
+    "answer": "RNA"
+  },
+  {
+    "question": "Which of the following is NOT a characteristic property of viral nucleic acids?",
+    "options": [
+      "Can be DNA or RNA.",
+      "Can be single- or double-stranded.",
+      "Always linear.",
+      "Can consist of one or more chromosomes."
+    ],
+    "answer": "Always linear."
+  },
+  {
+    "question": "What are the protein subunits that make up a viral capsid called?",
+    "options": [
+      "Virions",
+      "Spikes",
+      "Capsomeres",
+      "Nucleotides"
+    ],
+    "answer": "Capsomeres"
+  },
+  {
+    "question": "Based on the description, which viral morphology is characteristic of the Ebola virus?",
+    "options": [
+      "Polyhedral",
+      "Bullet-shaped",
+      "Long, thin, flexible, and filamentous",
+      "Brick-shaped"
+    ],
+    "answer": "Long, thin, flexible, and filamentous"
+  },
+  {
+    "question": "What is the chemical composition of a capsomere?",
+    "options": [
+      "Lipids",
+      "Carbohydrates",
+      "Proteins",
+      "Nucleic acids"
+    ],
+    "answer": "Proteins"
+  },
+  {
+    "question": "The viral envelope of an enveloped helical virus like influenza is commonly composed of which three types of macromolecules?",
+    "options": [
+      "Proteins, nucleic acids, and lipids",
+      "Lipids, proteins, and carbohydrates",
+      "Carbohydrates, nucleic acids, and lipids",
+      "Proteins, carbohydrates, and nucleic acids"
+    ],
+    "answer": "Lipids, proteins, and carbohydrates"
+  },
+  {
+    "question": "The viral envelope may originate from which source?",
+    "options": [
+      "Only the host cell.",
+      "Only viral encoded components.",
+      "Both host cell and viral encoded components.",
+      "The environment."
+    ],
+    "answer": "Both host cell and viral encoded components."
+  },
+  {
+    "question": "What are the protein-carbohydrate complexes that may cover the viral envelope called?",
+    "options": [
+      "Capsomeres",
+      "Spikes",
+      "Nucleic acids",
+      "Peptidoglycans"
+    ],
+    "answer": "Spikes"
+  },
+  {
+    "question": "Which of the following is a stated function of the viral capsid and envelope?",
+    "options": [
+      "To synthesize viral ATP.",
+      "To replicate the host cell DNA.",
+      "To protect the viral nucleic acid inside the cell.",
+      "To degrade host cell components."
+    ],
+    "answer": "To protect the viral nucleic acid inside the cell."
+  },
+  {
+    "question": "What is a defining characteristic of \"Complex viruses\" as introduced in the notes?",
+    "options": [
+      "They only infect animal cells.",
+      "They have simple, spherical capsids.",
+      "They are typically bacteriophages with elaborate structures.",
+      "They contain both DNA and RNA genomes simultaneously."
+    ],
+    "answer": "They are typically bacteriophages with elaborate structures."
+  },
+  {
+    "question": "Bacteriophages are viruses that specifically attack which type of cell?",
+    "options": [
+      "Animal cells",
+      "Plant cells",
+      "Bacterial cells",
+      "Fungal cells"
+    ],
+    "answer": "Bacterial cells"
+  },
+  {
+    "question": "Why are viruses unable to multiply outside a host cell?",
+    "options": [
+      "They lack a protein coat.",
+      "They do not have ribosomes.",
+      "They are too small.",
+      "They cannot synthesize their own nucleic acids."
+    ],
+    "answer": "They do not have ribosomes."
+  },
+  {
+    "question": "The \"lock & key\" mechanism for viral host recognition involves the matching between viral surface proteins and what structures on the host cells?",
+    "options": [
+      "Plasma membrane lipids",
+      "Specific receptor molecules",
+      "Cell wall carbohydrates",
+      "Cytoplasmic enzymes"
+    ],
+    "answer": "Specific receptor molecules"
+  },
+  {
+    "question": "Which viral entry mechanism is characteristic of T-even phages into bacterial cells?",
+    "options": [
+      "Receptor-mediated endocytosis",
+      "Fusion with the host plasma membrane",
+      "Puncturing the cell wall with tail apparatus",
+      "Direct penetration through the cell wall"
+    ],
+    "answer": "Puncturing the cell wall with tail apparatus"
+  },
+  {
+    "question": "Enveloped viruses primarily enter host cells by which mechanism?",
+    "options": [
+      "Direct injection of nucleic acid",
+      "Enzymatic digestion of the cell wall",
+      "Fusion with the host plasma membrane",
+      "Phagocytosis by the host cell"
+    ],
+    "answer": "Fusion with the host plasma membrane"
+  },
+  {
+    "question": "Which stage of viral multiplication is generally NOT required for bacteriophages but is essential for animal viruses to release their genetic material?",
+    "options": [
+      "Attachment",
+      "Entry",
+      "Uncoating",
+      "Biosynthesis"
+    ],
+    "answer": "Uncoating"
+  },
+  {
+    "question": "During biosynthesis, where do DNA viruses typically replicate their genomes?",
+    "options": [
+      "In the cytoplasm",
+      "In the nucleus",
+      "On the host cell surface",
+      "Outside the host cell"
+    ],
+    "answer": "In the nucleus"
+  },
+  {
+    "question": "Which enzyme do RNA viruses use to replicate their genomes based on their RNA templates?",
+    "options": [
+      "Host DNA polymerase",
+      "Viral DNA ligase",
+      "Viral polymerase",
+      "Host RNA ligase"
+    ],
+    "answer": "Viral polymerase"
+  },
+  {
+    "question": "What is the final step in the general characteristics of viral multiplication, after nucleic acids and capsomeres are produced?",
+    "options": [
+      "Release of host cell enzymes",
+      "Degradation of viral components",
+      "Assembly to form new viruses",
+      "Formation of a provirus"
+    ],
+    "answer": "Assembly to form new viruses"
+  },
+  {
+    "question": "A newly discovered animal virus is found to attach to host cell surface glycoproteins, enter the cell via endocytosis, and require enzymatic removal of its capsid to release its genetic material. Based on this information, which of the following is most likely true regarding this virus?",
+    "options": [
+      "It is a bacteriophage.",
+      "It does not require uncoating.",
+      "It is an animal virus.",
+      "It directly injects its DNA into the host cell."
+    ],
+    "answer": "It is an animal virus."
+  },
+  {
+    "question": "According to the biosynthesis table, what is a special feature of Hepadnaviridae biosynthesis?",
+    "options": [
+      "Viral RNA functions as a template for synthesis of RNA polymerase.",
+      "Cellular enzyme copies viral RNA to make DNA in the cytoplasm.",
+      "Reverse transcriptase copies mRNA to make viral DNA.",
+      "Viral enzyme copies – strand RNA to make mRNA in virion."
+    ],
+    "answer": "Reverse transcriptase copies mRNA to make viral DNA."
+  },
+  {
+    "question": "Which virus family utilizes a viral enzyme to copy its viral RNA to make DNA in the cytoplasm, with the DNA then moving to the nucleus?",
+    "options": [
+      "Picornaviridae",
+      "Rhabdoviridae",
+      "Reoviridae",
+      "Retroviridae"
+    ],
+    "answer": "Retroviridae"
+  },
+  {
+    "question": "What is the enzyme responsible for copying viral RNA to produce double-stranded DNA in HIV replication?",
+    "options": [
+      "Integrase",
+      "Protease",
+      "Reverse transcriptase",
+      "RNA polymerase"
+    ],
+    "answer": "Reverse transcriptase"
+  },
+  {
+    "question": "During HIV replication, after the viral DNA is transported into the host cell's nucleus, it integrates into a host cell chromosome. What is the integrated viral DNA referred to as?",
+    "options": [
+      "Virion",
+      "Prophage",
+      "Provirus",
+      "Plasmid"
+    ],
+    "answer": "Provirus"
+  },
+  {
+    "question": "What is a defining characteristic of the lytic cycle of bacteriophages?",
+    "options": [
+      "The host cell is not destroyed.",
+      "Phages multiply and eventually destroy the host cell.",
+      "The phage genome integrates into the host chromosome indefinitely.",
+      "Only non-virulent phages undergo this cycle."
+    ],
+    "answer": "Phages multiply and eventually destroy the host cell."
+  },
+  {
+    "question": "Compare the locations of viral DNA replication and viral protein synthesis for a Papovavirus (a DNA animal virus) versus an RNA virus from the Rhabdoviridae family.",
+    "options": [
+      "Papovavirus: DNA replication in cytoplasm, protein synthesis in nucleus. Rhabdoviridae: RNA replication in nucleus, protein synthesis in cytoplasm.",
+      "Papovavirus: DNA replication in nucleus, protein synthesis in cytoplasm. Rhabdoviridae: RNA replication in cytoplasm, protein synthesis in cytoplasm.",
+      "Papovavirus: DNA replication in nucleus, protein synthesis in nucleus. Rhabdoviridae: RNA replication in nucleus, protein synthesis in nucleus.",
+      "Papovavirus: DNA replication in cytoplasm, protein synthesis in cytoplasm. Rhabdoviridae: RNA replication in cytoplasm, protein synthesis in nucleus."
+    ],
+    "answer": "Papovavirus: DNA replication in nucleus, protein synthesis in cytoplasm. Rhabdoviridae: RNA replication in cytoplasm, protein synthesis in cytoplasm."
+  },
+  {
+    "question": "A phage that is able to multiply through both lytic and lysogenic cycles inside a bacterial cell is known as a:",
+    "options": [
+      "Virulent phage",
+      "Temperate phage",
+      "Prophage",
+      "Viroid"
+    ],
+    "answer": "Temperate phage"
+  },
+  {
+    "question": "A bacterial culture infected with a particular bacteriophage shows no immediate signs of lysis but continues to grow and divide, with all daughter cells carrying the phage's genetic material. However, exposure to UV light later triggers a sudden, widespread lysis of the bacterial population. This scenario describes the activity of which type of phage?",
+    "options": [
+      "A virulent phage exclusively in the lytic cycle.",
+      "A temperate phage initially in the lysogenic cycle.",
+      "A bacteriophage undergoing reverse transcription.",
+      "A phage that has failed to attach to the host cell."
+    ],
+    "answer": "A temperate phage initially in the lysogenic cycle."
+  },
+  {
+    "question": "Which type of infectious agent is composed of short pieces of naked RNA, typically 300 to 400 nucleotides long, without a protein coat?",
+    "options": [
+      "Virus",
+      "Prion",
+      "Viroid",
+      "Bacteriophage"
+    ],
+    "answer": "Viroid"
+  },
+  {
+    "question": "What is a \"virusoid\"?",
+    "options": [
+      "A fully infectious virus that contains only RNA.",
+      "A viroid-like entity that is enclosed in a protein coat and causes disease only when the cell is infected by a virus.",
+      "A variant of a prion that infects plants.",
+      "A type of bacteriophage with a very simple structure."
+    ],
+    "answer": "A viroid-like entity that is enclosed in a protein coat and causes disease only when the cell is infected by a virus."
+  },
+  {
+    "question": "What host enzyme do viroids and virusoids utilize for continuous replication in the cell nucleus or chloroplasts?",
+    "options": [
+      "Host DNA polymerase",
+      "Host RNA polymerase",
+      "Viral reverse transcriptase",
+      "Viral ligase"
+    ],
+    "answer": "Host RNA polymerase"
+  },
+  {
+    "question": "A plant pathologist discovers a novel infectious agent in potato plants that causes stunted growth and leaf discoloration. Analysis reveals the agent is a small, circular RNA molecule without a protein coat, and it replicates using the host cell's RNA polymerase. This agent is most likely a member of which genus?",
+    "options": [
+      "Avsunviroid",
+      "Pospiviroid",
+      "Cocadviroid",
+      "Pelamoviroid"
+    ],
+    "answer": "Pospiviroid"
+  },
+  {
+    "question": "What is the fundamental chemical nature of prions?",
+    "options": [
+      "Nucleic acids",
+      "Lipids",
+      "Proteins",
+      "Carbohydrates"
+    ],
+    "answer": "Proteins"
+  },
+  {
+    "question": "Which type of disease do prions cause?",
+    "options": [
+      "Acute respiratory infections",
+      "Degenerative brain diseases",
+      "Bacterial skin infections",
+      "Plant wilting diseases"
+    ],
+    "answer": "Degenerative brain diseases"
+  },
+  {
+    "question": "A medical researcher is investigating a novel neurodegenerative disease. They discover that the causative agent is a protein that is highly resistant to standard sterilization methods, including autoclaving. Further investigation reveals that this protein accumulates in brain tissue, leading to vacuolation and eventual neuronal cell death, with a long asymptomatic period. Based on the provided information, what type of infectious agent is most likely responsible for this disease?",
+    "options": [
+      "An enveloped RNA virus",
+      "A viroid",
+      "A prion",
+      "A DNA bacteriophage"
+    ],
+    "answer": "A prion"
+  },
+  {
+    "question": "Distinguish the fundamental difference in genetic material and protein coding between viroids and prions.",
+    "options": [
+      "Viroids have DNA and code for proteins, while prions have RNA and do not code for proteins.",
+      "Viroids have RNA and do not code for proteins, while prions are proteins and have no genetic material.",
+      "Viroids are proteins and have no genetic material, while prions have RNA and code for proteins.",
+      "Viroids have DNA and do not code for proteins, while prions have RNA and code for proteins."
+    ],
+    "answer": "Viroids have RNA and do not code for proteins, while prions are proteins and have no genetic material."
+  },
+  {
+    "question": "Consider a vaccine designed to target an enveloped virus's attachment to host cells. Based on the components discussed in the notes, which viral structure would be the most effective target for antibodies in such a vaccine?",
+    "options": [
+      "The internal RNA genome",
+      "The capsid proteins",
+      "The host cell's plasma membrane",
+      "The spikes on the viral envelope"
+    ],
+    "answer": "The spikes on the viral envelope"
+  },
+  {
+    "question": "A newly identified viral infection causes chronic symptoms in its animal host, characterized by periods of latency and a strong association with the development of certain cancers. This pattern of infection is most consistent with which type of viral interaction with the host?",
+    "options": [
+      "Lytic cycle of a bacteriophage",
+      "Acute infection by a virulent phage",
+      "Chronic infection mechanisms of animal viruses (latency; slow viral infections; cancer)",
+      "Replication of a viroid"
+    ],
+    "answer": "Chronic infection mechanisms of animal viruses (latency; slow viral infections; cancer)"
+  }
+]

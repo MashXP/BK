@@ -1,0 +1,47 @@
+\subsection{Laplace Equation}
+Describes the pressure difference across a curved interface.
+\begin{equation}
+    \Delta P = \gamma \left( \frac{1}{R_1} + \frac{1}{R_2} \right)
+\end{equation}
+\textbf{Special Cases:}
+\begin{itemize}
+    \item \textbf{Sphere:} $\Delta P = \frac{2\gamma}{R}$
+    \item \textbf{Cylinder:} $\Delta P = \frac{\gamma}{R}$
+    \item \textbf{Planar:} $\Delta P = 0$
+\end{itemize}
+
+\subsection{Meniscus and Capillarity}
+\begin{itemize}
+    \item \textbf{Concave Meniscus:} Adhesion $>$ Cohesion ($r < 0$).
+    \item \textbf{Convex Meniscus:} Cohesion $>$ Adhesion ($r > 0$).
+\end{itemize}
+\textbf{Ostwald Ripening:} Process where large particles/droplets grow at the expense of smaller ones to minimize total surface energy.
+
+\subsection{Kelvin Equation}
+Describes the change in vapor pressure due to a curved liquid-vapor interface (droplet or bubble).
+\begin{equation}
+    \ln \left( \frac{P_r}{P^0} \right) = \frac{2 \gamma V_m}{RT r}
+\end{equation}
+Where $P_r$ is the vapor pressure over the curved surface, and $P^0$ is the standard vapor pressure.
+For \textbf{Capillary Condensation} in a pore with radius $r$:
+\begin{equation}
+    RT \ln \left( \frac{P}{P_0} \right) = \gamma V_m \left( \frac{1}{R_1} + \frac{1}{R_2} \right)
+\end{equation}
+
+\subsection{Nucleation}
+\textbf{Critical Radius ($r_c$):}
+\begin{equation}
+    r_c = \frac{2 \gamma V_m}{RT \ln S}
+\end{equation}
+\textbf{Critical Free Energy ($\Delta G_c$):}
+\begin{equation}
+    \Delta G_c = \frac{16 \pi \gamma^3 V_m^2}{3 (RT \ln S)^2}
+\end{equation}
+
+\subsection{Marangoni Effect}
+Tangential (shear) forces created by a gradient in surface tension along an interface:
+\begin{equation}
+    f_{Marangoni} = \nabla \gamma
+\end{equation}
+Causes liquid to flow from regions of low surface tension to high surface tension.
+\vspace{0.2cm}

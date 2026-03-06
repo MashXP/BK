@@ -1,0 +1,12 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+
+    "latex-workshop.latex.autoBuild.run": "onFileChange",
+
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+
+    "latex-workshop.view.pdf.viewer": "tab",
+    
+    "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click"
+}

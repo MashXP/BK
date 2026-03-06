@@ -1,0 +1,56 @@
+\section{Phase Equilibrium Theory}
+
+\subsection{Gibbs Phase Rule}
+\begin{itemize}
+    \item \textbf{Degrees of Freedom} ($c$): The number of independent intensive variables (e.g., $T, P, x_i$).
+    \item \textbf{Phase Rule}: 
+    \begin{equation}
+        c = k - f + 2
+    \end{equation}
+    Where $k$ is components and $f$ is phases.
+    \item \textbf{Number of Components} ($k$): $k = r - q$.
+\end{itemize}
+
+\subsection{One-Component Systems ($k=1$)}
+\begin{itemize}
+    \item Single phase ($f=1$): $c = 2$ (Bivariant).
+    \item Two phases ($f=2$): $c = 1$ (Univariant).
+    \item Three phases ($f=3$): $c = 0$ (Invariant).
+\end{itemize}
+
+\subsection{Clausius-Clapeyron Equations}
+\begin{itemize}
+    \item \textbf{Effect of $P$ on Phase Transition $T$}:
+    \begin{equation}
+        \frac{dT}{dP} = \frac{T \Delta V}{\lambda}, \quad \Delta T \approx \frac{T \Delta V}{\lambda} \Delta P
+    \end{equation}
+    \item \textbf{Effect of $T$ on Vapor Pressure}: 
+    \begin{equation}
+        \frac{d \ln P}{dT} = \frac{\lambda}{RT^2} \implies \ln \frac{P_2}{P_1} = \frac{\lambda}{R} \left( \frac{1}{T_1} - \frac{1}{T_2} \right)
+    \end{equation}
+\end{itemize}
+
+\subsection{Empirical Rules and Equations}
+\begin{itemize}
+    \item \textbf{Trouton's Rule}: For normal liquids at normal boiling point:
+    \begin{equation}
+        \Delta S_{vap,m} = \frac{\lambda_{vap}}{T_{nbp}} \approx 88 \, \text{J}\cdot\text{K}^{-1}\cdot\text{mol}^{-1}
+    \end{equation}
+    \item \textbf{Antoine Equation}:
+    \begin{equation}
+        \ln P = A - \frac{B}{T + C}
+    \end{equation}
+\end{itemize}
+
+\subsection{Effect of Total Pressure on Vapor Pressure}
+If total pressure $P_t$ increases (e.g., due to an inert gas):
+\begin{equation}
+    \ln \frac{P_2}{P_1} = \frac{V_L (P_{t,2} - P_{t,1})}{RT}
+\end{equation}
+
+\subsection{Effect of Temperature on Latent Heat}
+\textbf{Kirchhoff's Law}:
+\begin{equation}
+    \frac{d\lambda}{dT} = \Delta C_P
+\end{equation}
+\vspace{0.2cm}

@@ -1,0 +1,502 @@
+[
+  {
+    "question": "According to the lecture, how does 'Drying' differ from 'Evaporation' regarding the state of the water removed?",
+    "options": [
+      "Drying removes water as a vapor at its boiling point, while evaporation does not.",
+      "Evaporation removes water as a vapor at its boiling point, while drying usually removes water thermally by air below boiling point.",
+      "Drying removes water mechanically only, while evaporation uses thermal energy.",
+      "There is no difference; they are synonymous terms."
+    ],
+    "answer": "Evaporation removes water as a vapor at its boiling point, while drying usually removes water thermally by air below boiling point."
+  },
+  {
+    "question": "What moisture content level is typically required to prevent microbial growth in the food industry?",
+    "options": [
+      "Less than 20%",
+      "Less than 15%",
+      "Less than 10%",
+      "Less than 5%"
+    ],
+    "answer": "Less than 10%"
+  },
+  {
+    "question": "Which of the following is an example of a mechanical method for removing water mentioned in the slides?",
+    "options": [
+      "Thermal heating",
+      "Air convection",
+      "Centrifuge",
+      "Vacuum drying"
+    ],
+    "answer": "Centrifuge"
+  },
+  {
+    "question": "What is the definition of Humidity (H) in the context of this lecture?",
+    "options": [
+      "The partial pressure of water vapor in the air.",
+      "The mass of water vapor contained in 1 kg of dry air.",
+      "The percentage of saturation of the air.",
+      "The ratio of the partial pressure of water to the total pressure."
+    ],
+    "answer": "The mass of water vapor contained in 1 kg of dry air."
+  },
+  {
+    "question": "What is the Dew Point temperature?",
+    "options": [
+      "The temperature at which water boils at 1 atm.",
+      "The temperature at which a given mixture of air and water vapor becomes saturated.",
+      "The temperature measured by a thermometer with a wet wick.",
+      "The temperature where the relative humidity is 0%."
+    ],
+    "answer": "The temperature at which a given mixture of air and water vapor becomes saturated."
+  },
+  {
+    "question": "In a continuous drying method, how is the input typically handled?",
+    "options": [
+      "Added once at the beginning.",
+      "Continuously added throughout the process.",
+      "Added in cycles every 24 hours.",
+      "Added only when the product is removed."
+    ],
+    "answer": "Continuously added throughout the process."
+  },
+  {
+    "question": "Which of the following is NOT listed as a capacity factor for air drying?",
+    "options": [
+      "Air humidity",
+      "Air temperature",
+      "Air pressure",
+      "None of the above (all influence capacity)"
+    ],
+    "answer": "None of the above (all influence capacity)"
+  },
+  {
+    "question": "What is Equilibrium Moisture Content (EMC)?",
+    "options": [
+      "The moisture content when the solid is completely wet.",
+      "The moisture content remaining after infinite drying time.",
+      "The definite moisture content a solid attains after prolonged exposure to air at a specific T and H.",
+      "The difference between the total moisture and the free moisture."
+    ],
+    "answer": "The definite moisture content a solid attains after prolonged exposure to air at a specific T and H."
+  },
+  {
+    "question": "What does the symbol 'Tw' represent in the lecture slides?",
+    "options": [
+      "Dry bulb temperature",
+      "Dew point temperature",
+      "Wet bulb temperature",
+      "Water temperature"
+    ],
+    "answer": "Wet bulb temperature"
+  },
+  {
+    "question": "Which industry is specifically mentioned as using drying as a final processing step before packaging?",
+    "options": [
+      "Automotive",
+      "Pharmaceutical",
+      "Textile",
+      "Petrochemical"
+    ],
+    "answer": "Pharmaceutical"
+  },
+  {
+    "question": "What is the formula for Humidity (H) given partial pressure of water (pA) and total pressure (P)?",
+    "options": [
+      "H = 18.02 * pA / P",
+      "H = (18.02 / 28.97) * (pA / (P - pA))",
+      "H = (28.97 / 18.02) * (pA / (P - pA))",
+      "H = pA / (P - pA)"
+    ],
+    "answer": "H = (18.02 / 28.97) * (pA / (P - pA))"
+  },
+  {
+    "question": "How is Percentage Humidity (Hp) calculated?",
+    "options": [
+      "Hp = 100 * (pA / pAS)",
+      "Hp = 100 * (H / Hs)",
+      "Hp = 100 * (pAS / pA)",
+      "Hp = 100 * (Hs / H)"
+    ],
+    "answer": "Hp = 100 * (H / Hs)"
+  },
+  {
+    "question": "Which statement correctly distinguishes Percentage Relative Humidity (HR) from Percentage Humidity (Hp)?",
+    "options": [
+      "HR uses the ratio of partial pressures; Hp uses the ratio of humidities.",
+      "HR uses the ratio of humidities; Hp uses the ratio of partial pressures.",
+      "They are identical values.",
+      "HR is always lower than Hp."
+    ],
+    "answer": "HR uses the ratio of partial pressures; Hp uses the ratio of humidities."
+  },
+  {
+    "question": "What is the equation for Humid Heat (cs) in SI units (kJ/kg dry air·K)?",
+    "options": [
+      "cs = 0.24 + 0.45 H",
+      "cs = 1.005 + 1.88 H",
+      "cs = 4.18 + 1.88 H",
+      "cs = 1.005 + 2.5 H"
+    ],
+    "answer": "cs = 1.005 + 1.88 H"
+  },
+  {
+    "question": "When calculating Humid Volume (vH), what temperature unit must be used in the formula vH = (2.83e-3 + 4.56e-3 H)T?",
+    "options": [
+      "Celsius (°C)",
+      "Fahrenheit (°F)",
+      "Kelvin (K)",
+      "Rankine (R)"
+    ],
+    "answer": "Kelvin (K)"
+  },
+  {
+    "question": "What defines the 'Adiabatic Saturation Temperature' (Ts)?",
+    "options": [
+      "The temperature where air is cooled by a heater.",
+      "The steady state temperature attained when gas contacts a large amount of liquid water in an insulated chamber.",
+      "The temperature at which dew forms on a surface.",
+      "The boiling point of water at the system pressure."
+    ],
+    "answer": "The steady state temperature attained when gas contacts a large amount of liquid water in an insulated chamber."
+  },
+  {
+    "question": "On the Humidity Chart, what is plotted on the x-axis?",
+    "options": [
+      "Humidity, H",
+      "Moisture Content",
+      "Dry-bulb Temperature",
+      "Wet-bulb Temperature"
+    ],
+    "answer": "Dry-bulb Temperature"
+  },
+  {
+    "question": "For an air-water system, what is the relationship between the Adiabatic Saturation Temperature (Ts) and the Wet Bulb Temperature (Tw)?",
+    "options": [
+      "Ts is always significantly higher than Tw.",
+      "Ts is always significantly lower than Tw.",
+      "Ts is approximately equal to Tw.",
+      "They are unrelated."
+    ],
+    "answer": "Ts is approximately equal to Tw."
+  },
+  {
+    "question": "Free moisture content (X) is defined as:",
+    "options": [
+      "The total moisture content (XT) plus the equilibrium moisture content (X*).",
+      "The total moisture content (XT) minus the equilibrium moisture content (X*).",
+      "The equilibrium moisture content (X*) minus the total moisture content (XT).",
+      "The ratio of total moisture to dry solid weight."
+    ],
+    "answer": "The total moisture content (XT) minus the equilibrium moisture content (X*)."
+  },
+  {
+    "question": "The rate of drying (R) is expressed in which units?",
+    "options": [
+      "kg moisture / h",
+      "kg moisture / kg dry solid",
+      "kg moisture / (h · m²)",
+      "kg dry solid / h"
+    ],
+    "answer": "kg moisture / (h · m²)"
+  },
+  {
+    "question": "In the constant-rate drying period, the surface of the solid is assumed to be at:",
+    "options": [
+      "The dry bulb temperature of the air.",
+      "The dew point temperature of the air.",
+      "The wet bulb temperature of the air.",
+      "100°C."
+    ],
+    "answer": "The wet bulb temperature of the air."
+  },
+  {
+    "question": "How does the Equilibrium Moisture Content (EMC) of a solid generally change with an increase in temperature at a given humidity?",
+    "options": [
+      "EMC increases.",
+      "EMC decreases.",
+      "EMC remains constant.",
+      "EMC fluctuates randomly."
+    ],
+    "answer": "EMC decreases."
+  },
+  {
+    "question": "Which type of material typically has a higher Equilibrium Moisture Content (EMC)?",
+    "options": [
+      "Nonporous insoluble solids (e.g., glass wool).",
+      "Food or biological materials.",
+      "Metals.",
+      "Hard plastics."
+    ],
+    "answer": "Food or biological materials."
+  },
+  {
+    "question": "For air flowing **parallel** to the drying surface, the heat transfer coefficient (h) is proportional to:",
+    "options": [
+      "G^0.37",
+      "G^0.8",
+      "G^1.0",
+      "G^0.5"
+    ],
+    "answer": "G^0.8"
+  },
+  {
+    "question": "For air flowing **perpendicular** to the drying surface, the heat transfer coefficient (h) is proportional to:",
+    "options": [
+      "G^0.37",
+      "G^0.8",
+      "G^1.0",
+      "G^2.0"
+    ],
+    "answer": "G^0.37"
+  },
+  {
+    "question": "In the calculation of drying rate Rc, what does 'λw' represent?",
+    "options": [
+      "Thermal conductivity of water.",
+      "Latent heat of vaporization at the wet bulb temperature.",
+      "Latent heat of vaporization at 0°C.",
+      "Specific heat capacity of water."
+    ],
+    "answer": "Latent heat of vaporization at the wet bulb temperature."
+  },
+  {
+    "question": "The constant drying rate Rc is calculated using the equation:",
+    "options": [
+      "Rc = h(T - Tw)",
+      "Rc = h(T - Tw) / λw",
+      "Rc = h * λw * (T - Tw)",
+      "Rc = λw / (h * (T - Tw))"
+    ],
+    "answer": "Rc = h(T - Tw) / λw"
+  },
+  {
+    "question": "What happens to the relative humidity (RH) at the wet bulb temperature when no water evaporates?",
+    "options": [
+      "RH is 0%",
+      "RH is 50%",
+      "RH is 100%",
+      "RH is undefined"
+    ],
+    "answer": "RH is 100%"
+  },
+  {
+    "question": "When predicting constant rate drying, 'G' stands for:",
+    "options": [
+      "Gravitational force",
+      "Mass velocity",
+      "Gas constant",
+      "Gibbs free energy"
+    ],
+    "answer": "Mass velocity"
+  },
+  {
+    "question": "What is the formula for Mass Velocity (G)?",
+    "options": [
+      "G = velocity / density",
+      "G = velocity * density",
+      "G = mass / time",
+      "G = density / area"
+    ],
+    "answer": "G = velocity * density"
+  },
+  {
+    "question": "In the Total Enthalpy (Hy) equation, what is 'T0'?",
+    "options": [
+      "The boiling point of water.",
+      "The reference temperature.",
+      "The absolute zero temperature.",
+      "The dew point temperature."
+    ],
+    "answer": "The reference temperature."
+  },
+  {
+    "question": "Which curve on the Humidity Chart represents 100% saturation?",
+    "options": [
+      "The straight horizontal lines.",
+      "The straight vertical lines.",
+      "The curved line on the far left boundary.",
+      "The diagonal lines sloping downward."
+    ],
+    "answer": "The curved line on the far left boundary."
+  },
+  {
+    "question": "If a solid has a moisture content XT = 0.33 and the EMC is X* = 0.20, what is the free moisture content?",
+    "options": [
+      "0.53",
+      "0.13",
+      "0.66",
+      "0.20"
+    ],
+    "answer": "0.13"
+  },
+  {
+    "question": "In the falling rate period of drying, the rate of drying:",
+    "options": [
+      "Remains constant.",
+      "Increases linearly.",
+      "Decreases.",
+      "Becomes zero immediately."
+    ],
+    "answer": "Decreases."
+  },
+  {
+    "question": "To convert the drying rate formula Rc = (h/λw)(T-Tw) to a rate per hour, what factor is used?",
+    "options": [
+      "60",
+      "1000",
+      "3600",
+      "24"
+    ],
+    "answer": "3600"
+  },
+  {
+    "question": "If the air temperature (T) used for drying is increased, what is the effect on the drying rate (Rc)?",
+    "options": [
+      "Rc decreases significantly.",
+      "Rc remains exactly the same.",
+      "Rc increases because (T - Tw) increases.",
+      "Rc becomes zero."
+    ],
+    "answer": "Rc increases because (T - Tw) increases."
+  },
+  {
+    "question": "If the humidity of the air (H) increases while T remains constant, what happens to the drying rate?",
+    "options": [
+      "The drying rate increases.",
+      "The drying rate decreases because Tw increases, reducing the driving force (T - Tw).",
+      "The drying rate is unaffected.",
+      "The drying rate doubles."
+    ],
+    "answer": "The drying rate decreases because Tw increases, reducing the driving force (T - Tw)."
+  },
+  {
+    "question": "When calculating the density of air (ρ) for the Mass Velocity G, which formula is used?",
+    "options": [
+      "ρ = mass of dry air / volume of dry air",
+      "ρ = (1 + H) / vH",
+      "ρ = vH / (1 + H)",
+      "ρ = 1 / vH"
+    ],
+    "answer": "ρ = (1 + H) / vH"
+  },
+  {
+    "question": "Using the 'Prediction of Constant Rate Drying' formula for time (t), which variables are in the numerator?",
+    "options": [
+      "Ls, λw, and the change in free moisture (X1 - X2).",
+      "Area (A) and heat transfer coefficient (h).",
+      "Temperature difference (T - Tw).",
+      "Mass velocity (G)."
+    ],
+    "answer": "Ls, λw, and the change in free moisture (X1 - X2)."
+  },
+  {
+    "question": "In a drying setup (such as a pan dryer) where the sides and bottom of the container are explicitly described as 'insulated', how is the process characterized thermodynamically?",
+    "options": [
+      "Isothermal",
+      "Adiabatic",
+      "Isobaric",
+      "Isochoric"
+    ],
+    "answer": "Adiabatic"
+  },
+  {
+    "question": "When predicting the new drying rate ($Rc_2$) at a higher temperature ($T_2$) based on a known rate ($Rc_1$) at a lower temperature ($T_1$), while keeping air velocity and humidity properties constant, which ratio is used?",
+    "options": [
+      "By re-measuring G only.",
+      "By using the ratio of the temperature driving forces: (T2 - Tw2) / (T1 - Tw1).",
+      "By assuming the rate doubles for every 10°C.",
+      "By ignoring the change in Wet Bulb Temperature (Tw)."
+    ],
+    "answer": "By using the ratio of the temperature driving forces: (T2 - Tw2) / (T1 - Tw1)."
+  },
+  {
+    "question": "In the context of the lecture, what does 'Ls' represent in the drying rate equation?",
+    "options": [
+      "Length of the solid.",
+      "Latent heat of the solid.",
+      "Kilograms of dry solid.",
+      "Loss of solid mass."
+    ],
+    "answer": "Kilograms of dry solid."
+  },
+  {
+    "question": "In the mass transfer equation NA = ky * (yw - y), what is the driving force?",
+    "options": [
+      "Temperature difference (T - Tw)",
+      "Mole fraction difference (yw - y) or Humidity difference (Hw - H)",
+      "Pressure difference (P - pA)",
+      "Velocity difference"
+    ],
+    "answer": "Mole fraction difference (yw - y) or Humidity difference (Hw - H)"
+  },
+  {
+    "question": "If a heat transfer coefficient ($h$) is calculated to be $86.98~W/m^2K$, what is its equivalent value in $J/s \\cdot m^2 \\cdot K$?",
+    "options": [
+      "86.98 J/s·m²·K",
+      "313,128 J/s·m²·K (multiplied by 3600)",
+      "0.024 J/s·m²·K (divided by 3600)",
+      "86.98 kW/m²·K"
+    ],
+    "answer": "86.98 J/s·m²·K"
+  },
+  {
+    "question": "Given pA = 2.76 kPa and P = 101.325 kPa, the calculation for H involves the ratio of molecular weights. What is this ratio (approximate value)?",
+    "options": [
+      "18.02 / 28.97 (~0.622)",
+      "28.97 / 18.02 (~1.607)",
+      "1.0 / 1.0",
+      "18.02 / 100"
+    ],
+    "answer": "18.02 / 28.97 (~0.622)"
+  },
+  {
+    "question": "If you are given H and need to find the Humid Volume (vH) at a temperature T(°C), what is the first step?",
+    "options": [
+      "Convert T to Kelvin (T + 273.15).",
+      "Multiply H by 100.",
+      "Find the saturation pressure from the steam table.",
+      "Calculate the density."
+    ],
+    "answer": "Convert T to Kelvin (T + 273.15)."
+  },
+  {
+    "question": "When calculating Mass Velocity ($G$) in units of $kg/h \\cdot m^2$ using an air velocity given in $m/s$, why is the factor '3600' used in the equation?",
+    "options": [
+      "To convert velocity from seconds (s) to hours (h).",
+      "To convert mass from kg to g.",
+      "To convert pressure from kPa to Pa.",
+      "To adjust for the cross-sectional area."
+    ],
+    "answer": "To convert velocity from seconds (s) to hours (h)."
+  },
+  {
+    "question": "In the drying curve shown in the slides, what does point 'C' typically represent?",
+    "options": [
+      "The initial start of drying.",
+      "The point where the constant rate period ends and the falling rate period begins (Critical Moisture Content).",
+      "The point where the solid is completely dry.",
+      "The point of maximum heating."
+    ],
+    "answer": "The point where the constant rate period ends and the falling rate period begins (Critical Moisture Content)."
+  },
+  {
+    "question": "If a problem states 'remove 40% of the free moisture content', and X1 = 0.33, X* = 0.20, how is X2 calculated?",
+    "options": [
+      "X2 = X1 - 0.40",
+      "X2 = X1 * 0.60",
+      "Calculate Free Moisture (X_free = X1 - X*), then remove 40% of X_free, then add back X*.",
+      "X2 = X1 - (0.40 * X*)"
+    ],
+    "answer": "Calculate Free Moisture (X_free = X1 - X*), then remove 40% of X_free, then add back X*."
+  },
+  {
+    "question": "What is the relationship between the heat transfer coefficient 'h' and the mass transfer coefficient 'ky' described in the slides?",
+    "options": [
+      "Rc = h(T-Tw)/λw = ky * Mav * (Hw - H)",
+      "h = ky",
+      "h = ky * T",
+      "They are unrelated variables."
+    ],
+    "answer": "Rc = h(T-Tw)/λw = ky * Mav * (Hw - H)"
+  }
+]

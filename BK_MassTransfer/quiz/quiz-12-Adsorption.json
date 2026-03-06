@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What is the primary principle behind adsorption?",
+    "options": [
+      "Absorption of a gas into a liquid volume",
+      "Separation due to adhesion of components on the surface of a solid",
+      "Chemical reaction between two liquids",
+      "Separation based on boiling point differences"
+    ],
+    "answer": "Separation due to adhesion of components on the surface of a solid"
+  },
+  {
+    "question": "In an adsorption system, what is the term for the solid material upon which components adhere?",
+    "options": [
+      "Adsorbate",
+      "Adsorbent",
+      "Solute",
+      "Permeate"
+    ],
+    "answer": "Adsorbent"
+  },
+  {
+    "question": "What are the two types of interactions between the adsorbent and adsorbate?",
+    "options": [
+      "Ionic and Covalent",
+      "Magnetic and Electrical",
+      "Chemisorption and Physisorption",
+      "Homogeneous and Heterogeneous"
+    ],
+    "answer": "Chemisorption and Physisorption"
+  },
+  {
+    "question": "Which of the following pore sizes defines a 'Micropore' in a porous solid?",
+    "options": [
+      "Greater than 500 Å",
+      "Between 20 Å and 500 Å",
+      "Less than 20 Å",
+      "Greater than 50 nm"
+    ],
+    "answer": "Less than 20 Å"
+  },
+  {
+    "question": "Which of the following is NOT a typical application of adsorption?",
+    "options": [
+      "Water treatment",
+      "Gas separation",
+      "Chromatography",
+      "Distillation of crude oil"
+    ],
+    "answer": "Distillation of crude oil"
+  },
+  {
+    "question": "What is the typical range for the large pore surface area of adsorbent particles?",
+    "options": [
+      "1 to 10 $$m^2/g$$",
+      "10 to 50 $$m^2/g$$",
+      "100 to 2000 $$m^2/g$$",
+      "5000 to 10000 $$m^2/g$$"
+    ],
+    "answer": "100 to 2000 $$m^2/g$$"
+  },
+  {
+    "question": "What is the process called when recovering adsorbate and adsorbent for reuse?",
+    "options": [
+      "Absorption",
+      "Desorption",
+      "Saturation",
+      "Breakthrough"
+    ],
+    "answer": "Desorption"
+  },
+  {
+    "question": "Which of the following methods can be used to regenerate an adsorbent (desorption)?",
+    "options": [
+      "Increasing the concentration of the solute",
+      "Changing temperature or pressure",
+      "Adding more adsorbent",
+      "Reducing the surface area"
+    ],
+    "answer": "Changing temperature or pressure"
+  },
+  {
+    "question": "Why is Zeolite considered a better adsorbent than sand for trapping small particles?",
+    "options": [
+      "Sand has a larger surface area",
+      "Zeolite has a rough texture and large surface area with internal porosity",
+      "Sand is chemically reactive",
+      "Zeolite is non-porous"
+    ],
+    "answer": "Zeolite has a rough texture and large surface area with internal porosity"
+  },
+  {
+    "question": "What does an adsorption isotherm represent?",
+    "options": [
+      "The rate of adsorption over time",
+      "The relationship between temperature and pressure",
+      "The equilibrium partitioning of a solute between fluid and solid phases at constant T and P",
+      "The breakthrough curve of a fixed bed"
+    ],
+    "answer": "The equilibrium partitioning of a solute between fluid and solid phases at constant T and P"
+  },
+  {
+    "question": "Which equation represents the Linear (Henry's) adsorption isotherm?",
+    "options": [
+      "$$q = K c^n$$",
+      "$$q = K c$$",
+      "$$q = \\frac{q_o c}{K + c}$$",
+      "$$q = c + K$$"
+    ],
+    "answer": "$$q = K c$$"
+  },
+  {
+    "question": "Under what condition is the Linear adsorption isotherm typically valid?",
+    "options": [
+      "High pressure",
+      "Low pressure",
+      "High temperature only",
+      "When the adsorbent is saturated"
+    ],
+    "answer": "Low pressure"
+  },
+  {
+    "question": "What is the mathematical expression for the Langmuir isotherm?",
+    "options": [
+      "$$q = K c^n$$",
+      "$$q = K c$$",
+      "$$q = \\frac{q_o c}{K + c}$$",
+      "$$q = q_o + K c$$"
+    ],
+    "answer": "$$q = \\frac{q_o c}{K + c}$$"
+  },
+  {
+    "question": "Which of the following is a key assumption of the Langmuir isotherm?",
+    "options": [
+      "Multilayer coverage",
+      "Heterogeneous surface energy",
+      "Monolayer coverage with a fixed number of active sites",
+      "Interaction between adsorbed molecules"
+    ],
+    "answer": "Monolayer coverage with a fixed number of active sites"
+  },
+  {
+    "question": "To determine the constants for the Langmuir isotherm, which plot yields a straight line?",
+    "options": [
+      "$$q$$ vs $$c$$",
+      "$$\\log q$$ vs $$\\log c$$",
+      "$$1/q$$ vs $$1/c$$",
+      "$$q$$ vs $$1/c$$"
+    ],
+    "answer": "$$1/q$$ vs $$1/c$$"
+  },
+  {
+    "question": "In the linearized Langmuir equation $$\\frac{1}{q} = (\\frac{K}{q_o})(\\frac{1}{c}) + \\frac{1}{q_o}$$, what does the y-intercept represent?",
+    "options": [
+      "$$K$$",
+      "$$q_o$$",
+      "$$\\frac{1}{K}$$",
+      "$$\\frac{1}{q_o}$$"
+    ],
+    "answer": "$$\\frac{1}{q_o}$$"
+  },
+  {
+    "question": "What is the Freundlich adsorption isotherm equation?",
+    "options": [
+      "$$q = K c$$",
+      "$$q = \\frac{q_o c}{K + c}$$",
+      "$$q = K c^n$$",
+      "$$q = n \\log c$$"
+    ],
+    "answer": "$$q = K c^n$$"
+  },
+  {
+    "question": "To determine the constants $$n$$ and $$K$$ for the Freundlich isotherm, what should be plotted?",
+    "options": [
+      "$$q$$ vs $$c$$",
+      "$$\\log q$$ vs $$\\log c$$",
+      "$$1/q$$ vs $$1/c$$",
+      "$$q$$ vs $$\\log c$$"
+    ],
+    "answer": "$$\\log q$$ vs $$\\log c$$"
+  },
+  {
+    "question": "In the Freundlich isotherm, what does the value $$1/n$$ indicate?",
+    "options": [
+      "The capacity of the adsorbent",
+      "The intensity of adsorption",
+      "The density of the fluid",
+      "The volume of the pores"
+    ],
+    "answer": "The intensity of adsorption"
+  },
+  {
+    "question": "Which isotherm model is empirical in nature and widely used for liquids at low pressure?",
+    "options": [
+      "Linear",
+      "Langmuir",
+      "BET",
+      "Freundlich"
+    ],
+    "answer": "Freundlich"
+  },
+  {
+    "question": "What is the material balance equation for a batch adsorption process?",
+    "options": [
+      "$$q_F M + c_F S = q M + c S$$",
+      "$$q_F S + c_F M = q S + c M$$",
+      "$$q_F + c_F = q + c$$",
+      "$$M/S = (q_F - q)/(c_F - c)$$"
+    ],
+    "answer": "$$q_F M + c_F S = q M + c S$$"
+  },
+  {
+    "question": "In the batch adsorption material balance $$q_F M + c_F S = q M + c S$$, what does $$M$$ stand for?",
+    "options": [
+      "Molar mass of solute",
+      "Mass of the solution",
+      "Amount of adsorbent (kg)",
+      "Mass transfer coefficient"
+    ],
+    "answer": "Amount of adsorbent (kg)"
+  },
+  {
+    "question": "How can the final equilibrium values of $$q$$ and $$c$$ be found graphically in a batch process?",
+    "options": [
+      "By finding the area under the curve",
+      "By finding the intersection of the isotherm curve and the material balance line",
+      "By calculating the slope of the isotherm",
+      "By finding the y-intercept of the isotherm"
+    ],
+    "answer": "By finding the intersection of the isotherm curve and the material balance line"
+  },
+  {
+    "question": "For a fixed bed adsorption column, the process is considered:",
+    "options": [
+      "Steady state",
+      "Unsteady state",
+      "Equilibrium state",
+      "Static"
+    ],
+    "answer": "Unsteady state"
+  },
+  {
+    "question": "What is the 'Mass Transfer Zone' (MTZ) in a fixed bed column?",
+    "options": [
+      "The section where the adsorbent is completely fresh",
+      "The section where the adsorbent is completely saturated",
+      "The region where the most concentration change occurs",
+      "The bottom of the column"
+    ],
+    "answer": "The region where the most concentration change occurs"
+  },
+  {
+    "question": "In a breakthrough curve, what does the point $$t_b$$ represent?",
+    "options": [
+      "The start of the process",
+      "The time when the bed is fully saturated",
+      "The breakpoint time where effluent concentration reaches a maximum permissible level",
+      "The time required to regenerate the bed"
+    ],
+    "answer": "The breakpoint time where effluent concentration reaches a maximum permissible level"
+  },
+  {
+    "question": "If a Freundlich isotherm has a slope of 0.229 on a log-log plot, what is the value of $$n$$?",
+    "options": [
+      "4.36",
+      "0.229",
+      "1.0",
+      "0.199"
+    ],
+    "answer": "0.229"
+  },
+  {
+    "question": "Calculate the percentage extraction if the initial concentration $$c_F$$ is 0.21 and the final concentration $$c$$ is 0.062.",
+    "options": [
+      "29.5%",
+      "40.2%",
+      "70.5%",
+      "90.0%"
+    ],
+    "answer": "70.5%"
+  },
+  {
+    "question": "What is the unit of $$q$$ in the standard adsorption equations provided?",
+    "options": [
+      "$$kg/m^3$$",
+      "$$kg \\; solute/kg \\; adsorbent$$",
+      "$$m^3/s$$",
+      "$$kg/L$$"
+    ],
+    "answer": "$$kg \\; solute/kg \\; adsorbent$$"
+  },
+  {
+    "question": "In the context of fixed bed adsorption, what does $$H_{UNB}$$ represent?",
+    "options": [
+      "Total bed height",
+      "Used bed height",
+      "Unused bed height",
+      "Height of the support grid"
+    ],
+    "answer": "Unused bed height"
+  },
+  {
+    "question": "If $$t_u$$ is the time equivalent to usable capacity and $$t_t$$ is the total stoichiometric capacity, what does the ratio $$t_u/t_t$$ represent?",
+    "options": [
+      "The fraction of the total bed capacity utilized up to the break point",
+      "The efficiency of the pump",
+      "The porosity of the solid",
+      "The ratio of adsorbent to adsorbate"
+    ],
+    "answer": "The fraction of the total bed capacity utilized up to the break point"
+  },
+  {
+    "question": "Which integral represents the time equivalent to the total or stoichiometric capacity ($$t_t$$)?",
+    "options": [
+      "$$\\int_{0}^{\\infty} (1 - \\frac{c}{c_0}) dt$$",
+      "$$\\int_{0}^{t_b} (1 - \\frac{c}{c_0}) dt$$",
+      "$$\\int_{0}^{\\infty} (\\frac{c}{c_0}) dt$$",
+      "$$\\int_{0}^{t_b} (\\frac{c}{c_0}) dt$$"
+    ],
+    "answer": "$$\\int_{0}^{\\infty} (1 - \\frac{c}{c_0}) dt$$"
+  },
+  {
+    "question": "How is the used bed length $$H_B$$ calculated?",
+    "options": [
+      "$$H_B = H_T - H_{UNB}$$",
+      "$$H_B = \\frac{t_u}{t_t} H_T$$",
+      "$$H_B = \\frac{t_t}{t_u} H_T$$",
+      "$$H_B = H_{UNB} \\times t_b$$"
+    ],
+    "answer": "$$H_B = \\frac{t_u}{t_t} H_T$$"
+  },
+  {
+    "question": "Which factor is $$H_{UNB}$$ (length of unused bed) assumed to be independent of?",
+    "options": [
+      "Fluid velocity",
+      "Total length of the column ($$H_T$$)",
+      "Mass transfer rate",
+      "Adsorbent type"
+    ],
+    "answer": "Total length of the column ($$H_T$$)"
+  },
+  {
+    "question": "Given the Freundlich isotherm $$q = 68 (C_e)^{0.43}$$, calculate $$q_e$$ if $$C_e = 0.01$$ mg/L.",
+    "options": [
+      "0.68 mg/g",
+      "6.8 mg/g",
+      "9.39 mg/g",
+      "14.5 mg/g"
+    ],
+    "answer": "9.39 mg/g"
+  },
+  {
+    "question": "In a Langmuir plot of $$1/q$$ vs $$1/c$$, the slope is found to be 0.1235 and the intercept is 6.778. What is the value of $$q_0$$?",
+    "options": [
+      "0.1235",
+      "6.778",
+      "0.1475",
+      "8.10"
+    ],
+    "answer": "0.1475"
+  },
+  {
+    "question": "Using the same Langmuir data (slope=0.1235, intercept=6.778, $$q_0=0.1475$$), what is the value of $$K$$?",
+    "options": [
+      "0.0182",
+      "0.1235",
+      "0.836",
+      "54.8"
+    ],
+    "answer": "0.0182"
+  },
+  {
+    "question": "A wastewater solution of $$1.0 m^3$$ contains 10 ppm nitrobenzene. If 10 mg nitrobenzene are to be removed and the adsorbent capacity is 9.3866 mg/g, what is the minimum activated carbon required?",
+    "options": [
+      "0.938 g",
+      "1.065 g",
+      "10.0 g",
+      "93.8 g"
+    ],
+    "answer": "1.065 g"
+  },
+  {
+    "question": "In the scale-up design method, if $$t_u = 3.65$$ h and $$t_t = 5.16$$ h, what is the fraction of usable capacity?",
+    "options": [
+      "0.50",
+      "0.65",
+      "0.707",
+      "1.41"
+    ],
+    "answer": "0.707"
+  },
+  {
+    "question": "If the total bed length $$H_T$$ is 14 cm and the fraction of usable capacity is 0.707, what is the length of the used bed ($$H_B$$)?",
+    "options": [
+      "4.1 cm",
+      "9.9 cm",
+      "14 cm",
+      "19.8 cm"
+    ],
+    "answer": "9.9 cm"
+  },
+  {
+    "question": "Calculate the unused bed length ($$H_{UNB}$$) if $$H_T = 14$$ cm and $$H_B = 9.9$$ cm.",
+    "options": [
+      "4.1 cm",
+      "9.9 cm",
+      "14 cm",
+      "23.9 cm"
+    ],
+    "answer": "4.1 cm"
+  },
+  {
+    "question": "When designing a new column with a required breakpoint time $$t_b'$$ of 6.0 h (original $$t_u = 3.65$$ h, $$H_B = 9.9$$ cm), what is the new required used bed length $$H_B'$$?",
+    "options": [
+      "6.0 cm",
+      "9.9 cm",
+      "16.3 cm",
+      "22.1 cm"
+    ],
+    "answer": "16.3 cm"
+  },
+  {
+    "question": "If the new used bed length $$H_B'$$ is 16.3 cm and the unused bed length $$H_{UNB}$$ remains 4.1 cm, what is the new total bed length $$H_T'$$?",
+    "options": [
+      "12.2 cm",
+      "16.3 cm",
+      "20.4 cm",
+      "25.0 cm"
+    ],
+    "answer": "20.4 cm"
+  },
+  {
+    "question": "In a fixed bed, if $$H_1$$ is where $$C/C_0 = 0.95$$ and $$H_2$$ is where $$C/C_0 = 0.05$$, the distance between $$H_1$$ and $$H_2$$ represents:",
+    "options": [
+      "The total bed length",
+      "The Mass Transfer Zone (MTZ)",
+      "The saturated zone",
+      "The fresh zone"
+    ],
+    "answer": "The Mass Transfer Zone (MTZ)"
+  },
+  {
+    "question": "Which of the following describes the shape of the concentration profile as it moves through a fixed bed?",
+    "options": [
+      "It remains a straight vertical line",
+      "It is an 'S' shaped curve (sigmoidal)",
+      "It is a horizontal line",
+      "It is a perfect step function"
+    ],
+    "answer": "It is an 'S' shaped curve (sigmoidal)"
+  },
+  {
+    "question": "When calculating the saturation loading capacity, you are comparing the mass of alcohol adsorbed to the:",
+    "options": [
+      "Volume of air processed",
+      "Mass of air processed",
+      "Mass of carbon in the bed",
+      "Time of operation"
+    ],
+    "answer": "Mass of carbon in the bed"
+  },
+  {
+    "question": "If 9.67 g of alcohol is adsorbed by 79.2 g of carbon, what is the saturation capacity?",
+    "options": [
+      "0.08 g/g",
+      "0.122 g/g",
+      "8.19 g/g",
+      "765 g/g"
+    ],
+    "answer": "0.122 g/g"
+  },
+  {
+    "question": "For a material balance equation $$0.625 = 3q + 2.5C$$, what is the expression for the operating line $$q$$?",
+    "options": [
+      "$$q = 0.625 - 2.5C$$",
+      "$$q = (0.625 - 2.5C) / 3$$",
+      "$$q = 3C + 0.625$$",
+      "$$q = 2.5C / 3$$"
+    ],
+    "answer": "$$q = (0.625 - 2.5C) / 3$$"
+  },
+  {
+    "question": "If an adsorption isotherm is linear ($$n=1$$), the relationship between $$q$$ and $$c$$ is:",
+    "options": [
+      "Logarithmic",
+      "Exponential",
+      "Directly proportional",
+      "Inversely proportional"
+    ],
+    "answer": "Directly proportional"
+  },
+  {
+    "question": "In the Freundlich equation $$q = K c^n$$, if $$n < 1$$, the adsorption is considered:",
+    "options": [
+      "Unfavorable",
+      "Linear",
+      "Favorable",
+      "Irreversible"
+    ],
+    "answer": "Favorable"
+  }
+]

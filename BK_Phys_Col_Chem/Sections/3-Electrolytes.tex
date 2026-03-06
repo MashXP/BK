@@ -1,0 +1,94 @@
+\subsection{Notations}
+\begin{center}
+\begin{tabular}{p{0.15\linewidth} p{0.75\linewidth}}
+\toprule
+\textbf{Not.} & \textbf{Definition} \\
+\midrule
+$\alpha$ & Degree of dissociation \\
+$i$ & Van't Hoff factor \\
+$\nu$ & Total ions per molecule ($\nu_+$ + $\nu_-$) \\
+$\mu_{\pm}$ & Mean ionic chemical potential \\
+$\gamma_{\pm}$ & Mean ionic activity coefficient \\
+$I$ & Ionic strength \\
+$A$ & Debye-Hückel constant \\
+$\chi (\kappa)$ & Electrical conductivity ($S/m$ or $\Omega^{-1} \cdot cm^{-1}$) \\
+$\lambda$ & Equivalent conductivity ($\Omega^{-1} \cdot eq^{-1} \cdot cm^2$) \\
+$t_i$ & Transport number \\
+$v_0$ & Absolute velocity of ion ($cm^2 \cdot s^{-1} \cdot V^{-1}$) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Dissociation and Colligative Properties}
+
+\subsubsection{Electro-dissociation}
+Reversible process: $M_{\nu+}A_{\nu-} \rightleftharpoons \nu_+ M^{z+} + \nu_- A^{z-}$
+\begin{equation}
+    K_D = \frac{n_0^{\nu-1} \alpha^\nu (\nu_+^{\nu+} \nu_-^{\nu-})}{1-\alpha}
+\end{equation}
+For 1-1 electrolyte: $K_D = \frac{C \alpha^2}{1-\alpha}$
+
+\subsubsection{Van't Hoff Factor ($i$)}
+$i = 1 + (\nu - 1)\alpha \implies \alpha = \frac{i-1}{\nu-1}$ \\
+\textbf{Colligative Properties:}
+\begin{align}
+    \Delta T_b &= i K_b C_m, \quad \Delta T_f = i K_f C_m \\
+    \pi &= i C RT
+\end{align}
+
+\subsection{Thermodynamic Properties of Ions}
+
+\subsubsection{Mean Ionic Activity}
+$\gamma_{\pm} = (\gamma_+^{\nu_+} \gamma_-^{\nu_-})^{1/\nu}, \quad a_{\pm} = \gamma_{\pm} m_{\pm}, \quad a_2 = a_{\pm}^\nu$
+
+\subsubsection{Ionic Strength ($I$)}
+\begin{equation}
+    I = \frac{1}{2} \sum m_i z_i^2 = \frac{1}{2} (\nu_+ z_+^2 + \nu_- z_-^2) m
+\end{equation}
+
+\subsubsection{Debye-Hückel Limiting Law ($I \leq 0.01$)}
+For water at 25$^{\circ}$C, $A = 0.509$:
+\begin{equation}
+    \lg \gamma_i = -A z_i^2 \sqrt{I}, \quad \lg \gamma_{\pm} = -|z_+ z_-| A \sqrt{I}
+\end{equation}
+
+\subsubsection{Extended Debye-Hückel Equations}
+For higher concentrations ($I \leq 0.1$):
+\begin{equation}
+    \lg \gamma_i = \frac{-A z_i^2 \sqrt{I}}{1 + B a \sqrt{I}} \quad (B \approx 3.29 \text{ nm}^{-1} \text{ for water})
+\end{equation}
+Davies Equation ($I \leq 0.5$):
+\begin{equation}
+    \lg \gamma_{\pm} = -|z_+ z_-| A \left( \frac{\sqrt{I}}{1+\sqrt{I}} - 0.3 I \right)
+\end{equation}
+
+\subsection{Electrical Conductance}
+
+\subsubsection{Conductivity}
+\textbf{Electrical conductivity ($\chi$):} $\chi = 1/\rho$ \\
+\textbf{Equivalent conductivity ($\lambda$):}
+\begin{equation}
+    \lambda = \frac{\chi \cdot 1000}{C_{eq}} \quad (C_{eq} \text{ in eq/L})
+\end{equation}
+
+\subsubsection{Concentration Effect}
+\textbf{Kohlrausch's 1st Law (Strong electrolytes):}
+\begin{equation}
+    \lambda = \lambda_\infty - A \sqrt{C}
+\end{equation}
+\textbf{Weak electrolytes:} $\lambda$ decreases sharply with $C$, non-linear.
+
+\subsubsection{Ion Velocity and Transport}
+$\lambda = \alpha F (v_{0+} + v_{0-})$, where $F = 96485$ C/mol. \\
+For strong electrolytes ($\alpha=1$): $\lambda = \lambda_+ + \lambda_- = F(v_{0+} + v_{0-})$. \\
+\textbf{Kohlrausch's 2nd Law (Infinite dilution):}
+\begin{equation}
+    \lambda_\infty = \lambda_{\infty, +} + \lambda_{\infty, -}
+\end{equation}
+
+\subsubsection{Transport Number ($t_i$)}
+Ratio of current carried by an ion to total current:
+\begin{equation}
+    t_+ = \frac{\lambda_+}{\lambda_+ + \lambda_-}, \quad t_- = \frac{\lambda_-}{\lambda_+ + \lambda_-}, \quad t_+ + t_- = 1
+\end{equation}
+Hittorf's relation: $t_+ = \frac{1}{(\Delta n_c / \Delta n_a) + 1}$

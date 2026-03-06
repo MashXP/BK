@@ -1,0 +1,542 @@
+[
+  {
+    "question": "What was the primary biomass used for bioethanol production in this study?",
+    "options": [
+      "Azolla filiculoides",
+      "Sugarcane",
+      "Corn",
+      "Water hyacinth"
+    ],
+    "answer": "Azolla filiculoides"
+  },
+  {
+    "question": "What two pretreatment methods were used to produce monosaccharides from Azolla?",
+    "options": [
+      "Thermal acid hydrolysis and Enzymatic saccharification",
+      "Alkaline hydrolysis and Mechanical milling",
+      "Solvent extraction and Fermentation",
+      "Pyrolysis and Gasification"
+    ],
+    "answer": "Thermal acid hydrolysis and Enzymatic saccharification"
+  },
+  {
+    "question": "Which acid was determined to be optimal for thermal acid hydrolysis in terms of monosaccharide yield?",
+    "options": [
+      "HCl",
+      "HNO3",
+      "H2SO4",
+      "Acetic Acid"
+    ],
+    "answer": "H2SO4"
+  },
+  {
+    "question": "What was the optimal concentration of H2SO4 used for thermal acid hydrolysis to achieve high monosaccharide yield?",
+    "options": [
+      "50 mM",
+      "100 mM",
+      "200 mM",
+      "250 mM"
+    ],
+    "answer": "200 mM"
+  },
+  {
+    "question": "At what temperature was thermal acid hydrolysis performed?",
+    "options": [
+      "30 °C",
+      "50 °C",
+      "100 °C",
+      "121 °C"
+    ],
+    "answer": "121 °C"
+  },
+  {
+    "question": "What was the optimal duration for thermal acid hydrolysis with H2SO4?",
+    "options": [
+      "15 min",
+      "30 min",
+      "60 min",
+      "90 min"
+    ],
+    "answer": "60 min"
+  },
+  {
+    "question": "What was the optimal enzyme used for enzymatic saccharification?",
+    "options": [
+      "Celluclast",
+      "Viscozyme",
+      "Cellic C-Tec2",
+      "Amylase"
+    ],
+    "answer": "Viscozyme"
+  },
+  {
+    "question": "Which yeast produced the highest ethanol yield from Azolla weed hydrolysate?",
+    "options": [
+      "Kluyveromyces marxianus",
+      "Candida lusitaniae",
+      "Saccharomyces cerevisiae",
+      "Pichia stipitis"
+    ],
+    "answer": "Kluyveromyces marxianus"
+  },
+  {
+    "question": "Which yeast was noted for utilizing only glucose, leading to the lowest ethanol yield?",
+    "options": [
+      "Pichia stipitis",
+      "Candida lusitaniae",
+      "Kluyveromyces marxianus",
+      "Saccharomyces cerevisiae"
+    ],
+    "answer": "Saccharomyces cerevisiae"
+  },
+  {
+    "question": "What is a remarkable characteristic of Azolla mentioned in the text?",
+    "options": [
+      "Its ability to produce high lignin content",
+      "Its symbiotic relationship with a nitrogen-fixing blue-green alga",
+      "Its preference for saline environments",
+      "Its slow growth rate"
+    ],
+    "answer": "Its symbiotic relationship with a nitrogen-fixing blue-green alga"
+  },
+  {
+    "question": "Which cyanobacterium forms a symbiotic relationship with Azolla?",
+    "options": [
+      "Anabaena azollae",
+      "Spirulina platensis",
+      "Nostoc commune",
+      "Chroococcus turgidus"
+    ],
+    "answer": "Anabaena azollae"
+  },
+  {
+    "question": "Why is Azolla considered a potential feedstock for second and third-generation biofuels?",
+    "options": [
+      "Due to its high content of crude oil",
+      "Because it is a food crop",
+      "For its ability to produce a large amount of biomass with cheap and easy maintenance",
+      "Because it is a rare plant"
+    ],
+    "answer": "For its ability to produce a large amount of biomass with cheap and easy maintenance"
+  },
+  {
+    "question": "What problem can dense Azolla mats cause in aquatic environments?",
+    "options": [
+      "Increased light penetration for aquatic plants",
+      "Higher oxygen levels benefiting fish",
+      "Oxygen deficiency and poor life conditions for fish",
+      "Enhanced biodiversity"
+    ],
+    "answer": "Oxygen deficiency and poor life conditions for fish"
+  },
+  {
+    "question": "What was the maximum ethanol concentration produced by Kluyveromyces marxianus?",
+    "options": [
+      "13.7 g/L",
+      "18.2 g/L",
+      "23.2 g/L",
+      "26.8 g/L"
+    ],
+    "answer": "26.8 g/L"
+  },
+  {
+    "question": "What was the ethanol yield coefficient (YEtOH) for Kluyveromyces marxianus?",
+    "options": [
+      "0.22",
+      "0.29",
+      "0.37",
+      "0.43"
+    ],
+    "answer": "0.43"
+  },
+  {
+    "question": "What was the ethanol yield coefficient (YEtOH) for Saccharomyces cerevisiae?",
+    "options": [
+      "0.22",
+      "0.29",
+      "0.37",
+      "0.43"
+    ],
+    "answer": "0.22"
+  },
+  {
+    "question": "Azolla is noted for its ability to fix atmospheric nitrogen and rapid growth. From a broader biotechnological perspective, what implication does its nitrogen-fixing capability have for its cultivation as a biofuel feedstock, particularly regarding fertilization requirements?",
+    "options": [
+      "It requires significantly higher nitrogen fertilization than non-fixing plants",
+      "It can thrive with minimal or no external nitrogen fertilization",
+      "It primarily uses phosphorus as its sole nutrient",
+      "Its growth is inhibited by nitrogen availability"
+    ],
+    "answer": "It can thrive with minimal or no external nitrogen fertilization"
+  },
+  {
+    "question": "The study shifts from first-generation biofuels (sugar/starch crops) to non-edible feedstock like lignocellulosic biomass. What underlying societal risk is primarily addressed by this shift?",
+    "options": [
+      "Increased transportation costs",
+      "Risk of competition with human food security",
+      "Over-reliance on fossil fuels",
+      "High land usage for non-food crops"
+    ],
+    "answer": "Risk of competition with human food security"
+  },
+  {
+    "question": "From which country was Azolla filiculoides harvested for this study?",
+    "options": [
+      "Republic of Korea",
+      "Tanzania",
+      "Denmark",
+      "USA"
+    ],
+    "answer": "Tanzania"
+  },
+  {
+    "question": "How was the Azolla weed pre-processed before analysis after harvesting?",
+    "options": [
+      "Boiled and filtered",
+      "Freeze-dried and pressed",
+      "Dried with sunlight, powdered, and sieved",
+      "Chemically treated and liquefied"
+    ],
+    "answer": "Dried with sunlight, powdered, and sieved"
+  },
+  {
+    "question": "What method was used to determine the biomass composition of Azolla?",
+    "options": [
+      "HPLC",
+      "AAS",
+      "AOAC method",
+      "Spectrophotometry"
+    ],
+    "answer": "AOAC method"
+  },
+  {
+    "question": "What was the target pH after neutralizing the thermal acid hydrolysis mixture?",
+    "options": [
+      "pH 2.0",
+      "pH 5.0",
+      "pH 7.0",
+      "pH 8.5"
+    ],
+    "answer": "pH 5.0"
+  },
+  {
+    "question": "What instrument was primarily used to analyze the concentrations of monosaccharides and ethanol?",
+    "options": [
+      "Gas Chromatography (GC)",
+      "Nuclear Magnetic Resonance (NMR)",
+      "High-Performance Liquid Chromatography (HPLC)",
+      "Mass Spectrometry (MS)"
+    ],
+    "answer": "High-Performance Liquid Chromatography (HPLC)"
+  },
+  {
+    "question": "At what temperature was the enzymatic saccharification reaction performed?",
+    "options": [
+      "30 °C",
+      "40 °C",
+      "50 °C",
+      "65 °C"
+    ],
+    "answer": "50 °C"
+  },
+  {
+    "question": "What was the incubation temperature for the yeast seed cultures?",
+    "options": [
+      "25 °C",
+      "30 °C",
+      "37 °C",
+      "45 °C"
+    ],
+    "answer": "30 °C"
+  },
+  {
+    "question": "What does YPD medium contain as major components for yeast growth?",
+    "options": [
+      "Glucose, NaCl, and peptone",
+      "Yeast extract, peptone, and glucose",
+      "Sucrose, peptone, and yeast extract",
+      "Lactose, yeast extract, and minerals"
+    ],
+    "answer": "Yeast extract, peptone, and glucose"
+  },
+  {
+    "question": "How was cell growth analyzed during the fermentation process?",
+    "options": [
+      "By measuring pH changes",
+      "By monitoring CO2 production",
+      "By measuring optical density at 600 nm (OD600)",
+      "By direct cell counting under a microscope"
+    ],
+    "answer": "By measuring optical density at 600 nm (OD600)"
+  },
+  {
+    "question": "What type of conditions were maintained for ethanol fermentation in the Erlenmeyer flask?",
+    "options": [
+      "Fully aerobic conditions",
+      "Anaerobic conditions",
+      "Semianaerobic conditions",
+      "High-pressure conditions"
+    ],
+    "answer": "Semianaerobic conditions"
+  },
+  {
+    "question": "Which acid was used as an eluent in the HPLC analysis for sugars and ethanol?",
+    "options": [
+      "Hydrochloric acid",
+      "Nitric acid",
+      "Sulfuric acid",
+      "Acetic acid"
+    ],
+    "answer": "Sulfuric acid"
+  },
+  {
+    "question": "What statistical tests were used to evaluate significance in the study?",
+    "options": [
+      "T-test and Chi-square test",
+      "Regression analysis and Correlation",
+      "One-way ANOVA and Duncan’s multiple range test",
+      "Mann-Whitney U test and Kruskal-Wallis test"
+    ],
+    "answer": "One-way ANOVA and Duncan’s multiple range test"
+  },
+  {
+    "question": "The Azolla hydrolysate was fermented under \"semianaerobic conditions.\" Given the goal of ethanol production by yeast, what is the primary biochemical rationale for avoiding fully aerobic conditions?",
+    "options": [
+      "Aerobic conditions would lead to complete consumption of sugars for cell growth and CO2, reducing ethanol yield",
+      "Anaerobic conditions would inhibit yeast growth completely",
+      "Semianaerobic conditions prevent the production of toxic byproducts",
+      "Fully aerobic conditions are too difficult to maintain at scale"
+    ],
+    "answer": "Aerobic conditions would lead to complete consumption of sugars for cell growth and CO2, reducing ethanol yield"
+  },
+  {
+    "question": "Why would the researchers neutralize the thermal acid hydrolysis mixture to pH 5.0 before enzymatic saccharification and fermentation?",
+    "options": [
+      "To prevent degradation of ethanol by acid",
+      "To optimize the activity of the saccharifying enzymes and subsequent yeast fermentation",
+      "To facilitate easier filtration of the biomass",
+      "To increase the solubility of monosaccharides"
+    ],
+    "answer": "To optimize the activity of the saccharifying enzymes and subsequent yeast fermentation"
+  },
+  {
+    "question": "What was the total carbohydrate content of the Azolla filiculoides biomass?",
+    "options": [
+      "11.3%",
+      "14.0%",
+      "28.9%",
+      "47.7%"
+    ],
+    "answer": "47.7%"
+  },
+  {
+    "question": "Which component had the highest percentage in the Azolla filiculoides biomass according to the provided composition analysis?",
+    "options": [
+      "Cellulose",
+      "Hemicellulose",
+      "Lignin",
+      "Protein"
+    ],
+    "answer": "Lignin"
+  },
+  {
+    "question": "What percentage of slurry content (w/v) was determined to be optimal for thermal acid hydrolysis?",
+    "options": [
+      "6%",
+      "10%",
+      "14%",
+      "16%"
+    ],
+    "answer": "14%"
+  },
+  {
+    "question": "Which of the three acids (HCl, HNO3, H2SO4) produced the highest monosaccharide concentration during thermal acid hydrolysis at 200 mM for 30 min?",
+    "options": [
+      "HCl",
+      "HNO3",
+      "H2SO4",
+      "They all produced similar concentrations"
+    ],
+    "answer": "H2SO4"
+  },
+  {
+    "question": "What was the optimal time duration for thermal acid hydrolysis using 200 mM H2SO4 at 121 °C?",
+    "options": [
+      "15 min",
+      "30 min",
+      "60 min",
+      "90 min"
+    ],
+    "answer": "60 min"
+  },
+  {
+    "question": "What happened to monosaccharide concentration if the acid hydrolysis time was longer than 60 minutes?",
+    "options": [
+      "It continued to increase significantly",
+      "It remained constant",
+      "It dropped due to sugar degradation",
+      "It became too viscous to measure"
+    ],
+    "answer": "It dropped due to sugar degradation"
+  },
+  {
+    "question": "Which enzyme performed best in terms of monosaccharide production during enzymatic saccharification at 8 U/mL?",
+    "options": [
+      "Celluclast",
+      "Viscozyme",
+      "Cellic C-Tec2",
+      "Amylase"
+    ],
+    "answer": "Viscozyme"
+  },
+  {
+    "question": "What was the optimal unit concentration of Viscozyme for enzymatic saccharification?",
+    "options": [
+      "4 U/mL",
+      "8 U/mL",
+      "16 U/mL",
+      "20 U/mL"
+    ],
+    "answer": "16 U/mL"
+  },
+  {
+    "question": "Which sugar was explicitly stated as not being utilized by Saccharomyces cerevisiae during fermentation?",
+    "options": [
+      "Glucose",
+      "Xylose",
+      "Fructose",
+      "Sucrose"
+    ],
+    "answer": "Xylose"
+  },
+  {
+    "question": "How long did it take for Saccharomyces cerevisiae to fully utilize glucose?",
+    "options": [
+      "24 h",
+      "36 h",
+      "48 h",
+      "60 h"
+    ],
+    "answer": "48 h"
+  },
+  {
+    "question": "Which yeast was able to completely utilize both glucose and xylose within 60 hours?",
+    "options": [
+      "Saccharomyces cerevisiae",
+      "Pichia stipitis",
+      "Candida lusitaniae",
+      "Kluyveromyces marxianus"
+    ],
+    "answer": "Kluyveromyces marxianus"
+  },
+  {
+    "question": "Besides its high ethanol yield, what other benefit of K. marxianus is mentioned in the text regarding its growth conditions?",
+    "options": [
+      "It has a very low growth rate",
+      "It can only utilize glucose",
+      "It can grow and produce ethanol at higher temperatures (above 40 °C)",
+      "It is highly sensitive to pH changes"
+    ],
+    "answer": "It can grow and produce ethanol at higher temperatures (above 40 °C)"
+  },
+  {
+    "question": "How much xylose remained unused by Saccharomyces cerevisiae during its fermentation?",
+    "options": [
+      "12.6 g/L",
+      "23.7 g/L",
+      "27.8 g/L",
+      "33.2 g/L"
+    ],
+    "answer": "33.2 g/L"
+  },
+  {
+    "question": "What was the maximum monosaccharide concentration produced during optimal enzymatic saccharification using Viscozyme?",
+    "options": [
+      "13.2 g/L",
+      "35.8 g/L",
+      "53.6 g/L",
+      "61.6 g/L"
+    ],
+    "answer": "61.6 g/L"
+  },
+  {
+    "question": "How much glucose was utilized by Candida lusitaniae within 36 hours?",
+    "options": [
+      "12.6 g/L",
+      "23.7 g/L",
+      "27.8 g/L",
+      "33.2 g/L"
+    ],
+    "answer": "27.8 g/L"
+  },
+  {
+    "question": "What was the final ethanol yield (g/L) for Pichia stipitis?",
+    "options": [
+      "13.7 g/L",
+      "18.2 g/L",
+      "23.2 g/L",
+      "26.8 g/L"
+    ],
+    "answer": "18.2 g/L"
+  },
+  {
+    "question": "The text mentions that \"glucose inhibits xylose transport by noncompetitive inhibition\" in Pichia stipitis. Based on this, what practical fermentation strategy could be employed to improve xylose utilization by P. stipitis in a mixed-sugar hydrolysate?",
+    "options": [
+      "Increase the initial glucose concentration to stimulate xylose uptake",
+      "Introduce a continuous feeding strategy for xylose after initial glucose depletion",
+      "Genetically modify P. stipitis to increase its ethanol tolerance",
+      "Ferment at a lower temperature to reduce inhibition"
+    ],
+    "answer": "Introduce a continuous feeding strategy for xylose after initial glucose depletion"
+  },
+  {
+    "question": "Azolla contains 28.9% lignin, which is mentioned as a cell-wall component. Why is lignin content a significant challenge in the efficient bioethanol production from lignocellulosic biomass, and how do the pretreatment steps in this study implicitly address it?",
+    "options": [
+      "Lignin serves as the primary fermentable sugar, making its removal unnecessary",
+      "Lignin increases the viscosity of the hydrolysate, aiding fermentation",
+      "Lignin acts as a physical barrier to cellulose/hemicellulose hydrolysis and can produce inhibitory compounds, addressed by thermal acid hydrolysis to break down structure",
+      "Lignin is a valuable protein source that should be preserved"
+    ],
+    "answer": "Lignin acts as a physical barrier to cellulose/hemicellulose hydrolysis and can produce inhibitory compounds, addressed by thermal acid hydrolysis to break down structure"
+  },
+  {
+    "question": "The text states that \"If the reaction time is longer than 60 min, xylose concentration decreases due to the degradation of xylose.\" In the context of bioethanol production, what is the primary negative consequence of xylose degradation during acid hydrolysis, beyond simply losing fermentable sugar?",
+    "options": [
+      "It makes the hydrolysate too acidic for subsequent steps",
+      "Degradation products can act as inhibitors to yeast growth and fermentation",
+      "It significantly increases the cost of enzyme production",
+      "It causes the biomass to become entirely insoluble"
+    ],
+    "answer": "Degradation products can act as inhibitors to yeast growth and fermentation"
+  },
+  {
+    "question": "The study highlights Kluyveromyces marxianus's ability to consume both glucose and xylose and tolerate higher temperatures. From a biotechnological process design perspective, what specific advantage does this combination of characteristics offer when scaling up bioethanol production from lignocellulosic feedstocks?",
+    "options": [
+      "It simplifies downstream ethanol purification due to lower boiling point",
+      "It allows for higher substrate loadings and reduces cooling costs during exothermic fermentation",
+      "It significantly shortens the overall fermentation time to under 12 hours",
+      "It makes the yeast resistant to antibiotic contamination"
+    ],
+    "answer": "It allows for higher substrate loadings and reduces cooling costs during exothermic fermentation"
+  },
+  {
+    "question": "The study uses the AOAC method to determine biomass composition. From a regulatory and quality control perspective in industrial biotechnology, what is the primary significance of using standardized analytical methods like AOAC?",
+    "options": [
+      "They are the cheapest methods available for analysis",
+      "They ensure reproducibility and comparability of results across different laboratories and studies",
+      "They are always the fastest methods for obtaining data",
+      "They eliminate the need for any statistical analysis of results"
+    ],
+    "answer": "They ensure reproducibility and comparability of results across different laboratories and studies"
+  },
+  {
+    "question": "Saccharomyces cerevisiae produces the lowest ethanol yield because \"it utilized only glucose.\" This limitation often prompts genetic engineering efforts. From a metabolic engineering perspective, what specific gene function would likely be targeted and introduced into S. cerevisiae to improve its xylose utilization?",
+    "options": [
+      "Genes encoding for improved glucose transport efficiency",
+      "Genes involved in ethanol detoxification pathways",
+      "Genes for xylose isomerase or xylose reductase/xylitol dehydrogenase pathway",
+      "Genes promoting cell wall synthesis for structural integrity"
+    ],
+    "answer": "Genes for xylose isomerase or xylose reductase/xylitol dehydrogenase pathway"
+  }
+]

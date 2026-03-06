@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What is the primary physical process occurring in absorption?",
+    "options": [
+      "A solute is transferred from a liquid phase to a gas phase",
+      "A solute is transferred from a gas phase to a liquid phase",
+      "A solid is dissolved into a liquid",
+      "Two liquids are separated based on density"
+    ],
+    "answer": "A solute is transferred from a gas phase to a liquid phase"
+  },
+  {
+    "question": "What is the reverse process of absorption called?",
+    "options": [
+      "Adsorption",
+      "Distillation",
+      "Stripping or Desorption",
+      "Extraction"
+    ],
+    "answer": "Stripping or Desorption"
+  },
+  {
+    "question": "Which of the following is NOT a typical absorbent mentioned in the lecture?",
+    "options": [
+      "Water",
+      "Hydrocarbon oil",
+      "Liquid Nitrogen",
+      "Aqueous solutions of acids/bases"
+    ],
+    "answer": "Liquid Nitrogen"
+  },
+  {
+    "question": "In the context of absorption, what does the term 'solute' refer to?",
+    "options": [
+      "The liquid solvent",
+      "The component being removed from the gas stream",
+      "The inert carrier gas",
+      "The solid packing material"
+    ],
+    "answer": "The component being removed from the gas stream"
+  },
+  {
+    "question": "Which law relates the partial pressure of a gas to its mole fraction in a liquid at equilibrium?",
+    "options": [
+      "Raoult's Law",
+      "Henry's Law",
+      "Dalton's Law",
+      "Fick's Law"
+    ],
+    "answer": "Henry's Law"
+  },
+  {
+    "question": "What does 'H' represent in the equation $p_A = H x_A$?",
+    "options": [
+      "Height of the tower",
+      "Heat transfer coefficient",
+      "Henry's law constant",
+      "Humidity ratio"
+    ],
+    "answer": "Henry's law constant"
+  },
+  {
+    "question": "Which of the following is a type of tray used in absorption towers?",
+    "options": [
+      "Sieve Tray",
+      "Mesh Tray",
+      "Filter Tray",
+      "Baffle Tray"
+    ],
+    "answer": "Sieve Tray"
+  },
+  {
+    "question": "In a countercurrent absorption tower, where does the gas feed enter?",
+    "options": [
+      "At the top",
+      "At the bottom",
+      "In the middle",
+      "Together with the liquid"
+    ],
+    "answer": "At the bottom"
+  },
+  {
+    "question": "What is the primary function of a 'Bubble Cap' in a tray tower?",
+    "options": [
+      "To filter the liquid",
+      "To distribute gas into the liquid",
+      "To support the packing",
+      "To cool the solvent"
+    ],
+    "answer": "To distribute gas into the liquid"
+  },
+  {
+    "question": "What does 'M' represent in the single-stage material balance equation $L_0 + V_2 = L_1 + V_1 = M$?",
+    "options": [
+      "Molar mass",
+      "Mass transfer rate",
+      "Total flow rate",
+      "Mole fraction"
+    ],
+    "answer": "Total flow rate"
+  },
+  {
+    "question": "Ideally, an absorbent should have which property regarding volatility?",
+    "options": [
+      "High volatility",
+      "Low volatility",
+      "Volatility equal to the solute",
+      "Zero volatility"
+    ],
+    "answer": "Low volatility"
+  },
+  {
+    "question": "For the equation $y_A = H' x_A$, if the total pressure P is 1 atm, how does H' relate to the standard Henry's constant H (atm/mol fraction)?",
+    "options": [
+      "H' = H",
+      "H' = H / P",
+      "H' = H * P",
+      "H' = 1 / H"
+    ],
+    "answer": "H' = H"
+  },
+  {
+    "question": "In a single equilibrium stage, what is the relationship between the exit streams $V_1$ and $L_1$?",
+    "options": [
+      "They have equal mass flow rates",
+      "They are in equilibrium with each other",
+      "They have the same composition",
+      "They are at different temperatures"
+    ],
+    "answer": "They are in equilibrium with each other"
+  },
+  {
+    "question": "Which equation represents the Operating Line for a countercurrent multiple-stage absorber?",
+    "options": [
+      "$y = mx + c$",
+      "$y_{n+1} = (L_n/V_{n+1})x_n + (V_1y_1 - L_0x_0)/V_{n+1}$",
+      "$p_A = H x_A$",
+      "$N = ln(A) / (A-1)$"
+    ],
+    "answer": "$y_{n+1} = (L_n/V_{n+1})x_n + (V_1y_1 - L_0x_0)/V_{n+1}$"
+  },
+  {
+    "question": "What two lines are used in the graphical method to determine the number of theoretical stages?",
+    "options": [
+      "Operating Line and 45-degree Line",
+      "Equilibrium Line and 45-degree Line",
+      "Operating Line and Equilibrium Line",
+      "Feed Line and q-Line"
+    ],
+    "answer": "Operating Line and Equilibrium Line"
+  },
+  {
+    "question": "In the graphical method, the 'steps' are drawn between the equilibrium line and the operating line. What does each step represent?",
+    "options": [
+      "One meter of packing height",
+      "One theoretical stage (tray)",
+      "One mole of solute transferred",
+      "One unit of pressure drop"
+    ],
+    "answer": "One theoretical stage (tray)"
+  },
+  {
+    "question": "What is the 'Absorption Factor' (A) defined as?",
+    "options": [
+      "$A = L / (mV)$",
+      "$A = (mV) / L$",
+      "$A = L * V$",
+      "$A = m / L$"
+    ],
+    "answer": "$A = L / (mV)$"
+  },
+  {
+    "question": "When using the Kremser equation, what key assumption is made about the equilibrium line?",
+    "options": [
+      "It is a curve",
+      "It is a straight line ($y = mx$)",
+      "It is horizontal",
+      "It is vertical"
+    ],
+    "answer": "It is a straight line ($y = mx$)"
+  },
+  {
+    "question": "If the slope of the operating line ($L/V$) is constant, what does this imply about the system?",
+    "options": [
+      "The system is at total reflux",
+      "The solution is dilute (molar flows are essentially constant)",
+      "The equilibrium line is straight",
+      "The tray efficiency is 100%"
+    ],
+    "answer": "The solution is dilute (molar flows are essentially constant)"
+  },
+  {
+    "question": "If a calculation determines that 2.4 theoretical trays are required for a separation and the overall tray efficiency is 25%, how many actual trays are needed?",
+    "options": [
+      "0.6 trays",
+      "6 trays",
+      "9.6 trays",
+      "10 trays"
+    ],
+    "answer": "9.6 trays"
+  },
+  {
+    "question": "Which of the following is a type of random packing?",
+    "options": [
+      "Raschig Ring",
+      "Structured Wire Gauze",
+      "Bubble Cap",
+      "Valve Tray"
+    ],
+    "answer": "Raschig Ring"
+  },
+  {
+    "question": "What is a 'Spray Tower' characterized by?",
+    "options": [
+      "Use of trays to hold liquid",
+      "Liquid sprayed into a gas stream without internal packing or trays",
+      "High pressure operation",
+      "Solid absorbents"
+    ],
+    "answer": "Liquid sprayed into a gas stream without internal packing or trays"
+  },
+  {
+    "question": "In the material balance equation $L'(x_0/(1-x_0)) + ...$, what does $L'$ represent?",
+    "options": [
+      "Total liquid flow rate",
+      "Molar flow rate of inert solvent",
+      "Mass flow rate of solute",
+      "Liquid density"
+    ],
+    "answer": "Molar flow rate of inert solvent"
+  },
+  {
+    "question": "Why is the flow rate of inert gas ($V'$) used in the material balance for concentrated mixtures?",
+    "options": [
+      "Because it varies throughout the column",
+      "Because it remains constant throughout the column",
+      "Because it reacts with the solvent",
+      "Because it is easier to measure"
+    ],
+    "answer": "Because it remains constant throughout the column"
+  },
+  {
+    "question": "If the equilibrium relation is $y_A = 2.53 x_A$, what is the value of the slope 'm'?",
+    "options": [
+      "1.0",
+      "0.395",
+      "2.53",
+      "0.0"
+    ],
+    "answer": "2.53"
+  },
+  {
+    "question": "Which industrial application uses absorption to remove $H_2S$ and $CO_2$?",
+    "options": [
+      "Water scrubbing",
+      "Amine treating (MEA/DEA)",
+      "Hydrocarbon oil absorption",
+      "Air stripping"
+    ],
+    "answer": "Amine treating (MEA/DEA)"
+  },
+  {
+    "question": "What is the typical result of the absorption process on the temperature of the liquid?",
+    "options": [
+      "Temperature decreases",
+      "Temperature increases due to heat of absorption",
+      "Temperature remains exactly constant",
+      "Temperature fluctuates randomly"
+    ],
+    "answer": "Temperature increases due to heat of absorption"
+  },
+  {
+    "question": "In the Kremser equation, if A (Absorption Factor) = 1, the number of stages N is:",
+    "options": [
+      "0",
+      "1",
+      "Infinite",
+      "Indeterminate (requires L'Hopital's rule)"
+    ],
+    "answer": "Indeterminate (requires L'Hopital's rule)"
+  },
+  {
+    "question": "If the absorption factor A is calculated using geometric average, which formula is used?",
+    "options": [
+      "$A = (A_1 + A_N) / 2$",
+      "$A = \\sqrt{A_1 A_N}$",
+      "$A = A_1 - A_N$",
+      "$A = A_1 * A_N$"
+    ],
+    "answer": "$A = \\sqrt{A_1 A_N}$"
+  },
+  {
+    "question": "For a stripping process, what is the 'Stripping Factor' usually defined as?",
+    "options": [
+      "$S = A$",
+      "$S = 1/A$",
+      "$S = A^2$",
+      "$S = m*A$"
+    ],
+    "answer": "$S = 1/A$"
+  },
+  {
+    "question": "The operating line in a concentrated absorption system is generally:",
+    "options": [
+      "A straight line",
+      "A curve",
+      "A horizontal line",
+      "A vertical line"
+    ],
+    "answer": "A curve"
+  },
+  {
+    "question": "If an inlet gas stream contains 1.0 mol% acetone and the absorption process is designed to remove 90% of the acetone, what is the concentration of acetone in the outlet gas stream?",
+    "options": [
+      "0.9%",
+      "0.1%",
+      "0.01%",
+      "0.001%"
+    ],
+    "answer": "0.1% (Calculated as 0.001 mole fraction)"
+  },
+  {
+    "question": "What is 'Structured Packing'?",
+    "options": [
+      "Randomly dumped material",
+      "Arranged sheets of corrugated metal or gauze",
+      "Trays with valves",
+      "Solid blocks of absorbent"
+    ],
+    "answer": "Arranged sheets of corrugated metal or gauze"
+  },
+  {
+    "question": "What is the purpose of a 'Liquid Distributor' in a packed tower?",
+    "options": [
+      "To collect the liquid at the bottom",
+      "To ensure uniform irrigation of the packing",
+      "To prevent gas from exiting",
+      "To measure liquid flow rate"
+    ],
+    "answer": "To ensure uniform irrigation of the packing"
+  },
+  {
+    "question": "Calculate the mole fraction of oxygen in water at 298 K in equilibrium with air (0.21 atm O2) if H = $4.38 \\times 10^4$ atm/mol fraction.",
+    "options": [
+      "$4.8 \\times 10^{-6}$",
+      "$9.2 \\times 10^{-5}$",
+      "$2.1 \\times 10^{-1}$",
+      "$4.38 \\times 10^{4}$"
+    ],
+    "answer": "$4.8 \\times 10^{-6}$"
+  },
+  {
+    "question": "If the inlet gas flow ($V_{N+1}$) is 30 kgmol/h with $y_{N+1}=0.01$, what is the flow rate of the solute entering?",
+    "options": [
+      "30.0 kgmol/h",
+      "0.30 kgmol/h",
+      "29.7 kgmol/h",
+      "0.01 kgmol/h"
+    ],
+    "answer": "0.30 kgmol/h"
+  },
+  {
+    "question": "In a countercurrent tower, if the operating line touches the equilibrium line (Pinch Point), what happens to the number of stages required?",
+    "options": [
+      "It becomes zero",
+      "It becomes infinite",
+      "It becomes 1",
+      "It remains unchanged"
+    ],
+    "answer": "It becomes infinite"
+  },
+  {
+    "question": "Which component balance equation is valid for the ENTIRE countercurrent column?",
+    "options": [
+      "$L_0 x_0 + V_{N+1} y_{N+1} = L_N x_N + V_1 y_1$",
+      "$L_0 + V_{N+1} = L_N + V_1$",
+      "$y = mx + b$",
+      "$p = Hx$"
+    ],
+    "answer": "$L_0 x_0 + V_{N+1} y_{N+1} = L_N x_N + V_1 y_1$"
+  },
+  {
+    "question": "If $L = 90.0$, $V = 30.0$, and $m = 2.53$, calculate the Absorption Factor A.",
+    "options": [
+      "0.84",
+      "1.19",
+      "3.00",
+      "7.59"
+    ],
+    "answer": "1.19"
+  },
+  {
+    "question": "When designing an absorption tower using air as the carrier gas, why is the value 29 often used in flow rate calculations?",
+    "options": [
+      "To convert mass flow rate to molar flow rate (Molecular weight of Air)",
+      "To calculate density",
+      "To determine viscosity",
+      "It is Henry's constant"
+    ],
+    "answer": "To convert mass flow rate to molar flow rate (Molecular weight of Air)"
+  },
+  {
+    "question": "What is the physical state of the 'froth' on a sieve tray?",
+    "options": [
+      "Pure liquid",
+      "Pure gas",
+      "A turbulent mixture of liquid and gas",
+      "Solid precipitate"
+    ],
+    "answer": "A turbulent mixture of liquid and gas"
+  },
+  {
+    "question": "If the Kremser equation is used to solve an acetone absorption problem where $y_{in}=0.01$, 90% removal is required, and $A \\approx 1.2$, what is the calculated number of theoretical stages?",
+    "options": [
+      "4.0",
+      "5.04",
+      "6.5",
+      "9.6"
+    ],
+    "answer": "5.04"
+  },
+  {
+    "question": "If $V'$ is 5.18 kg mol/h and $L'$ is 333 kg mol/h, and the slope of the equilibrium line is very small (highly soluble), is the operation likely absorption or stripping?",
+    "options": [
+      "Absorption",
+      "Stripping",
+      "Distillation",
+      "Evaporation"
+    ],
+    "answer": "Absorption"
+  },
+  {
+    "question": "For dilute systems, the operating line equation $y_{n+1} = (L/V)x_n + C$ approximates a straight line because:",
+    "options": [
+      "L and V are constant",
+      "Equilibrium is linear",
+      "Temperature is constant",
+      "Pressure is constant"
+    ],
+    "answer": "L and V are constant"
+  },
+  {
+    "question": "In a single-stage equilibrium calculation where $L_0 = 300$, $V' = 80$, $y_{in} = 0.2$, and $x_{in} = 0$, why do we need to solve for $x_{out}$ and $y_{out}$ simultaneously?",
+    "options": [
+      "Because there are two unknowns and two independent equations (Material Balance and Equilibrium)",
+      "Because the temperature changes",
+      "Because the pressure changes",
+      "We don't need to, we can guess."
+    ],
+    "answer": "Because there are two unknowns and two independent equations (Material Balance and Equilibrium)"
+  },
+  {
+    "question": "What represents the 'driving force' for mass transfer in the graphical method?",
+    "options": [
+      "The vertical distance between the operating line and the equilibrium line",
+      "The slope of the operating line",
+      "The height of the tower",
+      "The tray efficiency"
+    ],
+    "answer": "The vertical distance between the operating line and the equilibrium line"
+  },
+  {
+    "question": "When $L/V$ (slope of operating line) is less than $m$ (slope of equilibrium line), i.e., $A < 1$, what is the implication for absorption?",
+    "options": [
+      "Absorption is very efficient",
+      "Complete removal of solute is impossible in a countercurrent tower",
+      "The number of stages required decreases",
+      "The tower diameter must increase"
+    ],
+    "answer": "Complete removal of solute is impossible in a countercurrent tower"
+  },
+  {
+    "question": "If a packed tower uses Pall Rings, what is a key advantage over Raschig Rings?",
+    "options": [
+      "Higher pressure drop",
+      "Lower capacity",
+      "Better efficiency and lower pressure drop",
+      "Made of gold"
+    ],
+    "answer": "Better efficiency and lower pressure drop"
+  },
+  {
+    "question": "In a countercurrent absorption tower calculation, if the variable $x_N$ is calculated to be 0.00355, what specific stream composition does this represent?",
+    "options": [
+      "Mole fraction of solute in the inlet water",
+      "Mole fraction of solute in the outlet water",
+      "Mole fraction of solute in the outlet gas",
+      "Mole fraction of Air in the water"
+    ],
+    "answer": "Mole fraction of solute in the outlet water"
+  },
+  {
+    "question": "Which factor usually limits the minimum liquid flow rate in an absorption tower?",
+    "options": [
+      "Flooding velocity",
+      "The equilibrium curve (Pinch point)",
+      "The density of the gas",
+      "The viscosity of the liquid"
+    ],
+    "answer": "The equilibrium curve (Pinch point)"
+  }
+]

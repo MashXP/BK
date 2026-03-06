@@ -1,0 +1,562 @@
+[
+  {
+    "question": "Based on similarities in ribosomal RNA, into which three domains are all living organisms classified?",
+    "options": [
+      "Bacteria, Archaea, and Eukarya",
+      "Prokaryota, Eukaryota, and Protista",
+      "Fungi, Plantae, and Animalia",
+      "Monera, Protista, and Eukarya"
+    ],
+    "answer": "Bacteria, Archaea, and Eukarya"
+  },
+  {
+    "question": "According to the endosymbiotic theory, which specific group of organisms is thought to be the origin of mitochondria in eukaryotic cells?",
+    "options": [
+      "Bacteria",
+      "Archaea",
+      "Cyanobacteria",
+      "Methanogens"
+    ],
+    "answer": "Bacteria"
+  },
+  {
+    "question": "Which supergroup of protists is characterized by some members having an 'excavated' groove on one side of the cell body and includes parasites like *Giardia*?",
+    "options": [
+      "Excavata",
+      "SAR",
+      "Archaeplastida",
+      "Unikonta"
+    ],
+    "answer": "Excavata"
+  },
+  {
+    "question": "What is a common characteristic shared by Diplomonads and Parabasalids, two clades within the Excavata supergroup?",
+    "options": [
+      "Presence of highly reduced mitochondria",
+      "Ability to perform photosynthesis",
+      "Lack of flagella",
+      "Possession of a crystalline rod in their flagella"
+    ],
+    "answer": "Presence of highly reduced mitochondria"
+  },
+  {
+    "question": "The SAR supergroup is named after which three large and diverse clades?",
+    "options": [
+      "Stramenopila, Alveolata, and Rhizaria",
+      "Sporozoa, Amoebozoa, and Rhizopoda",
+      "Euglenozoa, Diplomonadida, and Parabasalia",
+      "Red algae, Green algae, and Brown algae"
+    ],
+    "answer": "Stramenopila, Alveolata, and Rhizaria"
+  },
+  {
+    "question": "Which important photosynthetic organisms, known for their intricate silica shells, are classified under the Stramenopiles clade within the SAR supergroup?",
+    "options": [
+      "Diatoms",
+      "Dinoflagellates",
+      "Red algae",
+      "Brown algae"
+    ],
+    "answer": "Diatoms"
+  },
+  {
+    "question": "*Plasmodium*, the pathogen causing malaria, belongs to which clade within the SAR supergroup?",
+    "options": [
+      "Alveolata",
+      "Stramenopila",
+      "Rhizaria",
+      "Excavata"
+    ],
+    "answer": "Alveolata"
+  },
+  {
+    "question": "Which supergroup of eukaryotes includes red algae, green algae, and land plants, and forms the base of the food web in many aquatic communities?",
+    "options": [
+      "Archaeplastida",
+      "Excavata",
+      "SAR",
+      "Unikonta"
+    ],
+    "answer": "Archaeplastida"
+  },
+  {
+    "question": "Amoebas that have lobe- or tube-shaped pseudopodia, along with animals and fungi, belong to which eukaryotic supergroup?",
+    "options": [
+      "Unikonta",
+      "SAR",
+      "Excavata",
+      "Archaeplastida"
+    ],
+    "answer": "Unikonta"
+  },
+  {
+    "question": "Protists that can switch between photosynthesis and heterotrophy depending on environmental conditions are known by what nutritional term?",
+    "options": [
+      "Mixotrophs",
+      "Photoautotrophs",
+      "Chemoheterotrophs",
+      "Osmotrophs"
+    ],
+    "answer": "Mixotrophs"
+  },
+  {
+    "question": "What are the two primary modes of reproduction observed across the diverse groups of protists?",
+    "options": [
+      "Asexual reproduction and sexual reproduction",
+      "Budding and fragmentation",
+      "Binary fission and conjugation",
+      "Spore formation and gamete fusion"
+    ],
+    "answer": "Asexual reproduction and sexual reproduction"
+  },
+  {
+    "question": "In the sexual life cycle typical of most fungi and some protists, when does meiosis occur relative to fertilization?",
+    "options": [
+      "Meiosis occurs after the zygote forms, producing haploid organisms.",
+      "Meiosis occurs before gamete formation, producing haploid gametes.",
+      "Meiosis occurs during the growth of the multicellular diploid organism.",
+      "Meiosis is absent; only mitosis is used for reproduction."
+    ],
+    "answer": "Meiosis occurs after the zygote forms, producing haploid organisms."
+  },
+  {
+    "question": "Diplomonads possess reduced mitochondria called what, which lack functional electron transport chains?",
+    "options": [
+      "Mitosomes",
+      "Hydrogenosomes",
+      "Chloroplasts",
+      "Kinetoplasts"
+    ],
+    "answer": "Mitosomes"
+  },
+  {
+    "question": "*Giardia intestinalis*, a parasite inhabiting the intestines of mammals and causing severe diarrhea, is an example of which type of protist?",
+    "options": [
+      "Diplomonad",
+      "Parabasalid",
+      "Kinetoplastid",
+      "Euglenid"
+    ],
+    "answer": "Diplomonad"
+  },
+  {
+    "question": "What is the infective stage of *Giardia lamblia* that is typically ingested by humans through contaminated water, leading to infection?",
+    "options": [
+      "Cyst",
+      "Trophozoite",
+      "Sporozoite",
+      "Merozoite"
+    ],
+    "answer": "Cyst"
+  },
+  {
+    "question": "Parabasalids have reduced mitochondria called what, which generate some energy anaerobically and release hydrogen gas as a by-product?",
+    "options": [
+      "Hydrogenosomes",
+      "Mitosomes",
+      "Plastids",
+      "Glyoxysomes"
+    ],
+    "answer": "Hydrogenosomes"
+  },
+  {
+    "question": "*Trichomonas vaginalis*, a sexually transmitted parasite that infects the human reproductive and urinary tracts, is a well-known example of which protist group?",
+    "options": [
+      "Parabasalid",
+      "Diplomonad",
+      "Euglenid",
+      "Apicomplexan"
+    ],
+    "answer": "Parabasalid"
+  },
+  {
+    "question": "A patient presents with symptoms of urethritis. Microscopic examination of a urethral swab reveals motile, pear-shaped organisms with multiple flagella and an undulating plasma membrane. Which of the following life cycle stages of *Trichomonas vaginalis* is most likely observed and considered both infective and diagnostic in this scenario?",
+    "options": [
+      "Trophozoite",
+      "Cyst",
+      "Sporozoite",
+      "Gametocyte"
+    ],
+    "answer": "Trophozoite"
+  },
+  {
+    "question": "What is the main morphological feature that distinguishes protists in the Euglenozoans clade from other organisms?",
+    "options": [
+      "The presence of a rod with a spiral or crystalline structure inside each of their flagella",
+      "An 'excavated' groove on one side of the cell body",
+      "Reduced mitochondria called mitosomes",
+      "Symmetrical internal skeletons made of silica"
+    ],
+    "answer": "The presence of a rod with a spiral or crystalline structure inside each of their flagella"
+  },
+  {
+    "question": "Kinetoplastids, a group within Euglenozoans, are characterized by a single, large mitochondrion that contains an organized mass of DNA called a what?",
+    "options": [
+      "Kinetoplast",
+      "Nucleoid",
+      "Plasmid",
+      "Chromatophore"
+    ],
+    "answer": "Kinetoplast"
+  },
+  {
+    "question": "Which *Trypanosoma* species is specifically mentioned as causing sleeping sickness disease in humans?",
+    "options": [
+      "*Trypanosoma brucei*",
+      "*Trypanosoma cruzi*",
+      "*Trypanosoma gambiense*",
+      "*Trypanosoma rhodesiense*"
+    ],
+    "answer": "*Trypanosoma brucei*"
+  },
+  {
+    "question": "A researcher identifies different morphological forms of a trypanosomatid parasite during its life cycle. One form is small and rounded, with an internalized flagellum, and is typically found replicating intracellularly within the mammalian host's tissues. Which cellular form is the researcher most likely observing?",
+    "options": [
+      "Amastigote",
+      "Trypomastigote",
+      "Promastigote",
+      "Epimastigote"
+    ],
+    "answer": "Amastigote"
+  },
+  {
+    "question": "Chagas disease, caused by *Trypanosoma cruzi*, is transmitted to humans primarily by which vector?",
+    "options": [
+      "Triatomine bug (kissing bug)",
+      "Tsetse fly",
+      "Anopheles mosquito",
+      "Sand fly"
+    ],
+    "answer": "Triatomine bug (kissing bug)"
+  },
+  {
+    "question": "Which structure in *Euglena* functions as a pigmented light shield, allowing light from only a certain direction to strike the light detector, thus aiding in phototaxis?",
+    "options": [
+      "Eyespot (stigma)",
+      "Pellicle",
+      "Contractile vacuole",
+      "Chloroplast"
+    ],
+    "answer": "Eyespot (stigma)"
+  },
+  {
+    "question": "What unique protein structure beneath the plasma membrane provides strength and flexibility to *Euglena* cells, allowing them to change shape without possessing a rigid cell wall?",
+    "options": [
+      "Pellicle",
+      "Cellulose cell wall",
+      "Silica test",
+      "Peptidoglycan layer"
+    ],
+    "answer": "Pellicle"
+  },
+  {
+    "question": "*Naegleria fowleri* is a free-living amoeba commonly known for causing what severe, often fatal, human infection?",
+    "options": [
+      "Primary amoebic meningoencephalitis (PAM)",
+      "Amoebic dysentery",
+      "Giardiasis",
+      "Chagas disease"
+    ],
+    "answer": "Primary amoebic meningoencephalitis (PAM)"
+  },
+  {
+    "question": "In the asexual reproduction of diatoms through mitosis, what generally happens to the size of daughter cells over successive generations if sexual reproduction does not occur?",
+    "options": [
+      "Half the cells of each generation become progressively smaller.",
+      "All cells become progressively larger.",
+      "The cell size remains constant.",
+      "Cell size randomly fluctuates."
+    ],
+    "answer": "Half the cells of each generation become progressively smaller."
+  },
+  {
+    "question": "What are the three main structural parts of a large brown alga like *Laminaria*?",
+    "options": [
+      "Blade, Stipe, and Holdfast",
+      "Root, Stem, and Leaf",
+      "Thallus, Rhizoid, and Capsule",
+      "Sporophyte, Gametophyte, and Zygote"
+    ],
+    "answer": "Blade, Stipe, and Holdfast"
+  },
+  {
+    "question": "The life cycle of *Laminaria*, a brown alga, involves the alternation between a large, macroscopic sporophyte and smaller, multicellular gametophytes. This type of reproductive strategy is known as what?",
+    "options": [
+      "Alternation of generations",
+      "Haploid-dominant life cycle",
+      "Diploid-dominant life cycle",
+      "Asexual budding"
+    ],
+    "answer": "Alternation of generations"
+  },
+  {
+    "question": "*Phytophthora infestans*, an oomycete, is infamous for causing which devastating plant disease?",
+    "options": [
+      "Late blight in potatoes",
+      "Powdery mildew in grapes",
+      "Citrus canker",
+      "Wheat rust"
+    ],
+    "answer": "Late blight in potatoes"
+  },
+  {
+    "question": "In the sexual reproduction of oomycetes, where do the sperm nuclei from antheridial hyphae typically fertilize the egg nuclei?",
+    "options": [
+      "Within the oogonium",
+      "In the water column",
+      "On the plant surface",
+      "Inside the zoosporangium"
+    ],
+    "answer": "Within the oogonium"
+  },
+  {
+    "question": "What is the defining characteristic of Alveolates, consisting of membrane-enclosed sacs just beneath the plasma membrane?",
+    "options": [
+      "Alveoli",
+      "Mitosomes",
+      "Hydrogenosomes",
+      "Kinetoplasts"
+    ],
+    "answer": "Alveoli"
+  },
+  {
+    "question": "Massive blooms of dinoflagellates can lead to a phenomenon known as what, often resulting in harmful ecological impacts due to neurotoxin production?",
+    "options": [
+      "Red tide",
+      "Blue-green algae bloom",
+      "Eutrophication",
+      "Ocean acidification"
+    ],
+    "answer": "Red tide"
+  },
+  {
+    "question": "A patient returning from a malarial-endemic region develops periodic fevers and chills. Blood smear analysis reveals ring-stage parasites within red blood cells. Given the *Plasmodium* life cycle, which stage of the parasite is directly responsible for initially invading the human liver cells after transmission from the mosquito?",
+    "options": [
+      "Sporozoite",
+      "Merozoite",
+      "Gametocyte",
+      "Oocyst"
+    ],
+    "answer": "Sporozoite"
+  },
+  {
+    "question": "During the *Plasmodium* life cycle, after an *Anopheles* mosquito ingests gametocytes from an infected human, where does the sexual reproduction (fertilization) of the parasite primarily take place?",
+    "options": [
+      "In the mosquito's digestive tract",
+      "In the human liver cells",
+      "In the mosquito's salivary glands",
+      "In the human red blood cells"
+    ],
+    "answer": "In the mosquito's digestive tract"
+  },
+  {
+    "question": "What are the two distinct types of nuclei found in ciliates like *Paramecium*, where one controls daily cellular functions and the other is involved in genetic recombination during sexual reproduction?",
+    "options": [
+      "Macronucleus and Micronucleus",
+      "Nucleoid and Kinetoplast",
+      "Prokaryotic nucleus and Eukaryotic nucleus",
+      "Diploid nucleus and Haploid nucleus"
+    ],
+    "answer": "Macronucleus and Micronucleus"
+  },
+  {
+    "question": "In *Paramecium* conjugation, what is the fate of the macronucleus, and what crucial event involving the micronuclei leads to genetic recombination and ultimately new genetic combinations in the offspring?",
+    "options": [
+      "The macronucleus disintegrates; the two micronuclei fuse after exchange.",
+      "The macronucleus undergoes meiosis; micronuclei are expelled from the cell.",
+      "The macronucleus fuses with the micronucleus; no genetic exchange occurs.",
+      "Both macronucleus and micronucleus divide by binary fission without fusion."
+    ],
+    "answer": "The macronucleus disintegrates; the two micronuclei fuse after exchange."
+  },
+  {
+    "question": "Radiolarians, Foraminiferans, and Cercozoans are all clades within which eukaryotic supergroup?",
+    "options": [
+      "Rhizaria",
+      "Alveolata",
+      "Stramenopila",
+      "Excavata"
+    ],
+    "answer": "Rhizaria"
+  },
+  {
+    "question": "What material typically forms the symmetrical internal skeletons of Radiolarians, which are known to accumulate on the seafloor as thick oozes after the organisms die?",
+    "options": [
+      "Silica",
+      "Calcium carbonate",
+      "Chitin",
+      "Cellulose"
+    ],
+    "answer": "Silica"
+  },
+  {
+    "question": "Foraminiferan tests (shells) consist of a single piece of organic material that is typically hardened with what compound?",
+    "options": [
+      "Calcium carbonate",
+      "Silica",
+      "Pectin",
+      "Cellulose"
+    ],
+    "answer": "Calcium carbonate"
+  },
+  {
+    "question": "Foraminiferans exhibit an alternation of generations. According to Le Calvez's discovery mentioned in the lecture notes, when does meiosis occur in their life cycle, contrasting with the typical timing in most animals?",
+    "options": [
+      "Meiosis occurs with asexual reproduction, similar to land plants.",
+      "Meiosis occurs during gametogenesis, similar to most animals.",
+      "Meiosis is entirely absent in their life cycle.",
+      "Meiosis occurs only under extreme environmental stress."
+    ],
+    "answer": "Meiosis occurs with asexual reproduction, similar to land plants."
+  },
+  {
+    "question": "The cercozoan *Paulinella* conducts photosynthesis in a unique structure called a chromatophore. What evidence suggests that these chromatophores are derived from a bacterium through a distinct secondary endosymbiosis event, different from the origin of typical plastids?",
+    "options": [
+      "Chromatophore membranes include a peptidoglycan layer, and DNA evidence links them to a different cyanobacterium.",
+      "They contain ribosomes similar to those found in archaea.",
+      "They have a crystalline rod structure within their flagella.",
+      "Their size is significantly larger than typical plastids."
+    ],
+    "answer": "Chromatophore membranes include a peptidoglycan layer, and DNA evidence links them to a different cyanobacterium."
+  },
+  {
+    "question": "Which group of green algae is considered the closest algal relatives of land plants within the Archaeplastida supergroup?",
+    "options": [
+      "Charophytes",
+      "Chlorophytes",
+      "Red algae",
+      "Brown algae"
+    ],
+    "answer": "Charophytes"
+  },
+  {
+    "question": "The red alga *Porphyra* is commercially harvested and processed into what traditional Japanese food product commonly used in sushi?",
+    "options": [
+      "Nori",
+      "Agar",
+      "Kelp",
+      "Dulse"
+    ],
+    "answer": "Nori"
+  },
+  {
+    "question": "The life cycle of *Gracilaria dura* involves distinct multicellular Carposporophyte, Gametophyte, and Tetrasporophyte stages. This complex succession of different forms represents which general type of life cycle?",
+    "options": [
+      "Alternation of generations with three distinct multicellular phases",
+      "Haploid-dominant life cycle with diploid zygote",
+      "Diploid-dominant life cycle with haploid gametes",
+      "Only asexual reproduction by binary fission"
+    ],
+    "answer": "Alternation of generations with three distinct multicellular phases"
+  },
+  {
+    "question": "*Volvox* is described as a multicellular freshwater green alga. What key characteristic makes it considered multicellular rather than merely colonial?",
+    "options": [
+      "It has two types of differentiated cells, some specialized for reproduction while others cannot reproduce if isolated.",
+      "Its cells are physically connected by cytoplasmic strands.",
+      "It forms a hollow ball structure.",
+      "It has flagella for movement."
+    ],
+    "answer": "It has two types of differentiated cells, some specialized for reproduction while others cannot reproduce if isolated."
+  },
+  {
+    "question": "Charophytes share specific characteristics with land plants. Which enzyme-containing organelle helps limit the loss of organic compounds due to photorespiration in both Charophytes and land plants, but typically does not contain these specific enzymes in other algae?",
+    "options": [
+      "Peroxisome",
+      "Mitochondrion",
+      "Chloroplast",
+      "Vacuole"
+    ],
+    "answer": "Peroxisome"
+  },
+  {
+    "question": "In the life cycle of *Dictyostelium*, a cellular slime mold, under what environmental condition do individual amoeboid cells aggregate to form a slug-like structure, and what is a key difference in cellular organization compared to plasmodial slime molds during this aggregated stage?",
+    "options": [
+      "Food depletion triggers aggregation, and aggregated cells remain separated by plasma membranes.",
+      "Abundant food triggers aggregation, and aggregated cells fuse into a coenocytic mass.",
+      "Presence of light triggers aggregation, and cells differentiate into specialized tissues.",
+      "Absence of light triggers aggregation, and cells undergo meiosis within the aggregate."
+    ],
+    "answer": "Food depletion triggers aggregation, and aggregated cells remain separated by plasma membranes."
+  },
+  {
+    "question": "Which specific protein complexes embedded in the plasma membrane synthesize cellulose microfibrils for the cell wall and are found only in land plants and charophyte algae, distinguishing them from other algae?",
+    "options": [
+      "Rosette-shaped cellulose synthase complexes",
+      "Linear cellulose synthase complexes",
+      "Peptidoglycan synthase complexes",
+      "Chitin synthase complexes"
+    ],
+    "answer": "Rosette-shaped cellulose synthase complexes"
+  },
+  {
+    "question": "When comparing cell division in charophytes and land plants, what specific microtubule-based structure is formed between the nuclei of two new cells after cell division, aiding in the formation of the new cell wall?",
+    "options": [
+      "Phragmoplasts",
+      "Spindle fibers",
+      "Centrosomes",
+      "Actin filaments"
+    ],
+    "answer": "Phragmoplasts"
+  },
+  {
+    "question": "Which of the following pathogenic protozoa is known to cause African trypanosomiasis and is transmitted by the tsetse fly?",
+    "options": [
+      "*Trypanosoma brucei*",
+      "*Trypanosoma cruzi*",
+      "*Leishmania*",
+      "*Naegleria fowleri*"
+    ],
+    "answer": "*Trypanosoma brucei*"
+  },
+  {
+    "question": "Which protist, belonging to the SAR supergroup, is a common cause of diarrheal illness and is transmitted through water or direct contact with infected animals?",
+    "options": [
+      "*Cryptosporidium*",
+      "*Entamoeba histolytica*",
+      "*Giardia intestinalis*",
+      "*Trichomonas vaginalis*"
+    ],
+    "answer": "*Cryptosporidium*"
+  },
+  {
+    "question": "Diatoms, categorized under the SAR supergroup, are primarily unicellular and possess a cell wall composed of which unique materials?",
+    "options": [
+      "Pectin and Silica",
+      "Cellulose and Alginic acid",
+      "Chitin and Glucans",
+      "Peptidoglycan"
+    ],
+    "answer": "Pectin and Silica"
+  },
+  {
+    "question": "Water Molds (Oomycota), despite their filamentous growth resembling fungi, are classified under the SAR supergroup and have cell walls primarily made of what substance, unlike fungal cell walls?",
+    "options": [
+      "Cellulose",
+      "Chitin",
+      "Peptidoglycan",
+      "Silica"
+    ],
+    "answer": "Cellulose"
+  },
+  {
+    "question": "Red algae, classified under Archaeplastida, are known for possessing which distinctive photosynthetic pigments in addition to chlorophyll a and d?",
+    "options": [
+      "Phycobiliproteins",
+      "Carotenoids",
+      "Xanthophylls",
+      "Fucoxanthins"
+    ],
+    "answer": "Phycobiliproteins"
+  },
+  {
+    "question": "According to the summary of characteristics, which nutritional form is typical for Protozoa?",
+    "options": [
+      "Chemoheterotroph",
+      "Photoautotroph",
+      "Mixotroph",
+      "Chemoautotroph"
+    ],
+    "answer": "Chemoheterotroph"
+  }
+]

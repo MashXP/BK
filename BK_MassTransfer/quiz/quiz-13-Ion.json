@@ -1,0 +1,502 @@
+[
+    {
+        "question": "What is the primary mechanism by which hardness is removed from water during water softening?",
+        "options": [
+            "Adsorption",
+            "Ion Exchange",
+            "Filtration",
+            "Sedimentation"
+        ],
+        "answer": "Ion Exchange"
+    },
+    {
+        "question": "Which ions are primarily responsible for water hardness?",
+        "options": [
+            "Sodium and Potassium",
+            "Chloride and Sulfate",
+            "Calcium and Magnesium",
+            "Iron and Manganese"
+        ],
+        "answer": "Calcium and Magnesium"
+    },
+    {
+        "question": "In a cation exchange process involving a strong-acid cation resin, what functional group is typically present?",
+        "options": [
+            "-COOH",
+            "-NH",
+            "-OH",
+            "-SO3H"
+        ],
+        "answer": "-SO3H"
+    },
+    {
+        "question": "What characteristic distinguishes Strong-Base Anion (SBA) resins?",
+        "options": [
+            "They behave like weak acids.",
+            "They have weak-base functional groups (-NH).",
+            "They are highly ionized and have strong-base functional groups (OH).",
+            "They are selective only for heavy metals."
+        ],
+        "answer": "They are highly ionized and have strong-base functional groups (OH)."
+    },
+    {
+        "question": "Which of the following is a naturally occurring ion exchange material?",
+        "options": [
+            "Zeolites",
+            "Polystyrene",
+            "Divinyl benzene",
+            "Polyacrylic"
+        ],
+        "answer": "Zeolites"
+    },
+    {
+        "question": "What is the purpose of regeneration in an ion exchange process?",
+        "options": [
+            "To increase the flow rate",
+            "To shift the equilibrium back to the original resin form",
+            "To remove physical suspended solids",
+            "To decrease the resin capacity"
+        ],
+        "answer": "To shift the equilibrium back to the original resin form"
+    },
+    {
+        "question": "Which regenerant is commonly used for Strong-Acid Cation (SAC) resins?",
+        "options": [
+            "NaOH",
+            "NH3",
+            "NaCl",
+            "Ca(OH)2"
+        ],
+        "answer": "NaCl"
+    },
+    {
+        "question": "For Weak-Acid Cation (WAC) resins, why must the concentration of sulfuric acid regenerant be kept under 0.8%?",
+        "options": [
+            "To prevent resin degradation",
+            "To avoid calcium sulfate precipitation",
+            "To increase regeneration speed",
+            "To reduce chemical costs"
+        ],
+        "answer": "To avoid calcium sulfate precipitation"
+    },
+    {
+        "question": "What distinguishes chelating resins from standard cation exchange resins?",
+        "options": [
+            "They only exchange anions.",
+            "They have a high degree of selectivity for heavy-metal cations.",
+            "They do not require regeneration.",
+            "They operate only at high pH."
+        ],
+        "answer": "They have a high degree of selectivity for heavy-metal cations."
+    },
+    {
+        "question": "Which operational mode involves stirring resin and solution until reaction completion followed by settling?",
+        "options": [
+            "Continuous process",
+            "Packed column process",
+            "Batch process",
+            "Fluidized bed process"
+        ],
+        "answer": "Batch process"
+    },
+    {
+        "question": "In the ion exchange equilibrium equation $K = \\frac{[NaR][H^+]}{[Na^+][HR]}$, what does $[NaR]$ represent?",
+        "options": [
+            "Concentration of sodium ions in the solution",
+            "Concentration of sodium ions on the resin",
+            "Total capacity of the resin",
+            "Equilibrium constant"
+        ],
+        "answer": "Concentration of sodium ions on the resin"
+    },
+    {
+        "question": "If the total ionic concentration of ionic groups on the resin is fixed, which relationship holds true for a resin exchanging Na+ and H+?",
+        "options": [
+            "$[R] = [NaR] - [HR]$",
+            "$[R] = [NaR] + [HR]$",
+            "$[R] = [Na^+] + [H^+]$",
+            "$[R] = [NaR] / [HR]$"
+        ],
+        "answer": "$[R] = [NaR] + [HR]$"
+    },
+    {
+        "question": "What is the equilibrium constant $K_{A,B}$ approximated by when using relative molar selectivity coefficients?",
+        "options": [
+            "$K_{A,B} = K_A + K_B$",
+            "$K_{A,B} = K_A \\times K_B$",
+            "$K_{A,B} = K_A / K_B$",
+            "$K_{A,B} = K_B / K_A$"
+        ],
+        "answer": "$K_{A,B} = K_A / K_B$"
+    },
+    {
+        "question": "Based on typical selectivity coefficients for Strong-Acid Cation exchangers, which ion is generally preferred over $Na^+$?",
+        "options": [
+            "$H^+$",
+            "$Li^+$",
+            "$Ca^{2+}$",
+            "None of the above"
+        ],
+        "answer": "$Ca^{2+}$"
+    },
+    {
+        "question": "What is the correct expression for the selectivity coefficient $K_{B^+}^{A^+}$ for the exchange reaction $A^+ + BR \\leftrightarrow AR + B^+$?",
+        "options": [
+            "$\\frac{[AR][B^+]}{[A^+][BR]}$",
+            "$\\frac{[A^+][BR]}{[AR][B^+]}$",
+            "$\\frac{[AR][BR]}{[A^+][B^+]}$",
+            "$\\frac{[A^+][B^+]}{[AR][BR]}$"
+        ],
+        "answer": "$\\frac{[AR][B^+]}{[A^+][BR]}$"
+    },
+    {
+        "question": "Which factor does NOT typically affect the selectivity coefficient of an ion exchange resin?",
+        "options": [
+            "Nature and valence of the ion",
+            "Type of resin",
+            "Atmospheric pressure",
+            "Ion concentration in solution"
+        ],
+        "answer": "Atmospheric pressure"
+    },
+    {
+        "question": "For the reaction $Cu^{2+} + 2HR \\leftrightarrow CuR_2 + 2H^+$, how is the equilibrium constant expressed?",
+        "options": [
+            "$K = \\frac{[CuR_2][H^+]}{[Cu^{2+}][HR]}$",
+            "$K = \\frac{[CuR_2][H^+]^2}{[Cu^{2+}][HR]^2}$",
+            "$K = \\frac{[Cu^{2+}][HR]^2}{[CuR_2][H^+]^2}$",
+            "$K = \\frac{[CuR_2]^2[H^+]}{[Cu^{2+}][HR]}$"
+        ],
+        "answer": "$K = \\frac{[CuR_2][H^+]^2}{[Cu^{2+}][HR]^2}$"
+    },
+    {
+        "question": "When regenerating a Weak-Base Anion (WBA) resin, which of the following is a suitable regenerant?",
+        "options": [
+            "Sulfuric acid (H2SO4)",
+            "Hydrochloric acid (HCl)",
+            "Ammonia (NH3)",
+            "Sodium chloride (NaCl)"
+        ],
+        "answer": "Ammonia (NH3)"
+    },
+    {
+        "question": "What is the first step in the basic model of the rate of ion exchange?",
+        "options": [
+            "Diffusion of ions in the pores",
+            "Exchange of ions at the surface",
+            "Mass transfer of ions from bulk solution to particle surface",
+            "Diffusion of exchanged ions back to bulk solution"
+        ],
+        "answer": "Mass transfer of ions from bulk solution to particle surface"
+    },
+    {
+        "question": "In the context of ion exchange, what does 'DVB' stand for?",
+        "options": [
+            "Divinyl benzene",
+            "Dilute volume base",
+            "Di-valent bond",
+            "Direct volume balance"
+        ],
+        "answer": "Divinyl benzene"
+    },
+    {
+        "question": "If $K_{Li^+} = 1.0$ and $K_{Na^+} = 1.98$, what is the approximate selectivity coefficient $K_{Na, Li}$ for exchanging Na+ onto a resin displacing Li+?",
+        "options": [
+            "0.51",
+            "1.98",
+            "0.98",
+            "2.98"
+        ],
+        "answer": "1.98"
+    },
+    {
+        "question": "Which of the following is a typical functional group for Weak-Base Anion (WBA) resins?",
+        "options": [
+            "-SO3H",
+            "-COOH",
+            "-NH",
+            "-OH"
+        ],
+        "answer": "-NH"
+    },
+    {
+        "question": "Which of the following represents the total concentration equation for a binary system of ions A and B in solution with valences $n$ and 1 respectively?",
+        "options": [
+            "$C = c_A + c_B$",
+            "$C = n \\cdot c_A + c_B$",
+            "$C = c_A / n + c_B$",
+            "$C = c_A \\cdot c_B$"
+        ],
+        "answer": "$C = n \\cdot c_A + c_B$"
+    },
+    {
+        "question": "What is the calculated selectivity coefficient $K_{Ca, H}$ if $K_{Ca} = 5.16$ and $K_H = 1.27$?",
+        "options": [
+            "3.89",
+            "6.55",
+            "4.06",
+            "0.25"
+        ],
+        "answer": "4.06"
+    },
+    {
+        "question": "In a continuous ion exchange process, where is the exchanged material typically placed?",
+        "options": [
+            "In a stirred tank",
+            "In a packed column or bed",
+            "On a conveyor belt",
+            "In a centrifuge"
+        ],
+        "answer": "In a packed column or bed"
+    },
+    {
+        "question": "For Strong-Acid Cation resins relative to $Li^+ = 1.0$, which ion has the highest selectivity among those listed?",
+        "options": [
+            "$Na^+$",
+            "$Mg^{2+}$",
+            "$Ca^{2+}$",
+            "$Cu^{2+}$"
+        ],
+        "answer": "$Ca^{2+}$"
+    },
+    {
+        "question": "When removing $Cu^{2+}$ using a strong acid-cation resin displacing $H^+$, if $K_{Cu,H} = 3.03$, what does this indicate?",
+        "options": [
+            "The resin prefers $H^+$ over $Cu^{2+}$",
+            "The resin prefers $Cu^{2+}$ over $H^+$",
+            "The resin has equal preference for both",
+            "The reaction is impossible"
+        ],
+        "answer": "The resin prefers $Cu^{2+}$ over $H^+$"
+    },
+    {
+        "question": "Which acid is generally NOT recommended for regenerating SAC resins due to exothermic reactions?",
+        "options": [
+            "Hydrochloric acid (HCl)",
+            "Sulfuric acid (H2SO4)",
+            "Nitric acid (HNO3)",
+            "Acetic acid (CH3COOH)"
+        ],
+        "answer": "Nitric acid (HNO3)"
+    },
+    {
+        "question": "What defines the 'pore space' in an ion exchange resin model?",
+        "options": [
+            "The space between resin beads",
+            "The internal voids within the resin structure where diffusion occurs",
+            "The external surface area only",
+            "The volume of the functional groups"
+        ],
+        "answer": "The internal voids within the resin structure where diffusion occurs"
+    },
+    {
+        "question": "Which application uses ion exchange for the recovery of antibiotics?",
+        "options": [
+            "Water softening",
+            "Fermentation product recovery",
+            "Semiconductor water purification",
+            "Petroleum development"
+        ],
+        "answer": "Fermentation product recovery"
+    },
+    {
+        "question": "In the equation $Q = n \\cdot q_{AR} + q_{BR}$, what does $Q$ represent?",
+        "options": [
+            "Total concentration in the liquid solution",
+            "Total concentration in the resin",
+            "Flow rate of the solution",
+            "Selectivity coefficient"
+        ],
+        "answer": "Total concentration in the resin"
+    },
+    {
+        "question": "Why is caustic soda (NaOH) used to regenerate Strong-Base Anion (SBA) resins?",
+        "options": [
+            "It provides $H^+$ ions.",
+            "It provides $OH^-$ ions to shift equilibrium.",
+            "It precipitates the contaminants.",
+            "It neutralizes the resin pH to 7."
+        ],
+        "answer": "It provides $OH^-$ ions to shift equilibrium."
+    },
+    {
+        "question": "Calculate the value of $K_{K, H}$ given $K_K = 2.90$ and $K_H = 1.27$.",
+        "options": [
+            "1.63",
+            "2.28",
+            "3.68",
+            "0.44"
+        ],
+        "answer": "2.28"
+    },
+    {
+        "question": "What is the valence 'n' in the exchange reaction $A^{+n} + n B^+R^- \\leftrightarrow A^{+n}R_n^- + n B^+$?",
+        "options": [
+            "The charge of ion B",
+            "The charge of ion A",
+            "The number of resin beads",
+            "The molecular weight of A"
+        ],
+        "answer": "The charge of ion A"
+    },
+    {
+        "question": "Which of the following is NOT a step in the rate of ion exchange model?",
+        "options": [
+            "Mass transfer from bulk to surface",
+            "Chemical precipitation on the surface",
+            "Diffusion in pores",
+            "Exchange of ions at the surface"
+        ],
+        "answer": "Chemical precipitation on the surface"
+    },
+    {
+        "question": "Given a total resin capacity $Q = 1.9$ eq/L and equilibrium relation $q_{HR} + 2q_{CuR_2} = 1.9$. If $q_{HR} = 0.2232$, what is $q_{CuR_2}$?",
+        "options": [
+            "1.6768",
+            "0.8384",
+            "3.3536",
+            "0.2232"
+        ],
+        "answer": "0.8384"
+    },
+    {
+        "question": "In an ion exchange tower, if the break point time is 8.0 min for a 0.40 m height, what is the expected break point time for a similar column with height $H_2$ keeping flow rate constant?",
+        "options": [
+            "Proportional to $H_2^2$",
+            "Inversely proportional to $H_2$",
+            "Directly proportional to the new height",
+            "Constant regardless of height"
+        ],
+        "answer": "Directly proportional to the new height"
+    },
+    {
+        "question": "If a column height of 0.40 m yields a break point at 8.0 min, and we need a break point of 13.0 min with the same flow rate, what is the required column height (assuming linear scaling)?",
+        "options": [
+            "0.25 m",
+            "0.65 m",
+            "0.80 m",
+            "1.0 m"
+        ],
+        "answer": "0.65 m"
+    },
+    {
+        "question": "A waste stream has total concentration $C = 0.1$ N. If the concentration of $Cu^{2+}$ is $0.02$ M, what is its concentration in Normality (N)?",
+        "options": [
+            "0.01 N",
+            "0.02 N",
+            "0.04 N",
+            "0.1 N"
+        ],
+        "answer": "0.04 N"
+    },
+    {
+        "question": "In the equilibrium calculation for $Cu^{2+}$ exchange, if $C = 0.1$ N and $C_{Cu^{2+}} = 0.04$ N, what is the concentration of $H^+$ ($C_{H^+}$)?",
+        "options": [
+            "0.06 N",
+            "0.14 N",
+            "0.04 N",
+            "0.1 N"
+        ],
+        "answer": "0.06 N"
+    },
+    {
+        "question": "Using the equation $4.063 = \\frac{(c_{H^+})^2 (q_{CaR_2})}{(c_{Ca^{2+}})(q_{HR})^2}$ with $c_{H^+} = 0.06$, $c_{Ca^{2+}} = 0.02$, and $q_{CaR_2} = 0.95 - 0.5q_{HR}$, what is the nature of the mathematical problem to solve for $q_{HR}$?",
+        "options": [
+            "Linear equation",
+            "Quadratic equation",
+            "Differential equation",
+            "Logarithmic equation"
+        ],
+        "answer": "Quadratic equation"
+    },
+    {
+        "question": "What is the equivalent weight relation between Molarity (M) and Normality (N) for a divalent ion like $Ca^{2+}$?",
+        "options": [
+            "N = M",
+            "N = 2 * M",
+            "N = M / 2",
+            "N = M^2"
+        ],
+        "answer": "N = 2 * M"
+    },
+    {
+        "question": "Which parameter is fixed for a specific volume of wet resin bed?",
+        "options": [
+            "The concentration of ions in the solution",
+            "The total ionic concentration of ionic groups on the resin ($Q$)",
+            "The pH of the surrounding solution",
+            "The flow rate of the liquid"
+        ],
+        "answer": "The total ionic concentration of ionic groups on the resin ($Q$)"
+    },
+    {
+        "question": "What is the physical state of the resin phase in a typical ion exchange column?",
+        "options": [
+            "Liquid",
+            "Gas",
+            "Solid beads",
+            "Plasma"
+        ],
+        "answer": "Solid beads"
+    },
+    {
+        "question": "If $q_{HR} = 0.1944$ eq/L and total capacity $Q = 1.9$ eq/L, what percentage of the resin is in the Hydrogen form?",
+        "options": [
+            "~10%",
+            "~50%",
+            "~90%",
+            "~1%"
+        ],
+        "answer": "~10%"
+    },
+    {
+        "question": "For the reaction $Cl^- + R-NH_3OH \\leftrightarrow R-NH_3Cl + OH^-$, what type of resin is involved?",
+        "options": [
+            "Strong-acid cation",
+            "Weak-acid cation",
+            "Weak-base anion",
+            "Strong-base anion"
+        ],
+        "answer": "Weak-base anion"
+    },
+    {
+        "question": "In the expression for selectivity coefficient $K_B^A = \\frac{[AR][B^+]}{[A^+][BR]}$, what do the brackets $[ ]$ denote?",
+        "options": [
+            "Mass",
+            "Volume",
+            "Molar/Equivalent Concentration",
+            "Density"
+        ],
+        "answer": "Molar/Equivalent Concentration"
+    },
+    {
+        "question": "Why is 'highly ionized' a characteristic of Strong-Acid Cation (SAC) resins?",
+        "options": [
+            "They only work at high temperatures.",
+            "They are always in gas form.",
+            "Their functional groups dissociate completely across the entire pH range.",
+            "They absorb light strongly."
+        ],
+        "answer": "Their functional groups dissociate completely across the entire pH range."
+    },
+    {
+        "question": "In the context of resin regeneration, what does 'shifting the equilibrium to the left' generally imply for a reaction written as $Ion + Resin-H \\leftrightarrow Resin-Ion + H^+$?",
+        "options": [
+            "Loading the resin with the contaminant ion",
+            "Displacing the contaminant ion back into solution to restore Resin-H",
+            "Dissolving the resin",
+            "Stopping the flow"
+        ],
+        "answer": "Displacing the contaminant ion back into solution to restore Resin-H"
+    },
+    {
+        "question": "If a resin has a functional group of $R-SO_3H$, is it in the acid form or salt form?",
+        "options": [
+            "Salt form",
+            "Acid form",
+            "Base form",
+            "Neutral form"
+        ],
+        "answer": "Acid form"
+    }
+]

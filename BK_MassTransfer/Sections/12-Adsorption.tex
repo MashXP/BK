@@ -1,0 +1,158 @@
+
+% Custom Commands based on Adsorption Context
+\newcommand{\qe}{q_e}                     % Equilibrium concentration on solid
+\newcommand{\C}{c}                        % Concentration in fluid phase (mg/L or kg/m3)
+\newcommand{\Ce}{c_e}                     % Equilibrium concentration in fluid
+\newcommand{\qmax}{Q_{max}}               % Maximum adsorption capacity (Langmuir)
+\newcommand{\LangmuirK}{K_L}              % Langmuir constant
+\newcommand{\FreundlichK}{K_F}            % Freundlich constant
+\newcommand{\MassAds}{M}                  % Mass of Adsorbent
+\newcommand{\VolSol}{S}                   % Volume of Solution
+\newcommand{\BedHeight}{H_T}              % Total Bed Height
+\newcommand{\HeightUsed}{H_B}             % Height of Bed Used
+\newcommand{\HeightUnused}{H_{UNB}}       % Height of Unused Bed (MTZ)
+\newcommand{\TimeBreak}{t_b}              % Breakpoint Time
+\newcommand{\TimeTotal}{t_t}              % Total/Stoichiometric Time
+\newcommand{\TimeUsable}{t_u}             % Usable Time
+
+
+\section{Introduction to Adsorption}
+Adsorption is a separation process involving the adhesion of atoms, ions, or molecules from a gas or liquid (fluid phase) to the surface of a solid substance. Common applications include water treatment, gas separation, and chromatography. It is distinct from distillation (which separates based on boiling points).
+
+\subsection{Key Definitions}
+\begin{itemize}
+    \item \textbf{Adsorbate:} The solute or component that is removed from the fluid phase (e.g., contaminants, gas molecules).
+    \item \textbf{Adsorbent:} The porous solid material upon which the adsorbate adheres.
+    \item \textbf{Desorption:} The reverse process used to regenerate the adsorbent by removing the adsorbate, typically achieved by changing temperature or pressure.
+\end{itemize}
+
+\subsection{Types of Interaction}
+The interaction between the adsorbate and the surface can be classified as:
+\begin{enumerate}
+    \item \textbf{Physisorption:} Held by weak inter-molecular forces (van der Waals).
+    \item \textbf{Chemisorption:} Involves the formation of strong chemical bonds.
+\end{enumerate}
+
+\section{Properties of Adsorbents}
+Adsorbents are characterized by a highly porous structure, which provides a massive surface area for interaction (ranging from 100 to 2000 $m^2/g$).
+
+\subsection{Pore Classification}
+Pores are classified by diameter ($\text{\AA}$):
+\begin{itemize}
+    \item \textbf{Micropores:} $< 20 \text{\AA}$
+    \item \textbf{Mesopores:} $20 - 500 \text{\AA}$
+    \item \textbf{Macropores:} $> 500 \text{\AA}$ (or $> 50$ nm)
+\end{itemize}
+Common forms include cylindrical pellets, beads, granules, and powders. Examples include Zeolite (crystalline, uniform pores) and Activated Carbon. Zeolites are superior to non-porous materials like sand because they have a rough texture and large internal surface area/porosity.
+
+\section{Adsorption Isotherms}
+Isotherms describe the equilibrium relationship between the concentration of solute in the fluid phase ($\Ce$) and the concentration of solute on the solid phase ($\qe$) at a constant temperature.
+
+\subsection{Linear (Henry's) Isotherm}
+Valid primarily at low concentrations or pressures.
+\begin{equation}
+    \qe = K \Ce
+\end{equation}
+This results in a straight line passing through the origin.
+
+\subsection{Langmuir Isotherm}
+Developed based on a theoretical model assuming monolayer coverage on a surface with a fixed number of identical active sites.
+\begin{equation}
+    \qe = \frac{\qmax \Ce}{\LangmuirK + \Ce}
+\end{equation}
+To determine constants $\qmax$ and $\LangmuirK$, the equation is linearized:
+\begin{equation}
+    \frac{1}{\qe} = \frac{1}{\LangmuirK \qmax} \frac{1}{\Ce} + \frac{1}{\qmax}
+\end{equation}
+A plot of $1/\qe$ vs. $1/\Ce$ yields a slope of $1/(\LangmuirK \qmax)$ and an intercept of $1/\qmax$.
+
+\subsection{Freundlich Isotherm}
+An empirical model often used for liquids and heterogeneous surfaces.
+\begin{equation}
+    \qe = \FreundlichK \Ce^n
+\end{equation}
+Where $1/n$ measures the intensity of adsorption. This is linearized by taking logarithms:
+\begin{equation}
+    \log \qe = \log \FreundlichK + n \log \Ce
+\end{equation}
+A plot of $\log \qe$ vs. $\log \Ce$ yields a slope of $n$ and an intercept of $\log \FreundlichK$. If $n < 1$ (or $1/n > 1$), the adsorption is considered favorable.
+
+\section{Batch Adsorption Process}
+In a batch process, a specific amount of adsorbent is mixed with a solution until equilibrium is reached.
+
+\subsection{Material Balance}
+The mass lost by the fluid must equal the mass gained by the solid:
+\begin{equation}
+    \text{Initial} = \text{Final}
+\end{equation}
+\begin{equation}
+    q_F \MassAds + C_F \VolSol = \qe \MassAds + \Ce \VolSol
+\end{equation}
+Where:
+\begin{itemize}
+    \item $q_F, C_F$: Initial concentrations on solid and in fluid.
+    \item $\qe, \Ce$: Final equilibrium concentrations.
+    \item $\MassAds$: Mass of adsorbent.
+    \item $\VolSol$: Volume of solution.
+\end{itemize}
+
+\subsection{Design Calculation}
+The material balance equation can be rearranged to represent an operating line:
+\begin{equation}
+    \qe = \frac{\VolSol}{\MassAds}(C_F - \Ce) + q_F
+\end{equation}
+The final equilibrium point is found at the intersection of this operating line (negative slope) and the equilibrium isotherm curve (positive slope).
+
+\section{Fixed Bed Adsorption Column}
+Fluid is passed continuously downward through a stationary bed of adsorbent. This is an unsteady-state process where concentrations change with time and position.
+
+\subsection{Mass Transfer Zone (MTZ)}
+As fluid enters, the top of the bed becomes saturated. An active adsorption zone, called the Mass Transfer Zone (MTZ), moves down the column.
+\begin{itemize}
+    \item Above the MTZ: Adsorbent is saturated (spent).
+    \item Within the MTZ: Adsorption is actively occurring (concentration drops from feed to zero). The concentration profile typically follows an "S" shape (sigmoidal curve).
+    \item Below the MTZ: Adsorbent is fresh (unused).
+\end{itemize}
+
+\subsection{Breakthrough Curve}
+A plot of the effluent concentration ratio ($\C/\C_0$) versus time ($t$).
+\begin{itemize}
+    \item \textbf{Breakpoint ($t_b$):} The time when the effluent concentration reaches a maximum permissible level (typically $\C/\C_0 = 0.01$ to $0.05$).
+    \item \textbf{Saturation ($t_s$):} The time when the entire bed is saturated ($\C/\C_0 \approx 1.0$).
+\end{itemize}
+
+\subsection{Scale-Up and Design Equations}
+Design relies on integrating the area above the breakthrough curve $(1 - \C/\C_0)$.
+
+\textbf{1. Total (Stoichiometric) Capacity ($t_t$):}
+Represents the capacity if the entire bed were in equilibrium with the feed.
+\begin{equation}
+    \TimeTotal = \int_{0}^{\infty} \left(1 - \frac{\C}{\C_0}\right) dt
+\end{equation}
+
+\textbf{2. Usable Capacity ($t_u$):}
+Represents the capacity utilized up to the breakpoint time.
+\begin{equation}
+    \TimeUsable = \int_{0}^{\TimeBreak} \left(1 - \frac{\C}{\C_0}\right) dt
+\end{equation}
+Note: Often approximated as $\TimeUsable \approx \TimeBreak$.
+
+\textbf{3. Bed Length Calculations:}
+The fraction of total capacity used corresponds to the fraction of the bed height used.
+\begin{itemize}
+    \item \textbf{Height of Used Bed ($\HeightUsed$):}
+    \begin{equation}
+        \HeightUsed = \frac{\TimeUsable}{\TimeTotal} \BedHeight
+    \end{equation}
+    \item \textbf{Height of Unused Bed / MTZ ($\HeightUnused$):}
+    \begin{equation}
+        \HeightUnused = \left(1 - \frac{\TimeUsable}{\TimeTotal}\right) \BedHeight
+    \end{equation}
+\end{itemize}
+
+\textbf{4. Design for New Column:}
+To scale up to a new breakpoint time ($t_b'$), the unused bed height ($\HeightUnused$) remains constant (assuming constant velocity), while the used section scales:
+\begin{equation}
+    \BedHeight' = \HeightUnused + \HeightUsed'
+\end{equation}
+Where $\HeightUsed'$ is calculated based on the ratio of the new required time to the old time.

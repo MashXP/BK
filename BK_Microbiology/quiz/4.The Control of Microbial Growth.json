@@ -1,0 +1,572 @@
+[
+  {
+    "question": "What is the primary characteristic that distinguishes sterilization from disinfection?",
+    "options": [
+      "Sterilization kills all bacteria, including spores, while disinfection primarily targets pathogenic vegetative cells.",
+      "Sterilization uses only heat, whereas disinfection uses only chemicals.",
+      "Sterilization is applied to living tissues, and disinfection to inanimate objects.",
+      "Sterilization reduces microbial load, while disinfection eliminates all viruses."
+    ],
+    "answer": "Sterilization kills all bacteria, including spores, while disinfection primarily targets pathogenic vegetative cells."
+  },
+  {
+    "question": "Which of the following is a common method for achieving sterilization, as mentioned in the notes?",
+    "options": [
+      "Low-temperature chemical baths",
+      "High temperature treatment",
+      "UV irradiation without direct contact",
+      "Filtration with large pore sizes"
+    ],
+    "answer": "High temperature treatment"
+  },
+  {
+    "question": "When disinfection is applied directly to living tissue, what is the process called?",
+    "options": [
+      "Sterilization",
+      "Pasteurization",
+      "Antisepsis",
+      "Sanitization"
+    ],
+    "answer": "Antisepsis"
+  },
+  {
+    "question": "According to the provided notes, what is a key characteristic of the rate of microbial death when bacteria are subjected to heat treatment?",
+    "options": [
+      "Bacteria are killed at an accelerating rate.",
+      "Bacteria are generally killed at a constant rate.",
+      "Bacteria are killed instantly upon exposure.",
+      "The death rate is highly unpredictable."
+    ],
+    "answer": "Bacteria are generally killed at a constant rate."
+  },
+  {
+    "question": "If an initial population of 1,000,000 bacteria is subjected to a treatment that kills 90% of the survivors each minute, how many survivors would remain after 3 minutes?",
+    "options": [
+      "100,000",
+      "10,000",
+      "1,000",
+      "100"
+    ],
+    "answer": "1,000"
+  },
+  {
+    "question": "Which microbial characteristic makes them more difficult to destroy compared to vegetative cells?",
+    "options": [
+      "Gram-negative cell walls",
+      "Presence of capsules",
+      "Spore formation",
+      "Motility"
+    ],
+    "answer": "Spore formation"
+  },
+  {
+    "question": "What effect do fats and proteins in a solution have on the effectiveness of bacterial treatment?",
+    "options": [
+      "They enhance the treatment's efficacy.",
+      "They protect bacteria from treatment.",
+      "They neutralize the treatment agent completely.",
+      "They have no significant effect."
+    ],
+    "answer": "They protect bacteria from treatment."
+  },
+  {
+    "question": "According to the notes, what happens to bacterial proteins when subjected to moist heat sterilization?",
+    "options": [
+      "They are synthesized more rapidly.",
+      "They coagulate due to hydrogen bond breakage.",
+      "They undergo oxidation.",
+      "They become more resistant to other agents."
+    ],
+    "answer": "They coagulate due to hydrogen bond breakage."
+  },
+  {
+    "question": "What is the typical temperature and pressure achieved in an autoclave for sterilization?",
+    "options": [
+      "100 ºC at 1 atm",
+      "121 ºC at 1 atm",
+      "140 ºC at 1 atm",
+      "63 ºC at 1 atm"
+    ],
+    "answer": "121 ºC at 1 atm"
+  },
+  {
+    "question": "For moist heat sterilization to be effective in an autoclave, what critical condition must be met regarding steam?",
+    "options": [
+      "Steam must be compressed into a liquid form.",
+      "Steam must come into direct contact with the surface of the instrument.",
+      "Steam must be at exactly 100 ºC.",
+      "Steam should be circulated without touching the instruments."
+    ],
+    "answer": "Steam must come into direct contact with the surface of the instrument."
+  },
+  {
+    "question": "In the context of an autoclave, what is the function of the automatic ejector valve?",
+    "options": [
+      "To release steam into the chamber from the steam supply.",
+      "To control the pressure within the steam jacket.",
+      "To close when it contacts pure steam after all air is exhausted from the chamber.",
+      "To allow air to enter the chamber after sterilization."
+    ],
+    "answer": "To close when it contacts pure steam after all air is exhausted from the chamber."
+  },
+  {
+    "question": "Based on the table provided, how does the volume of liquid in an Erlenmeyer flask affect the required sterilization time in an autoclave?",
+    "options": [
+      "Larger volumes always require less time due to better heat distribution.",
+      "The required time is independent of the liquid volume.",
+      "Larger volumes require longer sterilization times.",
+      "Smaller volumes always require 30 minutes, regardless of temperature."
+    ],
+    "answer": "Larger volumes require longer sterilization times."
+  },
+  {
+    "question": "What is the definition of pasteurization according to the lecture notes?",
+    "options": [
+      "A process that kills all microbial forms, including spores.",
+      "Mild heating sufficient to kill spoilage organisms without seriously damaging the product's taste.",
+      "High-temperature treatment designed for sterilizing surgical instruments.",
+      "Chemical treatment of water to remove all bacteria."
+    ],
+    "answer": "Mild heating sufficient to kill spoilage organisms without seriously damaging the product's taste."
+  },
+  {
+    "question": "Which of the following is the traditional standard for milk pasteurization?",
+    "options": [
+      "72 ºC for 15 seconds",
+      "140 ºC for less than 1 second",
+      "63 ºC for 30 minutes",
+      "121 ºC for 15 minutes"
+    ],
+    "answer": "63 ºC for 30 minutes"
+  },
+  {
+    "question": "What is the primary mechanism by which dry heat sterilization kills microbes?",
+    "options": [
+      "Coagulation of proteins",
+      "Alteration of membrane permeability",
+      "Oxidation effects",
+      "DNA damage by thymine dimers"
+    ],
+    "answer": "Oxidation effects"
+  },
+  {
+    "question": "An inoculating loop in a microbiology lab is typically sterilized using which dry heat method?",
+    "options": [
+      "Hot-air oven",
+      "Incineration",
+      "Direct flaming",
+      "Boiling"
+    ],
+    "answer": "Direct flaming"
+  },
+  {
+    "question": "Why is a cotton plug included in the vacuum line of a membrane filtration setup?",
+    "options": [
+      "To absorb excess liquid from the filtrate.",
+      "To increase the vacuum pressure.",
+      "To ensure sterility by preventing contaminants from entering from the vacuum source.",
+      "To cool the vacuum pump during operation."
+    ],
+    "answer": "To ensure sterility by preventing contaminants from entering from the vacuum source."
+  },
+  {
+    "question": "When performing membrane filtration, why are two suction flasks recommended?",
+    "options": [
+      "To allow for simultaneous filtration of two samples.",
+      "To increase the volume of sterile filtrate collected.",
+      "To avoid getting water into the vacuum source.",
+      "To provide a backup in case one flask breaks."
+    ],
+    "answer": "To avoid getting water into the vacuum source."
+  },
+  {
+    "question": "What characteristic appearance of colonies on a membrane filter indicates contamination with fecal coliforms?",
+    "options": [
+      "Large, fuzzy white colonies.",
+      "Small, transparent colonies with no distinctive sheen.",
+      "Dark colonies with a gold metallic sheen.",
+      "Red colonies indicating blood contamination."
+    ],
+    "answer": "Dark colonies with a gold metallic sheen."
+  },
+  {
+    "question": "Filtration is a suitable method for sterilizing which type of materials?",
+    "options": [
+      "Materials that can withstand high temperatures.",
+      "Heat-sensitive materials like enzymes and vaccines.",
+      "Only gases, not liquids.",
+      "Items contaminated with highly resistant endospores."
+    ],
+    "answer": "Heat-sensitive materials like enzymes and vaccines."
+  },
+  {
+    "question": "What is the principle behind desiccation (freeze-drying) as a method of microbial control?",
+    "options": [
+      "It kills bacteria by directly damaging their cell walls.",
+      "It causes immediate cell lysis due to osmotic shock.",
+      "It dehydrates bacteria, preventing growth and reproduction while keeping them viable.",
+      "It oxidizes cellular components, leading to rapid death."
+    ],
+    "answer": "It dehydrates bacteria, preventing growth and reproduction while keeping them viable."
+  },
+  {
+    "question": "Creating a hypertonic environment is the mechanism of action for which physical method of microbial control?",
+    "options": [
+      "Filtration",
+      "Radiation",
+      "Osmotic pressure",
+      "Desiccation"
+    ],
+    "answer": "Osmotic pressure"
+  },
+  {
+    "question": "Which region of the electromagnetic spectrum is specifically labeled as \"Bactericidal\" in the provided diagram?",
+    "options": [
+      "Infrared light",
+      "Visible light",
+      "Ultraviolet (UV) light",
+      "Radio waves"
+    ],
+    "answer": "Ultraviolet (UV) light"
+  },
+  {
+    "question": "The effectiveness of radiation on cells depends on which combination of factors?",
+    "options": [
+      "Temperature, humidity, and atmospheric pressure.",
+      "Wavelength, intensity, and duration of radiation exposure.",
+      "Microbial size, shape, and metabolic activity.",
+      "pH level, nutrient availability, and oxygen concentration."
+    ],
+    "answer": "Wavelength, intensity, and duration of radiation exposure."
+  },
+  {
+    "question": "Which type of radiation is characterized by wavelengths shorter than 1 nm, high energy, and the ability to penetrate deeply?",
+    "options": [
+      "Nonionizing radiation",
+      "Ultraviolet radiation",
+      "Ionizing radiation",
+      "Microwave radiation"
+    ],
+    "answer": "Ionizing radiation"
+  },
+  {
+    "question": "Ionizing radiation primarily kills microbes by what mechanism?",
+    "options": [
+      "Creating thymine dimers in DNA.",
+      "Directly breaking hydrogen bonds in proteins.",
+      "Ionizing water molecules into active free radicals that damage organic components, especially DNA.",
+      "Increasing the osmotic pressure within the cell."
+    ],
+    "answer": "Ionizing water molecules into active free radicals that damage organic components, especially DNA."
+  },
+  {
+    "question": "What is the primary characteristic of nonionizing radiation, such as UV rays, regarding its penetration ability?",
+    "options": [
+      "It can penetrate deeply through most materials.",
+      "It can only penetrate deeply in a vacuum.",
+      "It cannot penetrate deeply and requires direct irradiation.",
+      "Its penetration depth depends solely on the intensity."
+    ],
+    "answer": "It cannot penetrate deeply and requires direct irradiation."
+  },
+  {
+    "question": "At which wavelength are UV rays strongly absorbed by DNA, leading to the formation of bonds between adjacent thymines?",
+    "options": [
+      "400 nm",
+      "550 nm",
+      "260 nm",
+      "100 nm"
+    ],
+    "answer": "260 nm"
+  },
+  {
+    "question": "Based on the disk-diffusion assay results, which chemical agent was notably ineffective against *Pseudomonas aeruginosa* but effective against *Staphylococcus aureus*?",
+    "options": [
+      "Chlorine",
+      "O-phenylphenol",
+      "Hexachlorophene",
+      "Quat"
+    ],
+    "answer": "Hexachlorophene"
+  },
+  {
+    "question": "What is the primary mechanism of action for phenol and O-phenylphenol against bacteria?",
+    "options": [
+      "Inhibition of lipid biosynthesis.",
+      "Damage to the lipid-containing plasma membrane.",
+      "Denaturation of nucleic acids.",
+      "Creation of a hypertonic environment."
+    ],
+    "answer": "Damage to the lipid-containing plasma membrane."
+  },
+  {
+    "question": "Which bacterium is specifically mentioned as being resistant to triclosan?",
+    "options": [
+      "Staphylococcus aureus",
+      "Escherichia coli",
+      "Pseudomonas aeruginosa",
+      "Bacillus subtilis"
+    ],
+    "answer": "Pseudomonas aeruginosa"
+  },
+  {
+    "question": "Essential oils derive their antimicrobial action primarily from which two types of chemical compounds?",
+    "options": [
+      "Alcohols and aldehydes",
+      "Phenolics and terpenes",
+      "Halogens and heavy metals",
+      "Organic acids and esters"
+    ],
+    "answer": "Phenolics and terpenes"
+  },
+  {
+    "question": "What is Betadine® an example of, and how does it function as an antiseptic?",
+    "options": [
+      "It's a type of alcohol that denatures proteins instantly.",
+      "It's a heavy metal compound that forms complexes with sulfhydryl groups.",
+      "It's a povidone-iodine (iodophor) that slowly releases iodine, impairing protein synthesis and altering cell membranes.",
+      "It's a quaternary ammonium compound that disrupts cell permeability."
+    ],
+    "answer": "It's a povidone-iodine (iodophor) that slowly releases iodine, impairing protein synthesis and altering cell membranes."
+  },
+  {
+    "question": "When chlorine gas ($Cl_2$) is added to water, it forms hypochlorous acid ($HOCl$). What is the primary mechanism by which $HOCl$ damages bacteria?",
+    "options": [
+      "It disrupts bacterial cell wall synthesis.",
+      "It acts as a strong oxidizing agent that damages the cell's enzyme system.",
+      "It forms covalent cross-links with proteins.",
+      "It inhibits lipid biosynthesis in the plasma membrane."
+    ],
+    "answer": "It acts as a strong oxidizing agent that damages the cell's enzyme system."
+  },
+  {
+    "question": "Alcohols like ethanol and isopropanol kill bacteria and fungi but are ineffective against which two microbial forms?",
+    "options": [
+      "Gram-positive bacteria and enveloped viruses.",
+      "Gram-negative bacteria and yeasts.",
+      "Endospores and non-membrane viruses.",
+      "Vegetative cells and molds."
+    ],
+    "answer": "Endospores and non-membrane viruses."
+  },
+  {
+    "question": "What is required for alcohol to effectively denature proteins?",
+    "options": [
+      "Extremely low temperatures.",
+      "An anaerobic environment.",
+      "The presence of water.",
+      "High concentrations of salts."
+    ],
+    "answer": "The presence of water."
+  },
+  {
+    "question": "The antimicrobial action of heavy metals like silver (Ag), mercury (Hg), and copper (Cu) primarily involves which process?",
+    "options": [
+      "Dissolving membrane lipids.",
+      "Forming thymine dimers in DNA.",
+      "Interacting with the sulfhydryl groups of proteins, leading to protein denaturation.",
+      "Oxidizing polysaccharides in the cell wall."
+    ],
+    "answer": "Interacting with the sulfhydryl groups of proteins, leading to protein denaturation."
+  },
+  {
+    "question": "Quaternary Ammonium Compounds (Quats) are described as being strongly bactericidal against which type of bacteria and less active against which other type?",
+    "options": [
+      "Strongly against gram-negative, less against gram-positive.",
+      "Strongly against gram-positive, less against gram-negative.",
+      "Strongly against acid-fast, less against mycoplasmas.",
+      "Strongly against spore-forming, less against non-spore-forming."
+    ],
+    "answer": "Strongly against gram-positive, less against gram-negative."
+  },
+  {
+    "question": "What is the main function of organic acids like sorbic acid and benzoic acid when used as chemical food preservatives?",
+    "options": [
+      "They act as strong oxidizing agents.",
+      "They directly denature bacterial proteins at high pH.",
+      "They inhibit bacterial cell metabolism, especially at low pH.",
+      "They dissolve the plasma membrane lipids."
+    ],
+    "answer": "They inhibit bacterial cell metabolism, especially at low pH."
+  },
+  {
+    "question": "Nisin, a bacteriocin used as a food preservative, is frequently added to cheese to inhibit the growth of what specific type of spoilage bacteria?",
+    "options": [
+      "Gram-negative enteric bacteria.",
+      "Acid-fast bacteria.",
+      "Certain endospore-forming spoilage bacteria.",
+      "Non-membrane viruses."
+    ],
+    "answer": "Certain endospore-forming spoilage bacteria."
+  },
+  {
+    "question": "What is the primary mechanism by which formaldehyde and glutaraldehyde inactivate proteins?",
+    "options": [
+      "They hydrate proteins, causing them to swell and burst.",
+      "They form covalent cross-links with organic functional groups on proteins.",
+      "They oxidize the disulfide bonds within proteins.",
+      "They selectively remove amino acids from protein chains."
+    ],
+    "answer": "They form covalent cross-links with organic functional groups on proteins."
+  },
+  {
+    "question": "What is Formalin, and what is one of its primary uses?",
+    "options": [
+      "A dry heat sterilization method used for medical waste.",
+      "A 37% aqueous solution of formaldehyde gas used to preserve biological specimens and inactivate bacteria/viruses in vaccines.",
+      "A type of alcohol used for skin disinfection before surgery.",
+      "An essential oil used as a food additive to prevent spoilage."
+    ],
+    "answer": "A 37% aqueous solution of formaldehyde gas used to preserve biological specimens and inactivate bacteria/viruses in vaccines."
+  },
+  {
+    "question": "Glutaraldehyde (e.g., 2% Cidex®) is noted for its sporicidal activity within what timeframe?",
+    "options": [
+      "10 minutes",
+      "Less than 1 second",
+      "3 to 10 hours",
+      "24 hours"
+    ],
+    "answer": "3 to 10 hours"
+  },
+  {
+    "question": "What is the stated mechanism of action for hydrogen peroxide ($H_2O_2$)?",
+    "options": [
+      "Alkylation",
+      "Halogenation",
+      "Oxidation",
+      "Desiccation"
+    ],
+    "answer": "Oxidation"
+  },
+  {
+    "question": "For short-term preservation, bacterial cells are typically stored at what temperature?",
+    "options": [
+      "-70 °C",
+      "4 °C",
+      "25 °C",
+      "100 °C"
+    ],
+    "answer": "4 °C"
+  },
+  {
+    "question": "Which long-term preservation method involves using a bacterial suspension in glycerol followed by quick freezing at very low temperatures (-70 °C to -95 °C)?",
+    "options": [
+      "Deep freezing method",
+      "Freeze-drying (Lyophilization)",
+      "Refrigeration",
+      "Desiccation"
+    ],
+    "answer": "Deep freezing method"
+  },
+  {
+    "question": "How long can bacteria typically be preserved using the freeze-drying (lyophilization) method?",
+    "options": [
+      "A few days",
+      "Up to one year",
+      "10 years or longer",
+      "Indefinitely, without loss of viability"
+    ],
+    "answer": "10 years or longer"
+  },
+  {
+    "question": "A pharmaceutical company needs to sterilize a heat-sensitive enzyme solution and a batch of disposable plastic syringes. Which two methods would be most appropriate, respectively, for these items, according to the principles discussed?",
+    "options": [
+      "Autoclaving for the enzyme solution; Incineration for syringes.",
+      "Filtration for the enzyme solution; Ionizing radiation for the syringes.",
+      "Boiling for the enzyme solution; Hot-air oven for syringes.",
+      "Pasteurization for the enzyme solution; UV radiation for syringes."
+    ],
+    "answer": "Filtration for the enzyme solution; Ionizing radiation for the syringes."
+  },
+  {
+    "question": "A food manufacturer wants to extend the shelf life of a new dairy product. They are considering adding a bacteriocin and implementing a high-temperature, short-time (HTST) process. What microbial control agents are they primarily utilizing, and what would be a key benefit?",
+    "options": [
+      "Heavy metals and ionizing radiation, to eliminate all bacteria.",
+      "Alcohols and desiccation, to prevent mold growth.",
+      "Nisin (an antibiotic) and pasteurization (moist heat), to kill spoilage organisms and inhibit endospore formers while preserving taste.",
+      "Formalin and dry heat sterilization, to ensure complete sterility of the product."
+    ],
+    "answer": "Nisin (an antibiotic) and pasteurization (moist heat), to kill spoilage organisms and inhibit endospore formers while preserving taste."
+  },
+  {
+    "question": "A researcher observes that a specific strain of Gram-negative bacteria exhibits unusually high resistance to an antiseptic that alters membrane permeability. What structural component of Gram-negative bacteria, not explicitly detailed in the provided lecture notes but common knowledge in microbiology, might contribute significantly to this increased resistance?",
+    "options": [
+      "The thick peptidoglycan layer",
+      "The presence of a capsule",
+      "The outer membrane with lipopolysaccharide (LPS) and porins",
+      "The ability to form endospores"
+    ],
+    "answer": "The outer membrane with lipopolysaccharide (LPS) and porins"
+  },
+  {
+    "question": "You are tasked with developing a new hospital disinfectant that needs to rapidly kill a broad spectrum of vegetative bacteria, mycobacteria, and viruses, and ideally show some sporicidal activity for instrument disinfection. Based on the chemical agents discussed, which class of compounds would offer the most promise, particularly concerning its known efficacy against spores and broad antimicrobial range?",
+    "options": [
+      "Alcohols",
+      "Phenolics",
+      "Aldehydes (specifically glutaraldehyde)",
+      "Quaternary Ammonium Compounds"
+    ],
+    "answer": "Aldehydes (specifically glutaraldehyde)"
+  },
+  {
+    "question": "The exponential death rate implies that for a given bactericidal treatment, the time required to reduce a microbial population by 90% (one log reduction) is constant. If it takes 2 minutes to reduce a bacterial population from 1,000,000 to 100,000, how much additional time would it take to reduce the population from 100,000 to 1,000?",
+    "options": [
+      "1 minute",
+      "2 minutes",
+      "4 minutes",
+      "10 minutes"
+    ],
+    "answer": "4 minutes"
+  },
+  {
+    "question": "A hospital is evaluating two disinfectants for use on inanimate surfaces: one based on a Quaternary Ammonium Compound (Quat) and another based on O-phenylphenol. A critical concern is efficacy against both *Staphylococcus aureus* (Gram-positive) and *Pseudomonas aeruginosa* (Gram-negative). Based on the disk-diffusion assay results presented, what conclusion about their comparative efficacy would be most accurate for this scenario?",
+    "options": [
+      "Quats are highly effective against *P. aeruginosa*, while O-phenylphenol is ineffective.",
+      "Both agents show strong efficacy against *S. aureus* and *P. aeruginosa*.",
+      "O-phenylphenol is more effective than Quats against *S. aureus*, and Quats are notably less effective against *P. aeruginosa*.",
+      "Quats are equally effective against both Gram-positive and Gram-negative bacteria."
+    ],
+    "answer": "O-phenylphenol is more effective than Quats against *S. aureus*, and Quats are notably less effective against *P. aeruginosa*."
+  },
+  {
+    "question": "Considering the mechanisms of action for various microbial control agents, why would UV radiation be unsuitable for sterilizing a sealed, opaque bottle of antibiotic solution?",
+    "options": [
+      "UV radiation would denature the antibiotic molecules.",
+      "The solution's high osmotic pressure would counteract the UV effects.",
+      "UV rays cannot penetrate deeply and require direct irradiation of the microbial DNA.",
+      "UV radiation primarily targets RNA viruses, not bacteria."
+    ],
+    "answer": "UV rays cannot penetrate deeply and require direct irradiation of the microbial DNA."
+  },
+  {
+    "question": "A medical professional needs to rapidly disinfect a contaminated metallic surgical instrument that cannot withstand the high temperatures of an autoclave. Which chemical agent, known for its broad-spectrum efficacy including sporicidal action, would be the most appropriate choice for high-level disinfection?",
+    "options": [
+      "70% Ethanol",
+      "Povidone-iodine",
+      "Glutaraldehyde (2% solution)",
+      "Triclosan"
+    ],
+    "answer": "Glutaraldehyde (2% solution)"
+  },
+  {
+    "question": "The lecture notes describe long-term bacterial preservation methods like deep freezing and freeze-drying. A key difference in their processes involves the initial \"water separation by vacuum machine\" step in freeze-drying. What is the fundamental microbiological advantage of removing water from cells for long-term storage, beyond just inhibiting growth?",
+    "options": [
+      "It increases the cell's metabolic rate, promoting faster revival.",
+      "It prevents the formation of damaging ice crystals within the cells, which can occur during thawing from deep freezing.",
+      "It makes the cells resistant to all forms of radiation damage.",
+      "It enhances the cell's ability to produce protective enzymes."
+    ],
+    "answer": "It prevents the formation of damaging ice crystals within the cells, which can occur during thawing from deep freezing."
+  },
+  {
+    "question": "A hospital wishes to implement a new sterilization method for reusable respiratory therapy equipment that cannot be autoclaved. They are considering a chemical agent that is less irritating than formaldehyde but highly effective. Which agent fits this description and achieves bactericidal, tuberculocidal, virucidal, and sporicidal results within practical timeframes?",
+    "options": [
+      "Chlorine bleach",
+      "Phenol",
+      "Glutaraldehyde",
+      "Quaternary Ammonium Compounds"
+    ],
+    "answer": "Glutaraldehyde"
+  }
+]

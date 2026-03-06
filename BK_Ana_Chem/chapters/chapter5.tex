@@ -1,0 +1,176 @@
+\subsection*{Chapter 5: Titrimetric Methods of Analysis}
+
+\subsubsection*{1. Calculation of Results}
+% Source: Chapter 5.1, Slides 21-23
+
+\textbf{Normality Calculation:}
+\begin{equation}
+C_{N(X)} = \frac{C_C V_C}{V_X}
+\end{equation}
+
+\textbf{Mass Concentration:}
+\begin{equation}
+C(g/l) = C_{N(X)} \times E_X
+\end{equation}
+
+\textbf{Percentage in Solid Sample:}
+\begin{equation}
+\%X = C_C \times V_C \times 10^{-3} \times \frac{100}{m} \times E_X
+\end{equation}
+
+\textbf{Titer ($T$):}
+\begin{equation}
+T_{C/X} = C_C \times 10^{-3} \times E_X
+\end{equation}
+\textit{$T_{C/X}$: grams of analyte X reacting with 1 mL of titrant C.}
+
+\end{multicols}
+
+\begin{table}[htbp]
+    \centering
+    \caption{Overview of Titration Methods}
+    \small % Reduce font size slightly to ensure perfect fit
+    \renewcommand{\arraystretch}{1.3} % Add breathing room between rows
+    
+    % Total width approx 18.5cm. 
+    % Columns: Type, Method, Titrant, Analyte, Indicator, Color Change, Notes
+    \begin{tabularx}{\textwidth}{@{} L{1.7cm} L{2.2cm} L{1.4cm} L{1.8cm} L{2.4cm} L{2.8cm} Y @{}}
+        \toprule
+        \textbf{Type} & \textbf{Method} & \textbf{Titrant} & \textbf{Analyte} & \textbf{Indicator} & \textbf{Color Change} & \textbf{Conditions / Notes} \\
+        \midrule
+        
+        % --- REDOX ---
+        \textbf{Redox} 
+        & Permanganate & \ce{KMnO4} & \ce{H2C2O4}, \ce{Fe^{2+}} 
+        & Self-indicating & Purple (\ce{MnO4^-}) $\to$ Colorless (\ce{Mn^{2+}}) & Acidic medium. Heat to $\approx 70^\circ$C often required. \\ 
+        
+        & Dichromate & \ce{K2Cr2O7} & \ce{Fe^{2+}} 
+        & Diphenylamine & Colorless $\to$ Purple & Acidic medium. \\ 
+        
+        & Iodimetry & \ce{I2} & Reducers & Starch & Colorless $\to$ Blue & Direct titration. Blue appears at endpoint. \\ 
+        
+        & Iodometry & \ce{Na2S2O3} & Oxidizers (\ce{Cu^{2+}}) 
+        & Starch & Blue $\to$ Colorless & Indirect. \ce{I2} released is titrated; blue disappears. \\ 
+        \midrule
+        
+        % --- ACID-BASE ---
+        \textbf{Acid-Base} 
+        & Strong/Strong & \ce{NaOH}/\ce{HCl} & \ce{HCl}/\ce{NaOH} 
+        & Phenolphthalein & Colorless $\to$ Pink & Equivalence point at pH 7. \\ 
+        
+        & Weak Acid & \ce{NaOH} & \ce{CH3COOH} 
+        & Phenolphthalein & Colorless $\to$ Pink & Equivalence point at pH $>7$. \\ 
+        
+        & Polyprotic Acid & \ce{NaOH} & \ce{H3PO4} 
+        & 1. Methyl red \newline 2. Phenolphthalein & 1. Red $\to$ Yellow \newline 2. Colorless $\to$ Pink & Stepwise titration. Separate endpoints. \\ 
+        
+        & Polyprotic Base & \ce{HCl} & \ce{CO3^{2-}} 
+        & 1. Phenolphthalein \newline 2. Methyl orange & 1. Pink $\to$ Colorless \newline 2. Yellow $\to$ Orange & Step 1: \ce{CO3^{2-} -> HCO3^-}. \newline Step 2: \ce{HCO3^- -> H2CO3}. \\ 
+        \midrule
+        
+        % --- PRECIPITATION ---
+        \textbf{Precipitation} 
+        & Mohr's Method & \ce{AgNO3} & Halogens (\ce{Cl^-}) 
+        & Chromate & Yellow $\to$ Red ppt & Direct. pH 6.5--10. \ce{Ag2CrO4} forms. \\ 
+        
+        & Fajans' Method & \ce{AgNO3} & Halogens (\ce{Cl^-}) 
+        & Adsorption Ind. & Yellow/Green $\to$ Pink & Direct. pH 6.5--10. Ind. adsorbs to precipitate. \\ 
+        
+        & Volhard's & \ce{KSCN} & \ce{Ag^+} (excess) 
+        & \ce{Fe^{3+}} (Alum) & Colorless $\to$ Red & Back titration. Acidic (pH $<3$). \ce{Fe(SCN)^{2+}}. \\ 
+        \midrule
+        
+        % --- COMPLEXATION ---
+        \textbf{Complexation} 
+        & Total Hardness & EDTA & \ce{Ca^{2+}} + \ce{Mg^{2+}} 
+        & Erio Black T & Wine-red $\to$ Blue & Buffer pH 10. \\ 
+        
+        & Calcium Only & EDTA & \ce{Ca^{2+}} 
+        & Fluorexone & Green fl. $\to$ Pink & pH 12.5. \ce{Mg^{2+}} precipitates as \ce{Mg(OH)2}. \\ 
+        
+        & Iron (Direct) & EDTA & \ce{Fe^{3+}} 
+        & Sulfosalicylic Acid & Violet $\to$ Colorless/Yellow & pH 2.5. Heat gently. \\ 
+        
+        & Aluminum (Back) & \ce{Cu^{2+}}/\ce{Zn^{2+}} & \ce{Al^{3+}} 
+        & PAN & Yellow $\to$ Violet & Back titration. Excess EDTA added at pH 5, heated. \\ 
+        
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+\begin{multicols}{2}
+\subsubsection*{2. Acid-Base Titrations}
+
+\textbf{Polyprotic Acids (Ampholytes):}
+\begin{equation}
+pH_{eq1} = \frac{1}{2}(pK_{a1} + pK_{a2})
+\end{equation}
+\textit{(Valid for the first equivalence point of acids like $H_3PO_4$)}
+
+\subsubsection*{3. Redox Titrations}
+\textbf{Potential using Fraction Titrated ($F$):}
+\begin{equation}
+E_{sol} = E^0_X + \frac{0.059}{n_X} \log \frac{F}{1-F}
+\end{equation}
+
+\subsubsection*{4. Indicator Error}
+% Source: Chapter 5.3
+
+\textbf{General Indicator Error Equation:}
+\begin{equation}
+\Delta\% = \frac{[X]_{\text{equiv}}(10^{\Delta pX} - 10^{-\Delta pX})}{[X]_0} \times 100
+\end{equation}
+Where \(\Delta pX = |pX_f - pX_{\text{equiv}}|\).
+
+\textbf{Complexation Titration Error:}
+\begin{equation}
+\Delta\% = \frac{10^{\Delta pX} - 10^{-\Delta pX}}{([X]_0 \cdot \beta_{XC})^{1/2}} \times 100
+\end{equation}
+
+\textbf{Precipitation Titration Error:}
+\begin{equation}
+\Delta\% = \frac{10^{\Delta pX} - 10^{-\Delta pX}}{([X]_0^2 / T_{CX})^{1/2}} \times 100
+\end{equation}
+
+\textbf{Strong Acid - Strong Base Error (Approximate):}
+% Source: Chapter 5.3, Slide 31
+\begin{equation}
+\Delta\% = \frac{10^{-pT}(C_X + C_C)}{C_X C_C} \times 100
+\end{equation}
+\textit{(Where $pT$ is the pH difference from neutral)}
+
+\textbf{Redox Titration Error (Approximate) - 3 Step Method:}
+
+\textbf{Step 1: Determine Curve Direction}
+\begin{itemize}
+    \item \textbf{Upward Curve:} Analyte (X) is Reducing Agent ($E^0_X < E^0_C$).
+    \item \textbf{Downward Curve:} Analyte (X) is Oxidizing Agent ($E^0_X > E^0_C$).
+\end{itemize}
+
+\textbf{Step 2: Compare $E_f$ vs $E_{equiv}$}
+\begin{itemize}
+    \item Calculate $E_f$ (Indicator limit):
+    \begin{itemize}
+        \item \textbf{Upward Curve:} $E_f = E^0_{ind} + \frac{0.059}{n_{ind}}$
+        \item \textbf{Downward Curve:} $E_f = E^0_{ind} - \frac{0.059}{n_{ind}}$
+    \end{itemize}
+    \item Calculate $E_{equiv}$.
+\end{itemize}
+
+\textbf{Step 3: Select Formula}
+
+\noindent
+\small
+\begin{tabularx}{\linewidth}{@{} L{1.2cm} Y Y @{}}
+\toprule
+ & \textbf{A. Upward} \newline ($E^0_X < E^0_C$) & \textbf{B. Downward} \newline ($E^0_X > E^0_C$) \\
+\midrule
+\textbf{Before Eq.} & \textbf{($E_f < E_{equiv}$)} \newline $\Delta\% = 10^{\frac{-n_X(E_f - E_X^0)}{0.059}} \times 100$ & \textbf{($E_f > E_{equiv}$)} \newline $\Delta\% = 10^{\frac{n_X(E_f - E_X^0)}{0.059}} \times 100$ \\
+\addlinespace[0.5em]
+\midrule
+\addlinespace[0.5em]
+\textbf{After Eq.} & \textbf{($E_f > E_{equiv}$)} \newline $\Delta\% = 10^{\frac{n_C(E_f - E_C^0)}{0.059}} \times 100$ & \textbf{($E_f < E_{equiv}$)} \newline $\Delta\% = 10^{\frac{-n_C(E_f - E_C^0)}{0.059}} \times 100$ \\
+\bottomrule
+\end{tabularx}
+\normalsize
+

@@ -1,0 +1,191 @@
+\section{Emulsions}
+
+\subsection{Introduction \& Classification}
+\textbf{Emulsion:} A dispersion of at least two immiscible liquids, where one is dispersed as droplets in the other.
+\begin{itemize}
+    \item \textbf{Oil-in-Water (O/W):} Oil droplets in water (e.g., milk, mayonnaise).
+    \item \textbf{Water-in-Oil (W/O):} Water droplets in oil (e.g., butter, margarine).
+    \item \textbf{Multiple Emulsions:} W/O/W or O/W/O.
+\end{itemize}
+
+\textbf{Classification by Size:}
+\begin{itemize}
+    \item \textbf{Macroemulsions:} \SI{0.2}{\micro\m} -- \SI{50}{\micro\m}. Kinetically stable, opaque.
+    \item \textbf{Miniemulsions (Nanoemulsions):} \SI{100}{\nm} -- \SI{1000}{\nm}.
+    \item \textbf{Microemulsions:} \SI{10}{\nm} -- \SI{200}{\nm}. Thermodynamically stable, transparent, require surfactant and often co-surfactant.
+\end{itemize}
+
+\subsection{Emulsifiers}
+\textbf{Function:} Reduce interfacial tension and form a protective barrier around droplets.
+\textbf{Types:}
+\begin{itemize}
+    \item \textbf{Surfactants:} Anionic, Cationic, Non-ionic.
+    \item \textbf{Finely Divided Solids:} Form \textbf{Pickering Emulsions} (e.g., silica, clay, soot).
+\end{itemize}
+
+\textbf{Bancroft's Rule:} The phase in which the emulsifier is more soluble becomes the continuous phase.
+\begin{itemize}
+    \item High HLB ($> 10$) $\to$ Water soluble $\to$ O/W emulsion.
+    \item Low HLB ($< 10$) $\to$ Oil soluble $\to$ W/O emulsion.
+\end{itemize}
+
+\subsection{Surfactant Packing Parameter ($P$)}
+\begin{equation}
+    P = \frac{v}{l_c a_0}
+\end{equation}
+where $v$ is tail volume, $l_c$ tail length, and $a_0$ head group area.
+\begin{center}
+\begin{tabular}{l l l}
+\toprule
+\textbf{P Value} & \textbf{Structure} & \textbf{Emulsion} \\
+\midrule
+$< 1/3$ & Spherical micelles & O/W \\
+$1/3 - 1/2$ & Cylindrical micelles & O/W \\
+$1/2 - 1$ & Flexible bilayers & Vesicles \\
+$\approx 1$ & Planar bilayers & Lamellar \\
+$> 1$ & Reversed micelles & W/O \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{HLB Scale \& Calculations}
+\textbf{Hydrophilic-Lipophilic Balance (HLB):}
+\begin{center}
+\begin{tabular}{l l}
+\toprule
+\textbf{HLB Range} & \textbf{Application} \\
+\midrule
+3.5 -- 6 & W/O emulsifier \\
+7 -- 9 & Wetting agent \\
+8 -- 18 & O/W emulsifier \\
+13 -- 15 & Detergent \\
+15 -- 18 & Solubilizer \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{HLB of Mixtures:}
+HLB values are additive based on the weight fraction ($x$) of each component:
+\begin{equation}
+    HLB_{mix} = x_A HLB_A + x_B HLB_B
+\end{equation}
+To find the percentage of surfactant A needed to reach a required HLB ($X$):
+\begin{equation}
+    A\% = 100 \cdot \frac{X - HLB_B}{HLB_A - HLB_B}
+\end{equation}
+
+\textbf{Required HLB (RHLB) for O/W Emulsions:}
+\begin{center}
+\begin{tabular}{l c}
+\toprule
+\textbf{Oil Phase} & \textbf{Required HLB} \\
+\midrule
+Stearic acid & 15 \\
+Cetyl alcohol & 15 \\
+Stearyl alcohol & 14 \\
+Mineral oil (light) & 12 \\
+Liquid paraffin & 10.5 \\
+Beeswax & 9 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Krafft Temperature}
+The Krafft temperature ($T_K$) is the minimum temperature at which surfactants form micelles. Below $T_K$, the surfactant remains in crystalline form even in saturated solution.
+
+\subsection{Emulsion Stability}
+Emulsions are thermodynamically unstable but can be kinetically stable.
+\textbf{Factors affecting stability:}
+\begin{enumerate}
+    \item \textbf{Interfacial film:} Strong lateral forces and high elasticity (mixed surfactants often better).
+    \item \textbf{Electrical/Steric barrier:} Repulsion between droplets (mainly O/W).
+    \item \textbf{Viscosity ($\eta$):} Higher viscosity of continuous phase reduces collision frequency (Stoke-Einstein: $D = \frac{kT}{6\pi\eta a}$).
+    \item \textbf{Droplet size:} Uniform size distribution is more stable.
+    \item \textbf{Phase volume ratio:} High dispersed phase volume $\to$ lower stability $\to$ phase inversion.
+    \item \textbf{Temperature:} Affects interfacial tension, viscosity, and Brownian motion.
+\end{enumerate}
+
+\textbf{Degradation Processes:}
+\begin{itemize}
+    \item \textbf{Creaming/Sedimentation:} Migration due to buoyancy (reversible).
+    \item \textbf{Flocculation:} Droplets stick together but maintain individual identity.
+    \item \textbf{Coalescence:} Droplets merge into larger ones (irreversible).
+    \item \textbf{Ostwald Ripening:} Small droplets dissolve and redeposit on larger ones.
+    \item \textbf{Phase Inversion:} O/W becomes W/O or vice versa.
+        \textbf{Causes of Phase Inversion:}
+        \begin{enumerate}
+            \item \textbf{Order of addition:} W $\to$ O + emulsifier $\to$ W/O; O $\to$ W + emulsifier $\to$ O/W.
+            \item \textbf{Nature of emulsifier:} Making the emulsifier more oil-soluble tends to produce W/O.
+            \item \textbf{Phase volume ratio:} Increasing oil/water ratio $\to$ W/O.
+            \item \textbf{Temperature:} Increasing $T$ of O/W (with non-ionic surfactant) makes it more hydrophobic $\to$ W/O.
+            \item \textbf{Electrolytes:} Adding electrolytes to O/W (ionic surfactant) may cause inversion.
+        \end{enumerate}
+    \item \textbf{Phase Inversion Temperature (PIT):} The temperature at which the hydrophilic and lipophilic characteristics of the emulsifier are equal. PIT should be at least \SI{20}{\celsius} higher than storage $T$.
+    \item \textbf{Breaking:} Complete phase separation.
+\end{itemize}
+
+\subsection{Methods of Destabilizing Emulsions}
+\begin{enumerate}
+    \item \textbf{Physical:} Centrifuging, filtration (media wetted by continuous phase), shaking, low-intensity ultrasound.
+    \item \textbf{Heating:} Heating to $\sim \SI{70}{\celsius}$ rapidly breaks most emulsions.
+    \item \textbf{Electrical:} High voltage ($\sim \SI{20}{\kV}$) for W/O (oil field); electrophoresis for O/W.
+\end{enumerate}
+
+\subsection{Identification of Emulsion Type}
+\begin{itemize}
+    \item \textbf{Dilution Test:} O/W can be diluted with water; W/O with oil.
+    \item \textbf{Conductivity Test:} O/W (water continuous) conducts electricity; W/O does not.
+    \item \textbf{Dye-Solubility Test:} Water-soluble dye colors O/W; oil-soluble dye colors W/O.
+    \item \textbf{Fluorescence Test:} Oil fluoresces under UV; O/W shows spotty fluorescence, W/O shows continuous fluorescence.
+    \item \textbf{Cobalt Chloride Test:} Filter paper soaked in $\text{CoCl}_2$ turns from blue to pink in O/W.
+\end{itemize}
+
+\section{Polymers}
+
+\subsection{Molecular Weights}
+\textbf{Number-Average ($\\\bar{M}_n$):}
+\begin{equation}
+    \bar{M}_n = \frac{\\sum n_i M_i}{\\sum n_i}
+\end{equation}
+\textbf{Weight-Average ($\\\bar{M}_w$):}
+\begin{equation}
+    \bar{M}_w = \frac{\\sum w_i M_i}{\\sum w_i} = \frac{\\sum n_i M_i^2}{\\sum n_i M_i}
+\end{equation}
+\textbf{Polydispersity Index (PDI):}
+\begin{equation}
+    PDI = \frac{\bar{M}_w}{\bar{M}_n} \geq 1
+\end{equation}
+
+\subsection{Degree of Polymerization (DP)}
+Average number of repeat units per chain.
+\begin{equation}
+    DP = \frac{\bar{M}_n}{\bar{m}}
+\end{equation}
+where $\bar{m}$ is the average molecular weight of the repeat unit.
+
+\subsection{Molecular Structures}
+\begin{itemize}
+    \item \textbf{Linear:} Long chains (e.g., PE, PVC, PS).
+    \item \textbf{Branched:} Side-branch chains.
+    \item \textbf{Cross-linked:} Adjacent chains joined by covalent bonds (e.g., rubber).
+    \item \textbf{Network:} Tri-functional units forming 3D networks (e.g., Bakelite, Epoxies).
+\end{itemize}
+
+\subsection{Copolymers}
+Polymers composed of two or more different types of repeat units.
+\begin{itemize}
+    \item \textbf{Random:} -A-B-B-A-B-A-A-
+    \item \textbf{Alternating:} -A-B-A-B-A-B-
+    \item \textbf{Block:} -A-A-A-B-B-B-
+    \item \textbf{Graft:} B-chains grafted onto A-backbone.
+\end{itemize}
+
+\subsection{Crystallinity}
+\textbf{Semicrystalline Polymers:} Contain both crystalline (ordered) and amorphous (disordered) regions.
+\textbf{Spherulites:} Spherical crystalline structures formed in some polymers (e.g., PE, PP, Nylon). Under cross-polarized light, they exhibit a characteristic \textbf{Maltese Cross} pattern.
+\textbf{Factors increasing crystallinity:}
+\begin{enumerate}
+    \item Simple chain structures (e.g., Linear PE).
+    \item Slow cooling from melt.
+    \item High stereoregularity (Isotactic/Syndiotactic).
+\end{enumerate}

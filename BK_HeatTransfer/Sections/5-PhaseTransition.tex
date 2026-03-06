@@ -1,0 +1,176 @@
+\section{Introduction to Phase Transition}
+
+Phase transition heat transfer involves heat transfer mechanisms during changes of phase, primarily boiling (liquid to vapor) and condensation (vapor to liquid). These processes are characterized by very high heat transfer coefficients compared to single-phase convection due to the latent heat involved.
+
+\subsection{Boiling}
+Boiling is a phase-change process in which a liquid turns into vapor at a solid-liquid interface when the surface temperature $\T_s$ is sufficiently above the saturation temperature $\T_{sat}$ of the liquid. The difference $\Delta T_{sat} = \T_s - \T_{sat}$ is called the \textbf{excess temperature} or \textbf{superheat}.
+
+\subsubsection*{Types of Boiling}
+\begin{itemize}
+    \item \textbf{Pool Boiling:} Boiling in the absence of bulk fluid flow, driven solely by natural convection currents and the motion of the bubbles influenced by buoyancy.
+        \begin{itemize}
+            \item \textbf{Subcooled Boiling:} The bulk liquid temperature is below the saturation temperature, but the surface temperature is above $\T_{sat}$. Bubbles form at the surface but may condense as they rise into the cooler liquid.
+            \item \textbf{Saturated Boiling:} The bulk liquid temperature is at the saturation temperature. Bubbles formed at the surface rise through the liquid and escape to the free surface.
+        \end{itemize}
+    \item \textbf{Flow Boiling:} Boiling in the presence of bulk fluid flow, where the fluid is forced to move over a heated surface by external means (e.g., pump). This is accompanied by other convection effects.
+\end{itemize}
+
+\subsection{Condensation}
+Condensation is the phase-change process in which vapor turns into liquid (condensate) when its temperature falls below its saturation temperature. This typically occurs on a solid surface when the surface temperature $\T_s$ is below the saturation temperature $\T_{sat}$ of the vapor.
+
+\subsubsection*{Types of Condensation}
+\begin{itemize}
+    \item \textbf{Film Condensation:} The condensate wets the surface and forms a continuous liquid film. The heat transfer occurs through this film by conduction, which acts as a resistance. Film condensation is more common in practice.
+    \item \textbf{Dropwise Condensation:} The condensate forms numerous droplets on the surface instead of a continuous film. These droplets grow and roll off the surface, exposing fresh surface for further condensation. Dropwise condensation is characterized by significantly higher heat transfer coefficients than film condensation (typically 10 times higher), but it is difficult to maintain for extended periods.
+\end{itemize}
+
+\section{Boiling Regimes (Pool Boiling Curve)}
+The relationship between heat flux and excess temperature for pool boiling is typically represented by a boiling curve, which identifies different boiling regimes:
+\begin{itemize}
+    \item \textbf{Natural Convection Boiling (Region A):} For small excess temperatures, heat transfer is dominated by natural convection from the surface to the liquid. No bubbles form yet.
+    \item \textbf{Nucleate Boiling (Region B-C):} As $\Delta T_{sat}$ increases, bubbles begin to form at discrete nucleation sites on the heated surface.
+        \begin{itemize}
+            \item \textbf{Isolated Bubbles (Region B):} Bubbles form, grow, and detach, with isolated columns.
+            \item \textbf{Jets and Columns (Region C):} As $\Delta T_{sat}$ increases further, the number of nucleation sites increases, and bubbles merge to form continuous columns or jets, leading to vigorous agitation and very high heat transfer rates. This is the most desirable regime for industrial applications.
+        \item \textbf{Peak Heat Flux (Critical Heat Flux, CHF) (Point D):} The maximum heat flux that can be achieved in nucleate boiling. Beyond this point, the surface becomes substantially covered by a vapor film. This is a critical point in design, as exceeding it can lead to a sudden and large increase in surface temperature.
+        \end{itemize}
+    \item \textbf{Transition Boiling (Region D-E):} An unstable regime where the surface is partially covered by a vapor film and partially by liquid. Heat transfer decreases with increasing $\Delta T_{sat}$ as more of the surface becomes insulated by the vapor film. This regime is typically avoided in practice due to its instability and the potential for very high surface temperatures.
+    \item \textbf{Film Boiling (Region E):} For very high excess temperatures, the entire heated surface is covered by a continuous, stable vapor film. Heat transfer occurs predominantly by conduction and radiation across this vapor film, which acts as a thermal insulator. This regime is characterized by relatively low heat transfer coefficients compared to nucleate boiling and can lead to extremely high surface temperatures and potential burnout of the heating element.
+        \begin{itemize}
+            \item \textbf{Minimum Heat Flux (Leidenfrost Point) (Point E):} The minimum heat flux in film boiling, marking the transition from stable film boiling back to transition boiling.
+        \end{itemize}
+\end{itemize}
+
+\section{Enhancement of Heat Transfer in Pool Boiling}
+Nucleate boiling strength strongly depends on the number of active nucleation sites on the surface, and the rate of bubble formation at each site. Any modification that increases nucleation on the heating surface (e.g., by increasing surface roughness, applying surface coatings, or using porous materials) will also enhance heat transfer in nucleate boiling.
+
+\section{Condensation Heat Transfer}
+Condensation heat transfer is a phase-change process where a vapor condenses into a liquid upon contact with a surface whose temperature is below the saturation temperature of the vapor.
+
+\subsection{Heat Transfer Coefficient in Condensation}
+Heat transfer in condensation is strongly influenced by the type of condensation (film vs. dropwise) and the orientation of the surface. For film condensation, the thickness of the condensate film directly affects the heat transfer coefficient, as heat must be conducted through this liquid layer.
+
+\section{Selection of Phase Transition Heat Transfer Equipment}
+The design and selection of equipment involving phase transitions (boilers, condensers) are critical and depend heavily on predicting heat transfer rates in the various boiling and condensation regimes. Understanding peak and minimum heat fluxes is vital to prevent burnout and ensure safe operation.
+
+ % Start formulas on a new page for clarity
+\section{Formulas Summary for Phase Transition Heat Transfer}
+
+\subsection{Boiling}
+\subsubsection*{Nucleate Boiling Heat Flux (Rohsenow Correlation)}
+\begin{equation}
+    q''_{\text{nucleate}} = \mu_l h_{fg} \left[ \frac{g(\rho_l - \rho_v)}{\sigmaST} \right]^{1/2} \left[ \frac{C_{p,l} \Delta T_{sat}}{C_{sf} h_{fg} Pr_l^n} \right]^3
+\end{equation}
+where: \\
+$q''_{\text{nucleate}}$ = Nucleate boiling heat flux (W/m$^2$) \\
+$\mu_l$ = Dynamic viscosity of the liquid (Pa$\cdot$s or kg/m$\cdot$s) \\
+$h_{fg}$ = Latent heat of vaporization (J/kg) \\
+$g$ = Gravitational acceleration (m/s$^2$) \\
+$\rho_l$ = Density of the liquid (kg/m$^3$) \\
+$\rho_v$ = Density of the vapor (kg/m$^3$) \\
+$\sigmaST$ = Surface tension of the liquid-vapor interface (N/m) \\
+$C_{p,l}$ = Specific heat capacity of the liquid (J/kg$\cdot$K) \\
+$\Delta T_{sat}$ = Excess temperature or superheat, $\T_s - \T_{sat}$ (K or $^\circ$C) \\
+$C_{sf}$ = Surface-fluid constant (dimensionless, depends on surface roughness and fluid-surface combination; see tables for values) \\
+$Pr_l$ = Prandtl number of the liquid (dimensionless) \\
+$n$ = Exponent (dimensionless, depends on fluid-surface combination; typically 1.0 or 1.7; see tables for values)
+
+\subsubsection*{Peak Heat Flux (Critical Heat Flux, CHF) (Zuber Correlation)}
+For horizontal flat plate:
+\begin{equation}
+    q''_{max} = C_{crit} \rho_v h_{fg} \left[ \frac{\sigmaST g (\rho_l - \rho_v)}{\rho_v^2} \right]^{1/4}
+\end{equation}
+where: \\
+$q''_{max}$ = Maximum (critical) heat flux (W/m$^2$) \\
+$C_{crit}$ = Critical constant (dimensionless, approximately $0.149$ for large horizontal flat plates) \\
+$\rho_v$ = Density of the vapor (kg/m$^3$) \\
+$h_{fg}$ = Latent heat of vaporization (J/kg) \\
+$\sigmaST$ = Surface tension of the liquid-vapor interface (N/m) \\
+$g$ = Gravitational acceleration (m/s$^2$) \\
+$\rho_l$ = Density of the liquid (kg/m$^3$) \\
+\quad \textbf{For different geometries, $C_{crit}$ varies (e.g., small horizontal cylinders, spheres).}
+
+\subsubsection*{Minimum Heat Flux (Leidenfrost Point) (Zuber/Bromley Correlation)}
+For horizontal flat plate:
+\begin{equation}
+    q''_{min} = 0.09 \rho_v h_{fg} \left[ \frac{\sigmaST g (\rho_l - \rho_v)}{(\rho_l + \rho_v)^2} \right]^{1/4}
+\end{equation}
+where: \\
+$q''_{min}$ = Minimum heat flux (W/m$^2$) \\
+(Other parameters are the same as for peak heat flux)
+
+\subsubsection*{Film Boiling Heat Transfer (Bromley Correlation for Horizontal Cylinders)}
+The heat flux in film boiling is often a combination of convection and radiation.
+\begin{equation}
+    q''_{\text{film}} = \kth_v \left[ \frac{g \rho_v (\rho_l - \rho_v) (h_{fg} + 0.4 C_{p,v} \Delta T_{sat})}{D \mu_v \Delta T_{sat}} \right]^{1/4} \Delta T_{sat} + \epsilonR \sigmaSB (\T_s^4 - \T_{sat}^4)
+\end{equation}
+(The radiation term is significant at high surface temperatures, typically when $\T_s > 300^\circ$C).
+where: \\
+$q''_{\text{film}}$ = Film boiling heat flux (W/m$^2$) \\
+$\kth_v$ = Thermal conductivity of the vapor (W/m$\cdot$K) \\
+$g$ = Gravitational acceleration (m/s$^2$) \\
+$\rho_v$ = Density of the vapor (kg/m$^3$) \\
+$\rho_l$ = Density of the liquid (kg/m$^3$) \\
+$h_{fg}$ = Latent heat of vaporization (J/kg) \\
+$C_{p,v}$ = Specific heat capacity of the vapor (J/kg$\cdot$K) \\
+$\Delta T_{sat}$ = Excess temperature, $\T_s - \T_{sat}$ (K or $^\circ$C) \\
+$D$ = Diameter of the horizontal cylinder (m) \\
+$\mu_v$ = Dynamic viscosity of the vapor (Pa$\cdot$s or kg/m$\cdot$s) \\
+$\epsilonR$ = Emissivity of the surface (dimensionless) \\
+$\sigmaSB$ = Stefan-Boltzmann constant ($5.67 \times 10^{-8}$ W/m$^2$$\cdot$K$^4$) \\
+$\T_s$ = Absolute surface temperature (K) \\
+$\T_{sat}$ = Absolute saturation temperature (K)
+
+\subsection{Condensation}
+\subsubsection*{Condensate Reynolds Number}
+\begin{equation}
+    Re_{cond} = \frac{4 \mdot}{P_w \mu_l} = \frac{4 \Qdot_{\text{condensed}}}{P_w \mu_l h_{fg}}
+\end{equation}
+where: \\
+$Re_{cond}$ = Condensate Reynolds number (dimensionless) \\
+$\mdot$ = Mass flow rate of condensate (kg/s) \\
+$P_w$ = Wetted perimeter of the surface (m) \\
+$\mu_l$ = Dynamic viscosity of the liquid condensate (Pa$\cdot$s or kg/m$\cdot$s) \\
+$\Qdot_{\text{condensed}}$ = Rate of heat transfer due to condensation (W) \\
+$h_{fg}$ = Latent heat of vaporization (J/kg)
+
+\subsubsection*{Average Heat Transfer Coefficient for Film Condensation on a Vertical Plate (Nusselt's Theory)}
+\begin{equation}
+    \hC_{avg} = 0.943 \left[ \frac{g \rho_l (\rho_l - \rho_v) \kth_l^3 h_{fg}}{\mu_l L (\T_{sat} - \T_s)} \right]^{1/4}
+\end{equation}
+where: \\
+$\hC_{avg}$ = Average heat transfer coefficient for film condensation (W/m$^2$$\cdot$K) \\
+$g$ = Gravitational acceleration (m/s$^2$) \\
+$\rho_l$ = Density of the liquid condensate (kg/m$^3$) \\
+$\rho_v$ = Density of the vapor (kg/m$^3$) \\
+$\kth_l$ = Thermal conductivity of the liquid condensate (W/m$\cdot$K) \\
+$h_{fg}$ = Latent heat of vaporization (J/kg) \\
+$\mu_l$ = Dynamic viscosity of the liquid condensate (Pa$\cdot$s or kg/m$\cdot$s) \\
+$L$ = Vertical length of the plate (m) \\
+$\T_{sat}$ = Saturation temperature of the vapor (K or $^\circ$C) \\
+$\T_s$ = Surface temperature (K or $^\circ$C)
+
+Modified latent heat for subcooled liquid (if condensate is subcooled):
+\begin{equation}
+    h_{fg}^* = h_{fg} + 0.68 C_{p,l} (\T_{sat} - \T_s)
+\end{equation}
+This $h_{fg}^*$ replaces $h_{fg}$ in the above equation for $\hC_{avg}$ when the condensate leaves the surface at a temperature below $\T_{sat}$.
+
+\subsubsection*{Average Heat Transfer Coefficient for Film Condensation on a Horizontal Tube (Nusselt's Theory)}
+\begin{equation}
+    \hC_{avg} = 0.729 \left[ \frac{g \rho_l (\rho_l - \rho_v) \kth_l^3 h_{fg}^*}{\mu_l D (\T_{sat} - \T_s)} \right]^{1/4}
+\end{equation}
+where: \\
+$D$ = Outer diameter of the horizontal tube (m) \\
+$h_{fg}^*$ = Modified latent heat of vaporization (J/kg) (can be approximated as $h_{fg}$ if subcooling is negligible) \\
+(Other parameters are similar to the vertical plate case)
+
+\subsubsection*{Average Heat Transfer Coefficient for a Bank of Horizontal Tubes}
+For a vertical tier of $N$ horizontal tubes, the average heat transfer coefficient for the entire bank is approximately:
+\begin{equation}
+    \hC_{avg,N} = \frac{\hC_{avg,1}}{N^{1/4}}
+\end{equation}
+where: \\
+$\hC_{avg,N}$ = Average heat transfer coefficient for $N$ tubes in a vertical column (W/m$^2$$\cdot$K) \\
+$\hC_{avg,1}$ = Average heat transfer coefficient for a single horizontal tube (W/m$^2$$\cdot$K) \\
+$N$ = Number of horizontal tubes in a vertical column (dimensionless)

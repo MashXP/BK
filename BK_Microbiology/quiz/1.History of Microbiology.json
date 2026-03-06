@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Which prominent figure is explicitly mentioned as a learning objective for the 'History of Microbiology' section regarding observations of microscopic life?",
+    "options": [
+      "Robert Hooke and Anton van Leeuwenhoek",
+      "Louis Pasteur and Robert Koch",
+      "Edward Jenner and Paul Ehrlich",
+      "Alexander Fleming and Rudolf Virchow"
+    ],
+    "answer": "Robert Hooke and Anton van Leeuwenhoek"
+  },
+  {
+    "question": "In 1665, Robert Hooke made a significant discovery using a crude microscope. What was this discovery?",
+    "options": [
+      "The existence of 'animalcules'",
+      "The smallest structure of life, the 'cell'",
+      "The principle of vaccination",
+      "The process of fermentation"
+    ],
+    "answer": "The smallest structure of life, the 'cell'"
+  },
+  {
+    "question": "Who is credited with observing living cells using 400 microscopes with magnifying lenses between 1673 and 1723?",
+    "options": [
+      "Robert Hooke",
+      "Anton van Leeuwenhoek",
+      "Louis Pasteur",
+      "Edward Jenner"
+    ],
+    "answer": "Anton van Leeuwenhoek"
+  },
+  {
+    "question": "Anton van Leeuwenhoek wrote a letter describing 'animalcules' to which organization?",
+    "options": [
+      "The French Academy of Sciences",
+      "The British Royal Family",
+      "The Dutch Parliament",
+      "The Vatican"
+    ],
+    "answer": "The British Royal Family"
+  },
+  {
+    "question": "What theory was opened by Robert Hooke's discovery of the 'cell'?",
+    "options": [
+      "The Germ Theory of Disease",
+      "The Cell Theory",
+      "The Theory of Biogenesis",
+      "The Theory of Spontaneous Generation"
+    ],
+    "answer": "The Cell Theory"
+  },
+  {
+    "question": "Based on the description of a replica, what was a key feature of Anton van Leeuwenhoek's microscope?",
+    "options": [
+      "It had multiple lenses for varying magnifications.",
+      "It was a compound microscope with ocular and objective lenses.",
+      "It was a simple rectangular plate with a single tiny lens.",
+      "It included an integrated light source for illumination."
+    ],
+    "answer": "It was a simple rectangular plate with a single tiny lens."
+  },
+  {
+    "question": "According to the historical quote, how did Antonie van Leeuwenhoek's unique qualities in his craft classify him?",
+    "options": [
+      "He was a universal genius, excelling in many fields.",
+      "He belonged to a genus of which he was the type and only species.",
+      "He was the first true experimental biologist.",
+      "He was primarily an artist, not a scientist."
+    ],
+    "answer": "He belonged to a genus of which he was the type and only species."
+  },
+  {
+    "question": "Leeuwenhoek's drawings of bacteria, as depicted in the lecture, showed which general shapes?",
+    "options": [
+      "Only perfectly spherical forms",
+      "A mixture of oval, rod-like, and wavy filamentous forms",
+      "Complex multicellular structures",
+      "Only large, macroscopic organisms"
+    ],
+    "answer": "A mixture of oval, rod-like, and wavy filamentous forms"
+  },
+  {
+    "question": "Leeuwenhoek described observing 'living creatures in rain water... ten thousand times less than those which may be perceived in the water with the naked eye.' What is this quote considered the first observation of?",
+    "options": [
+      "Fungi",
+      "Viruses",
+      "Bacteria",
+      "Protozoa"
+    ],
+    "answer": "Bacteria"
+  },
+  {
+    "question": "The theory of spontaneous generation posits that life can originate from what?",
+    "options": [
+      "Existing living cells only",
+      "Nonliving things",
+      "Planetary dust and cosmic rays",
+      "A divine spark"
+    ],
+    "answer": "Nonliving things"
+  },
+  {
+    "question": "Which scientist performed an experiment in 1668 that undermined the theory of spontaneous generation for macroscopic life, specifically regarding maggots on rotting meat?",
+    "options": [
+      "John Needham",
+      "Francesco Redi",
+      "Lazzaro Spallanzani",
+      "Rudolf Virchow"
+    ],
+    "answer": "Francesco Redi"
+  },
+  {
+    "question": "In Redi's experiment, what was the key difference between the open jar and the closed jar that led to different observations regarding maggots?",
+    "options": [
+      "The type of meat used",
+      "The amount of air allowed to enter",
+      "The temperature at which the jars were kept",
+      "The presence or absence of a lid to prevent flies from reaching the meat"
+    ],
+    "answer": "The presence or absence of a lid to prevent flies from reaching the meat"
+  },
+  {
+    "question": "John Needham's experiment, which seemingly supported spontaneous generation, involved heating broths before pouring them into covered containers. What was his observation?",
+    "options": [
+      "The broth remained clear indefinitely.",
+      "The broth quickly became turbid due to microbial regrowth.",
+      "The broth turned solid immediately.",
+      "The broth produced maggots and flies."
+    ],
+    "answer": "The broth quickly became turbid due to microbial regrowth."
+  },
+  {
+    "question": "Lazzaro Spallanzani countered John Needham's experiment by demonstrating what key difference in his own experimental setup and results?",
+    "options": [
+      "He used different nutrient solutions.",
+      "He boiled the broth for a shorter period.",
+      "He sealed the flasks *before* heating, showing no growth of microorganisms.",
+      "He introduced different types of air into his flasks."
+    ],
+    "answer": "He sealed the flasks *before* heating, showing no growth of microorganisms."
+  },
+  {
+    "question": "What was Needham's argument against Spallanzani's sealed-flask experiment?",
+    "options": [
+      "Spallanzani's flasks were contaminated.",
+      "Spallanzani didn't boil the broth long enough.",
+      "The heat and sealing destroyed the essential element for 'autogenesis' (spontaneous generation).",
+      "Spallanzani's results were not reproducible."
+    ],
+    "answer": "The heat and sealing destroyed the essential element for 'autogenesis' (spontaneous generation)."
+  },
+  {
+    "question": "Rudolf Virchow introduced the concept of biogenesis in 1858. What did this theory state?",
+    "options": [
+      "Life can only originate from nonliving matter.",
+      "Living cells could only be created from living cells.",
+      "All life requires oxygen for survival.",
+      "Microorganisms are essential for nutrient cycling."
+    ],
+    "answer": "Living cells could only be created from living cells."
+  },
+  {
+    "question": "Louis Pasteur resolved the debate over spontaneous generation in 1861 with his famous swan-neck flask experiment. What was his main conclusion?",
+    "options": [
+      "Microorganisms present in the air could contaminate sterilized broths; the air itself does not produce microorganisms.",
+      "Heat destroys the vital force in nutrient broths.",
+      "Sealing flasks prevents all forms of life from entering.",
+      "Spontaneous generation is possible under certain conditions."
+    ],
+    "answer": "Microorganisms present in the air could contaminate sterilized broths; the air itself does not produce microorganisms."
+  },
+  {
+    "question": "In Pasteur's swan-neck flask experiment, what was the primary function of the S-shaped neck of the flask?",
+    "options": [
+      "To allow air to enter and exit, but trap airborne dust and microbes in its curves.",
+      "To prevent any air from entering the flask.",
+      "To increase the surface area for microbial growth.",
+      "To facilitate the rapid cooling of the broth."
+    ],
+    "answer": "To allow air to enter and exit, but trap airborne dust and microbes in its curves."
+  },
+  {
+    "question": "Pasteur's original swan-neck vessels, still on display at the Pasteur Institute in Paris, show no sign of contamination more than 100 years later. What does this demonstrate about his experiment?",
+    "options": [
+      "The broth used was inherently resistant to microbial growth.",
+      "The vessels were made of a unique antimicrobial material.",
+      "The effectiveness and robustness of his experimental design against spontaneous generation.",
+      "The complete absence of microorganisms in the air of 19th-century Paris."
+    ],
+    "answer": "The effectiveness and robustness of his experimental design against spontaneous generation."
+  },
+  {
+    "question": "Which of the following scientists is associated with the first observation of cells in 1665?",
+    "options": [
+      "Robert Hooke",
+      "Anton van Leeuwenhoek",
+      "Edward Jenner",
+      "Louis Pasteur"
+    ],
+    "answer": "Robert Hooke"
+  },
+  {
+    "question": "Edward Jenner's contribution in 1798 is associated with the development of what?",
+    "options": [
+      "Aseptic surgery",
+      "The first vaccine",
+      "The germ theory of disease",
+      "Pure cultures of bacteria"
+    ],
+    "answer": "The first vaccine"
+  },
+  {
+    "question": "Joseph Lister's significant contribution in 1867, during the Golden Age of Microbiology, involved what medical practice?",
+    "options": [
+      "Developing the first antibiotics",
+      "Performing surgery under aseptic conditions using phenol",
+      "Discovering the cause of tuberculosis",
+      "Identifying the structure of DNA"
+    ],
+    "answer": "Performing surgery under aseptic conditions using phenol"
+  },
+  {
+    "question": "Robert Koch is famous for establishing experimental steps for directly linking a specific microbe to a specific disease. What is this sequence of steps known as?",
+    "options": [
+      "The Cell Theory",
+      "Pasteur's Principles",
+      "The Theory of Biogenesis",
+      "Koch's Postulates"
+    ],
+    "answer": "Koch's Postulates"
+  },
+  {
+    "question": "Which microbe's discovery is attributed to Robert Koch in 1882?",
+    "options": [
+      "*Neisseria gonorrhoeae*",
+      "*Mycobacterium tuberculosis*",
+      "*Escherichia coli*",
+      "*Clostridium tetani*"
+    ],
+    "answer": "*Mycobacterium tuberculosis*"
+  },
+  {
+    "question": "In 1884, Hans Christian Gram developed a staining procedure that is still fundamental in microbiology. What is it called?",
+    "options": [
+      "Acid-fast stain",
+      "Endospore stain",
+      "Negative stain",
+      "Gram-staining procedure"
+    ],
+    "answer": "Gram-staining procedure"
+  },
+  {
+    "question": "Richard J. Petri invented a common laboratory tool in 1887. What was it?",
+    "options": [
+      "The microscope slide",
+      "The Bunsen burner",
+      "The Petri dish",
+      "The autoclave"
+    ],
+    "answer": "The Petri dish"
+  },
+  {
+    "question": "The period from 1857 to 1914 is known as the 'Golden Age of Microbiology.' Which two scientists are explicitly stated as having founded the field during this time?",
+    "options": [
+      "Hooke and Leeuwenhoek",
+      "Jenner and Ehrlich",
+      "Pasteur and Robert Koch",
+      "Fleming and Waksman"
+    ],
+    "answer": "Pasteur and Robert Koch"
+  },
+  {
+    "question": "What significant development in laboratory technique was introduced by Fanny Hesse in 1883?",
+    "options": [
+      "Liquid broth media",
+      "Agar (solid) media",
+      "Differential staining",
+      "Microbial enumeration methods"
+    ],
+    "answer": "Agar (solid) media"
+  },
+  {
+    "question": "What specific problem led Louis Pasteur to investigate the process of fermentation, and subsequently develop pasteurization?",
+    "options": [
+      "The inability to grow bacteria in pure culture.",
+      "The souring and spoilage of wines and beers.",
+      "The need to sterilize surgical instruments.",
+      "The search for a cure for anthrax."
+    ],
+    "answer": "The souring and spoilage of wines and beers."
+  },
+  {
+    "question": "What is pasteurization, as defined in the lecture notes?",
+    "options": [
+      "The process of fermenting grapes into wine.",
+      "Heating a liquid to a temperature hot enough to kill spoilage-causing microorganisms.",
+      "A method of filtering microorganisms from air.",
+      "The discovery of different bacteria causing spoilage."
+    ],
+    "answer": "Heating a liquid to a temperature hot enough to kill spoilage-causing microorganisms."
+  },
+  {
+    "question": "Before the time of Pasteur and the Germ Theory of Disease, how were diseases generally treated?",
+    "options": [
+      "Through advanced surgical procedures.",
+      "Using targeted antibiotics.",
+      "By trial and error, as causative agents were unknown.",
+      "With herbal remedies based on microbial understanding."
+    ],
+    "answer": "By trial and error, as causative agents were unknown."
+  },
+  {
+    "question": "What was one of the initial reasons for the difficulty in accepting the Germ Theory of Disease?",
+    "options": [
+      "Lack of powerful microscopes to visualize microbes.",
+      "Belief in disease arising from miasma or 'poisonous vapors from swamps'.",
+      "Religious opposition to the concept of invisible life forms.",
+      "The absence of effective treatments even if microbes were known."
+    ],
+    "answer": "Belief in disease arising from miasma or 'poisonous vapors from swamps'."
+  },
+  {
+    "question": "Agostino Bassi (1835) and Louis Pasteur (1865) both contributed to understanding the disease in silkworms. What did Bassi discover?",
+    "options": [
+      "A bacterial agent caused the disease.",
+      "A fungus caused the disease.",
+      "A virus was responsible for the infection.",
+      "The disease was caused by poor nutrition."
+    ],
+    "answer": "A fungus caused the disease."
+  },
+  {
+    "question": "Joseph Lister applied germ theory to medicine in the 1860s by using what solution to treat surgical wounds?",
+    "options": [
+      "Alcohol",
+      "Iodine",
+      "Phenol",
+      "Hydrogen peroxide"
+    ],
+    "answer": "Phenol"
+  },
+  {
+    "question": "Robert Koch provided the first definitive evidence of pathogenic bacteria in 1876. What disease and causative agent did he study?",
+    "options": [
+      "Tuberculosis caused by *Mycobacterium tuberculosis*",
+      "Cholera caused by *Vibrio cholerae*",
+      "Anthrax caused by *Bacillus anthracis*",
+      "Syphilis caused by *Treponema pallidum*"
+    ],
+    "answer": "Anthrax caused by *Bacillus anthracis*"
+  },
+  {
+    "question": "According to Koch's Postulates, what is the first experimental step in relating a specific microbe to a specific disease?",
+    "options": [
+      "Injecting healthy animals with the suspected microbe.",
+      "Identifying the microorganisms under a microscope.",
+      "Isolating microorganisms from a diseased or dead animal.",
+      "Growing microorganisms in pure culture."
+    ],
+    "answer": "Isolating microorganisms from a diseased or dead animal."
+  },
+  {
+    "question": "What is the primary purpose of Koch's Postulates, according to the 'KEY CONCEPTS' section?",
+    "options": [
+      "To discover new antibiotics.",
+      "To classify microorganisms taxonomically.",
+      "To determine the etiology of disease, the first step in treatment and prevention.",
+      "To develop vaccines for infectious diseases."
+    ],
+    "answer": "To determine the etiology of disease, the first step in treatment and prevention."
+  },
+  {
+    "question": "Edward Jenner introduced vaccination in 1796 by injecting healthy people with fluid from smallpox blisters. What was the outcome of this process?",
+    "options": [
+      "It caused severe and fatal smallpox outbreaks.",
+      "It had no effect on disease prevention.",
+      "It induced immunity, protecting the body from future smallpox infection.",
+      "It caused a new type of disease."
+    ],
+    "answer": "It induced immunity, protecting the body from future smallpox infection."
+  },
+  {
+    "question": "Pasteur discovered how vaccines worked in 1880, using cholera bacteria. What did he find about these bacteria after long-term lab culture?",
+    "options": [
+      "They became more virulent and deadly.",
+      "They lost their ability to cause disease but retained the ability to cause immunity.",
+      "They completely disappeared from the culture.",
+      "They mutated into a different species of bacteria."
+    ],
+    "answer": "They lost their ability to cause disease but retained the ability to cause immunity."
+  },
+  {
+    "question": "Paul Ehrlich discovered the arsenic derivative salvarsan in 1910. Against which specific disease was this compound effective?",
+    "options": [
+      "Tuberculosis",
+      "Anthrax",
+      "Syphilis",
+      "Cholera"
+    ],
+    "answer": "Syphilis"
+  },
+  {
+    "question": "Alexander Fleming discovered penicillin in 1928 from which microorganism?",
+    "options": [
+      "A bacterium, *Staphylococcus aureus*",
+      "A fungus, *Penicillium notatum*",
+      "An alga, *Volvox*",
+      "A protozoan, *Amoeba proteus*"
+    ],
+    "answer": "A fungus, *Penicillium notatum*"
+  },
+  {
+    "question": "After 1940, penicillin was produced on an industrial scale. What was a noted challenge with many antibiotics discovered later?",
+    "options": [
+      "They were too expensive to produce.",
+      "They were often ineffective against common bacteria.",
+      "Many antibiotics were toxic to humans and animals.",
+      "Microorganisms quickly developed resistance to them."
+    ],
+    "answer": "Many antibiotics were toxic to humans and animals."
+  },
+  {
+    "question": "Based on similarities in ribosomal RNA, living organisms are classified into which three domains?",
+    "options": [
+      "Prokarya, Eukarya, Protista",
+      "Bacteria, Archaea, Eukarya",
+      "Plants, Animals, Fungi",
+      "Viruses, Bacteria, Fungi"
+    ],
+    "answer": "Bacteria, Archaea, Eukarya"
+  },
+  {
+    "question": "According to the phylogenetic tree, which domain is suggested to have given rise to mitochondria through endosymbiosis?",
+    "options": [
+      "Archaea",
+      "Bacteria",
+      "Eukarya",
+      "Viruses"
+    ],
+    "answer": "Bacteria"
+  },
+  {
+    "question": "Which of the following are listed as subcategories of Fungi in the lecture notes?",
+    "options": [
+      "Protozoa and Algae",
+      "Yeasts and Molds",
+      "Gram-positive and Gram-negative bacteria",
+      "Archaeozoa and Chromista"
+    ],
+    "answer": "Yeasts and Molds"
+  },
+  {
+    "question": "The scanning electron micrograph (SEM) of *Haemophilus influenzae* on Page 25 shows its morphology as what?",
+    "options": [
+      "Spherical",
+      "Spiral",
+      "Rod-shaped",
+      "Filamentous"
+    ],
+    "answer": "Rod-shaped"
+  },
+  {
+    "question": "Which Nobel laureate in the Third Golden Age of Microbiology extracted artemisinin from a Chinese sage plant to inhibit the malaria parasite?",
+    "options": [
+      "César Milstein",
+      "Françoise Barré-Sinoussi",
+      "Youyou Tu",
+      "Kary Mullis"
+    ],
+    "answer": "Youyou Tu"
+  },
+  {
+    "question": "Why might Koch's Postulates be difficult to apply to an obligate intracellular pathogen like *Mycobacterium leprae*, which causes leprosy?",
+    "options": [
+      "The pathogen cannot be easily grown in pure culture outside of host cells.",
+      "The pathogen often causes a rapidly fatal disease.",
+      "Animal models are too expensive to use for this disease.",
+      "The disease symptoms are too varied and non-specific."
+    ],
+    "answer": "The pathogen cannot be easily grown in pure culture outside of host cells."
+  },
+  {
+    "question": "A scientist discovers a new compound that can inhibit bacterial growth in a petri dish. However, further testing reveals it is highly toxic to human cells at therapeutic concentrations. This scenario most closely aligns with the early challenges faced during the development of which category of antimicrobial agents?",
+    "options": [
+      "Vaccines",
+      "Antivirals",
+      "Antibiotics",
+      "Antifungals"
+    ],
+    "answer": "Antibiotics"
+  },
+  {
+    "question": "Considering the 'First Golden Age of Microbiology' (1857-1911), if a physician implemented aseptic techniques like Joseph Lister, what underlying principle of the germ theory would they be directly applying to patient care?",
+    "options": [
+      "Microbes are responsible for fermentation processes.",
+      "Disease-causing microbes can be transferred and prevented from infecting wounds.",
+      "Immunity can be developed through weakened pathogens.",
+      "Specific diseases are linked to specific environmental toxins."
+    ],
+    "answer": "Disease-causing microbes can be transferred and prevented from infecting wounds."
+  }
+]

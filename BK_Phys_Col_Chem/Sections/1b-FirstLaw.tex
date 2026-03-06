@@ -1,0 +1,40 @@
+\section{The First Law of Thermodynamics}
+
+\subsection{Energy, Heat, and Work}
+\begin{itemize}
+    \item \textbf{Internal Energy ($U$)}: Total energy within the system (state function).
+    \item \textbf{First Law}: $\Delta U = Q - A$ (where $A$ is work done by the system).
+    \item \textbf{Sign Convention}:
+    \begin{itemize}
+        \item $+Q$: System receives heat; $-Q$: System releases heat.
+        \item $+A$: System does work (expansion); $-A$: Surroundings do work on system (compression).
+    \end{itemize}
+\end{itemize}
+
+\subsection{Processes and Work ($\delta A = P dV$)}
+\begin{itemize}
+    \item \textbf{Isochoric} ($V = \text{const}$): $A = 0 \implies Q_V = \Delta U$.
+    \item \textbf{Isobaric} ($P = \text{const}$): $A = P \Delta V \implies Q_P = \Delta H$.
+    \item \textbf{Isothermal} ($T = \text{const}$, ideal gas): $\Delta U = 0 \implies Q = A = nRT \ln \frac{V_2}{V_1} = nRT \ln \frac{P_1}{P_2}$.
+    \item \textbf{Adiabatic} ($Q = 0$): $\Delta U = -A$. Reversible: $PV^\gamma = \text{const}$.
+\end{itemize}
+
+\subsection{Enthalpy and Heat Capacity}
+\begin{itemize}
+    \item \textbf{Enthalpy}: $H = U + PV$.
+    \item \textbf{Heat Capacity}: $C = \frac{\delta Q}{dT}$.
+    \begin{itemize}
+        \item $C_V = \left( \frac{\partial U}{\partial T} \right)_V, \quad C_P = \left( \frac{\partial H}{\partial T} \right)_P$.
+        \item Ideal Gas: $C_{P,m} - C_{V,m} = R$.
+        \item Monatomic: $C_{V,m} = \frac{3}{2}R$; Diatomic: $C_{V,m} = \frac{5}{2}R$.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Thermochemistry}
+\begin{itemize}
+    \item \textbf{Hess's Law}: $\Delta H^0_{\text{rxn}} = \sum n \Delta H^0_{\text{f,products}} - \sum n \Delta H^0_{\text{f,reactants}}$.
+    \item \textbf{Kirchhoff's Law}:
+    \begin{equation}
+        \Delta H_{T_2} = \Delta H_{T_1} + \int_{T_1}^{T_2} \Delta C_P dT
+    \end{equation}
+\end{itemize}

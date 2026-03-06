@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What is the condition of a system at equilibrium?",
+    "options": [
+      "Temperature and pressure fluctuate with time",
+      "Concentration gradients exist",
+      "Temperature, pressure, and composition do not change with time",
+      "Only pressure remains constant"
+    ],
+    "answer": "Temperature, pressure, and composition do not change with time"
+  },
+  {
+    "question": "Which equation represents the Gibbs Phase Rule?",
+    "options": [
+      "F = C - P + 2",
+      "F = P - C + 2",
+      "F = C + P - 2",
+      "F = C - P + 1"
+    ],
+    "answer": "F = C - P + 2"
+  },
+  {
+    "question": "In the context of VLE, what does Raoult's Law relate?",
+    "options": [
+      "Partial pressure to temperature",
+      "Partial pressure to liquid mole fraction and vapor pressure",
+      "Total pressure to relative volatility",
+      "Vapor composition to feed rate"
+    ],
+    "answer": "Partial pressure to liquid mole fraction and vapor pressure"
+  },
+  {
+    "question": "What does 'P' represent in the Phase Rule equation F = C - P + 2?",
+    "options": [
+      "Pressure",
+      "Number of Phases",
+      "Partial Pressure",
+      "Power"
+    ],
+    "answer": "Number of Phases"
+  },
+  {
+    "question": "What is the definition of the 'Bubble Point'?",
+    "options": [
+      "The temperature at which the first drop of dew forms",
+      "The temperature where the liquid freezes",
+      "The temperature at which the first bubble of vapor forms when heating a liquid",
+      "The critical temperature of the mixture"
+    ],
+    "answer": "The temperature at which the first bubble of vapor forms when heating a liquid"
+  },
+  {
+    "question": "Flash distillation is characterized as what type of process?",
+    "options": [
+      "Multi-stage counter-current process",
+      "Single-stage equilibrium process",
+      "Batch time-dependent process",
+      "Differential separation process"
+    ],
+    "answer": "Single-stage equilibrium process"
+  },
+  {
+    "question": "Which variable is considered an 'Intensive Variable'?",
+    "options": [
+      "Total Volume",
+      "Total Mass",
+      "Flow Rate",
+      "Temperature"
+    ],
+    "answer": "Temperature"
+  },
+  {
+    "question": "What is the primary purpose of Steam Distillation?",
+    "options": [
+      "To separate gases",
+      "To separate high-boiling components at temperatures below their normal boiling points",
+      "To increase the pressure of the system",
+      "To freeze impurities out of solution"
+    ],
+    "answer": "To separate high-boiling components at temperatures below their normal boiling points"
+  },
+  {
+    "question": "In a T-x-y diagram, what does the upper curve typically represent?",
+    "options": [
+      "Saturated Liquid Line (Bubble Point)",
+      "Saturated Vapor Line (Dew Point)",
+      "Operating Line",
+      "Tie Line"
+    ],
+    "answer": "Saturated Vapor Line (Dew Point)"
+  },
+  {
+    "question": "What is 'f' in the context of Flash Distillation?",
+    "options": [
+      "Feed flow rate",
+      "Friction factor",
+      "Fraction of feed vaporized",
+      "Fugacity"
+    ],
+    "answer": "Fraction of feed vaporized"
+  },
+  {
+    "question": "For a binary mixture (C=2) in two phases (P=2), how many degrees of freedom (F) are there?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "Which diagram plots x and y as functions of temperature at constant pressure?",
+    "options": [
+      "Pxy diagram",
+      "Txy diagram",
+      "xy diagram",
+      "Flash diagram"
+    ],
+    "answer": "Txy diagram"
+  },
+  {
+    "question": "How is the distribution coefficient (K-value) defined?",
+    "options": [
+      "K = x / y",
+      "K = y / x",
+      "K = P / P*",
+      "K = alpha * x"
+    ],
+    "answer": "K = y / x"
+  },
+  {
+    "question": "If Relative Volatility (alpha) is equal to 1, what does this imply?",
+    "options": [
+      "Separation is very easy",
+      "Separation is impossible by simple distillation",
+      "Component A is much more volatile than B",
+      "The system is under vacuum"
+    ],
+    "answer": "Separation is impossible by simple distillation"
+  },
+  {
+    "question": "In the Flash Distillation operating line equation y_D = -((1-f)/f)x_B + x_F/f, what represents the slope?",
+    "options": [
+      "x_F / f",
+      "-(1-f) / f",
+      "f / (1-f)",
+      "-f"
+    ],
+    "answer": "-(1-f) / f"
+  },
+  {
+    "question": "Which equation is known as the Rayleigh Equation?",
+    "options": [
+      "ln(L1/L2) = integral(dx / (y - x))",
+      "F = D + B",
+      "P = PA + PB",
+      "y = alpha * x / (1 + (alpha - 1)x)"
+    ],
+    "answer": "ln(L1/L2) = integral(dx / (y - x))"
+  },
+  {
+    "question": "In simple batch distillation, how do the compositions of the liquid and vapor change?",
+    "options": [
+      "They remain constant",
+      "They change with time",
+      "They change only with pressure",
+      "Only the vapor composition changes"
+    ],
+    "answer": "They change with time"
+  },
+  {
+    "question": "For a system obeying Raoult's Law, how is Relative Volatility (alpha_AB) calculated using vapor pressures?",
+    "options": [
+      "PA* / PB*",
+      "PB* / PA*",
+      "PA* + PB*",
+      "PA* * PB*"
+    ],
+    "answer": "PA* / PB*"
+  },
+  {
+    "question": "What is the total pressure equation for a binary system following Raoult's Law?",
+    "options": [
+      "P = xA*PA* + xB*PB*",
+      "P = yA*PA* + yB*PB*",
+      "P = PA* / xA",
+      "P = xA*PA* - xB*PB*"
+    ],
+    "answer": "P = xA*PA* + xB*PB*"
+  },
+  {
+    "question": "On an x-y diagram, what line represents the condition x = y?",
+    "options": [
+      "The equilibrium curve",
+      "The operating line",
+      "The 45-degree line",
+      "The q-line"
+    ],
+    "answer": "The 45-degree line"
+  },
+  {
+    "question": "In steam distillation, the mixture boils when the sum of the partial pressures equals:",
+    "options": [
+      "The vapor pressure of water",
+      "The vapor pressure of the organic component",
+      "The total system pressure",
+      "0.5 atm"
+    ],
+    "answer": "The total system pressure"
+  },
+  {
+    "question": "What is the defining characteristic of the liquids in Steam Distillation?",
+    "options": [
+      "They are completely miscible",
+      "They are immiscible",
+      "They form an azeotrope",
+      "They react chemically"
+    ],
+    "answer": "They are immiscible"
+  },
+  {
+    "question": "In a Flash Distillation mass balance, if F = 100 mol/s and f = 0.4, what is the flow rate of the Liquid (B)?",
+    "options": [
+      "40 mol/s",
+      "60 mol/s",
+      "100 mol/s",
+      "20 mol/s"
+    ],
+    "answer": "60 mol/s"
+  },
+  {
+    "question": "Which of the following is NOT a reason to use Batch Distillation?",
+    "options": [
+      "Small capacity required",
+      "Separation to be done only occasionally",
+      "Continuous large-scale production is needed",
+      "Feedstock varies from batch to batch"
+    ],
+    "answer": "Continuous large-scale production is needed"
+  },
+  {
+    "question": "In the Rayleigh equation integration, what is usually plotted on the y-axis against x?",
+    "options": [
+      "y",
+      "1 / (y - x)",
+      "y - x",
+      "ln(L1/L2)"
+    ],
+    "answer": "1 / (y - x)"
+  },
+  {
+    "question": "What does a horizontal line (Tie Line) on a T-x-y diagram connect?",
+    "options": [
+      "Compositions of liquid and vapor in equilibrium at a specific temperature",
+      "The boiling point and dew point of a pure component",
+      "The feed composition to the distillate composition",
+      "The pressure to the temperature"
+    ],
+    "answer": "Compositions of liquid and vapor in equilibrium at a specific temperature"
+  },
+  {
+    "question": "According to the lecture, intensive variables include P, T, and:",
+    "options": [
+      "Volume",
+      "Mole fraction",
+      "Number of moles",
+      "Flow rate"
+    ],
+    "answer": "Mole fraction"
+  },
+  {
+    "question": "What is the relationship between xB and xA in a binary mixture?",
+    "options": [
+      "xB = 1 + xA",
+      "xB = 1 / xA",
+      "xB = 1 - xA",
+      "xB = xA"
+    ],
+    "answer": "xB = 1 - xA"
+  },
+  {
+    "question": "If the total pressure is 100 kPa and the partial pressure of component A is 40 kPa, what is yA?",
+    "options": [
+      "0.6",
+      "0.4",
+      "2.5",
+      "4000"
+    ],
+    "answer": "0.4"
+  },
+  {
+    "question": "Dew Point is defined as the temperature at which:",
+    "options": [
+      "The first bubble of vapor forms",
+      "The liquid is subcooled",
+      "The first drop of liquid forms from a superheated vapor",
+      "The liquid completely evaporates"
+    ],
+    "answer": "The first drop of liquid forms from a superheated vapor"
+  },
+  {
+    "question": "Region 'V' on a T-x-y diagram refers to:",
+    "options": [
+      "Subcooled liquid",
+      "Saturated liquid",
+      "Vapor-liquid mixture",
+      "Superheated vapor"
+    ],
+    "answer": "Superheated vapor"
+  },
+  {
+    "question": "Using Raoult's Law: If P = 100 kPa, PA* = 50 kPa, PB* = 150 kPa. What is xA?",
+    "options": [
+      "0.25",
+      "0.50",
+      "0.75",
+      "0.40"
+    ],
+    "answer": "0.50"
+  },
+  {
+    "question": "In the previous problem (P=100, xA=0.5, PA*=50), what is yA?",
+    "options": [
+      "0.50",
+      "0.25",
+      "0.75",
+      "0.10"
+    ],
+    "answer": "0.25"
+  },
+  {
+    "question": "Identify the extensive variable from the list:",
+    "options": [
+      "Pressure",
+      "Specific Volume",
+      "Total Volume",
+      "Temperature"
+    ],
+    "answer": "Total Volume"
+  },
+  {
+    "question": "In a Flash Distillation, if f=0 (fraction vaporized is 0), the composition of the product liquid (xB) equals:",
+    "options": [
+      "0",
+      "1",
+      "The feed composition (xF)",
+      "The vapor composition (yD)"
+    ],
+    "answer": "The feed composition (xF)"
+  },
+  {
+    "question": "Calculate the Relative Volatility if yA=0.6, xA=0.5, yB=0.4, xB=0.5.",
+    "options": [
+      "1.0",
+      "1.2",
+      "1.5",
+      "2.0"
+    ],
+    "answer": "1.5"
+  },
+  {
+    "question": "For a steam distillation at P=101.32 kPa, if the vapor pressure of water is 48.5 kPa, what must the vapor pressure of the organic component be to boil?",
+    "options": [
+      "101.32 kPa",
+      "48.5 kPa",
+      "52.82 kPa",
+      "149.82 kPa"
+    ],
+    "answer": "52.82 kPa"
+  },
+  {
+    "question": "In a steam distillation process involving water (A) and an immiscible organic component (B), what is the ratio of moles of organic component distilled ($n_B$) to moles of water distilled ($n_A$)?",
+    "options": [
+      "PB / PA",
+      "PA / PB",
+      "PA * PB",
+      "PA + PB"
+    ],
+    "answer": "PB / PA"
+  },
+  {
+    "question": "Given the equation y = (alpha * x) / (1 + (alpha - 1)x), if alpha = 2.0 and x = 0.5, what is y?",
+    "options": [
+      "0.50",
+      "0.67",
+      "0.75",
+      "0.80"
+    ],
+    "answer": "0.67"
+  },
+  {
+    "question": "Which integral form is used when relative volatility (alpha) is constant in Batch Distillation?",
+    "options": [
+      "Rayleigh Equation graphical method",
+      "Analytical Rayleigh integration with ln terms",
+      "Flash distillation algebraic equation",
+      "Dalton's Law summation"
+    ],
+    "answer": "Analytical Rayleigh integration with ln terms"
+  },
+  {
+    "question": "In a Flash Distillation problem, if the operating line intersects the equilibrium curve at x=0.39, what is this value?",
+    "options": [
+      "The composition of the feed",
+      "The composition of the liquid product (xB)",
+      "The composition of the vapor product (yD)",
+      "The fraction vaporized"
+    ],
+    "answer": "The composition of the liquid product (xB)"
+  },
+  {
+    "question": "A binary system has Vapor Pressures PA*=120 kPa and PB*=60 kPa. What is the relative volatility?",
+    "options": [
+      "0.5",
+      "2.0",
+      "60",
+      "180"
+    ],
+    "answer": "2.0"
+  },
+  {
+    "question": "If you perform a Flash Distillation calculation and find yD < xB, what does this indicate?",
+    "options": [
+      "The calculation is correct for a heavy component",
+      "The system is azeotropic",
+      "Impossible for the more volatile component (Calculation error)",
+      "The feed was entirely vaporized"
+    ],
+    "answer": "Impossible for the more volatile component (Calculation error)"
+  },
+  {
+    "question": "In Steam Distillation, if P_total = 100 kPa and P_water = 90 kPa, what is the mole fraction of the organic component in the vapor?",
+    "options": [
+      "0.9",
+      "0.1",
+      "0.5",
+      "0.0"
+    ],
+    "answer": "0.1"
+  },
+  {
+    "question": "Consider the Rayleigh Eq: ln(L1/L2) = 0.510. If L1 = 100 moles, what is L2?",
+    "options": [
+      "60 moles",
+      "49 moles",
+      "166 moles",
+      "100 moles"
+    ],
+    "answer": "60 moles"
+  },
+  {
+    "question": "If a subcooled liquid (composition xF) is heated on a T-x-y diagram, which temperature does it hit first?",
+    "options": [
+      "Dew Point temperature",
+      "Bubble Point temperature",
+      "Critical temperature",
+      "Freezing point"
+    ],
+    "answer": "Bubble Point temperature"
+  },
+  {
+    "question": "For a binary mixture, if xA = 0.4 and the total pressure P is 1 atm. If PA* = 1.5 atm and PB* = 0.8 atm, is the system at equilibrium?",
+    "options": [
+      "Yes, exactly",
+      "No, P_calc > P_total (Boiling occurs/Vapor phase forms)",
+      "No, P_calc < P_total (System remains liquid)",
+      "Cannot be determined"
+    ],
+    "answer": "No, P_calc > P_total (Boiling occurs/Vapor phase forms)"
+  },
+  {
+    "question": "In simple batch distillation, as the process proceeds, what happens to the boiling point of the remaining liquid?",
+    "options": [
+      "It decreases",
+      "It stays constant",
+      "It increases",
+      "It fluctuates"
+    ],
+    "answer": "It increases"
+  },
+  {
+    "question": "What is the slope of the operating line for Flash Distillation if 50% of the feed is vaporized (f=0.5)?",
+    "options": [
+      "-1",
+      "-0.5",
+      "-2",
+      "0"
+    ],
+    "answer": "-1"
+  },
+  {
+    "question": "What happens to the liquid composition xA in the still during batch distillation of a binary mixture where A is more volatile?",
+    "options": [
+      "It increases",
+      "It remains constant",
+      "It decreases",
+      "It becomes 1.0"
+    ],
+    "answer": "It decreases"
+  }
+]

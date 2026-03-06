@@ -1,0 +1,150 @@
+
+
+% Custom Commands based on Membrane Context
+\newcommand{\Flux}{N_A}                   % Flux
+\newcommand{\Permeability}{P}             % Permeability Coefficient
+\newcommand{\Permeance}{p_M}              % Permeance
+\newcommand{\Selectivity}{\alpha}    % Selectivity
+\newcommand{\Diffusivity}{D_{AB}}         % Diffusivity
+\newcommand{\Thickness}{L}                % Membrane Thickness
+\newcommand{\PartPress}{p}                % Partial Pressure
+\newcommand{\MassTransferCoeff}{k}      % Mass Transfer Coefficient
+\newcommand{\FeedFlow}{L_f}               % Feed Flow Rate
+\newcommand{\PermeateFlow}{V_p}           % Permeate Flow Rate
+\newcommand{\RejectFlow}{L_o}             % Reject/Retentate Flow Rate
+\newcommand{\Cut}{\theta}                 % Fraction Permeated (Cut)
+\newcommand{\Area}{A_m}                   % Membrane Area
+
+\section{Introduction to Membrane Processes}
+A membrane is defined as a thin layer of semipermeable material that partially separates two phases and controls the movement of solutes across it. It operates as a selective barrier using a combination of sieving and sorption-diffusion mechanisms.
+
+\subsection{Stream Components}
+In a typical membrane separation unit, the process involves the following streams:
+\begin{itemize}
+    \item \textbf{Feed:} The initial mixture entering the system.
+    \item \textbf{Retentate (Reject/Residue):} The portion of the feed that does not pass through the membrane.
+    \item \textbf{Permeate:} The portion of the stream that passes through the membrane.
+    \item \textbf{Sweep:} An optional external stream used to help remove the permeate.
+\end{itemize}
+
+\subsection{Filtration Modes}
+\begin{itemize}
+    \item \textbf{Dead-end Filtration:} Feed flows perpendicular to the membrane. Solids build up as a "cake," increasing resistance over time.
+    \item \textbf{Cross-flow Filtration:} Feed flows parallel to the membrane surface, which helps minimize cake formation.
+\end{itemize}
+
+\subsection{Membrane Materials and Types}
+Membranes are classified based on their material composition and pore size.
+\begin{itemize}
+    \item \textbf{Materials:} Polymeric (organic, e.g., Teflon, Cellulose Acetate), Inorganic (ceramic), and Hybrid.
+    \item \textbf{Microfiltration (MF):} Separates suspended particles. Pore size: $0.1 - 10 \mu m$.
+    \item \textbf{Ultrafiltration (UF):} Separates macromolecules. MWCO: $1,000 - 80,000$ Daltons.
+    \item \textbf{Nanofiltration (NF):} Rejects divalent ions; looser than RO.
+    \item \textbf{Reverse Osmosis (RO):} Tightest pores, driven by pressure.
+\end{itemize}
+
+\section{Other Membrane Processes}
+\begin{itemize}
+    \item \textbf{Dialysis:} Transport driven by concentration difference. Used in hemodialysis. The retentate is often called the dialysate (or blood side), and diffusate passes through.
+    \item \textbf{Electrodialysis:} Driven by applied electrical potential. Uses cation and anion exchange membranes to remove salts (e.g., $Na^+$ passes through cation exchange membrane).
+    \item \textbf{Pervaporation:} Combination of permeation and evaporation. Phase change from liquid to vapor occurs. Used for azeotrope separation (e.g., alcohol dehydration).
+\end{itemize}
+
+\section{Transport Mechanisms}
+Separation occurs due to driving forces such as pressure, concentration, temperature, or electrical potential gradients.
+
+\subsection{Mechanisms for Transport}
+\begin{enumerate}
+    \item \textbf{Bulk Flow:} Occurs in membranes with large pores where the pore diameter is much larger than the molecular diameter. No separation occurs.
+    \item \textbf{Knudsen Diffusion:} Occurs in pores where separation is based on the difference in molecular weights and pore size.
+    \item \textbf{Molecular Sieving:} Separation is achieved based on molecular size relative to the membrane pore size.
+    \item \textbf{Solution-Diffusion:} The primary mechanism for dense membranes (e.g., Reverse Osmosis, Gas Permeation). It involves three steps:
+    \begin{enumerate}
+        \item Dissolution of the solute into the high-pressure face.
+        \item Diffusion through the solid membrane.
+        \item Desorption from the low-pressure face.
+    \end{enumerate}
+\end{enumerate}
+
+\section{Membrane Performance Metrics}
+\begin{itemize}
+    \item \textbf{Permeation Flux ($\Flux$):} The volume flowing through the membrane per unit area per unit time (SI unit: $m^3/m^2.s$).
+    \item \textbf{Permeability Coefficient ($P_i$):} The flux per unit driving force.
+    \begin{equation}
+        P_i = K_i D_i
+    \end{equation}
+    Where $K_i$ is the sorption coefficient and $D_i$ is the diffusivity. The common unit is the Barrer.
+    \item \textbf{Permeance ($\Permeance$):} The ratio of permeability to membrane thickness.
+    \begin{equation}
+        \Permeance = \frac{\Diffusivity K'}{\Thickness}
+    \end{equation}
+    \item \textbf{Selectivity ($\alpha_{AB}$):} A measure of the membrane's ability to separate two components (A and B), defined as the ratio of their permeabilities.
+    \begin{equation}
+        \Selectivity = \frac{P_A}{P_B}
+    \end{equation}
+    \item \textbf{Solute Rejection ($R$) in RO:}
+    \begin{equation}
+        R = 1 - \frac{C_p}{C_f}
+    \end{equation}
+\end{itemize}
+
+\section{Liquid Permeation (Series Resistance Model)}
+For liquid permeation, the transport of solute is modeled using resistances in series: the liquid film on the feed side, the membrane itself, and the liquid film on the permeate side.
+
+\subsection{Flux Equation (RO)}
+In Reverse Osmosis, the solvent (water) flux $N_w$ depends on the net pressure driving force:
+\begin{equation}
+    N_w = A (\Delta P - \Delta \pi)
+\end{equation}
+Where $\Delta \pi$ is the osmotic pressure difference, calculated by Van't Hoff equation $\pi = \frac{n}{V}RT$.
+
+At steady state, the flux through each layer is equal:
+\begin{equation}
+    \Flux = \MassTransferCoeff_1 (\C_1 - \C_{1i}) = \Permeance (\C_{1i} - \C_{2i}) = \MassTransferCoeff_2 (\C_{2i} - \C_{2})
+\end{equation}
+By eliminating the interfacial concentrations ($\Conc_{1i}, \Conc_{2i}$), the overall flux is given by:
+\begin{equation}
+    \Flux = \frac{\C_1 - \C_2}{\frac{1}{\MassTransferCoeff_1} + \frac{1}{\Permeance} + \frac{1}{\MassTransferCoeff_2}}
+\end{equation}
+Where $k_c$ represents the mass transfer coefficient of the liquid films.
+
+\section{Gas Permeation}
+In gas permeation, the driving force is the difference in partial pressures. The transport mechanism in dense membranes follows the solution-diffusion model. The flux equation incorporating external mass transfer resistances is:
+\begin{equation}
+    \Flux = \frac{\PartPress_{A1} - \PartPress_{A2}}{\frac{1}{(\MassTransferCoeff_1/RT)} + \frac{1}{(P_M/\Thickness)} + \frac{1}{(\MassTransferCoeff_2/RT)}}
+\end{equation}
+
+\section{Complete Mixing Model}
+This model assumes that the composition is uniform throughout the high-pressure side (reject) and uniform throughout the low-pressure side (permeate).
+
+\subsection{Material Balances}
+\begin{itemize}
+    \item \textbf{Overall Balance:} $\FeedFlow = \RejectFlow + \PermeateFlow$
+    \item \textbf{Component Balance:} $\FeedFlow x_f = \RejectFlow x_o + \PermeateFlow y_p$
+    \item \textbf{Cut ($\Cut$):} The fraction of feed that permeates through the membrane.
+    \begin{equation}
+        \Cut = \frac{\PermeateFlow}{\FeedFlow}
+    \end{equation}
+    \item \textbf{Reject Composition ($x_o$):}
+    \begin{equation}
+        x_o = \frac{x_f - \Cut y_p}{1 - \Cut}
+    \end{equation}
+\end{itemize}
+
+\subsection{Permeate Composition ($y_p$)}
+The permeate composition is determined by solving a quadratic equation derived from the ratio of diffusion rates:
+\begin{equation}
+    y_p = \frac{-b + \sqrt{b^2 - 4ac}}{2a}
+\end{equation}
+The constants are derived from the separation factor $\alpha^*$ and pressure ratio $r = p_l/p_h$:
+\begin{align*}
+    a &= 1 - \alpha^* \\
+    b &= -1 + \alpha^* + \frac{1}{r} + \frac{x_o}{r}(\alpha^* - 1) \\
+    c &= \frac{-\alpha^* x_o}{r}
+\end{align*}
+
+\subsection{Membrane Area Calculation}
+The required membrane area ($\Area$) is calculated based on the cut, flow rate, and permeation parameters:
+\begin{equation}
+    \Area = \frac{\Cut \FeedFlow y_p}{(P'_A/t)(p_h x_o - p_l y_p)}
+\end{equation}

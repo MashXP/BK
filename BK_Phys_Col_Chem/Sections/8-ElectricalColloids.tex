@@ -1,0 +1,90 @@
+\subsection{Structure of Electrical Double Layer}
+\textbf{Helmholtz Model (1850s):}
+Rigid double layer (capacitor-like). Linear potential drop.
+\begin{equation}
+    \Psi = \Psi_0 (1 - x/\delta)
+\end{equation}
+\textbf{Gouy-Chapman Model (1910s):}
+Diffuse double layer. Accounts for thermal motion. Exponential potential decrease.
+\begin{equation}
+    \Psi = \Psi_0 e^{-\kappa x}
+\end{equation}
+\textbf{Stern Model (1924):}
+Combination of Helmholtz (Stern layer, fixed) and Gouy-Chapman (Diffuse layer).
+Potential drops linearly in Stern layer, then exponentially in diffuse layer.
+\textbf{Zeta Potential ($\zeta$):} Potential at the slipping plane (shear plane).
+
+\subsection{Double Layer}
+\textbf{Debye Length ($1/\kappa$):}
+The thickness of the electrical double layer.
+\begin{equation}
+    \kappa = \sqrt{\frac{2 e^2 N_A I}{\epsilon \epsilon_0 k T}} \quad \text{or} \quad \kappa^2 = \frac{2 z^2 e^2 c^0}{\epsilon \epsilon_0 k T}
+\end{equation}
+
+\subsection{Zeta Potential ($\zeta$)}
+Relation to electrophoretic mobility ($\mu_E$):
+\textbf{Smoluchowski (Thin Double Layer, $\kappa a \gg 1$):}
+\begin{equation}
+    \mu_E = \frac{\epsilon \zeta}{\eta}
+\end{equation}
+\textbf{Hückel (Thick Double Layer, $\kappa a \ll 1$):}
+\begin{equation}
+    \mu_E = \frac{2 \epsilon \zeta}{3 \eta}
+\end{equation}
+
+\textbf{Poisson-Boltzmann Equation:}
+Combines electrostatics and statistical mechanics.
+\begin{equation}
+    \frac{d^2 \psi}{dx^2} = -\frac{\rho}{\epsilon \epsilon_0} = -\frac{1}{\epsilon \epsilon_0} \sum z_i e c_i^0 \exp \left( -\frac{z_i e \psi}{kT} \right)
+\end{equation}
+For low potentials ($\psi < \SI{25}{\mV}$):
+\begin{equation}
+    \psi = \psi_0 e^{-\kappa x} \quad \text{where } \kappa = \sqrt{\frac{2 z^2 e^2 c^0}{\epsilon \epsilon_0 k T}}
+\end{equation}
+
+\subsection{Stern Layer \& Zeta Potential}
+\begin{itemize}
+    \item \textbf{Stern Layer:} Inner region of strongly adsorbed ions (linear potential drop).
+    \item \textbf{Diffuse Layer:} Outer region of mobile ions (exponential potential drop).
+    \item \textbf{Slipping Plane (Shear Plane):} Boundary between the Stern layer and the diffuse layer where the liquid begins to move relative to the particle.
+    \item \textbf{Zeta Potential ($\zeta$):} Potential at the slipping plane. Determines colloidal stability.
+\end{itemize}
+
+\textbf{Stability Ranges (approximate):}
+\begin{center}
+\begin{tabular}{l l}
+\toprule
+\textbf{Zeta Potential [mV]} & \textbf{Stability} \\
+\midrule
+$|\zeta| > 60$ & Very stable \\
+$40 < |\zeta| < 60$ & Stable \\
+$30 < |\zeta| < 40$ & Moderately stable \\
+$|\zeta| < 30$ & Unstable (Coagulation) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{DLVO Theory}
+Describes colloidal stability as a balance between attractive van der Waals forces and repulsive electrostatic forces.
+\begin{equation}
+    V_{total} = V_A + V_R
+\end{equation}
+\textbf{Van der Waals Attraction ($V_A$):}
+\begin{equation}
+    V_A = -\frac{A_H}{12 \pi h^2} \quad \text{(for flat plates)}
+\end{equation}
+where $A_H$ is the Hamaker constant.
+\textbf{Electrostatic Repulsion ($V_R$):}
+Depends on double layer overlap.
+\textbf{Critical Coagulation Concentration (CCC):}
+Schulze-Hardy Rule: CCC is inversely proportional to the 6th power of counter-ion valence.
+\begin{equation}
+    CCC \propto \frac{1}{z^6}
+\end{equation}
+\begin{itemize}
+    \item \textbf{Electrophoresis}: Motion of charged particles relative to a stationary liquid under an electric field.
+    \item \textbf{Electro-osmosis}: Motion of liquid relative to a stationary charged surface (e.g., porous plug) under an electric field.
+    \item \textbf{Streaming Potential}: Potential difference created when liquid is forced through a porous plug.
+    \item \textbf{Sedimentation Potential}: Potential difference created when particles settle in a liquid.
+\end{itemize}
+

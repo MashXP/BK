@@ -1,0 +1,460 @@
+[
+  {
+    "question": "Tôn giáo hình thành là do:",
+    "options": [
+      "Trình độ nhận thức.",
+      "Trong xã hội có áp bức bóc lột.",
+      "Do tâm lý, tình cảm.",
+      "Cả a, b và c"
+    ],
+    "answer": "Cả a, b và c"
+  },
+  {
+    "question": "Hiện nay tôn giáo nào ở Việt Nam có số lượng tín đồ đông nhất?",
+    "options": [
+      "Phật giáo",
+      "Công giáo",
+      "Tin lành 12",
+      "Hồi giáo"
+    ],
+    "answer": "Phật giáo"
+  },
+  {
+    "question": "Bản chất của tôn giáo là gì?",
+    "options": [
+      "Là sự phản ánh hiện thực khách quan và tồn tại xã hội.",
+      "Là sự phản ánh thế giới quan của con người đối với xã hội.",
+      "Là một hình thái ý thức xã hội nó phản ánh một cách hoang đường hư ảo cái hiện thực khách quan vào đầu óc con người. Tôn giáo thể hiện sự bất lực của con người trước tự nhiên và xã hội",
+      "Cả a, b và c"
+    ],
+    "answer": "Là một hình thái ý thức xã hội nó phản ánh một cách hoang đường hư ảo cái hiện thực khách quan vào đầu óc con người. Tôn giáo thể hiện sự bất lực của con người trước tự nhiên và xã hội"
+  },
+  {
+    "question": "Cơ sở tồn tại của tôn giáo là gì?",
+    "options": [
+      "Nhận thức của con người đối với thế giới khách quan",
+      "Niềm tin của con người",
+      "Sự tưởng tượng của con người",
+      "Tồn tại xã hội"
+    ],
+    "answer": "Tồn tại xã hội"
+  },
+  {
+    "question": "Câu “Tôn giáo là thuốc phiện của nhân dân” là của ai?",
+    "options": [
+      "Hêghen",
+      "Phoi ơ bắc",
+      "C.Mác",
+      "V.I. Lênin"
+    ],
+    "answer": "C.Mác"
+  },
+  {
+    "question": "Tôn giáo là một phạm trù lịch sử bởi vì:",
+    "options": [
+      "Là sản phẩm của con người.",
+      "Là do điều kiện kinh tế - xã hội sinh ra. 21",
+      "Tôn giáo ra đời, tồn tại và biến đổi trong một giai đoạn lịch sử nhất định của loài người.",
+      "Tôn giáo sẽ tồn tại và phát triển cùng với sự phát triển của lịch sử nhân loại."
+    ],
+    "answer": "Tôn giáo ra đời, tồn tại và biến đổi trong một giai đoạn lịch sử nhất định của loài người."
+  },
+  {
+    "question": "Khi nào thì tôn giáo mang tính chính trị?",
+    "options": [
+      "Phản ánh nguyện vọng của nhân dân.",
+      "Khi các cuộc chiến tranh tôn giáo nổ ra.",
+      "Khi các giai cấp thống trị đã lợi dụng và sử dụng tôn giáo để phục vụ lợi ích của mình.",
+      "Cả a, b và c."
+    ],
+    "answer": "Khi các giai cấp thống trị đã lợi dụng và sử dụng tôn giáo để phục vụ lợi ích của mình."
+  },
+  {
+    "question": "Số lượng tôn giáo lớn và số lượng tín đồ của các tôn giáo đó ở nước ta có khoảng bao nhiêu?",
+    "options": [
+      "6 tôn giáo với khoảng 30 triệu tín đồ",
+      "6 tôn giáo với khoảng 20 triệu tín đồ",
+      "5 tôn giáo với khoảng 15 triệu tín đồ",
+      "Cả a, b và c đều sai"
+    ],
+    "answer": "6 tôn giáo với khoảng 20 triệu tín đồ"
+  },
+  {
+    "question": "Điền từ còn thiếu vào chỗ trống: Tôn trọng, bảo đảm quyền tự do ... và không ... của nhân dân.",
+    "options": [
+      "Tôn giáo",
+      "Tín ngưỡng",
+      "Tín ngưỡng - tôn giáo",
+      "Tôn giáo - tín ngưỡng"
+    ],
+    "answer": "Tín ngưỡng"
+  },
+  {
+    "question": "Điền từ còn thiếu vào chỗ trống: Tôn giáo là một hình thái ý thức – xã hội phản ánh một cách hoang đường, hư ảo ... khách quan. Qua sự phản ánh của tôn giáo, những sức mạnh tự phát trong tự nhiên và xã hội đều trở thành thần bí.",
+    "options": [
+      "Thực tiễn",
+      "Hiện thực",
+      "Điều kiện",
+      "Cuộc sống"
+    ],
+    "answer": "Hiện thực"
+  },
+  {
+    "question": "Giữa chủ nghĩa Mác - Lênin và hệ tư tưởng tôn giáo khác nhau ở điểm nào?",
+    "options": [
+      "Khác nhau về thế giới quan",
+      "Khác nhau về nhân sinh quan",
+      "Khác nhau ở con đường mưu cầu hạnh phúc cho nhân dân",
+      "Cả a, b và c"
+    ],
+    "answer": "Cả a, b và c"
+  },
+  {
+    "question": "Về phương diện thế giới quan thì thế giới quan duy vật mácxít và thế giới quan tôn giáo là đối lập nhau.",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng"
+  },
+  {
+    "question": "Theo quan điểm Mác - Lênin, tôn giáo là:",
+    "options": [
+      "Một thực thể siêu nhiên",
+      "Một hình thái ý thức xã hội phản ánh hư ảo hiện thực",
+      "Chân lý tuyệt đối",
+      "Khoa học về thần linh"
+    ],
+    "answer": "Một hình thái ý thức xã hội phản ánh hư ảo hiện thực"
+  },
+  {
+    "question": "Nguồn gốc tự nhiên của tôn giáo là do:",
+    "options": [
+      "Sự bất lực của con người trước sức mạnh tự nhiên",
+      "Sự áp bức giai cấp",
+      "Sự sợ hãi trước cái chết",
+      "Trình độ văn hóa cao"
+    ],
+    "answer": "Sự bất lực của con người trước sức mạnh tự nhiên"
+  },
+  {
+    "question": "Nguồn gốc nhận thức của tôn giáo là:",
+    "options": [
+      "Sự tuyệt đối hóa cái chủ quan, biến cái khách quan thành siêu nhiên",
+      "Sự hiểu biết tường tận về thế giới",
+      "Sự phát triển của khoa học",
+      "Sự giác ngộ chân lý"
+    ],
+    "answer": "Sự tuyệt đối hóa cái chủ quan, biến cái khách quan thành siêu nhiên"
+  },
+  {
+    "question": "Nguồn gốc tâm lý của tôn giáo bao gồm:",
+    "options": [
+      "Sự sợ hãi, may rủi, tình cảm, lòng biết ơn",
+      "Sự dũng cảm",
+      "Sự thờ ơ",
+      "Sự căm ghét"
+    ],
+    "answer": "Sự sợ hãi, may rủi, tình cảm, lòng biết ơn"
+  },
+  {
+    "question": "Tính chất của tôn giáo bao gồm:",
+    "options": [
+      "Tính lịch sử, tính quần chúng, tính chính trị",
+      "Tính giai cấp, tính nhân dân, tính dân tộc",
+      "Tính khoa học, tính thực tiễn, tính sáng tạo",
+      "Tính vĩnh viễn, tính bất biến, tính độc lập"
+    ],
+    "answer": "Tính lịch sử, tính quần chúng, tính chính trị"
+  },
+  {
+    "question": "Tôn giáo mang tính chính trị khi:",
+    "options": [
+      "Xã hội chưa có giai cấp",
+      "Xã hội đã phân chia giai cấp và có đối kháng",
+      "Xã hội công sản nguyên thủy",
+      "Mọi người đều bình đẳng"
+    ],
+    "answer": "Xã hội đã phân chia giai cấp và có đối kháng"
+  },
+  {
+    "question": "Quan điểm của chủ nghĩa Mác - Lênin về sự tồn tại của tôn giáo:",
+    "options": [
+      "Tôn giáo sẽ mất đi ngay lập tức khi có CNXH",
+      "Tôn giáo sẽ tồn tại lâu dài",
+      "Tôn giáo là vĩnh cửu",
+      "Cần dùng hành chính để xóa bỏ tôn giáo"
+    ],
+    "answer": "Tôn giáo sẽ tồn tại lâu dài"
+  },
+  {
+    "question": "Nguyên tắc giải quyết vấn đề tôn giáo là:",
+    "options": [
+      "Tôn trọng tự do tín ngưỡng, theo hoặc không theo",
+      "Cấm đoán mọi tôn giáo",
+      "Bắt buộc theo một tôn giáo",
+      "Khuyến khích mê tín dị đoan"
+    ],
+    "answer": "Tôn trọng tự do tín ngưỡng, theo hoặc không theo"
+  },
+  {
+    "question": "Để khắc phục ảnh hưởng tiêu cực của tôn giáo, cần:",
+    "options": [
+      "Cải tạo xã hội cũ, xây dựng xã hội mới",
+      "Dùng biện pháp hành chính",
+      "Cấm các hoạt động lễ hội",
+      "Trục xuất chức sắc"
+    ],
+    "answer": "Cải tạo xã hội cũ, xây dựng xã hội mới"
+  },
+  {
+    "question": "Cần phân biệt hai mặt nào trong vấn đề tôn giáo?",
+    "options": [
+      "Mặt chính trị và mặt tư tưởng",
+      "Mặt kinh tế và mặt văn hóa",
+      "Mặt nội dung và mặt hình thức",
+      "Mặt tích cực và mặt tiêu cực"
+    ],
+    "answer": "Mặt chính trị và mặt tư tưởng"
+  },
+  {
+    "question": "Việt Nam là một quốc gia:",
+    "options": [
+      "Đa tôn giáo",
+      "Đơn tôn giáo",
+      "Không có tôn giáo",
+      "Chỉ có Phật giáo"
+    ],
+    "answer": "Đa tôn giáo"
+  },
+  {
+    "question": "Đặc điểm quan hệ giữa các tôn giáo ở Việt Nam là:",
+    "options": [
+      "Xung đột gay gắt",
+      "Chung sống hòa bình, đoàn kết",
+      "Tách biệt hoàn toàn",
+      "Cạnh tranh khốc liệt"
+    ],
+    "answer": "Chung sống hòa bình, đoàn kết"
+  },
+  {
+    "question": "Tín đồ các tôn giáo ở Việt Nam phần lớn là:",
+    "options": [
+      "Nhân dân lao động",
+      "Tầng lớp thượng lưu",
+      "Người nước ngoài",
+      "Chức sắc tôn giáo"
+    ],
+    "answer": "Nhân dân lao động"
+  },
+  {
+    "question": "Chính sách nhất quán của Đảng và Nhà nước ta về tôn giáo là:",
+    "options": [
+      "Đại đoàn kết dân tộc, tôn trọng tự do tín ngưỡng",
+      "Bài trừ tôn giáo",
+      "Phân biệt đối xử",
+      "Khuyến khích xung đột"
+    ],
+    "answer": "Đại đoàn kết dân tộc, tôn trọng tự do tín ngưỡng"
+  },
+  {
+    "question": "Công tác tôn giáo là trách nhiệm của:",
+    "options": [
+      "Riêng ngành công an",
+      "Riêng Mặt trận Tổ quốc",
+      "Cả hệ thống chính trị",
+      "Riêng các chức sắc"
+    ],
+    "answer": "Cả hệ thống chính trị"
+  },
+  {
+    "question": "Nội dung cốt lõi của công tác tôn giáo là:",
+    "options": [
+      "Công tác vận động quần chúng",
+      "Công tác quản lý hành chính",
+      "Công tác xây dựng cơ sở thờ tự",
+      "Công tác đào tạo chức sắc"
+    ],
+    "answer": "Công tác vận động quần chúng"
+  },
+  {
+    "question": "Mê tín dị đoan là:",
+    "options": [
+      "Niềm tin tôn giáo chân chính",
+      "Niềm tin mê muội, cuồng tín, dẫn đến hành vi cực đoan",
+      "Văn hóa truyền thống",
+      "Khoa học tâm linh"
+    ],
+    "answer": "Niềm tin mê muội, cuồng tín, dẫn đến hành vi cực đoan"
+  },
+  {
+    "question": "Tín ngưỡng và tôn giáo:",
+    "options": [
+      "Là một",
+      "Có sự giao thoa nhất định nhưng không đồng nhất",
+      "Hoàn toàn khác biệt",
+      "Đối lập nhau"
+    ],
+    "answer": "Có sự giao thoa nhất định nhưng không đồng nhất"
+  },
+  {
+    "question": "Khi giải quyết vấn đề tôn giáo cần có quan điểm:",
+    "options": [
+      "Lịch sử cụ thể",
+      "Chủ quan duy ý chí",
+      "Phi lịch sử",
+      "Cứng nhắc"
+    ],
+    "answer": "Lịch sử cụ thể"
+  },
+  {
+    "question": "Các tôn giáo ở Việt Nam đều có quan hệ với:",
+    "options": [
+      "Các tổ chức quốc tế",
+      "Chỉ trong nước",
+      "Chỉ khu vực ASEAN",
+      "Không có quan hệ quốc tế"
+    ],
+    "answer": "Các tổ chức quốc tế"
+  },
+  {
+    "question": "Việc theo đạo hay không theo đạo là quyền của:",
+    "options": [
+      "Gia đình",
+      "Mỗi công dân",
+      "Nhà nước",
+      "Giáo hội"
+    ],
+    "answer": "Mỗi công dân"
+  },
+  {
+    "question": "Mặt chính trị trong tôn giáo phản ánh mối quan hệ giữa:",
+    "options": [
+      "Các tín đồ",
+      "Tiến bộ và phản tiến bộ, mâu thuẫn giai cấp",
+      "Thần linh và con người",
+      "Các giáo lý"
+    ],
+    "answer": "Tiến bộ và phản tiến bộ, mâu thuẫn giai cấp"
+  },
+  {
+    "question": "Mặt tư tưởng trong tôn giáo phản ánh:",
+    "options": [
+      "Mâu thuẫn đối kháng",
+      "Sự khác nhau về niềm tin",
+      "Xung đột chính trị",
+      "Lợi ích kinh tế"
+    ],
+    "answer": "Sự khác nhau về niềm tin"
+  },
+  {
+    "question": "Nhà nước XHCN đối với các tôn giáo:",
+    "options": [
+      "Bảo hộ các tôn giáo hoạt động đúng pháp luật",
+      "Không quan tâm",
+      "Cấm đoán",
+      "Tài trợ toàn bộ"
+    ],
+    "answer": "Bảo hộ các tôn giáo hoạt động đúng pháp luật"
+  },
+  {
+    "question": "Mục tiêu của đoàn kết đồng bào tôn giáo là:",
+    "options": [
+      "Dân giàu, nước mạnh, dân chủ, công bằng, văn minh",
+      "Phát triển tôn giáo",
+      "Xóa bỏ tôn giáo",
+      "Thống nhất giáo lý"
+    ],
+    "answer": "Dân giàu, nước mạnh, dân chủ, công bằng, văn minh"
+  },
+  {
+    "question": "Hoạt động lợi dụng tôn giáo để chống phá nhà nước bị:",
+    "options": [
+      "Nghiêm cấm",
+      "Khuyến khích",
+      "Làm ngơ",
+      "Bảo vệ"
+    ],
+    "answer": "Nghiêm cấm"
+  },
+  {
+    "question": "Tôn giáo là nhu cầu tinh thần của:",
+    "options": [
+      "Một bộ phận nhân dân",
+      "Toàn thể nhân dân",
+      "Giai cấp thống trị",
+      "Người lạc hậu"
+    ],
+    "answer": "Một bộ phận nhân dân"
+  },
+  {
+    "question": "Trong xu thế toàn cầu hóa, việc giải quyết vấn đề tôn giáo cần:",
+    "options": [
+      "Kết hợp ngoại giao và bảo vệ chủ quyền",
+      "Đóng cửa biên giới",
+      "Chấp nhận mọi yêu cầu quốc tế",
+      "Cắt đứt quan hệ"
+    ],
+    "answer": "Kết hợp ngoại giao và bảo vệ chủ quyền"
+  },
+  {
+    "question": "Hiện tượng 'đạo lạ' cần được:",
+    "options": [
+      "Cảnh giác và quản lý",
+      "Ủng hộ",
+      "Tự do phát triển",
+      "Không quan tâm"
+    ],
+    "answer": "Cảnh giác và quản lý"
+  },
+  {
+    "question": "Tôn giáo phản ánh hiện thực khách quan một cách:",
+    "options": [
+      "Chính xác",
+      "Khoa học",
+      "Hư ảo",
+      "Biện chứng"
+    ],
+    "answer": "Hư ảo"
+  },
+  {
+    "question": "“ Tất cả mọi tôn giáo, chẳng qua chỉ là sự phản ảnh hư ảo – vào trong đấu óc của con người – của những lực lượng bên ngoài chi phối cuộc sống hàng ngày của họ…”. Ph. Ăngghen nhận xét về:",
+    "options": [
+      "Nguồn gốc tôn giáo.",
+      "Bản chất của tôn giáo.",
+      "Tính chất của tôn giáo.",
+      "Cả ba nội dung trên."
+    ],
+    "answer": "Bản chất của tôn giáo."
+  },
+  {
+    "question": "Mặt khác tôn giáo phản ánh nhu cầu, khát vọng được cứu dúp, được che chở, được công bằng, được hạnh phúc của con người. Nội dung nói về:",
+    "options": [
+      "Tính lịch sử của tôn giáo.",
+      "Tính nhân văn, nhân đạo, hướng thiện của tôn giáo.",
+      "Tính chính trị của tôn giáo.",
+      "Cả ba nội dung trên."
+    ],
+    "answer": "Tính nhân văn, nhân đạo, hướng thiện của tôn giáo."
+  },
+  {
+    "question": "Quan điểm của C. Mác, giải quyết vấn đề tôn giáo là:",
+    "options": [
+      "Phê phán lễ nghi tôn giáo.",
+      "Phê phán giáo lý tôn giáo.",
+      "Đấu tranh chống các thành thần.",
+      "Cải tạo xã hội hiện thực."
+    ],
+    "answer": "Cải tạo xã hội hiện thực."
+  },
+  {
+    "question": "Tôn giáo mới ra đời ở Việt Nam giai đoạn đầu thế kỷ XX là:",
+    "options": [
+      "Phật giáo.",
+      "Công giáo.",
+      "Tin lành.",
+      "Cao đài. 6"
+    ],
+    "answer": "Cao đài. 6"
+  }
+]

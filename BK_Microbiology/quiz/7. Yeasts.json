@@ -1,0 +1,572 @@
+[
+  {
+    "question": "A newly discovered single-celled organism is observed to contain both mitochondria and chloroplasts. Based on the evolutionary relationships presented in the phylogenetic tree, to which domain of life would it most likely belong, and what evolutionary events account for these organelles?",
+    "options": [
+      "Eukarya, through endosymbiosis of Proteobacteria and Cyanobacteria.",
+      "Bacteria, through horizontal gene transfer from Archaea.",
+      "Archaea, by evolving these structures independently.",
+      "Eukarya, through direct genetic mutation from a common ancestor."
+    ],
+    "answer": "Eukarya, through endosymbiosis of Proteobacteria and Cyanobacteria."
+  },
+  {
+    "question": "According to the phylogenetic tree, from which bacterial group did chloroplasts originate?",
+    "options": [
+      "Cyanobacteria",
+      "Proteobacteria",
+      "Thermotoga",
+      "Gram-positive bacteria"
+    ],
+    "answer": "Cyanobacteria"
+  },
+  {
+    "question": "The phylogenetic tree indicates the origin of mitochondria from which bacterial group?",
+    "options": [
+      "Proteobacteria",
+      "Cyanobacteria",
+      "Methanogens",
+      "Hyperthermophiles"
+    ],
+    "answer": "Proteobacteria"
+  },
+  {
+    "question": "What evolutionary process is indicated by a curly double-headed arrow connecting the Bacteria and Archaea domains at their base?",
+    "options": [
+      "Horizontal gene transfer",
+      "Endosymbiosis",
+      "Vertical gene transfer",
+      "Conjugation"
+    ],
+    "answer": "Horizontal gene transfer"
+  },
+  {
+    "question": "One of the learning outcomes listed is to compare the cellular structures and functions of yeast cells and what other type of cells?",
+    "options": [
+      "Bacterial cells",
+      "Animal cells",
+      "Plant cells",
+      "Algal cells"
+    ],
+    "answer": "Bacterial cells"
+  },
+  {
+    "question": "Which of the following topics is NOT listed in the presentation agenda?",
+    "options": [
+      "Genetics",
+      "Morphology",
+      "Reproduction",
+      "Quantification"
+    ],
+    "answer": "Genetics"
+  },
+  {
+    "question": "A question in the notes asks, \"How does a bud differ from a spore?\" Considering information about *Saccharomyces cerevisiae* reproduction, which of the following best describes the fundamental difference in their formation and typical function?",
+    "options": [
+      "A bud is formed by asexual mitosis for vegetative growth, while a spore is typically a meiotic product for sexual reproduction and survival.",
+      "A bud is a sexual reproductive structure, while a spore is purely asexual.",
+      "A bud is a dormant survival structure, while a spore is for rapid vegetative propagation.",
+      "A bud is an internal structure, while a spore forms externally."
+    ],
+    "answer": "A bud is formed by asexual mitosis for vegetative growth, while a spore is typically a meiotic product for sexual reproduction and survival."
+  },
+  {
+    "question": "What is the circular mark visible on the surface of some parent yeast cells, indicating where a previous bud detached?",
+    "options": [
+      "Bud scar",
+      "Spore print",
+      "Fission line",
+      "Germ tube"
+    ],
+    "answer": "Bud scar"
+  },
+  {
+    "question": "How does *Schizosaccharomyces pombe* reproduce, as depicted in the notes?",
+    "options": [
+      "Fission",
+      "Budding",
+      "Sexual reproduction",
+      "Conjugation"
+    ],
+    "answer": "Fission"
+  },
+  {
+    "question": "In the diagram of *Saccharomyces cerevisiae* cellular structures, what is the outermost layer labeled?",
+    "options": [
+      "Cellwall",
+      "Plasma membrane",
+      "Periplasm",
+      "Nucleus"
+    ],
+    "answer": "Cellwall"
+  },
+  {
+    "question": "What does the abbreviation 'ER' stand for in the context of *Saccharomyces cerevisiae* cellular structures?",
+    "options": [
+      "Endoplasmic reticulum",
+      "Excretion pathway",
+      "Enzyme reservoir",
+      "Essential ribosome"
+    ],
+    "answer": "Endoplasmic reticulum"
+  },
+  {
+    "question": "A new antifungal drug targets the biosynthesis of glucan in the yeast cell wall. Based on the described composition of the *Saccharomyces cerevisiae* cell wall, what would be the most immediate and critical effect of this drug on the yeast?",
+    "options": [
+      "Compromise cell wall integrity leading to lysis.",
+      "Prevent nuclear division.",
+      "Inhibit mitochondrial respiration.",
+      "Disrupt plasma membrane fluidity."
+    ],
+    "answer": "Compromise cell wall integrity leading to lysis."
+  },
+  {
+    "question": "What are the two main polysaccharide components of the *Saccharomyces cerevisiae* cell wall?",
+    "options": [
+      "Glucan and Mannan",
+      "Peptidoglycan and Chitin",
+      "Cellulose and Hemicellulose",
+      "Starch and Glycogen"
+    ],
+    "answer": "Glucan and Mannan"
+  },
+  {
+    "question": "What enzyme in the periplasmic space of *Saccharomyces cerevisiae* is responsible for converting sucrose into glucose and fructose?",
+    "options": [
+      "Invertase",
+      "Phosphatase",
+      "Glycolase",
+      "Amylase"
+    ],
+    "answer": "Invertase"
+  },
+  {
+    "question": "The *Saccharomyces cerevisiae* plasma membrane contains sterols, a component typically absent in most eubacterial plasma membranes. What functional advantage do sterols generally provide to the yeast plasma membrane?",
+    "options": [
+      "Modulate membrane fluidity and stability across temperature changes.",
+      "Increase rigidity to withstand osmotic pressure.",
+      "Facilitate cell wall synthesis.",
+      "Act as electron carriers in respiration."
+    ],
+    "answer": "Modulate membrane fluidity and stability across temperature changes."
+  },
+  {
+    "question": "What type of ribosomes are found in the cytosol of *Saccharomyces cerevisiae*?",
+    "options": [
+      "80S ribosomes",
+      "70S ribosomes",
+      "60S ribosomes",
+      "50S ribosomes"
+    ],
+    "answer": "80S ribosomes"
+  },
+  {
+    "question": "What are the components of the cytoskeleton in *Saccharomyces cerevisiae*?",
+    "options": [
+      "Microtubules and microfilaments",
+      "Actin and myosin",
+      "Intermediate filaments and spectrin",
+      "Chitin and glucan"
+    ],
+    "answer": "Microtubules and microfilaments"
+  },
+  {
+    "question": "How many straight chromosomes does the genome of *Saccharomyces cerevisiae* consist of?",
+    "options": [
+      "16",
+      "23",
+      "46",
+      "1"
+    ],
+    "answer": "16"
+  },
+  {
+    "question": "Besides the nuclear genome, what other forms of extrachromosomal DNA are mentioned in *Saccharomyces cerevisiae*?",
+    "options": [
+      "Mitochondrial DNA and plasmids",
+      "Chloroplast DNA and plasmids",
+      "Viral DNA and prions",
+      "Ribosomal DNA and transfer RNA"
+    ],
+    "answer": "Mitochondrial DNA and plasmids"
+  },
+  {
+    "question": "In the context of the endoplasmic reticulum, what are the flattened membrane-bound sacs called?",
+    "options": [
+      "Cisterns",
+      "Cristae",
+      "Thylakoids",
+      "Vacuoles"
+    ],
+    "answer": "Cisterns"
+  },
+  {
+    "question": "What structures are shown entering and exiting the Golgi body, indicating its role in processing and packaging?",
+    "options": [
+      "Vesicles",
+      "Ribosomes",
+      "Mitochondria",
+      "Nuclei"
+    ],
+    "answer": "Vesicles"
+  },
+  {
+    "question": "What are two key functions of the vacuole in *Saccharomyces cerevisiae*?",
+    "options": [
+      "Hydrolyzing proteins and regulating osmotic pressure",
+      "ATP synthesis and lipid metabolism",
+      "DNA replication and transcription",
+      "Cell wall synthesis and budding"
+    ],
+    "answer": "Hydrolyzing proteins and regulating osmotic pressure"
+  },
+  {
+    "question": "What is the primary function of the peroxisome in *Saccharomyces cerevisiae*?",
+    "options": [
+      "Contains oxidizing enzymes",
+      "Synthesizes proteins",
+      "Stores genetic material",
+      "Generates ATP"
+    ],
+    "answer": "Contains oxidizing enzymes"
+  },
+  {
+    "question": "What organelle is described as containing enzymes for fatty acid oxidation and the citric acid cycle within its matrix?",
+    "options": [
+      "Mitochondrion",
+      "Peroxisome",
+      "Golgi",
+      "ER"
+    ],
+    "answer": "Mitochondrion"
+  },
+  {
+    "question": "What are the two general processes microbes use to produce energy from glucose?",
+    "options": [
+      "Respiration and fermentation",
+      "Photosynthesis and chemosynthesis",
+      "Glycolysis and gluconeogenesis",
+      "Anabolism and catabolism"
+    ],
+    "answer": "Respiration and fermentation"
+  },
+  {
+    "question": "What is the starting pathway for both respiration and fermentation?",
+    "options": [
+      "Glycolysis",
+      "Krebs cycle",
+      "Electron transport chain",
+      "Photosynthesis"
+    ],
+    "answer": "Glycolysis"
+  },
+  {
+    "question": "Based on the overview of respiration and fermentation, how does the overall energy yield (ATP production) of complete aerobic respiration compare to that of fermentation from one glucose molecule?",
+    "options": [
+      "Respiration produces significantly more ATP than fermentation.",
+      "Fermentation produces significantly more ATP than respiration.",
+      "Both processes yield similar amounts of ATP.",
+      "Neither process produces ATP directly, only electron carriers."
+    ],
+    "answer": "Respiration produces significantly more ATP than fermentation."
+  },
+  {
+    "question": "How many ATP molecules are consumed (invested) during the preparatory stage of glycolysis per glucose molecule?",
+    "options": [
+      "2 ATP",
+      "1 ATP",
+      "4 ATP",
+      "0 ATP"
+    ],
+    "answer": "2 ATP"
+  },
+  {
+    "question": "What is the net ATP production from glycolysis per glucose molecule, as detailed in the energy-conserving stage?",
+    "options": [
+      "2 ATP",
+      "4 ATP",
+      "32 ATP",
+      "6 ATP"
+    ],
+    "answer": "2 ATP"
+  },
+  {
+    "question": "What is the final 3-carbon product of glycolysis?",
+    "options": [
+      "Pyruvic acid",
+      "Glucose 6-phosphate",
+      "Fructose 1,6-diphosphate",
+      "Acetyl CoA"
+    ],
+    "answer": "Pyruvic acid"
+  },
+  {
+    "question": "What molecule combines with oxaloacetic acid to initiate the Krebs cycle?",
+    "options": [
+      "Acetyl CoA",
+      "Pyruvic acid",
+      "Citric acid",
+      "Succinyl CoA"
+    ],
+    "answer": "Acetyl CoA"
+  },
+  {
+    "question": "How many molecules of CO2 are released per turn of the Krebs cycle from one Acetyl-CoA molecule?",
+    "options": [
+      "2 CO2",
+      "1 CO2",
+      "3 CO2",
+      "4 CO2"
+    ],
+    "answer": "2 CO2"
+  },
+  {
+    "question": "In the electron transport chain shown, what is the final electron acceptor?",
+    "options": [
+      "Oxygen (O2)",
+      "Water (H2O)",
+      "NADH",
+      "ATP"
+    ],
+    "answer": "Oxygen (O2)"
+  },
+  {
+    "question": "In the context of the electron transport chain, a common question is, \"How many ATPs can be made from the oxidation of one NADH?\" What is the generally accepted approximate range for ATP yield from one NADH molecule during eukaryotic oxidative phosphorylation?",
+    "options": [
+      "2.5 - 3 ATP",
+      "1 - 1.5 ATP",
+      "5 - 6 ATP",
+      "0 ATP"
+    ],
+    "answer": "2.5 - 3 ATP"
+  },
+  {
+    "question": "According to the overview, what is the primary mechanism by which the electron transport chain powers ATP synthesis?",
+    "options": [
+      "Chemiosmosis",
+      "Substrate-level phosphorylation",
+      "Fermentation",
+      "Glycolysis"
+    ],
+    "answer": "Chemiosmosis"
+  },
+  {
+    "question": "The detailed electron transport chain indicates that electrons from FADH2 enter the chain at a point different from NADH. What is the implication of this difference for the amount of ATP ultimately synthesized from FADH2 compared to NADH?",
+    "options": [
+      "FADH2-derived electrons enter later, resulting in fewer protons pumped and less ATP.",
+      "FADH2-derived electrons enter earlier, resulting in more protons pumped and more ATP.",
+      "FADH2 and NADH contribute equally to proton pumping and ATP synthesis.",
+      "FADH2 primarily generates heat, not ATP."
+    ],
+    "answer": "FADH2-derived electrons enter later, resulting in fewer protons pumped and less ATP."
+  },
+  {
+    "question": "In eukaryotic cells, where does chemiosmosis occur?",
+    "options": [
+      "Inner mitochondrial membrane",
+      "Outer mitochondrial membrane",
+      "Cytoplasm",
+      "Periplasmic space"
+    ],
+    "answer": "Inner mitochondrial membrane"
+  },
+  {
+    "question": "What are the two types of fermentation illustrated in the notes?",
+    "options": [
+      "Lactic acid fermentation and Alcohol fermentation",
+      "Acetic acid fermentation and Butyric acid fermentation",
+      "Propionic acid fermentation and Mixed acid fermentation",
+      "Citric acid fermentation and Malic acid fermentation"
+    ],
+    "answer": "Lactic acid fermentation and Alcohol fermentation"
+  },
+  {
+    "question": "What is the end product of alcohol fermentation in *Saccharomyces cerevisiae*?",
+    "options": [
+      "Ethanol and CO2",
+      "Lactic acid",
+      "Acetic acid",
+      "Pyruvic acid"
+    ],
+    "answer": "Ethanol and CO2"
+  },
+  {
+    "question": "What is the toxic waste product of *Saccharomyces cerevisiae* fermentation that accumulates in winemaking?",
+    "options": [
+      "Ethanol",
+      "Pyruvic acid",
+      "Lactic acid",
+      "Carbon dioxide"
+    ],
+    "answer": "Ethanol"
+  },
+  {
+    "question": "What are the two main types of reproduction for *Saccharomyces cerevisiae* mentioned?",
+    "options": [
+      "Asexual and sexual reproduction",
+      "Binary fission and budding",
+      "Conjugation and transformation",
+      "Sporulation and gemmation"
+    ],
+    "answer": "Asexual and sexual reproduction"
+  },
+  {
+    "question": "What specific asexual reproduction method is associated with mitosis in *Saccharomyces cerevisiae*?",
+    "options": [
+      "Budding",
+      "Fission",
+      "Spore formation",
+      "Fragmentation"
+    ],
+    "answer": "Budding"
+  },
+  {
+    "question": "In *Saccharomyces cerevisiae* meiotic division, how many haploid cells (n) result from one diploid cell (2n) after both Meiosis I and Meiosis II?",
+    "options": [
+      "4 cells (n)",
+      "2 cells (2n)",
+      "1 cell (2n)",
+      "8 cells (n)"
+    ],
+    "answer": "4 cells (n)"
+  },
+  {
+    "question": "In which phase of Meiosis I do homologous chromosomes pair up and exchange segments (crossing over)?",
+    "options": [
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase I",
+      "Telophase I"
+    ],
+    "answer": "Prophase I"
+  },
+  {
+    "question": "What separates during Meiosis II?",
+    "options": [
+      "Sister chromatids",
+      "Homologous chromosomes",
+      "Nuclei",
+      "Parent cells"
+    ],
+    "answer": "Sister chromatids"
+  },
+  {
+    "question": "What chemical signaling molecules do *Saccharomyces cerevisiae* cells use to identify cells of the opposite mating type?",
+    "options": [
+      "Mating factors (a and α)",
+      "Pheromones",
+      "Hormones",
+      "Enzymes"
+    ],
+    "answer": "Mating factors (a and α)"
+  },
+  {
+    "question": "A \"pseudohypha\" is illustrated as a chain of budding yeast cells. How does a pseudohypha fundamentally differ from a true hypha found in many other fungi?",
+    "options": [
+      "Pseudohyphae are chains of budding cells that remain attached, while true hyphae are formed by apical growth of elongated cells.",
+      "Pseudohyphae contain septa, while true hyphae are coenocytic.",
+      "Pseudohyphae are formed only during sexual reproduction, while true hyphae are asexual.",
+      "Pseudohyphae are always branched, while true hyphae are unbranched."
+    ],
+    "answer": "Pseudohyphae are chains of budding cells that remain attached, while true hyphae are formed by apical growth of elongated cells."
+  },
+  {
+    "question": "To which Kingdom does *Saccharomyces cerevisiae* belong according to the taxonomic hierarchy?",
+    "options": [
+      "Fungi",
+      "Eukaryarya",
+      "Ascomycota",
+      "Saccharomycetales"
+    ],
+    "answer": "Fungi"
+  },
+  {
+    "question": "The notes mention *Cryptococcus neoformans* having a distinct capsule. Considering its role in infection, what is the primary function of this capsule in facilitating cryptococcal disease?",
+    "options": [
+      "Protecting the yeast from host immune defenses, particularly phagocytosis.",
+      "Producing toxins that kill host cells.",
+      "Enhancing nutrient uptake from host tissues.",
+      "Facilitating adhesion to host epithelial cells."
+    ],
+    "answer": "Protecting the yeast from host immune defenses, particularly phagocytosis."
+  },
+  {
+    "question": "Which phylum contains \"true yeasts\" like Saccharomycotina, as described in the classification of yeasts?",
+    "options": [
+      "Ascomycota",
+      "Basidiomycota",
+      "Zygomycota",
+      "Glomeromycota"
+    ],
+    "answer": "Ascomycota"
+  },
+  {
+    "question": "If a microbiologist needs to quickly differentiate between a yeast cell and a bacterial cell using only a basic light microscope and common staining techniques, which structural feature, based on the provided comparison, would be the most straightforward to observe for a clear distinction?",
+    "options": [
+      "Presence of a nucleus",
+      "Composition of the cell wall",
+      "Ribosome size",
+      "Presence of sterols in the plasma membrane"
+    ],
+    "answer": "Presence of a nucleus"
+  },
+  {
+    "question": "If 1 ml of an original inoculum is transferred to 9 ml of broth in a serial dilution, what is the dilution factor of that single step?",
+    "options": [
+      "1:10",
+      "1:1",
+      "1:100",
+      "1:1000"
+    ],
+    "answer": "1:10"
+  },
+  {
+    "question": "What specialized counting chamber is depicted for yeast cell quantification?",
+    "options": [
+      "Hemocytometer",
+      "Petri dish",
+      "Microtiter plate",
+      "Spectrophotometer"
+    ],
+    "answer": "Hemocytometer"
+  },
+  {
+    "question": "What is a key difference in colony location between the pour plate and spread plate methods of cell quantification?",
+    "options": [
+      "Pour plate colonies grow on and in the medium, while spread plate colonies grow only on the surface.",
+      "Pour plate colonies grow only on the surface, while spread plate colonies grow in the medium.",
+      "Pour plate method uses liquid agar, while spread plate uses solid agar.",
+      "Pour plate method requires serial dilutions, while spread plate does not."
+    ],
+    "answer": "Pour plate colonies grow on and in the medium, while spread plate colonies grow only on the surface."
+  },
+  {
+    "question": "Which plating method involves mixing the inoculum with melted agar before it solidifies?",
+    "options": [
+      "The pour plate method",
+      "The spread plate method",
+      "The streak plate method",
+      "The replica plating method"
+    ],
+    "answer": "The pour plate method"
+  },
+  {
+    "question": "What are two practical considerations mentioned for yeast cell quantification methods?",
+    "options": [
+      "Time & materials, and dead cells",
+      "Temperature & pH, and growth rate",
+      "Nutrient availability & waste products",
+      "Osmotic pressure & cell size"
+    ],
+    "answer": "Time & materials, and dead cells"
+  },
+  {
+    "question": "Why is the presence of \"dead cells\" a significant consideration in accurate yeast cell quantification?",
+    "options": [
+      "Dead cells are often counted by direct methods but do not contribute to viable cell counts, skewing results.",
+      "Dead cells increase the metabolic activity of the sample, making it harder to count.",
+      "Dead cells actively interfere with the growth of live cells on agar plates.",
+      "Dead cells make the sample appear clearer, reducing visibility under the microscope."
+    ],
+    "answer": "Dead cells are often counted by direct methods but do not contribute to viable cell counts, skewing results."
+  }
+]

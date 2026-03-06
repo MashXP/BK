@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What is the definition of liquid-liquid extraction?",
+    "options": [
+      "Separation of constituents of a liquid solution by contact with another insoluble liquid",
+      "Separation of components by heating to boiling point",
+      "Separation of solids from liquids using a filter",
+      "Separation of gases using a liquid absorbent"
+    ],
+    "answer": "Separation of constituents of a liquid solution by contact with another insoluble liquid"
+  },
+  {
+    "question": "In liquid-liquid extraction, what is the solution to be extracted called?",
+    "options": [
+      "Solvent",
+      "Extract",
+      "Feed",
+      "Raffinate"
+    ],
+    "answer": "Feed"
+  },
+  {
+    "question": "What is the liquid called with which the feed is contacted?",
+    "options": [
+      "Raffinate",
+      "Solvent",
+      "Extract",
+      "Solute"
+    ],
+    "answer": "Solvent"
+  },
+  {
+    "question": "What is the term for the solvent-rich product of the extraction operation?",
+    "options": [
+      "Feed",
+      "Raffinate",
+      "Extract",
+      "Distillate"
+    ],
+    "answer": "Extract"
+  },
+  {
+    "question": "What is the term for the residual liquid from which the solute has been removed?",
+    "options": [
+      "Extract",
+      "Solvent",
+      "Raffinate",
+      "Feed"
+    ],
+    "answer": "Raffinate"
+  },
+  {
+    "question": "Liquid-liquid extraction is also known as:",
+    "options": [
+      "Distillation",
+      "Solvent extraction",
+      "Leaching",
+      "Absorption"
+    ],
+    "answer": "Solvent extraction"
+  },
+  {
+    "question": "Ideally, the two liquid phases in extraction must be:",
+    "options": [
+      "Completely miscible",
+      "Immiscible or partially miscible",
+      "Identical in density",
+      "Gaseous"
+    ],
+    "answer": "Immiscible or partially miscible"
+  },
+  {
+    "question": "What type of simple laboratory equipment is typically used to demonstrate liquid-liquid extraction?",
+    "options": [
+      "Separation funnel",
+      "Bunsen burner",
+      "Distillation flask",
+      "Petri dish"
+    ],
+    "answer": "Separation funnel"
+  },
+  {
+    "question": "In the context of solvent selection, an ideal solvent should have:",
+    "options": [
+      "High toxicity",
+      "High price",
+      "Low selectivity",
+      "Low toxicity"
+    ],
+    "answer": "Low toxicity"
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of an ideal solvent?",
+    "options": [
+      "High corrosiveness",
+      "High selectivity",
+      "High capacity",
+      "High thermal stability"
+    ],
+    "answer": "High corrosiveness"
+  },
+  {
+    "question": "In an extraction system containing Acetic acid (A), Water (B), and Ethyl acetate (C), which layer typically contains most of the acetic acid?",
+    "options": [
+      "The aqueous layer (Raffinate)",
+      "The organic layer (Extract)",
+      "The solid precipitate",
+      "The vapor phase"
+    ],
+    "answer": "The organic layer (Extract)"
+  },
+  {
+    "question": "What is a major disadvantage of Mixer-Settler equipment?",
+    "options": [
+      "Large amounts of floor space required",
+      "Cannot handle high flow rates",
+      "Poor mass transfer",
+      "Unreliable scale-up"
+    ],
+    "answer": "Large amounts of floor space required"
+  },
+  {
+    "question": "What is a major advantage of a Spray Extraction Tower?",
+    "options": [
+      "High efficiency",
+      "Low cost",
+      "Complex internal parts",
+      "High maintenance"
+    ],
+    "answer": "Low cost"
+  },
+  {
+    "question": "In a Packed Extraction Tower, what issue can occur with the packing?",
+    "options": [
+      "It dissolves in the solvent",
+      "Solids plugging",
+      "It creates too much heat",
+      "It prevents phase separation completely"
+    ],
+    "answer": "Solids plugging"
+  },
+  {
+    "question": "In a Mechanically Agitated Extraction Tower (like the Kühni), what component improves dispersion?",
+    "options": [
+      "Static packing only",
+      "Spray nozzles",
+      "Rotating agitators/disks",
+      "Gravity baffles"
+    ],
+    "answer": "Rotating agitators/disks"
+  },
+  {
+    "question": "On an equilateral triangular diagram, what does each apex (corner) represent?",
+    "options": [
+      "A 50/50 mixture",
+      "100% pure component",
+      "A ternary mixture",
+      "The plait point"
+    ],
+    "answer": "100% pure component"
+  },
+  {
+    "question": "On a ternary phase diagram, what does the curve LPK represent?",
+    "options": [
+      "The operating line",
+      "The tie line",
+      "The bimodal solubility curve",
+      "The mixer-settler boundary"
+    ],
+    "answer": "The bimodal solubility curve"
+  },
+  {
+    "question": "What is the 'Plait point' (P) on a ternary phase diagram?",
+    "options": [
+      "The point where the concentration of solute is zero",
+      "The point where the two liquid phases have identical compositions",
+      "The point of maximum solubility",
+      "The point where three phases coexist"
+    ],
+    "answer": "The point where the two liquid phases have identical compositions"
+  },
+  {
+    "question": "In a ternary diagram, a point located underneath the solubility curve represents:",
+    "options": [
+      "A homogeneous one-phase liquid",
+      "A two-phase mixture",
+      "A solid-liquid mixture",
+      "A gas-liquid mixture"
+    ],
+    "answer": "A two-phase mixture"
+  },
+  {
+    "question": "What connects the equilibrium compositions of the raffinate and extract phases on a ternary diagram?",
+    "options": [
+      "Operating line",
+      "Tie line",
+      "Mixing line",
+      "Feed line"
+    ],
+    "answer": "Tie line"
+  },
+  {
+    "question": "Why are rectangular coordinates sometimes used instead of triangular coordinates for equilibrium data?",
+    "options": [
+      "To expand one concentration scale relative to the other",
+      "Because they are more colorful",
+      "Because triangular paper is expensive",
+      "To represent four components"
+    ],
+    "answer": "To expand one concentration scale relative to the other"
+  },
+  {
+    "question": "In a single-stage equilibrium extraction, what does the mass balance equation L0 + V2 = M represent?",
+    "options": [
+      "Component A balance",
+      "Component C balance",
+      "Overall total mass balance",
+      "Solvent balance"
+    ],
+    "answer": "Overall total mass balance"
+  },
+  {
+    "question": "The Lever Arm Rule allows you to calculate:",
+    "options": [
+      "The temperature of the mixture",
+      "The relative amounts (masses) of the two phases",
+      "The viscosity of the solvent",
+      "The pressure of the system"
+    ],
+    "answer": "The relative amounts (masses) of the two phases"
+  },
+  {
+    "question": "In multistage countercurrent extraction, the feed enters at one end and the solvent enters:",
+    "options": [
+      "At the same end (cocurrent)",
+      "At the other end (countercurrent)",
+      "In the middle",
+      "At both ends"
+    ],
+    "answer": "At the other end (countercurrent)"
+  },
+  {
+    "question": "In countercurrent extraction, what is the 'difference point' (Delta)?",
+    "options": [
+      "The point where feed enters",
+      "The point representing the net flow (L - V) common to all stages",
+      "The point of infinite solubility",
+      "The plait point"
+    ],
+    "answer": "The point representing the net flow (L - V) common to all stages"
+  },
+  {
+    "question": "Ideally, an absorbent should have a ________ density difference with the carrier.",
+    "options": [
+      "Small",
+      "Large",
+      "Variable",
+      "Zero"
+    ],
+    "answer": "Large"
+  },
+  {
+    "question": "Which industrial process uses Furfural as a solvent to remove Aromatics?",
+    "options": [
+      "Vitamin A extraction",
+      "Lubricating oil refining (Paraffins carrier)",
+      "Penicillin production",
+      "Acetic acid recovery"
+    ],
+    "answer": "Lubricating oil refining (Paraffins carrier)"
+  },
+  {
+    "question": "What is the primary advantage of a Packed Extraction Tower regarding axial mixing?",
+    "options": [
+      "It has increased axial mixing",
+      "It has reduced axial mixing compared to non-agitated columns",
+      "It has zero axial mixing",
+      "It promotes axial mixing for better heat transfer"
+    ],
+    "answer": "It has reduced axial mixing compared to non-agitated columns"
+  },
+  {
+    "question": "In the design of extraction processes, 'interfacial tension' is a factor because it influences:",
+    "options": [
+      "The boiling point of the solvent",
+      "The coalescence and dispersion of droplets",
+      "The chemical stability of the solute",
+      "The corrosion rate of the equipment"
+    ],
+    "answer": "The coalescence and dispersion of droplets"
+  },
+  {
+    "question": "When plotting equilibrium data on rectangular coordinates for a ternary system (A, B, C), what is typically plotted on the axes?",
+    "options": [
+      "Temperature vs Pressure",
+      "Mass fraction of C vs Mass fraction of A",
+      "Mass fraction of B vs Mass fraction of C",
+      "Flow rate vs Time"
+    ],
+    "answer": "Mass fraction of C vs Mass fraction of A"
+  },
+  {
+    "question": "In the single-stage balance equation V yA + L xA = M xAM, what does M represent?",
+    "options": [
+      "Mass of solvent",
+      "Mass of solute",
+      "Total mixture mass (L + V)",
+      "Molar mass of A"
+    ],
+    "answer": "Total mixture mass (L + V)"
+  },
+  {
+    "question": "In a ternary phase diagram for Liquid-Liquid Extraction where Point A represents 100% Water, where is Point A located on the triangle?",
+    "options": [
+      "At the center",
+      "On the side connecting B and C",
+      "At one of the apexes",
+      "At the plait point"
+    ],
+    "answer": "At one of the apexes"
+  },
+  {
+    "question": "Using the Lever Arm Rule formula L/M = VM / LV, what does the segment VM represent physically on the diagram?",
+    "options": [
+      "The distance between the Solvent point and the Mixture point",
+      "The distance between the Raffinate point and the Extract point",
+      "The mass of the Feed",
+      "The mass of the Extract"
+    ],
+    "answer": "The distance between the Solvent point and the Mixture point"
+  },
+  {
+    "question": "Using the lever-arm rule for an extraction calculation, if the distance connecting the mixture point to the extract phase (hg) is 4.2 units and the distance to the raffinate phase (gi) is 5.8 units, what is the ratio L/M?",
+    "options": [
+      "5.8 / 4.2",
+      "4.2 / 5.8",
+      "4.2 / 100",
+      "5.8 / 100"
+    ],
+    "answer": "4.2 / 5.8"
+  },
+  {
+    "question": "A feed mixture of 1000 kg (L0) is contacted with 500 kg of solvent (V2). What is the total mixture mass M?",
+    "options": [
+      "500 kg",
+      "1000 kg",
+      "1500 kg",
+      "2000 kg"
+    ],
+    "answer": "1500 kg"
+  },
+  {
+    "question": "Consider a single-stage extraction where 1000 kg of feed (L0) with solute fraction xA0 = 0.235 is mixed with 500 kg of pure solvent (V2). What is the resulting mixture composition xAM?",
+    "options": [
+      "0.235",
+      "0.1175",
+      "0.157",
+      "0.30"
+    ],
+    "answer": "0.157"
+  },
+  {
+    "question": "In a countercurrent extraction process, the 'mixing line' connects which three points?",
+    "options": [
+      "Feed (L0), Solvent (VN+1), and Mixture (M)",
+      "Extract (V1), Raffinate (LN), and Mixture (M)",
+      "Feed (L0), Raffinate (LN), and Difference Point (Delta)",
+      "Plait point (P), Extract (E), and Raffinate (R)"
+    ],
+    "answer": "Feed (L0), Solvent (VN+1), and Mixture (M)"
+  },
+  {
+    "question": "To determine the number of stages graphically in countercurrent extraction, one alternates between drawing:",
+    "options": [
+      "Tie lines and Operating lines (lines to Delta)",
+      "Vertical and Horizontal lines",
+      "Circles and Squares",
+      "Parallel lines"
+    ],
+    "answer": "Tie lines and Operating lines (lines to Delta)"
+  },
+  {
+    "question": "For immiscible liquids where B and C do not mix, the mass balance is simplified by using:",
+    "options": [
+      "Total mass flow rates L and V",
+      "Inert mass flow rates L' and V'",
+      "Volumetric flow rates",
+      "Mole fractions only"
+    ],
+    "answer": "Inert mass flow rates L' and V'"
+  },
+  {
+    "question": "If the liquids are immiscible and solutions are dilute, the operating line on an x-y diagram is:",
+    "options": [
+      "A curved line",
+      "A straight line",
+      "A circle",
+      "A parabola"
+    ],
+    "answer": "A straight line"
+  },
+  {
+    "question": "In an immiscible extraction process, if the inlet water feed (L0) is 100 kg/h containing 0.010 weight fraction nicotine, what is the flow rate of the inert water (L'), assuming water and solvent are immiscible?",
+    "options": [
+      "100 kg/h",
+      "1.0 kg/h",
+      "99.0 kg/h",
+      "90.0 kg/h"
+    ],
+    "answer": "99.0 kg/h"
+  },
+  {
+    "question": "In an immiscible extraction process, if the inlet kerosene solvent (VN+1) is 200 kg/h containing 0.0005 weight fraction nicotine, what is the flow rate of the inert kerosene (V')?",
+    "options": [
+      "200 kg/h",
+      "199.9 kg/h",
+      "0.1 kg/h",
+      "100 kg/h"
+    ],
+    "answer": "199.9 kg/h"
+  },
+  {
+    "question": "In a countercurrent extraction diagram, once the mixture point M (e.g., xCM = 0.75, xAM = 0.075) and the raffinate composition LN are known, how is the extract point V1 located?",
+    "options": [
+      "By drawing a line from LN through M extending to the phase boundary",
+      "By connecting L0 and VN+1",
+      "By finding the midpoint of the tie line",
+      "By measuring the density"
+    ],
+    "answer": "By drawing a line from LN through M extending to the phase boundary"
+  },
+  {
+    "question": "In the derivation for countercurrent extraction, the difference in flows (Delta) is defined as:",
+    "options": [
+      "L0 + V1",
+      "L0 - V1",
+      "L0 * V1",
+      "L0 / V1"
+    ],
+    "answer": "L0 - V1"
+  },
+  {
+    "question": "An original mixture contains 30 kg of isopropyl ether (C), 10 kg of acetic acid (A), and 60 kg of water (B). What is the mass fraction of C (xC)?",
+    "options": [
+      "0.10",
+      "0.60",
+      "0.30",
+      "1.00"
+    ],
+    "answer": "0.30"
+  },
+  {
+    "question": "When solving for the amounts of extract (V1) and raffinate (L1) in a single-stage extraction algebraically, we typically solve two simultaneous equations. What do these equations represent?",
+    "options": [
+      "Heat balance and Momentum balance",
+      "Overall Mass Balance and Component Mass Balance",
+      "Viscosity and Density",
+      "Pressure drop and Flow rate"
+    ],
+    "answer": "Overall Mass Balance and Component Mass Balance"
+  },
+  {
+    "question": "What is the specific disadvantage of a Packed Column mentioned in the slides?",
+    "options": [
+      "High cost",
+      "Hard to scale up accurately",
+      "Cannot handle corrosive fluids",
+      "Requires high pressure"
+    ],
+    "answer": "Hard to scale up accurately"
+  },
+  {
+    "question": "In a ternary phase diagram for liquid-liquid extraction, what does a point M located in the interior of the triangle typically represent?",
+    "options": [
+      "Water and Furfural only",
+      "Ethylene glycol and Water only",
+      "Ethylene glycol, Water, and Furfural",
+      "Pure Furfural"
+    ],
+    "answer": "Ethylene glycol, Water, and Furfural"
+  },
+  {
+    "question": "The tie line on a phase diagram must pass through which point representing the overall composition?",
+    "options": [
+      "The feed point L0",
+      "The solvent point V2",
+      "The mixture point M",
+      "The apex A"
+    ],
+    "answer": "The mixture point M"
+  },
+  {
+    "question": "Calculate the mixture composition xCM for a countercurrent process given: Feed L0 = 200 (with xC0 = 0) and Solvent VN+1 = 600 (with yCN+1 = 1.0).",
+    "options": [
+      "0.50",
+      "0.25",
+      "0.75",
+      "1.00"
+    ],
+    "answer": "0.75"
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What term describes microorganisms that thrive in moderate temperatures, such as those found in the human body?",
+    "options": [
+      "Psychrophiles",
+      "Mesophiles",
+      "Thermophiles",
+      "Hyperthermophiles"
+    ],
+    "answer": "Mesophiles"
+  },
+  {
+    "question": "Most bacteria grow optimally within which pH range?",
+    "options": [
+      "pH 1.0 - 4.0",
+      "pH 5.0 - 6.0",
+      "pH 6.5 - 7.5",
+      "pH 8.0 - 10.0"
+    ],
+    "answer": "pH 6.5 - 7.5"
+  },
+  {
+    "question": "What is the term for the shrinkage of a cell's cytoplasm due to water loss in a hypertonic environment?",
+    "options": [
+      "Lysis",
+      "Plasmolysis",
+      "Turgor",
+      "Hemolysis"
+    ],
+    "answer": "Plasmolysis"
+  },
+  {
+    "question": "Which type of microbe requires high salt concentrations for growth?",
+    "options": [
+      "Facultative halophiles",
+      "Osmotolerant",
+      "Extreme halophiles",
+      "Acidophiles"
+    ],
+    "answer": "Extreme halophiles"
+  },
+  {
+    "question": "Besides water, what is considered one of the most important chemical requirements for microbial growth, forming the structural backbone of living matter?",
+    "options": [
+      "Nitrogen",
+      "Oxygen",
+      "Carbon",
+      "Phosphorus"
+    ],
+    "answer": "Carbon"
+  },
+  {
+    "question": "Chemoheterotrophs obtain most of their carbon from which sources?",
+    "options": [
+      "Carbon dioxide",
+      "Gaseous nitrogen",
+      "Organic materials like proteins and carbohydrates",
+      "Inorganic salts"
+    ],
+    "answer": "Organic materials like proteins and carbohydrates"
+  },
+  {
+    "question": "The process by which Cyanobacteria convert atmospheric gaseous nitrogen (N2) into a usable form is called:",
+    "options": [
+      "Denitrification",
+      "Ammonification",
+      "Nitrogen fixation",
+      "Nitrification"
+    ],
+    "answer": "Nitrogen fixation"
+  },
+  {
+    "question": "Sulfur is used by microorganisms to synthesize which crucial cellular components?",
+    "options": [
+      "Nucleic acids and ATP",
+      "Amino acids and vitamins",
+      "Carbohydrates and lipids",
+      "Cell wall components"
+    ],
+    "answer": "Amino acids and vitamins"
+  },
+  {
+    "question": "In microbiology, what is the primary role of trace elements like Fe2+, Cu2+, and Zn2+?",
+    "options": [
+      "Structural components of the cell wall",
+      "Energy source for metabolism",
+      "Cofactors for enzymes",
+      "pH buffers"
+    ],
+    "answer": "Cofactors for enzymes"
+  },
+  {
+    "question": "Essential organic compounds that an organism cannot synthesize and must obtain from the environment are known as:",
+    "options": [
+      "Macronutrients",
+      "Trace elements",
+      "Organic growth factors",
+      "Inorganic salts"
+    ],
+    "answer": "Organic growth factors"
+  },
+  {
+    "question": "Bacteria that require molecular oxygen for growth are classified as:",
+    "options": [
+      "Facultative anaerobes",
+      "Obligate anaerobes",
+      "Obligate aerobes",
+      "Aerotolerant anaerobes"
+    ],
+    "answer": "Obligate aerobes"
+  },
+  {
+    "question": "Which type of bacteria cannot use oxygen for growth but can tolerate its presence?",
+    "options": [
+      "Obligate aerobes",
+      "Facultative anaerobes",
+      "Obligate anaerobes",
+      "Aerotolerant anaerobes"
+    ],
+    "answer": "Aerotolerant anaerobes"
+  },
+  {
+    "question": "In a tube of solid growth medium, where would obligate anaerobes primarily grow?",
+    "options": [
+      "Only at the top surface",
+      "Throughout the tube but more densely at the top",
+      "Only at the very bottom of the tube",
+      "Evenly distributed throughout the tube"
+    ],
+    "answer": "Only at the very bottom of the tube"
+  },
+  {
+    "question": "Which enzyme is produced by organisms growing in atmospheric oxygen to neutralize superoxide radicals (O2-)?",
+    "options": [
+      "Catalase",
+      "Peroxidase",
+      "Superoxide dismutase",
+      "Amylase"
+    ],
+    "answer": "Superoxide dismutase"
+  },
+  {
+    "question": "The enzyme Catalase breaks down hydrogen peroxide (H2O2) into which products?",
+    "options": [
+      "Water and oxygen",
+      "Water and hydrogen ions",
+      "Superoxide radicals and water",
+      "Oxygen and superoxide radicals"
+    ],
+    "answer": "Water and oxygen"
+  },
+  {
+    "question": "What is the primary purpose of an anaerobic chamber in a microbiology laboratory?",
+    "options": [
+      "To sterilize culture media",
+      "To grow thermophilic organisms",
+      "To provide a controlled environment for human cell culture",
+      "To cultivate oxygen-sensitive microorganisms"
+    ],
+    "answer": "To cultivate oxygen-sensitive microorganisms"
+  },
+  {
+    "question": "In an anaerobic jar, what is the role of the palladium catalyst?",
+    "options": [
+      "To absorb carbon dioxide",
+      "To release hydrogen gas",
+      "To convert oxygen and hydrogen into water",
+      "To indicate the presence of oxygen"
+    ],
+    "answer": "To convert oxygen and hydrogen into water"
+  },
+  {
+    "question": "Which of the following is a crucial criterion for a culture medium used for bacterial growth?",
+    "options": [
+      "It must always be solid",
+      "It should contain high levels of antibiotics",
+      "It must initially be sterile",
+      "It should be incubated at freezing temperatures"
+    ],
+    "answer": "It must initially be sterile"
+  },
+  {
+    "question": "What term refers to the microorganisms introduced into a culture medium to initiate growth?",
+    "options": [
+      "A colony",
+      "An inoculum",
+      "A culture",
+      "A lysate"
+    ],
+    "answer": "An inoculum"
+  },
+  {
+    "question": "Agar, a common solidifying agent in culture media, is derived from what source?",
+    "options": [
+      "Animal protein",
+      "Plant cellulose",
+      "Marine alga",
+      "Fungal mycelia"
+    ],
+    "answer": "Marine alga"
+  },
+  {
+    "question": "A chemically defined medium is characterized by:",
+    "options": [
+      "Its variable chemical composition",
+      "The presence of yeast and meat extracts",
+      "The exact known chemical composition of all ingredients",
+      "Its ability to inhibit most bacterial growth"
+    ],
+    "answer": "The exact known chemical composition of all ingredients"
+  },
+  {
+    "question": "What is a key characteristic of complex media compared to chemically defined media?",
+    "options": [
+      "All ingredients are precisely known",
+      "It is completely synthetic",
+      "Its exact chemical composition varies slightly from batch to batch",
+      "It is used exclusively for autotrophs"
+    ],
+    "answer": "Its exact chemical composition varies slightly from batch to batch"
+  },
+  {
+    "question": "Media containing ingredients like sodium thioglycolate to deplete oxygen are called:",
+    "options": [
+      "Selective media",
+      "Differential media",
+      "Reducing media",
+      "Enrichment media"
+    ],
+    "answer": "Reducing media"
+  },
+  {
+    "question": "Selective media are designed to primarily achieve which of the following?",
+    "options": [
+      "Distinguish different types of colonies",
+      "Increase the numbers of rare microbes",
+      "Suppress unwanted bacteria and encourage desired microbes",
+      "Provide a chemically known environment"
+    ],
+    "answer": "Suppress unwanted bacteria and encourage desired microbes"
+  },
+  {
+    "question": "What is the primary function of differential media?",
+    "options": [
+      "To inhibit the growth of certain bacteria",
+      "To allow only one type of microbe to grow",
+      "To make it easier to distinguish colonies of different organisms",
+      "To increase the population of microbes present in small numbers"
+    ],
+    "answer": "To make it easier to distinguish colonies of different organisms"
+  },
+  {
+    "question": "An enrichment medium is typically liquid and designed to:",
+    "options": [
+      "Solidify at room temperature",
+      "Selectively inhibit all microbial growth",
+      "Favor the growth of a particular microbe present in small numbers",
+      "Show distinct color changes for different metabolic activities"
+    ],
+    "answer": "Favor the growth of a particular microbe present in small numbers"
+  },
+  {
+    "question": "A visible colony on an agar plate theoretically arises from:",
+    "options": [
+      "Many different species of microbes",
+      "A mixture of various spores and vegetative cells",
+      "A single spore or vegetative cell, or a group of identical microorganisms",
+      "Contaminated dust particles"
+    ],
+    "answer": "A single spore or vegetative cell, or a group of identical microorganisms"
+  },
+  {
+    "question": "The streak plate method is primarily used in microbiology to:",
+    "options": [
+      "Quantify bacterial concentration",
+      "Promote the growth of anaerobic bacteria",
+      "Obtain pure cultures from a mixed sample",
+      "Determine antibiotic sensitivity"
+    ],
+    "answer": "Obtain pure cultures from a mixed sample"
+  },
+  {
+    "question": "A microorganism with an optimal growth temperature of 37°C would be categorized as a:",
+    "options": [
+      "Psychrophile",
+      "Psychrotroph",
+      "Mesophile",
+      "Thermophile"
+    ],
+    "answer": "Mesophile"
+  },
+  {
+    "question": "Which group of organisms performs oxygenic photosynthesis and uses H atoms of H2O to reduce CO2?",
+    "options": [
+      "Green Bacteria",
+      "Purple Bacteria",
+      "Cyanobacteria",
+      "Archaea"
+    ],
+    "answer": "Cyanobacteria"
+  },
+  {
+    "question": "*Rhodospirillum* belongs to which common name group of bacteria?",
+    "options": [
+      "Cyanobacteria",
+      "Green nonsulfur bacteria",
+      "Green sulfur bacteria",
+      "Purple nonsulfur bacteria"
+    ],
+    "answer": "Purple nonsulfur bacteria"
+  },
+  {
+    "question": "In the context of nitrogen fixation, legumes like clover and soybeans often host nitrogen-fixing bacteria in a relationship described as:",
+    "options": [
+      "Parasitic",
+      "Commensal",
+      "Symbiotic",
+      "Saprophytic"
+    ],
+    "answer": "Symbiotic"
+  },
+  {
+    "question": "Besides vitamins, what other organic growth factors might some bacteria require from their environment?",
+    "options": [
+      "Simple sugars and starches",
+      "Amino acids, purines, and pyrimidines",
+      "Glycerol and fatty acids",
+      "Inorganic salts like NaCl"
+    ],
+    "answer": "Amino acids, purines, and pyrimidines"
+  },
+  {
+    "question": "Bacteria that are aerobic but require oxygen only in low concentrations are known as:",
+    "options": [
+      "Obligate aerobes",
+      "Facultative anaerobes",
+      "Aerotolerant anaerobes",
+      "Microaerophiles"
+    ],
+    "answer": "Microaerophiles"
+  },
+  {
+    "question": "If bacterial growth is observed throughout a test tube of solid medium, but with a higher density at the top, the bacteria are most likely classified as:",
+    "options": [
+      "Obligate aerobes",
+      "Facultative anaerobes",
+      "Obligate anaerobes",
+      "Microaerophiles"
+    ],
+    "answer": "Facultative anaerobes"
+  },
+  {
+    "question": "What is singlet oxygen (O2-) defined as?",
+    "options": [
+      "A stable form of oxygen gas",
+      "Oxygen that has accepted an extra electron",
+      "Normal molecular oxygen boosted to a higher-energy state",
+      "An enzyme that produces oxygen"
+    ],
+    "answer": "Normal molecular oxygen boosted to a higher-energy state"
+  },
+  {
+    "question": "Methylene blue is used in an anaerobic jar as an indicator because it:",
+    "options": [
+      "Promotes bacterial growth",
+      "Changes color in the presence of oxygen",
+      "Releases CO2",
+      "Accelerates the reaction of H2 and O2"
+    ],
+    "answer": "Changes color in the presence of oxygen"
+  },
+  {
+    "question": "A candle jar creates an environment that is suitable for what type of microorganisms?",
+    "options": [
+      "Obligate anaerobes",
+      "Hyperthermophiles",
+      "Psychrophiles",
+      "Microaerophiles or capnophiles"
+    ],
+    "answer": "Microaerophiles or capnophiles"
+  },
+  {
+    "question": "At what approximate temperature does agar melt?",
+    "options": [
+      "~40 °C",
+      "~60 °C",
+      "~80 °C",
+      "~100 °C"
+    ],
+    "answer": "~100 °C"
+  },
+  {
+    "question": "A microbiologist inoculates a blood agar plate with *Streptococcus pyogenes* and observes clear halos around the colonies. This indicates:",
+    "options": [
+      "The bacteria are growing optimally",
+      "The bacteria are unable to grow on blood agar",
+      "The bacteria are producing a pigment",
+      "The bacteria are exhibiting hemolysis"
+    ],
+    "answer": "The bacteria are exhibiting hemolysis"
+  },
+  {
+    "question": "A newly discovered bacterium is isolated from a hot spring environment. It grows optimally at 70°C and pH 3.0. How would you categorize this bacterium based on its physical requirements?",
+    "options": [
+      "Mesophilic acidophile",
+      "Psychrophilic alkaliphile",
+      "Thermophilic acidophile",
+      "Hyperthermophilic neutralophile"
+    ],
+    "answer": "Thermophilic acidophile"
+  },
+  {
+    "question": "A food product is preserved by adding a very high concentration of salt. Which type of bacteria would be most likely to spoil this product if contamination occurs?",
+    "options": [
+      "Obligate halophiles",
+      "Extreme halophiles",
+      "Facultative halophiles",
+      "Mesophiles"
+    ],
+    "answer": "Facultative halophiles"
+  },
+  {
+    "question": "If you isolate a photosynthetic bacterium that produces oxygen and primarily uses H2O as its electron donor, but also grows in anaerobic conditions, which group is it most likely to belong to?",
+    "options": [
+      "Green sulfur bacteria",
+      "Purple nonsulfur bacteria",
+      "Cyanobacteria",
+      "Green nonsulfur bacteria"
+    ],
+    "answer": "Cyanobacteria"
+  },
+  {
+    "question": "A bacterium is isolated from a wound infection and shown to produce both Superoxide Dismutase and Catalase. Based on these enzyme productions, how would you classify its oxygen requirement?",
+    "options": [
+      "Obligate anaerobe",
+      "Aerotolerant anaerobe",
+      "Microaerophile",
+      "Obligate aerobe or Facultative anaerobe"
+    ],
+    "answer": "Obligate aerobe or Facultative anaerobe"
+  },
+  {
+    "question": "A microbiologist observes significant bacterial growth only at the very bottom of a thioglycolate broth tube. After subculturing, the bacteria show no bubbles when hydrogen peroxide is added. What is the most likely classification of this bacterium and its enzyme profile?",
+    "options": [
+      "Obligate aerobe with Catalase and SOD",
+      "Facultative anaerobe with Catalase and SOD",
+      "Obligate anaerobe lacking Catalase and SOD",
+      "Aerotolerant anaerobe with SOD but no Catalase"
+    ],
+    "answer": "Obligate anaerobe lacking Catalase and SOD"
+  },
+  {
+    "question": "You are attempting to culture a fastidious (fussy) pathogenic bacterium that requires specific amino acids and vitamins for growth, but its exact metabolic requirements are not fully known. Which type of medium would be most appropriate to try first?",
+    "options": [
+      "Chemically defined medium",
+      "Reducing medium",
+      "Complex medium",
+      "Selective medium"
+    ],
+    "answer": "Complex medium"
+  },
+  {
+    "question": "A clinical sample is suspected to contain *Salmonella* and other Gram-negative enteric bacteria. To both isolate *Salmonella* and differentiate it from other non-pathogenic enterics, which combination of media characteristics would be most effective?",
+    "options": [
+      "Enrichment medium",
+      "Chemically defined medium",
+      "Selective and Differential medium",
+      "Reducing and Complex medium"
+    ],
+    "answer": "Selective and Differential medium"
+  },
+  {
+    "question": "A water sample from a natural reservoir is suspected to contain very low numbers of a specific nitrogen-fixing bacterium. To successfully isolate and study this bacterium, what initial culture approach would be most appropriate?",
+    "options": [
+      "Direct plating on a selective agar",
+      "Inoculating a chemically defined medium",
+      "Using an enrichment medium",
+      "Culturing in an anaerobic chamber"
+    ],
+    "answer": "Using an enrichment medium"
+  },
+  {
+    "question": "A microbiologist inoculates a broth culture into a deep agar tube, then seals it. After incubation, dense growth is observed about 1 cm below the surface, forming a distinct band, with very little growth above or below it. How would you classify this organism?",
+    "options": [
+      "Obligate aerobe",
+      "Facultative anaerobe",
+      "Obligate anaerobe",
+      "Microaerophile"
+    ],
+    "answer": "Microaerophile"
+  },
+  {
+    "question": "Consider an experiment where a psychrotrophic bacterium is incubated at 37°C. Based on its typical growth curve, what would be the most likely outcome?",
+    "options": [
+      "Rapid growth with peak at 37°C",
+      "No growth as it's too cold",
+      "Slow growth, but still detectable",
+      "Inhibition of growth due to excessive heat"
+    ],
+    "answer": "Inhibition of growth due to excessive heat"
+  }
+]

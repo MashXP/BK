@@ -1,0 +1,78 @@
+% Cheatsheet for Vapor-Liquid Equilibrium and Distillation
+% Based on the presentation by Dr. Yose Fachmi Buys
+
+\newcommand{\yVar}{y} % Mole Fraction in Vapor
+\newcommand{\Pvap}{P^*} % Vapor Pressure of Pure Component
+\newcommand{\F}{F} % Molar Feed Rate
+\newcommand{\D}{D} % Molar Distillate Rate
+\newcommand{\B}{B} % Molar Bottoms Rate
+\newcommand{\Lvar}{L} % Molar Liquid Amount/Rate
+\newcommand{\fvap}{f} % Fraction of feed vaporized (Changed from \f to avoid conflict)
+\newcommand{\alphaRel}{\alpha} % Relative Volatility
+
+\section{Vapor-Liquid Equilibrium (VLE)}
+
+\subsection{Fundamental Concepts}
+\begin{itemize}
+    \item \textbf{Equilibrium:} A state where at constant temperature, pressure, and composition, a system is stable and does not change with time. In VLE, the rate of vaporization equals the rate of condensation for each component.
+    \item \textbf{Thermodynamic Variables:}
+    \begin{itemize}
+        \item \textbf{Intensive Properties:} Independent of the size of the system (e.g., Temperature $T$, Pressure $P$, Composition $x, y$).
+        \item \textbf{Extensive Properties:} Depend on the size of the system (e.g., Total Volume $V$, Total Mass $M$, Flow Rate).
+    \end{itemize}
+    \item \textbf{Gibbs Phase Rule:} Determines the degrees of freedom (F) for a system at equilibrium.
+    \begin{equation}
+        F = C - P + 2
+    \end{equation}
+    where:
+    \begin{itemize}
+        \item $C$ is the number of components.
+        \item $P$ is the number of phases.
+        \item For a binary mixture ($C=2$) with two phases ($P=2$), there are $F=2$ degrees of freedom (e.g., Temperature and Pressure).
+    \end{itemize}
+\end{itemize}
+
+\subsection{Raoult's Law for Ideal Solutions}
+Describes the relationship between the partial pressure of a component in the vapor phase and its mole fraction in the liquid phase.
+\begin{itemize}
+    \item \textbf{Equation:} The partial pressure ($\pVar_i$) of component $i$ is the product of its mole fraction in the liquid ($\xVar_i$) and the vapor pressure of the pure component ($\Pvap_i$).
+    \begin{equation}
+        \pVar_i = \xVar_i \Pvap_i
+    \end{equation}
+    \item \textbf{Total Pressure (Dalton's Law):} For a binary mixture of A and B:
+    \begin{equation}
+        \Ptot = \pVar_A + \pVar_B = \xVar_A \Pvap_A + (1-\xVar_A) \Pvap_B
+    \end{equation}
+    \item \textbf{Vapor Phase Composition:}
+    \begin{equation}
+        \yVar_A = \frac{\pVar_A}{\Ptot} = \frac{\xVar_A \Pvap_A}{\Ptot}
+    \end{equation}
+\end{itemize}
+
+\subsection{Relative Volatility ($\alphaRel$)}
+A measure of the ease of separating two components. It is the ratio of their vapor-liquid distribution coefficients (K-values).
+\begin{itemize}
+    \item \textbf{Definition:} For components A and B:
+    \begin{equation}
+        \alphaRel_{AB} = \frac{K_A}{K_B} = \frac{\yVar_A/\xVar_A}{\yVar_B/\xVar_B}
+    \end{equation}
+    \item \textbf{For Ideal Systems (obeying Raoult's Law):}
+    \begin{equation}
+        \alphaRel_{AB} = \frac{\Pvap_A}{\Pvap_B}
+    \end{equation}
+    \item \textbf{Equilibrium Relationship:} The mole fraction in the vapor phase ($\yVar_A$) can be expressed in terms of the liquid phase ($\xVar_A$) and relative volatility:
+    \begin{equation}
+        \yVar_A = \frac{\alphaRel_{AB} \xVar_A}{1 + (\alphaRel_{AB} - 1)\xVar_A}
+    \end{equation}
+\end{itemize}
+
+\subsection{VLE Diagrams}
+\begin{itemize}
+    \item \textbf{T-x-y Diagram (Boiling Point Diagram):} Plots temperature vs. mole fraction at constant pressure.
+    \begin{itemize}
+        \item \textbf{Bubble Point Line:} Saturated liquid curve (lower boundary). Below this is the **Liquid Region (Subcooled)**.
+        \item \textbf{Dew Point Line:} Saturated vapor curve (upper boundary). Above this is the **Vapor Region (Superheated)**.
+        \item \textbf{Two-Phase Region:} The area between the bubble and dew point lines where liquid and vapor coexist in equilibrium.
+    \end{itemize}
+    \item \textbf{x-y Diagram:} Plots vapor mole fraction ($\yVar_A$) vs. liquid mole fraction ($\xVar_A$) at constant pressure. Essential for distillation calculations.
+\end{itemize}

@@ -1,0 +1,522 @@
+[
+  {
+    "question": "What are the three main domains of life depicted in the phylogenetic tree?",
+    "options": [
+      "Bacteria, Archaea, Eukarya",
+      "Plants, Animals, Fungi",
+      "Prokaryotes, Eukaryotes, Viruses",
+      "Mitochondria, Chloroplasts, Nuclei"
+    ],
+    "answer": "Bacteria, Archaea, Eukarya"
+  },
+  {
+    "question": "From which domain did mitochondria originate, according to the phylogenetic tree?",
+    "options": [
+      "Archaea",
+      "Cyanobacteria",
+      "Proteobacteria",
+      "Eukarya"
+    ],
+    "answer": "Proteobacteria"
+  },
+  {
+    "question": "The phylogenetic tree indicates that chloroplasts originated from which group?",
+    "options": [
+      "Archaea",
+      "Proteobacteria",
+      "Cyanobacteria",
+      "Methanogens"
+    ],
+    "answer": "Cyanobacteria"
+  },
+  {
+    "question": "One of the learning outcomes is to compare cellular structures and functions among which three groups?",
+    "options": [
+      "Molds, protozoa, viruses",
+      "Yeasts, molds, bacteria",
+      "Fungi, algae, plants",
+      "Bacteria, archaea, eukaryotes"
+    ],
+    "answer": "Yeasts, molds, bacteria"
+  },
+  {
+    "question": "According to the comparison table, which of the following is characteristic of bacterial cell walls?",
+    "options": [
+      "Glucans",
+      "Mannans",
+      "Chitin",
+      "Peptidoglycan"
+    ],
+    "answer": "Peptidoglycan"
+  },
+  {
+    "question": "Sterols are typically present in the cell membranes of which organisms, according to the comparison table?",
+    "options": [
+      "Bacteria",
+      "Mycoplasma",
+      "Fungi",
+      "Archaea"
+    ],
+    "answer": "Fungi"
+  },
+  {
+    "question": "How do fungi and bacteria primarily differ in cell type?",
+    "options": [
+      "Fungi are prokaryotic, bacteria are eukaryotic",
+      "Fungi are eukaryotic, bacteria are prokaryotic",
+      "Both are prokaryotic",
+      "Both are eukaryotic"
+    ],
+    "answer": "Fungi are eukaryotic, bacteria are prokaryotic"
+  },
+  {
+    "question": "What are the thread-like filaments that multicellular fungi extend into their surroundings?",
+    "options": [
+      "Mycelia",
+      "Spores",
+      "Hyphae",
+      "Stalks"
+    ],
+    "answer": "Hyphae"
+  },
+  {
+    "question": "What is the primary role of fungi in ecosystems, due to their ability to digest almost any organic molecule?",
+    "options": [
+      "Producers",
+      "Consumers",
+      "Decomposers",
+      "Parasites"
+    ],
+    "answer": "Decomposers"
+  },
+  {
+    "question": "What is the underground network of hyphae called?",
+    "options": [
+      "Mycelium",
+      "Sporangium",
+      "Conidiophore",
+      "Basidiocarp"
+    ],
+    "answer": "Mycelium"
+  },
+  {
+    "question": "According to the notes, what are the tiny haploid cells produced inside a mushroom called?",
+    "options": [
+      "Spores",
+      "Gametes",
+      "Zygotes",
+      "Hyphae"
+    ],
+    "answer": "Spores"
+  },
+  {
+    "question": "A macroscopic view of a fuzzy, textured fungal colony on an agar plate was identified as belonging to which genus?",
+    "options": [
+      "Aspergillus",
+      "Rhizopus",
+      "Penicillium",
+      "Mucor"
+    ],
+    "answer": "Penicillium"
+  },
+  {
+    "question": "The diagram of Aspergillus niger distinguished between which two types of hyphae?",
+    "options": [
+      "Motile and non-motile",
+      "Septate and nonseptate",
+      "Aerial and vegetative",
+      "Sexual and asexual"
+    ],
+    "answer": "Aerial and vegetative"
+  },
+  {
+    "question": "What are the cross-walls within fungal hyphae called?",
+    "options": [
+      "Mycelia",
+      "Spores",
+      "Septa",
+      "Stolons"
+    ],
+    "answer": "Septa"
+  },
+  {
+    "question": "Which fungal genus is provided as an example of an organism with nonseptate hyphae?",
+    "options": [
+      "Penicillium",
+      "Aspergillus",
+      "Rhizopus",
+      "Candida"
+    ],
+    "answer": "Rhizopus"
+  },
+  {
+    "question": "In Rhizopus stolonifer, what are the horizontal hyphae that grow along a substrate called?",
+    "options": [
+      "Rhizoidal hyphae",
+      "Aerial hyphae",
+      "Stolons",
+      "Sporangiophores"
+    ],
+    "answer": "Stolons"
+  },
+  {
+    "question": "What type of specialized hyphae in Rhizopus stolonifer grows downwards into the substrate for anchorage and absorption?",
+    "options": [
+      "Stolons",
+      "Aerial hyphae",
+      "Rhizoidal hyphae",
+      "Sporangiophores"
+    ],
+    "answer": "Rhizoidal hyphae"
+  },
+  {
+    "question": "How do hyphae primarily grow?",
+    "options": [
+      "By budding",
+      "By fragmentation",
+      "By elongating at the tips",
+      "By producing spores"
+    ],
+    "answer": "By elongating at the tips"
+  },
+  {
+    "question": "Which type of hypha is responsible for obtaining nutrients?",
+    "options": [
+      "Aerial hypha",
+      "Reproductive hypha",
+      "Vegetative hypha",
+      "Spore-bearing hypha"
+    ],
+    "answer": "Vegetative hypha"
+  },
+  {
+    "question": "Upon what basis are molds primarily classified into different phyla?",
+    "options": [
+      "Their morphology",
+      "Their habitat",
+      "Their mode of sexual reproduction",
+      "Their metabolism"
+    ],
+    "answer": "Their mode of sexual reproduction"
+  },
+  {
+    "question": "Which phylum within Fungi typically has the highest number of classes according to the phylogenetic tree presented?",
+    "options": [
+      "Chytridiomycota",
+      "Mucoromycota",
+      "Glomeromycota",
+      "Ascomycota"
+    ],
+    "answer": "Ascomycota"
+  },
+  {
+    "question": "To which fungal division does Rhizopus stolonifer belong?",
+    "options": [
+      "Ascomycota",
+      "Basidiomycota",
+      "Mucoromycota",
+      "Chytridiomycota"
+    ],
+    "answer": "Mucoromycota"
+  },
+  {
+    "question": "Which fungal species, known as a model organism in genetics, belongs to the division Ascomycota?",
+    "options": [
+      "Rhizopus stolonifer",
+      "Neurospora crassa",
+      "Itajahya galericulata",
+      "Candida albicans"
+    ],
+    "answer": "Neurospora crassa"
+  },
+  {
+    "question": "Itajahya galericulata, a stinkhorn mushroom, belongs to which fungal division?",
+    "options": [
+      "Ascomycota",
+      "Basidiomycota",
+      "Mucoromycota",
+      "Chytridiomycota"
+    ],
+    "answer": "Basidiomycota"
+  },
+  {
+    "question": "How are asexual spores primarily produced?",
+    "options": [
+      "Through meiosis and fertilization",
+      "By budding from parent cells",
+      "Through mitosis and subsequent cell division",
+      "By fusion of different mating types"
+    ],
+    "answer": "Through mitosis and subsequent cell division"
+  },
+  {
+    "question": "What is the aerial hypha that bears a sporangium called?",
+    "options": [
+      "Conidiophore",
+      "Ascocarp",
+      "Sporangiophore",
+      "Basidium"
+    ],
+    "answer": "Sporangiophore"
+  },
+  {
+    "question": "Which type of asexual spore is characterized as unicellular or multicellular and not enclosed in a sac?",
+    "options": [
+      "Sporangiospore",
+      "Zoospore",
+      "Conidiospore",
+      "Chlamydospore"
+    ],
+    "answer": "Conidiospore"
+  },
+  {
+    "question": "Arthrospores are a type of conidia formed by what process?",
+    "options": [
+      "Budding from the parent cell",
+      "Formation within a sac",
+      "Fragmentation of hyphae",
+      "Production on phialides"
+    ],
+    "answer": "Fragmentation of hyphae"
+  },
+  {
+    "question": "In Aspergillus, conidia are typically arranged in chains at the end of what structure?",
+    "options": [
+      "Sporangium",
+      "Ascus",
+      "Basidium",
+      "Conidiophore"
+    ],
+    "answer": "Conidiophore"
+  },
+  {
+    "question": "What is a thick-walled, resistant asexual spore formed within or at the end of a hyphal cell called?",
+    "options": [
+      "Microconidium",
+      "Macroconidium",
+      "Chlamydospore",
+      "Blastospore"
+    ],
+    "answer": "Chlamydospore"
+  },
+  {
+    "question": "What is a distinguishing characteristic of zoospores?",
+    "options": [
+      "They are enclosed in a sac",
+      "They are non-motile",
+      "They use flagella for locomotion",
+      "They are typically multicellular"
+    ],
+    "answer": "They use flagella for locomotion"
+  },
+  {
+    "question": "What is the first phase of sexual reproduction in fungi, involving the fusion of cytoplasm from two parent cells?",
+    "options": [
+      "Karyogamy",
+      "Plasmogamy",
+      "Meiosis",
+      "Fertilization"
+    ],
+    "answer": "Plasmogamy"
+  },
+  {
+    "question": "In fungal sexual reproduction, what event immediately follows plasmogamy and involves the fusion of haploid nuclei?",
+    "options": [
+      "Meiosis",
+      "Sporulation",
+      "Karyogamy",
+      "Germination"
+    ],
+    "answer": "Karyogamy"
+  },
+  {
+    "question": "What is the final phase of fungal sexual reproduction that reduces the diploid nucleus to haploid nuclei, potentially with genetic recombination?",
+    "options": [
+      "Plasmogamy",
+      "Karyogamy",
+      "Mitosis",
+      "Meiosis"
+    ],
+    "answer": "Meiosis"
+  },
+  {
+    "question": "Which type of sexual spore is characteristic of Rhizopus and other zygomycetes?",
+    "options": [
+      "Basidiospore",
+      "Ascospore",
+      "Zoospore",
+      "Zygospore"
+    ],
+    "answer": "Zygospore"
+  },
+  {
+    "question": "What phenomenon describes the ability of Mucor indicus to grow as yeast-like cells or filamentous hyphae depending on CO2 concentration?",
+    "options": [
+      "Saprophytism",
+      "Parasitism",
+      "Dimorphism",
+      "Symbiosis"
+    ],
+    "answer": "Dimorphism"
+  },
+  {
+    "question": "What is the name of the sexual spores produced by basidiomycetes, typically found on the gills of mushrooms?",
+    "options": [
+      "Ascospores",
+      "Zygospores",
+      "Basidiospores",
+      "Conidiospores"
+    ],
+    "answer": "Basidiospores"
+  },
+  {
+    "question": "Which lichen growth form is described as flat and tightly attached to the substrate, like a crust?",
+    "options": [
+      "Fruticose",
+      "Foliose",
+      "Crustose",
+      "Filamentous"
+    ],
+    "answer": "Crustose"
+  },
+  {
+    "question": "What are soredia in lichens?",
+    "options": [
+      "The fungal reproductive structures",
+      "Specialized algal cells",
+      "Small clusters of fungal hyphae with algal cells for dispersal",
+      "The anchoring structures of the lichen"
+    ],
+    "answer": "Small clusters of fungal hyphae with algal cells for dispersal"
+  },
+  {
+    "question": "Which cellular process for energy production from glucose uses oxygen as the final electron acceptor?",
+    "options": [
+      "Fermentation",
+      "Glycolysis",
+      "Respiration",
+      "Substrate-level phosphorylation"
+    ],
+    "answer": "Respiration"
+  },
+  {
+    "question": "In fermentation, what serves as the final electron acceptor?",
+    "options": [
+      "Oxygen",
+      "An external inorganic molecule",
+      "A molecule made in the cell",
+      "Carbon dioxide"
+    ],
+    "answer": "A molecule made in the cell"
+  },
+  {
+    "question": "Both respiration and fermentation typically begin with which metabolic pathway?",
+    "options": [
+      "Krebs cycle",
+      "Electron transport chain",
+      "Glycolysis",
+      "Oxidative phosphorylation"
+    ],
+    "answer": "Glycolysis"
+  },
+  {
+    "question": "A fungal species is observed to reproduce primarily through asexual means under stable environmental conditions. If the environment suddenly becomes harsh and unpredictable, what adaptive advantage would shifting to sexual reproduction offer to this fungal population, compared to continued asexual reproduction?",
+    "options": [
+      "Increased efficiency in biomass production due to rapid spore dissemination.",
+      "Greater genetic diversity among offspring, enhancing adaptability to new selective pressures.",
+      "Reduced energy expenditure, as sexual reproduction requires fewer resources.",
+      "Faster colonization of new, favorable environments by producing identical clones."
+    ],
+    "answer": "Greater genetic diversity among offspring, enhancing adaptability to new selective pressures."
+  },
+  {
+    "question": "A newly discovered microorganism is identified with a chitin cell wall, presence of sterols in its cell membrane, and a filamentous growth form that includes cross-walls dividing its cellular units. Based on these characteristics, which of the following conclusions is most appropriate?",
+    "options": [
+      "It is likely a bacterium, given its filamentous growth.",
+      "It is a prokaryote with unique eukaryotic features.",
+      "It is a eukaryotic fungus, specifically a mold with septate hyphae.",
+      "It represents an archaeal species, showing convergent evolution with fungi."
+    ],
+    "answer": "It is a eukaryotic fungus, specifically a mold with septate hyphae."
+  },
+  {
+    "question": "A patient presents with a systemic fungal infection. Laboratory cultures from blood samples show yeast-like growth at 37°C in CO2-rich conditions, but filamentous, mold-like growth when cultured at room temperature (25°C) in ambient air. This observation is indicative of which fungal characteristic, and why is it clinically significant?",
+    "options": [
+      "Sporulation, indicating active dissemination of fungal spores in the body.",
+      "Dimorphism, which allows the fungus to adapt to different host environments and often correlates with pathogenicity.",
+      "Pleomorphism, suggesting a high rate of mutation leading to variable morphology.",
+      "Saprophytism, implying the fungus primarily feeds on dead organic matter in the bloodstream."
+    ],
+    "answer": "Dimorphism, which allows the fungus to adapt to different host environments and often correlates with pathogenicity."
+  },
+  {
+    "question": "Consider a fungal species that specializes in breaking down complex organic matter embedded deep within a substrate. Which combination of specialized hyphal structures would be most crucial for its ecological niche?",
+    "options": [
+      "Aerial hyphae for spore dispersal and stolons for rapid surface spread.",
+      "Rhizoidal hyphae for anchorage and absorption, coupled with high rates of enzymatic secretion.",
+      "Conidiophores for asexual reproduction and asci for sexual reproduction.",
+      "Basidia for spore production and a thick fruiting body for protection."
+    ],
+    "answer": "Rhizoidal hyphae for anchorage and absorption, coupled with high rates of enzymatic secretion."
+  },
+  {
+    "question": "A researcher observes that a lichen isolated from a harsh, nutrient-poor environment thrives due to its unique anatomical structure. If the fungal component of this lichen were to be cultured separately from its algal layer, what would be the most likely immediate consequence for the fungal component?",
+    "options": [
+      "It would immediately switch to a parasitic lifestyle, seeking a new host.",
+      "It would lose its ability to produce soredia, impairing dispersal.",
+      "Its nutritional autonomy would be severely compromised due to loss of photosynthetic products.",
+      "It would spontaneously transform into a yeast-like form to survive."
+    ],
+    "answer": "Its nutritional autonomy would be severely compromised due to loss of photosynthetic products."
+  },
+  {
+    "question": "In which of the following fungal life cycles does a dikaryotic (n+n) stage typically persist for a significant portion of the organism's visible life, culminating in a large fruiting body?",
+    "options": [
+      "The life cycle of Rhizopus (Zygomycete).",
+      "The generalized life cycle of an Ascomycete like Talaromyces.",
+      "The generalized life cycle of a Basidiomycete like a mushroom.",
+      "The asexual reproduction cycle of Neurospora crassa."
+    ],
+    "answer": "The generalized life cycle of a Basidiomycete like a mushroom."
+  },
+  {
+    "question": "A clinical microbiologist isolates a fungal pathogen from an anaerobic wound infection. Analysis of its metabolic byproducts reveals significant amounts of lactate and ethanol. Based on the provided lecture notes on fungal metabolism, what can be inferred about this fungus's primary energy production pathway in the wound?",
+    "options": [
+      "It is primarily performing aerobic respiration, as lactate and ethanol are waste products of oxygen consumption.",
+      "It is undergoing fermentation, converting pyruvic acid and reducing NADH to generate ATP without oxygen.",
+      "It has a highly efficient electron transport chain, despite the anaerobic conditions.",
+      "It is an obligate aerobe that is struggling to survive in the anaerobic environment."
+    ],
+    "answer": "It is undergoing fermentation, converting pyruvic acid and reducing NADH to generate ATP without oxygen."
+  },
+  {
+    "question": "A fungal species that produces both conidiospores and ascospores is likely employing a reproductive strategy that optimizes for:",
+    "options": [
+      "Rapid clonal expansion in favorable conditions and genetic recombination for adaptation to changing environments.",
+      "Exclusive sexual reproduction to ensure genetic diversity at all times.",
+      "Solely asexual reproduction, as ascospores are a dormant form of conidia.",
+      "Dispersal via water currents due to the motility of both spore types."
+    ],
+    "answer": "Rapid clonal expansion in favorable conditions and genetic recombination for adaptation to changing environments."
+  },
+  {
+    "question": "A microbiologist is trying to grow an unusual fungus. They initially attempt to cultivate it on a simple inorganic medium under aerobic conditions, but observe no growth. What characteristic from the 'Fungi and Bacteria Compared' table might explain this failure, and what alternative approach should be considered?",
+    "options": [
+      "Fungi are autotrophic, so an organic carbon source is unnecessary; anaerobic conditions should be tried.",
+      "Fungi are limited to heterotrophic metabolism; an organic carbon source is required, and anaerobic conditions might be suitable for some.",
+      "Fungi are obligate aerobes; the inorganic medium is the issue, so an organic source under aerobic conditions is needed.",
+      "Fungi are photoautotrophic; light is required, regardless of the carbon source or oxygen."
+    ],
+    "answer": "Fungi are limited to heterotrophic metabolism; an organic carbon source is required, and anaerobic conditions might be suitable for some."
+  },
+  {
+    "question": "The phylogenetic tree of Fungi (Tedersoo et al., 2018) indicates that Basidiomycota and Ascomycota are among the phyla with the highest number of classes. What does this diversity suggest about their evolutionary success compared to phyla with fewer classes, such as Glomeromycota?",
+    "options": [
+      "Basidiomycota and Ascomycota are evolutionarily older, leading to more time for diversification.",
+      "They have adapted to a wider range of ecological niches and developed more complex reproductive strategies.",
+      "Their cell walls are structurally more robust, which enhances survival across environments.",
+      "They are exclusively pathogenic, leading to rapid evolutionary changes through host-pathogen co-evolution."
+    ],
+    "answer": "They have adapted to a wider range of ecological niches and developed more complex reproductive strategies."
+  }
+]

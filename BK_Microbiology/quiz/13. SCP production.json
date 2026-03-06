@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What is another term for Single Cell Protein (SCP)?",
+    "options": [
+      "Microbial protein",
+      "Bioprotein",
+      "Biomass",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which two types of microorganisms are identified as major producers of Single Cell Protein (SCP) in the provided text?",
+    "options": [
+      "Algae and Yeast",
+      "Fungi and Bacteria",
+      "Protozoa and Viruses",
+      "Molds and Actinomycetes"
+    ],
+    "answer": "Fungi and Bacteria"
+  },
+  {
+    "question": "What are two primary reasons microorganisms are effective SCP producers?",
+    "options": [
+      "Fast growth rate and high protein level",
+      "Low nucleic acid content and specific nutrient requirements",
+      "Complex cultivation methods and seasonal dependence",
+      "High lipid content and slow metabolism"
+    ],
+    "answer": "Fast growth rate and high protein level"
+  },
+  {
+    "question": "Besides protein, which of the following are also components of SCP?",
+    "options": [
+      "Carbohydrates",
+      "Nucleic acids",
+      "Fats",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which of the following essential amino acids are reported to be present in high levels in SCP?",
+    "options": [
+      "Lysine",
+      "Glycine",
+      "Alanine",
+      "Proline"
+    ],
+    "answer": "Lysine"
+  },
+  {
+    "question": "What traditional expensive protein sources can SCP replace without detrimental effects?",
+    "options": [
+      "Beef and Chicken meals",
+      "Fish and Soybean meals",
+      "Corn and Wheat meals",
+      "Rice and Oat meals"
+    ],
+    "answer": "Fish and Soybean meals"
+  },
+  {
+    "question": "The production of SCP is independent of which environmental factor?",
+    "options": [
+      "Temperature fluctuations",
+      "Seasonal and climatic variations",
+      "Availability of light",
+      "pH levels"
+    ],
+    "answer": "Seasonal and climatic variations"
+  },
+  {
+    "question": "Which of the following is considered a suitable and cheap substrate for SCP production from agro-industrial byproducts?",
+    "options": [
+      "Gold ore",
+      "Petroleum",
+      "Apple pomace",
+      "Distilled water"
+    ],
+    "answer": "Apple pomace"
+  },
+  {
+    "question": "In which year was the term \"Single Cell Protein\" first introduced?",
+    "options": [
+      "1958",
+      "1968",
+      "1978",
+      "1988"
+    ],
+    "answer": "1968"
+  },
+  {
+    "question": "What is the typical protein content of SCP on a dry matter basis?",
+    "options": [
+      "10-20%",
+      "30-45%",
+      "60-82%",
+      "90-95%"
+    ],
+    "answer": "60-82%"
+  },
+  {
+    "question": "Which inorganic nitrogen source is commonly utilized by microbes for SCP production?",
+    "options": [
+      "Nitrogen gas (N2)",
+      "Ammonia",
+      "Nitrous oxide",
+      "Organic nitrates"
+    ],
+    "answer": "Ammonia"
+  },
+  {
+    "question": "What is the typical generation time for bacteria, making them efficient SCP producers?",
+    "options": [
+      "5-10 minutes",
+      "20-120 minutes",
+      "3-6 hours",
+      "24 hours"
+    ],
+    "answer": "20-120 minutes"
+  },
+  {
+    "question": "What percentage of protein can certain microalgae species achieve?",
+    "options": [
+      "Up to 10%",
+      "Up to 30%",
+      "Up to 70%",
+      "Up to 95%"
+    ],
+    "answer": "Up to 70%"
+  },
+  {
+    "question": "Besides protein, what are microalgae excellent sources of, as mentioned in the text?",
+    "options": [
+      "Saturated fats and cholesterol",
+      "Omega-3 fatty acids and mineral salts",
+      "Complex carbohydrates and simple sugars",
+      "Nucleic acids and heavy metals"
+    ],
+    "answer": "Omega-3 fatty acids and mineral salts"
+  },
+  {
+    "question": "What is the reported range for nucleic acid content in algal SCP?",
+    "options": [
+      "0-1%",
+      "3-8%",
+      "10-15%",
+      "20-25%"
+    ],
+    "answer": "3-8%"
+  },
+  {
+    "question": "What is the typical protein content of SCP from fungal species?",
+    "options": [
+      "10-20%",
+      "30-50%",
+      "60-70%",
+      "80-90%"
+    ],
+    "answer": "30-50%"
+  },
+  {
+    "question": "Fungal SCP is typically rich in which amino acids?",
+    "options": [
+      "Cysteine and Methionine",
+      "Lysine and Threonine",
+      "Tryptophan and Phenylalanine",
+      "Valine and Leucine"
+    ],
+    "answer": "Lysine and Threonine"
+  },
+  {
+    "question": "What is the reported range for nucleic acid content in fungal SCP?",
+    "options": [
+      "1-2%",
+      "3-6%",
+      "7-10%",
+      "15-20%"
+    ],
+    "answer": "7-10%"
+  },
+  {
+    "question": "The \"Pekilo\" process, established in Finland, obtains SCP from which type of microorganism?",
+    "options": [
+      "Bacteria",
+      "Algae",
+      "Filamentous fungi",
+      "Yeast"
+    ],
+    "answer": "Filamentous fungi"
+  },
+  {
+    "question": "What is the main process responsible for SCP production?",
+    "options": [
+      "Distillation",
+      "Fermentation",
+      "Crystallization",
+      "Filtration"
+    ],
+    "answer": "Fermentation"
+  },
+  {
+    "question": "After fermentation, what is the next general step in SCP production involving the microbial cells?",
+    "options": [
+      "Direct packaging",
+      "Biomass harvesting",
+      "Chemical synthesis",
+      "Substrate sterilization"
+    ],
+    "answer": "Biomass harvesting"
+  },
+  {
+    "question": "What hydrolyzation methods are mentioned for processing substrates like cellulose and hemicellulose for SCP production?",
+    "options": [
+      "Freezing and Thawing",
+      "Physical, Chemical, and Enzymatic",
+      "Evaporation and Condensation",
+      "Desiccation and Hydration"
+    ],
+    "answer": "Physical, Chemical, and Enzymatic"
+  },
+  {
+    "question": "What is an undesirable anti-nutritional factor associated with a high output of biomass in SCP production?",
+    "options": [
+      "High lipid content",
+      "High mineral content",
+      "High RNA content",
+      "High carbohydrate content"
+    ],
+    "answer": "High RNA content"
+  },
+  {
+    "question": "What is the biomass yield coefficient defined as?",
+    "options": [
+      "Total protein produced per unit time",
+      "Total weight of newly produced cells per unit of consumed substrate",
+      "Total energy consumed per unit of biomass",
+      "Total water utilized per unit of protein"
+    ],
+    "answer": "Total weight of newly produced cells per unit of consumed substrate"
+  },
+  {
+    "question": "Why is a wide tolerable temperature range for microorganisms beneficial in SCP production?",
+    "options": [
+      "It accelerates cell mutation",
+      "It increases substrate cost",
+      "It lessens the need for temperature control during fermentation",
+      "It enhances nucleic acid production"
+    ],
+    "answer": "It lessens the need for temperature control during fermentation"
+  },
+  {
+    "question": "Which type of microorganism generally requires a lower pH for growth, which can be used to inhibit bacterial growth during cultivation?",
+    "options": [
+      "Bacteria",
+      "Fungi",
+      "Algae",
+      "Viruses"
+    ],
+    "answer": "Fungi"
+  },
+  {
+    "question": "What type of carbon sources are widely used for SCP production due to microbial dependence on monosaccharides and disaccharides?",
+    "options": [
+      "Heavy metals",
+      "Carbohydrate derived sources",
+      "Inorganic salts",
+      "Volatile organic compounds"
+    ],
+    "answer": "Carbohydrate derived sources"
+  },
+  {
+    "question": "What is the most appropriate carbon to nitrogen ratio reported for microbial growth in SCP production?",
+    "options": [
+      "1:1",
+      "5:1",
+      "10:1",
+      "20:1"
+    ],
+    "answer": "10:1"
+  },
+  {
+    "question": "What percentage of the total production cost is usually represented by the substrates used in SCP production?",
+    "options": [
+      "5-10%",
+      "20-30%",
+      "45-75%",
+      "90-95%"
+    ],
+    "answer": "45-75%"
+  },
+  {
+    "question": "What is the major portion of substrate cost taken by?",
+    "options": [
+      "Water",
+      "Ammonia",
+      "Carbon source",
+      "Minerals"
+    ],
+    "answer": "Carbon source"
+  },
+  {
+    "question": "Utilizing industrial and agricultural wastes for SCP production can reduce biological oxygen demand by approximately what percentage?",
+    "options": [
+      "20%",
+      "50%",
+      "80%",
+      "100%"
+    ],
+    "answer": "80%"
+  },
+  {
+    "question": "What is the approximate doubling time for algae and mold species during SCP production?",
+    "options": [
+      "5-15 minutes",
+      "20-120 minutes",
+      "2-4 hours",
+      "24 hours"
+    ],
+    "answer": "2-4 hours"
+  },
+  {
+    "question": "In submerged fermentation, what form is the substrate always used in?",
+    "options": [
+      "Solid",
+      "Gaseous",
+      "Liquid",
+      "Semisolid"
+    ],
+    "answer": "Liquid"
+  },
+  {
+    "question": "Which technique is typically used for recovering filamentous fungi after submerged fermentation?",
+    "options": [
+      "Centrifugation",
+      "Filtration",
+      "Distillation",
+      "Sedimentation"
+    ],
+    "answer": "Filtration"
+  },
+  {
+    "question": "What is a key characteristic of semisolid fermentation processes, regarding its investment and operating costs?",
+    "options": [
+      "Low capital investment",
+      "Substrate used in liquid state",
+      "Requires high capital investment and operating cost",
+      "Does not require sterilization"
+    ],
+    "answer": "Requires high capital investment and operating cost"
+  },
+  {
+    "question": "What is the recommended moisture level for optimum yield in solid state fermentation?",
+    "options": [
+      "10-20%",
+      "30-40%",
+      "60-65%",
+      "80-90%"
+    ],
+    "answer": "60-65%"
+  },
+  {
+    "question": "What specific benefit was observed when SCP (Methylococcus capsulatus) was used in soybean meal (SBM) diets for salmon fish?",
+    "options": [
+      "Increased SBM-induced enteritis",
+      "Reduced growth performance",
+      "Prevented SBM-induced enteritis",
+      "Enhanced lipid absorption"
+    ],
+    "answer": "Prevented SBM-induced enteritis"
+  },
+  {
+    "question": "What is considered the main anti-nutritional factor in SCP due to its high concentration?",
+    "options": [
+      "High lipid content",
+      "High carbohydrate content",
+      "High nucleic acid content",
+      "High mineral content"
+    ],
+    "answer": "High nucleic acid content"
+  },
+  {
+    "question": "High nucleic acid content in SCP can lead to the formation of what health issue in consumers?",
+    "options": [
+      "Diabetes",
+      "Kidney stones",
+      "Liver disease",
+      "Heart attack"
+    ],
+    "answer": "Kidney stones"
+  },
+  {
+    "question": "What is one primary benefit of SCP over plant protein sources in terms of land use?",
+    "options": [
+      "SCP requires larger land areas for production",
+      "SCP does not require large areas of land",
+      "SCP production leads to significant soil erosion",
+      "SCP needs highly fertile land for cultivation"
+    ],
+    "answer": "SCP does not require large areas of land"
+  },
+  {
+    "question": "A biotech company aims to produce SCP on a large scale. They have access to abundant agricultural waste and want to minimize energy costs for cooling. Which characteristic should be prioritized when selecting the microbial strain for this operation?",
+    "options": [
+      "High nucleic acid content",
+      "Low protein content",
+      "Wider tolerable temperature range",
+      "Sensitivity to low pH"
+    ],
+    "answer": "Wider tolerable temperature range"
+  },
+  {
+    "question": "A researcher is evaluating different SCP sources for an animal feed formulation. They note that the yeast-derived SCP has an amino acid profile similar to soya protein. Based on the information provided, what amino acid deficiency would they most likely need to consider supplementing?",
+    "options": [
+      "Lysine",
+      "Threonine",
+      "Methionine",
+      "Alanine"
+    ],
+    "answer": "Methionine"
+  },
+  {
+    "question": "During the fermentation of SCP, the pH of the growth medium tends to fluctuate. To minimize the need for external pH control systems, which microbial characteristic would be most advantageous for the selected strain?",
+    "options": [
+      "Extremely fast growth rate",
+      "High sensitivity to osmotic pressure",
+      "Narrow pH tolerance range",
+      "Ability to tolerate a wide range of pH"
+    ],
+    "answer": "Ability to tolerate a wide range of pH"
+  },
+  {
+    "question": "A food manufacturer wants to incorporate SCP into human diets. Considering the potential health concerns mentioned, which processing step would be crucial to address the primary anti-nutritional factor?",
+    "options": [
+      "Increasing lipid content",
+      "Supplementing with vitamins",
+      "Reducing carbohydrate levels",
+      "Applying physical or chemical treatments to remove nucleic acids"
+    ],
+    "answer": "Applying physical or chemical treatments to remove nucleic acids"
+  },
+  {
+    "question": "A startup is designing an SCP production facility. They have identified a bacterial strain with a very short generation time. To maximize the biomass yield coefficient and ensure continuous, cost-effective production, which fermentation method would be most appropriate, and why?",
+    "options": [
+      "Solid-state fermentation, due to its low capital investment.",
+      "Semisolid fermentation, as it handles high moisture content efficiently.",
+      "Submerged fermentation, because it allows continuous operation and efficient nutrient/oxygen transfer.",
+      "Batch fermentation, because it simplifies downstream processing."
+    ],
+    "answer": "Submerged fermentation, because it allows continuous operation and efficient nutrient/oxygen transfer."
+  },
+  {
+    "question": "An aquaculture farm reports that juvenile fish fed a new SCP-based diet are showing signs of reduced nutrient digestibility, despite displaying good growth rates. Based on the feeding trials discussed, which SCP source would be most likely responsible for this specific observation?",
+    "options": [
+      "Yeast products like *Saccharomyces cerevisiae*",
+      "Methanotroph-based SCP (bacterial protein meal)",
+      "*Methylobacterium extorquens* as KnipBio Meal",
+      "Biofloc meal"
+    ],
+    "answer": "Methanotroph-based SCP (bacterial protein meal)"
+  },
+  {
+    "question": "A food safety inspector is reviewing an SCP production plant. They notice that the plant uses filamentous fungi and has less stringent sterilization protocols than other facilities producing bacterial SCP. What specific risk might the inspector be most concerned about due to these choices?",
+    "options": [
+      "Lower protein yield due to fungal nature",
+      "Increased risk of mycotoxin production and contamination",
+      "Reduced shelf-life of the final product",
+      "Higher water consumption during cultivation"
+    ],
+    "answer": "Increased risk of mycotoxin production and contamination"
+  },
+  {
+    "question": "A company is evaluating potential carbon sources for a new SCP production facility, aiming for a cost-effective and sustainable operation. They have identified both molasses (a carbohydrate source) and hydrocarbons from natural gas. Based on the text's discussion of substrate costs and drawbacks, which choice presents a more sustainable and potentially cheaper long-term option, assuming local availability?",
+    "options": [
+      "Hydrocarbons, because they are readily available and require less processing.",
+      "Molasses, because it is a renewable agro-industrial waste, despite initial carbohydrate processing.",
+      "Both are equally sustainable, depending on market price.",
+      "Neither, as all substrates are equally problematic."
+    ],
+    "answer": "Molasses, because it is a renewable agro-industrial waste, despite initial carbohydrate processing."
+  },
+  {
+    "question": "When cultivating SCP-producing microorganisms, maintaining a specific carbon to nitrogen (C:N) ratio in the growth medium is crucial. If a production process consistently uses a C:N ratio significantly higher than the reported most appropriate ratio, what is the most likely consequence for the desired product?",
+    "options": [
+      "Increased amino acid content in the SCP",
+      "Higher overall biomass yield due to excess carbon",
+      "Disappearance of ammonia before all sugars are consumed, leading to insufficient biomass",
+      "Accumulation of toxic nitrogenous compounds"
+    ],
+    "answer": "Disappearance of ammonia before all sugars are consumed, leading to insufficient biomass"
+  },
+  {
+    "question": "An expert in animal nutrition is comparing different SCP products. One product is derived from bacteria, and another from yeast. Which statement accurately reflects the general amino acid profile comparison provided in the text for these two sources?",
+    "options": [
+      "Bacterial protein resembles soya protein, while yeast protein resembles fish protein.",
+      "Both bacterial and yeast proteins are equally deficient in lysine.",
+      "Bacterial protein shows a close resemblance with fish protein, while yeast protein resembles soya protein.",
+      "Both bacterial and yeast proteins are typically rich in sulphur-containing amino acids."
+    ],
+    "answer": "Bacterial protein shows a close resemblance with fish protein, while yeast protein resembles soya protein."
+  }
+]

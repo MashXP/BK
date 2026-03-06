@@ -1,0 +1,137 @@
+
+
+% --- Custom Commands for Variables ---
+\newcommand{\xVarA}{x_A}      % Mass fraction of A in Raffinate phase
+\newcommand{\xVarB}{x_B}      % Mass fraction of B in Raffinate phase
+\newcommand{\xVarC}{x_C}      % Mass fraction of C in Raffinate phase
+\newcommand{\yVarA}{y_A}      % Mass fraction of A in Extract phase
+\newcommand{\yVarB}{y_B}      % Mass fraction of B in Extract phase
+\newcommand{\yVarC}{y_C}      % Mass fraction of C in Extract phase
+\newcommand{\Mvar}{M}         % Total mass or mass flow rate of a mixture
+\newcommand{\xAM}{x_{AM}}     % Mass fraction of A in a mixture M
+\newcommand{\xCM}{x_{CM}}     % Mass fraction of C in a mixture M
+
+\section{Introduction and Equipment}
+
+\subsection{Definitions}
+\begin{itemize}
+    \item \textbf{Liquid-Liquid Extraction (Solvent Extraction):} Separation of the constituents of a liquid solution by contact with another insoluble or partially miscible liquid (solvent).
+    \item \textbf{Streams:}
+    \begin{itemize}
+        \item \textbf{Feed:} The initial solution to be extracted.
+        \item \textbf{Solvent:} The liquid with which the feed is contacted.
+        \item \textbf{Extract:} The solvent-rich product containing the extracted solute.
+        \item \textbf{Raffinate:} The residual liquid from which the solute has been removed.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Solvent Selection}
+Ideally, a solvent should possess:
+\begin{itemize}
+    \item \textbf{High Selectivity:} Ability to extract the desired solute over others.
+    \item \textbf{High Capacity:} Ability to dissolve large amounts of solute.
+    \item \textbf{Large Density Difference:} Essential for phase separation from the carrier.
+    \item \textbf{Low Toxicity and Cost.}
+    \item \textbf{Interfacial Tension:} Influences droplet dispersion and coalescence; too low can cause emulsions, too high impedes mass transfer.
+\end{itemize}
+
+\subsection{Equipment}
+\begin{itemize}
+    \item \textbf{Laboratory:} Simple **Separation Funnel**.
+    \item \textbf{Mixer-Settlers:} Separate vessels for mixing and settling. Good contact but require **large amounts of floor space**.
+    \item \textbf{Spray Towers:} Liquid sprayed into gas/liquid. **Low cost** and simple, but lower efficiency.
+    \item \textbf{Packed Towers:} Use packing to increase area. **Reduced axial mixing** compared to empty towers, but prone to **solids plugging** and **hard to scale up** accurately.
+    \item \textbf{Mechanically Agitated Towers:} Use **rotating agitators/disks** (e.g., Kühni, Scheibel) to improve dispersion and mass transfer.
+\end{itemize}
+
+\subsection{Industrial Applications}
+\begin{itemize}
+    \item \textbf{Lubricating Oil Refining:} **Furfural** is used as a solvent to remove Aromatics.
+    \item \textbf{Acetic Acid Recovery:} In the Acetic Acid (A) - Water (B) - Ethyl Acetate (C) system, the **organic layer (Extract)** typically contains most of the acetic acid.
+\end{itemize}
+
+\section{Phase Diagrams}
+\begin{itemize}
+    \item \textbf{Ternary Diagram (Equilateral Triangle):}
+    \begin{itemize}
+        \item **Apexes:** Represent 100\% pure components.
+        \item **Bimodal Solubility Curve:** Separates the one-phase region from the two-phase region.
+        \item **Two-Phase Region:** The area **underneath** the solubility curve where two immiscible liquid phases coexist.
+        \item **Plait Point (P):** The point on the solubility curve where the two liquid phases (extract and raffinate) have **identical compositions**.
+        \item **Tie Lines:** Straight lines connecting the equilibrium compositions of the raffinate and extract phases.
+    \end{itemize}
+    \item \textbf{Rectangular Coordinates:} Sometimes used instead of triangular coordinates to **expand the concentration scale** of one component relative to another for better readability.
+\end{itemize}
+
+\section{Liquid-Liquid Extraction - \\Single-Stage Equilibrium Extraction}
+In a single stage, a feed stream ($L_{f}$) and a solvent stream ($V_{solv}$) are mixed, allowed to reach equilibrium, and separated into an extract stream ($V_{ext}$) and a raffinate stream ($L_{raf}$).
+
+\subsection{Material Balances}
+The overall mixture point M is the sum of the feed and solvent streams.
+\begin{itemize}
+    \item \textbf{Total Mass Balance:}
+    \begin{equation}
+        M = L_{f} + V_{solv} = L_{raf} + V_{ext}
+    \end{equation}
+    \item \textbf{Component A Balance:}
+    \begin{equation}
+        M x_{A,mix} = L_{f} x_{A,f} + V_{solv} y_{A,solv} = L_{raf} x_{A,raf} + V_{ext} y_{A,ext}
+    \end{equation}
+    \item \textbf{Component C Balance:}
+    \begin{equation}
+        M x_{C,mix} = L_{f} x_{C,f} + V_{solv} y_{C,solv} = L_{raf} x_{C,raf} + V_{ext} y_{C,ext}
+    \end{equation}
+\end{itemize}
+
+\subsection{Lever-Arm Rule}
+This rule relates the amounts of the streams to the distances between their composition points on a phase diagram.
+\begin{itemize}
+    \item \textbf{Relationship:} The mixture point M lies on the straight line connecting the points representing the streams being mixed. The ratio of the masses of the streams is inversely proportional to the ratio of the lengths of the line segments.
+    \begin{equation}
+        \frac{L}{V} = \frac{\text{distance } \overline{VM}}{\text{distance } \overline{LM}}
+    \end{equation}
+    \item \textbf{Application:} Once the overall mixture point M is located (from inlet streams), a tie line is drawn through M to find the compositions of the equilibrium exit streams $L_{raf}$ and $V_{ext}$. The lever-arm rule can then be used to calculate their amounts.
+\end{itemize}
+
+\section{Continuous Multistage Countercurrent \\ Extraction}
+For more efficient separation, a cascade of stages is used where the feed and solvent streams flow in opposite directions.
+
+\subsection{Overall Balances}
+Considering a cascade of N stages, the overall balance involves the four terminal streams.
+\begin{itemize}
+    \item \textbf{Total Balance:} $L_{f} + V_{solv} = L_{raf} + V_{ext} = M$
+    \item \textbf{Component Balance (e.g., for A):}
+    \begin{align}
+        L_{f} x_{A,f} + V_{solv} y_{A,solv} &= L_{raf} x_{A,raf} + V_{ext} y_{A,ext} \nonumber \\
+        &= M x_{A,mix}
+    \end{align}
+\end{itemize}
+
+\subsection{Stage-to-Stage Calculations and the Operating Point}
+\begin{itemize}
+    \item \textbf{Net Flow (Difference Point $\Delta$):} In a countercurrent cascade, the net flow of material past any stage is constant. This difference point is a key concept for graphical calculations.
+    \begin{equation}
+        \Delta = L_{f} - V_{ext} = L_n - V_{n+1} = L_{raf} - V_{solv}
+    \end{equation}
+    This is a mathematical point, which may lie outside the physical composition triangle.
+    \item \textbf{Locating the Operating Point ($\Delta$):} The point $\Delta$ is located at the intersection of the line passing through the feed ($L_{f}$) and exiting extract ($V_{ext}$) compositions, and the line passing through the solvent ($V_{solv}$) and exiting raffinate ($L_{raf}$) compositions.
+    \item \textbf{Graphical Construction of Stages:}
+    \begin{enumerate}
+        \item Locate the points for the four terminal streams \\($L_{f}, V_{solv}, L_{raf}, V_{ext}$) and the operating point $\Delta$.
+        \item Start with the known point $L_{f}$. Draw a line from $L_{f}$ through $\Delta$, which intersects the miscibility curve at the composition of the extract from stage 1, $V_1$.
+        \item Find the raffinate $L_1$ that is in equilibrium with $V_1$ by using the appropriate tie line.
+        \item Draw a line from $L_1$ through $\Delta$ to find the composition of the extract from stage 2, $V_2$.
+        \item Repeat this process of alternating between tie lines (equilibrium) and operating lines (lines to $\Delta$) until the desired final raffinate composition $L_{raf}$ is reached or passed. The number of tie lines drawn represents the number of theoretical stages.
+    \end{enumerate}
+\end{itemize}
+
+\subsection{Extraction with Immiscible Liquids}
+If the carrier (B) and solvent (C) are completely immiscible, the calculations are simplified. The analysis can be done on a simple x-y plot, similar to gas absorption.
+\begin{itemize}
+    \item \textbf{Operating Line:} An operating line relating the solute concentrations in the passing streams can be derived using inert (solute-free) mass flow rates, $L'$ and $V'$.
+    \begin{align}
+        L' \left( \frac{x_{A,f}}{1-x_{A,f}} \right) + V' \left( \frac{y_{A,solv}}{1-y_{A,solv}} \right) \nonumber \\
+        = L' \left( \frac{x_{A,raf}}{1-x_{A,raf}} \right) + V' \left( \frac{y_{A,ext}}{1-y_{A,ext}} \right)
+    \end{align}
+    For dilute solutions, this simplifies to a straight line on a plot of $y_A$ vs. $x_A$, with a slope of approximately $L' / V'$. The number of stages can then be stepped off between this operating line and the equilibrium curve.
+\end{itemize}

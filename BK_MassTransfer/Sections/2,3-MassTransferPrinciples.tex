@@ -1,0 +1,279 @@
+
+% Define custom commands for common variables from the PDF
+\newcommand{\J}{J} % Molar Flux
+\newcommand{\N}{N} % Molar Flux with convection
+\newcommand{\Dab}{D_{AB}} % Diffusion Coefficient
+\newcommand{\cVar}{c} % Concentration
+\newcommand{\pVar}{p} % Partial Pressure
+\newcommand{\xVar}{x} % Mole Fraction
+\newcommand{\zVar}{z} % Distance
+\newcommand{\Rgas}{R} % Ideal Gas Constant
+\newcommand{\T}{T} % Temperature
+\newcommand{\Ptot}{P} % Total Pressure
+\newcommand{\rhoD}{\rho} % Density
+\newcommand{\MA}{M_A} % Molecular Weight of A
+\newcommand{\kC}{k_c} % Mass transfer coefficient
+\newcommand{\pbm}{p_{BM}} % Log mean partial pressure of B
+\newcommand{\xbm}{x_{BM}} % Log mean mole fraction of B
+\newcommand{\cav}{c_{av}} % Average concentration
+\newcommand{\epsVoid}{\varepsilon} % Void fraction (porous solids)
+\newcommand{\tortuosity}{\tau} % Tortuosity (porous solids)
+
+\section{Introduction to Mass Transfer Principles}
+
+\subsection{What is Mass Transfer?}
+Mass transfer is the net movement of mass from one location, usually meaning stream, phase, fraction or component, to another. It occurs due to a driving force, which is typically a difference in chemical potential or, more commonly in engineering applications, a concentration gradient.
+\begin{itemize}
+    \item \textbf{Mechanism:} Transport of one component from a region of \textbf{higher concentration} to a region of \textbf{lower concentration}.
+    \item \textbf{Driving Force:} Concentration gradient.
+    \item \textbf{General Transport Equation:} The rate of any transfer process (mass, heat, momentum) can be expressed as:
+    \begin{equation}
+        \text{Rate of transfer process} = \frac{\text{Driving Force}}{\text{Resistance}}
+    \end{equation}
+\end{itemize}
+
+\subsection{Separation Processes}
+Mass transfer is a core principle behind separation processes, which are physical processes used to separate a mixture into its individual components.
+\begin{itemize}
+    \item \textbf{Homogeneous Mixtures (Mass Transfer Operations):} Distillation, Extraction, Leaching, Adsorption.
+    \item \textbf{Heterogeneous Mixtures (Mechanical Operations):} Filtration, Centrifugation, Settling.
+\end{itemize}
+
+\subsection{Molecular Diffusion}
+Defined as the transfer or movement of individual molecules through a fluid by means of the random, individual movements of the molecules. This random movement is often called a \textbf{random walk process}.
+
+\section{Fick's Law of Molecular Diffusion}
+The basic law governing molecular diffusion, formulated by Adolf Fick in 1885. It states that the molar flux of a species is proportional to the concentration gradient.
+
+\subsection{Fick's First Law (for a binary mixture A and B)}
+\begin{itemize}
+    \item \textbf{Definition:} Describes the relationship between molar flux and the concentration gradient.
+    \item \textbf{Mathematical Form (in z-direction):}
+    \begin{equation}
+        \J_{Az} = -\Dab \frac{d\cVar_A}{d\zVar}
+    \end{equation}
+    where:
+    \begin{itemize}
+        \item $\J_{Az}$ is the molar flux of component A in the z-direction (e.g., in kg mol/m$^2\cdot$s).
+        \item $\Dab$ is the \textbf{diffusion coefficient} or \textbf{diffusivity} of A in B (m$^2$/s). It is a property of the system.
+        \item $\cVar_A$ is the concentration of A (kg mol/m$^3$).
+        \item $\frac{d\cVar_A}{d\zVar}$ is the concentration gradient of A in the z-direction. The negative sign indicates that diffusion occurs from high to low concentration.
+    \end{itemize}
+    \item \textbf{For Gases (using Ideal Gas Law):} Concentration can be expressed in terms of partial pressure, $\cVar_A = \pVar_A / (\Rgas \T)$.
+    \begin{equation}
+        \J_{Az} = -\frac{\Dab}{\Rgas \T} \frac{d\pVar_A}{d\zVar}
+    \end{equation}
+\end{itemize}
+
+\section{Molecular Diffusion in Gases}
+
+\subsection{Convective Mass Transfer}
+When a fluid flows over a solid surface, mass transfer occurs under the influence of fluid motion (forced convection) in addition to molecular diffusion.
+\begin{itemize}
+    \item \textbf{Linear Driving Force Model:} The convective molar flux is often described using a mass-transfer coefficient $k_c$.
+    \begin{equation}
+        \N_A = k_c (c_{L1} - c_{Li})
+    \end{equation}
+    where:
+    \begin{itemize}
+        \item $k_c$ is the mass-transfer coefficient (m/s).
+        \item $c_{L1}$ is the bulk fluid concentration.
+        \item $c_{Li}$ is the concentration at the solid-fluid interface.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Equimolar Counter-diffusion}
+A special case where for every mole of A that diffuses in one direction, one mole of B diffuses in the opposite direction.
+\begin{itemize}
+    \item \textbf{Conditions:} Two gases A and B at constant total pressure $\Ptot$. The net molar flux is zero.
+    \item \textbf{Flux Relationship:} $\J_{Az} = -\J_{Bz}$
+    \item \textbf{Diffusivity Relationship:} This condition implies that the diffusion coefficients are equal: $\Dab = D_{BA}$.
+    \item \textbf{Integrated Flux Equation (Steady State):}
+    \begin{equation}
+        \J_{Az} = \frac{\Dab}{\Rgas \T (\zVar_2 - \zVar_1)} (\pVar_{A1} - \pVar_{A2})
+    \end{equation}
+\end{itemize}
+
+\subsection{Diffusion of Gases A and B plus Convection (General Case)}
+This case considers both molecular diffusion and the bulk motion of the fluid (convection).
+\begin{itemize}
+    \item The total flux of A relative to a stationary point, $\N_A$, is the sum of the diffusion flux relative to the moving fluid, $\J_A^*$, and the convective flux, $\cVar_A v_M$.
+    \begin{equation}
+        \N_A = \J_A^* + \cVar_A v_M
+    \end{equation}
+    where $v_M$ is the molar average velocity of the bulk fluid.
+    \item \textbf{General Equation for Diffusion plus Convection:}
+    \begin{equation}
+        \N_A = -c\Dab \frac{d\xVar_A}{d\zVar} + \frac{\cVar_A}{\cVar}(\N_A + \N_B)
+    \end{equation}
+    where $\cVar$ is total concentration and $\xVar_A$ is the mole fraction of A. The first term is the \textbf{diffusion term} and the second is the \textbf{convection term}.
+\end{itemize}
+
+\subsection{Diffusion of A through Stagnant, Non-diffusing B}
+A common scenario where one component (A) diffuses through another component (B) which is stationary. Examples include evaporation of a liquid (e.g., benzene) into air, or absorption of a gas (e.g., ammonia) from air into water.
+\begin{itemize}
+    \item \textbf{Condition:} The flux of component B is zero, $\N_B = 0$.
+    \item \textbf{Integrated Flux Equation (Steady State):} The flux of A is given by:
+    \begin{equation}
+        \N_A = \frac{\Dab \Ptot}{\Rgas \T (\zVar_2 - \zVar_1)} \ln \left( \frac{\Ptot - \pVar_{A2}}{\Ptot - \pVar_{A1}} \right)
+    \end{equation}
+    \item \textbf{Log Mean Partial Pressure Formulation:} The equation is often rewritten using the log mean partial pressure of the inert component B, $\pbm$:
+    \begin{equation}
+        \N_A = \frac{\Dab \Ptot}{\Rgas \T (\zVar_2 - \zVar_1) \pbm} (\pVar_{A1} - \pVar_{A2})
+    \end{equation}
+    where $\pbm$ is defined as:
+    \begin{equation}
+        \pbm = \frac{\pVar_{B2} - \pVar_{B1}}{\ln(\pVar_{B2}/\pVar_{B1})} = \frac{(\Ptot - \pVar_{A2}) - (\Ptot - \pVar_{A1})}{\ln((\Ptot - \pVar_{A2})/(\Ptot - \pVar_{A1}))}
+    \end{equation}
+\end{itemize}
+
+\subsection{Diffusion through Varying Cross-Sectional Area}
+\subsubsection*{1. Diffusion from a Sphere}
+For component A diffusing from the surface of a sphere (radius $r_1$) into a stagnant medium B.
+\begin{itemize}
+    \item \textbf{Flux at the sphere surface ($r=r_1$):}
+    \begin{equation}
+        \N_A|_{r=r_1} = \frac{\Dab \Ptot}{\Rgas \T r_1 \pbm} (\pVar_{A1} - \pVar_{A2})
+    \end{equation}
+    where $\pVar_{A2}$ is the partial pressure far from the sphere (often assumed to be 0).
+    \item \textbf{Time for Complete Evaporation:} If the sphere is evaporating, the time $t_F$ for it to evaporate completely is:
+    \begin{align}
+    t_F &= \frac{\rho_A r_1^2 \Rgas \T \pbm}{2 \MA \Dab \Ptot (\pVar_{A1} - \pVar_{A2})} \nonumber \\
+        &= \frac{\rho_A r_1^2 R T}{2 M_A D_{AB} P \ln \left(\frac{P - p_{A2}}{P - p_{A1}}\right)}
+    \end{align}
+    where $\rhoD_A$ is the density and $\MA$ is the molecular weight of the sphere material.
+\end{itemize}
+\subsubsection*{Special Case: Diffusion from a Sphere (Dilute Gas or Liquid)}
+A simplified form of the flux equation exists for the case of a dilute gas phase, where the partial pressure of the diffusing component A is very small compared to the total pressure ($\pVar_{A1} \ll \Ptot$). In this scenario, the log mean partial pressure of B can be approximated by the total pressure ($\pbm \approx \Ptot$). By substituting this approximation and expressing partial pressures in terms of concentrations (using $\cVar_A = \pVar_A / \Rgas \T$), a simpler equation is obtained.
+\begin{itemize}
+    \item \textbf{Applicability:} This equation is valid for dilute gases and is also the standard form used for diffusion from a spherical particle into a liquid.
+    \item \textbf{Simplified Flux Equation:}
+    \begin{equation}
+        \N_A = \frac{2\Dab}{D_1} (\cVar_{A1} - \cVar_{A2})
+    \end{equation}
+    where $D_1 = 2r_1$ is the diameter of the sphere.
+\end{itemize}
+\subsubsection*{2. Diffusion through a Conduit of Non-Uniform Cross-Sectional Area}
+Consider diffusion through a tapered circular conduit where the radius changes linearly from $r_1$ at point 1 to $r_2$ at point 2 over a length $L = z_2 - z_1$.
+
+\begin{itemize}
+    \item \textbf{Geometry Relation:} The radius $r$ at any position $z$ is given by:
+    \begin{equation}
+        r = \left( \frac{r_2 - r_1}{z_2 - z_1} \right) z + r_1
+    \end{equation}
+    \item \textbf{Integrated Flux Equation:} For steady-state diffusion of A through stagnant B:
+    \begin{equation}
+        \N_A = \frac{\Dab \Ptot}{\Rgas \T (z_2 - z_1) \pbm} \left( \frac{r_1 r_2}{r_{avg}^2} \right) (\pVar_{A1} - \pVar_{A2})
+    \end{equation}
+    \textit{Note: The slides simplify the integration result effectively to:}
+    \begin{equation}
+         \bar{N}_A = \frac{\Dab \Ptot \pi r_1 r_2}{\Rgas \T (z_2 - z_1) \pbm} (\pVar_{A1} - \pVar_{A2})
+    \end{equation}
+    where $\bar{N}_A$ is the total molar rate (kg mol/s), not flux.
+\end{itemize}
+\subsubsection*{Pseudo-Steady State Diffusion (Falling Liquid Level)}
+A common experimental setup (Arnold Cell) involves a liquid A evaporating in a narrow tube into gas B. As A evaporates, the liquid level $z$ drops from $z_0$ to $z_F$ over time $t_F$.
+
+\begin{itemize}
+    \item \textbf{Assumption:} The process is slow enough that the diffusion across the gas path is "pseudo-steady."
+    \item \textbf{Derivation:} By equating the molar flux $\N_A$ to the rate of liquid density change:
+    \begin{equation}
+        \N_A = \frac{\rho_A}{M_A} \frac{dz}{dt} = \frac{\Dab \Ptot}{\Rgas \T z \pbm} (\pVar_{A1} - \pVar_{A2})
+    \end{equation}
+    \item \textbf{Time to Evaporate ($t_F$):} Integrating from $t=0, z=z_0$ to $t=t_F, z=z_F$:
+    \begin{equation}
+        t_F = \frac{\rho_A \Rgas \T \pbm (z_F^2 - z_0^2)}{2 \MA \Dab \Ptot (\pVar_{A1} - \pVar_{A2})}
+    \end{equation}
+\end{itemize}
+
+\subsection{Diffusion Coefficients for Gases}
+\subsubsection*{a) Experimental Determination (Two-Bulb Method)}
+An apparatus with two bulbs of known volumes ($V_1$ and $V_2$) connected by a capillary of length L and cross-sectional area A is used. Initially, one bulb contains gas A and the other contains gas B. The valve is opened for a specific time $t$, allowing diffusion to occur. By measuring the final concentration in one of the bulbs (e.g., $c_2$ in bulb 2), the diffusion coefficient $\Dab$ can be calculated using the following integrated equation:
+\begin{equation}
+    \frac{c_{av} - c_2}{c_{av} - c_1} = \exp\left[ \frac{\Dab(V_1 + V_2)}{(L/A)V_2 V_1} t \right]
+\end{equation}
+where $c_1$ and $c_2$ are the concentrations in bulbs 1 and 2 at time $t$, and $c_{av}$ is the final average concentration at equilibrium.
+\subsubsection*{b) Semi-empirical Method of Fuller et al.}
+An empirical equation to estimate $\Dab$ for gas mixtures.
+\begin{equation}
+    \Dab = \frac{10^{-7} \T^{1.75} (1/\MA + 1/M_B)^{1/2}}{\Ptot [(\Sigma v_A)^{1/3} + (\Sigma v_B)^{1/3}]^2}
+\end{equation}
+where:
+\begin{itemize}
+    \item $\Dab$ is in m$^2$/s, $\T$ in K, $\Ptot$ in atm.
+    \item $\MA, M_B$ are the molecular weights of A and B (g/mol).
+    \item $\Sigma v$ are the sums of structural diffusion volume increments, found from tables for each atom/structure in the molecule.
+\end{itemize}
+\subsubsection*{d) Schmidt Number ($N_{Sc}$)}
+A dimensionless number relating momentum diffusivity to mass diffusivity.
+\begin{equation}
+    N_{Sc} = \frac{\mu}{\rhoD \Dab}
+\end{equation}
+where $\mu$ is viscosity and $\rhoD$ is density of the mixture. For gases, $N_{Sc}$ typically ranges from 0.5 to 2.0.
+
+\section{Molecular Diffusion in Liquids}
+Diffusion in liquids is conceptually similar to gases but significantly slower.
+\begin{itemize}
+    \item Molecules are packed much closer, leading to higher density and resistance to diffusion.
+    \item Diffusion coefficients in liquids are typically $10^5$ times smaller than in gases.
+    \item Diffusivity $\Dab$ often depends on concentration.
+\end{itemize}
+
+\subsection{Equimolar Counter-diffusion in Liquids}
+\begin{itemize}
+    \item \textbf{Integrated Flux Equation (Steady State):}
+    \begin{equation}
+        \N_A = \frac{\Dab(\cVar_{A1}-\cVar_{A2})}{\zVar_2-\zVar_1} = \frac{\Dab \cav (\xVar_{A1}-\xVar_{A2})}{\zVar_2-\zVar_1}
+    \end{equation}
+    where $\cav$ is the average total concentration of the solution    
+    \begin{equation}
+        \cav = \frac{1}{2} \left( \frac{\rho_1}{M_1} + \frac{\rho_2}{M_2} \right)
+    \end{equation}
+\end{itemize}
+
+\subsection{Diffusion of A through Stagnant, Non-diffusing B in Liquids}
+\begin{itemize}
+    \item \textbf{Condition:} $\N_B = 0$.
+    \item \textbf{Integrated Flux Equation (Steady State):}
+    \begin{equation}
+        \N_A = \frac{\Dab \cav}{(\zVar_2-\zVar_1)\xbm} (\xVar_{A1}-\xVar_{A2})
+    \end{equation}
+    where $\xbm$ is the log mean mole fraction of the stagnant component B:
+    \begin{equation}
+        \xbm = \frac{\xVar_{B2} - \xVar_{B1}}{\ln(\xVar_{B2}/\xVar_{B1})}
+    \end{equation}
+    \item \textbf{For Dilute Solutions:} When the solution is dilute, $\xbm \approx 1$ and the concentration $\cVar$ is nearly constant. The equation simplifies to Fick's Law form:
+    \begin{equation}
+        \N_A = \frac{\Dab(\cVar_{A1}-\cVar_{A2})}{\zVar_2-\zVar_1}
+    \end{equation}
+\end{itemize}
+
+\section{Diffusion in Solids}
+
+\subsection{Diffusion in Non-Porous Solids}
+Mass transfer in solids is extremely slow. The flux can still be described by Fick's Law.
+\begin{itemize}
+    \item \textbf{Radial Diffusion through a Solid Cylinder (Steady State):} The total rate of diffusion, $\bar{\N}_A$ (in kg mol/s), is:
+    \begin{equation}
+        \bar{\N}_A = \Dab (\cVar_{A1} - \cVar_{A2}) \frac{2\pi L}{\ln(r_2/r_1)}
+    \end{equation}
+    where L is the length of the cylinder, and $r_1, r_2$ are the inner and outer radii.
+\end{itemize}
+
+\subsection{Diffusion in Porous Solids}
+Diffusion occurs through the tortuous paths within the porous structure.
+\begin{itemize}
+    \item The diffusion path is longer than the physical thickness of the solid. This is accounted for by two factors:
+        \begin{itemize}
+            \item $\epsVoid$: The \textbf{void fraction} (open volume / total volume).
+            \item $\tortuosity$: The \textbf{tortuosity} (a factor correcting for the longer, twisted path, typically > 1).
+        \end{itemize}
+    \item \textbf{Effective Diffusivity ($D_{A,eff}$):} These factors are often combined into an effective diffusivity.
+    \begin{equation}
+        D_{A,eff} = \frac{\epsVoid}{\tortuosity} \Dab
+    \end{equation}
+    \item \textbf{Flux Equation for Liquids/Gases in Porous Solids (Dilute):}
+    \begin{equation}
+        \N_A = \frac{\epsVoid \Dab}{\tortuosity (\zVar_2 - \zVar_1)} (\cVar_{A1} - \cVar_{A2}) = \frac{D_{A,eff}}{(\zVar_2 - \zVar_1)} (\cVar_{A1} - \cVar_{A2})
+    \end{equation}
+\end{itemize}

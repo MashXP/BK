@@ -1,0 +1,144 @@
+
+% 1. DOCUMENT CLASS & CORE ENCODING
+%==============================================================================
+
+% --- Font and Input Encoding ---
+% For multilingual support (T5 for Vietnamese, T2A for Cyrillic)
+\RequirePackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% --- Language Support ---
+% It's good practice to declare document languages with babel
+% \usepackage[vietnamese, english]{babel}
+
+
+%==============================================================================
+% 2. PAGE LAYOUT & GEOMETRY
+%==============================================================================
+\usepackage{geometry}
+\geometry{
+  a4paper,
+  margin=0.5in % TIGHT MARGINS. Adjust this value as needed (e.g., 2cm, 1in).
+}
+
+\usepackage{fancyhdr}   % For custom headers and footers
+\usepackage{lastpage}   % For referencing the last page number
+
+% --- Paragraph Formatting ---
+\setlength{\parindent}{0pt} % No paragraph indentation
+\setlength{\parskip}{0.5em}  % Add some vertical space between paragraphs
+
+
+%==============================================================================
+% 3. TYPOGRAPHY & MATH
+%==============================================================================
+\usepackage{amsmath}    % Essential for mathematical formulas
+\usepackage{amssymb}    % Provides additional math symbols
+\usepackage{latexsym}   % Provides additional math symbols
+
+
+%==============================================================================
+% 4. TABLES, FIGURES, & GRAPHICS
+%==============================================================================
+\usepackage{graphicx}      % The modern standard for including images
+\usepackage{subcaption}    % For creating subfigures (e.g., Figure 1a, 1b)
+\usepackage{tikz}          % For drawing vector graphics
+\usetikzlibrary{arrows, backgrounds}
+
+% --- Advanced Table Packages ---
+\usepackage{array}         % Extends the column definitions for tables
+\usepackage{tabularx}      % Creates tables with columns that automatically adjust width
+\usepackage{multirow}      % For table cells that span multiple rows
+\usepackage{multicol}      % For creating multiple columns of text on a page
+\usepackage{hhline}        % Fancier horizontal lines in tables
+\usepackage{rotating}      % To rotate elements like figures or tables
+
+
+%==============================================================================
+% 5. LISTS, ALGORITHMS, & CODE LISTINGS
+%==============================================================================
+\usepackage{enumerate}     % For customizing enumerated lists
+\usepackage[lined,boxed,commentsnumbered]{algorithm2e} % For writing pseudocode
+
+\usepackage{xcolor}        % For defining and using colors
+\usepackage{listings}      % For typesetting source code
+
+
+%==============================================================================
+% 6. DOCUMENT STRUCTURE & REFERENCES
+%==============================================================================
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=blue
+}
+
+% --- Renaming Standard Titles ---
+% These commands ensure the names are set correctly when the document begins.
+\AtBeginDocument{
+    \renewcommand*\contentsname{Table of Contents}
+    \renewcommand*\refname{Nguồn tham khảo} % Reference name in Vietnamese
+}
+
+
+%==============================================================================
+% 7. CUSTOM DEFINITIONS & COMMANDS
+%==============================================================================
+
+% --- Theorem-like Environments ---
+\newtheorem{theorem}{{\bf Theorem}}
+\newtheorem{property}{{\bf Property}}
+\newtheorem{proposition}{{\bf Proposition}}
+\newtheorem{corollary}[proposition]{{\bf Corollary}}
+\newtheorem{lemma}[proposition]{{\bf Lemma}}
+
+% --- Header and Footer Setup ---
+% \pagestyle{fancy}
+% \fancyhf{} % Clear all header and footer fields
+% \fancyhead[R]{} % Your header was empty, can be configured here
+% \fancyfoot[L]{\scriptsize\ttfamily Mechanical Processing: Heat Transfer Theory \& Formula - Semester 242}
+% \fancyfoot[R]{\scriptsize\ttfamily Page \thepage/\pageref{LastPage}}
+% \renewcommand{\headrulewidth}{0.3pt}
+% \renewcommand{\footrulewidth}{0.3pt}
+
+% --- Custom SubSubSubSection Command ---
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+\makeatletter
+\newcounter{subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection .\@alph\c@subsubsubsection}
+\newcommand\subsubsubsection{\@startsection{subsubsubsection}{4}{\z@}%
+                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\normalfont\normalsize\bfseries}}
+\newcommand*\l@subsubsubsection{\@dottedtocline{3}{10.0em}{4.1em}}
+\newcommand*{\subsubsubsectionmark}[1]{}
+\makeatother
+
+% --- Custom Style for C Code Listings ---
+\definecolor{mGreen}{rgb}{0,0.7,0}
+\definecolor{mGray}{rgb}{0.5,0.5,0.5}
+\definecolor{mPurple}{rgb}{0.5,0,0.35}
+\definecolor{backgroundColour}{rgb}{0.97,0.97,0.97}
+
+\lstdefinestyle{CStyle}{
+    backgroundcolor=\color{backgroundColour},   
+    commentstyle=\color{mGreen},
+    keywordstyle=\color{red},
+    numberstyle=\tiny\color{mGray},
+    stringstyle=\color{mPurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                   
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    language=C
+}

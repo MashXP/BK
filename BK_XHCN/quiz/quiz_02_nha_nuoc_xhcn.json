@@ -1,0 +1,530 @@
+[
+  {
+    "question": "Về bản chất “Hệ thống chính trị xã hội chủ nghĩa” và “hệ thống chuyên chính vô sản” là thống nhất?",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng"
+  },
+  {
+    "question": "Nhà nước xã hội chủ nghĩa ra đời là kết quả của cuộc cách mạng nào?",
+    "options": [
+      "Cách mạng tư sản",
+      "Cách mạng vô sản",
+      "Cách mạng giải phóng dân tộc",
+      "Cách mạng văn hóa"
+    ],
+    "answer": "Cách mạng vô sản"
+  },
+  {
+    "question": "Cơ sở kinh tế của nhà nước xã hội chủ nghĩa là gì?",
+    "options": [
+      "Chế độ tư hữu về tư liệu sản xuất",
+      "Chế độ công hữu về tư liệu sản xuất chủ yếu",
+      "Kinh tế thị trường tự do",
+      "Kinh tế hỗn hợp"
+    ],
+    "answer": "Chế độ công hữu về tư liệu sản xuất chủ yếu"
+  },
+  {
+    "question": "Bản chất chính trị của nhà nước xã hội chủ nghĩa mang bản chất của giai cấp nào?",
+    "options": [
+      "Giai cấp nông dân",
+      "Giai cấp công nhân",
+      "Tầng lớp trí thức",
+      "Giai cấp tư sản"
+    ],
+    "answer": "Giai cấp công nhân"
+  },
+  {
+    "question": "Sự thống trị của giai cấp vô sản khác với các giai cấp bóc lột trước đây ở điểm nào?",
+    "options": [
+      "Là sự thống trị của thiểu số đối với đa số",
+      "Là sự thống trị của đa số đối với thiểu số",
+      "Không sử dụng bạo lực",
+      "Chỉ tập trung vào kinh tế"
+    ],
+    "answer": "Là sự thống trị của đa số đối với thiểu số"
+  },
+  {
+    "question": "Theo V.I. Lênin, nhà nước xã hội chủ nghĩa còn là nhà nước theo đúng nghĩa không?",
+    "options": [
+      "Là nhà nước theo đúng nghĩa",
+      "Là nửa nhà nước",
+      "Không còn là nhà nước",
+      "Là nhà nước siêu nhiên"
+    ],
+    "answer": "Là nửa nhà nước"
+  },
+  {
+    "question": "Chức năng của nhà nước xã hội chủ nghĩa được chia thành những loại nào dựa trên phạm vi tác động?",
+    "options": [
+      "Chức năng kinh tế và chính trị",
+      "Chức năng đối nội và đối ngoại",
+      "Chức năng trấn áp và tổ chức",
+      "Chức năng văn hóa và xã hội"
+    ],
+    "answer": "Chức năng đối nội và đối ngoại"
+  },
+  {
+    "question": "Trong nhà nước xã hội chủ nghĩa, chức năng nào đóng vai trò quyết định?",
+    "options": [
+      "Chức năng trấn áp",
+      "Chức năng tổ chức và xây dựng",
+      "Chức năng quân sự",
+      "Chức năng ngoại giao"
+    ],
+    "answer": "Chức năng tổ chức và xây dựng"
+  },
+  {
+    "question": "V.I. Lênin cho rằng, cơ sở kinh tế của bạo lực cách mạng là gì?",
+    "options": [
+      "Sức mạnh quân sự",
+      "Năng suất lao động xã hội cao hơn",
+      "Sự ủng hộ của quốc tế",
+      "Tài nguyên thiên nhiên"
+    ],
+    "answer": "Năng suất lao động xã hội cao hơn"
+  },
+  {
+    "question": "Mục tiêu hàng đầu của nhà nước xã hội chủ nghĩa là gì?",
+    "options": [
+      "Bảo vệ quyền lợi giai cấp thống trị",
+      "Mở rộng lãnh thổ",
+      "Chăm lo cho lợi ích của đại đa số nhân dân lao động",
+      "Duy trì trật tự đẳng cấp"
+    ],
+    "answer": "Chăm lo cho lợi ích của đại đa số nhân dân lao động"
+  },
+  {
+    "question": "Nhà nước xã hội chủ nghĩa là công cụ để thực hiện quyền lực của ai?",
+    "options": [
+      "Của riêng giai cấp công nhân",
+      "Của nhân dân",
+      "Của Đảng Cộng sản",
+      "Của các nhà tư bản"
+    ],
+    "answer": "Của nhân dân"
+  },
+  {
+    "question": "Mối quan hệ giữa dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa là gì?",
+    "options": [
+      "Dân chủ là cơ sở, nền tảng cho việc xây dựng nhà nước",
+      "Nhà nước là công cụ thực thi dân chủ",
+      "Cả a và b đều đúng",
+      "Không có mối quan hệ nào"
+    ],
+    "answer": "Cả a và b đều đúng"
+  },
+  {
+    "question": "Công cụ sắc bén nhất để ngăn chặn hành vi xâm phạm quyền lợi nhân dân trong CNXH là gì?",
+    "options": [
+      "Dư luận xã hội",
+      "Nhà nước xã hội chủ nghĩa",
+      "Các tổ chức phi chính phủ",
+      "Giáo dục đạo đức"
+    ],
+    "answer": "Nhà nước xã hội chủ nghĩa"
+  },
+  {
+    "question": "Theo Lênin, nhà nước kiểu mới trong thời kỳ quá độ là nhà nước:",
+    "options": [
+      "Dân chủ tư sản",
+      "Chuyên chính vô sản",
+      "Quân chủ lập hiến",
+      "Phong kiến tập quyền"
+    ],
+    "answer": "Chuyên chính vô sản"
+  },
+  {
+    "question": "Đặc điểm nào KHÔNG phải là đặc điểm của nhà nước xã hội chủ nghĩa?",
+    "options": [
+      "Mang bản chất giai cấp công nhân",
+      "Là công cụ của thiểu số trấn áp đa số",
+      "Đại diện cho ý chí của nhân dân",
+      "Đặt dưới sự lãnh đạo của Đảng Cộng sản"
+    ],
+    "answer": "Là công cụ của thiểu số trấn áp đa số"
+  },
+  {
+    "question": "Trong nhà nước xã hội chủ nghĩa, sự phân hóa giữa các giai cấp, tầng lớp diễn ra như thế nào?",
+    "options": [
+      "Ngày càng sâu sắc",
+      "Từng bước được thu hẹp",
+      "Giữ nguyên như cũ",
+      "Biến mất hoàn toàn ngay lập tức"
+    ],
+    "answer": "Từng bước được thu hẹp"
+  },
+  {
+    "question": "Chức năng trấn áp của nhà nước xã hội chủ nghĩa hướng vào đối tượng nào?",
+    "options": [
+      "Nhân dân lao động",
+      "Giai cấp bóc lột đã bị lật đổ và phần tử chống đối",
+      "Tầng lớp trí thức",
+      "Các dân tộc thiểu số"
+    ],
+    "answer": "Giai cấp bóc lột đã bị lật đổ và phần tử chống đối"
+  },
+  {
+    "question": "Nhà nước xã hội chủ nghĩa là tổ chức quản lý lĩnh vực nào của nhân dân?",
+    "options": [
+      "Chỉ kinh tế",
+      "Chỉ chính trị",
+      "Kinh tế, văn hóa, xã hội",
+      "Chỉ quân sự"
+    ],
+    "answer": "Kinh tế, văn hóa, xã hội"
+  },
+  {
+    "question": "Nhà nước xã hội chủ nghĩa được xây dựng trên nền tảng tinh thần là?",
+    "options": [
+      "Chủ nghĩa tự do",
+      "Lý luận chủ nghĩa Mác - Lênin và giá trị văn hóa tiến bộ",
+      "Tôn giáo",
+      "Chủ nghĩa dân tộc cực đoan"
+    ],
+    "answer": "Lý luận chủ nghĩa Mác - Lênin và giá trị văn hóa tiến bộ"
+  },
+  {
+    "question": "Cải tạo xã hội cũ, xây dựng thành công xã hội mới là nội dung chủ yếu của:",
+    "options": [
+      "Chức năng trấn áp",
+      "Chức năng tổ chức và xây dựng",
+      "Chức năng đối ngoại",
+      "Chức năng quân sự"
+    ],
+    "answer": "Chức năng tổ chức và xây dựng"
+  },
+  {
+    "question": "Đảng ta xem Nhà nước là gì trong hệ thống chính trị?",
+    "options": [
+      "Trụ cột",
+      "Lực lượng lãnh đạo",
+      "Cơ sở xã hội",
+      "Tổ chức quần chúng"
+    ],
+    "answer": "Trụ cột"
+  },
+  {
+    "question": "Để nhà nước xã hội chủ nghĩa không bị tha hóa, cần phải làm gì?",
+    "options": [
+      "Tăng cường quyền lực tuyệt đối",
+      "Kiểm soát quyền lực bằng nền dân chủ xã hội chủ nghĩa",
+      "Giảm bớt vai trò của pháp luật",
+      "Loại bỏ vai trò của Đảng"
+    ],
+    "answer": "Kiểm soát quyền lực bằng nền dân chủ xã hội chủ nghĩa"
+  },
+  {
+    "question": "Nhà nước xã hội chủ nghĩa ra đời khi nào?",
+    "options": [
+      "Khi giai cấp công nhân xuất hiện",
+      "Khi mâu thuẫn giai cấp gay gắt không thể điều hòa",
+      "Sau khi cách mạng vô sản thành công",
+      "Khi có đảng cộng sản"
+    ],
+    "answer": "Sau khi cách mạng vô sản thành công"
+  },
+  {
+    "question": "Sự trấn áp trong nhà nước xã hội chủ nghĩa là sự trấn áp của:",
+    "options": [
+      "Thiểu số với đa số",
+      "Đa số với thiểu số",
+      "Giai cấp này với giai cấp khác",
+      "Nhà nước với công dân"
+    ],
+    "answer": "Đa số với thiểu số"
+  },
+  {
+    "question": "Nguyên tắc tổ chức và hoạt động cơ bản của nhà nước xã hội chủ nghĩa là:",
+    "options": [
+      "Tam quyền phân lập",
+      "Tập trung dân chủ",
+      "Tự do vô chính phủ",
+      "Quân chủ chuyên chế"
+    ],
+    "answer": "Tập trung dân chủ"
+  },
+  {
+    "question": "Trong xã hội xã hội chủ nghĩa, giai cấp nào giữ địa vị thống trị về chính trị?",
+    "options": [
+      "Giai cấp tư sản",
+      "Giai cấp nông dân",
+      "Giai cấp vô sản (công nhân)",
+      "Tầng lớp trí thức"
+    ],
+    "answer": "Giai cấp vô sản (công nhân)"
+  },
+  {
+    "question": "Nhà nước xã hội chủ nghĩa là một thiết chế:",
+    "options": [
+      "Phi giai cấp",
+      "Mang tính giai cấp sâu sắc",
+      "Siêu giai cấp",
+      "Chỉ mang tính xã hội"
+    ],
+    "answer": "Mang tính giai cấp sâu sắc"
+  },
+  {
+    "question": "Nhà nước xã hội chủ nghĩa đại biểu cho:",
+    "options": [
+      "Lợi ích riêng của công nhân",
+      "Lợi ích của giai cấp tư sản",
+      "Ý chí chung của nhân dân lao động",
+      "Lợi ích của quan lại"
+    ],
+    "answer": "Ý chí chung của nhân dân lao động"
+  },
+  {
+    "question": "Về phương diện kinh tế, nhà nước XHCN không còn tồn tại:",
+    "options": [
+      "Quan hệ sản xuất",
+      "Lực lượng sản xuất",
+      "Quan hệ sản xuất bóc lột",
+      "Trao đổi hàng hóa"
+    ],
+    "answer": "Quan hệ sản xuất bóc lột"
+  },
+  {
+    "question": "Nhà nước xã hội chủ nghĩa thực hiện quyền lực của nhân dân thông qua:",
+    "options": [
+      "Các cơ quan đại diện và tham gia trực tiếp",
+      "Chỉ thông qua bầu cử",
+      "Chỉ thông qua biểu tình",
+      "Thông qua vũ lực"
+    ],
+    "answer": "Các cơ quan đại diện và tham gia trực tiếp"
+  },
+  {
+    "question": "Nếu nhà nước xã hội chủ nghĩa đánh mất bản chất của mình sẽ dẫn đến:",
+    "options": [
+      "Dân chủ phát triển",
+      "Xâm phạm quyền làm chủ của người dân, chuyên chế",
+      "Kinh tế tăng trưởng nhanh",
+      "Xã hội ổn định"
+    ],
+    "answer": "Xâm phạm quyền làm chủ của người dân, chuyên chế"
+  },
+  {
+    "question": "Chức năng nào thể hiện bản chất giai cấp của nhà nước rõ nét nhất?",
+    "options": [
+      "Chức năng xã hội",
+      "Chức năng trấn áp",
+      "Chức năng kinh tế",
+      "Chức năng văn hóa"
+    ],
+    "answer": "Chức năng trấn áp"
+  },
+  {
+    "question": "Nhà nước xã hội chủ nghĩa có nhiệm vụ gì đối với các giá trị văn hóa?",
+    "options": [
+      "Xóa bỏ hoàn toàn văn hóa cũ",
+      "Tiếp thu tinh hoa nhân loại và giữ gìn bản sắc dân tộc",
+      "Chỉ phát triển văn hóa vô sản",
+      "Ngăn cấm giao lưu văn hóa"
+    ],
+    "answer": "Tiếp thu tinh hoa nhân loại và giữ gìn bản sắc dân tộc"
+  },
+  {
+    "question": "Công cụ bạo lực trong nhà nước XHCN dùng để:",
+    "options": [
+      "Đàn áp nhân dân",
+      "Bảo vệ thành quả cách mạng và an ninh chính trị",
+      "Mở rộng lãnh thổ",
+      "Giải quyết mâu thuẫn nội bộ nhân dân"
+    ],
+    "answer": "Bảo vệ thành quả cách mạng và an ninh chính trị"
+  },
+  {
+    "question": "Sự ra đời của nhà nước XHCN là tất yếu khách quan do:",
+    "options": [
+      "Ý muốn của lãnh tụ",
+      "Mâu thuẫn giữa LLSX xã hội hóa cao và QHSX tư hữu TBCN",
+      "Sự can thiệp của nước ngoài",
+      "Sự suy đồi đạo đức"
+    ],
+    "answer": "Mâu thuẫn giữa LLSX xã hội hóa cao và QHSX tư hữu TBCN"
+  },
+  {
+    "question": "Nhà nước xã hội chủ nghĩa là kiểu nhà nước:",
+    "options": [
+      "Cuối cùng trong lịch sử",
+      "Tồn tại vĩnh viễn",
+      "Giống nhà nước tư bản",
+      "Phi lịch sử"
+    ],
+    "answer": "Cuối cùng trong lịch sử"
+  },
+  {
+    "question": "Cơ quan nào trong bộ máy nhà nước XHCN đại diện cao nhất cho quyền lực nhân dân?",
+    "options": [
+      "Chính phủ",
+      "Tòa án",
+      "Quốc hội (Cơ quan quyền lực nhà nước cao nhất)",
+      "Viện kiểm sát"
+    ],
+    "answer": "Quốc hội (Cơ quan quyền lực nhà nước cao nhất)"
+  },
+  {
+    "question": "Vai trò của Đảng Cộng sản đối với nhà nước XHCN là:",
+    "options": [
+      "Làm thay nhà nước",
+      "Lãnh đạo nhà nước",
+      "Đứng ngoài nhà nước",
+      "Phụ thuộc nhà nước"
+    ],
+    "answer": "Lãnh đạo nhà nước"
+  },
+  {
+    "question": "Cơ sở xã hội của nhà nước XHCN là:",
+    "options": [
+      "Khối đại đoàn kết toàn dân tộc dựa trên liên minh công - nông - trí thức",
+      "Giai cấp công nhân đơn độc",
+      "Tầng lớp doanh nhân",
+      "Giai cấp tư sản"
+    ],
+    "answer": "Khối đại đoàn kết toàn dân tộc dựa trên liên minh công - nông - trí thức"
+  },
+  {
+    "question": "Nhà nước XHCN quản lý xã hội chủ yếu bằng:",
+    "options": [
+      "Mệnh lệnh hành chính",
+      "Hiến pháp và pháp luật",
+      "Đạo đức",
+      "Phong tục tập quán"
+    ],
+    "answer": "Hiến pháp và pháp luật"
+  },
+  {
+    "question": "Trong thời kỳ quá độ, nhà nước XHCN cần thiết để:",
+    "options": [
+      "Duy trì bóc lột",
+      "Cải tạo xã hội cũ, xây dựng xã hội mới",
+      "Bảo vệ quyền lợi tư bản",
+      "Ngăn cản dân chủ"
+    ],
+    "answer": "Cải tạo xã hội cũ, xây dựng xã hội mới"
+  },
+  {
+    "question": "Theo quan điểm Mác - Lênin, khi chủ nghĩa cộng sản hoàn toàn thắng lợi, nhà nước sẽ:",
+    "options": [
+      "Phát triển mạnh mẽ nhất",
+      "Tự tiêu vong",
+      "Chuyển thành nhà nước toàn cầu",
+      "Trở thành lực lượng quân sự"
+    ],
+    "answer": "Tự tiêu vong"
+  },
+  {
+    "question": "Nhà nước XHCN bảo đảm quyền bình đẳng cho:",
+    "options": [
+      "Chỉ đảng viên",
+      "Mọi công dân",
+      "Chỉ giai cấp công nhân",
+      "Người giàu"
+    ],
+    "answer": "Mọi công dân"
+  },
+  {
+    "question": "Một trong những đặc trưng của nhà nước XHCN là:",
+    "options": [
+      "Quyền lực tập trung trong tay cá nhân",
+      "Không có pháp luật",
+      "Thực hiện dân chủ rộng rãi",
+      "Phân biệt chủng tộc"
+    ],
+    "answer": "Thực hiện dân chủ rộng rãi"
+  },
+  {
+    "question": "Sức mạnh của nhà nước XHCN bắt nguồn từ:",
+    "options": [
+      "Vũ khí hiện đại",
+      "Sự ủng hộ và tham gia của nhân dân",
+      "Viện trợ nước ngoài",
+      "Tài nguyên thiên nhiên"
+    ],
+    "answer": "Sự ủng hộ và tham gia của nhân dân"
+  },
+  {
+    "question": "Chức năng tổ chức và xây dựng của nhà nước XHCN thể hiện rõ nhất trong lĩnh vực:",
+    "options": [
+      "Quản lý kinh tế",
+      "Quân sự",
+      "Ngoại giao",
+      "An ninh"
+    ],
+    "answer": "Quản lý kinh tế"
+  },
+  {
+    "question": "Khác với nhà nước tư sản, nhà nước XHCN:",
+    "options": [
+      "Bảo vệ chế độ tư hữu",
+      "Xóa bỏ chế độ tư hữu, thiết lập công hữu",
+      "Duy trì áp bức",
+      "Không can thiệp kinh tế"
+    ],
+    "answer": "Xóa bỏ chế độ tư hữu, thiết lập công hữu"
+  },
+  {
+    "question": "Nhà nước XHCN là công cụ để giai cấp công nhân:",
+    "options": [
+      "Làm giàu cho bản thân",
+      "Tổ chức, lãnh đạo xã hội xây dựng CNXH",
+      "Đàn áp nông dân",
+      "Thỏa hiệp với tư sản"
+    ],
+    "answer": "Tổ chức, lãnh đạo xã hội xây dựng CNXH"
+  },
+  {
+    "question": "Để phát huy vai trò của nhà nước XHCN, cần phải:",
+    "options": [
+      "Quan liêu hóa bộ máy",
+      "Xây dựng nhà nước pháp quyền trong sạch, vững mạnh",
+      "Giảm bớt dân chủ",
+      "Tách rời Đảng và Nhà nước"
+    ],
+    "answer": "Xây dựng nhà nước pháp quyền trong sạch, vững mạnh"
+  },
+  {
+    "question": "Nhân dân tham gia vào công việc quản lý nhà nước, quản lý xã hội, thuộc về:",
+    "options": [
+      "Bản chất kinh tế nền dân chủ XHCN.",
+      "Bản chất chính trị nền dân chủ XHCN.",
+      "Bản chất tư tưởng nền dân chủ XHCN.",
+      "Cả a, b, c."
+    ],
+    "answer": "Bản chất chính trị nền dân chủ XHCN."
+  },
+  {
+    "question": "Cấu trúc cơ bản hệ thống chính trị: “ Đảng Cộng sản lãnh đạo, nhà nước quản lý và nhân dân làm chủ”, quan niệm đó của:",
+    "options": [
+      "Chủ nghĩa Mác – Lênin.",
+      "Liên – Xô.",
+      "Việt Nam.",
+      "Các nước XHCN."
+    ],
+    "answer": "Các nước XHCN."
+  },
+  {
+    "question": "Công cụ quản lý xã hội cơ bản nhất ở các nước XHCN là:",
+    "options": [
+      "Các tổ chức quần chúng.",
+      "Nhà nước XHCN.",
+      "Quốc hội.",
+      "Chính phủ."
+    ],
+    "answer": "Nhà nước XHCN."
+  },
+  {
+    "question": "Nâng cao hiệu quả hoạt động của nhà nước Việt Nam hiện nay cần thiết phải:",
+    "options": [
+      "Đổi mới quốc hội.",
+      "Đổi mới chính phủ.",
+      "Đổi mới các đoàn thể nhân dân.",
+      "Đổi mới toàn bộ hệ thống chính trị."
+    ],
+    "answer": "Đổi mới toàn bộ hệ thống chính trị."
+  }
+]

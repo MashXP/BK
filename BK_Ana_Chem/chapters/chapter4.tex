@@ -1,0 +1,97 @@
+\subsection*{Chapter 4: Conditional Equilibrium Constant}
+\subsubsection*{Alpha Coefficients ($\alpha$)}
+
+\textbf{Side Reaction Coefficient (Single Species):}
+\begin{equation}
+\alpha_{X(Z)}=\frac{[X^{\prime}]}{[X]}=1+\sum_{i=1}^{n}\beta_{1,i}[Z]^{i}
+\end{equation}
+
+\textbf{Side Reaction Coefficient (Multiple Species):}
+\begin{equation}
+\alpha_{X\{Z1,Z2\}}=\alpha_{X(Z1)}+\alpha_{X(Z2)}-1
+\end{equation}
+
+\subsubsection*{Redox Reactions}
+
+\paragraph*{Effect of pH on Conditional Potential ($E^{0\prime}$)}
+
+For the half-reaction: $\text{Ox} + ne + m H^{+} \rightleftharpoons \text{Red} + \frac{1}{2} m H_{2}O$
+\begin{equation}
+E^{0\prime}=E^{0}+\frac{0.059}{n}lg[H^{+}]^{m}
+\end{equation}
+
+
+\paragraph*{Effect of Complexation on Conditional Potential ($E^{0\prime}$)}
+
+Where Ox is affected by $Z_1$ and Red is affected by $Z_2$:
+\begin{equation}
+E^{0\prime}=E^{0}-\frac{0,059}{n}lg\frac{\alpha_{ox(Z_{1})}}{\alpha_{Red(Z_{2})}}
+\end{equation}
+
+
+\paragraph*{Effect of Precipitation on Conditional Potential ($E^{0\prime}$)}
+
+Where Ox forms precipitate $Ox(Z_1)$ and Red forms precipitate $Red(Z_2)$:
+\begin{equation}
+E^{0\prime}=E^{0}+\frac{0.059}{n}lg\frac{K_{sp[0x(Z1)]}}{K_{sp[Red(Z2)]}}
+\end{equation}
+
+
+\subsubsection*{Conditional Equilibrium Constant ($K^{\prime}$)}
+
+\textbf{For Redox Reactions:}
+\begin{equation}
+K^{\prime}=10^{\frac{n_{1}n_{2}(E_{1}^{0\prime}-E_{2}^{o\prime})}{0,059}}
+\end{equation}
+
+
+\subsubsection*{Conditional Equivalence Potential ($E_{equiv}^{\prime}$)}
+
+\textbf{Only $Ox_{1}/Red_{1}$ is affected by $H^{+}$:}
+\begin{equation}
+E_{equiv}^{\prime\prime}=\frac{n_{1}E_{1}^{o}+n_{2}E_{2}^{o}}{n_{1}+n_{2}}+\frac{0.059}{n_{1}+n_{2}}lg[H^{+}]^{m}
+\end{equation}
+
+
+\textbf{Both pairs affected by $H^{+}$ and secondary equilibria:}
+\begin{equation}
+E_{equiv}^{\prime}=\frac{n_{1}E_{1}^{o\prime}+n_{2}E_{2}^{o\prime}}{n_{1}+n_{2}}+\frac{0.059}{n_{1}+n_{2}}lg[H^{+}]^{m}
+\end{equation}
+
+\subsubsection*{Complexation Reactions}
+
+\paragraph*{Effect of Complexation on Formation Constant ($\beta^{\prime}$)}
+
+For the reaction $A^{\prime}+p^{\prime}\Leftrightarrow D^{\prime}$, where A, p, and D are all affected by secondary complexing agents $Z_1$, $Z_2$, and $Z_3$ respectively:
+\begin{equation}
+\beta^{\prime}=\beta\frac{\alpha_{D(Z3)}}{\alpha_{A(Z1)}\alpha_{p(Z2)}}
+\end{equation}
+
+
+\paragraph*{Effect of Precipitation on Formation Constant ($\beta_{D}^{\prime}$)}
+
+When reactants A and p form precipitates and the product D also forms a precipitate:
+\begin{equation}
+{\beta_{D}}^{\prime}=\beta_{D}.\frac{K_{sp[A(Z1)]}K_{sp[p(Z2)]}}{K_{sp[D(Z3)]}}
+\end{equation}
+
+\subsubsection*{Precipitation Reactions}
+
+\paragraph*{Effect of Complexation on Solubility Product ($K_{sp}^{\prime}$)}
+
+For a precipitate D formed from A and p ($A+p \rightleftharpoons D\downarrow$), where A and p are affected by complexing agents $Z_1$ and $Z_2$:
+\begin{equation}
+{K_{sp}}^{\prime}=[A^{\prime}].[p^{\prime}]=K_{sp}.\alpha_{A(Z1)}.\alpha_{p(Z2)}
+\end{equation}
+
+
+\textbf{General Stoichiometry ($nA + mp \rightarrow D\downarrow$):}
+\begin{equation}
+K_{sp}^{\prime}=K_{sp}.{\alpha^{n}}_{A(Z1)}.{\alpha^{m}}_{p(Z2)}
+\end{equation}
+
+
+\textbf{Conditional Solubility ($S^{\prime}$) due to complexation:}
+\begin{equation}
+S^{\prime}=K_{sp}(\frac{1}{[p]}+\beta_{1,1}+\beta_{1,2}[p]^{\prime}+\beta_{1,3}[p]^{2}...+\beta_{1,n}[p]^{n-1})
+\end{equation}

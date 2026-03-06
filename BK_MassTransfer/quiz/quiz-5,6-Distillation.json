@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What is the primary physical property difference used to separate components in distillation?",
+    "options": [
+      "Density",
+      "Viscosity",
+      "Volatility (or Boiling Point)",
+      "Solubility"
+    ],
+    "answer": "Volatility (or Boiling Point)"
+  },
+  {
+    "question": "In a single-stage flash distillation process, the liquid and vapor phases leaving the separator are assumed to be in what state?",
+    "options": [
+      "Superheated state",
+      "Equilibrium",
+      "Subcooled state",
+      "Non-equilibrium"
+    ],
+    "answer": "Equilibrium"
+  },
+  {
+    "question": "Which variable represents the fraction of feed that is vaporized in flash distillation?",
+    "options": [
+      "q",
+      "f",
+      "R",
+      "alpha"
+    ],
+    "answer": "f"
+  },
+  {
+    "question": "What is the equation for the total mass balance in a single-stage flash distillation where F is feed, D is distillate, and B is bottoms?",
+    "options": [
+      "F = D - B",
+      "F = D + B",
+      "F = D * B",
+      "F = D / B"
+    ],
+    "answer": "F = D + B"
+  },
+  {
+    "question": "In differential (batch) distillation, how does the composition of the liquid in the still change over time?",
+    "options": [
+      "It remains constant",
+      "It becomes richer in the more volatile component",
+      "It becomes leaner in the more volatile component",
+      "It fluctuates randomly"
+    ],
+    "answer": "It becomes leaner in the more volatile component"
+  },
+  {
+    "question": "Which equation is used to relate the change in liquid amount to the change in composition during differential distillation?",
+    "options": [
+      "Fenske Equation",
+      "Rayleigh Equation",
+      "McCabe-Thiele Equation",
+      "Antoine Equation"
+    ],
+    "answer": "Rayleigh Equation"
+  },
+  {
+    "question": "Steam distillation is primarily used for separating what type of mixtures?",
+    "options": [
+      "Gases with low boiling points",
+      "High boiling components that are heat sensitive or immiscible with water",
+      "Azeotropic mixtures of ethanol and water",
+      "Mixtures with very low viscosity"
+    ],
+    "answer": "High boiling components that are heat sensitive or immiscible with water"
+  },
+  {
+    "question": "In the McCabe-Thiele method, what does the 45-degree line represent?",
+    "options": [
+      "The equilibrium curve",
+      "The q-line",
+      "The line where x = y",
+      "The feed line"
+    ],
+    "answer": "The line where x = y"
+  },
+  {
+    "question": "What component is used to produce a reflux liquid in a distillation column?",
+    "options": [
+      "Reboiler",
+      "Total Condenser",
+      "Feed Pump",
+      "Expansion Valve"
+    ],
+    "answer": "Total Condenser"
+  },
+  {
+    "question": "What is the name of the section of the column above the feed stage?",
+    "options": [
+      "Stripping Section",
+      "Rectifying (Enriching) Section",
+      "Flash Section",
+      "Reboiler Section"
+    ],
+    "answer": "Rectifying (Enriching) Section"
+  },
+  {
+    "question": "In a flash distillation plot of y vs x, what is the slope of the operating line?",
+    "options": [
+      "-(1-f)/f",
+      "R/(R+1)",
+      "q/(q-1)",
+      "L/V"
+    ],
+    "answer": "-(1-f)/f"
+  },
+  {
+    "question": "If the feed to a flash distillation unit is 100 mol/s and the vapor product is 60 mol/s, what is the value of f?",
+    "options": [
+      "0.4",
+      "0.6",
+      "1.0",
+      "0.5"
+    ],
+    "answer": "0.6"
+  },
+  {
+    "question": "In steam distillation, the total pressure P is the sum of which two pressures?",
+    "options": [
+      "Pressure of the liquid and pressure of the vapor",
+      "Vapor pressure of water (PA) and vapor pressure of the organic component (PB)",
+      "Atmospheric pressure and gauge pressure",
+      "Inlet pressure and outlet pressure"
+    ],
+    "answer": "Vapor pressure of water (PA) and vapor pressure of the organic component (PB)"
+  },
+  {
+    "question": "What is the defining characteristic of 'Constant Molar Overflow' in the McCabe-Thiele method?",
+    "options": [
+      "Temperature is constant throughout the column",
+      "Pressure is constant throughout the column",
+      "Molar flow rates of liquid and vapor are constant within each section of the column",
+      "The reflux ratio is infinite"
+    ],
+    "answer": "Molar flow rates of liquid and vapor are constant within each section of the column"
+  },
+  {
+    "question": "The operating line for the rectifying section in McCabe-Thiele is given by: y = (R/R+1)x + ____?",
+    "options": [
+      "xD/(R+1)",
+      "xB/(R+1)",
+      "xF/(q-1)",
+      "xD/R"
+    ],
+    "answer": "xD/(R+1)"
+  },
+  {
+    "question": "What does the 'q' value represent in the context of the feed condition?",
+    "options": [
+      "The reflux ratio",
+      "The heat needed to vaporize 1 mole of feed divided by the molar latent heat",
+      "The fraction of feed that is already vapor",
+      "The relative volatility"
+    ],
+    "answer": "The heat needed to vaporize 1 mole of feed divided by the molar latent heat"
+  },
+  {
+    "question": "If the feed enters the column as a saturated liquid (at its boiling point), what is the value of q?",
+    "options": [
+      "q = 0",
+      "q = 1",
+      "q > 1",
+      "0 < q < 1"
+    ],
+    "answer": "q = 1"
+  },
+  {
+    "question": "If the feed enters as a saturated vapor (at its dew point), what is the value of q?",
+    "options": [
+      "q = 0",
+      "q = 1",
+      "q < 0",
+      "q > 1"
+    ],
+    "answer": "q = 0"
+  },
+  {
+    "question": "What is the slope of the q-line in the McCabe-Thiele diagram?",
+    "options": [
+      "q",
+      "q / (q - 1)",
+      "-q / (1 - q)",
+      "1 / (q - 1)"
+    ],
+    "answer": "q / (q - 1)"
+  },
+  {
+    "question": "Which section of the column extends from the bottom to the feed stage?",
+    "options": [
+      "Rectifying Section",
+      "Enriching Section",
+      "Stripping Section",
+      "Condensing Section"
+    ],
+    "answer": "Stripping Section"
+  },
+  {
+    "question": "In the stripping section operating line equation, what does 'B' represent?",
+    "options": [
+      "Bottoms product flow rate",
+      "Boilup rate",
+      "Benzene concentration",
+      "Bubble point"
+    ],
+    "answer": "Bottoms product flow rate"
+  },
+  {
+    "question": "What occurs when the reflux ratio R is set to Total Reflux?",
+    "options": [
+      "Minimum number of trays are required",
+      "Maximum number of trays are required",
+      "No separation occurs",
+      "Infinite product is produced"
+    ],
+    "answer": "Minimum number of trays are required"
+  },
+  {
+    "question": "At Total Reflux, the operating lines for both sections coincide with which line?",
+    "options": [
+      "The equilibrium curve",
+      "The q-line",
+      "The 45-degree diagonal line (y = x)",
+      "The x-axis"
+    ],
+    "answer": "The 45-degree diagonal line (y = x)"
+  },
+  {
+    "question": "What condition leads to an infinite number of trays being required for a separation?",
+    "options": [
+      "Total Reflux",
+      "Minimum Reflux Ratio",
+      "Optimum Reflux Ratio",
+      "Saturated Liquid Feed"
+    ],
+    "answer": "Minimum Reflux Ratio"
+  },
+  {
+    "question": "The 'pinch point' in a McCabe-Thiele diagram typically occurs at the intersection of the operating lines and the __________.",
+    "options": [
+      "45-degree line",
+      "Equilibrium curve",
+      "x-axis",
+      "y-axis"
+    ],
+    "answer": "Equilibrium curve"
+  },
+  {
+    "question": "What is the typical range for the optimum reflux ratio in terms of the minimum reflux ratio (Rm)?",
+    "options": [
+      "0.5 Rm to 0.8 Rm",
+      "1.0 Rm (exactly)",
+      "1.2 Rm to 1.5 Rm",
+      "5.0 Rm to 10.0 Rm"
+    ],
+    "answer": "1.2 Rm to 1.5 Rm"
+  },
+  {
+    "question": "The Fenske equation is used to calculate what?",
+    "options": [
+      "Minimum reflux ratio",
+      "Minimum number of theoretical steps (Nm) at total reflux",
+      "The height of the column",
+      "The pressure drop across the trays"
+    ],
+    "answer": "Minimum number of theoretical steps (Nm) at total reflux"
+  },
+  {
+    "question": "How is the overall column efficiency (Eo) defined?",
+    "options": [
+      "Eo = Actual Stages / Theoretical Stages",
+      "Eo = Theoretical Stages / Actual Stages",
+      "Eo = Reflux Ratio / Minimum Reflux",
+      "Eo = 1 - (Bottoms / Feed)"
+    ],
+    "answer": "Eo = Theoretical Stages / Actual Stages"
+  },
+  {
+    "question": "If a column requires 8 theoretical stages (including reboiler) and the efficiency is 50%, how many actual stages are needed?",
+    "options": [
+      "4",
+      "8",
+      "12",
+      "16"
+    ],
+    "answer": "16"
+  },
+  {
+    "question": "In a McCabe-Thiele construction, the triangle steps drawn between the operating lines and equilibrium curve represent what?",
+    "options": [
+      "Reflux drums",
+      "Condensers",
+      "Theoretical stages (trays)",
+      "Feed points"
+    ],
+    "answer": "Theoretical stages (trays)"
+  },
+  {
+    "question": "When q > 1, what is the physical state of the feed?",
+    "options": [
+      "Saturated Liquid",
+      "Saturated Vapor",
+      "Mixture of Liquid and Vapor",
+      "Subcooled Liquid (Liquid below boiling point)"
+    ],
+    "answer": "Subcooled Liquid (Liquid below boiling point)"
+  },
+  {
+    "question": "When 0 < q < 1, what is the physical state of the feed?",
+    "options": [
+      "Subcooled Liquid",
+      "Superheated Vapor",
+      "Mixture of Liquid and Vapor",
+      "Saturated Liquid"
+    ],
+    "answer": "Mixture of Liquid and Vapor"
+  },
+  {
+    "question": "What is the y-intercept of the rectifying section operating line in the McCabe-Thiele plot?",
+    "options": [
+      "xD",
+      "xD / (R + 1)",
+      "xF / (q - 1)",
+      "R / (R + 1)"
+    ],
+    "answer": "xD / (R + 1)"
+  },
+  {
+    "question": "In differential distillation, if alpha (relative volatility) is constant, which equation is used to find the relationship between L1, L2, x1, and x2?",
+    "options": [
+      "Rayleigh equation integrated with relative volatility",
+      "Fenske equation",
+      "Underwood equation",
+      "Gilliland correlation"
+    ],
+    "answer": "Rayleigh equation integrated with relative volatility"
+  },
+  {
+    "question": "Calculate the value of q if the heat to vaporize 1 mole of feed is 100 kJ and the molar latent heat is 50 kJ.",
+    "options": [
+      "0.5",
+      "1.0",
+      "2.0",
+      "5000"
+    ],
+    "answer": "2.0"
+  },
+  {
+    "question": "A distillation column has a partial reboiler. Does this reboiler count as a theoretical stage?",
+    "options": [
+      "Yes, always",
+      "No, never",
+      "Only if it is a kettle reboiler",
+      "Only if efficiency is 100%"
+    ],
+    "answer": "Yes, always"
+  },
+  {
+    "question": "A feed of 100 mol/h contains 40% A and 60% B. If the distillate D is 40 mol/h, what is the bottoms B flow rate?",
+    "options": [
+      "40 mol/h",
+      "60 mol/h",
+      "100 mol/h",
+      "20 mol/h"
+    ],
+    "answer": "60 mol/h"
+  },
+  {
+    "question": "If a feed is superheated vapor, what is the slope of the q-line?",
+    "options": [
+      "Vertical (Undefined slope)",
+      "Horizontal (Slope = 0)",
+      "Positive slope (0 < m < 1)",
+      "Negative slope (between 0 and 1)"
+    ],
+    "answer": "Positive slope (0 < m < 1)"
+  },
+  {
+    "question": "In the context of the Fenske equation, what does 'alpha_av' represent?",
+    "options": [
+      "The relative volatility of the feed only",
+      "The geometric mean of the relative volatility at the top and bottom of the column",
+      "The arithmetic mean of all stage volatilities",
+      "The viscosity average"
+    ],
+    "answer": "The geometric mean of the relative volatility at the top and bottom of the column"
+  },
+  {
+    "question": "Why is steam distillation essentially a special case of differential distillation?",
+    "options": [
+      "Because it uses high pressure",
+      "Because no reflux is used and vapors are removed as they form",
+      "Because it uses a total condenser",
+      "Because it requires a fractionating column"
+    ],
+    "answer": "Because no reflux is used and vapors are removed as they form"
+  },
+  {
+    "question": "If a McCabe-Thiele analysis determines that 7.6 theoretical stages are required for separation, and the column uses a partial reboiler (which acts as one stage), how many theoretical trays are required inside the column?",
+    "options": [
+      "7.6",
+      "8.6",
+      "6.6",
+      "7"
+    ],
+    "answer": "6.6"
+  },
+  {
+    "question": "Derive the q-line slope for a saturated liquid feed (q=1). The slope is:",
+    "options": [
+      "0",
+      "1",
+      "Infinity (Vertical line)",
+      "-1"
+    ],
+    "answer": "Infinity (Vertical line)"
+  },
+  {
+    "question": "Consider a Benzene-Toluene distillation where the feed enters at 327.6 K. If the boiling point (bubble point) of the feed is 366.7 K, which of the following is true for the q value?",
+    "options": [
+      "q < 1 (Superheated vapor)",
+      "q = 1 (Saturated liquid)",
+      "q > 1 (Subcooled liquid)",
+      "q = 0 (Saturated vapor)"
+    ],
+    "answer": "q > 1 (Subcooled liquid)"
+  },
+  {
+    "question": "For a stripping section operating line, if V_m+1 = 100 and B = 50, what is L_m?",
+    "options": [
+      "50",
+      "100",
+      "150",
+      "200"
+    ],
+    "answer": "150"
+  },
+  {
+    "question": "If the Relative Volatility (alpha) is 1.0, what does this imply about the separation?",
+    "options": [
+      "Separation is very easy",
+      "Separation is impossible by simple distillation",
+      "The mixture is ideal",
+      "The column requires only one tray"
+    ],
+    "answer": "Separation is impossible by simple distillation"
+  },
+  {
+    "question": "In the Rayleigh equation integration, what graphical method is used to determine the value of the integral?",
+    "options": [
+      "Plotting 1/(y-x) vs x and finding the area under the curve",
+      "Plotting y vs x and finding the slope",
+      "Plotting T vs x and finding the maximum",
+      "Plotting P vs T"
+    ],
+    "answer": "Plotting 1/(y-x) vs x and finding the area under the curve"
+  },
+  {
+    "question": "When calculating the minimum reflux ratio (Rm), the operating line passes through xD and intersects the equilibrium curve at the 'pinch point'. If the feed is a saturated liquid/vapor mix, where does this pinch point usually occur?",
+    "options": [
+      "At y = 0",
+      "At y = 1",
+      "At the intersection of the q-line and the equilibrium curve",
+      "At the origin"
+    ],
+    "answer": "At the intersection of the q-line and the equilibrium curve"
+  },
+  {
+    "question": "If the rectifying operating line has a slope of 0.8, what is the reflux ratio R? (Hint: Slope = R / (R+1))",
+    "options": [
+      "0.8",
+      "1.0",
+      "4.0",
+      "5.0"
+    ],
+    "answer": "4.0"
+  },
+  {
+    "question": "Consider a differential distillation of 100 moles of feed. If 40 moles are distilled off (V=40), how many moles are left in the still (L2)?",
+    "options": [
+      "40",
+      "60",
+      "100",
+      "140"
+    ],
+    "answer": "60"
+  },
+  {
+    "question": "In a steam distillation process operating at total pressure P, if the vapor pressure of water is PA, how is the vapor composition of water (yA) calculated?",
+    "options": [
+      "yA = PA / P",
+      "yA = P / PA",
+      "yA = Moles of Water / Moles of Organic",
+      "yA = 0.5 (always)"
+    ],
+    "answer": "yA = PA / P"
+  }
+]

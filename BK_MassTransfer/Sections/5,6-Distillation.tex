@@ -1,0 +1,146 @@
+
+
+% --- Custom Commands for Variables ---
+\newcommand{\Vvar}{V}      % Molar Vapor Amount/Rate
+\newcommand{\q}{q}         % Feed thermal condition parameter
+\newcommand{\R}{R}         % Reflux Ratio
+\newcommand{\Nmin}{N_{\text{min}}} % Minimum number of stages
+\newcommand{\Rmin}{R_{\text{min}}} % Minimum reflux ratio
+
+\section{Single-Stage Distillation Techniques}
+
+\subsection{Equilibrium or Flash Distillation}
+A continuous, single-stage process where a heated liquid feed is partially vaporized by pressure reduction.
+\begin{itemize}
+    \item \textbf{Process:} Liquid is heated, then pressure is reduced across an expansion valve, causing it to "flash" into a two-phase mixture, which is then separated in a drum.
+    \item \textbf{Material Balances:}
+    \begin{align}
+        \text{Total:} \quad \F &= \D + \B \\
+        \text{Component:} \quad \F\xVar_F &= \D\yVar_D + \B\xVar_B
+    \end{align}
+    where $\F, \D, \B$ are feed, distillate (vapor), and bottoms (liquid) flow rates.
+    \item \textbf{Operating Line Equation:} Let $\fvap = \D/\F$ be the fraction of feed vaporized. The material balance rearranges into a linear equation (the operating line).
+    \begin{equation}
+        \yVar_D = -\frac{1-\fvap}{\fvap}\xVar_B + \frac{\xVar_F}{\fvap}
+    \end{equation}
+    \item \textbf{Solution:} Compositions ($\yVar_D$, $\xVar_B$) are found at the intersection of this operating line and the equilibrium curve on the x-y diagram.
+\end{itemize}
+
+\subsection{Simple Batch or Differential Distillation}
+An unsteady-state process where a charge of liquid is boiled, and the vapor is continuously removed and condensed. Compositions change with time; the liquid becomes leaner in the more volatile component.
+\begin{itemize}
+    \item \textbf{Rayleigh Equation:} Relates initial and final amounts of liquid to their compositions.
+    \begin{equation}
+        \ln\left(\frac{\Lvar_1}{\Lvar_2}\right) = \int_{\xVar_2}^{\xVar_1} \frac{d\xVar}{\yVar - \xVar}
+    \end{equation}
+    where $\Lvar_1, \xVar_1$ are initial moles and mole fraction, and $\Lvar_2, \xVar_2$ are final values. The integral is solved graphically or numerically.
+    \item \textbf{With Constant Relative Volatility:} If $\alphaRel$ is constant (Note: If $\alphaRel = 1$, separation is impossible), the equation can be integrated analytically:
+    \begin{equation}
+        \ln\left(\frac{\Lvar_1}{\Lvar_2}\right) = \frac{1}{\alphaRel-1} \left[ \ln\left(\frac{\xVar_1}{\xVar_2}\right) + \alphaRel \ln\left(\frac{1-\xVar_2}{1-\xVar_1}\right) \right]
+    \end{equation}
+\end{itemize}
+
+\subsection{Simple Steam Distillation}
+Used to separate high-boiling, temperature-sensitive components from non-volatile impurities by co-distilling with an immiscible liquid (water). This process is a special case of differential distillation where no reflux is used and vapors are removed as they form.
+\begin{itemize}
+    \item \textbf{Principle:} The mixture boils when the sum of the partial pressures (equal to the pure component vapor pressures) equals the total system pressure.
+    \begin{equation}
+        \Ptot = \Pvap_A + \Pvap_B
+    \end{equation}
+    This allows boiling at a temperature below 100$^{\circ}$C (at 1 atm).
+    \item \textbf{Vapor Composition:} The composition of the vapor is determined by the ratio of the vapor pressures.
+    \begin{equation}
+        \yVar_A = \frac{\Pvap_A}{\Ptot} \quad ; \quad \yVar_B = \frac{\Pvap_B}{\Ptot}
+    \end{equation}
+\end{itemize}
+
+\section{Multi-Stage Continuous Distillation (McCabe-Thiele)}
+A graphical method for determining the number of theoretical stages for a binary distillation column.
+
+\subsection{Assumptions (Constant Molar Overflow - CMO)}
+\begin{itemize}
+    \item Molar heats of vaporization of components are equal.
+    \item Heat effects (heat of solution, heat losses) are negligible.
+    \item \textbf{Result:} Molar liquid ($\Lvar$) and vapor ($\Vvar$) flow rates are constant within each section of the column (above and below the feed).
+\end{itemize}
+
+\subsection{Operating Lines}
+\begin{itemize}
+    \item \textbf{Rectifying Section (Top):} Material balance from the top of the column down to a stage $n$.
+    \begin{equation}
+        \yVar_{n+1} = \frac{\Lvar}{\Vvar} \xVar_n + \frac{\D}{\Vvar} \xVar_D
+    \end{equation}
+    Using the reflux ratio $\R = \Lvar/\D$ (established by a Total Condenser) and $\Vvar = \Lvar + \D$, this becomes:
+    \begin{equation}
+        \yVar_{n+1} = \frac{\R}{\R+1} \xVar_n + \frac{1}{\R+1} \xVar_D
+    \end{equation}
+    This line has a slope of $\frac{\R}{\R+1}$ and intersects the y-axis at $\frac{\xVar_D}{\R+1}$. It always passes through the point $(\xVar_D, \xVar_D)$ on the $y=x$ line.
+
+    \item \textbf{Stripping Section (Bottom):} Material balance from the bottom up to a stage $m$.
+    \begin{equation}
+        \yVar_{m+1} = \frac{\bar{\Lvar}}{\bar{\Vvar}} \xVar_m - \frac{\B}{\bar{\Vvar}} \xVar_B
+    \end{equation}
+    where $\bar{\Lvar}$ and $\bar{\Vvar}$ are the liquid and vapor rates in the stripping section. This line always passes through the point $(\xVar_B, \xVar_B)$ on the $y=x$ line.
+\end{itemize}
+
+\subsection{The Feed Line (q-line)}
+Represents the thermal condition of the feed. It is the locus of intersection points of the two operating lines.
+\begin{itemize}
+    \item \textbf{Definition of $\q$:} Moles of saturated liquid produced on the feed plate per mole of feed added.
+    \begin{equation}
+        \q = \frac{\text{heat to vaporize 1 mol feed}}{\text{molar latent heat of vaporization}} = \frac{H_V - H_F}{H_V - H_L}
+    \end{equation}
+    \item \textbf{q-line Equation:} Derived by combining the two operating lines.
+    \begin{equation}
+        \yVar = \frac{\q}{\q-1} \xVar - \frac{\xVar_F}{\q-1}
+    \end{equation}
+    This line passes through $(\xVar_F, \xVar_F)$ with a slope of $\frac{\q}{\q-1}$.
+    \item \textbf{Feed Conditions and q-line Slope:}
+    \begin{center}
+        \resizebox{\columnwidth}{!}{%
+        \begin{tabular}{|l|l|c|c|}
+            \hline
+            \textbf{Feed Condition} & \textbf{Description} & \textbf{q Value} & \textbf{Slope ($\q/(\q-1)$)} \\ \hline
+            Subcooled Liquid        & $T < T_{\text{bubble}}$ & $\q > 1$         & Positive ($>1$)                 \\
+            Saturated Liquid        & $T = T_{\text{bubble}}$ & $\q = 1$         & Infinite (Vertical)             \\
+            Liquid + Vapor Mix      & $T_{\text{bubble}} < T < T_{\text{dew}}$ & $0 < \q < 1$     & Negative                        \\
+            Saturated Vapor         & $T = T_{\text{dew}}$    & $\q = 0$         & Zero (Horizontal)               \\
+            Superheated Vapor       & $T > T_{\text{dew}}$    & $\q < 0$         & Positive ($<1$)                 \\ \hline
+        \end{tabular}%
+        }
+    \end{center}
+\end{itemize}
+
+\subsection{Graphical Construction of Stages}
+\begin{enumerate}
+    \item Plot the equilibrium curve and the $y=x$ line.
+    \item Mark the compositions $\xVar_F, \xVar_D, \xVar_B$ on the $y=x$ line.
+    \item Draw the \textbf{q-line} from $(\xVar_F, \xVar_F)$ with slope $\q/(\q-1)$.
+    \item Draw the \textbf{rectifying operating line} from $(\xVar_D, \xVar_D)$ to the intersection with the q-line.
+    \item Draw the \textbf{stripping operating line} from $(\xVar_B, \xVar_B)$ to the same intersection point.
+    \item \textbf{Step off stages:} Starting from $(\xVar_D, \xVar_D)$, draw a horizontal line to the equilibrium curve, then a vertical line to the operating line. Each "step" is one theoretical stage. Continue until the liquid composition $\xVar$ is $\le \xVar_B$.
+    \item The number of steps is the number of theoretical stages (the reboiler counts as one stage).
+\end{enumerate}
+
+\subsection{Limiting Conditions}
+\begin{itemize}
+    \item \textbf{Total Reflux ($\R = \infty$):} No product is withdrawn ($\D=0, \B=0$). Both operating lines coincide with the $y=x$ line. This condition requires the \textbf{minimum number of stages ($\Nmin$)}.
+    \begin{itemize}
+        \item \textbf{Fenske Equation} (for constant $\alphaRel$):
+        \begin{equation}
+            \Nmin = \frac{\log \left[ \left( \frac{\xVar_D}{1-\xVar_D} \right) \left( \frac{1-\xVar_B}{\xVar_B} \right) \right]}{\log(\alphaRel_{av})}
+        \end{equation}
+        where $\alphaRel_{av} = \sqrt{\alphaRel_{\text{top}} \alphaRel_{\text{bottom}}}$ is the geometric mean relative volatility.
+    \end{itemize}
+    \item \textbf{Minimum Reflux ($\Rmin$):} The lowest reflux ratio that can achieve the desired separation. The intersection of the operating lines occurs on the equilibrium curve (the "pinch point"). This condition requires an \textbf{infinite number of stages}.
+    \item \textbf{Optimum Reflux Ratio:} The actual operating reflux ratio is an economic trade-off between capital cost (number of stages) and operating cost (energy for reboiler/condenser). It is typically in the range of $\mathbf{1.2 \Rmin}$ to $\mathbf{1.5 \Rmin}$.
+\end{itemize}
+
+\subsection{Tray Efficiency}
+Relates theoretical stages to the actual physical trays needed in a column.
+\begin{itemize}
+    \item \textbf{Overall Column Efficiency ($E_o$):}
+    \begin{equation}
+        E_o = \frac{\text{Number of theoretical stages}}{\text{Number of actual trays}} = \frac{N}{N_A}
+    \end{equation}
+\end{itemize}

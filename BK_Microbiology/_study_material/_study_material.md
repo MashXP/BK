@@ -1,0 +1,15 @@
+# _study_material
+
+- [[1.History of Microbiology_Study_Guide.md]]
+- [[11.Viruses_Viroids_Prions_Study_Guide.md]]
+- [[12.Identification of Microorganisms_Study_Guide.md]]
+- [[13. SCP production_Study_Guide.md]]
+- [[14. Ethanol production_Study_Guide.md]]
+- [[15. Penicillin production_Study_Guide.md]]
+- [[2-3.Bacteria_Study_Guide.md]]
+- [[4.The Control of Microbial Growth_Study_Guide.md]]
+- [[5.Microbial Growth_Study_Guide.md]]
+- [[6.The Growth of Bacterial Cultures_Study_Guide.md]]
+- [[7. Yeasts_Study_Guide.md]]
+- [[8. Molds_Study_Guide.md]]
+- [[9-10.Protists_Study_Guide.md]]

@@ -1,0 +1,512 @@
+[
+  {
+    "question": "What is the chemical name for natural penicillin?",
+    "options": [
+      "6-amino penicillanic acid",
+      "Benzylpenicillin",
+      "Phenoxymethylpenicillin",
+      "Isopenicillin N"
+    ],
+    "answer": "6-amino penicillanic acid"
+  },
+  {
+    "question": "Which two rings constitute the chemical nucleus of penicillin?",
+    "options": [
+      "Thiazolidine ring and β-lactam ring",
+      "Benzene ring and β-lactam ring",
+      "Pyridine ring and Thiazolidine ring",
+      "Imidazole ring and β-lactam ring"
+    ],
+    "answer": "Thiazolidine ring and β-lactam ring"
+  },
+  {
+    "question": "What structural component primarily differentiates various penicillins?",
+    "options": [
+      "The β-lactam ring",
+      "The thiazolidine ring",
+      "The R-side chain",
+      "The amido linkage"
+    ],
+    "answer": "The R-side chain"
+  },
+  {
+    "question": "Which Penicillium strain was used by Fleming and produced penicillin-F?",
+    "options": [
+      "P. chrysogenum",
+      "P. notatum",
+      "P. roqueforti",
+      "P. camemberti"
+    ],
+    "answer": "P. notatum"
+  },
+  {
+    "question": "Which fungus proved to be better for submerged fermentation of penicillin?",
+    "options": [
+      "Penicillium notatum",
+      "Aspergillus niger",
+      "Penicillium chrysogenum",
+      "Saccharomyces cerevisiae"
+    ],
+    "answer": "Penicillium chrysogenum"
+  },
+  {
+    "question": "How are semi-synthetic penicillins generally obtained?",
+    "options": [
+      "By direct fermentation without precursors",
+      "By adding suitable side chain precursors to the fermentation medium",
+      "By enzymatic degradation of natural penicillins",
+      "By chemical synthesis from scratch"
+    ],
+    "answer": "By adding suitable side chain precursors to the fermentation medium"
+  },
+  {
+    "question": "Which two penicillins are generally produced commercially?",
+    "options": [
+      "Penicillin-F and Penicillin-K",
+      "Penicillin-G and Penicillin-V",
+      "Penicillin-X and Penicillin-H",
+      "Penicillin-M and Penicillin-L"
+    ],
+    "answer": "Penicillin-G and Penicillin-V"
+  },
+  {
+    "question": "Which of the following is an improved characteristic of semi-synthetic penicillins compared to natural penicillins?",
+    "options": [
+      "Reduced antimicrobial effectiveness",
+      "Increased susceptibility to β-lactamases",
+      "Acid stability",
+      "Lower production yield"
+    ],
+    "answer": "Acid stability"
+  },
+  {
+    "question": "The β-lactam thiazolidine ring of penicillin is formed by the condensation of which two amino acids?",
+    "options": [
+      "L-glycine and L-alanine",
+      "L-cystine and L-valine",
+      "L-methionine and L-leucine",
+      "L-serine and L-threonine"
+    ],
+    "answer": "L-cystine and L-valine"
+  },
+  {
+    "question": "What is the first product of cyclization of the tripeptide in penicillin biosynthesis?",
+    "options": [
+      "Benzyl penicillin",
+      "Isopenicillin N",
+      "6-amino penicillanic acid",
+      "Penicillin V"
+    ],
+    "answer": "Isopenicillin N"
+  },
+  {
+    "question": "In the biosynthesis of penicillin, how is benzyl penicillin produced?",
+    "options": [
+      "By direct cyclization of L-valine",
+      "By exchanging α-α-AAA with activated phenylacetic acid",
+      "By reduction of isopenicillin N",
+      "By the addition of a sulfur atom"
+    ],
+    "answer": "By exchanging α-α-AAA with activated phenylacetic acid"
+  },
+  {
+    "question": "Approximately what percentage of commercially produced penicillins are used as human medicine?",
+    "options": [
+      "12%",
+      "38%",
+      "43%",
+      "75%"
+    ],
+    "answer": "38%"
+  },
+  {
+    "question": "Which percentage of commercially produced penicillins are used as starting materials for semi-synthetic penicillins?",
+    "options": [
+      "12%",
+      "38%",
+      "43%",
+      "55%"
+    ],
+    "answer": "43%"
+  },
+  {
+    "question": "Which of the following semi-synthetic penicillins is converted to ampicillin in the body?",
+    "options": [
+      "Penicillin G",
+      "Penicillin V",
+      "Hetacillin",
+      "Cloxacillin"
+    ],
+    "answer": "Hetacillin"
+  },
+  {
+    "question": "What improved characteristic do Hetacillin, bacampicillin, and epicillin exhibit?",
+    "options": [
+      "Resistance to freezing temperatures",
+      "Resistance to stomach acids for oral administration",
+      "Reduced activity against Gram-positive bacteria",
+      "Increased susceptibility to penicillinase"
+    ],
+    "answer": "Resistance to stomach acids for oral administration"
+  },
+  {
+    "question": "What is a known issue with high-yielding strains of P. chrysogenum?",
+    "options": [
+      "They are genetically unstable",
+      "They are difficult to grow in liquid culture",
+      "They produce fewer spores",
+      "They are resistant to common mutagens"
+    ],
+    "answer": "They are genetically unstable"
+  },
+  {
+    "question": "Which method is generally adopted for preserving high-yielding strains of P. chrysogenum?",
+    "options": [
+      "Storing spore suspension at room temperature",
+      "Lyophilization of spore suspension",
+      "Daily sub-culturing on agar plates",
+      "Keeping mycelial plugs in sterile water"
+    ],
+    "answer": "Lyophilization of spore suspension"
+  },
+  {
+    "question": "What type of fermentation process is penicillin production?",
+    "options": [
+      "Anaerobic batch fermentation",
+      "Aerobic fed batch submerged fermentation",
+      "Solid-state fermentation",
+      "Continuous chemostat fermentation"
+    ],
+    "answer": "Aerobic fed batch submerged fermentation"
+  },
+  {
+    "question": "What is the primary method for developing high-yielding strains of P. chrysogenum?",
+    "options": [
+      "Random genetic engineering",
+      "Spontaneous mutation in the wild strain",
+      "Sequential genetic selection",
+      "Cross-breeding with other fungi"
+    ],
+    "answer": "Sequential genetic selection"
+  },
+  {
+    "question": "How is 6-APA obtained from natural penicillin for semi-synthetic penicillin production?",
+    "options": [
+      "By direct chemical synthesis",
+      "By fermentation without any precursors",
+      "By removing their natural acyl group using immobilized penicillin acylase",
+      "By heat treatment"
+    ],
+    "answer": "By removing their natural acyl group using immobilized penicillin acylase"
+  },
+  {
+    "question": "At what temperature and for how long are spores incubated for heavy sporulation during inoculum production?",
+    "options": [
+      "37°C for 24 hours",
+      "24°C for five to seven days",
+      "15°C for 10 days",
+      "30°C for 3 days"
+    ],
+    "answer": "24°C for five to seven days"
+  },
+  {
+    "question": "What is the purpose of agitating and aerating the inoculum tanks during mycelial growth?",
+    "options": [
+      "To prevent sporulation",
+      "To facilitate heavy mycelial growth",
+      "To increase the pH of the medium",
+      "To promote precursor uptake"
+    ],
+    "answer": "To facilitate heavy mycelial growth"
+  },
+  {
+    "question": "Why are spores of P. chrysogenum sometimes mixed with a wetting agent like sodium lauryl sulfate for inoculation?",
+    "options": [
+      "Because the spores are hydrophilic",
+      "To prevent spore germination",
+      "Because the spores are hydrophobic and need aid for dispersion",
+      "To increase the nutrient absorption"
+    ],
+    "answer": "Because the spores are hydrophobic and need aid for dispersion"
+  },
+  {
+    "question": "What is the typical capacity range for fermenters used in penicillin production?",
+    "options": [
+      "100 to 500 liters",
+      "1,000 to 5,000 liters",
+      "40,000 to 200,000 liters",
+      "500,000 to 1,000,000 liters"
+    ],
+    "answer": "40,000 to 200,000 liters"
+  },
+  {
+    "question": "What is generally supplied as the carbon source in the medium for penicillin production?",
+    "options": [
+      "Peptone",
+      "Corn-steep liquor",
+      "Lactose",
+      "Soybean meal"
+    ],
+    "answer": "Lactose"
+  },
+  {
+    "question": "Why does corn-steep liquor promote abundant formation of mycelium and spores in the production medium?",
+    "options": [
+      "It acts as a pH buffer.",
+      "It contains important amino acids for mycelial growth.",
+      "It inhibits bacterial contamination.",
+      "It provides excess carbon."
+    ],
+    "answer": "It contains important amino acids for mycelial growth."
+  },
+  {
+    "question": "Which natural penicillin is produced by P. chrysogenum in the absence of a precursor?",
+    "options": [
+      "Penicillin-F",
+      "Penicillin-G",
+      "Penicillin-K",
+      "Penicillin-V"
+    ],
+    "answer": "Penicillin-K"
+  },
+  {
+    "question": "What happens if phenylacetic acid is supplied in the medium for P. chrysogenum fermentation?",
+    "options": [
+      "Penicillin-K production increases",
+      "Penicillin-F is produced",
+      "Penicillin-G is produced instead of penicillin-K",
+      "No penicillin is produced"
+    ],
+    "answer": "Penicillin-G is produced instead of penicillin-K"
+  },
+  {
+    "question": "What enzyme converts penicillin into biologically inactive penicillianic acid?",
+    "options": [
+      "Penicillinase",
+      "Amylase",
+      "Lipase",
+      "Protease"
+    ],
+    "answer": "Penicillinase"
+  },
+  {
+    "question": "Why is contamination a main constraint in penicillin fermentation?",
+    "options": [
+      "Contaminants consume all the nutrients.",
+      "Contaminants produce penicillinase, degrading penicillin.",
+      "Contaminants increase the viscosity of the medium.",
+      "Contaminants make extraction more difficult."
+    ],
+    "answer": "Contaminants produce penicillinase, degrading penicillin."
+  },
+  {
+    "question": "In a typical penicillin fermentation, how long is the growth phase duration?",
+    "options": [
+      "6 hours",
+      "10 hours",
+      "48 hours",
+      "120 hours"
+    ],
+    "answer": "10 hours"
+  },
+  {
+    "question": "What is a suggestion for continuous penicillin production given the instability of production strains?",
+    "options": [
+      "Using an entirely new fungal strain",
+      "Employing a batch fill and draw system",
+      "Increasing the fermentation temperature",
+      "Adding more precursors continuously"
+    ],
+    "answer": "Employing a batch fill and draw system"
+  },
+  {
+    "question": "What is the first step in the extraction and purification of penicillin after fermentation?",
+    "options": [
+      "pH adjustment",
+      "Extraction with organic solvent",
+      "Separation of mycelium",
+      "Crystallization"
+    ],
+    "answer": "Separation of mycelium"
+  },
+  {
+    "question": "How is mycelium typically separated from the fermentation medium?",
+    "options": [
+      "Centrifugation",
+      "Distillation",
+      "Rotatory vacuum filter",
+      "Sedimentation"
+    ],
+    "answer": "Rotatory vacuum filter"
+  },
+  {
+    "question": "Why is the extraction of penicillin from the liquid after mycelial separation performed quickly at a low pH?",
+    "options": [
+      "To ensure maximum solubility in water.",
+      "Because penicillin is quite unstable at low pH values.",
+      "To promote crystallization.",
+      "To denature penicillinase enzymes."
+    ],
+    "answer": "Because penicillin is quite unstable at low pH values."
+  },
+  {
+    "question": "What pH range is used to convert penicillin into an anionic form for organic solvent extraction?",
+    "options": [
+      "pH 7.0-7.5",
+      "pH 2.0-2.5",
+      "pH 9.0-10.0",
+      "pH 5.0-6.0"
+    ],
+    "answer": "pH 2.0-2.5"
+  },
+  {
+    "question": "Which organic solvent is typically used for penicillin extraction?",
+    "options": [
+      "Water",
+      "Ethanol",
+      "Amylacetate",
+      "Acetone"
+    ],
+    "answer": "Amylacetate"
+  },
+  {
+    "question": "What is the purpose of treating crude sodium penicillin extract with charcoal?",
+    "options": [
+      "To activate the penicillin",
+      "To remove pyrogens (fever causing substances)",
+      "To increase its solubility",
+      "To convert it into a different form"
+    ],
+    "answer": "To remove pyrogens (fever causing substances)"
+  },
+  {
+    "question": "How is penicillin generally stored or prepared for oral usage?",
+    "options": [
+      "As a sterile gas",
+      "In crystalline powder form in sterile vials, or as tablets/syrups",
+      "As a liquid culture",
+      "In an aerosol spray"
+    ],
+    "answer": "In crystalline powder form in sterile vials, or as tablets/syrups"
+  },
+  {
+    "question": "What is the primary mechanism of action of penicillin against bacteria?",
+    "options": [
+      "Inhibition of protein synthesis",
+      "Disruption of cell membrane integrity",
+      "Inhibition of DNA replication",
+      "Inhibition of cell wall synthesis"
+    ],
+    "answer": "Inhibition of cell wall synthesis"
+  },
+  {
+    "question": "Against which type of bacteria are most penicillins active?",
+    "options": [
+      "Gram-negative bacteria",
+      "Gram-positive bacteria",
+      "Acid-fast bacteria",
+      "Mycoplasma"
+    ],
+    "answer": "Gram-positive bacteria"
+  },
+  {
+    "question": "In the process of inoculum production, what solution is used to suspend spores from the primary source?",
+    "options": [
+      "Sterile saline solution",
+      "Dilute solution of sodium lauryl sulfate",
+      "Concentrated sugar solution",
+      "Alcohol solution"
+    ],
+    "answer": "Dilute solution of sodium lauryl sulfate"
+  },
+  {
+    "question": "What is the approximate final penicillin yield range relative to carbohydrate consumed during fermentation?",
+    "options": [
+      "0.1 to 0.5%",
+      "1 to 2%",
+      "3 to 5%",
+      "10 to 15%"
+    ],
+    "answer": "3 to 5%"
+  },
+  {
+    "question": "The biosynthesis of penicillin is described as a non-ribosomal process. What does this imply about the synthesis mechanism compared to typical protein synthesis?",
+    "options": [
+      "It requires specialized ribosomes for unusual amino acids.",
+      "It does not involve mRNA translation or tRNA, typically using enzyme complexes instead.",
+      "It occurs exclusively within the bacterial cytoplasm.",
+      "It is a spontaneous chemical reaction without enzymatic involvement."
+    ],
+    "answer": "It does not involve mRNA translation or tRNA, typically using enzyme complexes instead."
+  },
+  {
+    "question": "A patient is allergic to penicillin G. Which of the following semi-synthetic penicillins would likely still cause an allergic reaction due to shared core structure?",
+    "options": [
+      "Aztreonam (a monobactam)",
+      "Cephalexin (a cephalosporin)",
+      "Amoxicillin (a semi-synthetic penicillin)",
+      "Erythromycin (a macrolide)"
+    ],
+    "answer": "Amoxicillin (a semi-synthetic penicillin)"
+  },
+  {
+    "question": "Penicillinase-producing bacteria are a major concern in penicillin therapy. How does the development of semi-synthetic penicillins like Methicillin address this issue?",
+    "options": [
+      "They have a modified β-lactam ring that is resistant to penicillinase cleavage.",
+      "They inhibit the production of penicillinase by bacteria.",
+      "They are rapidly absorbed, preventing penicillinase action.",
+      "They directly kill penicillinase enzymes."
+    ],
+    "answer": "They have a modified β-lactam ring that is resistant to penicillinase cleavage."
+  },
+  {
+    "question": "If a fermentation broth containing penicillin is allowed to sit for an extended period after extraction with an organic solvent, what undesirable effect might occur if the pH is not carefully controlled, especially at low pH?",
+    "options": [
+      "The penicillin would spontaneously polymerize, increasing yield.",
+      "The organic solvent would become insoluble in water.",
+      "The penicillin would degrade, rendering it inactive.",
+      "The mycelium would re-grow in the liquid phase."
+    ],
+    "answer": "The penicillin would degrade, rendering it inactive."
+  },
+  {
+    "question": "Why is P. chrysogenum's genetic instability, which increases with yield, a significant challenge for industrial penicillin production?",
+    "options": [
+      "Unstable strains lead to unpredictable fermentation times.",
+      "Unstable strains require constant re-isolation of high-yielding mutants, increasing costs and labor.",
+      "Unstable strains are more susceptible to viral infections.",
+      "Unstable strains produce toxic byproducts."
+    ],
+    "answer": "Unstable strains require constant re-isolation of high-yielding mutants, increasing costs and labor."
+  },
+  {
+    "question": "Considering the details of penicillin extraction, if a pharmaceutical company wanted to recover and reuse the organic solvent after penicillin extraction, what process would be most appropriate?",
+    "options": [
+      "Filtration",
+      "Centrifugation",
+      "Distillation",
+      "Sedimentation"
+    ],
+    "answer": "Distillation"
+  },
+  {
+    "question": "The text mentions that penicillin production is an aerobic process with a volumetric oxygen absorption rate of 0.4 - 0.8 mm min-1. What is the primary reason why oxygen supply becomes critical, especially during the growth phase?",
+    "options": [
+      "Oxygen is a direct precursor for the β-lactam ring.",
+      "Oxygen acts as a cofactor for penicillinase enzymes.",
+      "Increasing viscosity of the culture hinders oxygen transfer, limiting fungal respiration and growth.",
+      "Oxygen prevents the accumulation of toxic metabolic byproducts."
+    ],
+    "answer": "Increasing viscosity of the culture hinders oxygen transfer, limiting fungal respiration and growth."
+  },
+  {
+    "question": "A microbiologist is attempting to genetically engineer P. chrysogenum to produce a novel penicillin with a specific side chain. Based on the provided information, what would be a logical first step to achieve this, assuming the necessary genes are available?",
+    "options": [
+      "Introduce genes for new amino acid synthesis.",
+      "Modify the penicillin acylase enzyme to cleave a different acyl group.",
+      "Engineer the tripeptide cyclization pathway to produce a new core structure.",
+      "Introduce genes encoding enzymes that can incorporate the desired side chain precursor during biosynthesis."
+    ],
+    "answer": "Introduce genes encoding enzymes that can incorporate the desired side chain precursor during biosynthesis."
+  }
+]

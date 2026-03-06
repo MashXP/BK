@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What is the primary definition of crystallization provided in the lecture?",
+    "options": [
+      "The formation of solid crystals from a homogeneous solution",
+      "The solidification of molten magma",
+      "The precipitation of amorphous solids",
+      "The evaporation of a solvent to dryness"
+    ],
+    "answer": "The formation of solid crystals from a homogeneous solution"
+  },
+  {
+    "question": "On a standard solubility diagram, what does the continuous curve represent?",
+    "options": [
+      "The boiling point elevation",
+      "The saturation concentration, C*(T)",
+      "The nucleation threshold",
+      "The metastable limit"
+    ],
+    "answer": "The saturation concentration, C*(T)"
+  },
+  {
+    "question": "If a solution's concentration and temperature plot to a point 'A' that lies below the solubility curve, the solution is considered:",
+    "options": [
+      "Supersaturated",
+      "Saturated",
+      "Undersaturated",
+      "Unstable"
+    ],
+    "answer": "Undersaturated"
+  },
+  {
+    "question": "What is the 'metastable zone' in the context of crystallization?",
+    "options": [
+      "The zone where spontaneous nucleation occurs immediately",
+      "The region between the solubility curve and the metastable limit where crystals grow but do not spontaneously nucleate",
+      "The region where the solvent freezes",
+      "The zone where impurities are rejected"
+    ],
+    "answer": "The region between the solubility curve and the metastable limit where crystals grow but do not spontaneously nucleate"
+  },
+  {
+    "question": "Which technique is specifically mentioned to induce nucleation within the metastable zone?",
+    "options": [
+      "Rapid heating",
+      "Seeding (adding small crystal particles)",
+      "Increasing pressure",
+      "Adding more solvent"
+    ],
+    "answer": "Seeding (adding small crystal particles)"
+  },
+  {
+    "question": "How is the 'Heat of Crystallization' generally defined relative to the 'Heat of Solution'?",
+    "options": [
+      "It is the negative of the heat of solution at the same concentration",
+      "It is identical to the heat of solution",
+      "It is half the heat of solution",
+      "It is unrelated to the heat of solution"
+    ],
+    "answer": "It is the negative of the heat of solution at the same concentration"
+  },
+  {
+    "question": "If the dissolution of a salt is endothermic (absorbs heat), what effect does the reverse process (crystallization) have on the system's temperature?",
+    "options": [
+      "It absorbs heat (cools the system)",
+      "It releases heat (exothermic, heats the system)",
+      "It has no thermal effect",
+      "It causes the solvent to boil"
+    ],
+    "answer": "It releases heat (exothermic, heats the system)"
+  },
+  {
+    "question": "What is a 'hydrate' in the context of crystallization (e.g., Na2CO3·10H2O)?",
+    "options": [
+      "A crystal that is wet on the surface",
+      "A solid compound containing a specific number of water molecules chemically bound in the crystal lattice",
+      "A solution containing water",
+      "An anhydrous salt dissolved in water"
+    ],
+    "answer": "A solid compound containing a specific number of water molecules chemically bound in the crystal lattice"
+  },
+  {
+    "question": "In a material balance equation $L \\cdot x_{i,L} = S \\cdot x_{i,S} + W \\cdot x_{i,W} + C \\cdot x_{i,C}$, what does 'S' typically represent?",
+    "options": [
+      "The mass of the solid crystals",
+      "The mass of the feed solution",
+      "The mass of the saturated mother liquor leaving the crystallizer",
+      "The mass of water vapor evaporated"
+    ],
+    "answer": "The mass of the saturated mother liquor leaving the crystallizer"
+  },
+  {
+    "question": "Which of the following factors is NOT listed as influencing the 'metastable limit'?",
+    "options": [
+      "Atmospheric pressure",
+      "Saturation temperature",
+      "Impurity level",
+      "Rate of supersaturation generation"
+    ],
+    "answer": "Atmospheric pressure"
+  },
+  {
+    "question": "When plotting concentration (C) vs Temperature (T), where is the 'Supersaturated' region located?",
+    "options": [
+      "Below the solubility curve",
+      "Above the solubility curve",
+      "On the temperature axis",
+      "At the origin"
+    ],
+    "answer": "Above the solubility curve"
+  },
+  {
+    "question": "What process occurs when a solution crosses the 'metastable limit' curve into the labile zone?",
+    "options": [
+      "Spontaneous nucleation",
+      "Crystal dissolution",
+      "Infinite solubility",
+      "Sublimation"
+    ],
+    "answer": "Spontaneous nucleation"
+  },
+  {
+    "question": "When calculating the yield of hydrated crystals (e.g., $Na_2CO_3 \\cdot 10H_2O$), how is the water of crystallization accounted for?",
+    "options": [
+      "It is considered part of the 'S' (solution) stream",
+      "It is considered part of the 'W' (vapor) stream",
+      "It is included in the mass of the 'C' (crystal) stream",
+      "It is ignored in the balance"
+    ],
+    "answer": "It is included in the mass of the 'C' (crystal) stream"
+  },
+  {
+    "question": "In the material balance for a solute, if the crystals are pure $Na_2CO_3 \\cdot 10H_2O$, how is the mass fraction of $Na_2CO_3$ in the crystals ($x_{i,C}$) calculated?",
+    "options": [
+      "Mass of Na2CO3 / Mass of 10H2O",
+      "Molecular Weight of Na2CO3 / Molecular Weight of Na2CO3·10H2O",
+      "Molecular Weight of 10H2O / Molecular Weight of Na2CO3·10H2O",
+      "It is assumed to be 1.0 (100%)"
+    ],
+    "answer": "Molecular Weight of Na2CO3 / Molecular Weight of Na2CO3·10H2O"
+  },
+  {
+    "question": "Given: MW of $Na_2CO_3$ = 106 and MW of $10H_2O$ = 180.2. What is the MW of the decahydrate crystal?",
+    "options": [
+      "106",
+      "180.2",
+      "286.2",
+      "124.0"
+    ],
+    "answer": "286.2"
+  },
+  {
+    "question": "If solubility is given as '21.5 kg solute per 100 kg water', what is the mass fraction of solute ($x_{i,S}$) in the saturated solution?",
+    "options": [
+      "0.215 (21.5/100)",
+      "0.177 (21.5/121.5)",
+      "0.823 (100/121.5)",
+      "0.785 (100/127.5)"
+    ],
+    "answer": "0.177 (21.5/121.5)"
+  },
+  {
+    "question": "Consider a cooling crystallizer processing 10,000 kg of feed. If the problem states 'no water is evaporated', what is the value of W in the balance equation?",
+    "options": [
+      "10,000 kg",
+      "100 kg",
+      "0 kg",
+      "Unknown"
+    ],
+    "answer": "0 kg"
+  },
+  {
+    "question": "Consider a cooling crystallizer processing 10,000 kg of feed. If the problem states '3% of the total weight of the solution is lost by evaporation', what is W?",
+    "options": [
+      "3 kg",
+      "300 kg",
+      "0.03 * Mass of Solute",
+      "0.03 * Mass of Crystals"
+    ],
+    "answer": "300 kg"
+  },
+  {
+    "question": "In a heat balance $q = (H_2 + H_V) - H_1$, what does $H_1$ represent?",
+    "options": [
+      "Enthalpy of the final crystals",
+      "Enthalpy of the entering feed solution",
+      "Enthalpy of the water vapor",
+      "Heat of crystallization"
+    ],
+    "answer": "Enthalpy of the entering feed solution"
+  },
+  {
+    "question": "When calculating the sensible heat of the feed solution, $H_1 = m \\cdot C_p \\cdot (T_{feed} - T_{ref})$, what mass 'm' is used?",
+    "options": [
+      "Mass of the crystals formed",
+      "Mass of the total feed solution",
+      "Mass of the solute only",
+      "Mass of the water only"
+    ],
+    "answer": "Mass of the total feed solution"
+  },
+  {
+    "question": "If a crystallization process is exothermic and $q$ is calculated to be negative (e.g., -261,912 kJ), what does this imply for the process equipment?",
+    "options": [
+      "Heating coils are required to add heat",
+      "Cooling is required to remove heat",
+      "The system must be insulated perfectly",
+      "The process is impossible"
+    ],
+    "answer": "Cooling is required to remove heat"
+  },
+  {
+    "question": "When setting up simultaneous equations for crystallization yield, which two variables are typically the unknowns being solved for?",
+    "options": [
+      "Temperature (T) and Pressure (P)",
+      "Mass of crystals (C) and Mass of mother liquor (S)",
+      "Feed rate (F) and Evaporation rate (W)",
+      "Solubility (x) and Density (rho)"
+    ],
+    "answer": "Mass of crystals (C) and Mass of mother liquor (S)"
+  },
+  {
+    "question": "In a hydrated crystal $Na_2CO_3 \\cdot 10H_2O$, what fraction represents the water content in the crystal stream balance?",
+    "options": [
+      "MW(Na2CO3) / MW(Crystal)",
+      "MW(10H2O) / MW(Crystal)",
+      "MW(H2O) / MW(Na2CO3)",
+      "1.0"
+    ],
+    "answer": "MW(10H2O) / MW(Crystal)"
+  },
+  {
+    "question": "If a salt crystallizes as a 'heptahydrate', how many water molecules are attached to the salt?",
+    "options": [
+      "5",
+      "7",
+      "10",
+      "2"
+    ],
+    "answer": "7"
+  },
+  {
+    "question": "A feed solution contains 30% $Na_2CO_3$ by weight. In a 10,000 kg batch, what is the mass of water?",
+    "options": [
+      "3,000 kg",
+      "7,000 kg",
+      "10,000 kg",
+      "2,150 kg"
+    ],
+    "answer": "7,000 kg"
+  },
+  {
+    "question": "During crystallization, if evaporation occurs ($W > 0$), what happens to the theoretical yield of crystals compared to a process with no evaporation ($W=0$), assuming equal cooling?",
+    "options": [
+      "Yield decreases",
+      "Yield increases",
+      "Yield stays the same",
+      "Crystals dissolve"
+    ],
+    "answer": "Yield increases"
+  },
+  {
+    "question": "In a $Ba(NO_3)_2$ crystallization problem, if 10% of the *water in the feed* evaporates, and the feed is 100 kg containing 30.6 kg solute, how is W calculated?",
+    "options": [
+      "W = 0.10 * 100",
+      "W = 0.10 * 30.6",
+      "W = 0.10 * (100 - 30.6)",
+      "W = 100 - 30.6"
+    ],
+    "answer": "W = 0.10 * (100 - 30.6)"
+  },
+  {
+    "question": "Given: Feed = 10,000 kg (30% solute), Solubility in mother liquor = 0.177 mass fraction. If the Water Balance is: $0.7(10000) = (1-0.177)S + 0.629C$, what does 0.629 represent?",
+    "options": [
+      "The mass fraction of water in the hydrated crystal",
+      "The mass fraction of solute in the hydrated crystal",
+      "The evaporation rate",
+      "The solubility limit"
+    ],
+    "answer": "The mass fraction of water in the hydrated crystal"
+  },
+  {
+    "question": "What is the primary driving force for crystallization from a solution?",
+    "options": [
+      "Temperature gradient",
+      "Supersaturation (Concentration difference)",
+      "Pressure difference",
+      "Volume expansion"
+    ],
+    "answer": "Supersaturation (Concentration difference)"
+  },
+  {
+    "question": "If 1000 kg of a salt solution is cooled and yields 200 kg of crystals and 750 kg of mother liquor, how much water was evaporated (by mass balance)?",
+    "options": [
+      "0 kg",
+      "50 kg",
+      "100 kg",
+      "800 kg"
+    ],
+    "answer": "50 kg"
+  },
+  {
+    "question": "To calculate the Heat of Crystallization in a heat balance, why is the value often added as a positive term despite the heat of solution being negative?",
+    "options": [
+      "Because calculations are done in Kelvin",
+      "Because crystallization releases heat (exothermic), which must be removed (negative q) or accounted for as generation",
+      "Because the text book has a typo",
+      "Because the crystals are hot"
+    ],
+    "answer": "Because crystallization releases heat (exothermic), which must be removed (negative q) or accounted for as generation"
+  },
+  {
+    "question": "Given a feed of 2268 kg at 54.4°C cooled to 20°C (Cp = 2.93 kJ/kg K). What is the sensible heat change magnitude ($H_1$ relative to 20°C)?",
+    "options": [
+      "228,600 kJ",
+      "100,000 kJ",
+      "54,000 kJ",
+      "0 kJ"
+    ],
+    "answer": "228,600 kJ"
+  },
+  {
+    "question": "What does the term 'magma' refer to in the lecture slides?",
+    "options": [
+      "The two-phase mixture of crystals and saturated solution in the crystallizer",
+      "The heating element",
+      "The pure molten salt",
+      "The evaporated vapor"
+    ],
+    "answer": "The two-phase mixture of crystals and saturated solution in the crystallizer"
+  },
+  {
+    "question": "In a solubility problem, if solubility is 35 wt% KCl, what is the mass of KCl in 100 kg of saturated solution?",
+    "options": [
+      "35 kg",
+      "65 kg",
+      "100 kg",
+      "25.9 kg"
+    ],
+    "answer": "35 kg"
+  },
+  {
+    "question": "If you have a solution with 30 kg solute and 70 kg water, and solubility is 20 kg solute/100 kg water, is the solution supersaturated, saturated, or undersaturated?",
+    "options": [
+      "Undersaturated",
+      "Saturated",
+      "Supersaturated",
+      "Dilute"
+    ],
+    "answer": "Supersaturated"
+  },
+  {
+    "question": "PROBLEM: 10,000 kg of 30% $Na_2CO_3$ solution is cooled. No evaporation. Solubility of anhydrous salt is 21.5 kg/100 kg water. The crystal is $Na_2CO_3 \\cdot 10H_2O$ (MW: Salt=106, Crystal=286.2). What is the Solute Balance Equation?",
+    "options": [
+      "3000 = (21.5/121.5)S + (106/286.2)C",
+      "7000 = (100/121.5)S + (180.2/286.2)C",
+      "3000 = 0.3S + C",
+      "10000 = S + C"
+    ],
+    "answer": "3000 = (21.5/121.5)S + (106/286.2)C"
+  },
+  {
+    "question": "PROBLEM: Using the data from the previous question (10,000 kg feed, 30% solute), and the Water Balance Equation: $7000 = (100/121.5)S + (180.2/286.2)C$. If you solve the system, what is the approximate yield of crystals (C)?",
+    "options": [
+      "~6315 kg",
+      "~3684 kg",
+      "~1000 kg",
+      "~9000 kg"
+    ],
+    "answer": "~6315 kg"
+  },
+  {
+    "question": "PROBLEM: Same feed (10,000 kg, 30% solute), but 3% of the total feed evaporates ($W=300$ kg). The Water Balance Equation becomes: $7000 = (100/121.5)S + (180.2/286.2)C + 300$. What is the new approximate yield of crystals (C)?",
+    "options": [
+      "~6630 kg",
+      "~6315 kg",
+      "~3070 kg",
+      "~5000 kg"
+    ],
+    "answer": "~6630 kg"
+  },
+  {
+    "question": "PROBLEM: A feed of 2268 kg is cooled. Heat of solution is -54 kJ/kg crystals. If the crystal yield is 616.9 kg, what is the total heat of crystallization evolved (released)?",
+    "options": [
+      "33,312 kJ",
+      "54 kJ",
+      "-54 kJ",
+      "122,472 kJ"
+    ],
+    "answer": "33,312 kJ"
+  },
+  {
+    "question": "PROBLEM: 100 kg feed of $Ba(NO_3)_2$ solution (30.6 kg solute / 100 kg water). Solubility at 17°C is 8.6 kg/100 kg water. 10% of the *feed water* evaporates. What is the mass of water in the final solution (S) stream calculation?",
+    "options": [
+      "Initial Water (76.6 kg) - Evaporated Water (7.66 kg) - Water in Crystals",
+      "100 kg",
+      "90 kg",
+      "Initial Water (30.6 kg)"
+    ],
+    "answer": "Initial Water (76.6 kg) - Evaporated Water (7.66 kg) - Water in Crystals"
+  },
+  {
+    "question": "PROBLEM: A batch of 1000 kg KCl is dissolved to saturation at 363 K (35 wt%). How much KCl is in the feed?",
+    "options": [
+      "350 kg",
+      "650 kg",
+      "1000 kg",
+      "254 kg"
+    ],
+    "answer": "350 kg"
+  },
+  {
+    "question": "PROBLEM: 1000 kg KCl (from previous question) was dissolved in water to make a saturated solution (35 wt%). The Total Mass of the solution is 1000 / 0.35 = 2857 kg. If cooled to 293 K where solubility is 25.4 wt%, and no evaporation occurs, the crystals are pure KCl. What is the balance equation for Water?",
+    "options": [
+      "1857 = (1 - 0.254)S",
+      "1000 = 0.254S + C",
+      "2857 = S + C",
+      "1857 = S"
+    ],
+    "answer": "1857 = (1 - 0.254)S"
+  },
+  {
+    "question": "Using the Water Balance $1857 = 0.746 S$ from the previous KCl problem, what is the mass of the final solution (S)?",
+    "options": [
+      "~2489 kg",
+      "~1857 kg",
+      "~368 kg",
+      "~1000 kg"
+    ],
+    "answer": "~2489 kg"
+  },
+  {
+    "question": "Using the mass of solution S = 2489 kg from the previous KCl problem, and the Total Mass Balance $2857 = S + C$, what is the yield of KCl crystals (C)?",
+    "options": [
+      "~368 kg",
+      "~1000 kg",
+      "~50 kg",
+      "~632 kg"
+    ],
+    "answer": "~368 kg"
+  },
+  {
+    "question": "In a $Na_2CO_3$ crystallization process, if the calculated yield (C) is 6315.8 kg, and the crystals are decahydrate (MW 286.2, Salt MW 106), what is the mass of *anhydrous* salt recovered?",
+    "options": [
+      "6315.8 * (106/286.2) ≈ 2339 kg",
+      "6315.8 * (180.2/286.2)",
+      "6315.8 kg",
+      "3000 kg"
+    ],
+    "answer": "6315.8 * (106/286.2) ≈ 2339 kg"
+  },
+  {
+    "question": "If a problem states the 'average heat capacity of the feed solution is 2.93 kJ/kg K', which enthalpy stream does this apply to?",
+    "options": [
+      "The feed stream (H1)",
+      "The vapor stream (Hv)",
+      "The crystal stream",
+      "The cooling water"
+    ],
+    "answer": "The feed stream (H1)"
+  },
+  {
+    "question": "When converting Heat of Solution from kJ/kg-mol to kJ/kg, what molecular weight is used?",
+    "options": [
+      "MW of the crystallizing species (e.g., the hydrate)",
+      "MW of water",
+      "MW of the anhydrous salt",
+      "Average MW of solution"
+    ],
+    "answer": "MW of the crystallizing species (e.g., the hydrate)"
+  },
+  {
+    "question": "In the context of the lecture slides, what does 'FeSO4.7H2O' represent?",
+    "options": [
+      "Iron (II) Sulfate Heptahydrate",
+      "Iron Oxide",
+      "Anhydrous Iron Sulfate",
+      "A solution of iron"
+    ],
+    "answer": "Iron (II) Sulfate Heptahydrate"
+  },
+  {
+    "question": "If a crystallizer operates at 'equilibrium', what is the concentration of the mother liquor (S) leaving the unit?",
+    "options": [
+      "The saturation concentration (solubility) at the exit temperature",
+      "Zero",
+      "The same as the feed concentration",
+      "Supersaturated"
+    ],
+    "answer": "The saturation concentration (solubility) at the exit temperature"
+  },
+  {
+    "question": "When solving for two unknowns (S and C) in a material balance, why is it necessary to have two independent equations (e.g., Water Balance and Solute Balance)?",
+    "options": [
+      "To mathematically solve for two variables",
+      "It is not necessary, one is enough",
+      "To calculate the temperature",
+      "To find the pressure"
+    ],
+    "answer": "To mathematically solve for two variables"
+  }
+]

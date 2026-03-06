@@ -1,0 +1,402 @@
+[
+  {
+    "question": "What is the definition of a 'Unit Operation' in chemical engineering?",
+    "options": [
+      "A specific chemical reaction to create new products",
+      "A basic step in a process analyzing tasks based on physical principles",
+      "The calculation of economic feasibility for a plant",
+      "A method for managing plant personnel"
+    ],
+    "answer": "A basic step in a process analyzing tasks based on physical principles"
+  },
+  {
+    "question": "Which of the following is categorized as a 'Mass Transfer Process' unit operation?",
+    "options": [
+      "Fluid transportation",
+      "Evaporation",
+      "Distillation",
+      "Crushing"
+    ],
+    "answer": "Distillation"
+  },
+  {
+    "question": "Crushing and Sieving are examples of which type of unit operation classification?",
+    "options": [
+      "Fluid Flow Processes",
+      "Heat Transfer Processes",
+      "Mechanical Processes",
+      "Thermodynamic Processes"
+    ],
+    "answer": "Mechanical Processes"
+  },
+  {
+    "question": "What is the primary purpose of separation processes in a chemical plant?",
+    "options": [
+      "To increase the speed of chemical reactions",
+      "To separate a mixture into individual components for purification or recovery",
+      "To generate heat for the facility",
+      "To transport fluids from one tank to another"
+    ],
+    "answer": "To separate a mixture into individual components for purification or recovery"
+  },
+  {
+    "question": "Separation processes often account for what percentage of total plant costs?",
+    "options": [
+      "10-20%",
+      "20-40%",
+      "50-90%",
+      "90-100%"
+    ],
+    "answer": "50-90%"
+  },
+  {
+    "question": "Which method is typically used to separate 'Heterogeneous Mixtures'?",
+    "options": [
+      "Mechanical operations like settling or filtration",
+      "Adding a Mass Separating Agent (MSA)",
+      "Using Energy Separating Agents (ESA)",
+      "Distillation"
+    ],
+    "answer": "Mechanical operations like settling or filtration"
+  },
+  {
+    "question": "To separate a 'Homogeneous Mixture', what is required?",
+    "options": [
+      "Gravity settling",
+      "The introduction of a separating agent to create a new phase",
+      "Simple filtration",
+      "Centrifugation"
+    ],
+    "answer": "The introduction of a separating agent to create a new phase"
+  },
+  {
+    "question": "In distillation, what acts as the separating agent?",
+    "options": [
+      "A liquid solvent",
+      "A solid adsorbent",
+      "Energy (Heat) to create a vapor phase",
+      "A semi-permeable membrane"
+    ],
+    "answer": "Energy (Heat) to create a vapor phase"
+  },
+  {
+    "question": "Which of the following is an example of using Mass as a separating agent (MSA)?",
+    "options": [
+      "Evaporation",
+      "Distillation",
+      "Liquid-Liquid Extraction",
+      "Crystallization by cooling"
+    ],
+    "answer": "Liquid-Liquid Extraction"
+  },
+  {
+    "question": "Equilibrium Governed Processes are designed based on what concept?",
+    "options": [
+      "The rate of transport",
+      "The equilibrium stage concept",
+      "The driving force divided by resistance",
+      "The size of the membrane pores"
+    ],
+    "answer": "The equilibrium stage concept"
+  },
+  {
+    "question": "Which condition must be met for a system to be in 'Chemical Equilibrium'?",
+    "options": [
+      "Temperatures are equal ($T^V = T^L$)",
+      "Pressures are equal ($P^V = P^L$)",
+      "Chemical potentials are equal ($\\mu_i^V = \\mu_i^L$)",
+      "Volumes are equal"
+    ],
+    "answer": "Chemical potentials are equal ($\\mu_i^V = \\mu_i^L$)"
+  },
+  {
+    "question": "Which of the following processes is NOT an Equilibrium Governed Process?",
+    "options": [
+      "Distillation",
+      "Absorption",
+      "Membrane Separation",
+      "Leaching"
+    ],
+    "answer": "Membrane Separation"
+  },
+  {
+    "question": "Rate Governed Processes are characterized by which general equation?",
+    "options": [
+      "Rate = Resistance / Driving Force",
+      "Rate = Driving Force / Resistance",
+      "Rate = Equilibrium Constant * Concentration",
+      "Rate = Mass * Acceleration"
+    ],
+    "answer": "Rate = Driving Force / Resistance"
+  },
+  {
+    "question": "What is the driving force in Rate Governed Processes?",
+    "options": [
+      "Concentration gradient",
+      "Temperature equilibrium",
+      "Pressure equilibrium",
+      "Phase stability"
+    ],
+    "answer": "Concentration gradient"
+  },
+  {
+    "question": "Distillation separates components based on differences in what property?",
+    "options": [
+      "Solubility",
+      "Vapor pressure (Volatility)",
+      "Particle size",
+      "Density"
+    ],
+    "answer": "Vapor pressure (Volatility)"
+  },
+  {
+    "question": "What is 'Liquid-Liquid Extraction'?",
+    "options": [
+      "Removing a solute from a solid using a liquid",
+      "Separating vapor from liquid by heating",
+      "Removing a solute from a liquid solution using an immiscible solvent",
+      "Filtering solids from a slurry"
+    ],
+    "answer": "Removing a solute from a liquid solution using an immiscible solvent"
+  },
+  {
+    "question": "What is the definition of 'Leaching'?",
+    "options": [
+      "Solid-Liquid Extraction",
+      "Gas-Liquid Absorption",
+      "Liquid-Liquid Extraction",
+      "Gas-Solid Adsorption"
+    ],
+    "answer": "Solid-Liquid Extraction"
+  },
+  {
+    "question": "Absorption involves removing a solute from a gas stream by dissolving it into what?",
+    "options": [
+      "A solid adsorbent",
+      "A liquid solvent",
+      "A gas phase",
+      "A supercritical fluid"
+    ],
+    "answer": "A liquid solvent"
+  },
+  {
+    "question": "In Adsorption, the component accumulates on the surface of:",
+    "options": [
+      "A liquid solvent",
+      "A solid adsorbent",
+      "A gas bubble",
+      "A membrane"
+    ],
+    "answer": "A solid adsorbent"
+  },
+  {
+    "question": "Membrane separation relies on a semipermeable barrier to control:",
+    "options": [
+      "The heat transfer rate",
+      "The rate of movement of molecules between phases",
+      "The equilibrium concentrations",
+      "The boiling point of the mixture"
+    ],
+    "answer": "The rate of movement of molecules between phases"
+  },
+  {
+    "question": "Crystallization removes a solute from a solution by forming what?",
+    "options": [
+      "A vapor phase",
+      "A solid phase",
+      "A liquid phase",
+      "A gas phase"
+    ],
+    "answer": "A solid phase"
+  },
+  {
+    "question": "What is the 'Bubble Point Temperature'?",
+    "options": [
+      "Temperature where the first liquid droplet forms from a vapor",
+      "Temperature where the first vapor bubble forms from a liquid",
+      "Temperature where the liquid freezes",
+      "Temperature where the liquid completely evaporates"
+    ],
+    "answer": "Temperature where the first vapor bubble forms from a liquid"
+  },
+  {
+    "question": "What is the 'Dew Point Temperature'?",
+    "options": [
+      "Temperature where the first liquid droplet forms from a vapor",
+      "Temperature where the first vapor bubble forms from a liquid",
+      "Temperature where the liquid boils",
+      "Temperature where the solid melts"
+    ],
+    "answer": "Temperature where the first liquid droplet forms from a vapor"
+  },
+  {
+    "question": "Dew Point Pressure is defined as the pressure at which the first liquid droplet forms when:",
+    "options": [
+      "A liquid is expanded at constant temperature",
+      "A vapor is compressed at constant temperature",
+      "A vapor is heated at constant pressure",
+      "A liquid is cooled at constant pressure"
+    ],
+    "answer": "A vapor is compressed at constant temperature"
+  },
+  {
+    "question": "Which of the following is a primary goal in designing separation equipment?",
+    "options": [
+      "To maximize equipment size",
+      "To obtain products that meet required specifications (purity)",
+      "To maximize energy consumption",
+      "To increase the complexity of the process"
+    ],
+    "answer": "To obtain products that meet required specifications (purity)"
+  },
+  {
+    "question": "Minimizing operating costs in separation processes often involves focusing on:",
+    "options": [
+      "Energy efficiency",
+      "Increasing labor",
+      "Using larger equipment",
+      "Ignoring safety standards"
+    ],
+    "answer": "Energy efficiency"
+  },
+  {
+    "question": "Separation by 'Phase Creation' is typically achieved using which agent?",
+    "options": [
+      "Mass Separating Agent (MSA)",
+      "Energy Separating Agent (ESA)",
+      "Solid Agent",
+      "Force Field"
+    ],
+    "answer": "Energy Separating Agent (ESA)"
+  },
+  {
+    "question": "Which process is an example of 'Separation by Phase Addition'?",
+    "options": [
+      "Distillation",
+      "Evaporation",
+      "Absorption",
+      "Centrifugation"
+    ],
+    "answer": "Absorption"
+  },
+  {
+    "question": "Separation by 'Barrier Creation' refers to:",
+    "options": [
+      "Distillation",
+      "Membrane Separation",
+      "Crystallization",
+      "Extraction"
+    ],
+    "answer": "Membrane Separation"
+  },
+  {
+    "question": "Electrolysis and Centrifugation utilize what type of separation technique?",
+    "options": [
+      "Phase Creation",
+      "Solid Agent",
+      "Force Field or Gradient",
+      "Phase Addition"
+    ],
+    "answer": "Force Field or Gradient"
+  },
+  {
+    "question": "Which unit operation is classified under 'Thermodynamic Processes'?",
+    "options": [
+      "Gas liquefaction",
+      "Distillation",
+      "Crushing",
+      "Fluid transportation"
+    ],
+    "answer": "Gas liquefaction"
+  },
+  {
+    "question": "What is the key difference between separating Homogeneous vs. Heterogeneous mixtures?",
+    "options": [
+      "Heterogeneous mixtures require a separating agent to create a phase",
+      "Homogeneous mixtures require a separating agent to create a new phase",
+      "Heterogeneous mixtures are separated by distillation only",
+      "Homogeneous mixtures cannot be separated"
+    ],
+    "answer": "Homogeneous mixtures require a separating agent to create a new phase"
+  },
+  {
+    "question": "Mechanical Equilibrium in a separation stage implies equality of:",
+    "options": [
+      "Temperature",
+      "Chemical Potential",
+      "Pressure",
+      "Concentration"
+    ],
+    "answer": "Pressure"
+  },
+  {
+    "question": "Thermal Equilibrium in a separation stage implies equality of:",
+    "options": [
+      "Temperature",
+      "Pressure",
+      "Volume",
+      "Mass"
+    ],
+    "answer": "Temperature"
+  },
+  {
+    "question": "What does MSA stand for in the context of separation processes?",
+    "options": [
+      "Mass Separating Agent",
+      "Mechanical Separation Apparatus",
+      "Massive Solid Accumulation",
+      "Mean Separation Area"
+    ],
+    "answer": "Mass Separating Agent"
+  },
+  {
+    "question": "Which of the following is NOT a design goal for separation equipment?",
+    "options": [
+      "Obtaining required product purity",
+      "Minimizing equipment cost (Capital cost)",
+      "Minimizing operating cost (Energy)",
+      "Maximizing waste generation"
+    ],
+    "answer": "Maximizing waste generation"
+  },
+  {
+    "question": "The 'Bubble Point Pressure' is the pressure at which the first vapor bubble forms when a liquid is:",
+    "options": [
+      "Compressed at constant temperature",
+      "Expanded/Decompressed at constant temperature",
+      "Heated at constant pressure",
+      "Cooled at constant pressure"
+    ],
+    "answer": "Expanded/Decompressed at constant temperature"
+  },
+  {
+    "question": "Desorption (Stripping) is the reverse process of:",
+    "options": [
+      "Distillation",
+      "Absorption",
+      "Extraction",
+      "Drying"
+    ],
+    "answer": "Absorption"
+  },
+  {
+    "question": "Which process involves the separation of a fluid mixture by passing it through a semipermeable barrier?",
+    "options": [
+      "Adsorption",
+      "Membrane Separation",
+      "Leaching",
+      "Flotation"
+    ],
+    "answer": "Membrane Separation"
+  },
+  {
+    "question": "Evaporation and Condensation belong to which classification of unit operations?",
+    "options": [
+      "Fluid Flow Processes",
+      "Heat Transfer Processes",
+      "Mass Transfer Processes",
+      "Mechanical Processes"
+    ],
+    "answer": "Heat Transfer Processes"
+  }
+]

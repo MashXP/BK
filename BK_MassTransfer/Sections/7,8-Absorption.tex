@@ -1,0 +1,157 @@
+% --- Custom Commands for Variables ---
+\newcommand{\Linert}{L'}   % Molar Liquid Rate (Inert)
+\newcommand{\Vinert}{V'}   % Molar Gas Rate (Inert)
+\newcommand{\pA}{p_A}      % Partial Pressure of Solute A
+\newcommand{\Hconst}{H}    % Henry's Law Constant
+\newcommand{\mEq}{m}       % Equilibrium constant (y=mx)
+\newcommand{\AbsFactor}{A} % Absorption Factor
+\newcommand{\Nstages}{N}   % Number of theoretical stages
+
+\section{Absorption - \\ Fundamentals of Gas Absorption}
+
+\subsection{Core Concepts}
+\begin{itemize}
+    \item \textbf{Absorption:} A mass transfer operation where one or more soluble components (solutes) are removed from a gas phase by dissolving them into a liquid phase (solvent or absorbent).
+    \item \textbf{Desorption or Stripping:} The reverse of absorption, where a solute is transferred from the liquid phase to the gas phase. It is often used to regenerate the solvent. The \textbf{Stripping Factor (S)} is defined as the inverse of the absorption factor: $S = 1/\AbsFactor = (\mEq \Vvar) / \Lvar$.
+    \item \textbf{Key Components:}
+    \begin{itemize}
+        \item \textbf{Solute (A):} The component being transferred from the gas to the liquid.
+        \item \textbf{Inert Gas (B):} The bulk gas component, assumed to be insoluble in the liquid.
+        \item \textbf{Solvent (C):} The liquid used to absorb the solute, assumed to be non-volatile.
+    \end{itemize}
+    \item \textbf{Solvent Selection:} Ideally, solvents should have low volatility, high solubility for the solute, and low cost. Common examples include water, hydrocarbon oils, and aqueous amines (MEA/DEA) for removing acid gases like $H_2S$ and $CO_2$.
+    \item \textbf{Thermal Effects:} Absorption is usually exothermic, leading to an increase in liquid temperature.
+\end{itemize}
+
+\section{Gas-Liquid Equilibrium (GLE)}
+The relationship between the solute concentration in the gas phase and the liquid phase at equilibrium is crucial for design. For dilute systems, this is described by Henry's Law.
+
+\subsection{Henry's Law}
+\begin{itemize}
+    \item \textbf{Definition:} At a constant temperature, the amount of a gas that dissolves in a liquid is directly proportional to the partial pressure of that gas in equilibrium with the liquid.
+    \item \textbf{Pressure Form:}
+    \begin{equation}
+        \pA = \Hconst \cdot \xVar_A
+    \end{equation}
+    where:
+    \begin{itemize}
+        \item $\pA$ is the partial pressure of solute A in the gas phase (e.g., atm, kPa).
+        \item $\Hconst$ is the Henry's Law constant (e.g., atm/mole fraction).
+        \item $\xVar_A$ is the mole fraction of solute A in the liquid phase.
+    \end{itemize}
+    \item \textbf{Mole Fraction Form:} The equilibrium relationship is often expressed in terms of mole fractions. Since $\yVar_A = \pA / P_{\text{total}}$:
+    \begin{equation}
+        \yVar_A = \mEq \cdot \xVar_A
+    \end{equation}
+    where:
+    \begin{itemize}
+        \item $\yVar_A$ is the mole fraction of solute A in the gas phase at equilibrium.
+        \item $\mEq$ is the equilibrium distribution coefficient, equal to $\Hconst/P_{\text{total}}$. This is the slope of the equilibrium line on an x-y diagram.
+    \end{itemize}
+\end{itemize}
+
+\section{Single-Stage Equilibrium Contact}
+A single unit where gas and liquid streams are intimately mixed, reach equilibrium, and are then separated.
+
+\subsection{Material Balances}
+Using inert (solute-free) molar flow rates is convenient.
+
+\begin{itemize}
+    \item \textbf{Definitions:}
+    \begin{itemize}
+        \item $\Linert$: Molar flow rate of inert solvent C (kg-mol/h).
+        \item $\Vinert$: Molar flow rate of inert gas B (kg-mol/h).
+        \item The mole ratios are defined as:
+        \[
+            X_A = \frac{\xVar_A}{1 - \xVar_A}, \qquad 
+            Y_A = \frac{\yVar_A}{1 - \yVar_A}
+        \]
+    \end{itemize}
+
+    \item \textbf{Component A Balance (Mole Ratio Basis):} This forms the operating line for a single stage.
+    \begin{equation}
+        \Linert X_{A,\text{in}} + \Vinert Y_{A,\text{in}} = \Linert X_{A,\text{out}} + \Vinert Y_{A,\text{out}}
+    \end{equation}
+    where the outlet streams are in equilibrium: $\yVar_{A,\text{out}} = \mEq \xVar_{A,\text{out}}$.
+\end{itemize}
+
+\section{Multi-Stage Countercurrent Absorption}
+A series of stages are arranged so that the gas and liquid flow in opposite directions.
+
+\subsection{Material Balances and the Operating Line}
+
+\begin{itemize}
+    \item \textbf{Tower Notation:}
+    \begin{itemize}
+        \item $\Lvar_{\text{in}}, \xVar_{A,\text{in}}$: Inlet liquid (solvent) stream entering the top.
+        \item $\Vvar_{\text{in}}, \yVar_{A,\text{in}}$: Inlet gas stream entering the bottom.
+        \item $\Lvar_{\text{out}}, \xVar_{A,\text{out}}$: Outlet liquid stream leaving the bottom.
+        \item $\Vvar_{\text{out}}, \yVar_{A,\text{out}}$: Outlet gas stream leaving the top.
+    \end{itemize}
+
+    \item \textbf{Overall Component Balance (Mole Ratio Basis):}
+    \begin{equation}
+        \Linert X_{A,\text{in}} + \Vinert Y_{A,\text{in}} = \Linert X_{A,\text{out}} + \Vinert Y_{A,\text{out}}
+    \end{equation}
+
+    \item \textbf{Operating Line for Dilute Systems:} If total molar flow rates are approximately constant, the operating line is a straight line on the $x$–$y$ diagram that relates the compositions of passing streams at any point in the column. It connects the conditions at the top and bottom of the tower.
+\end{itemize}
+
+\subsection{Graphical Method for Number of Stages}
+A graphical procedure on the $x$–$y$ diagram determines the number of theoretical stages.
+
+\begin{enumerate}
+    \item \textbf{Plot Data:} Plot the equilibrium line ($\yVar = \mEq \xVar$) and the operating line. The operating line connects the tower's top conditions $(\xVar_{A,\text{in}}, \yVar_{A,\text{out}})$ with its bottom conditions $(\xVar_{A,\text{out}}, \yVar_{A,\text{in}})$.
+    \item \textbf{Step Off Stages:} Starting from the bottom point $(\xVar_{A,\text{out}}, \yVar_{A,\text{in}})$ on the operating line, draw a horizontal line to the equilibrium curve, then a vertical line back to the operating line. The vertical distance between the operating and equilibrium lines represents the driving force for mass transfer. This completes one theoretical stage.
+    \item \textbf{Repeat:} Continue this "staircase" construction until the liquid mole fraction is less than or equal to the desired inlet composition $\xVar_{A,\text{in}}$.
+    \item \textbf{Count Stages:} The number of steps gives the number of theoretical stages, $\Nstages$.
+\end{enumerate}
+
+\subsection{Analytical Method (Kremser Equation)}
+For cases where both the operating and equilibrium lines are straight.
+
+\begin{itemize}
+    \item \textbf{Absorption Factor ($\AbsFactor$):} A dimensionless parameter indicating absorption effectiveness.
+    \begin{equation}
+        \AbsFactor = \frac{\Lvar}{\mEq \Vvar} 
+        = \frac{\text{Slope of Operating Line}}{\text{Slope of Equilibrium Line}}
+    \end{equation}
+    For efficient absorption, $\AbsFactor > 1$, typically between 1.2 and 2.0.
+
+    \item \textbf{Kremser Equation for Absorption:}
+    \begin{equation}
+        \Nstages 
+        = 
+        \frac{
+            \ln \left[
+                \left( 
+                    \frac{\yVar_{A,\text{in}} - \mEq \xVar_{A,\text{in}}}
+                         {\yVar_{A,\text{out}} - \mEq \xVar_{A,\text{in}}}
+                \right)
+                \left( 1 - \frac{1}{\AbsFactor} \right)
+                + \frac{1}{\AbsFactor}
+            \right]
+        }{
+            \ln(\AbsFactor)
+        }
+    \end{equation}
+    This equation is valid for $\AbsFactor \neq 1$.
+
+    \item \textbf{Non-Constant Flow Rates:} A geometric average absorption factor may be used:
+    \begin{equation}
+    \begin{gathered}
+        \AbsFactor_{\text{avg}} = \sqrt{\AbsFactor_{\text{top}} \, \AbsFactor_{\text{bottom}}} \\
+            \\ \quad \AbsFactor_{\text{top}} = \frac{\Lvar_{\text{in}}}{\mEq_{\text{top}} \Vvar_{\text{out}}} 
+            \\ \quad \AbsFactor_{\text{bottom}} = \frac{\Lvar_{\text{out}}}{\mEq_{\text{bottom}} \Vvar_{\text{in}}}
+    \end{gathered}
+    \end{equation}
+\end{itemize}
+
+\section{Tray and Column Efficiency}
+Theoretical stages are an ideal concept. The performance of a real column requires accounting for efficiency.
+\begin{itemize}
+    \item \textbf{Overall Column Efficiency ($E_o$):} Relates theoretical stages to actual trays.
+    \begin{equation}
+        \text{Number of Actual Trays} = \frac{\text{Number of Theoretical Stages}}{E_o}
+    \end{equation}
+\end{itemize}

@@ -1,0 +1,62 @@
+\section{Chemical Equilibrium}
+
+\subsection{Equilibrium State and Constants}
+\begin{itemize}
+    \item \textbf{Dynamic Equilibrium}: Rate of forward reaction = Rate of reverse reaction. Macroscopically, concentrations remain constant.
+    \item \textbf{Equilibrium Constant ($K$)}:
+    \begin{itemize}
+        \item $K_P = \prod (P_i / P^0)^{\nu_i}$ (Gas phase).
+        \item $K_C = \prod [C_i]^{\nu_i}$.
+        \item $K_x = \prod x_i^{\nu_i}, \quad K_n = \prod n_i^{\nu_i}$.
+    \end{itemize}
+    \item \textbf{Relationships}:
+    \begin{equation}
+        K_P = K_C (RT)^{\Delta n} = K_x P^{\Delta n} = K_n \left( \frac{P}{\sum n_i} \right)^{\Delta n}
+    \end{equation}
+\end{itemize}
+
+\subsection{Gibbs Energy and Equilibrium}
+\begin{itemize}
+    \item \textbf{Van't Hoff Isotherm}: $\Delta G_T = \Delta G^0_T + RT \ln \Pi_P$
+    \item \textbf{At Equilibrium} ($\Delta G_T = 0$): $\Delta G^0_T = -RT \ln K_P$
+    \item \textbf{Reaction Direction}: $\Delta G_T = RT \ln \frac{\Pi_P}{K_P}$
+    \begin{itemize}
+        \item $K_P > \Pi_P \implies \Delta G < 0$ (Forward).
+        \item $K_P < \Pi_P \implies \Delta G > 0$ (Reverse).
+    \end{itemize}
+\end{itemize}
+
+\subsection{Temperature Effect (Van't Hoff Equation)}
+\begin{itemize}
+    \item \textbf{Differential Form}: $\frac{d \ln K_P}{dT} = \frac{\Delta H^0}{RT^2}$
+    \item \textbf{Integral Form} (assuming $\Delta H^0$ constant):
+    \begin{equation}
+        \ln \frac{K_{P,T_2}}{K_{P,T_1}} = \frac{\Delta H^0}{R} \left( \frac{1}{T_1} - \frac{1}{T_2} \right)
+    \end{equation}
+    \item \textbf{Le Chatelier}:
+    \begin{itemize}
+        \item Endothermic ($\Delta H^0 > 0$): $T \uparrow \implies K_P \uparrow$ (Forward).
+        \item Exothermic ($\Delta H^0 < 0$): $T \uparrow \implies K_P \downarrow$ (Reverse).
+    \end{itemize}
+\end{itemize}
+
+\subsection{Pressure and Concentration Effects}
+\begin{itemize}
+    \item \textbf{Total Pressure}:
+    \begin{itemize}
+        \item If $\Delta n > 0$: $P \uparrow \implies$ shifts Reverse.
+        \item If $\Delta n < 0$: $P \uparrow \implies$ shifts Forward.
+    \end{itemize}
+    \item \textbf{Inert Components}:
+    \begin{itemize}
+        \item Const $V$: No effect on equilibrium.
+        \item Const $P$: $V \uparrow \implies$ shifts toward side with more gas moles.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Yield and Conversion}
+\begin{itemize}
+    \item \textbf{Conversion} ($\alpha$): $\alpha_A = \frac{n_{A, reacted}}{n_{A, initial}}$
+    \item \textbf{Yield} ($h\%$): Mole fraction of products in the equilibrium mixture.
+\end{itemize}
+\vspace{0.2cm}

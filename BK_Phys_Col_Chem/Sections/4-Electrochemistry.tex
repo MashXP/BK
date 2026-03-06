@@ -1,0 +1,117 @@
+\subsection{Notations \& Basic Concepts}
+\textbf{Cell Notation:}
+\begin{itemize}
+    \item $|$ : Phase boundary (electrode-solution).
+    \item $||$ : Salt bridge (no diffusion potential).
+    \item $:$ : Liquid junction (with diffusion potential).
+    \item $,$ : Separate components in the same phase.
+\end{itemize}
+\textbf{Electromotive Force (EMF):}
+\begin{equation}
+    E = \phi_{(+)} - \phi_{(-)} \quad (\text{without diffusion potential})
+\end{equation}
+
+\subsection{Thermodynamics of Cells}
+\textbf{Electrical Work \& Gibbs Energy:}
+\begin{equation}
+    W_{max} = -nFE = \Delta G
+\end{equation}
+\textbf{Nernst Equation (at 25$^{\circ}$C):}
+For reaction $aA + bB \rightleftharpoons dD + eE$:
+\begin{equation}
+    E = E^0 - \frac{RT}{nF} \ln \left( \frac{a_D^d a_E^e}{a_A^a a_B^b} \right) \approx E^0 - \frac{0.059}{n} \lg Q
+\end{equation}
+For an electrode ($Ox + ne \rightleftharpoons Red$):
+\begin{equation}
+    \phi = \phi^0 + \frac{RT}{nF} \ln \left( \frac{a_{Ox}}{a_{Red}} \right)
+\end{equation}
+
+\textbf{Temperature Effect:}
+\begin{align}
+    \Delta S &= nF \left( \frac{\partial E}{\partial T} \right)_P \\
+    \Delta H &= -nFE + nFT \left( \frac{\partial E}{\partial T} \right)_P \\
+    E &= -\frac{\Delta H}{nF} + T \left( \frac{\partial E}{\partial T} \right)_P
+\end{align}
+
+\textbf{Luther Relation:} For a multi-step redox system:
+\begin{equation}
+    (h-n)\phi_{h/n} = h\phi_h - n\phi_n
+\end{equation}
+
+\subsection{Types of Electrodes}
+\begin{enumerate}
+    \item \textbf{Type 1 (Reversible):} Metal in its ion solution ($M^{n+}|M$) or non-metal in its ion solution.
+        \begin{equation} \phi = \phi^0 + \frac{RT}{nF} \ln a_{M^{n+}} \end{equation}
+    \item \textbf{Type 2 (Insoluble Salt):} Metal coated by insoluble salt in solution of the anion ($Cl^-|AgCl|Ag$).
+        \begin{equation} \phi = \phi^0_{AgCl/Ag} - \frac{RT}{F} \ln a_{Cl^-} \end{equation}
+    \item \textbf{Type 3 (Two Insoluble Salts):} $M'^{n+}|M'A, MA|M$.
+    \item \textbf{Redox Electrodes:} \\
+    Inert metal (Pt) in Ox/Red solution ($Fe^{3+}, Fe^{2+}|Pt$).
+    \item \textbf{Gas Electrodes:} Pt in contact with gas and its ion ($H^+|H_2|Pt$).
+        \begin{equation} \phi_{H^+/H_2} = -0.059 \text{pH} \quad (\text{at } P_{H_2} = 1 \text{ atm}) \end{equation}
+\end{enumerate}
+
+\subsection{Junction Potential ($\phi_{df}$)}
+Arises from different ion velocities at liquid-liquid interface.
+\begin{equation}
+    \phi_{df} = \frac{\lambda_- - \lambda_+}{\lambda_- + \lambda_+} \frac{RT}{F} \ln \frac{a_{\pm, 2}}{a_{\pm, 1}}
+\end{equation}
+\textbf{Reduction:} Use salt bridge (e.g., concentrated KCl or $KNO_3$).
+
+\subsection{Measurement \& Applications}
+\textbf{Poggendorff Compensation Method:}
+\begin{equation}
+    E_x = E_w \frac{AC}{AC'}
+\end{equation}
+where $E_w$ is the EMF of a standard \textbf{Weston Cell} ($1.0183$ V at 20$^{\circ}$C).
+
+\textbf{pH Measurement:}
+\begin{itemize}
+    \item \textbf{Quinhydrone Electrode:} $\phi = 0.69976 - 0.059 \text{pH}$ (at 25$^{\circ}$C).
+    \item \textbf{Glass Electrode:} $\phi = \phi^0 - 0.059 \text{pH}$ (for pH $< 12$).
+\end{itemize}
+
+\subsection{Electrochemical Power Sources}
+\begin{itemize}
+    \item \textbf{Primary:} Non-rechargeable (e.g., Zn-C Dry Cell, $E^0 \approx 1.6$ V).
+    \item \textbf{Secondary:} Rechargeable (e.g., Lead-acid battery, $E^0 \approx 2.04$ V; Li-ion).
+    \item \textbf{Fuel Cells:} Continuous supply (e.g., $H_2/O_2$ cell, $E^0 = 1.23$ V).
+\end{itemize}
+
+\subsection{Kinetics of Electrolysis}
+\textbf{Faraday's Laws:}
+\begin{equation}
+    m = \frac{Q}{F} \frac{M}{z} = \frac{I t}{F} \frac{M}{z}
+\end{equation}
+\textbf{Current Efficiency ($\eta$):} $\eta = m_{actual} / m_{theory} < 1$.
+
+\textbf{Overpotential ($\eta$):} Difference between observed potential ($E_f$) and equilibrium potential ($E_{eq}$).
+\begin{equation}
+    \eta = E_f - \sum E_{electrode}
+\end{equation}
+\textbf{Tafel Equation:} For activation overpotential:
+\begin{equation}
+    \eta = a + b \lg i
+\end{equation}
+where $i$ is current density.
+
+\subsection{Metal Corrosion \& Protection}
+\textbf{Electrochemical Corrosion:} Formation of microscopic galvanic cells in the presence of an electrolyte (e.g., humid air).
+\begin{itemize}
+    \item \textbf{Anode:} Metal oxidation ($Me \to Me^{n+} + ne^-$).
+    \item \textbf{Cathode:} Reduction of $O_2$ or $H^+$.
+        \begin{align}
+            0.5 O_2 + H_2O + 2e^- &\to 2OH^- \quad (\text{Neutral/Basic}) \\
+            0.5 O_2 + 2H^+ + 2e^- &\to H_2O \quad (\text{Acidic})
+        \end{align}
+\end{itemize}
+
+\textbf{Protection Methods:}
+\begin{enumerate}
+    \item \textbf{Coating:} Painting, electroplating (Sn, Zn, Cr), or oxide films ($Al_2O_3$).
+    \item \textbf{Cathodic Protection:}
+        \begin{itemize}
+            \item \textbf{Sacrificial Anode:} Connecting to a more active metal (e.g., Zn or Mg).
+            \item \textbf{Impressed Current:} Making the structure the cathode using an external DC source.
+        \end{itemize}
+\end{enumerate}

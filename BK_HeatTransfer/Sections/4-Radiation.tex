@@ -1,0 +1,215 @@
+\section{Introduction to Heat Radiation}
+
+\subsection{What is Heat Radiation?}
+Heat radiation, also known as thermal radiation, is the energy emitted by matter as a result of changes in the electronic configurations of its atoms or molecules. Unlike conduction and convection, radiation does not require a medium for energy transfer; it can occur through a vacuum. This is how the sun's energy reaches Earth. Radiation is the fastest mode of energy transfer.
+
+\subsection{Electromagnetic Waves}
+Thermal radiation is a form of electromagnetic wave (EM wave). Electromagnetic waves travel at the speed of light in a vacuum ($c_0 \approx 2.9979 \times 10^8$ m/s).
+\begin{itemize}
+    \item \textbf{Wave Properties:} Electromagnetic waves are characterized by their wavelength ($\lambda$) and frequency ($f$). These two properties are related by the speed of propagation.
+    \item \textbf{Speed of Propagation:} The speed of propagation of a wave in a medium ($c$) is related to the speed of light in vacuum ($c_0$) and the refractive index ($n$) of that medium ($c = c_0/n$). The refractive index of a medium is a dimensionless property, typically constant for a given material and temperature (e.g., $n \approx 1$ for air, $n \approx 1.5$ for glass).
+    \item \textbf{Planck's Constant:} It has been proven useful to view electromagnetic radiation as the propagation of a collection of discrete packets of energy called photons or quanta. The energy of a photon is given by Planck's constant ($h$) multiplied by its frequency.
+    \item \textbf{Wavelength Range:} The electromagnetic spectrum covers a vast range of wavelengths, from gamma rays to radio waves. Thermal radiation typically falls in the infrared, visible light, and ultraviolet regions.
+\end{itemize}
+
+\section{Blackbody Radiation}
+
+\subsection{What is a Blackbody?}
+A blackbody is an idealized surface that serves as a perfect emitter and absorber of thermal radiation. It absorbs all incident radiation, regardless of wavelength or direction. It also emits the maximum possible amount of radiation at a given temperature and wavelength.
+\begin{itemize}
+    \item A blackbody does not reflect any radiation, appearing black to the eye.
+    \item Blackbody radiation is a theoretical concept used as a standard for comparison with real surfaces.
+\end{itemize}
+
+\subsection{Blackbody Emissive Power ($\Ebb$)}
+The radiation energy emitted by a blackbody per unit time and per unit surface area is called the blackbody emissive power.
+\begin{itemize}
+    \item \textbf{Stefan-Boltzmann Law:} The total blackbody emissive power ($\Ebb$) is proportional to the fourth power of its absolute temperature.
+    \item \textbf{Spectral Blackbody Emissive Power ($\EbbL$):} The radiation emitted by a blackbody per unit surface area per unit time per unit wavelength is given by Planck's distribution law. This shows how the emitted radiation is distributed across different wavelengths at a given temperature.
+    \item \textbf{Wien's Displacement Law:} This law states that the wavelength at which the maximum emissive power occurs for a blackbody is inversely proportional to its absolute temperature. As temperature increases, the peak emission shifts to shorter wavelengths (e.g., from infrared to visible light).
+\end{itemize}
+
+\subsection{Fraction of Blackbody Radiation}
+To determine the amount of radiation emitted by a blackbody within a specific wavelength band, integration of the spectral emissive power over that band is required. This is often done using tables (such as blackbody radiation functions $f_\lambda$) that provide the fraction of radiation emitted between zero and a given wavelength, $f(0-\lambda T)$.
+
+\section{Real Surface Radiation: Properties}
+
+Real surfaces do not behave as ideal blackbodies. Their radiative properties (emissivity, absorptivity, reflectivity, transmissivity) depend on the surface material, roughness, temperature, and the wavelength and direction of the incident radiation.
+
+\subsection{Emissivity ($\epsilonR$)}
+\begin{itemize}
+    \item \textbf{Definition:} Emissivity is a measure of how effectively a real surface radiates energy compared to a blackbody at the same temperature. It is the ratio of the radiation emitted by a real surface to the radiation emitted by a blackbody.
+    \item \textbf{Range:} $\epsilonR$ ranges from 0 to 1. For a blackbody, $\epsilonR = 1$.
+    \item \textbf{Properties:} Emissivity can be total (over all wavelengths) or spectral (at a specific wavelength), and hemispherical (over all directions) or directional. Most engineering applications use total, hemispherical emissivity.
+    \item \textbf{Dependency:} $\epsilonR$ depends on the material, its surface condition (e.g., polished vs. rough), and temperature.
+\end{itemize}
+
+\subsection{Absorptivity ($\alphaAbs$)}
+\begin{itemize}
+    \item \textbf{Definition:} Absorptivity is the fraction of incident radiation that is absorbed by a surface.
+    \item \textbf{Range:} $\alphaAbs$ ranges from 0 to 1. For a blackbody, $\alphaAbs = 1$.
+\end{itemize}
+
+\subsection{Reflectivity ($\rhoRef$)}
+\begin{itemize}
+    \item \textbf{Definition:} Reflectivity is the fraction of incident radiation that is reflected by a surface.
+    \item \textbf{Range:} $\rhoRef$ ranges from 0 to 1.
+\end{itemize}
+
+\subsection{Transmissivity ($\tauTrans$)}
+\begin{itemize}
+    \item \textbf{Definition:} Transmissivity is the fraction of incident radiation that is transmitted through a material.
+    \item \textbf{Range:} $\tauTrans$ ranges from 0 to 1.
+\end{itemize}
+
+\subsection{Conservation of Energy for Incident Radiation}
+The sum of the absorbed, reflected, and transmitted fractions of incident radiation must equal unity:
+\begin{equation}
+    \alphaAbs + \rhoRef + \tauTrans = 1
+\end{equation}
+\begin{itemize}
+    \item \textbf{Opaque Materials:} For opaque materials (which do not transmit radiation), $\tauTrans = 0$, so $\alphaAbs + \rhoRef = 1$.
+    \item \textbf{Kirchhoff's Law:} For a surface in thermal equilibrium with its surroundings, its total hemispherical emissivity is equal to its total hemispherical absorptivity: $\epsilonR = \alphaAbs$. This is a crucial relationship often used in heat transfer analysis.
+\end{itemize}
+
+\section{Net Radiation Heat Transfer}
+
+Net radiation heat transfer occurs between a surface and its surroundings when there is a temperature difference. The radiation emitted by a surface is balanced against the radiation absorbed from its surroundings.
+
+\subsection{Radiation Exchange Between a Surface and its Surroundings}
+The net rate of radiation heat transfer from a surface to its surroundings depends on the surface's emissive power, its absorptivity, and the incident radiation (irradiation) from the surroundings.
+
+\section{Solar Radiation}
+
+\subsection{Solar Constant ($\Ssolar$)}
+\textbf{Definition:} The solar constant is the rate at which solar energy is incident on a surface normal to the sun's rays at the outer edge of the atmosphere. Its value is approximately $1373$ W/m$^2$.
+
+\subsection{Atmospheric Effects}
+As solar radiation passes through the Earth's atmosphere, it is attenuated by absorption (by gases like water vapor, CO$_2$, O$_3$) and scattering (by air molecules and dust particles).
+\begin{itemize}
+    \item \textbf{Direct Solar Radiation:} Radiation that reaches the Earth's surface directly from the sun without being scattered or absorbed.
+    \item \textbf{Diffuse Solar Radiation:} Solar radiation that has been scattered by atmospheric components and reaches the Earth's surface from all directions.
+    \item \textbf{Total Solar Irradiation:} The sum of direct and diffuse solar radiation incident on a surface. It depends on factors like time of day, season, geographical location, and atmospheric conditions.
+\end{itemize}
+
+ % Start formulas on a new page for clarity
+\section{Formulas Summary for Heat Radiation}
+
+\subsection{Electromagnetic Waves}
+\subsubsection*{Relationship between Speed of Light, Wavelength, and Frequency}
+\begin{equation}
+    \cLight = \lambdaRad \fRad
+\end{equation}
+where: \\
+$\cLight$ = Speed of light in the medium (m/s) \\
+$\lambdaRad$ = Wavelength (m) \\
+$\fRad$ = Frequency (Hz or s$^{-1}$)
+
+\subsubsection*{Energy of a Photon}
+\begin{equation}
+    E_{photon} = \hPlanck \fRad = \frac{\hPlanck \cLight}{\lambdaRad}
+\end{equation}
+where: \\
+$E_{photon}$ = Energy of a single photon (J) \\
+$\hPlanck$ = Planck's constant ($6.626 \times 10^{-34}$ J$\cdot$s)
+
+\subsection{Blackbody Radiation}
+\subsubsection*{Stefan-Boltzmann Law (Total Blackbody Emissive Power)}
+\begin{equation}
+    \Ebb(T) = \sigmaSB \T^4
+\end{equation}
+where: \\
+$\Ebb(T)$ = Total blackbody emissive power (W/m$^2$) \\
+$\sigmaSB$ = Stefan-Boltzmann constant ($5.67 \times 10^{-8}$ W/m$^2$$\cdot$K$^4$) \\
+$\T$ = Absolute temperature of the blackbody surface (K)
+
+\subsubsection*{Spectral Blackbody Emissive Power (Planck's Distribution Law)}
+\begin{equation}
+    \EbbL(\lambdaRad, T) = \frac{\Cone}{\lambdaRad^5 [\exp(\Ctwo / (\lambdaRad T)) - 1]}
+\end{equation}
+where: \\
+$\EbbL(\lambdaRad, T)$ = Spectral blackbody emissive power (W/m$^2$$\cdot \mu$m) \\
+$\lambdaRad$ = Wavelength ($\mu$m) \\
+$\T$ = Absolute temperature (K) \\
+$\Cone = 2\pi \hPlanck \cLight^2 = 3.742 \times 10^8$ W$\cdot \mu$m$^4$/m$^2$ (First radiation constant) \\
+$\Ctwo = \hPlanck \cLight / \kB = 1.4388 \times 10^4$ $\mu$m$\cdot$K (Second radiation constant) \\
+($\kB$ = Boltzmann constant)
+
+\subsubsection*{Fraction of Total Radiation Emitted within a Wavelength Band}
+\begin{equation}
+    f_{(0-\lambdaRad)} = \frac{\int_0^{\lambdaRad} \EbbL(\lambdaRad, T) d\lambdaRad}{\sigmaSB T^4}
+\end{equation}
+The fraction of radiation between $\lambda_1$ and $\lambda_2$ is $f_{(\lambda_1-\lambda_2)} = f_{(0-\lambda_2)} - f_{(0-\lambda_1)}$.
+These values are typically obtained from tables of blackbody radiation functions, which list $f_{(0-\lambdaRad T)}$ as a function of $\lambdaRad T$.
+
+\subsection{Real Surface Radiative Properties}
+\subsubsection*{Emissivity}
+\begin{equation}
+    \epsilonR = \frac{\text{Energy emitted by real surface}}{\text{Energy emitted by blackbody at same T}} = \frac{\Qdot_{\text{surface}}}{\A_s \sigmaSB \T_s^4}
+\end{equation}
+(dimensionless, $0 \le \epsilonR \le 1$)
+
+\subsubsection*{Absorptivity, Reflectivity, Transmissivity}
+\begin{align}
+    \alphaAbs &= \frac{\text{Absorbed radiation}}{\text{Incident radiation}} = \frac{\Gabs}{\Ginc} && \text{(dimensionless, } 0 \le \alphaAbs \le 1) \\
+    \rhoRef &= \frac{\text{Reflected radiation}}{\text{Incident radiation}} = \frac{\Gref}{\Ginc} && \text{(dimensionless, } 0 \le \rhoRef \le 1) \\
+    \tauTrans &= \frac{\text{Transmitted radiation}}{\text{Incident radiation}} = \frac{\Gtrans}{\Ginc} && \text{(dimensionless, } 0 \le \tauTrans \le 1)
+\end{align}
+where $\Ginc$ is incident radiation (W/m$^2$).
+
+\subsubsection*{Conservation of Energy for Incident Radiation}
+\begin{equation}
+    \alphaAbs + \rhoRef + \tauTrans = 1
+\end{equation}
+For opaque materials ($\tauTrans = 0$): $\alphaAbs + \rhoRef = 1$.
+
+\subsubsection*{Kirchhoff's Law}
+For a surface in thermal equilibrium with its surroundings:
+\begin{equation}
+    \epsilonR = \alphaAbs
+\end{equation}
+
+\subsection{Net Radiation Heat Transfer}
+\subsubsection*{Net Radiation from a Gray Surface to Surroundings}
+For a small gray surface (emissivity $\epsilonR$) in a large enclosure at uniform temperature $\Tsur$:
+\begin{equation}
+    \Qdot_{\text{rad,net}} = \A_s \epsilonR \sigmaSB (\T_s^4 - \T_{\text{sur}}^4)
+\end{equation}
+where: \\
+$\Qdot_{\text{rad,net}}$ = Net radiation heat transfer rate (W) \\
+$\A_s$ = Surface area (m$^2$) \\
+$\T_s$ = Absolute surface temperature (K) \\
+$\T_{\text{sur}}$ = Absolute temperature of the surroundings (K)
+
+\subsubsection*{Linearized Radiation Heat Transfer Coefficient ($\hC_{\text{rad}}$)}
+\begin{equation}
+    \hC_{\text{rad}} = \epsilonR \sigmaSB (\T_s + \T_{\text{sur}})(\T_s^2 + \T_{\text{sur}}^2)
+\end{equation}
+where $\hC_{\text{rad}}$ = Linearized radiation heat transfer coefficient (W/m$^2$$\cdot$K).
+Then $\Qdot_{\text{rad,net}} = \hC_{\text{rad}} \A_s (\T_s - \T_{\text{sur}})$.
+
+\subsection{Solar Radiation}
+\subsubsection*{Direct Solar Irradiation on a Surface}
+\begin{equation}
+    \Ginc_{\text{direct}} = \Ssolar \cos \thetaZ
+\end{equation}
+where: \\
+$\Ginc_{\text{direct}}$ = Direct solar irradiation on a normal surface (W/m$^2$) \\
+$\Ssolar$ = Solar constant (W/m$^2$) \\
+$\thetaZ$ = Zenith angle (angle between sun's rays and the normal to the surface) (degrees or rad)
+
+\subsubsection*{Total Solar Irradiation (Direct and Diffuse)}
+\begin{equation}
+    \Gsolar = \Ginc_{\text{direct}} + \Ginc_{\text{diffuse}}
+\end{equation}
+where: \\
+$\Gsolar$ = Total solar irradiation (W/m$^2$) \\
+$\Ginc_{\text{diffuse}}$ = Diffuse solar irradiation (W/m$^2$)
+
+\subsubsection*{Absorbed Solar Radiation}
+\begin{equation}
+    \Qdot_{\text{solar,absorbed}} = \alphaAbs_{\text{solar}} \A_s \Gsolar
+\end{equation}
+where: \\
+$\Qdot_{\text{solar,absorbed}}$ = Rate of absorbed solar radiation (W) \\
+$\alphaAbs_{\text{solar}}$ = Solar absorptivity (dimensionless)

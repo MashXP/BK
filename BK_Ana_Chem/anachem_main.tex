@@ -1,0 +1,40 @@
+\documentclass[8pt]{extarticle}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{chemarrow}
+\usepackage{chemfig} 
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{mhchem}
+\usepackage{tabularx}    % For tables that auto-fit text width
+\usepackage{ragged2e}    % For better text wrapping in narrow columns
+\usepackage{caption}     % For better caption spacing
+\usepackage{multicol}
+% Define a new column type 'Y' that is left-aligned, wrapped, and flexible
+\newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
+% Define specific fixed width columns for small data, Y for long text
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+
+\geometry{a4paper, margin=0.4in}
+
+\title{ANACHEM}
+
+\begin{document}
+
+\section*{Analytical Chemistry Formulas}
+
+\begin{multicols}{2}
+\input{chapters/chapter1}
+\input{chapters/chapter2}
+\input{chapters/chapter3}
+\input{chapters/chapter4}
+\end{multicols}
+\hrule
+
+\begin{multicols}{2}
+\input{chapters/chapter5}
+\input{chapters/chapter6}
+\end{multicols}
+
+\end{document}

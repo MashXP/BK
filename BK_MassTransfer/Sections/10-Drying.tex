@@ -1,0 +1,162 @@
+\newcommand{\Humidity}{H}               % Absolute Humidity (kg water/kg dry air)
+\newcommand{\HumiditySat}{H_s}            % Saturation Humidity
+\newcommand{\HumidityPercent}{H_p}        % Percentage Humidity
+\newcommand{\HumidityRelative}{H_R}       % Relative Humidity
+\newcommand{\PartialPressure}{p_A}        % Partial Pressure of water vapor
+\newcommand{\PartialPressureSat}{p_{AS}} % Saturation Partial Pressure
+\newcommand{\TotalPressure}{P}            % Total Pressure
+\newcommand{\DryBulbTemp}{T}              % Dry Bulb Temperature
+\newcommand{\WetBulbTemp}{T_w}            % Wet Bulb Temperature
+\newcommand{\DewPointTemp}{T_{dp}}         % Dew Point Temperature
+\newcommand{\AdiabaticSatTemp}{T_s}       % Adiabatic Saturation Temperature
+\newcommand{\HumidHeat}{c_s}              % Humid Heat
+\newcommand{\HumidVolume}{v_H}            % Humid Volume
+\newcommand{\TotalEnthalpy}{H_y}          % Total Enthalpy
+\newcommand{\DryingRate}{R}               % Drying Rate
+\newcommand{\ConstantRate}{R_c}           % Constant Drying Rate
+\newcommand{\MassDrySolid}{L_s}           % Mass of Dry Solid
+\newcommand{\MoistureContent}{X}          % Moisture Content (general)
+\newcommand{\FreeMoisture}{X}             % Free Moisture Content
+\newcommand{\EquilibriumMoisture}{X^*}    % Equilibrium Moisture Content
+\newcommand{\MassVelocity}{G}             % Mass Velocity of Air
+\newcommand{\HeatTransferCoeff}{h}        % Heat Transfer Coefficient
+\newcommand{\LatentHeat}{\lambda}         % Latent Heat of Vaporization
+
+
+\section{Introduction to Drying}
+Drying is a mass transfer process involving the removal of a small amount of water or other liquid from a solid material. It is a critical unit operation in many industries, including food, pharmaceuticals, and chemicals.
+
+\subsection{Evaporation vs. Drying}
+A key distinction is made between evaporation and drying:
+\begin{itemize}
+    \item \textbf{Evaporation:} Removal of a \textit{large} amount of water as vapor at its boiling point.
+    \item \textbf{Drying:} Removal of a \textit{small} amount of liquid from a solid. This can be achieved through:
+    \begin{enumerate}
+        \item \textbf{Thermal Methods:} Using air to carry away vapor.
+        \item \textbf{Mechanical Methods:} Pressing, centrifuging, etc. (often cheaper).
+    \end{enumerate}
+\end{itemize}
+
+\subsection{Applications of Drying}
+\begin{itemize}
+    \item \textbf{Food Preservation:} Reducing water content to below 10\% inhibits microbial growth. Reducing it to <5\% preserves flavor and nutrition.
+    \item \textbf{Processing:} Often the final step before packaging.
+    \item \textbf{Pharmaceuticals:} Used for powders, granules, and other dosage forms.
+\end{itemize}
+
+\subsection{Methods of Drying}
+Drying processes can be categorized as batch or continuous.
+\begin{itemize}
+    \item \textbf{Batch Drying:} Material is added once, processed for a set time, and the product is collected at the end of the cycle. Example: Vacuum Dryer.
+    \item \textbf{Continuous Drying:} Wet material is added continuously, and the dried product is continuously removed. Example: Conveyor Belt Dryer.
+\end{itemize}
+
+\section{Vapor Pressure and Humidity}
+The capacity of air to perform drying depends on its temperature and humidity. Key psychrometric properties are essential for analyzing drying processes.
+
+\subsection{Key Definitions}
+\begin{itemize}
+    \item \textbf{Humidity ($\Humidity$):} The mass of water vapor per unit mass of dry air (kg H\textsubscript{2}O / kg dry air).
+    \item \textbf{Humidification:} Transfer of water from a liquid phase to a gaseous mixture of air and water vapor.
+    \item \textbf{Dehumidification:} Transfer of water vapor from a gaseous state to a liquid state.
+\end{itemize}
+
+\subsection{Humidity Calculations}
+Humidity is a function of the partial pressure of water vapor ($\PartialPressure$) and the total pressure ($\TotalPressure$). For the air-water system:
+\begin{equation}
+    \Humidity = \frac{18.02}{28.97} \frac{\PartialPressure}{\TotalPressure - \PartialPressure}
+\end{equation}
+
+\begin{itemize}
+    \item \textbf{Saturation Humidity ($\HumiditySat$):} The maximum humidity air can hold at a given temperature and pressure. It is calculated using the saturation vapor pressure ($\PartialPressureSat$) of pure water at that temperature.
+    \begin{equation}
+        \HumiditySat = \frac{18.02}{28.97} \frac{\PartialPressureSat}{\TotalPressure - \PartialPressureSat}
+    \end{equation}
+    
+    \item \textbf{Dew Point Temperature:} The temperature at which a given air-water vapor mixture becomes saturated upon cooling.
+
+    \item \textbf{Percentage Humidity ($\HumidityPercent$):} The ratio of the actual humidity to the saturation humidity at the same temperature, expressed as a percentage.
+    \begin{equation}
+        \HumidityPercent = 100 \times \frac{\Humidity}{\HumiditySat}
+    \end{equation}
+
+    \item \textbf{Percentage Relative Humidity ($\HumidityRelative$):} The ratio of the partial pressure of water vapor to the saturation vapor pressure at the same temperature, expressed as a percentage.
+    \begin{equation}
+        \HumidityRelative = 100 \times \frac{\PartialPressure}{\PartialPressureSat}
+    \end{equation}
+\end{itemize}
+
+\subsection{Other Psychrometric Properties}
+\begin{itemize}
+    \item \textbf{Humid Heat ($\HumidHeat$):} The amount of heat required to raise the temperature of 1 kg of dry air plus the water vapor it contains by 1 K (or 1°C).
+    \begin{equation}
+        \HumidHeat = 1.005 + 1.88 \Humidity \quad (\text{in kJ/kg dry air}\cdot\text{K})
+    \end{equation}
+    
+    \item \textbf{Humid Volume ($\HumidVolume$):} The total volume of 1 kg of dry air plus the vapor it contains at a given temperature and 1 atm pressure.
+    \begin{equation}
+        \HumidVolume = (2.83 \times 10^{-3} + 4.56 \times 10^{-3} \Humidity) \DryBulbTemp \quad (\text{in m}^3/\text{kg dry air}, \text{ with } \DryBulbTemp \text{ in K})
+    \end{equation}
+    \item \textbf{Density ($\rho$):} The density of the wet air mixture is calculated as:
+    \begin{equation}
+        \rho = \frac{1+\Humidity}{\HumidVolume} \quad (\text{in kg wet air/m}^3)
+    \end{equation}
+
+    \item \textbf{Total Enthalpy ($\TotalEnthalpy$):} The enthalpy of 1 kg of dry air plus its water vapor, relative to a reference temperature ($\DryBulbTemp_0$).
+    \begin{equation}
+        \TotalEnthalpy = \HumidHeat (\DryBulbTemp - \DryBulbTemp_0) + \Humidity \LatentHeat_0
+    \end{equation}
+\end{itemize}
+
+\subsection{The Humidity (Psychrometric) Chart}
+A graphical representation of the properties of air-water vapor mixtures at a constant pressure (typically 1 atm). It plots humidity ($\Humidity$) versus dry-bulb temperature ($\DryBulbTemp$) and includes curves for percentage humidity, adiabatic saturation lines, and lines of constant humid volume and wet-bulb temperature.
+
+\section{Adiabatic Saturation and Wet-Bulb Temperature}
+\begin{itemize}
+    \item \textbf{Adiabatic Saturation Temperature ($\AdiabaticSatTemp$):} The steady-state temperature reached when a large amount of water is contacted by a continuous stream of gas in an insulated chamber. The gas leaves saturated at this temperature.
+    \item \textbf{Wet-Bulb Temperature ($\WetBulbTemp$):} The steady-state non-equilibrium temperature reached when a small amount of water is contacted by a continuous stream of gas. For the air-water system, the adiabatic saturation temperature and the wet-bulb temperature are approximately equal. This allows the use of adiabatic saturation lines on the psychrometric chart as wet-bulb temperature lines.
+\end{itemize}
+
+\section{Equilibrium Moisture Content}
+When a wet solid is in contact with air of a certain humidity, it will either lose or gain moisture until equilibrium is reached.
+\begin{itemize}
+    \item \textbf{Equilibrium Moisture Content ($\EquilibriumMoisture$):} The moisture content of a solid when it is in equilibrium with air at a specific temperature and humidity.
+    \item \textbf{Free Moisture Content ($\FreeMoisture$):} The moisture content in a solid that is in excess of the equilibrium moisture content. This is the moisture that can be removed by drying under the given air conditions.
+    \begin{equation}
+        \text{Free Moisture} = (\text{Total Moisture}) - \EquilibriumMoisture
+    \end{equation}
+    \item \textbf{Calculation Note:} To calculate the final moisture content ($X_2$) when removing a percentage ($P$) of free moisture: calculate initial free moisture $X_{free,1} = X_1 - X^*$, then $X_{free,2} = X_{free,1} \times (1 - P/100)$, and finally $X_2 = X_{free,2} + X^*$.
+\end{itemize}
+
+\section{Rate of Drying}
+The rate of drying is the mass of moisture removed per unit time per unit area of drying surface.
+
+\subsection{Drying Rate Equation}
+\begin{equation}
+    \DryingRate = - \frac{\MassDrySolid}{A} \frac{d\MoistureContent}{dt}
+\end{equation}
+Where A is the exposed surface area.
+
+\subsection{Drying Rate Curves}
+A plot of the drying rate versus moisture content (or time) typically shows two distinct periods:
+\begin{enumerate}
+    \item \textbf{Constant-Rate Period:} The rate of drying is constant. The solid surface remains saturated with water, and the rate is limited by the rate of heat transfer to the surface, which provides the latent heat for evaporation. The surface temperature of the material is approximately equal to the wet-bulb temperature of the air.
+    \item \textbf{Falling-Rate Period:} The drying rate decreases as the moisture content falls. This transition point, where the constant rate ends and the falling rate begins, is called the **Critical Moisture Content** (often labeled as point **C** on drying curves). The mechanism of moisture movement within the solid (e.g., diffusion) becomes the limiting factor.
+\end{enumerate}
+
+\subsection{Prediction of Constant-Rate Drying}
+The constant drying rate ($\ConstantRate$) can be predicted using a heat transfer correlation. Assuming adiabatic operation, all heat transferred from the air is used for evaporation.
+\begin{equation}
+    \ConstantRate = \frac{\HeatTransferCoeff (\DryBulbTemp - \WetBulbTemp)}{\LatentHeat_w}
+\end{equation}
+The rate can also be expressed in terms of mass transfer: $\ConstantRate = \frac{\HeatTransferCoeff (\DryBulbTemp - \WetBulbTemp)}{\LatentHeat_w} = k_y M_{av} (\Humidity_w - \Humidity)$.
+
+The heat transfer coefficient ($\HeatTransferCoeff$) depends on the geometry and the mass velocity ($\MassVelocity$) of the air. For air flowing parallel to the surface:
+\begin{equation}
+    \HeatTransferCoeff = 0.0204 \MassVelocity^{0.8}
+\end{equation}
+And for air flowing perpendicular to the surface:
+\begin{equation}
+    \HeatTransferCoeff = 1.17 \MassVelocity^{0.37}
+\end{equation}
+Where mass velocity is the product of air velocity ($v$) and air density ($\rho$). Note: When calculating $\MassVelocity$ ($kg/h \cdot m^2$) from velocity ($m/s$), multiply by 3600 to convert seconds to hours.

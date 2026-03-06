@@ -1,0 +1,197 @@
+\section{Introduction to Refrigeration}
+
+\subsection{What is Refrigeration?}
+Refrigeration is a major application area of thermodynamics that involves the transfer of heat from a lower-temperature region to a higher-temperature one. Devices that produce refrigeration are called refrigerators. The cycles on which they operate are called refrigeration cycles.
+
+\subsection{Basic Principle}
+The fundamental principle of refrigeration is to extract heat from a cold reservoir and reject it to a warmer reservoir, which requires external work input. This seemingly counter-intuitive process is possible by using a working fluid (refrigerant) that undergoes a thermodynamic cycle.
+
+\section{Ideal Refrigeration Cycle (Carnot Cycle)}
+
+The ideal refrigeration cycle is the reversed Carnot cycle, which represents the most efficient possible refrigeration cycle operating between two temperature reservoirs.
+
+\subsection{Carnot Refrigerator}
+A refrigerator operating on the reversed Carnot cycle extracts heat from a low-temperature region ($\T_L$) and rejects it to a high-temperature region ($\T_H$) using a net work input.
+The cycle consists of four internally reversible processes:
+\begin{enumerate}
+    \item \textbf{1-2: Isentropic Compression} in a compressor (vapor is compressed to a superheated state).
+    \item \textbf{2-3: Constant-pressure heat rejection} in a condenser (vapor condenses at $\T_H$).
+    \item \textbf{3-4: Throttling (Isenthalpic Expansion)} in an expansion valve (liquid-vapor mixture expands to a low pressure and temperature).
+    \item \textbf{4-1: Constant-pressure heat absorption} in an evaporator (liquid-vapor mixture evaporates at $\T_L$, absorbing heat from the refrigerated space).
+\end{enumerate}
+
+\subsection{Carnot Heat Pump}
+A heat pump operating on the reversed Carnot cycle absorbs heat from a low-temperature source ($\T_L$) and rejects it to a high-temperature sink ($\T_H$), where it is used for heating. The cycle processes are identical to those of the Carnot refrigerator, but the desired effect is the heat rejected at the high temperature.
+
+\section{Vapor-Compression Refrigeration Cycle}
+
+The vapor-compression refrigeration cycle is the most frequently used refrigeration cycle in which the refrigerant is vaporized and condensed alternately and is compressed in the vapor phase. It departs from the ideal Carnot cycle primarily due to the throttling process (irreversible expansion) and the non-isentropic compression.
+
+\subsection{Components}
+The four main components of a vapor-compression refrigeration system are:
+\begin{enumerate}
+    \item \textbf{Evaporator:} Where the refrigerant absorbs heat from the refrigerated space at a low temperature, causing it to evaporate.
+    \item \textbf{Compressor:} Where the low-pressure vapor refrigerant is compressed to a high pressure and temperature.
+    \item \textbf{Condenser:} Where the high-pressure, high-temperature vapor refrigerant rejects heat to a high-temperature medium (e.g., ambient air or water), causing it to condense.
+    \item \textbf{Expansion Valve (Throttling Device):} Where the high-pressure liquid refrigerant undergoes an isenthalpic expansion to a low pressure and temperature before entering the evaporator.
+\end{enumerate}
+
+\subsection{Ideal Vapor-Compression Refrigeration Cycle}
+In the ideal cycle, the compression process is assumed to be isentropic, and the refrigerant leaves the condenser as a saturated liquid and enters the compressor as saturated vapor. Heat transfer processes in the condenser and evaporator occur at constant pressure.
+
+\subsection{Actual Vapor-Compression Refrigeration Cycle}
+Actual vapor-compression refrigeration cycles differ from the ideal one in several ways, mainly owing to the irreversibilities that occur in various components. Common sources of irreversibilities include:
+\begin{itemize}
+    \item \textbf{Fluid friction (pressure drops):} Pressure drops occur in the condenser, evaporator, and connecting lines, reducing the pressure difference across the compressor and expansion valve.
+    \item \textbf{Heat transfer to the surroundings:} Heat gains or losses occur in the compressor, expansion valve, and connecting lines, deviating from adiabatic assumptions.
+    \item \textbf{Non-isentropic compression:} Compressor efficiency is less than 100\%, leading to an increase in entropy during compression.
+\end{itemize}
+
+\section{Performance Measures}
+
+The performance of refrigerators and heat pumps is expressed in terms of the Coefficient of Performance (COP).
+
+\subsection{Coefficient of Performance (COP) for Refrigerators ($\COPR$)}
+\begin{itemize}
+    \item \textbf{Definition:} The COP of a refrigerator is defined as the ratio of the desired output (heat removed from the refrigerated space) to the required input (work input to the compressor).
+\end{itemize}
+
+\subsection{Coefficient of Performance (COP) for Heat Pumps ($\COPHP$)}
+\begin{itemize}
+    \item \textbf{Definition:} The COP of a heat pump is defined as the ratio of the desired output (heat delivered to the heated space) to the required input (work input to the compressor).
+\end{itemize}
+
+\subsection{Relationship Between $\COPR$ and $\COPHP$}
+The COP of a heat pump is always greater than the COP of a refrigerator by unity, when operating between the same two reservoirs.
+
+\subsection{Cooling Capacity (Tons of Refrigeration)}
+\begin{itemize}
+    \item \textbf{Definition:} The cooling capacity of a refrigeration system is the rate of heat removal from the refrigerated space. It is often expressed in terms of "tons of refrigeration."
+    \item \textbf{Conversion:} One ton of refrigeration is equivalent to $211 \text{ kJ/min}$ or $200 \text{ Btu/min}$. A typical cooling load for a residence is in the 3-ton (10-kW) range.
+\end{itemize}
+
+\section{Types of Refrigeration Systems}
+
+\subsection{Heat Pump System}
+A heat pump is essentially a refrigeration system that can transfer heat from a low-temperature source to a high-temperature sink. They are used for space heating in winter (by absorbing heat from the cold outdoors and delivering it indoors) and often for cooling in summer (by reversing the cycle, absorbing heat from indoors and rejecting it outdoors).
+
+\subsection{Cascade Refrigeration System}
+\begin{itemize}
+    \item \textbf{Purpose:} Industrial applications often require very low temperatures that cannot be achieved economically with a single-stage vapor-compression cycle. Cascade refrigeration systems are used for such applications.
+    \item \textbf{Mechanism:} A cascade system consists of two or more refrigeration cycles operating in series. The condenser of the lower-temperature stage acts as the evaporator for the higher-temperature stage, effectively transferring heat between the two cycles. This allows for a large overall temperature difference between the refrigerated space and the ambient environment.
+\end{itemize}
+
+\subsection{Multistage Compression Refrigeration System (with Flash Chamber)}
+\begin{itemize}
+    \item \textbf{Purpose:} When the fluid used throughout the refrigeration system is the same, cascade cycles can be replaced by multistage compression refrigeration systems with a flash chamber.
+    \item \textbf{Mechanism:} A flash chamber is a heat exchanger/separator where the high-pressure liquid refrigerant from the condenser is partially expanded, and the resulting vapor is mixed with the refrigerant leaving the low-pressure compressor. This improves efficiency by reducing the work input to the compressor and increasing the heat removal from the refrigerated space.
+\end{itemize}
+
+\subsection{Industrial CO$_2$ Liquefaction}
+Liquefaction of gases, such as CO$_2$, is a refrigeration application that involves cooling the gas to very low temperatures to condense it into a liquid. This process can be achieved using various refrigeration cycles, including cascade systems, to reach the required critical or triple point conditions for liquefaction.
+\begin{itemize}
+    \item \textbf{Process Steps:} Often involves pre-conditioning, liquefaction, and storage/transport.
+    \item \textbf{Working Fluids:} Can use external refrigerants or the substance itself (e.g., CO$_2$ as the refrigerant) in a closed system.
+\end{itemize}
+
+\section{Formulas Summary for Refrigeration}
+
+\subsection{Performance}
+\subsubsection*{Coefficient of Performance (COP) for Refrigerators}
+\begin{equation}
+    \COPR = \frac{\text{Desired output}}{\text{Required input}} = \frac{Q_L}{W_{net,in}} = \frac{\Qdot_L}{\Qdot_{W,in}}
+\end{equation}
+For ideal vapor-compression cycle (using enthalpies):
+\begin{equation}
+    \COPR = \frac{h_1 - h_4}{h_2 - h_1}
+\end{equation}
+where: \\
+$Q_L$ = Total heat absorbed from the refrigerated space (J) \\
+$\Qdot_L$ = Rate of heat absorption from the refrigerated space (W) \\
+$W_{net,in}$ = Total work input to the cycle (J) \\
+$\Qdot_{W,in}$ = Rate of work input to the cycle (W) \\
+$h_1$ = Enthalpy at evaporator outlet (compressor inlet) (J/kg) \\
+$h_2$ = Enthalpy at compressor outlet (condenser inlet) (J/kg) \\
+$h_4$ = Enthalpy at evaporator inlet (J/kg) (Note: $h_4 = h_3$ for throttling valve)
+
+\subsubsection*{Coefficient of Performance (COP) for Heat Pumps}
+\begin{equation}
+    \COPHP = \frac{\text{Desired output}}{\text{Required input}} = \frac{Q_H}{W_{net,in}} = \frac{\Qdot_H}{\Qdot_{W,in}}
+\end{equation}
+For ideal vapor-compression cycle (using enthalpies):
+\begin{equation}
+    \COPHP = \frac{h_2 - h_3}{h_2 - h_1}
+\end{equation}
+where: \\
+$Q_H$ = Total heat rejected to the high-temperature medium (J) \\
+$\Qdot_H$ = Rate of heat rejection to the high-temperature medium (W) \\
+$h_3$ = Enthalpy at condenser outlet (expansion valve inlet) (J/kg) \\
+(Other parameters are same as for $\COPR$)
+
+\subsubsection*{Relationship between $\COPR$ and $\COPHP$}
+\begin{equation}
+    \COPHP = \COPR + 1
+\end{equation}
+
+\subsubsection*{Ideal (Carnot) COP}
+\begin{align}
+    \COPR,Carnot &= \frac{T_L}{T_H - T_L} \\
+    \COPHP,Carnot &= \frac{T_H}{T_H - T_L}
+\end{align}
+where: \\
+$T_L$ = Absolute temperature of the low-temperature reservoir (K) \\
+$T_H$ = Absolute temperature of the high-temperature reservoir (K)
+
+\subsubsection*{Cooling Capacity (Tons of Refrigeration)}
+1 Ton of Refrigeration = 211 kJ/min = 200 Btu/min = 3.517 kW
+
+\subsection{Energy Equation for Refrigeration Cycle Components (Steady Flow)}
+For any component (e.g., evaporator, compressor, condenser, expansion valve), neglecting kinetic and potential energy changes:
+\begin{equation}
+    (\Qdot_{in} - \Qdot_{out}) + (\Qdot_{W,in} - \Qdot_{W,out}) = \mdot (h_{out} - h_{in})
+\end{equation}
+where: \\
+$\Qdot_{in}, \Qdot_{out}$ = Heat transfer rate into/out of the component (W) \\
+$\Qdot_{W,in}, \Qdot_{W,out}$ = Work transfer rate into/out of the component (W) \\
+$\mdot$ = Mass flow rate of refrigerant (kg/s) \\
+$h_{out}, h_{in}$ = Enthalpy of refrigerant at outlet/inlet of the component (J/kg)
+
+\subsubsection*{Compressor Work Input}
+\begin{equation}
+    \Qdot_{W,in} = \mdot (h_2 - h_1)
+\end{equation}
+where subscripts 1 and 2 refer to compressor inlet and outlet states.
+
+\subsubsection*{Heat Removed from Refrigerated Space (Evaporator)}
+\begin{equation}
+    \Qdot_L = \mdot (h_1 - h_4)
+\end{equation}
+where subscripts 4 and 1 refer to evaporator inlet and outlet states.
+
+\subsubsection*{Heat Rejected to High-Temperature Medium (Condenser)}
+\begin{equation}
+    \Qdot_H = \mdot (h_2 - h_3)
+\end{equation}
+where subscripts 2 and 3 refer to condenser inlet and outlet states.
+
+\subsection{Flash Chamber (Multistage Compression)}
+\subsubsection*{Fraction of Vapor Flashed (y)}
+\begin{equation}
+    y = \frac{h_f - h_{liquid}}{h_{vapor} - h_{liquid}}
+\end{equation}
+where: \\
+$h_f$ = Enthalpy of the refrigerant entering the flash chamber (J/kg) \\
+$h_{liquid}$ = Enthalpy of saturated liquid leaving the flash chamber (J/kg) \\
+$h_{vapor}$ = Enthalpy of saturated vapor leaving the flash chamber (J/kg)
+
+\subsubsection*{Mass Flow Rate Relationships (Example with Flash Chamber)}
+\begin{itemize}
+    \item \textbf{Condenser:}
+    $\dot{m}_{\text{condenser}} = \dot{m}_{\text{compressor, high}} = \dot{m}_{\text{liquid}} + \dot{m}_{\text{vapor}}$
+
+    \item \textbf{Evaporator:}
+    $\dot{m}_{\text{evaporator}} = \dot{m}_{\text{liquid}}$
+
+    \item \textbf{Low-pressure compressor outlet:}
+    $\dot{m}_{\text{low-pressure \, compressor \, outlet}} = \dot{m}_{\text{evaporator}} + \dot{m}_{\text{flash \, vapor}}$
+\end{itemize}

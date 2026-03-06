@@ -1,0 +1,139 @@
+\subsection{Concepts}
+\textbf{Adsorption:} Spontaneous accumulation of gas/vapor (adsorbate) at a solid surface (adsorbent). \\
+\textbf{Absorption:} Process where a substance diffuses into the bulk of a solid medium. \\
+\textbf{Sorption:} Term used when both adsorption and absorption occur simultaneously. \\
+\textbf{Specific Surface Area:} Surface area available per gram of adsorbent ($m^2/g$).
+
+\subsection{Physical vs. Chemical Adsorption}
+\begin{center}
+\begin{tabular}{p{0.4\linewidth} p{0.4\linewidth}}
+\toprule
+\textbf{Physisorption} & \textbf{Chemisorption} \\
+\midrule
+Van der Waals forces & Chemical bond forces \\
+Low heat (5-50 kJ/mol) & High heat (200-400 kJ/mol) \\
+Reversible & Irreversible \\
+Multilayer & Monolayer \\
+Low temperature & High temperature \\
+Non-specific & Highly specific \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Surface Tension (\(\gamma\))}
+\begin{equation}
+    \gamma = \left(\frac{\partial G}{\partial A}\right)_{n,P,T}
+\end{equation}
+\textbf{Work of Adhesion/Cohesion:}
+\begin{itemize}
+    \item Cohesion: $W_{AA} = 2\gamma_{AV}$
+    \item Adhesion: $W_{AB} = \gamma_{AV} + \gamma_{BV} - \gamma_{AB}$
+\end{itemize}
+\textbf{Effect of Temperature:}
+\begin{itemize}
+    \item \textbf{Eötvös:} $\gamma V_m^{2/3} = k_E (T_c - T)$
+    \item \textbf{Ramsay-Shields:} $\gamma V_m^{2/3} = k (T_c - T - 6)$
+    \item \textbf{Guggenheim:} $\gamma = \gamma_0 (1 - T/T_c)^n$ (Metals: $n=1$; Organic: $n=11/9$).
+\end{itemize}
+\textbf{Antonoff's Rule:} $\gamma_{AB} = |\gamma_A - \gamma_B|$ (for mutually saturated phases).
+
+\subsection{Capillary Phenomena}
+\textbf{Young's Equation (Wetting):}
+\begin{equation}
+    \gamma_{SG} = \gamma_{SL} + \gamma_{LG} \cos \theta
+\end{equation}
+\textbf{Wetting Regimes:}
+\begin{itemize}
+    \item \textbf{Wenzel:} $\cos \theta_{W} = r \cos \theta$ (rough surfaces).
+    \item \textbf{Cassie-Baxter:} $\cos \theta_{CB} = f \cos \theta + (1-f)(-1)$ (porous surfaces).
+\end{itemize}
+\textbf{Capillary Rise:}
+\begin{equation}
+    h = \frac{2 \gamma \cos \theta}{\rho g R}
+\end{equation}
+\textbf{Young-Laplace Equation (Curved Interface):}
+\begin{equation}
+    \Delta P = \gamma \left( \frac{1}{R_1} + \frac{1}{R_2} \right) \quad \text{Sphere: } \Delta P = \frac{2\gamma}{r}
+\end{equation}
+
+\subsection{Thermodynamics of Adsorption}
+Adsorption is spontaneous ($\Delta G < 0$) and usually exothermic ($\Delta H < 0$).
+Degree of adsorption increases with decreasing temperature (for physisorption).
+\textbf{Clausius-Clapeyron like Relation:}
+\begin{equation}
+    \left( \frac{\partial \ln P}{\partial T} \right)_{\Gamma} = \frac{\Delta H_{ads}}{RT^2} \implies \ln P = \text{const} - \frac{\Delta H_{ads}}{RT}
+\end{equation}
+
+\subsection{Adsorption Isotherms}
+\textbf{IUPAC Classification:}
+\begin{itemize}
+    \item \textbf{Type I:} Microporous (e.g., active carbon, zeolite). Monolayer adsorption.
+    \item \textbf{Type II:} Non-porous or macroporous. Multilayer adsorption. Point B is where the first monolayer is complete.
+    \item \textbf{Type III:} Non-porous, weak interaction. Multilayer. Adsorption increases as pressure increases.
+    \item \textbf{Type IV:} Mesoporous (e.g., silica gel). Exhibits hysteresis due to capillary condensation in pores ($2-\SI{50}{\nm}$).
+    \item \textbf{Type V:} Mesoporous, weak interaction. Capillary condensation occurs.
+    \item \textbf{Type VI:} Layer-by-layer adsorption on uniform surface.
+\end{itemize}
+
+\textbf{Pore Size Definitions:}
+\begin{itemize}
+    \item \textbf{Micropore:} $< \SI{2}{\nm}$
+    \item \textbf{Mesopore:} \SI{2}{\nm} to \SI{50}{\nm}
+    \item \textbf{Macropore:} $> \SI{50}{\nm}$
+\end{itemize}
+
+\textbf{Gibbs Adsorption Isotherm:}
+Relates surface tension change to adsorption.
+\begin{equation}
+    \Gamma = -\frac{C}{RT} \frac{d\gamma}{dC} \quad \text{or} \quad \Gamma = -\frac{1}{RT} \frac{d\gamma}{d \ln C}
+\end{equation}
+\begin{itemize}
+    \item \textbf{Positive Adsorption} ($\Gamma > 0$): $d\gamma/dC < 0$ (e.g., surfactants).
+    \item \textbf{Negative Adsorption} ($\Gamma < 0$): $d\gamma/dC > 0$ (e.g., electrolytes).
+\end{itemize}
+\textbf{Traube's Rule:} For a homologous series, each additional $-\text{CH}_2-$ group increases the surface activity (surface tension reduction) by a factor of $\sim 3$.
+
+\textbf{Szyszkowski Equation:}
+For dilute solutions of organic substances:
+\begin{equation}
+    \gamma_0 - \gamma = b \ln(1 + ac)
+\end{equation}
+where $a$ is specific capillary activity and $b$ is a constant.
+
+\textbf{Langmuir Isotherm:}
+\textbf{Langmuir Isotherm Assumptions:}
+\begin{enumerate}
+    \item Fixed number of active sites.
+    \item Each site holds only one molecule (monolayer).
+    \item No lateral interaction between adsorbed molecules.
+    \item Adsorption is localized.
+\end{enumerate}
+\begin{equation}
+    \theta = \frac{KP}{1+KP} \quad \text{Linear: } \frac{P}{V} = \frac{1}{K V_{max}} + \frac{P}{V_{max}}
+\end{equation}
+\textbf{Binary Adsorption (Langmuir):}
+\begin{equation}
+    \theta_A = \frac{K_A P_A}{1 + K_A P_A + K_B P_B}
+\end{equation}
+
+\textbf{BET Isotherm (Multilayer):}
+\textbf{Assumptions:}
+\begin{enumerate}
+    \item Surface is energetically homogeneous.
+    \item No lateral interaction.
+    \item $E_{ads}$ for 2nd and higher layers = $E_{condensation}$.
+\end{enumerate}
+\begin{equation}
+    \frac{P}{V(P_0 - P)} = \frac{1}{V_m C} + \frac{C-1}{V_m C} \left( \frac{P}{P_0} \right)
+\end{equation}
+\textbf{Specific Surface Area ($S_{BET}$):}
+\begin{equation}
+    S_{BET} = \frac{V_m}{22414} \cdot N_A \cdot \sigma \cdot 10^{-18} \quad [m^2/g]
+\end{equation}
+where $\sigma$ is the area of one adsorbate molecule ($\SI{}{\nm^2}$).
+
+\textbf{Freundlich Isotherm:}
+Purely empirical, limited pressure range.
+\begin{equation}
+    x/m = k P^{1/n} \quad \text{Linear: } \lg(x/m) = \lg k + \frac{1}{n} \lg P
+\end{equation}
