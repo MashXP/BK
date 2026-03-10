@@ -62,10 +62,15 @@ Thịnh 2
 ### 2026-02-24
 C.Phong +3 (+4)
 Huy +1
-
+L Phong +2
 ### 2026-03-03
-G6: +4
+All: +4
 
+### 2026-03-09
+L.Phong +3
+C.Phong +2 (+2)
+G6: +3
+G3 +3
 
 ---
 # GROUP MEMBERS list

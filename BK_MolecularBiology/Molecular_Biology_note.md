@@ -86,3 +86,8 @@ Analyze the difference and similarity between the transcription of eukaryotes an
 Why do we have Transcription bubble? To cover the space 20-40 nu to allow 2 strands to be separated properly
 # 2026-03-03 - W6
 T6 tuần sau thi CellTech
+
+# 2026-03-09 - W7
+Epigenetics
+How dmnt1, 3 works? Knows where to work? 
+Embryonic stages, how does dmnt work?
