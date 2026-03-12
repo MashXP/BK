@@ -91,3 +91,10 @@ T6 tuần sau thi CellTech
 Epigenetics
 How dmnt1, 3 works? Knows where to work? 
 Embryonic stages, how does dmnt work?
+
+### Câu hỏi thi GK.
+Co che sua sai cua DNA polymerase
+Hoat dong cua gen nhay transposons
+Co che ket thuc qua trinh transcription
+Cau truc hoat dong cua transcription bubble
+Co che dieu hoa cua Operon Lac

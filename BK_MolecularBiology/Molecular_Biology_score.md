@@ -69,8 +69,8 @@ All: +4
 ### 2026-03-09
 L.Phong +3
 C.Phong +2 (+2)
-G6: +3
-G3 +3
+G6: +2
+G3 +2
 
 ---
 # GROUP MEMBERS list
