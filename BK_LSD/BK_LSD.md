@@ -7,6 +7,7 @@
 - [Subject Reference Materials by Topic](./subject_reference_materials_by_topic_20260115)
 ## Notes
 - [[C1_note|Chapter 1]]
+- [[C2_note|Chapter 2]]
 
 Homework: Sau Tết 1 tuần báo cáo bài tập nhỏ.
 
