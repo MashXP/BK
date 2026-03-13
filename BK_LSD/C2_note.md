@@ -6,3 +6,6 @@ VN bị cô lập khỏi quốc tế.
 CN XH phát triển CM TQ
 CS VN ai giả quyết? Cơ hội cho Pháp đánh 
 Qua Pháp, đòi tự trị hòa bình nhưng ko có kết quả
+bị ảnh hưởng quy luật chiến tranh, mạnh thắng yếu
+
+Huy động sức mạnh toàn dân, toàn diện, kinh tế, văn hóa, giáo dục...
