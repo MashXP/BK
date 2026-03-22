@@ -114,7 +114,7 @@ Rough ER is covered in ribosomes and sits right next to the nucleus?
 name of the process where a carbohydrate chain is added to a protein?
 - glycosilation, And the pattern must be correct in order for the immune system to not reject and destroy the product. The application for this is monoclonal antibody, vaccines, and drug delivery system.
 
-
+## Chap 1:
 **1. Explain the physiological significance of the Endoplasmic Reticulum (ER) being localized adjacent to the cell nucleus. Additionally, analyze the fundamental relationship between the morphological characteristics of this organelle and its physiological functions.**
 - mRNA to be transported directly to ribosomes for translation with minimal travel distance. This proximity maximizes energy efficiency and reduces the risk of mRNA degradation or diffusion errors within the cytosol
 - The **Rough ER** uses flat, ribosome-studded sacs (cisternae) to maximize the space for protein building and folding, while the **Smooth ER** uses a branched tubular network to optimize lipid production and rapid ion transport.
@@ -137,7 +137,7 @@ By clustering receptors and signaling proteins into **lipid rafts**, the cell cr
 - **Functional Relationship**: **Coding sequences (CDS)** are the parts of exons that actually become protein. **Non-coding sequences** include all introns _plus_ the **UTRs** found within exons
 
 **5.Evaluate the biological roles and impacts (both positive and negative) of transposable elements (Mobile elements/Transposons) on the stability and evolution of the genome**
-- **Negative Impact (Deleterious):** As you noted, "jumping" into a gene can be **lethal**. Specifically, if a transposon inserts into a **tumor suppressor gene**, it can lead to cancer induction. It also contributes to "mutational meltdown" through the accumulation of mutations.
+- **Negative Impact (Deleterious):** As noted, "jumping" into a gene can be **lethal**. Specifically, if a transposon inserts into a **tumor suppressor gene**, it can lead to cancer induction. It also contributes to "mutational meltdown" through the accumulation of mutations.
 - **Positive Impact (Evolutionary):** Beyond just diversity, they create **new regulatory networks**. If a mobile element lands near a promoter, it can change how that gene is switched on or off, helping the population adapt to new environments.
 By adding a methyl group (usually to a Cytosine), the cell changes the chemical landscape of the DNA without changing the sequence itself. This prevents the transcription machinery from accessing the element, effectively silencing it.
 
@@ -145,6 +145,20 @@ By adding a methyl group (usually to a Cytosine), the cell changes the chemical 
 **6. Outline the biochemical nature and classify the primary types of macromolecular interactions that occur within the cell to maintain life processes.**
 - Biological processes are maintained by a balance of **strong covalent bonds** (e.g., peptide and disulfide bonds) for permanent molecular structure and **weak non-covalent interactions** (e.g., hydrogen and ionic bonds) for reversible folding and molecular recognition. 
 - This chemical diversity allows DNA and proteins to remain stable while still being flexible enough to be "unzipped" or modified during replication and signaling.
+
+**7. Based on the provided gel electrophoresis image, analyze the estimated size and
+compare the relative ﬂuorescence intensity of the molecular bands. Provide a
+scientiﬁc justiﬁcation for why these speciﬁc differences in size and intensity
+occur.**
+- The analysis of the gel electrophoresis image shows that DNA fragments are separated by size, with smaller molecules moving further toward the positive electrode. The intensity of the resulting bands indicates the concentration of DNA, where brighter bands represent a higher mass of DNA fragments at that specific length.
+
+
+## Chap 2:
+Question 1: Analyze the nature of DNA's stability and flexibility. Explain the physiological significance of these two opposing characteristics in the maintenance and evolution of the genome
+- DNA's stability ensures the faithful preservation of genetic information for cellular function, while its flexibility allows for the structural rearrangements and accessibility necessary for coiling, reading, and long-term evolutionary adaptation.
+
+Question 2: Detail the molecular events that occur during DNA replication. Explain why the formation of a replication fork is a mandatory thermodynamic and spatial condition for the simultaneous synthesis of two new strands.
+- 
 
 **7. Classify the major groups of transcriptional regulatory elements. Explain the spatial paradox: Why must bacterial regulatory elements (like Operators) be right next to the promoter, whereas eukaryotic Enhancers can control target genes from vast distances**
 - **Bacterial regulation** is **position-dependent** because it relies on local physical blocking of the polymerase. **Eukaryotic regulation** is **position-independent** because the flexibility of the chromatin fiber allows 3D looping to bypass linear distance, coordinated by the **Mediator complex*.
