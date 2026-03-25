@@ -1,0 +1,442 @@
+[
+  {
+    "question": "Who developed the deep liquid fermentation process using Clostridium acetobutylicum for acetone production?",
+    "options": [
+      "Louis Pasteur",
+      "Chaim Weizmann",
+      "Alexander Fleming",
+      "Robert Koch"
+    ],
+    "answer": "Chaim Weizmann",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Large-scale aseptic fermentation vessels were first developed during which historical period?",
+    "options": [
+      "The Industrial Revolution",
+      "World War I (1914–1918)",
+      "World War II (1939–1945)",
+      "The Green Revolution"
+    ],
+    "answer": "World War I (1914–1918)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which microorganism was historically used for the large-scale production of acetone?",
+    "options": [
+      "Saccharomyces cerevisiae",
+      "Escherichia coli",
+      "Clostridium acetobutylicum",
+      "Bacillus subtilis"
+    ],
+    "answer": "Clostridium acetobutylicum",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the definition of 'Aseptic Operation' in fermentation?",
+    "options": [
+      "The prevention of escape of viable cells into the environment",
+      "The protection against contamination by unwanted microorganisms",
+      "The process of cleaning the exterior of the fermenter",
+      "The use of high-pressure air to mix the culture"
+    ],
+    "answer": "The protection against contamination by unwanted microorganisms",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which term describes the prevention of the escape of viable cells from a fermenter into the environment?",
+    "options": [
+      "Sterilization",
+      "Containment",
+      "Prophylaxis",
+      "Asepsis"
+    ],
+    "answer": "Containment",
+    "shuffleOptions": true
+  },
+  {
+    "question": "According to the criteria to assess risk, what factor refers to the number of organisms required to initiate an infection?",
+    "options": [
+      "Virulence",
+      "Pathogenicity",
+      "Infectious dose",
+      "Routes of infection"
+    ],
+    "answer": "Infectious dose",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does the World Health Organization (WHO) classify microorganisms like Escherichia coli K12 and Bacillus subtilis?",
+    "options": [
+      "Risk Group 1 (Minimal Risk)",
+      "Risk Group 2 (Moderate Risk)",
+      "Risk Group 3 (High Risk)",
+      "Risk Group 4 (Very High Risk)"
+    ],
+    "answer": "Risk Group 1 (Minimal Risk)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following belongs to WHO Risk Group 4?",
+    "options": [
+      "Staphylococcus aureus",
+      "M. tuberculosis",
+      "Ebola virus",
+      "West Nile Virus"
+    ],
+    "answer": "Ebola virus",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Microorganisms that cause highly contagious, serious diseases with high mortality rates and no easy treatment belong to which group?",
+    "options": [
+      "Risk Group 1",
+      "Risk Group 2",
+      "Risk Group 3",
+      "Risk Group 4"
+    ],
+    "answer": "Risk Group 4",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which quality system is specifically concerned with the organizational processes under which non-clinical studies are planned and recorded?",
+    "options": [
+      "GMP",
+      "GLP",
+      "GILSP",
+      "ISO 9001"
+    ],
+    "answer": "GLP",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What are the '5 P’s' of Good Manufacturing Practice (GMP)?",
+    "options": [
+      "People, Products, Processes, Procedures, Premises",
+      "People, Patents, Price, Products, Planning",
+      "Pressure, Power, Ph, Precision, Purity",
+      "Processes, Purity, People, Profit, Production"
+    ],
+    "answer": "People, Products, Processes, Procedures, Premises",
+    "shuffleOptions": false
+  },
+  {
+    "question": "What does the acronym GILSP stand for?",
+    "options": [
+      "General Industrial Large Scale Production",
+      "Good Industrial Large Scale Practice",
+      "Global Industrial Laboratory Safety Protocols",
+      "Governmental Integrated Large Scale Policy"
+    ],
+    "answer": "Good Industrial Large Scale Practice",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT a basic requirement of a fermenter?",
+    "options": [
+      "Precise control of pH and temperature",
+      "Adequate aeration and agitation",
+      "High labor requirement for operation",
+      "Smooth internal surfaces"
+    ],
+    "answer": "High labor requirement for operation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A fermenter used for 'Process optimization and scaling up' with a capacity of 50–1,000 liters is known as a:",
+    "options": [
+      "Lab scale fermenter",
+      "Pilot scale fermenter",
+      "Industrial scale fermenter",
+      "Micro scale fermenter"
+    ],
+    "answer": "Pilot scale fermenter",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What capacity defines an industrial-scale fermenter used for commercial production?",
+    "options": [
+      "Under 50 liters",
+      "50–500 liters",
+      "Greater than 1,000 liters",
+      "Exactly 100 liters"
+    ],
+    "answer": "Greater than 1,000 liters",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is glass often used for small-scale (lab) fermenters?",
+    "options": [
+      "It is the strongest material available for high pressure",
+      "It allows for easy examination of the interior",
+      "It is cheaper than all forms of plastic",
+      "It absorbs toxic metabolites"
+    ],
+    "answer": "It allows for easy examination of the interior",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which material is standard for the construction of pilot and industrial-scale fermenters?",
+    "options": [
+      "Copper",
+      "Borosilicate glass",
+      "Stainless steel",
+      "Reinforced plastic"
+    ],
+    "answer": "Stainless steel",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary goal of agitation in a fermentation process?",
+    "options": [
+      "To increase the temperature of the medium",
+      "To ensure uniform suspension of cells and nutrients",
+      "To create as much foam as possible",
+      "To sterilize the internal surfaces"
+    ],
+    "answer": "To ensure uniform suspension of cells and nutrients",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT a common type of impeller used in fermenters?",
+    "options": [
+      "Disc turbine",
+      "Marine propeller",
+      "Open turbine",
+      "Porous sparger"
+    ],
+    "answer": "Porous sparger",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which device is responsible for introducing air into the liquid in a fermenter?",
+    "options": [
+      "Impeller",
+      "Sparger",
+      "Baffle",
+      "Cyclone"
+    ],
+    "answer": "Sparger",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which piece of ancillary equipment is used to handle foam and outlet air in industrial fermenters?",
+    "options": [
+      "Cooling tower",
+      "Boiler",
+      "Cyclone",
+      "Tube sheet"
+    ],
+    "answer": "Cyclone",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A cooling tower in a fermenter can be designed in which of the following forms?",
+    "options": [
+      "Jacket, Coil, or Tube sheet",
+      "Vertical, Horizontal, or Flat",
+      "Porous, Orifice, or Nozzle",
+      "Riser, Downcomer, or Baffle"
+    ],
+    "answer": "Jacket, Coil, or Tube sheet",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which sensors are typically used to monitor the fermentation process?",
+    "options": [
+      "pH, Temperature, and Dissolved Oxygen",
+      "pH, Gravity, and Light Intensity",
+      "Nitrogen levels, Salinity, and Pressure",
+      "Viscosity, Color, and Weight"
+    ],
+    "answer": "pH, Temperature, and Dissolved Oxygen",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the typical height-to-diameter ratio for a Stirred Tank Fermenter?",
+    "options": [
+      "1:1",
+      "2:1 to 3:1",
+      "6:1 to 10:1",
+      "20:1"
+    ],
+    "answer": "2:1 to 3:1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a Stirred Tank Fermenter, the impeller diameter is typically what fraction of the vessel diameter?",
+    "options": [
+      "0.1–0.2",
+      "0.3–0.4",
+      "0.5–0.6",
+      "0.8–0.9"
+    ],
+    "answer": "0.3–0.4",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a major disadvantage of Stirred Tank Fermenters, especially for sensitive cells?",
+    "options": [
+      "Low mixing efficiency",
+      "High shear force",
+      "Lack of temperature control",
+      "Inability to operate aerobically"
+    ],
+    "answer": "High shear force",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does an Airlift Fermenter circulate liquid?",
+    "options": [
+      "Using a mechanical marine propeller",
+      "By rotating the entire vessel",
+      "Using air to move liquid through a riser and downcomer",
+      "By applying high pressure from the top"
+    ],
+    "answer": "Using air to move liquid through a riser and downcomer",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is an advantage of Airlift Fermenters compared to Stirred Tank Fermenters?",
+    "options": [
+      "No dead zones",
+      "Lower shear stress",
+      "Lower foam production",
+      "Higher energy consumption"
+    ],
+    "answer": "Lower shear stress",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The Tower Fermenter is characterized by which height-to-diameter ratio?",
+    "options": [
+      "2:1",
+      "3:1",
+      "6:1 to 10:1",
+      "1:5"
+    ],
+    "answer": "6:1 to 10:1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Agitation and aeration in a Bubble Column Fermenter are achieved solely by:",
+    "options": [
+      "Mechanical stirring",
+      "Gas sparging",
+      "External pumping",
+      "Magnetic bars"
+    ],
+    "answer": "Gas sparging",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Tower fermenters were first described for the production of which product?",
+    "options": [
+      "Penicillin",
+      "Acetone",
+      "Citric acid",
+      "Ethanol"
+    ],
+    "answer": "Citric acid",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which type of fermenter is specifically designed for growing photosynthetic organisms like microalgae?",
+    "options": [
+      "Stirred Tank Fermenter",
+      "Airlift Fermenter",
+      "Photobioreactor",
+      "Tower Fermenter"
+    ],
+    "answer": "Photobioreactor",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which configuration is NOT typically associated with Photobioreactors?",
+    "options": [
+      "Vertical column",
+      "Flat plate",
+      "Horizontal column",
+      "Submerged porous disc"
+    ],
+    "answer": "Submerged porous disc",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a significant disadvantage of Photobioreactors?",
+    "options": [
+      "High risk of contamination compared to open ponds",
+      "Low efficiency",
+      "High construction and operation costs",
+      "Inability to control temperature"
+    ],
+    "answer": "High construction and operation costs",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Microorganisms that cause treatable or self-healing diseases, such as Staphylococcus aureus or HBV, are classified as:",
+    "options": [
+      "Risk Group 1",
+      "Risk Group 2",
+      "Risk Group 3",
+      "Risk Group 4"
+    ],
+    "answer": "Risk Group 2",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which material requirement ensures a fermenter can withstand in situ sterilization?",
+    "options": [
+      "Transparency",
+      "Flexibility",
+      "Pressure resistance",
+      "Low thermal conductivity"
+    ],
+    "answer": "Pressure resistance",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What fuel types might be used by a boiler (lò hơi) associated with a fermentation system?",
+    "options": [
+      "DO, FO, LPG, or biomass",
+      "Uranium rods",
+      "Only electricity",
+      "Liquid Nitrogen"
+    ],
+    "answer": "DO, FO, LPG, or biomass",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the context of airlift fermenters, where are the bubbles most 'rich'?",
+    "options": [
+      "In the downcomer",
+      "In the riser",
+      "In the baffle plate",
+      "In the cooling jacket"
+    ],
+    "answer": "In the riser",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which factor is NOT listed as a criterion to assess the risk of a microorganism?",
+    "options": [
+      "Ease of prophylaxis and treatment",
+      "The routes of infection",
+      "The molecular weight of the organism",
+      "The virulence of the pathogen"
+    ],
+    "answer": "The molecular weight of the organism",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following describes a disadvantage of the Airlift Fermenter?",
+    "options": [
+      "Extremely high power consumption",
+      "Potential for 'dead zones'",
+      "High shear stress causing cell death",
+      "Difficulty in scaling above 10 liters"
+    ],
+    "answer": "Potential for 'dead zones'",
+    "shuffleOptions": true
+  }
+]

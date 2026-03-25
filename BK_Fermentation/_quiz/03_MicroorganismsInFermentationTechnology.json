@@ -1,0 +1,453 @@
+[
+  {
+    "question": "Which culture collection is specifically focused on yeast cultures?",
+    "options": [
+      "NCTC",
+      "NCYC",
+      "NCIMB",
+      "DSMZ"
+    ],
+    "answer": "NCYC",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary purpose of industrial microorganisms as defined in the text?",
+    "options": [
+      "To study microscopic structures in laboratories",
+      "To produce food or industrial products in large quantities",
+      "To eliminate all naturally occurring bacteria",
+      "To act as the sole source of renewable energy"
+    ],
+    "answer": "To produce food or industrial products in large quantities",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is an agricultural application of industrial microorganisms mentioned in the text?",
+    "options": [
+      "Synthesis of biodiesel",
+      "Production of monoclonal antibodies",
+      "Genetically engineered crops like Bt corn",
+      "Treatment of waste management"
+    ],
+    "answer": "Genetically engineered crops like Bt corn",
+    "shuffleOptions": true
+  },
+  {
+    "question": "According to the text, what is a major challenge in the development of GMO strains?",
+    "options": [
+      "The organisms are too small to be seen",
+      "Maintaining strain stability under industrial conditions",
+      "Finding enough renewable biomass",
+      "The lack of regulatory guidelines"
+    ],
+    "answer": "Maintaining strain stability under industrial conditions",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the recommended storage temperature for a standard refrigerator used for short-term culture storage?",
+    "options": [
+      "0°C",
+      "-20°C",
+      "4°C",
+      "10°C"
+    ],
+    "answer": "4°C",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which substance is commonly used as a cryoprotectant for microorganisms?",
+    "options": [
+      "Sodium glutamate",
+      "Glycerol",
+      "Parafilm",
+      "Agar"
+    ],
+    "answer": "Glycerol",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the typical final concentration of glycerol added to microorganisms for preservation?",
+    "options": [
+      "1-2%",
+      "50-60%",
+      "10-15%",
+      "5-8%"
+    ],
+    "answer": "10-15%",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Freeze-drying is also known by what technical name?",
+    "options": [
+      "Cryopreservation",
+      "Sublimation",
+      "Lyophilization",
+      "Enrichment"
+    ],
+    "answer": "Lyophilization",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary goal of culture preservation?",
+    "options": [
+      "To increase the growth rate of the organism",
+      "To retain the desirable characteristics that led to selection",
+      "To allow the organism to evolve naturally",
+      "To test the organism's resistance to cold"
+    ],
+    "answer": "To retain the desirable characteristics that led to selection",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How often should microbial cultures on agar slopes generally be subcultured?",
+    "options": [
+      "Every week",
+      "Every month",
+      "Approximately 6-month intervals",
+      "Once every 5 years"
+    ],
+    "answer": "Approximately 6-month intervals",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which isolation method uses specific conditions to isolate organisms like thermophiles or halophiles?",
+    "options": [
+      "Enrichment Liquid Culture",
+      "Selective Force (Pressure)",
+      "Simple Liquid Culture",
+      "Freeze-drying"
+    ],
+    "answer": "Selective Force (Pressure)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In an enrichment liquid culture, which organism will typically become dominant?",
+    "options": [
+      "The largest organism",
+      "The fastest growing organism capable of growth",
+      "The organism with the most genetic mutations",
+      "The organism that produces the most waste"
+    ],
+    "answer": "The fastest growing organism capable of growth",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a specific benefit of using Parafilm to seal Petri dishes?",
+    "options": [
+      "It speeds up the growth of the bacteria",
+      "It is impermeable to all substances including oxygen",
+      "It allows off-gassing while preventing contamination",
+      "It kills any airborne contaminants instantly"
+    ],
+    "answer": "It allows off-gassing while preventing contamination",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What happens during the 'sublimation' phase of freeze-drying?",
+    "options": [
+      "Cell water turns from ice directly into vapor",
+      "Cells are resuspended in milk",
+      "Cells are heated to 40°C",
+      "Ice crystals rupture the cell membranes"
+    ],
+    "answer": "Cell water turns from ice directly into vapor",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a disadvantage of storing cultures on agar slopes?",
+    "options": [
+      "It requires expensive cryogenic equipment",
+      "Risk of genetic mutation and loss of viability",
+      "It cannot be done in a standard refrigerator",
+      "It requires the use of liquid nitrogen"
+    ],
+    "answer": "Risk of genetic mutation and loss of viability",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which category of freezer operates at temperatures around -86°C?",
+    "options": [
+      "Laboratory Freezers",
+      "Ultralow Freezers",
+      "Cryogenic Freezers",
+      "Liquid Nitrogen Freezers"
+    ],
+    "answer": "Ultralow Freezers",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why are ultralow freezers considered less effective than cryogenic freezers for long-term storage?",
+    "options": [
+      "They are too expensive to maintain",
+      "They cannot hold more than 10 samples",
+      "Molecular motion still occurs, leading to viability decline",
+      "They cause too much dehydration in the first month"
+    ],
+    "answer": "Molecular motion still occurs, leading to viability decline",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the main advantage of cryogenic storage over other freezing methods?",
+    "options": [
+      "It is the least expensive method",
+      "It allows for storage for many years without significant loss",
+      "It does not require electricity",
+      "It is the only method that uses glycerol"
+    ],
+    "answer": "It allows for storage for many years without significant loss",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of these is NOT a method mentioned for the improvement of industrial microorganisms?",
+    "options": [
+      "Selecting natural variants",
+      "Selecting induced mutants",
+      "Selecting recombinants",
+      "Selecting for maximum physical size"
+    ],
+    "answer": "Selecting for maximum physical size",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary role of a 'Master Stock Culture'?",
+    "options": [
+      "To be used daily for every fermentation run",
+      "To serve as the definitive source from which working stocks are derived",
+      "To be disposed of after one year to ensure freshness",
+      "To test the effectiveness of new cryoprotectants"
+    ],
+    "answer": "To serve as the definitive source from which working stocks are derived",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How many different preservation methods should be used for a culture to ensure redundancy in quality control?",
+    "options": [
+      "At least one",
+      "At least two",
+      "Exactly five",
+      "None, one method is sufficient"
+    ],
+    "answer": "At least two",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a major limitation of freeze-drying regarding its applicability?",
+    "options": [
+      "It cannot be used for bacteria",
+      "It is not suitable for animal cell cultures",
+      "It only works for thermophilic organisms",
+      "It requires liquid nitrogen to maintain the vacuum"
+    ],
+    "answer": "It is not suitable for animal cell cultures",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the effect of ice crystal formation during the freezing process?",
+    "options": [
+      "It increases the growth rate of cells",
+      "It causes rupture of membranes (cryodamage)",
+      "It helps stabilize the genetic material",
+      "It prevents the dehydration of the cell"
+    ],
+    "answer": "It causes rupture of membranes (cryodamage)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which culture collection is located in the Czech Republic?",
+    "options": [
+      "DSMZ",
+      "CBS",
+      "CCM",
+      "CNCM"
+    ],
+    "answer": "CCM",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Enrichment cultures using solidified media are often used to isolate producers of what?",
+    "options": [
+      "Specific enzymes or active compounds",
+      "Biogas and biofuels",
+      "Genetically modified crops",
+      "Liquid nitrogen"
+    ],
+    "answer": "Specific enzymes or active compounds",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a criterion for choosing an industrial microorganism?",
+    "options": [
+      "The color of the organism",
+      "The ease of product recovery from the culture",
+      "The organism's ability to survive in outer space",
+      "The number of times it has been subcultured"
+    ],
+    "answer": "The ease of product recovery from the culture",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the duration of viability for cultures preserved by freeze-drying?",
+    "options": [
+      "1 year",
+      "6 months",
+      "10 years or more",
+      "Exactly 2 years"
+    ],
+    "answer": "10 years or more",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the context of quality control, what should be minimized to reduce the risk of degeneration?",
+    "options": [
+      "The amount of glycerol used",
+      "The number of transfers or generations before preservation",
+      "The vacuum level during freeze-drying",
+      "The number of ampoules in the master bank"
+    ],
+    "answer": "The number of transfers or generations before preservation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT listed as a requirement for culture preservation?",
+    "options": [
+      "Eliminate genetic change",
+      "Protect against contamination",
+      "Retain viability",
+      "Increase the metabolic rate"
+    ],
+    "answer": "Increase the metabolic rate",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the specific goal of using a 'Simple Liquid Culture' method?",
+    "options": [
+      "To produce as much waste as possible",
+      "To isolate the organism with the highest affinity for the limiting substrate",
+      "To grow organisms that only like solid surfaces",
+      "To create a mixed culture of at least ten species"
+    ],
+    "answer": "To isolate the organism with the highest affinity for the limiting substrate",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The CNCM (Collection Nationale de Cultures de Microorganismes) is associated with which famous institute?",
+    "options": [
+      "The British Antarctic Survey",
+      "NCIMB Ltd",
+      "The Pasteur Institute",
+      "The American Type Culture Collection"
+    ],
+    "answer": "The Pasteur Institute",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which application uses microorganisms to express bacterial toxins to eliminate pests?",
+    "options": [
+      "Biofuels",
+      "Biopharmaceuticals",
+      "Agriculture",
+      "Environmental Management"
+    ],
+    "answer": "Agriculture",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is waste management a challenge for industrial fermentation?",
+    "options": [
+      "Residues must be treated to avoid environmental effects, increasing costs",
+      "Microorganisms eat the fermentation equipment",
+      "There is no way to dispose of spent cultures",
+      "Waste products are usually radioactive"
+    ],
+    "answer": "Residues must be treated to avoid environmental effects, increasing costs",
+    "shuffleOptions": true
+  },
+  {
+    "question": "At what stage should a culture be for the best results in freeze-drying?",
+    "options": [
+      "Early lag phase",
+      "Maximum stationary phase",
+      "Death phase",
+      "During the first hour of inoculation"
+    ],
+    "answer": "Maximum stationary phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following describes 'Cryopreservation'?",
+    "options": [
+      "Drying cultures under a vacuum at room temperature",
+      "Using very low temperatures to induce a hibernation state",
+      "Growing cultures on agar slopes in a refrigerator",
+      "Isolating thermophiles from hot springs"
+    ],
+    "answer": "Using very low temperatures to induce a hibernation state",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the main disadvantage of freeze-drying despite its effectiveness?",
+    "options": [
+      "It is dangerous to the operator",
+      "It is tedious to open and revitalize the cultures",
+      "It requires -140°C storage",
+      "It changes the color of the bacteria permanently"
+    ],
+    "answer": "It is tedious to open and revitalize the cultures",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which type of microorganism 'loves' high salt concentrations?",
+    "options": [
+      "Acidophiles",
+      "Psychrotrophs",
+      "Halophiles",
+      "Thermophiles"
+    ],
+    "answer": "Halophiles",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the typical storage duration for a culture in a standard laboratory freezer (-20°C to -40°C)?",
+    "options": [
+      "One week",
+      "Moderate periods (e.g., 1 year)",
+      "15 years",
+      "Indefinitely"
+    ],
+    "answer": "Moderate periods (e.g., 1 year)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "According to the text, which organism is used to express toxins in Bt corn?",
+    "options": [
+      "Saccharomyces cerevisiae",
+      "Bacillus thuringiensis",
+      "Escherichia coli",
+      "Aspergillus niger"
+    ],
+    "answer": "Bacillus thuringiensis",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of these is a function of glycerol in cryopreservation?",
+    "options": [
+      "It acts as a nutrient source during freezing",
+      "It depresses the freezing point and enhances supercooling",
+      "It increases ice crystal size to protect the cell",
+      "It makes the cell wall thicker"
+    ],
+    "answer": "It depresses the freezing point and enhances supercooling",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What are the key parameters used to evaluate the quality of preserved stocks?",
+    "options": [
+      "Purity, fermentation performance, and variability",
+      "Size, color, and weight",
+      "Smell and transparency",
+      "Resistance to antibiotics and heat"
+    ],
+    "answer": "Purity, fermentation performance, and variability",
+    "shuffleOptions": true
+  }
+]
