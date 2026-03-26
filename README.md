@@ -35,5 +35,8 @@ BK/
 └── BK.md               # Main index file for Obsidian/Markdown linking
 ```
 
+## Web Quiz 
+To view the quiz intuitively, please visit: https://mashxp.github.io/quiz_webapp/
+
 ---
 *Last updated: March 2026*
