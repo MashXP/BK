@@ -1,0 +1,243 @@
+% !TEX root = ../3.GSM.tex
+\section{Experimental Results}
+
+\subsection{Results}
+
+\subsubsection{Mill}
+
+\begin{table}[H]
+    \centering
+    \caption{Grinding experiment raw data}
+    \begin{tabular}{cccc}
+        \hline
+        \textbf{Mass} & \textbf{Time} & \multicolumn{2}{c}{\textbf{Amperage (A)}} \\ \cline{3-4}
+                      &               & \textbf{No Load}      & \textbf{Load} \\
+        \hline
+        200\,g        & 26.92\,s      & 3                     & 3.8 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Size distribution after milling}
+    \begin{tabular}{cccc}
+        \hline
+        \textbf{Sieve Size (mm)} & \textbf{Mass (g)} & \textbf{Mass Distribution} & \textbf{Mass Percentage} \\
+        \hline
+        0.425 & 49.47 & 49.47 & 0.618375 \\
+        0.315 & 5.771 & 55.18 & 0.68975  \\
+        0.200 & 14.35 & 69.53 & 0.869125 \\
+        0.160 & 4.47  & 74.00 & 0.925    \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Logarithmic values for size distribution}
+    \begin{tabular}{ccc}
+        \hline
+        $\log(D_p)$ & $\log(\Delta\varPhi)$ & $\varPhi$ \\
+        \hline
+        $-0.5$  & $-0.2087$ & 0.618375 \\
+        $-0.6$  & $-1.1465$ & 0.68975  \\
+        $-0.8$  & $-0.7462$ & 0.869125 \\
+        $-1.0$  & $-1.2528$ & 0.925    \\
+        \hline
+    \end{tabular}
+\end{table}
+
+Power consumption for the motor of the loaded mill:
+\begin{equation*}
+    P_{\text{load}} = UI\cos\varphi = 220 \times 3 \times 0.8 = 528\,\text{W}
+\end{equation*}
+
+Power consumption for the motor of the no-load mill:
+\begin{equation*}
+    P_{\text{no-load}} = UI\cos\varphi = 220 \times 3.8 \times 0.8 = 668.8\,\text{W}
+\end{equation*}
+
+Power consumption for the material grinding engine:
+\begin{equation*}
+    P' = P_{\text{load}} - P_{\text{no-load}} = 668.8 - 528 = 140.8\,\text{W}
+\end{equation*}
+
+\subsubsection{Sieve}
+
+\paragraph{Sieve efficiency at 0.2\,mm:}
+
+\begin{table}[H]
+    \centering
+    \caption{Sieve efficiency experiment (0.2\,mm sieve)}
+    \begin{tabular}{cccc}
+        \hline
+        \textbf{No. of times} & \textbf{Time (min)} & \textbf{Mass distribution (g)} & \textbf{$\sum J_i$ (g)} \\
+        \hline
+        1 & 5 & 25.44 & 25.44 \\
+        2 & 5 & 0.43  & 25.87 \\
+        3 & 5 & 0.24  & 26.11 \\
+        4 & 5 & 0.08  & 26.19 \\
+        5 & 5 & 0.02  & 26.21 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\paragraph{Size distribution after grinding:}
+
+\begin{table}[H]
+    \centering
+    \caption{Size distribution of ground material}
+    \begin{tabular}{cc}
+        \hline
+        \textbf{Sieve Size (mm)} & \textbf{Mass (g)} \\
+        \hline
+        0.425 & 49.47 \\
+        0.315 & 5.71  \\
+        0.200 & 14.35 \\
+        0.160 & 4.47  \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsubsection{Mixing}
+
+Raw count data (S = Soya beans, G = Green beans):
+
+\begin{table}[H]
+    \centering
+    \caption{Raw mixing data: particle counts per sample per time}
+    \resizebox{\linewidth}{!}{%
+    \begin{tabular}{ccccccccccccccc}
+        \hline
+        \textbf{Sample} &
+        \multicolumn{2}{c|}{\textbf{5\,s}} &
+        \multicolumn{2}{c|}{\textbf{15\,s}} &
+        \multicolumn{2}{c|}{\textbf{30\,s}} &
+        \multicolumn{2}{c|}{\textbf{60\,s}} &
+        \multicolumn{2}{c|}{\textbf{120\,s}} &
+        \multicolumn{2}{c}{\textbf{300\,s}} \\ \cline{2-13}
+        & \textbf{S} & \textbf{G} & \textbf{S} & \textbf{G} & \textbf{S} & \textbf{G} & \textbf{S} & \textbf{G} & \textbf{S} & \textbf{G} & \textbf{S} & \textbf{G} \\
+        \hline
+        1 & 99  & 184 & 83  & 111 & 81  & 115 & 64  & 67  & 63  & 171 & 67  & 65  \\
+        2 & 75  & 114 & 82  & 58  & 114 & 89  & 79  & 65  & 104 & 59  & 70  & 96  \\
+        3 & 125 & 84  & 132 & 57  & 98  & 107 & 69  & 43  & 98  & 113 & 131 & 114 \\
+        4 & 144 & 79  & 122 & 73  & 119 & 98  & 109 & 108 & 128 & 97  & 134 & 108 \\
+        5 & 151 & 99  & 127 & 76  & 144 & 127 & 122 & 69  & 104 & 63  & 135 & 86  \\
+        6 & 141 & 93  & 141 & 181 & 109 & 142 & 107 & 160 & 113 & 150 & 133 & 152 \\
+        7 & 98  & 148 & 90  & 148 & 98  & 108 & 108 & 145 & 104 & 108 & 118 & 176 \\
+        8 & 112 & 100 & 96  & 156 & 59  & 119 & 98  & 156 & 118 & 71  & 112 & 146 \\
+        \bottomrule
+    \end{tabular}
+    }
+\end{table}
+
+Calculated mixing indices at each time step ($C_A = 2/3$, $C_B = 1/3$):
+
+\begin{table}[H]
+    \centering
+    \caption{Calculated mixing index $I_s$ at each time}
+    \begin{tabular}{cccccc}
+        \hline
+        \textbf{Time} & $\boldsymbol{\sum}$ & $N$ & $\sigma_e$ & $s$ & $I_s$ \\
+        \hline
+        5\,s   & 0.27751 & 1846 & 0.05510 & -- & -- \\
+        15\,s  & 0.28518 & 1733 & 0.05610 & -- & -- \\
+        30\,s  & 0.34596 & 1727 & 0.05102 & -- & -- \\
+        60\,s  & 0.28310 & 1569 & 0.05918 & -- & -- \\
+        120\,s & 0.30013 & 1664 & 0.05581 & -- & -- \\
+        300\,s & 0.28308 & 1843 & 0.05460 & -- & -- \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Graphs}
+
+\subsubsection{Grinding}
+\begin{itemize}
+    \item Chart 1: Chart of $\sum J_i$ following sifting time.
+    \item Chart 2: Chart of $\log\Delta\varPhi_n$ following $\log D_{pn}$.
+\end{itemize}
+
+\subsubsection{Sifting}
+\begin{itemize}
+    \item Chart 3: Chart of accumulated size distribution of the material on sieve.
+\end{itemize}
+
+\subsubsection{Mixing}
+\begin{itemize}
+    \item Chart 4: Chart of mixing index $I_s$ following time.
+\end{itemize}
+
+\subsection{Discussion}
+
+\subsubsection{Adaptation of Bond's Law}
+
+Based on the milling theories, we can see that:
+
+\begin{itemize}
+    \item \textbf{Rittinger's Surfacial Theory}: Applicable only when the energy provided per unit weight of solid is not too large. It has limited practical value due to complex determination of $K_r$ for each material-machine combination.
+    \item \textbf{Kick's Volumetric Theory}: Based on stress analysis in the elastic limit. This theory also lacks high practical value due to its complicated coefficient determination.
+    \item \textbf{Bond's Law}: This is the highest practical-value theory for milling efficiency prediction. The work index $W_i$ includes the internal friction inside the milling machine. It has small error when applied to different milling machines of the same type and for both dry and wet milling processes. Therefore, this theory is very convenient for calculations.
+\end{itemize}
+
+\subsubsection{Comments on Milling and Sifting Efficiency}
+
+\textbf{Milling:} $E = 19.44\%$
+
+The milling efficiency is calculated from:
+\begin{itemize}
+    \item The weight of material milled $M$ (by scale).
+    \item Milling time (by stopwatch).
+    \item The current at maximum load measured by ammeter.
+\end{itemize}
+
+The efficiency can be considered to be relatively low due to:
+\begin{itemize}
+    \item \textit{Objective reasons}: The inherently low efficiency of the grinding machine.
+    \item \textit{Subjective reasons}: Weighing errors and imprecise time adjustment. However, these cause very minor errors that do not significantly affect the result.
+    \item \textit{Measurement after sifting}: Because the material particles are very light and small, they easily disperse into the surrounding environment. Additionally, some material remains stuck on the surface of the sieve due to particle size. This has the most significant effect on result error.
+\end{itemize}
+
+\textbf{Sifting:} $E = 97.01\%$
+
+The sifting efficiency is high, thanks to:
+\begin{itemize}
+    \item Low humidity in the material.
+    \item Suitable thickness of the material layer on the sieve, allowing particles to pass through faster and more easily.
+    \item The flat surface of the sieves.
+\end{itemize}
+
+\subsubsection{Reliability of Results}
+
+\begin{itemize}
+    \item \textbf{Milling}: Reliability is low. The most effective factors are described above in the efficiency discussion.
+    \item \textbf{Sifting}: Reliability is high. Key factors include low material humidity, suitable layer thickness, flat sieve surfaces, and simple calculations that minimise computational error.
+    \item \textbf{Mixing}: Reliability is pretty high. Factors affecting the mixing result:
+        \begin{itemize}
+            \item \textit{Bean size distribution}: The different sizes between soya beans and green beans affect the mixing process.
+            \item \textit{Mixing time}: Measured manually by stopwatch, so there will be small timing errors (considered negligible).
+            \item \textit{Specific weight}: Green beans and soya beans have approximate specific weights, which supports the mixing process.
+            \item \textit{Breakability}: These beans are not easily breakable, making the process easier to operate.
+            \item \textit{Sample positions}: Samples are taken from the arrangement corresponding to the defined diagram, ensuring spatial uniqueness and improving result accuracy.
+            \item \textit{Simple calculation}: Minimises calculation-induced error.
+        \end{itemize}
+\end{itemize}
+
+\subsubsection{Comment on Sampling Method in Mixing Experiment}
+
+Samples are taken at 6 different times: 5\,s, 15\,s, 30\,s, 60\,s, 120\,s, and 300\,s. At each time, 8 samples are taken at positions distributed across the mixing vessel. We must take samples at those positions to ensure analysis of all bean types, making each sample spatially unique so that results have higher accuracy. Because during the mixing process, not all positions have the same bean distribution, we take from many positions and calculate the average.
+
+Additionally, we take samples at 6 different times to analyse the change of mixing index over time, allowing us to find the optimal mixing time at which the highest uniformity is achieved.
+
+\subsubsection{Reliability of Mixing Results}
+
+The reliability of the mixing result is pretty high. Elements affecting the result significantly:
+\begin{itemize}
+    \item \textbf{Bean size distribution}: Different sizes between green beans and soya beans.
+    \item \textbf{Mixing time}: Determined manually by stopwatch; error is negligible.
+    \item \textbf{Specific weight}: Green beans and soya beans have approximate weights, supporting the process.
+    \item \textbf{Breakability}: These beans are not breakable, making operation easier.
+    \item \textbf{Sample positions}: Taken from defined positions in the vessel, ensuring spatial uniqueness.
+    \item \textbf{Simple calculation}: Result calculation is simple so the error is too small to mention.
+\end{itemize}

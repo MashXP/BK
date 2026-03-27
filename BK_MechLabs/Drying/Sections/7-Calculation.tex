@@ -1,0 +1,37 @@
+\section{CALCULATION}
+\subsection{For Table 1 \& 2 (Treated Data)}
+\begin{equation}
+    U(\%) = \frac{G - G_c}{G_c} \times 100
+\end{equation}
+\begin{equation}
+    N(\%/h) = \frac{\Delta U}{\Delta \tau}
+\end{equation}
+\begin{equation}
+    \epsilon = t_k - t_w
+\end{equation}
+
+\subsection{For Table 4 (Results from Plots)}
+\begin{itemize}
+    \item $U_{th}$: Intersection of drying and drying rate curves.
+    \item $U^*$: Equilibrium moisture content (assumed 0 for experimental filter paper).
+    \item $U_2$: $U^* + (2 \div 3)\%$.
+    \item $\chi = \frac{1}{U_{th} - U^*}$.
+    \item $K = \chi N$.
+\end{itemize}
+
+\subsection{For Table 5 (Theory vs. Experiment)}
+\begin{equation}
+    U_{th\_theory} = \frac{U_0}{1.8} + U^*
+\end{equation}
+\begin{equation}
+    \alpha_p = 0.0229 + 0.0174v_k \quad [kg/(m^2 \cdot h \cdot mmHg)]
+\end{equation}
+\begin{equation}
+    N_{theory} = 100 \cdot \alpha_p \cdot (P_m - P) \cdot \frac{F}{G_c} \quad [\%/h]
+\end{equation}
+Where $F = 0.36\text{m}^2$ (evaporation area).
+
+\subsection{Error Calculation}
+\begin{equation}
+    \text{Error (\%)} = \frac{\text{Experiment} - \text{Theory}}{\text{Theory}} \times 100
+\end{equation}

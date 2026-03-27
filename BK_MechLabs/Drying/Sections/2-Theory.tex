@@ -1,0 +1,206 @@
+% !TEX root = ../2.DRYING.tex
+\section{THEORY}
+\subsection{Definition}
+Convection drying is a process to remove water from the solid material by thermal vaporization. Wherein, the heat and moisture transfers are conducted by convection.
+
+\subsection{Characteristic of drying process}
+Drying, a complex process owns the irreversible and unstable properties. There are four concurrent processes occur in drying, which is heat transfer for solid material, diffusion of moisture inside the material, phase change and vaporization of the moisture into the ambient air.
+
+\subsection{Determination of drying rate based on heat balance of drying process}
+Heat duty of drying agent flow applies to a dryer in a period of $d\tau$:
+\begin{equation}
+    dQ = \alpha \cdot F \cdot (t - \theta) d\tau
+\end{equation}
+This heat duty is used for:
+\begin{itemize}
+    \item Heating the solid material:
+          \begin{equation}
+              (G_0C_0 + G_aC_a) d\theta
+          \end{equation}
+    \item Vaporizing the moisture and overheating the vapor:
+          \begin{equation}
+              [r + C_h(t - t_h)] dG_a
+          \end{equation}
+\end{itemize}
+Where:
+\begin{itemize}
+    \item $\alpha$: Heat-transfer coefficient drying agent into the dried material, $W/m^2K$
+    \item $F$: surface area of material, $m^2$
+    \item $t, \theta, t_h$: temperature of drying agent, material and saturated vapor, respectively, $^\circ C$
+    \item $G_0, C_0$: weight (kg) and specific heat ($J/Kg^\circ C$) of dried material, respectively
+    \item $G_a, C_a$: Weight (Kg) and specific heat ($J/Kg^\circ C$) of moisture, respectively
+    \item $r$: Latent heat of moisture, $J/Kg$
+    \item $C_h$: Specific heat of moisture vapor, $J/Kg^\circ C$
+\end{itemize}
+
+Moisture content vaporized in a period of $d\tau$:
+\begin{equation}
+    dG_a = d(G_0U) = G_0dU
+\end{equation}
+Where, $U$: moisture content of material (kg moisture/ kg dry material).
+
+From equation (1), (2), (3) and (4), a heat balance is established as following:
+\begin{equation}
+    \alpha \cdot F \cdot (t - \theta) d\tau = (G_0C_0 + G_aC_a) d\theta + G_0[r + C_h(t - t_h)] dU
+\end{equation}
+From (5), the drying rate inferred from heat balance is:
+\begin{equation}
+    \frac{dU}{d\tau} = \frac{\alpha F(t - \theta) - (G_0C_0 + G_aC_a)\frac{d\theta}{d\tau}}{G_0[r + C_h(t - t_h)]}
+\end{equation}
+
+\subsection{The basic equation of drying kinetics}
+According to the equation of moisture transfer from the material into drying agent medium:
+\begin{equation}
+    \frac{dU}{d\tau} = \frac{k_p F}{G_0}(p_m - p)
+\end{equation}
+Where:
+\begin{itemize}
+    \item $k_p$: moisture-transfer coefficient in gas phase, $kg/(m^2 \cdot h \cdot \Delta p)$.
+    \item $p_m, p$: pressure of moisture on the material's surface and in the gas phase, respectively, $mmHg$ ($at$).
+\end{itemize}
+
+As the moisture is not overheated ($i.e. t = t_h$), the equation (5) is altered as follows:
+\begin{equation}
+    \left(C_0 + C_a \frac{G_a}{G_0}\right) G_0 \frac{d\theta}{d\tau} + r G_0 \frac{dU}{d\tau} = \frac{dQ}{F d\tau}F = qF
+\end{equation}
+
+With $\frac{G_a}{G_0} = U$; $\frac{G_0}{V_0} = \rho_0$; $C_0 + C_a U = C$ and $\frac{V_0}{F} = R_0$.
+
+Wherein:
+\begin{itemize}
+    \item $\rho_0$: specific weight of dry material, $kg/m^3$
+    \item $V_0$: volume of dry material, $m^3$
+    \item $C$: specific heat of moist material, $J/(kg \cdot ^\circ C)$
+    \item $R_0$: equivalent radius of material, $m$
+\end{itemize}
+
+If the heat duty for overheating the moisture vapor is ignored, we get:
+\begin{equation}
+    q = \rho_0 R_0 r \frac{dU}{d\tau} + C \rho_0 R_0 \frac{d\theta}{d\tau} = \left[1 + \left(\frac{C}{r}\right)\frac{d\theta}{dU}\right] \left(\rho_0 R_0 r \frac{dU}{d\tau}\right) = (1 + Rb)(\rho_0 R_0 r)\frac{dU}{d\tau}
+\end{equation}
+With $Rb = 1 + \left(\frac{C}{r}\right)\frac{d\theta}{dU}$: Rebinder number, representative for drying kinetics. Expression (10) is the basic equation of drying kinetics, expressing the change of moisture in a material with drying time.
+
+\subsection{Heat duty applies to material in falling-rate period ($q_2$)}
+In falling rate period of the drying process, the obtained drying rate curve is straight. Therefore, the drying rate in this period is expressed as:
+\begin{equation} \label{eq:11}
+    -\frac{dU}{d\tau} = K(U - U^*)
+\end{equation}
+Where $K$ is the drying coefficient (slope drying rate curve), depended on drying rate and characteristics of moist material, $1/s$:
+\begin{equation} \label{eq:12}
+    K = \frac{N}{U_{th} - U^*} = \chi N
+\end{equation}
+Where:
+\begin{itemize}
+    \item $\chi = \frac{1}{U_{th} - U^*}$: relative drying coefficient, depended on moist material
+    \item $U_{th}$: critical moist content
+    \item $U^*$: equilibrium moisture content
+    \item $N$: constant drying rate, $kg \text{ moisture} / (kg \text{ dry material} \cdot s)$
+\end{itemize}
+
+Integral of equation (\ref{eq:11}) we get:
+\begin{equation} \label{eq:13}
+    \frac{U - U^*}{U_{th} - U^*} = \exp(-\chi N \tau)
+\end{equation}
+Alternatively, logarithmic solving of equation (\ref{eq:11}):
+\begin{equation} \label{eq:14}
+    \lg(U - U^*) = \lg(U_{th} - U^*) - \frac{1}{2.3} \chi N \tau
+\end{equation}
+If the drying coefficient is determined via experiments and can be approximately calculated as following:
+\begin{equation} \label{eq:15}
+    \chi \approx \frac{1.8}{U_0}
+\end{equation}
+With $U_0$: the initial moisture content of material.
+
+Therefore:
+\begin{equation} \label{eq:16}
+    U_{th} = \frac{1}{\chi} + U^* = \frac{U_0}{1.8} + U^*
+\end{equation}
+Replace equation (\ref{eq:11}) with equation (\ref{eq:12}) and (\ref{eq:15}), then:
+\begin{equation} \label{eq:17}
+    -\frac{dU}{d\tau} = 1.8 N \left(\frac{U - U^*}{U_0}\right)
+\end{equation}
+Combining equation (\ref{eq:17}) and (10), we get:
+\begin{equation}
+    q_2 = (1 + Rb)(\rho_0 R_0 r) 1.8 N \left(\frac{U - U^*}{U_0}\right)
+\end{equation}
+
+\subsection{Heat duty applies to material in constant-rate period ($q_1$)}
+In constant rate period, the total heat duty is equal to the heat of vaporization and the material temperature is constant:
+\begin{equation}
+    q_1 = \rho_0 R_0 r \frac{dU}{d\tau} = \rho_0 R_0 r N
+\end{equation}
+
+\subsection{Heat flux of heat-transfer density ($q(x)$)}
+\begin{equation}
+    q(x) = \frac{q_2}{q_1} = 1.8 \frac{U - U^*}{U_0} (1 + Rb)
+\end{equation}
+
+\subsection{Drying and drying rate curves}
+\subsubsection{Drying curve}
+It expresses the variation of moisture content ($U$) with drying time ($\tau$):
+\begin{equation}
+    U = f(\tau)
+\end{equation}
+The shape of drying curve:
+\begin{itemize}
+    \item Depended on various factors, such as moisture-material bonding, shape, dimension, the structure of the material; drying method and drying condition.
+    \item Drying curve is a function of the drying process. Therefore, the shape of drying curve is the same despite different drying methods and or drying conditions.
+\end{itemize}
+\begin{figure}[h!]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Images/drying_curve.pdf}
+        \caption{Drying curve}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Images/drying_rate.pdf}
+        \caption{Drying rate curve}
+    \end{minipage}
+    \vspace{0.5cm}
+    \caption*{
+        \textbf{Figure Legend:}\\
+        \begin{tabular}{ll}
+            \textbf{AB:} Heating of material            & \textbf{1:} thin and porous material: paper, paperback\dots  \\
+            \textbf{BC:} constant rate drying           & \textbf{2:} colloidal material                               \\
+            \textbf{CD:} Falling rate drying            & \textbf{3:} porous material                                  \\
+            \textbf{1:} drying curve                    & \textbf{4:} porous-colloidal material: has inflection point  \\
+            \textbf{2:} temperature pattern of material & \textbf{5:} material has break point (second critical point) \\
+        \end{tabular}
+    }
+\end{figure}
+
+\subsection{The drying stages}
+\subsubsection{Warming-up period (AB)}
+The warming-up period occurs rapidly, just in very short time. The total heat duty of drying agent was used for heating the material from initial temperature ($\theta_0$) to the wet-bulb temperature ($t_u$) (Fig 1).
+In this stage, the moisture content is vaporized negligibly, and the reduction of humidity of material is very tiny. The drying rate drastically increases to a maximum value ($N$). In fact, the stage is ignored in drying calculation.
+
+\subsubsection{Constant rate period (BC)}
+In this period, the diffusion rate of moisture from inside to the surface of material is higher than that from the surface to the heating medium. Therefore, the surface of material is covered by the moisture.
+Total heat duty is used for vaporizing moisture on the surface of the material (free moisture), and the vaporized surface stays constant. Therefore, the temperature on the surface of the material and drying rate do not alter when the moisture content rapidly decreases.
+Drying time of this stage (constant-rate time, $\tau_1$) is determined as follow:
+\begin{equation}
+    -\frac{dU}{d\tau} = N_1 = \text{const}
+\end{equation}
+Integral of equation (23), we get:
+\begin{equation}
+    \tau_1 = \frac{U_0 - U_{th}}{N_1}
+\end{equation}
+Where $U_{th}$: critical moisture content, which is the moisture content at the end of the constant-rate drying period.
+
+\subsubsection{Falling-rate drying period (CD)}
+In this stage, the moisture on the surface of material is completely vaporized, so the vaporizing surface is restricted to inside the material. The diffusion rate of moisture in the material is slow and hence, gradually reduces the drying rate. The temperature of the material rises from the wet-bulb temperature ($t_u$) to the dry-bulb temperature ($t$). At this time, there are three regions in the material: moist region, vaporizing region, and dry region.
+
+If the drying rate curve of this stage is straight or converting to a straight line ($-N_2 = ax + b$), we can integrate for determination of the falling period of drying process ($\tau_2$):
+\begin{equation}
+    \tau_2 = \frac{U_{th} - U^*}{N_1} \ln \frac{U_{th} - U^*}{U_2 - U^*}
+\end{equation}
+Where $U^*$: equlibrium moisture content, which is the moisture content at the end of the falling-rate drying period.
+
+\subsection{Drying time}
+Drying time can be determined via summarizing the drying time of three stages, including warming-up ($\tau_0$), constant-rate ($\tau_1$) and falling rate period ($\tau_2$). The warming-up stage can be ignored, the equation expressing the drying time is:
+\begin{equation}
+    \tau = \tau_1 + \tau_2 = \frac{U_0 - U_{th}}{N} + \frac{2.3}{N} (U_{th} - U^*) \lg \left[ \frac{U_{th} - U^*}{U_2 - U^*} \right]
+\end{equation}
+Where $U_2$: the moisture content at the end of the drying process, corresponding to ($\tau_2$). $U_2 > U^*$, usually using $U_2 = U^* + (2 \div 3)\%$.

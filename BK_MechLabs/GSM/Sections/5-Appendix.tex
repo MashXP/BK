@@ -1,0 +1,125 @@
+% !TEX root = ../3.GSM.tex
+\section{Appendix}
+
+\subsection{Milling Calculation}
+
+\subsubsection{Determination of the Equivalent Diameter of the Material Particle}
+
+The equivalent diameter is the diameter of a sphere having the same ratio $V/S$ as the real particle. For a spherical particle, $D_{p,\text{eq}} = D$. For a cylinder with length $L$ and diameter $D$:
+
+The average dimensions of the rice:
+\begin{itemize}
+    \item Length: $L = 6$\,mm
+    \item Diameter: $D = 1.5$\,mm
+\end{itemize}
+
+Considering the rice as a cylinder:
+\begin{equation*}
+    \frac{V}{S} = \frac{\frac{\pi D^2 L}{4}}{\pi D L + 2 \cdot \frac{\pi D^2}{4}} = \frac{D \cdot L}{4L + 2D}
+\end{equation*}
+
+\begin{equation*}
+    D_{p,\text{eq}} = \frac{4V}{S} = \frac{4DL}{4L + 2D} = \frac{4 \times 1.5 \times 6}{4 \times 6 + 2 \times 1.5} = 2\,\text{mm}
+\end{equation*}
+
+Therefore: $D_{p1} = D_{p,\text{eq}} = 2$\,mm.
+
+\subsubsection{Chart $\log\Delta\varPhi_n$ following $\log D_{pn}$}
+
+Line equation from the theory:
+\begin{equation*}
+    \log\Delta\varPhi_n = (b+1)\log D_{pn} + \log K'
+\end{equation*}
+
+According to Chart 2, the diagram passes through 3 points, giving:
+\begin{equation*}
+    b + 1 = 2.9975 \quad \Rightarrow \quad b = 1.9975
+    \qquad
+    \log K' = 2.4921 \quad \Rightarrow \quad K' = 310.53
+\end{equation*}
+
+The sieve ratio:
+\begin{equation*}
+    r = \frac{D_{pn-1}}{D_{pn}} = \frac{1}{3}\left(\frac{0.425}{0.315} + \frac{0.315}{0.2} + \frac{0.2}{0.16}\right) = 1.39
+\end{equation*}
+
+Therefore:
+\begin{equation*}
+    K = \frac{K'(b+1)}{r^{b+1} - 1} = \frac{310.53 \times 2.9975}{1.39^{2.9975} - 1} = 552.93
+\end{equation*}
+
+\subsubsection{Size Distribution of Material on Sieve}
+
+The differential equation:
+\begin{equation*}
+    \frac{-d\varPhi}{dD_p} = K D_p^b
+    \quad \Rightarrow \quad
+    \varPhi = \frac{-K}{b+1} D_p^{b+1} + C = -103.6 D_p^{2.9975} + C
+\end{equation*}
+
+When $D_p = 0.425$: $\varPhi = 0.39$ $\Rightarrow$ $C = 8.36$.
+
+\begin{equation*}
+    D_p = \sqrt[2.9975]{\frac{\varPhi - 8.36}{-103.6}}
+\end{equation*}
+
+By Bond's Law, $D_{p2}$ is the size such that 80\% of product weight passes through the sieve ($\varPhi = 0.20$):
+\begin{equation*}
+    D_{p2} = 0.43\,\text{mm}
+\end{equation*}
+
+\subsubsection{Milling Efficiency Calculation}
+
+Theoretical milling capacity (dry process, $W_i = 13$\,kWh/ton):
+\begin{equation*}
+    T = \frac{M}{t} = \frac{200 \times 10^{-6}\,\text{ton}}{26.92/60\,\text{min}}
+\end{equation*}
+
+\begin{equation*}
+    P = \frac{4}{3} \times 19 \times 13 \times \left(\frac{1}{\sqrt{0.43}} - \frac{1}{\sqrt{2}}\right) \times T = 0.13\,\text{kW}
+\end{equation*}
+
+Milling machine power:
+\begin{equation*}
+    P' = U \cdot I \cdot \cos\varphi = 220 \times 3.8 \times 0.8 = 668.8\,\text{W} = 0.6688\,\text{kW}
+\end{equation*}
+
+Milling efficiency:
+\begin{equation}
+    H = \frac{P}{P'} \times 100\% = \frac{0.13}{0.6688} \times 100\% = 19.44\%
+\end{equation}
+
+\subsection{Sifting Experiment Calculation}
+
+\subsubsection{Determination of $F \cdot a$}
+
+Based on Chart 1, the $\sum J_i$ curve asymptotes to:
+\begin{equation*}
+    F \cdot a = 25.77\,\text{g}
+\end{equation*}
+
+\subsubsection{Sifting Efficiency}
+\begin{equation}
+    E = \frac{J_1}{F \cdot a} \times 100\% = \frac{25}{25.77} \times 100\% = 97.01\%
+\end{equation}
+
+\subsection{Mixing Experiment Calculation}
+
+The constituents of Soya beans (A) and Green beans (B) in an ideal mixture are:
+\begin{equation*}
+    C_A = \frac{a}{a+b} = \frac{3}{3+1.5} = 0.67
+    \qquad
+    C_B = 1 - C_A = 0.33
+\end{equation*}
+
+The standard deviation of an ideal mixture:
+\begin{equation*}
+    \sigma_e = \sqrt{\frac{C_A C_B}{n}}
+\end{equation*}
+
+where $N = 8$ (number of samples) and $n$ is the number of beans per sample volume.
+
+The mixing index for each time step:
+\begin{equation*}
+    I_s = \sqrt{\frac{C_A C_B (N-1)}{n \cdot \sum_{i=1}^{N}(C_A - C_{iA})^2}}
+\end{equation*}
