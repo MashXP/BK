@@ -17,7 +17,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.4pt}
-\lhead{\small Microbiology Laboratory, Department of Biotechnology}
+\lhead{\small Molecular Biology Laboratory, Department of Biotechnology}
 \rhead{\small \thepage}
 \chead{}
 \lfoot{}
@@ -31,20 +31,25 @@
 % Customizing the title section
 \makeatletter
 \renewcommand{\@maketitle}{
-    \newpage
-    \null
-    \vskip 1em
-    \begin{center}
-    {\small Ho Chi Minh City University of Technology (HCMUT), VNU-HCM \par}
+    \noindent
+    \begin{minipage}[c]{0.08\textwidth}
+        \includegraphics[width=25px]{Images/bachkhoa_logo.png}
+    \end{minipage}%
+    \begin{minipage}[c]{0.92\textwidth}
+        \quad Ho Chi Minh City University of Technology (HCMUT), VNU-HCM
+    \end{minipage}
+    \par
     \vskip 0.5em
     \hrule
     \vskip 1em
-    {\LARGE\bfseries MICROBIOLOGY PRACTISE: BACTERIAL CHARACTERIZATION \par}
+    \begin{center}
+    {\LARGE\bfseries ANIMAL CELL TECHNOLOGY: \par}
+    {\LARGE\bfseries PRIMARY CELL ISOLATION FROM SHRIMP HEPATOPANCREAS  \par}
     \vskip 1.5em
-    {\normalsize Le Nguyen Hong Ky\textsuperscript{1,2}, Tran Vuong Gia Bao\textsuperscript{1,2}, Hoang My Dung\textsuperscript{1,2,*} \par}
+    {\normalsize Dinh Chan Phong\textsuperscript{1,2}, Tran Huu Dat\textsuperscript{1,2}, Dinh Nguyen Chinh Nghia\textsuperscript{1,2}, Hoang My Dung\textsuperscript{1,2,*} \par}
     \vskip 1em
     {\footnotesize \textsuperscript{1} Department of Biotechnology, Faculty of Chemical Engineering, Ho Chi Minh City University of Technology (HCMUT) \par}
-    {\footnotesize \textsuperscript{2} Office for International Study Programs, Ho Chi Minh City University of Technology (HCMUT), 268 Ly Thuong Kiet Street, District 10, Ho Chi Minh City, Vietnam \par}
+    {\footnotesize \textsuperscript{2} Office for International Study Programs, Ho Chi Minh City University of Technology (HCMUT), 268 Ly Thuong Kiet Street, Dien Hong Ward, Ho Chi Minh City, Vietnam \par}
     \vskip 0.5em
     {\footnotesize * Corresponding author: hoangmydung@hcmut.edu.vn \par}
     \end{center}
@@ -54,14 +59,15 @@
 \begin{document}
 
 \twocolumn[
+  \vspace*{-4em}
   \begin{center}
     \maketitle
     \begin{abstract}
     \vspace{-1.5em}
-    This report details a comprehensive microbiology laboratory workflow for the isolation, cultivation, biochemical characterization, and density quantification of \emph{Escherichia coli} BL21(DE3), \emph{Salmonella spp.}, and unidentified bacteria isolated from pork meat. Cultivation was performed using Luria-Bertani (LB) broth and slant agar media, with the streak plate technique applied for colony isolation. Kligler Iron Agar (KIA) biochemical testing revealed H2S production, alkaline reaction, and absence of carbohydrate fermentation in both Salmonella reference and pork isolates. Gram staining confirmed the presence of Gram-negative (pink) and Gram-positive (purple) bacteria. Unexpected non-motility was observed in E. coli, possibly due to strain variation or suboptimal conditions. Using hydrogen peroxide to determine the activity of Catalase. Cell density was quantified via direct hemocytometer counting (3.7925 $\times$ 10\textsuperscript{9} cells/mL) and indirect OD600 measurement, yielding a reliable standard curve with linear regression y = 1.3962x + 5.1132 (R² = 0.9374). Results emphasize the critical need for stringent aseptic techniques and quality control in microbiological procedures, while providing insights into microbial contamination in bio safety monitoring.
+    This study presents a standardized laboratory workflow for the isolation and establishment of a primary cell suspension from shrimp hepatopancreatic tissue. The procedure integrated mechanical mincing with enzymatic dissociation using 0.25\% Trypsin in Leibovitz L-15 medium, followed by sequential filtration through 100 $\mu$m and 40 $\mu$m mesh to ensure optimal single-cell recovery. The resulting suspension was concentrated via centrifugation at 500g for 10 minutes. Cell viability and density were subsequently quantified using the Trypan blue exclusion assay in a 1:1 dilution ratio via hemocytometer analysis. The protocol successfully yielded a viable primary cell suspension, demonstrating that the synergy of mechanical and enzymatic treatments is an effective approach for harvesting crustacean cells. These findings provide a foundational methodology for downstream applications in marine biotechnology, pathobiology, and in vitro cellular assays.
     \end{abstract}
     \vspace{0.5em}
-    \noindent\textbf{Keywords:} \emph{Escherichia coli}; \emph{Salmonella spp.}; Kligler Iron Agar; Gram staining; cell density; aseptic technique.
+    \noindent\textbf{Keywords:} Shrimp; Primary cell culture; Hepatopancreas; Enzymatic dissociation; Trypan blue exclusion; Cell viability.
     \vskip 1em
     \hrule
     \vskip 1.5em
@@ -69,123 +75,122 @@
 ]
 
 \section{Introduction}
-In microbiology research, bacteria culture preparation is the first important step. To equip the students with knowledge and techniques in microbiology research, all the beginning to the end of the bacterial culture manually have been guided with some typical techniques like media preparation, bacterial culture, colony isolation, biochemical test, gram staining, and of most the bacteria density quantification.
+% In microbiology research, bacteria culture preparation is the first important step. To equip the students with knowledge and techniques in microbiology research, all the beginning to the end of the bacterial culture manually have been guided with some typical techniques like media preparation, bacterial culture, colony isolation, biochemical test, gram staining, and of most the bacteria density quantification.
 
-The chosen medium for bacterial cultivation was Luria-Bertani (LB) medium. This is the most commonly used in microbiology. Variations of the LB recipe can be found in the literature and lab manuals. The broth medium and slant agar medium were used for bacteria isolation.
+% The chosen medium for bacterial cultivation was Luria-Bertani (LB) medium. This is the most commonly used in microbiology. Variations of the LB recipe can be found in the literature and lab manuals. The broth medium and slant agar medium were used for bacteria isolation.
 
-In biochemical testing, The Kligler Iron Agar (KIA) medium is a differential medium developed by I. J. Kligler in 1918 [1], combining his work on a hydrogen sulfide (H2S) detection medium with Russell's double sugar agar. Classification bacteria based on their ability to ferment glucose and lactose, or use peptone for main nutrions, produce gas, and generate hydrogen sulfide (H2S). The medium contains two sugar sources (glucose and lactose), peptone, iron, and phenol red as a pH indicator. Phenol red turns yellow in acidic conditions (pH $<$ 6.8) and red in alkaline conditions (pH $>$ 7.4). A yellow color indicates acid production from carbohydrate fermentation. If only glucose is fermented, the bottom (butt) remains yellow (acidic) while the slant reverts to red (alkaline) as bacteria oxidatively deaminate peptone under aerobic conditions. A yellow slant and yellow butt indicate fermentation of both glucose and lactose, maintaining an acidic environment throughout the medium. The formation of bubbles or cracks in the agar signifies gas released during carbohydrate fermentation, like Lactate dehydrogenation. A black precipitate forms when hydrogen sulfide reacts with ferrous sulfate in the medium, indicating H\textsubscript{2}S production.
+% In biochemical testing, The Kligler Iron Agar (KIA) medium is a differential medium developed by I. J. Kligler in 1918 [1], combining his work on a hydrogen sulfide (H2S) detection medium with Russell's double sugar agar. Classification bacteria based on their ability to ferment glucose and lactose, or use peptone for main nutrions, produce gas, and generate hydrogen sulfide (H2S). The medium contains two sugar sources (glucose and lactose), peptone, iron, and phenol red as a pH indicator. Phenol red turns yellow in acidic conditions (pH $<$ 6.8) and red in alkaline conditions (pH $>$ 7.4). A yellow color indicates acid production from carbohydrate fermentation. If only glucose is fermented, the bottom (butt) remains yellow (acidic) while the slant reverts to red (alkaline) as bacteria oxidatively deaminate peptone under aerobic conditions. A yellow slant and yellow butt indicate fermentation of both glucose and lactose, maintaining an acidic environment throughout the medium. The formation of bubbles or cracks in the agar signifies gas released during carbohydrate fermentation, like Lactate dehydrogenation. A black precipitate forms when hydrogen sulfide reacts with ferrous sulfate in the medium, indicating H\textsubscript{2}S production.
 
-Some basic physical characteristics of bacteria were examined, including motility and Gram staining. The motility test is used to determine whether the bacteria possess structures such as flagella or cilia, allowing them to move actively in semi-liquid environments. The Gram staining test differentiates bacteria based on the structural composition of their cell walls, the peptidoglycan [2]. Gram-positive bacteria possess a thick peptidoglycan layer that retains the crystal violet iodine complex, appearing purple or blue under the microscope. Gram-negative bacteria have a thinner peptidoglycan layer located between two lipid cell membranes. During the alcohol decolorization step, the crystal violet is removed, and subsequent staining with safranin dyes the inner membrane, resulting in pink to red-colored cells under the microscope.
+% Some basic physical characteristics of bacteria were examined, including motility and Gram staining. The motility test is used to determine whether the bacteria possess structures such as flagella or cilia, allowing them to move actively in semi-liquid environments. The Gram staining test differentiates bacteria based on the structural composition of their cell walls, the peptidoglycan [2]. Gram-positive bacteria possess a thick peptidoglycan layer that retains the crystal violet iodine complex, appearing purple or blue under the microscope. Gram-negative bacteria have a thinner peptidoglycan layer located between two lipid cell membranes. During the alcohol decolorization step, the crystal violet is removed, and subsequent staining with safranin dyes the inner membrane, resulting in pink to red-colored cells under the microscope.
 
 \section{Materials and Methods}
 \subsection{Work flow}
-(Workflow diagram omitted as per instructions to ignore images).
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\columnwidth]{Images/workflow.png}
+    \caption{Workflow of primary cell isolation from shrimp hepatopancreas.}
+    \label{fig:workflow}
+\end{figure}
 
-\subsection{Bacteria Strain}
-The experimental bacterial strain selected was \emph{Escherichia coli} BL21(DE3), \emph{Escherichia coli} (E.coli) \emph{spp.}, \emph{Salmonella spp.} and unknown bacteria which are selected from pork's meat, kindly provided by the Microbiology Laboratory, Department of Biotechnology, Faculty of Chemical Engineering at Ho Chi Minh City University of Technology - Vietnam National University.
+% \subsection{Bacteria Strain}
+% The experimental bacterial strain selected was \emph{Escherichia coli} BL21(DE3), \emph{Escherichia coli} (E.coli) \emph{spp.}, \emph{Salmonella spp.} and unknown bacteria which are selected from pork's meat, kindly provided by the Microbiology Laboratory, Department of Biotechnology, Faculty of Chemical Engineering at Ho Chi Minh City University of Technology - Vietnam National University.
 
-\subsection{Isolation and cultivation of bacterial}
-The Luria-Bertani (LB) broth medium was prepared by dissolving 1\% (w/v) peptone (Xilong Scientific, China), 1\% (w/v) yeast extract (Angel, China), and 0.5\% (w/v) sodium chloride (Xilong Scientific, China) in distilled water, followed by pH adjustment to 7.0 $\pm$ 0.2. For solid media preparation, 1.5\% (w/v) agar (Himedia, India) was incorporated into the LB medium prior to autoclave sterilization at 121°C for 15 minutes [3].
+% \subsection{Isolation and cultivation of bacterial}
+% The Luria-Bertani (LB) broth medium was prepared by dissolving 1\% (w/v) peptone (Xilong Scientific, China), 1\% (w/v) yeast extract (Angel, China), and 0.5\% (w/v) sodium chloride (Xilong Scientific, China) in distilled water, followed by pH adjustment to 7.0 $\pm$ 0.2. For solid media preparation, 1.5\% (w/v) agar (Himedia, India) was incorporated into the LB medium prior to autoclave sterilization at 121°C for 15 minutes [3].
 
-To initiate bacterial culture, a sterile inoculation stick was aseptically dipped into the bacterial stock culture and used to inoculate 5 mL of sterile LB broth in a test tube. The inoculated broth was then incubated overnight at 37°C to obtain an actively growing bacterial culture. The slant agar tubes (contain 5mL of LB 1.5\% agar medium) were subsequently cooled at an inclined position to create slanted surfaces, providing an extended growth area. Bacterial stocks were then streaked onto these prepared slants using a sterile inoculation stick and stored at 4°C.
+% To initiate bacterial culture, a sterile inoculation stick was aseptically dipped into the bacterial stock culture and used to inoculate 5 mL of sterile LB broth in a test tube. The inoculated broth was then incubated overnight at 37°C to obtain an actively growing bacterial culture. The slant agar tubes (contain 5mL of LB 1.5\% agar medium) were subsequently cooled at an inclined position to create slanted surfaces, providing an extended growth area. Bacterial stocks were then streaked onto these prepared slants using a sterile inoculation stick and stored at 4°C.
 
-For isolation of pure colonies, the standardized four-quadrant streak plate technique was systematically executed. The sterile-loop was submerged into bacteria culture. Initial inoculation was performed by spreading the bacterial sample across approximately one-quarter of the agar surface in discrete, well-separated lines. Following this first quadrant streaking, the loop was flame-sterilized and cooled. Following the step, the cooled loop then drawn from the end point of the first quadrant to transfer cells into the adjacent second quadrant. Repeat the step for two remaining quadrant. The method ensured optimal distribution for obtaining isolated colonies following overnight incubation at room temperature, thereby facilitating the selection of pure cultures for subsequent experimental procedures.
+% For isolation of pure colonies, the standardized four-quadrant streak plate technique was systematically executed. The sterile-loop was submerged into bacteria culture. Initial inoculation was performed by spreading the bacterial sample across approximately one-quarter of the agar surface in discrete, well-separated lines. Following this first quadrant streaking, the loop was flame-sterilized and cooled. Following the step, the cooled loop then drawn from the end point of the first quadrant to transfer cells into the adjacent second quadrant. Repeat the step for two remaining quadrant. The method ensured optimal distribution for obtaining isolated colonies following overnight incubation at room temperature, thereby facilitating the selection of pure cultures for subsequent experimental procedures.
 
-\subsection{Biochemical analysis}
-The Kligler Iron Agar (KIA) medium was prepared with the following composition (per liter): Peptone (Himedia, India) 18 g, Yeast extract (Angel, China) 3 g, Proteose peptone (Himedia, India) 5 g, Lactose (Obox, China) 5 g, Dextrose (Obox, China) 1 g, Ferrous sulfate (Obox, China) 0.2 g, NaCl (Xilong Scientific, China) 5 g, Sodium thiosulfate (Obox, China) 0.3 g, Phenol red (Obox, China) 0.024 g, and Agar (Himedia, India) 20 g. The environment was adjusted to a pH of 7.4 $\pm$ 0.2, 5mL of KIA medium were added to test tube, sterilized and solidified the slant agar. A sterile-loop carrying bacteria was then used to streak across the agar surface. The inoculated tubes were placed at room temperature for four days for observation.
+% \subsection{Biochemical analysis}
+% The Kligler Iron Agar (KIA) medium was prepared with the following composition (per liter): Peptone (Himedia, India) 18 g, Yeast extract (Angel, China) 3 g, Proteose peptone (Himedia, India) 5 g, Lactose (Obox, China) 5 g, Dextrose (Obox, China) 1 g, Ferrous sulfate (Obox, China) 0.2 g, NaCl (Xilong Scientific, China) 5 g, Sodium thiosulfate (Obox, China) 0.3 g, Phenol red (Obox, China) 0.024 g, and Agar (Himedia, India) 20 g. The environment was adjusted to a pH of 7.4 $\pm$ 0.2, 5mL of KIA medium were added to test tube, sterilized and solidified the slant agar. A sterile-loop carrying bacteria was then used to streak across the agar surface. The inoculated tubes were placed at room temperature for four days for observation.
 
-The catalase test was performed to detect the presence of the catalase enzyme in bacterial isolates, following standard microbiological procedures [4]. This test serves as a key biochemical marker for differentiating bacterial genera. The principle relies on the enzymatic decomposition of hydrogen peroxide into water and oxygen gas. Bacteria possessing the catalase enzyme catalyze the reaction:
-\begin{equation*}
-2H_2O_2 \rightarrow 2H_2O + O_2
-\end{equation*}
-where the production of oxygen bubbles immediately after adding hydrogen peroxide indicates a positive result.
+% The catalase test was performed to detect the presence of the catalase enzyme in bacterial isolates, following standard microbiological procedures [4]. This test serves as a key biochemical marker for differentiating bacterial genera. The principle relies on the enzymatic decomposition of hydrogen peroxide into water and oxygen gas. Bacteria possessing the catalase enzyme catalyze the reaction:
+% \begin{equation*}
+% 2H_2O_2 \rightarrow 2H_2O + O_2
+% \end{equation*}
+% where the production of oxygen bubbles immediately after adding hydrogen peroxide indicates a positive result.
 
-\subsection{Mobility Test}
-Briefly the LB medium broth was prepared, but only 0.35\% agar (Himedia, India) was added, to create the semi-solid media. Put 5mL of LB (0.35\% agar) into the test tube. The sterile-loop, containing bacteria, was vertically dipped into the agar. The culture was kept overnight for observation.
+% \subsection{Mobility Test}
+% Briefly the LB medium broth was prepared, but only 0.35\% agar (Himedia, India) was added, to create the semi-solid media. Put 5mL of LB (0.35\% agar) into the test tube. The sterile-loop, containing bacteria, was vertically dipped into the agar. The culture was kept overnight for observation.
 
-\subsection{Gram Staining}
-The Gram staining method was performed with slight modifications [2]. Briefly, a smear of bacterial culture was spread on a glass slide and heat-fixed by gently passing it over a flame until dry. One drop of crystal violet was applied and allowed to stand for 60 seconds, followed by rinsing with water. Then, one drop of iodine solution was added and left for 60 seconds before rinsing again. The slide was then decolorized with ethanol by washing approximately 10 times, followed by another rinse with water. One drop of safranin was applied and allowed to stand for 45 seconds, after which the slide was rinsed with water and air-dried. Finally, one drop of immersion oil was added to the dried slide, and bacterial cells were observed under a microscope at 100$\times$ magnification.
+% \subsection{Gram Staining}
+% The Gram staining method was performed with slight modifications [2]. Briefly, a smear of bacterial culture was spread on a glass slide and heat-fixed by gently passing it over a flame until dry. One drop of crystal violet was applied and allowed to stand for 60 seconds, followed by rinsing with water. Then, one drop of iodine solution was added and left for 60 seconds before rinsing again. The slide was then decolorized with ethanol by washing approximately 10 times, followed by another rinse with water. One drop of safranin was applied and allowed to stand for 45 seconds, after which the slide was rinsed with water and air-dried. Finally, one drop of immersion oil was added to the dried slide, and bacterial cells were observed under a microscope at 100$\times$ magnification.
 
-\subsection{Quantitative measurement}
-Bacterial cell density was determined using both direct and indirect enumeration methods to quantify the concentration of viable cells in a given suspension.
+% \subsection{Quantitative measurement}
+% Bacterial cell density was determined using both direct and indirect enumeration methods to quantify the concentration of viable cells in a given suspension.
 
-A direct count of bacterial cells (yeast cells) was performed using a hemocytometer (Neubauer improved). A bacterial suspension was properly diluted in sterile phosphate-buffered saline (PBS) to achieve a countable concentration. A small volume of the diluted suspension was loaded into the hemocytometer chamber. The cells in the four large corner squares (each containing 16 smaller squares) were counted under a light microscope at 40x magnification. The cell density (cells/mL) was calculated using the following formula [5]:
-\begin{equation*}
-\text{Cell density (cells/mL)} = \frac{\text{Total cell count}}{\text{No. of squares counted}} \times \text{Dilution factor} \times 10^4
-\end{equation*}
+% A direct count of bacterial cells (yeast cells) was performed using a hemocytometer (Neubauer improved). A bacterial suspension was properly diluted in sterile phosphate-buffered saline (PBS) to achieve a countable concentration. A small volume of the diluted suspension was loaded into the hemocytometer chamber. The cells in the four large corner squares (each containing 16 smaller squares) were counted under a light microscope at 40x magnification. The cell density (cells/mL) was calculated using the following formula [5]:
+% \begin{equation*}
+% \text{Cell density (cells/mL)} = \frac{\text{Total cell count}}{\text{No. of squares counted}} \times \text{Dilution factor} \times 10^4
+% \end{equation*}
 
-For indirect counting, standard curve was constructed to correlate optical density (OD) with viable bacterial concentration, following established microbiological practices [5, 6]. A fresh bacterial culture was serially diluted with sterile broth to obtain suspensions with target optical densities at 600 nm (OD\textsubscript{600}) of 0.1, 0.2, and 0.3. The exact OD of each suspension was verified using a spectrophotometer. Each standardized suspension was then subjected to further serial decimal dilution to achieve a countable range of colonies.
+% For indirect counting, standard curve was constructed to correlate optical density (OD) with viable bacterial concentration, following established microbiological practices [5, 6]. A fresh bacterial culture was serially diluted with sterile broth to obtain suspensions with target optical densities at 600 nm (OD\textsubscript{600}) of 0.1, 0.2, and 0.3. The exact OD of each suspension was verified using a spectrophotometer. Each standardized suspension was then subjected to further serial decimal dilution to achieve a countable range of colonies.
 
-From these appropriate dilutions, viable cell counts were determined using the spread plate technique. Specifically, 100 $\mu$L aliquots of each dilution were aseptically transferred onto solid LB (1.5\% agar) plates. Then evenly distributed across the agar surface using a sterile, ethanol-flamed glass spreader. Incubated the plates at room temperature for 48 hours.
+% From these appropriate dilutions, viable cell counts were determined using the spread plate technique. Specifically, 100 $\mu$L aliquots of each dilution were aseptically transferred onto solid LB (1.5\% agar) plates. Then evenly distributed across the agar surface using a sterile, ethanol-flamed glass spreader. Incubated the plates at room temperature for 48 hours.
 
-The high confident-colonies range is between 30 and 300 colonies, ensuring statistical accuracy [7]. The colony-forming unit (CFU) per milliliter for each original OD standard was calculated using the standard formula [5]:
-\begin{equation*}
-\text{CFU/mL} = \frac{\text{Number of colonies counted}}{\text{Dilution factor} \times \text{Volume plated (mL)}}
-\end{equation*}
+% The high confident-colonies range is between 30 and 300 colonies, ensuring statistical accuracy [7]. The colony-forming unit (CFU) per milliliter for each original OD standard was calculated using the standard formula [5]:
+% \begin{equation*}
+% \text{CFU/mL} = \frac{\text{Colonies}}{\text{Dilution} \times \text{Vol (mL)}}
+% \end{equation*}
 
 \section{Results \& Discussion}
-\subsection{Isolation and cultivation of bacterial}
-\subsubsection{Isolation via Streak Plate Technique}
-\emph{E. coli} BL21(DE3) was isolated using the four-quadrant streaking method. The results revealed an abnormal growth pattern, with colonies primarily observed in the first and second quadrants rather than being concentrated in the third and fourth quadrants as expected. This phenomenon may be attributed to two main factors: (1) an excessively low initial bacterial density in the suspension, and (2) insufficient cooling of the inoculation loop.
+The cell isolation from shrimp hepatopancreas was quantified using a hemocytometer after a 1:1 dilution (10 $\mu$L cell suspension + 10 $\mu$L Trypan Blue). The resulting suspension was resuspended in 1 mL.
 
-\subsubsection{Cultivation the broth LB tubes and slant agar tubes}
-Successful growth is indicated by filiform (thread-like) streak of bacteria along the surface of the slanted agar, demonstrating a pure culture without visible contamination. The colonies are consistent with the typical morphology of \emph{E. coli} BL21(DE23). This method is optimal for short-term stock storage.
-
-\subsection{Biochemical Analysis and Mobility Test}
-In the KIA test for the reference \emph{Salmonella} and pork isolates, the development of both top and bottom are red, and the development of black coloration confirmed hydrogen sulfide (H\textsubscript{2}S) production. In the separate motility test conducted on the \emph{E. coli} strain, the negative result obtained was noteworthy.
-
-\subsection{Gram Staining}
-During the process of Gram staining, crystal violet is applied to the bacterial sample and subsequently treated with iodine to mordant the sample. Gram-negative bacteria exhibit a red-pink hue when stained with safranin.
-
-\subsection{Catalase test}
-The catalase test results demonstrated positive reactions for both bacterial samples analyzed. \emph{E. coli} and \emph{Salmonella spp.} each exhibited immediate and vigorous bubbling.
-
-\subsection{Quantitative measurement}
-\subsubsection{Direct Measurement with Hemocytometer}
-A direct cell count was performed using a hemocytometer. The counts obtained from four large squares showed some variation:
-\begin{center}
-\begin{tabular}{cc}
+\begin{table}[h!]
+\centering
+\caption{Hemocytometer Counts and Viability Analysis}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccc}
 \toprule
-Square & Number of Cells Counted \\
+Square & Live (L) & Dead (D) & Total (T) & Viability (\%) \\
 \midrule
-2 & 58 \\
-4 & 60 \\
-6 & 56 \\
-8 & 58 \\
-\bottomrule
-\end{tabular}
-\end{center}
-The original yeast cell density was determined to be 1.45 $\times$ 10\textsuperscript{9} cells/mL.
-
-\subsubsection{Indirect Measurement of E. coli Cell Density}
-The viable cell density, expressed as Log(CFU/mL), was calculated:
-\begin{center}
-\begin{tabular}{lccc}
-\toprule
-OD600 & 0.1 & 0.2 & 0.3 \\
+Top    & 61  & 15 & 76  & 80.3\% \\
+Left   & 46  & 12 & 58  & 79.3\% \\
+Center & 64  & 14 & 78  & 82.1\% \\
+Right  & 64  & 6  & 70  & 91.4\% \\
+Bottom & 64  & 8  & 72  & 88.9\% \\
 \midrule
-No. of colonies & 20 & 210 & 124 \\
-Log(CFU/mL) & 6.301 & 8.322 & 9.093 \\
+Sum/Avg & 299 & 55 & 354 & 84.5\% \\
 \bottomrule
-\end{tabular}
-\end{center}
+\end{tabular}%
+}
+\end{table}
 
-Linear regression analysis yielded the equation $y = 1.3962x + 5.1132$, with $R^2 = 0.9374$.
+\subsection{Calculations}
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Percentage Viability:}
+    \begin{equation*}\small
+    \%V = \frac{\sum L}{\sum T} \times 100 = \frac{299}{354} \times 100 \approx 84.5\%
+    \end{equation*}
+
+    \item \textbf{Live Cell Concentration:} \\
+    (DF = 2 due to 1:1 mix)
+    \begin{equation*}\small
+    \text{Cells/mL} = \frac{\sum L}{5} \times DF \times 10^4 = 1.196 \times 10^6
+    \end{equation*}
+
+    \item \textbf{Total Yield (1 mL):}
+    \begin{equation*}\small
+    \text{Yield} = 1.196 \times 10^6 \text{ viable cells}
+    \end{equation*}
+\end{enumerate}
+
+The data demonstrates a successful isolation with a viability of 84.5\%, exceeding the 80\% benchmark for healthy primary cultures. The 0.25\% Trypsin treatment (10 min) effectively dissociated the tissue without significant membrane damage. The concentration ($\approx 1.2 \times 10^6$ cells/mL) indicates a high recovery rate. Minor localized viability decreases (Top/Left) are negligible compared to the robust overall population.
 
 \section{Conclusion}
-The experiment successfully isolated and cultivated \emph{E. coli} BL21(DE3) and pork-derived bacteria. Bacterial quantification via hemocytometer and OD\textsubscript{600} methods produced consistent results, validating OD\textsubscript{600} as an efficient growth monitoring tool. The study reinforces the essential role of aseptic technique and robust quantification methods in microbiology research.
+The protocol involving trypsinization, sequential filtration (100$\rightarrow$40 $\mu$m), and resuspension yielded a high-density, viable cell suspension ($1.196 \times 10^6$ cells, 84.5\% viability), optimized for downstream applications.
 
 \section*{Acknowledgements}
 We express our heartfelt gratitude to Dr. Hoang My Dung for her invaluable guidance. We also thank the Ho Chi Minh City University of Technology for providing laboratory facilities.
 
 \begin{thebibliography}{9}
-\bibitem{1} Kligler I. J. (1918). MODIFICATIONS OF CULTURE MEDIA USED IN THE ISOLATION AND DIFFERENTIATION OF TYPHOID, DYSENTERY, AND ALLIED BACILLI. \emph{The Journal of experimental medicine}, 28(3), 319--322.
-\bibitem{2} Bartholomew, J. W., \& Mittwer, T. (1952). The Gram Stain. \emph{Bacteriological Reviews}, 16(1), 1--29.
-\bibitem{3} Bertani, G. (1951). Studies on lysogenesis. I. The mode of phage liberation by lysogenic Escherichia coli. \emph{Journal of Bacteriology}, 62(3), 293--300.
-\bibitem{4} Reiner, K. (2010). Catalase test protocol. \emph{American Society for Microbiology}.
-\bibitem{5} Cadena-Herrera, V., et al. (2015). Validation of Three Viable-Cell Counting Methods: Manual, Semi-Automated, and Automated. \emph{Biotechnology Reports}, 7, 9--16.
-\bibitem{6} Sutton, S. (2011). Measurement of Microbial Cells by Optical Density. \emph{Journal of Validation Technology}, 17(1), 46-49.
-\bibitem{7} Breed, R.S., \& Dotterrer, W.D. (1916). The Number of Colonies Allowable on Satisfactory Agar Plates. \emph{Journal of Bacteriology}, 1(3), 321--331.
+\bibitem{1} Shanthi, S., et al. (2015). Establishment of a primary cell culture from the hepatopancreas of tiger shrimp, \emph{Penaeus monodon}. \emph{In Vitro Cellular \& Developmental Biology - Animal}, 51(4), 358--365.
+\bibitem{2} Leibovitz, A. (1963). The growth and maintenance of tissue-cell cultures in free gas exchange with the atmosphere. \emph{American Journal of Hygiene}, 78(2), 173--180.
+\bibitem{3} Freshney, R. I. (2010). \emph{Culture of Animal Cells: A Manual of Basic Technique and Specialized Applications}. John Wiley \& Sons.
+\bibitem{4} Cadena-Herrera, V., et al. (2015). Validation of Three Viable-Cell Counting Methods: Manual, Semi-Automated, and Automated. \emph{Biotechnology Reports}, 7, 9--16.
+\bibitem{5} Strober, W. (2015). Trypan Blue Exclusion Test of Cell Viability. \emph{Current Protocols in Immunology}, 111(1), A3.B.1--A3.B.3.
+\bibitem{6} Najafabadi, M. G., et al. (2016). Primary cell culture of hepatopancreas from the white leg shrimp \emph{Litopenaeus vannamei}. \emph{Journal of Coastal Life Medicine}, 4(10), 770--774.
 \end{thebibliography}
 
 \end{document}
