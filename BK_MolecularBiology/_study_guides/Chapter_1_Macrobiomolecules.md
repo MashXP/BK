@@ -23,6 +23,13 @@ The four main classes of macrobiomolecules are:
     *   Small interfering RNA (siRNA)
 *   **Analysis**:
     *   **Electrophoresis**: Separation by size/charge.
+        *   **Basic Steps**:
+            1.  **Preparation**: Agarose (DNA) or polyacrylamide (Protein/RNA) gel is prepared with wells.
+            2.  **Pre-treatment (if needed)**: Neutral molecules like **carbohydrates** receive **borate treatment** (borate ions form complexes with diols) to acquire a negative charge.
+            3.  **Loading**: Samples mixed with loading dye (glycerol and tracking dye) are placed in wells.
+            4.  **Running**: An electric field is applied; molecules migrate toward the positive anode (since DNA/RNA and borated carbohydrates are negatively charged).
+            5.  **Separation**: Smaller fragments move faster through the gel matrix than larger ones.
+            6.  **Visualization**: Bands are visualized using staining (e.g., Ethidium Bromide or SYBR Safe) and UV light.
     *   **Crystallography**: X-ray diffraction for structure (Double Helix).
 
 ### 3. Proteins
@@ -36,7 +43,16 @@ The four main classes of macrobiomolecules are:
 ### 4. Lipids
 *   **Structure**: Hydrophilic heads, Hydrophobic tails (Phospholipid bilayer).
 *   **Lipid Rafts**: Specialized membrane microdomains for signaling.
-*   **Classification**: Saturated vs. Unsaturated. LIPID MAPS categories (8 categories).
+*   **Classification**: Saturated vs. Unsaturated.
+*   **LIPID MAPS (8 Categories)**:
+    1.  **Fatty Acyls (FA)**: Fatty acids, conjugates, and derivatives (e.g., eicosanoids).
+    2.  **Glycerolipids (GL)**: Mono-, di-, and tri-substituted glycerols (e.g., triglycerides).
+    3.  **Glycerophospholipids (GP)**: Lipids containing a phosphate group (e.g., phosphatidylcholine).
+    4.  **Sphingolipids (SP)**: Based on a sphingoid base backbone (e.g., ceramides).
+    5.  **Sterol Lipids (ST)**: Cholesterol and derivatives (e.g., steroid hormones).
+    6.  **Prenol Lipids (PR)**: Synthesized from isopentenyl diphosphate (e.g., carotenoids).
+    7.  **Saccharolipids (SL)**: Fatty acids linked directly to a sugar backbone.
+    8.  **Polyketides (PK)**: Diverse group of secondary metabolites.
 *   **Functions**: Structure (membrane), Metabolism, Signaling.
 
 ### 5. Carbohydrates
