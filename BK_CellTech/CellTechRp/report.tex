@@ -1,4 +1,4 @@
-\documentclass[10pt,a4paper,twocolumn]{article}
+\documentclass[a4paper,twocolumn]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[left=1.5cm,right=1.5cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{amsmath}
@@ -12,6 +12,8 @@
 \usepackage{longtable}
 \usepackage{url}
 \usepackage{abstract}
+\usepackage{scrextend} % For arbitrary font sizes
+\changefontsizes{13pt} % Set exactly 13pt font size
 
 % Header configuration
 \pagestyle{fancy}
@@ -57,6 +59,7 @@
 \makeatother
 
 \begin{document}
+\sloppy % Allow more flexible word spacing to avoid hyphenation
 
 \twocolumn[
   \vspace*{-4em}
@@ -75,111 +78,107 @@
 ]
 
 \section{Introduction}
-% In microbiology research, bacteria culture preparation is the first important step. To equip the students with knowledge and techniques in microbiology research, all the beginning to the end of the bacterial culture manually have been guided with some typical techniques like media preparation, bacterial culture, colony isolation, biochemical test, gram staining, and of most the bacteria density quantification.
-
-% The chosen medium for bacterial cultivation was Luria-Bertani (LB) medium. This is the most commonly used in microbiology. Variations of the LB recipe can be found in the literature and lab manuals. The broth medium and slant agar medium were used for bacteria isolation.
-
-% In biochemical testing, The Kligler Iron Agar (KIA) medium is a differential medium developed by I. J. Kligler in 1918 [1], combining his work on a hydrogen sulfide (H2S) detection medium with Russell's double sugar agar. Classification bacteria based on their ability to ferment glucose and lactose, or use peptone for main nutrions, produce gas, and generate hydrogen sulfide (H2S). The medium contains two sugar sources (glucose and lactose), peptone, iron, and phenol red as a pH indicator. Phenol red turns yellow in acidic conditions (pH $<$ 6.8) and red in alkaline conditions (pH $>$ 7.4). A yellow color indicates acid production from carbohydrate fermentation. If only glucose is fermented, the bottom (butt) remains yellow (acidic) while the slant reverts to red (alkaline) as bacteria oxidatively deaminate peptone under aerobic conditions. A yellow slant and yellow butt indicate fermentation of both glucose and lactose, maintaining an acidic environment throughout the medium. The formation of bubbles or cracks in the agar signifies gas released during carbohydrate fermentation, like Lactate dehydrogenation. A black precipitate forms when hydrogen sulfide reacts with ferrous sulfate in the medium, indicating H\textsubscript{2}S production.
-
-% Some basic physical characteristics of bacteria were examined, including motility and Gram staining. The motility test is used to determine whether the bacteria possess structures such as flagella or cilia, allowing them to move actively in semi-liquid environments. The Gram staining test differentiates bacteria based on the structural composition of their cell walls, the peptidoglycan [2]. Gram-positive bacteria possess a thick peptidoglycan layer that retains the crystal violet iodine complex, appearing purple or blue under the microscope. Gram-negative bacteria have a thinner peptidoglycan layer located between two lipid cell membranes. During the alcohol decolorization step, the crystal violet is removed, and subsequent staining with safranin dyes the inner membrane, resulting in pink to red-colored cells under the microscope.
+In animal cell technology, the successful establishment of a primary cell culture is a critical foundational step. To equip students with essential knowledge and techniques for in vitro cellular research, this laboratory exercise guides them through the complete workflow of isolating a primary cell suspension. This process encompasses tissue dissection, mechanical dissociation, enzymatic digestion, sequential filtration, and ultimately, cell viability quantification using crustacean tissue—specifically, the shrimp pancreas.
+The chosen environment for maintaining the cells during the dissociation process was Leibovitz's L-15 medium. This formulation is widely used for maintaining cells in standard atmospheric environments without the need for specialized incubators. For the active breakdown of the tissue, a 0.25\% Trypsin solution was utilized.
 
 \section{Materials and Methods}
-\subsection{Work flow}
-\begin{figure}[h!]
+\subsection{Experimental Workflow}
+The experimental procedure for primary cell isolation is illustrated in Figure \ref{fig:workflow}. The methodology integrated mechanical dissociation followed by enzymatic treatment to yield a cell suspension for further analysis \cite{1, 3}.
+
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=\columnwidth]{Images/workflow.png}
-    \caption{Workflow of primary cell isolation from shrimp hepatopancreas.}
+    \textit{\caption{Workflow of primary cell isolation from shrimp hepatopancreas.}}
     \label{fig:workflow}
 \end{figure}
 
-% \subsection{Bacteria Strain}
-% The experimental bacterial strain selected was \emph{Escherichia coli} BL21(DE3), \emph{Escherichia coli} (E.coli) \emph{spp.}, \emph{Salmonella spp.} and unknown bacteria which are selected from pork's meat, kindly provided by the Microbiology Laboratory, Department of Biotechnology, Faculty of Chemical Engineering at Ho Chi Minh City University of Technology - Vietnam National University.
+\subsection{Biological Material}
+Fresh shrimp specimens were procured from a local market and transported to the laboratory under controlled conditions. The study was conducted at the Molecular Biology Laboratory, Department of Biotechnology, Ho Chi Minh City University of Technology (HCMUT).
 
-% \subsection{Isolation and cultivation of bacterial}
-% The Luria-Bertani (LB) broth medium was prepared by dissolving 1\% (w/v) peptone (Xilong Scientific, China), 1\% (w/v) yeast extract (Angel, China), and 0.5\% (w/v) sodium chloride (Xilong Scientific, China) in distilled water, followed by pH adjustment to 7.0 $\pm$ 0.2. For solid media preparation, 1.5\% (w/v) agar (Himedia, India) was incorporated into the LB medium prior to autoclave sterilization at 121°C for 15 minutes [3].
+\subsection{Reagents and Instrumentation}
+The essential reagents and equipment utilized in this protocol are detailed in Table 1. All solutions were prepared or maintained at their optimal working concentrations \cite{2, 3}.
 
-% To initiate bacterial culture, a sterile inoculation stick was aseptically dipped into the bacterial stock culture and used to inoculate 5 mL of sterile LB broth in a test tube. The inoculated broth was then incubated overnight at 37°C to obtain an actively growing bacterial culture. The slant agar tubes (contain 5mL of LB 1.5\% agar medium) were subsequently cooled at an inclined position to create slanted surfaces, providing an extended growth area. Bacterial stocks were then streaked onto these prepared slants using a sterile inoculation stick and stored at 4°C.
-
-% For isolation of pure colonies, the standardized four-quadrant streak plate technique was systematically executed. The sterile-loop was submerged into bacteria culture. Initial inoculation was performed by spreading the bacterial sample across approximately one-quarter of the agar surface in discrete, well-separated lines. Following this first quadrant streaking, the loop was flame-sterilized and cooled. Following the step, the cooled loop then drawn from the end point of the first quadrant to transfer cells into the adjacent second quadrant. Repeat the step for two remaining quadrant. The method ensured optimal distribution for obtaining isolated colonies following overnight incubation at room temperature, thereby facilitating the selection of pure cultures for subsequent experimental procedures.
-
-% \subsection{Biochemical analysis}
-% The Kligler Iron Agar (KIA) medium was prepared with the following composition (per liter): Peptone (Himedia, India) 18 g, Yeast extract (Angel, China) 3 g, Proteose peptone (Himedia, India) 5 g, Lactose (Obox, China) 5 g, Dextrose (Obox, China) 1 g, Ferrous sulfate (Obox, China) 0.2 g, NaCl (Xilong Scientific, China) 5 g, Sodium thiosulfate (Obox, China) 0.3 g, Phenol red (Obox, China) 0.024 g, and Agar (Himedia, India) 20 g. The environment was adjusted to a pH of 7.4 $\pm$ 0.2, 5mL of KIA medium were added to test tube, sterilized and solidified the slant agar. A sterile-loop carrying bacteria was then used to streak across the agar surface. The inoculated tubes were placed at room temperature for four days for observation.
-
-% The catalase test was performed to detect the presence of the catalase enzyme in bacterial isolates, following standard microbiological procedures [4]. This test serves as a key biochemical marker for differentiating bacterial genera. The principle relies on the enzymatic decomposition of hydrogen peroxide into water and oxygen gas. Bacteria possessing the catalase enzyme catalyze the reaction:
-% \begin{equation*}
-% 2H_2O_2 \rightarrow 2H_2O + O_2
-% \end{equation*}
-% where the production of oxygen bubbles immediately after adding hydrogen peroxide indicates a positive result.
-
-% \subsection{Mobility Test}
-% Briefly the LB medium broth was prepared, but only 0.35\% agar (Himedia, India) was added, to create the semi-solid media. Put 5mL of LB (0.35\% agar) into the test tube. The sterile-loop, containing bacteria, was vertically dipped into the agar. The culture was kept overnight for observation.
-
-% \subsection{Gram Staining}
-% The Gram staining method was performed with slight modifications [2]. Briefly, a smear of bacterial culture was spread on a glass slide and heat-fixed by gently passing it over a flame until dry. One drop of crystal violet was applied and allowed to stand for 60 seconds, followed by rinsing with water. Then, one drop of iodine solution was added and left for 60 seconds before rinsing again. The slide was then decolorized with ethanol by washing approximately 10 times, followed by another rinse with water. One drop of safranin was applied and allowed to stand for 45 seconds, after which the slide was rinsed with water and air-dried. Finally, one drop of immersion oil was added to the dried slide, and bacterial cells were observed under a microscope at 100$\times$ magnification.
-
-% \subsection{Quantitative measurement}
-% Bacterial cell density was determined using both direct and indirect enumeration methods to quantify the concentration of viable cells in a given suspension.
-
-% A direct count of bacterial cells (yeast cells) was performed using a hemocytometer (Neubauer improved). A bacterial suspension was properly diluted in sterile phosphate-buffered saline (PBS) to achieve a countable concentration. A small volume of the diluted suspension was loaded into the hemocytometer chamber. The cells in the four large corner squares (each containing 16 smaller squares) were counted under a light microscope at 40x magnification. The cell density (cells/mL) was calculated using the following formula [5]:
-% \begin{equation*}
-% \text{Cell density (cells/mL)} = \frac{\text{Total cell count}}{\text{No. of squares counted}} \times \text{Dilution factor} \times 10^4
-% \end{equation*}
-
-% For indirect counting, standard curve was constructed to correlate optical density (OD) with viable bacterial concentration, following established microbiological practices [5, 6]. A fresh bacterial culture was serially diluted with sterile broth to obtain suspensions with target optical densities at 600 nm (OD\textsubscript{600}) of 0.1, 0.2, and 0.3. The exact OD of each suspension was verified using a spectrophotometer. Each standardized suspension was then subjected to further serial decimal dilution to achieve a countable range of colonies.
-
-% From these appropriate dilutions, viable cell counts were determined using the spread plate technique. Specifically, 100 $\mu$L aliquots of each dilution were aseptically transferred onto solid LB (1.5\% agar) plates. Then evenly distributed across the agar surface using a sterile, ethanol-flamed glass spreader. Incubated the plates at room temperature for 48 hours.
-
-% The high confident-colonies range is between 30 and 300 colonies, ensuring statistical accuracy [7]. The colony-forming unit (CFU) per milliliter for each original OD standard was calculated using the standard formula [5]:
-% \begin{equation*}
-% \text{CFU/mL} = \frac{\text{Colonies}}{\text{Dilution} \times \text{Vol (mL)}}
-% \end{equation*}
-
-\section{Results \& Discussion}
-The cell isolation from shrimp hepatopancreas was quantified using a hemocytometer after a 1:1 dilution (10 $\mu$L cell suspension + 10 $\mu$L Trypan Blue). The resulting suspension was resuspended in 1 mL.
-
-\begin{table}[h!]
+\begin{table}[htbp]
 \centering
-\caption{Hemocytometer Counts and Viability Analysis}
+\caption{Key Reagents and Equipment}
 \resizebox{\columnwidth}{!}{%
-\begin{tabular}{lcccc}
+\begin{tabular}{ll}
 \toprule
-Square & Live (L) & Dead (D) & Total (T) & Viability (\%) \\
+Category & Specification / Concentration \\
 \midrule
-Top    & 61  & 15 & 76  & 80.3\% \\
-Left   & 46  & 12 & 58  & 79.3\% \\
-Center & 64  & 14 & 78  & 82.1\% \\
-Right  & 64  & 6  & 70  & 91.4\% \\
-Bottom & 64  & 8  & 72  & 88.9\% \\
-\midrule
-Sum/Avg & 299 & 55 & 354 & 84.5\% \\
+Basal Medium & Leibovitz L-15 Medium \cite{2} \\
+Dissociation Agent & 0.25\% Trypsin-EDTA \cite{3} \\
+Filtration System & 100 $\mu$m and 40 $\mu$m Nylon Mesh \\
+Vital Stain & 0.4\% Trypan Blue Solution \cite{5} \\
+Centrifugation & Digital Microcentrifuge \\
 \bottomrule
 \end{tabular}%
 }
 \end{table}
 
+\subsection{Tissue Processing and Enzymatic Digestion}
+Aseptic surgical techniques were employed to excise the hepatopancreas from the shrimp. The isolated tissue was mechanically minced into fragments ($<1$ mm$^3$) to maximize the surface area-to-volume ratio \cite{3}. Subsequently, the tissue fragments were suspended in 5 mL of Leibovitz L-15 medium supplemented with 0.25\% Trypsin-EDTA. Enzymatic dissociation was performed at 25$^\circ$C for 10 minutes with periodic gentle agitation.
+
+\subsection{Filtration and Concentration}
+Post-incubation, the enzymatic activity was neutralized by the addition of 3--10 mL of fresh L-15 medium. The resulting homogenate was passed through a sequential filtration system (100 $\mu$m followed by 40 $\mu$m) to isolate a single-cell suspension. The filtrate was collected in sterile tubes and centrifuged at 500 g for 10 minutes at room temperature.
+
+\subsection{Resuspension and Viability Assessment}
+The supernatant was aspirated, and the cell pellet was carefully resuspended in 1 mL of L-15 medium. Cell density and viability were quantified using a hemocytometer following 1:1 dilution with Trypan Blue \cite{4, 5}.
+
+
+\section{Results \& Discussion}
+The cell isolation from shrimp hepatopancreas was quantified using a hemocytometer after a 1:1 dilution. The results revealed a total count of 299 cells across 5 squares, with 55 live cells identified (Table 2).
+
+\begin{table}[htbp]
+\centering
+\caption{Hemocytometer Counts and Viability Analysis}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+Square & Total (T) & Live (L) & Dead (D) & Viability (\%) \\
+\midrule
+Top    & 61  & 15 & 46  & 24.6\% \\
+Left   & 46  & 12 & 34  & 26.1\% \\
+Center & 64  & 14 & 50  & 21.9\% \\
+Right  & 64  & 6  & 58  & 9.4\% \\
+Bottom & 64  & 8  & 56  & 12.5\% \\
+\midrule
+Sum/Avg & 299 & 55 & 244 & 18.4\% \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\newpage
 \subsection{Calculations}
 \begin{enumerate}[leftmargin=*]
     \item \textbf{Percentage Viability:}
     \begin{equation*}\small
-    \%V = \frac{\sum L}{\sum T} \times 100 = \frac{299}{354} \times 100 \approx 84.5\%
+    \%V = \frac{\sum L}{\sum T} \times 100 = \frac{55}{299} \times 100 \approx 18.4\%
+    \end{equation*}
+
+    \item \textbf{Total Cell Concentration:} \\
+    (Including live and dead cells)
+    \begin{equation*}\small
+    \text{Cells/mL} = \frac{\sum T}{5} \times DF \times 10^4 = 1.196 \times 10^6
     \end{equation*}
 
     \item \textbf{Live Cell Concentration:} \\
     (DF = 2 due to 1:1 mix)
     \begin{equation*}\small
-    \text{Cells/mL} = \frac{\sum L}{5} \times DF \times 10^4 = 1.196 \times 10^6
+    \text{Cells/mL} = \frac{\sum L}{5} \times DF \times 10^4 = 2.2 \times 10^5
     \end{equation*}
 
     \item \textbf{Total Yield (1 mL):}
     \begin{equation*}\small
-    \text{Yield} = 1.196 \times 10^6 \text{ viable cells}
+    \text{Yield} = 2.2 \times 10^5 \text{ viable cells}
     \end{equation*}
 \end{enumerate}
 
-The data demonstrates a successful isolation with a viability of 84.5\%, exceeding the 80\% benchmark for healthy primary cultures. The 0.25\% Trypsin treatment (10 min) effectively dissociated the tissue without significant membrane damage. The concentration ($\approx 1.2 \times 10^6$ cells/mL) indicates a high recovery rate. Minor localized viability decreases (Top/Left) are negligible compared to the robust overall population.
+The data demonstrates a successful isolation of cells, but with a low viability of 18.4\%, which is significantly below the typical 80\% benchmark for healthy primary cultures \cite{3, 6}. The high mortality rate suggests that the 0.25\% Trypsin-EDTA treatment (10 min) may have been too aggressive for the sensitive shrimp hepatopancreatic tissue, or that the mechanical dissociation introduced excessive physical stress. The resulting concentration of $2.2 \times 10^5$ cells/mL provides a sufficient population for initial analysis, but the low survival rate indicates a need for protocol optimization, such as reducing enzymatic concentration or incubation time to preserve cellular integrity \cite{1}.
 
 \section{Conclusion}
-The protocol involving trypsinization, sequential filtration (100$\rightarrow$40 $\mu$m), and resuspension yielded a high-density, viable cell suspension ($1.196 \times 10^6$ cells, 84.5\% viability), optimized for downstream applications.
+The protocol involving trypsinization and sequential filtration (100$\rightarrow$40 $\mu$m) successfully isolated shrimp hepatopancreatic cells with a concentration of $2.2 \times 10^5$ cells/mL. However, the low viability (18.4\%) highlights the sensitivity of crustacean primary cells to standard enzymatic dissociation. Future studies should focus on optimizing dissociation parameters to improve cellular survival and establish more robust primary culture models.
 
 \section*{Acknowledgements}
 We express our heartfelt gratitude to Dr. Hoang My Dung for her invaluable guidance. We also thank the Ho Chi Minh City University of Technology for providing laboratory facilities.
