@@ -155,14 +155,12 @@ def main():
         print("No valid content found to process.")
         return
 
-    # Determine output path
-    combined_name = "_".join(source_names)
-    if len(combined_name) > 100:
-        combined_name = "combined_quiz_" + str(int(time.time()))
+    # Determine output path - use the first source name
+    output_name = source_names[0] if source_names else "quiz_" + str(int(time.time()))
     
     output_dir = "_quiz"
     os.makedirs(output_dir, exist_ok=True)
-    output_file_path = os.path.join(output_dir, f"{combined_name}.json")
+    output_file_path = os.path.join(output_dir, f"{output_name}.json")
 
     json_str = generate_quiz(client, all_contents)
     
