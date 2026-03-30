@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What are the three primary components of a gene structure as shown in the material?",
+    "options": [
+      "Promoter, RNA coding sequence, and Terminator",
+      "Exon, Intron, and Poly-A tail",
+      "Sigma factor, RNA polymerase, and DNA",
+      "Enhancer, Operator, and Repressor"
+    ],
+    "answer": "Promoter, RNA coding sequence, and Terminator",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In prokaryotes, what is the consensus sequence for the -35 region of the promoter?",
+    "options": [
+      "TATAAT",
+      "TTGACA",
+      "AAUAAA",
+      "GGCGGG"
+    ],
+    "answer": "TTGACA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which protein factor is required for the initiation of transcription in prokaryotes to recognize the promoter?",
+    "options": [
+      "Rho factor",
+      "Sigma (σ) factor",
+      "TATA-binding protein (TBP)",
+      "FACT complex"
+    ],
+    "answer": "Sigma (σ) factor",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is an 'operon' in the context of prokaryotic gene structure?",
+    "options": [
+      "A single gene that codes for multiple different proteins through alternative splicing",
+      "A group of structural genes located next to each other sharing a common regulatory mechanism",
+      "The region of DNA where RNA polymerase binds to start transcription",
+      "A protein that binds to the operator to block transcription"
+    ],
+    "answer": "A group of structural genes located next to each other sharing a common regulatory mechanism",
+    "shuffleOptions": true
+  },
+  {
+    "question": "At which specific region does the RNA polymerase bind to determine the transcription start site in prokaryotes?",
+    "options": [
+      "-35 region",
+      "-10 region",
+      "+1 region",
+      "Termination site"
+    ],
+    "answer": "-10 region",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What happens to the Sigma (σ) factor once the RNA polymerase begins the elongation phase of transcription?",
+    "options": [
+      "It remains attached to the polymerase until termination",
+      "It binds to the terminator sequence",
+      "It leaves the complex",
+      "It transforms into a Rho protein"
+    ],
+    "answer": "It leaves the complex",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In Rho-independent termination, what structure forms in the RNA to signal the end of transcription?",
+    "options": [
+      "A poly-A tail",
+      "A stem-loop (hairpin) structure",
+      "A C-rich binding site",
+      "A TATA box"
+    ],
+    "answer": "A stem-loop (hairpin) structure",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following best describes the Rho protein's function in Rho-dependent termination?",
+    "options": [
+      "It acts as a helicase to unwind the RNA/DNA hybrid",
+      "It binds to the TATA box to recruit RNA polymerase",
+      "It adds a 5' cap to the newly synthesized mRNA",
+      "It removes histones from the nucleosome"
+    ],
+    "answer": "It acts as a helicase to unwind the RNA/DNA hybrid",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the Trp operon, what occurs when tryptophan is present in the environment?",
+    "options": [
+      "The repressor dissociates from the operator, allowing transcription",
+      "Tryptophan binds to the repressor, which then binds to the operator to block transcription",
+      "Tryptophan acts as an activator to increase RNA polymerase activity",
+      "The operon is induced to produce more tryptophan"
+    ],
+    "answer": "Tryptophan binds to the repressor, which then binds to the operator to block transcription",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the role of the CAP (Catabolite Activator Protein) in the Lac operon?",
+    "options": [
+      "It binds to the operator to block transcription when glucose is high",
+      "It binds to the promoter in the presence of cAMP to enhance transcription",
+      "It degrades lactose into glucose and galactose",
+      "It removes the repressor from the operator"
+    ],
+    "answer": "It binds to the promoter in the presence of cAMP to enhance transcription",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the Lac operon, what is the effect of lactose being present?",
+    "options": [
+      "It binds to the repressor, causing it to release from the operator",
+      "It binds to the promoter to recruit RNA polymerase",
+      "It increases the concentration of cAMP",
+      "It blocks the binding of the CAP protein"
+    ],
+    "answer": "It binds to the repressor, causing it to release from the operator",
+    "shuffleOptions": true
+  },
+  {
+    "question": "According to the Lac operon summary table, under which condition is transcription 'Yes' (highly active)?",
+    "options": [
+      "Glucose +, Lactose -",
+      "Glucose +, Lactose +",
+      "Glucose -, Lactose -",
+      "Glucose -, Lactose +"
+    ],
+    "answer": "Glucose -, Lactose +",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which eukaryotic RNA polymerase is responsible for the transcription of pre-mRNA?",
+    "options": [
+      "RNA Polymerase I",
+      "RNA Polymerase II",
+      "RNA Polymerase III",
+      "RNA Polymerase IV"
+    ],
+    "answer": "RNA Polymerase II",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the function of the FACT (Facilitates Chromatin Transcription) complex in eukaryotes?",
+    "options": [
+      "It adds the poly-A tail to the 3' end",
+      "It removes histone proteins from the nucleosome during elongation",
+      "It recognizes the TATA box at the -30 position",
+      "It splices out introns from the pre-mRNA"
+    ],
+    "answer": "It removes histone proteins from the nucleosome during elongation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In eukaryotic transcription initiation, which protein binds directly to the TATA box?",
+    "options": [
+      "Sigma factor",
+      "TBP (TATA-binding protein)",
+      "Rho protein",
+      "Poly(A) polymerase"
+    ],
+    "answer": "TBP (TATA-binding protein)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which RNA polymerase in eukaryotes transcribes tRNA and 5S rRNA?",
+    "options": [
+      "RNA Polymerase I",
+      "RNA Polymerase II",
+      "RNA Polymerase III",
+      "All of the above"
+    ],
+    "answer": "RNA Polymerase III",
+    "shuffleOptions": false
+  },
+  {
+    "question": "What is the specific termination signal sequence for eukaryotic RNA Polymerase II?",
+    "options": [
+      "TTGACA",
+      "TATAAT",
+      "AAUAAA",
+      "GGCGGG"
+    ],
+    "answer": "AAUAAA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the function of the spliceosome in post-transcriptional regulation?",
+    "options": [
+      "It adds a 7-methylguanosine cap to the 5' end",
+      "It removes introns and joins exons together",
+      "It degrades mRNA in the cytoplasm",
+      "It stabilizes the RNA by adding a poly-A tail"
+    ],
+    "answer": "It removes introns and joins exons together",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a function of the 5' GTP cap and 3' poly-A tail?",
+    "options": [
+      "To identify the start and stop codons for translation",
+      "To control the stability of the RNA and protect it from degradation",
+      "To catalyze the formation of peptide bonds",
+      "To remove histones from the DNA template"
+    ],
+    "answer": "To control the stability of the RNA and protect it from degradation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In eukaryotic regulation, what is the role of an 'Enhancer'?",
+    "options": [
+      "It is a distal control element that increases the level of transcription",
+      "It is a protein that binds to the operator to block RNA polymerase",
+      "It is a sequence that signals the end of transcription",
+      "It is a complex that removes introns"
+    ],
+    "answer": "It is a distal control element that increases the level of transcription",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How many subunits are typically found in eukaryotic RNA Polymerase II according to the material?",
+    "options": [
+      "2 subunits",
+      "5 subunits",
+      "12 subunits",
+      "24 subunits"
+    ],
+    "answer": "12 subunits",
+    "shuffleOptions": true
+  },
+  {
+    "question": "During eukaryotic elongation, how many bases of the nascent RNA typically remain bound to the DNA template within the transcription bubble?",
+    "options": [
+      "2 bases",
+      "8 bases",
+      "12 bases",
+      "40 bases"
+    ],
+    "answer": "8 bases",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which protein is the specific Transcription Termination Factor for RNA Polymerase I?",
+    "options": [
+      "Rho",
+      "TTF-1",
+      "TFIID",
+      "Dicer"
+    ],
+    "answer": "TTF-1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary difference between miRNA and siRNA mechanisms as described in the text?",
+    "options": [
+      "miRNA involves perfect matching leading to degradation; siRNA involves imperfect matching",
+      "miRNA involves imperfect matching leading to translational repression; siRNA involves perfect matching leading to mRNA degradation",
+      "miRNA is found only in prokaryotes; siRNA is found only in eukaryotes",
+      "miRNA adds a poly-A tail; siRNA removes the 5' cap"
+    ],
+    "answer": "miRNA involves imperfect matching leading to translational repression; siRNA involves perfect matching leading to mRNA degradation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which complex is responsible for mRNA degradation or translational repression in the RNA interference pathway?",
+    "options": [
+      "Spliceosome",
+      "RISC (RNA-induced silencing complex)",
+      "FACT complex",
+      "PIC (Pre-initiation complex)"
+    ],
+    "answer": "RISC (RNA-induced silencing complex)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the context of prokaryotic regulation, what is 'Induction'?",
+    "options": [
+      "When a repressor always blocks transcription unless a substrate is present",
+      "When an inducer can either inhibit or enhance transcription depending on cell needs and substrate presence",
+      "The process of adding a 5' cap to mRNA",
+      "The removal of the sigma factor from the holoenzyme"
+    ],
+    "answer": "When an inducer can either inhibit or enhance transcription depending on cell needs and substrate presence",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the approximate size of the transcription bubble in eukaryotes?",
+    "options": [
+      "5-10 bases",
+      "12-40 bases",
+      "50-100 bases",
+      "100-200 bases"
+    ],
+    "answer": "12-40 bases",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzyme is responsible for adding the poly-A tail to eukaryotic mRNA?",
+    "options": [
+      "RNA Polymerase II",
+      "Poly(A) polymerase",
+      "Guanylyl transferase",
+      "Dicer"
+    ],
+    "answer": "Poly(A) polymerase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The -10 region in prokaryotes is also known as the:",
+    "options": [
+      "TATA box",
+      "Pribnow box",
+      "Enhancer",
+      "Silencer"
+    ],
+    "answer": "Pribnow box",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the typical distance (in nucleotides) between the -35 and -10 regions in a prokaryotic promoter?",
+    "options": [
+      "5 nucleotides",
+      "10 nucleotides",
+      "17 nucleotides",
+      "30 nucleotides"
+    ],
+    "answer": "17 nucleotides",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following describes the 'Repression' mechanism in prokaryotes?",
+    "options": [
+      "Activator binds to the promoter to enhance transcription",
+      "Repressor binds to the operator region, blocking transcription",
+      "Inducer binds to the RNA polymerase to stop elongation",
+      "Rho protein unwinds the DNA/RNA hybrid"
+    ],
+    "answer": "Repressor binds to the operator region, blocking transcription",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In eukaryotic transcription, what does the 'PIC' stand for?",
+    "options": [
+      "Polymerase Initiation Center",
+      "Pre-initiation complex",
+      "Promoter Induction Component",
+      "Protein Interaction Complex"
+    ],
+    "answer": "Pre-initiation complex",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of these is NOT a type of RNA transcribed by RNA Polymerase II?",
+    "options": [
+      "pre-mRNA",
+      "microRNA (miRNA)",
+      "long non-coding RNA (lncRNA)",
+      "tRNA"
+    ],
+    "answer": "tRNA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the role of UTRs (Untranslated Regions) in mRNA?",
+    "options": [
+      "They code for the regulatory proteins",
+      "They are spliced out by the spliceosome",
+      "They help control the stability and translation of the RNA",
+      "They provide the binding site for the Rho protein"
+    ],
+    "answer": "They help control the stability and translation of the RNA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Rho-dependent termination regions are typically characterized by being:",
+    "options": [
+      "Rich in A and T",
+      "Rich in C and low in G",
+      "Rich in G and low in C",
+      "Rich in Uracil"
+    ],
+    "answer": "Rich in C and low in G",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzyme/protein is involved in the nuclear processing of pri-miRNA into pre-miRNA?",
+    "options": [
+      "Dicer",
+      "Drosha",
+      "RISC",
+      "RNA Polymerase III"
+    ],
+    "answer": "Drosha",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the direction of RNA synthesis during the elongation phase?",
+    "options": [
+      "3' to 5'",
+      "5' to 3'",
+      "N-terminus to C-terminus",
+      "Bidirectional"
+    ],
+    "answer": "5' to 3'",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In eukaryotes, the TATA box is typically located at which position relative to the transcription start site?",
+    "options": [
+      "-10",
+      "-30",
+      "-35",
+      "+1"
+    ],
+    "answer": "-30",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a characteristic of Rho-independent termination?",
+    "options": [
+      "Requires ATP hydrolysis by a helicase",
+      "Involves a run of uracils following a stem-loop structure",
+      "Requires the binding of TTF-1",
+      "Occurs only in eukaryotes"
+    ],
+    "answer": "Involves a run of uracils following a stem-loop structure",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the function of the 'Mediator' protein in eukaryotic transcription regulation?",
+    "options": [
+      "It degrades the repressor protein",
+      "It acts as a bridge between distal enhancers/activators and the promoter/RNA polymerase",
+      "It splices the mRNA",
+      "It adds the 5' cap"
+    ],
+    "answer": "It acts as a bridge between distal enhancers/activators and the promoter/RNA polymerase",
+    "shuffleOptions": true
+  }
+]

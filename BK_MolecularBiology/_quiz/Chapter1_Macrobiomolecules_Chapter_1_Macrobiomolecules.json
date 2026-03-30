@@ -1,0 +1,442 @@
+[
+  {
+    "question": "Which of the following is NOT considered a main class of macrobiomolecules?",
+    "options": [
+      "Nucleic Acids",
+      "Proteins",
+      "Water",
+      "Lipids"
+    ],
+    "answer": "Water",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary role of nucleic acids in living organisms?",
+    "options": [
+      "Membrane structure",
+      "Energy storage",
+      "Genetic information and expression",
+      "Catalysis and structural support"
+    ],
+    "answer": "Genetic information and expression",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following nitrogenous bases is found in DNA but not RNA?",
+    "options": [
+      "Adenine (A)",
+      "Guanine (G)",
+      "Cytosine (C)",
+      "Thymine (T)"
+    ],
+    "answer": "Thymine (T)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following nitrogenous bases is found in RNA but not DNA?",
+    "options": [
+      "Adenine (A)",
+      "Uracil (U)",
+      "Guanine (G)",
+      "Cytosine (C)"
+    ],
+    "answer": "Uracil (U)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What type of sugar is characteristic of DNA?",
+    "options": [
+      "Ribose",
+      "Deoxyribose",
+      "Glucose",
+      "Fructose"
+    ],
+    "answer": "Deoxyribose",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What type of sugar is characteristic of RNA?",
+    "options": [
+      "Ribose",
+      "Deoxyribose",
+      "Sucrose",
+      "Lactose"
+    ],
+    "answer": "Ribose",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary function of lipids in cell membranes?",
+    "options": [
+      "Genetic information storage",
+      "Catalysis",
+      "Structural component and signaling",
+      "Energy production"
+    ],
+    "answer": "Structural component and signaling",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What type of bond is primarily responsible for linking amino acids together to form a protein chain?",
+    "options": [
+      "Hydrogen bond",
+      "Ionic bond",
+      "Peptide bond",
+      "Disulfide bond"
+    ],
+    "answer": "Peptide bond",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which macrobiomolecule is primarily known for its roles in energy storage and cell recognition?",
+    "options": [
+      "Nucleic Acid",
+      "Protein",
+      "Lipid",
+      "Carbohydrate"
+    ],
+    "answer": "Carbohydrate",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the general term for the complex folding patterns observed in RNA, such as hairpin and stem-loop structures?",
+    "options": [
+      "Primary structure",
+      "Secondary structure",
+      "Tertiary structure",
+      "Quaternary structure"
+    ],
+    "answer": "Secondary structure",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following statements accurately describes the stability of DNA compared to RNA?",
+    "options": [
+      "DNA is generally less stable than RNA.",
+      "RNA is generally more stable than DNA.",
+      "DNA is stable, while RNA is unstable and UV sensible.",
+      "Both DNA and RNA are equally stable."
+    ],
+    "answer": "DNA is stable, while RNA is unstable and UV sensible.",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Where are DNA molecules primarily located within a eukaryotic cell, according to the provided material?",
+    "options": [
+      "Cytoplasm only",
+      "Nucleus and mitochondria",
+      "Ribosomes only",
+      "Endoplasmic reticulum"
+    ],
+    "answer": "Nucleus and mitochondria",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a type of RNA responsible for carrying genetic information from DNA to the ribosome for protein synthesis?",
+    "options": [
+      "Transfer RNA (tRNA)",
+      "Ribosomal RNA (rRNA)",
+      "Messenger RNA (mRNA)",
+      "Small nuclear RNA (snRNA)"
+    ],
+    "answer": "Messenger RNA (mRNA)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What are the two main types of secondary structures mentioned for nucleic acids?",
+    "options": [
+      "Alpha-helix and Beta-sheet",
+      "Hairpin and Stem-loop",
+      "Double helix and Triple helix",
+      "Globular and Fibrous"
+    ],
+    "answer": "Hairpin and Stem-loop",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which analytical technique is used to separate nucleic acids based on their size and charge?",
+    "options": [
+      "Crystallography",
+      "Electrophoresis",
+      "Western Blotting",
+      "MALDI-TOF"
+    ],
+    "answer": "Electrophoresis",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary function of proteins acting as enzymes?",
+    "options": [
+      "Structural support",
+      "Catalysis of biochemical reactions",
+      "Transport of molecules",
+      "Regulation of gene expression"
+    ],
+    "answer": "Catalysis of biochemical reactions",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which analytical method is specifically used for the detection of specific proteins using antibodies?",
+    "options": [
+      "Chromatography",
+      "MALDI-TOF",
+      "Western Blotting",
+      "X-Ray Diffraction"
+    ],
+    "answer": "Western Blotting",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the basic structural characteristic of a phospholipid bilayer?",
+    "options": [
+      "Hydrophobic heads and hydrophilic tails",
+      "Hydrophilic heads and hydrophobic tails",
+      "Composed entirely of proteins",
+      "A single layer of lipids"
+    ],
+    "answer": "Hydrophilic heads and hydrophobic tails",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What are 'lipid rafts' primarily known for in cell membranes?",
+    "options": [
+      "Energy storage",
+      "Genetic information storage",
+      "Specialized microdomains for signaling",
+      "Structural rigidity of the cell"
+    ],
+    "answer": "Specialized microdomains for signaling",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How are lipids broadly classified based on their fatty acid chains?",
+    "options": [
+      "Long vs. Short",
+      "Saturated vs. Unsaturated",
+      "Polar vs. Nonpolar",
+      "Acidic vs. Basic"
+    ],
+    "answer": "Saturated vs. Unsaturated",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which analytical technique is used for carbohydrates and often involves borate treatment?",
+    "options": [
+      "Western Blotting",
+      "MALDI-TOF",
+      "Electrophoresis",
+      "Crystallography"
+    ],
+    "answer": "Electrophoresis",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the role of glycoproteins and glycolipids in biological systems?",
+    "options": [
+      "Catalysis",
+      "Genetic information storage",
+      "Cell recognition and signaling",
+      "Muscle contraction"
+    ],
+    "answer": "Cell recognition and signaling",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is an example of a macromolecule interaction involving a protein and a lipid?",
+    "options": [
+      "Enzyme-substrate complex",
+      "Lipoprotein complex",
+      "DNA replication fork",
+      "Ribosome assembly"
+    ],
+    "answer": "Lipoprotein complex",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is an example of a macromolecule interaction involving a protein and a nucleic acid?",
+    "options": [
+      "Protein-protein dimer",
+      "Glycoprotein",
+      "Transcription factor binding to DNA",
+      "Phospholipid bilayer"
+    ],
+    "answer": "Transcription factor binding to DNA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Besides the nucleus, where else can DNA be found in a eukaryotic cell according to the material?",
+    "options": [
+      "Cytoplasm",
+      "Mitochondria",
+      "Endoplasmic Reticulum",
+      "Golgi apparatus"
+    ],
+    "answer": "Mitochondria",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the general term for the segments of a gene that are expressed and code for proteins?",
+    "options": [
+      "Introns",
+      "Exons",
+      "Promoters",
+      "Terminators"
+    ],
+    "answer": "Exons",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following interactions contributes to the overall structure and stability of proteins?",
+    "options": [
+      "Hydrogen bonds",
+      "Disulfide (S-S) bridges",
+      "Ionic bonds",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "shuffleOptions": false
+  },
+  {
+    "question": "What is the function of proteins described as 'regulation' in the context of cellular processes?",
+    "options": [
+      "Providing structural support",
+      "Catalyzing reactions",
+      "Turning cellular processes 'on' or 'off'",
+      "Transporting molecules across membranes"
+    ],
+    "answer": "Turning cellular processes 'on' or 'off'",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which type of chromatography is explicitly mentioned in the context of lipid analysis in the provided images?",
+    "options": [
+      "Affinity Chromatography",
+      "Ion-exchange Chromatography",
+      "Paper Chromatography",
+      "Gel Filtration Chromatography"
+    ],
+    "answer": "Paper Chromatography",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does 'UV sensible' imply about RNA?",
+    "options": [
+      "It is resistant to UV radiation.",
+      "It is stable in the presence of UV light.",
+      "It is susceptible to damage or degradation by UV radiation.",
+      "It emits UV light."
+    ],
+    "answer": "It is susceptible to damage or degradation by UV radiation.",
+    "shuffleOptions": true
+  },
+  {
+    "question": "According to crystallographic analysis, what is the specific twist measurement for the DNA double helix?",
+    "options": [
+      "10 Angstroms/base",
+      "20 Angstroms/10 bases",
+      "34 Angstroms/10 bases",
+      "50 Angstroms/base"
+    ],
+    "answer": "34 Angstroms/10 bases",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The Mesels-Stahl experiment is historically significant in understanding which biological process related to DNA?",
+    "options": [
+      "DNA transcription",
+      "DNA translation",
+      "DNA replication",
+      "DNA repair"
+    ],
+    "answer": "DNA replication",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the DNA double helix, where are the phosphate groups typically located?",
+    "options": [
+      "Inside the helix, forming base pairs",
+      "Outside the helix, forming the backbone",
+      "Intercalated between base pairs",
+      "Attached to the nitrogenous bases"
+    ],
+    "answer": "Outside the helix, forming the backbone",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a type of small non-coding RNA involved in gene regulation?",
+    "options": [
+      "Messenger RNA (mRNA)",
+      "Transfer RNA (tRNA)",
+      "MicroRNA (miRNA)",
+      "Ribosomal RNA (rRNA)"
+    ],
+    "answer": "MicroRNA (miRNA)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which analytical method uses mass spectrometry for the identification of proteins?",
+    "options": [
+      "Chromatography",
+      "Western Blotting",
+      "MALDI-TOF",
+      "Electrophoresis"
+    ],
+    "answer": "MALDI-TOF",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How many distinct categories are recognized under the LIPID MAPS classification system?",
+    "options": [
+      "4 categories",
+      "6 categories",
+      "8 categories",
+      "10 categories"
+    ],
+    "answer": "8 categories",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following components are typically found within a lipid raft?",
+    "options": [
+      "Cholesterol",
+      "Glycosphingolipids",
+      "Transmembrane proteins",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "shuffleOptions": false
+  },
+  {
+    "question": "What specific treatment is mentioned for electrophoresis when analyzing carbohydrates?",
+    "options": [
+      "Heat treatment",
+      "Acid treatment",
+      "Borate treatment",
+      "Enzyme treatment"
+    ],
+    "answer": "Borate treatment",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does the term 'exon/intron' refer to in the context of a gene?",
+    "options": [
+      "Different types of amino acids",
+      "Coding and non-coding regions of a gene",
+      "Mobile and immobile DNA segments",
+      "Primary and secondary protein structures"
+    ],
+    "answer": "Coding and non-coding regions of a gene",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a characteristic of RNA that contributes to its instability compared to DNA?",
+    "options": [
+      "Its double-stranded nature",
+      "The presence of deoxyribose sugar",
+      "Its single-stranded nature and susceptibility to UV light",
+      "Its location primarily in the nucleus"
+    ],
+    "answer": "Its single-stranded nature and susceptibility to UV light",
+    "shuffleOptions": true
+  }
+]

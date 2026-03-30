@@ -1,0 +1,442 @@
+[
+  {
+    "question": "Which of the following is considered a factor contributing to the 'Flexibility' of DNA?",
+    "options": [
+      "Renaturation",
+      "Double helix structure",
+      "Recombination",
+      "Semi-constitutive replication"
+    ],
+    "answer": "Recombination",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzyme is responsible for unwinding the parental DNA double helix during replication?",
+    "options": [
+      "DNA Polymerase",
+      "Helicase",
+      "DNA Ligase",
+      "Primase"
+    ],
+    "answer": "Helicase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In DNA replication, the 'Lagging strand' is synthesized in short segments called:",
+    "options": [
+      "RNA primers",
+      "Replicons",
+      "Okazaki fragments",
+      "Mobile elements"
+    ],
+    "answer": "Okazaki fragments",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary function of DNA Ligase in the replication process?",
+    "options": [
+      "Unwinding the DNA duplex",
+      "Synthesizing RNA primers",
+      "Joining Okazaki fragments together",
+      "Stabilizing single-stranded DNA"
+    ],
+    "answer": "Joining Okazaki fragments together",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a characteristic of prokaryotic DNA?",
+    "options": [
+      "Linear chromosomes",
+      "Multiple origins of replication (ori)",
+      "Circular DNA",
+      "Slow replication speed (hours)"
+    ],
+    "answer": "Circular DNA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Class 1 mobile elements, also known as retrotransposons, use which mechanism?",
+    "options": [
+      "Cut and paste",
+      "Copy and paste",
+      "Excision and integration",
+      "Direct protein translation"
+    ],
+    "answer": "Copy and paste",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does the 'Tm' represent in a DNA melting curve?",
+    "options": [
+      "The maximum temperature DNA can withstand",
+      "The temperature at which 50% of DNA is denatured",
+      "The time required for renaturation",
+      "The total mass of the DNA sample"
+    ],
+    "answer": "The temperature at which 50% of DNA is denatured",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzyme adds an RNA primer to begin DNA synthesis?",
+    "options": [
+      "Topoisomerase",
+      "Primase",
+      "DNA Polymerase III",
+      "Helicase"
+    ],
+    "answer": "Primase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which repair mechanism is specifically used to fix damage caused by ionizing radiation or oxidative damage to single bases?",
+    "options": [
+      "Non-homologous end joining",
+      "Homologous recombination",
+      "Base Excision Repair (BER)",
+      "Mismatch repair"
+    ],
+    "answer": "Base Excision Repair (BER)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In eukaryotes, how many main types of DNA polymerases are involved in replication (α, δ, ε)?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does the G-C content of DNA affect its melting temperature (Tm)?",
+    "options": [
+      "Higher G-C content results in a lower Tm",
+      "Higher G-C content results in a higher Tm",
+      "G-C content has no effect on Tm",
+      "Tm only depends on the length of the DNA, not the base composition"
+    ],
+    "answer": "Higher G-C content results in a higher Tm",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a key difference between prokaryotic and eukaryotic replication origins?",
+    "options": [
+      "Prokaryotes have multiple origins, while eukaryotes have only one",
+      "Prokaryotes have one origin, while eukaryotes have multiple origins",
+      "Both have only one origin, but eukaryotic origins are larger",
+      "Eukaryotes do not use origins of replication"
+    ],
+    "answer": "Prokaryotes have one origin, while eukaryotes have multiple origins",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the role of Single-strand binding (SSB) proteins?",
+    "options": [
+      "To catalyze the formation of phosphodiester bonds",
+      "To prevent the unwound DNA strands from re-annealing",
+      "To relieve torsional strain ahead of the replication fork",
+      "To recognize the CHI sequence"
+    ],
+    "answer": "To prevent the unwound DNA strands from re-annealing",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzyme relieves the supercoiling (torsional strain) of DNA during replication?",
+    "options": [
+      "Helicase",
+      "Topoisomerase",
+      "DNA Polymerase",
+      "Primase"
+    ],
+    "answer": "Topoisomerase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In eukaryotic replication, Primase is typically associated with which polymerase?",
+    "options": [
+      "DNA polymerase α",
+      "DNA polymerase δ",
+      "DNA polymerase ε",
+      "DNA polymerase β"
+    ],
+    "answer": "DNA polymerase α",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is an 'advantageous' impact of mobile element insertion?",
+    "options": [
+      "Lethal insertion",
+      "Induction of cancer",
+      "Creation of new regulatory networks",
+      "Mutational meltdown"
+    ],
+    "answer": "Creation of new regulatory networks",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which DNA repair pathway is considered 'error-prone' because it simply ligates broken ends together?",
+    "options": [
+      "Homologous recombination",
+      "Non-homologous end joining (NHEJ)",
+      "Base Excision Repair",
+      "Photoreactivation"
+    ],
+    "answer": "Non-homologous end joining (NHEJ)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the function of DNA glycosylase in Base Excision Repair?",
+    "options": [
+      "It cuts the phosphodiester backbone",
+      "It removes the damaged nitrogenous base",
+      "It seals the final nick in the DNA",
+      "It synthesizes new DNA to fill the gap"
+    ],
+    "answer": "It removes the damaged nitrogenous base",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of these is a mammalian protection mechanism against mobile elements involving cytidine deaminases?",
+    "options": [
+      "KRAB/KAP1 histone modification",
+      "PIWI proteins",
+      "APOBECs sequence editing",
+      "piRNA guided cleavage"
+    ],
+    "answer": "APOBECs sequence editing",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In prokaryotes, the initiation of replication is often controlled by:",
+    "options": [
+      "Histone acetylation",
+      "Methylation of the origin (ori)",
+      "Protein complexes at Y-shaped branches",
+      "Telomere shortening"
+    ],
+    "answer": "Methylation of the origin (ori)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the intermediate molecule in the transposition of Class 1 mobile elements?",
+    "options": [
+      "Double-stranded DNA",
+      "RNA intermediate",
+      "Protein intermediate",
+      "Circular DNA plasmid"
+    ],
+    "answer": "RNA intermediate",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following describes the 'mutational meltdown' caused by deleterious mobile elements?",
+    "options": [
+      "The rapid repair of all mutations",
+      "The accumulation of mutations leading to fitness decline",
+      "The melting of DNA at low temperatures",
+      "The loss of all mobile elements from the genome"
+    ],
+    "answer": "The accumulation of mutations leading to fitness decline",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzyme subunit in the E. coli RecBCD complex is responsible for CHI recognition?",
+    "options": [
+      "RecB",
+      "RecC",
+      "RecD",
+      "DNA Polymerase"
+    ],
+    "answer": "RecC",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which eukaryotic DNA polymerase is primarily involved in the Base Excision Repair (BER) pathway to fill the gap?",
+    "options": [
+      "DNA Pol α",
+      "DNA Pol δ",
+      "DNA Pol ε",
+      "DNA Pol β"
+    ],
+    "answer": "DNA Pol β",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Double helix' and 'Reparation' are categorized under which property of DNA?",
+    "options": [
+      "Flexibility",
+      "Stability",
+      "Denaturation",
+      "Variation"
+    ],
+    "answer": "Stability",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a deleterious effect of mobile elements on mammalian genomes?",
+    "options": [
+      "Adaptation via population diversity",
+      "Cancer induction via alteration of tumor suppressor genes",
+      "Spread of regulatory units near promoters",
+      "Increased DNA stability"
+    ],
+    "answer": "Cancer induction via alteration of tumor suppressor genes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "During the initiation of DNA replication in certain systems, which proteins are involved in the removal of the P protein?",
+    "options": [
+      "RecA and RecB",
+      "DnaJ, DnaK, and GrpE",
+      "DNA Pol α and δ",
+      "SSB and Topoisomerase"
+    ],
+    "answer": "DnaJ, DnaK, and GrpE",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which statement accurately compares replication time in prokaryotes and eukaryotes?",
+    "options": [
+      "Prokaryotes take hours, while eukaryotes take minutes",
+      "Both take approximately the same amount of time",
+      "Prokaryotes take minutes, while eukaryotes take hours",
+      "Prokaryotes have variable time depending on cell state, eukaryotes are fixed"
+    ],
+    "answer": "Prokaryotes take minutes, while eukaryotes take hours",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the specific translocase activity of the RecB motor in the RecBCD complex?",
+    "options": [
+      "5' to 3'",
+      "3' to 5'",
+      "Bidirectional",
+      "No translocase activity"
+    ],
+    "answer": "3' to 5'",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the specific translocase activity of the RecD motor in the RecBCD complex?",
+    "options": [
+      "5' to 3'",
+      "3' to 5'",
+      "Bidirectional",
+      "No translocase activity"
+    ],
+    "answer": "5' to 3'",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the Base Excision Repair pathway, which enzyme creates a nick in the phosphodiester backbone at an abasic site?",
+    "options": [
+      "DNA glycosylase",
+      "APEI endonuclease",
+      "DNA Ligase",
+      "Helicase"
+    ],
+    "answer": "APEI endonuclease",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which mechanism is used by Class 2 mobile elements (DNA transposons)?",
+    "options": [
+      "Transcription into RNA followed by reverse transcription",
+      "Excision of the DNA segment followed by integration into a target site",
+      "Continuous replication of the entire chromosome",
+      "Translation into a transposase protein that remains in the cytoplasm"
+    ],
+    "answer": "Excision of the DNA segment followed by integration into a target site",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How do PIWI proteins and piRNA protect the mammalian genome?",
+    "options": [
+      "By inducing DNA mutations in the host cell",
+      "By guiding cleavage or de novo methylation of mobile elements",
+      "By increasing the rate of transposition",
+      "By inhibiting DNA polymerase activity"
+    ],
+    "answer": "By guiding cleavage or de novo methylation of mobile elements",
+    "shuffleOptions": true
+  },
+  {
+    "question": "KRAB/KAP1 protection against mobile elements primarily involves:",
+    "options": [
+      "RNA interference",
+      "Histone modification and DNA methylation",
+      "Excision of the mobile element",
+      "Cytidine deamination"
+    ],
+    "answer": "Histone modification and DNA methylation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a characteristic of eukaryotic DNA replication termination?",
+    "options": [
+      "Termination at a single defined DNA sequence",
+      "Y-shaped branches meet at ori sites",
+      "Controlled solely by methylation",
+      "It does not require ligase"
+    ],
+    "answer": "Y-shaped branches meet at ori sites",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The '3' to 5' exonuclease activity' attached to DNA polymerase is used for:",
+    "options": [
+      "Synthesizing the primer",
+      "Proofreading and editing mismatched bases",
+      "Unwinding the double helix",
+      "Ligating Okazaki fragments"
+    ],
+    "answer": "Proofreading and editing mismatched bases",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT a mechanism for Double Strand Break Repair mentioned in the material?",
+    "options": [
+      "Homologous recombination",
+      "Single-strand annealing",
+      "Non-homologous end joining",
+      "Nucleotide Excision Repair"
+    ],
+    "answer": "Nucleotide Excision Repair",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the context of mobile elements, what is the 'genomic arms race'?",
+    "options": [
+      "The competition between different species for DNA",
+      "The selection of host defense mechanisms like APOBECs and KRAB/KAP1 against mobile elements",
+      "The rapid replication of DNA in response to stress",
+      "The movement of genes between the nucleus and mitochondria"
+    ],
+    "answer": "The selection of host defense mechanisms like APOBECs and KRAB/KAP1 against mobile elements",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following statements about DNA Polymerase is TRUE based on the provided diagrams?",
+    "options": [
+      "It synthesizes DNA in the 3' to 5' direction",
+      "It requires a primer with a free 3'-OH end to begin synthesis",
+      "It can start DNA synthesis without a template",
+      "It is only found in prokaryotic cells"
+    ],
+    "answer": "It requires a primer with a free 3'-OH end to begin synthesis",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following are impacts of mobile elements on mammalian genomes?",
+    "options": [
+      "New regulatory networks",
+      "Lethal insertions",
+      "Adaptation via population diversity",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "shuffleOptions": false
+  }
+]

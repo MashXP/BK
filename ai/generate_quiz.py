@@ -1,24 +1,21 @@
 import os
 import json
-import google.generativeai as genai
 import argparse
 import sys
 import time
+from google import genai
+from google.genai import types
 
 # ================= CONFIGURATION =================
-# API Key (Best practice: set this in your environment variables)
-# os.environ["GEMINI_API_KEY"] = "YOUR_API_KEY_HERE" 
 API_KEY = os.environ.get("GEMINI_API_KEY")
 # =================================================
 
-def setup_gemini():
+def setup_client():
     if not API_KEY:
         print("Error: GEMINI_API_KEY environment variable not set.")
         print("Please export it in your shell: export GEMINI_API_KEY='your_key'")
         return None
-    genai.configure(api_key=API_KEY)
-    # Using the current available model
-    return genai.GenerativeModel('gemini-3-flash-preview')
+    return genai.Client(api_key=API_KEY)
 
 def read_content(file_path):
     try:
@@ -34,7 +31,6 @@ def clean_json_response(text):
     Removes markdown code blocks if present.
     """
     text = text.strip()
-    # Remove ```json and ``` or just ```
     if text.startswith("```json"):
         text = text[7:]
     elif text.startswith("```"):
@@ -45,9 +41,9 @@ def clean_json_response(text):
     
     return text.strip()
 
-def generate_quiz(model, content_or_file):
+def generate_quiz(client, contents):
     """
-    Generates a quiz using either a string (markdown/text) or a Gemini File object (PDF).
+    Generates a quiz using a list of contents (strings/markdown/text or Gemini File objects).
     """
     prompt_instructions = """
     You are an expert educational content creator.
@@ -83,22 +79,31 @@ def generate_quiz(model, content_or_file):
     ]
     """
 
-    if isinstance(content_or_file, str):
-        prompt_parts = [f"{prompt_instructions}\n\n**Input Material:**\n{content_or_file}"]
-    else:
-        # It's a Gemini File object
-        prompt_parts = [content_or_file, prompt_instructions]
+    prompt_parts = [prompt_instructions]
+    for i, content in enumerate(contents):
+        if isinstance(content, str):
+            prompt_parts.append(f"\n\n**Input Material {i+1} (Text/Markdown):**\n{content}")
+        else:
+            # It's a Gemini File object (from client.files.upload)
+            prompt_parts.append(content)
 
     print("Sending request to Gemini... (this might take a minute for 40 questions)")
     try:
-        response = model.generate_content(prompt_parts)
+        # Using gemini-2.0-flash which is generally fast and capable
+        response = client.models.generate_content(
+            model='gemini-3-flash-preview',
+            contents=prompt_parts,
+            config=types.GenerateContentConfig(
+                temperature=0.2,
+            )
+        )
         return clean_json_response(response.text)
     except Exception as e:
         print(f"API Error: {e}")
         return None
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate quizzes from study guides or PDFs using Gemini.")
+    parser = argparse.ArgumentParser(description="Generate quizzes from study guides and PDFs using the modern Gemini SDK.")
     parser.add_argument("sources", nargs="*", help="Path to one or more source files (Markdown or PDF)")
     args = parser.parse_args()
 
@@ -106,68 +111,87 @@ def main():
         parser.print_help()
         sys.exit(0)
 
-    model = setup_gemini()
-    if not model:
+    client = setup_client()
+    if not client:
         return
 
+    all_contents = []
+    source_names = []
+    uploaded_files = []
+
+    print(f"--- Preparing {len(args.sources)} source(s) ---")
+
     for source_path in args.sources:
-        print(f"\n--- Processing: {source_path} ---")
-        
         is_pdf = source_path.lower().endswith('.pdf')
-        content_to_send = None
+        source_names.append(os.path.splitext(os.path.basename(source_path))[0])
 
         if is_pdf:
             print(f"Uploading PDF: {source_path}")
             try:
-                content_to_send = genai.upload_file(source_path, mime_type="application/pdf")
-                while content_to_send.state.name == "PROCESSING":
+                # The modern SDK uses 'file' instead of 'path'
+                uploaded_file = client.files.upload(file=source_path)
+                
+                # Wait for processing
+                while uploaded_file.state.name == "PROCESSING":
                     time.sleep(2)
-                    content_to_send = genai.get_file(content_to_send.name)
+                    uploaded_file = client.files.get(name=uploaded_file.name)
+                
+                if uploaded_file.state.name == "FAILED":
+                    print(f"File processing failed for {source_path}")
+                    continue
+                    
+                all_contents.append(uploaded_file)
+                uploaded_files.append(uploaded_file)
             except Exception as e:
                 print(f"Error uploading PDF: {e}")
-                continue
         else:
-            content_to_send = read_content(source_path)
-            if not content_to_send:
-                continue
+            content = read_content(source_path)
+            if content:
+                all_contents.append(content)
+            else:
+                print(f"Skipping empty or missing file: {source_path}")
 
-        # Determine output path
-        base_name = os.path.splitext(os.path.basename(source_path))[0]
-        # Standardized output dir based on original script
-        output_dir = "_quiz"
-        os.makedirs(output_dir, exist_ok=True)
-        output_file_path = os.path.join(output_dir, f"{base_name}.json")
+    if not all_contents:
+        print("No valid content found to process.")
+        return
 
-        json_str = generate_quiz(model, content_to_send)
-        
-        if json_str:
-            try:
-                # Validate JSON
-                quiz_data = json.loads(json_str)
-                
-                print(f"Successfully generated {len(quiz_data)} questions.")
+    # Determine output path
+    combined_name = "_".join(source_names)
+    if len(combined_name) > 100:
+        combined_name = "combined_quiz_" + str(int(time.time()))
+    
+    output_dir = "_quiz"
+    os.makedirs(output_dir, exist_ok=True)
+    output_file_path = os.path.join(output_dir, f"{combined_name}.json")
 
-                with open(output_file_path, 'w', encoding='utf-8') as f:
-                    json.dump(quiz_data, f, indent=2, ensure_ascii=False)
-                
-                print(f"Quiz saved to: {os.path.abspath(output_file_path)}")
-                
-            except json.JSONDecodeError as e:
-                print(f"Failed to decode JSON from model response for {source_path}.")
-                print("Raw output start:", json_str[:100])
-                print("Error:", e)
-                # Save raw output for debugging
-                debug_file = f"debug_raw_{base_name}.txt"
-                with open(debug_file, "w") as f:
-                    f.write(json_str)
-                print(f"Raw output saved to {debug_file}")
-        
-        # Cleanup uploaded file if it's a PDF
-        if is_pdf and content_to_send:
-            try:
-                genai.delete_file(content_to_send.name)
-            except:
-                pass
+    json_str = generate_quiz(client, all_contents)
+    
+    if json_str:
+        try:
+            quiz_data = json.loads(json_str)
+            print(f"Successfully generated {len(quiz_data)} questions.")
+
+            with open(output_file_path, 'w', encoding='utf-8') as f:
+                json.dump(quiz_data, f, indent=2, ensure_ascii=False)
+            
+            print(f"Quiz saved to: {os.path.abspath(output_file_path)}")
+            
+        except json.JSONDecodeError as e:
+            print("Failed to decode JSON from model response.")
+            print("Raw output start:", json_str[:200])
+            print("Error:", e)
+            debug_file = f"debug_raw_{combined_name}.txt"
+            with open(debug_file, "w") as f:
+                f.write(json_str)
+            print(f"Raw output saved to {debug_file}")
+    
+    # Cleanup uploaded files
+    for f in uploaded_files:
+        try:
+            client.files.delete(name=f.name)
+            print(f"Deleted remote file: {f.name}")
+        except Exception as e:
+            print(f"Error deleting file {f.name}: {e}")
 
 if __name__ == "__main__":
     main()
