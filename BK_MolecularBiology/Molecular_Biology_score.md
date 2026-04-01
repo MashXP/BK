@@ -72,6 +72,15 @@ C.Phong +2 (+2)
 G6: +2
 G3 +2
 
+### 2026-03-31
+M.Nghĩa +1
+T.Khang +2
+C.Phong +1
+Q.Huy +2
+V.Bảo +1
+
+
+
 ---
 # GROUP MEMBERS list
 G1: Kiên, Thịnh, Q.Bảo, T.Khang, Bách
