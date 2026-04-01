@@ -73,11 +73,12 @@ G6: +2
 G3 +2
 
 ### 2026-03-31
+x2 score
 M.Nghĩa +1
 T.Khang +2
 C.Phong +1
 Q.Huy +2
-V.Bảo +1
+V.Bảo +2
 
 
 
