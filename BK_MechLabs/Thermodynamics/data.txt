@@ -1,0 +1,35 @@
+1. KẾT QUẢ THÍ NGHIỆM
+
+Bảng 1. Số liệu thí nghiệm với trường hợp sử dụng hơi bão hòa
+v (m/s)	Lần đo	T1 (°C)	T1' (°C)	T2 (°C)	T2' (°C)	T3 (°C)	T3' (°C)	T4 (°C)	T4' (°C)	V (ml/phút)
+v1 = 3.36	1	31	24	19	17	35	25	34	33	6.5
+	2	31	24	20	18	35	26	35	34	8.0
+	3									
+	TB	31	24	19.5	17.5	35	25.5	34.5	33.5	7.25
+v2 = 1.58	1	31	24	17	15	36	25	35	33	7.5
+	2	31	24	17	15	35	25	38	36	8.0
+	3									
+	TB	31	24	17	15	35.5	25	36.5	34.5	7.75
+v3 = 1.23	1	31	24	16	12	37	25	36	30	6.5
+	2	31	24	14	12	37	25	38	38	10.5
+	3									
+	TB	31	24	15	12	37	25	37	34	8.5
+
+Trong đó v (m/s) là vận tốc gió tại đầu ra của ống khí động; Ti (°C) là nhiệt độ bầu khô và Ti' là nhiệt độ bầu ướt tại 4 vị trí khác nhau xác định trên ống khí động; V (ml/phút) là lượng nước ngưng tụ trong một phút tại dàn lạnh. (Ghi chú: Hình ảnh 1 bị cắt mất chữ "nước ngưng tụ..." nhưng được bổ sung từ hình 2).
+
+Bảng 2. Số liệu thí nghiệm với trường hợp sử dụng hơi quá nhiệt
+v (m/s)	Lần đo	T1 (°C)	T1' (°C)	T2 (°C)	T2' (°C)	T3 (°C)	T3' (°C)	T4 (°C)	T4' (°C)	V (ml/phút)
+v1 = 3.36	1	31	24	16	16	34	25	35	34	12.5
+	2	31	24	17	19	34	24	34	39	10.0
+	3									
+	TB	31	24	16.5	17.5	34	24.5	34.5	36.5	11.25
+v2 = 1.58	1	31	24	17	16	34	24	34	24	11.0
+	2	31	24	14	15	34	24	35	37	11.0
+	3									
+	TB	31	24	15.5	15.5	34	24	34.5	30.5	11.0
+v3 = 1.23	1	31	24	13	14	35	25	36	36	10.0
+	2	31	24	13	15	35	25	35	37	13.5
+	3									
+	TB	31	24	13	14.5	35	25	35.5	36.5	11.75
+
+Trong đó v (m/s) là vận tốc gió tại đầu ra của ống khí động; Ti (°C) là nhiệt độ bầu khô và Ti' là nhiệt độ bầu ướt tại 4 vị trí khác nhau xác định trên ống khí động; V (ml/phút) là lượng nước ngưng tụ trong một phút tại dàn lạnh.

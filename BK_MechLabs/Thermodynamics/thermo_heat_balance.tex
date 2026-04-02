@@ -1,0 +1,40 @@
+\subsection{Heat Balance Calculation Results}
+\begin{table}[H]
+\centering
+\caption{Table 4. Heat balance -- Saturated Steam}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}\hline
+\textbf{v} & \textbf{$t_{1}$ ($^\circ$C)} & \textbf{$\rho_1$} & \textbf{$G_{kk}$ (kg/s)} & \textbf{$Q_0$ (kW)} & \textbf{$G_{water}$ (kg/h)} & \textbf{$G'_{water}$ (kg/h)} & \textbf{$t_{3}$ ($^\circ$C)} & \textbf{$\rho_3$} & \textbf{$G'_{kk}$ (kg/s)} & \textbf{$Q$ (kW)} \\\hline
+3.36 & 31.00 & 1.1610 & 0.0562 & 1.2574 & 0.8409 & 0.4350 & 35.00 & 1.1460 & 0.0554 & 1.5728 \\\hline
+1.58 & 31.00 & 1.1610 & 0.0264 & 0.7835 & 0.5731 & 0.4650 & 35.50 & 1.1420 & 0.0260 & 0.8697 \\\hline
+1.23 & 31.00 & 1.1610 & 0.0206 & 0.7726 & 0.6185 & 0.5100 & 37.00 & 1.1390 & 0.0202 & 0.8327 \\\hline
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Table 4. Heat balance -- Superheated Steam}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}\hline
+\textbf{v} & \textbf{$t_{1}$ ($^\circ$C)} & \textbf{$\rho_1$} & \textbf{$G_{kk}$ (kg/s)} & \textbf{$Q_0$ (kW)} & \textbf{$G_{water}$ (kg/h)} & \textbf{$G'_{water}$ (kg/h)} & \textbf{$t_{3}$ ($^\circ$C)} & \textbf{$\rho_3$} & \textbf{$G'_{kk}$ (kg/s)} & \textbf{$Q$ (kW)} \\\hline
+3.36 & 31.00 & 1.1610 & 0.0562 & 1.4200 & 0.8269 & 0.6750 & 34.00 & 1.1500 & 0.0556 & 1.5086 \\\hline
+1.58 & 31.00 & 1.1610 & 0.0264 & 0.7439 & 0.4590 & 0.6600 & 34.00 & 1.1500 & 0.0262 & 0.7314 \\\hline
+1.23 & 31.00 & 1.1610 & 0.0206 & 0.7180 & 0.4807 & 0.7050 & 35.00 & 1.1460 & 0.0203 & 0.7868 \\\hline
+\end{tabular}
+}
+\end{table}
+
+
+\begin{description}
+    \item[$v$:] velocity at aerodynamic tube outlet, m/s
+    \item[$t_{dry,1}$:] dry-bulb temperature at entrance (Point 1), $^\circ$C
+    \item[$t_{dry,3}$:] dry-bulb temperature at dryer entrance (Point 3), $^\circ$C
+    \item[$\rho_1, \rho_3$:] specific mass of air before cooler / before dryer, kg/m$^3$
+    \item[$G_{kk}$:] mass flowrate into aerodynamic tube, kg/s
+    \item[$G'_{kk}$:] mass flowrate before dryer, kg/s
+    \item[$Q_0$:] cooling capacity of cooler, kW
+    \item[$G_{water}$:] theoretical condensed water flowrate, kg/h
+    \item[$G'_{water}$:] practical condensed water flowrate, kg/h
+    \item[$Q$:] thermal load of air dryer, kW
+\end{description}

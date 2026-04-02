@@ -1,0 +1,54 @@
+\section{RESULT}
+
+\subsection{Experimental Data}
+The experimental data is collected for saturated steam and superheated steam across three different velocities: $v_1 = 3.36$ m/s, $v_2 = 1.58$ m/s, and $v_3 = 1.23$ m/s. The dry bulb ($T$) and wet bulb ($Tw$) temperatures are measured at 4 points along the aerodynamic tube. $V_{cond}$ stands for the condensed water rate.
+
+\input{thermo_raw_data}
+\input{thermo_calc_results}
+\input{thermo_heat_balance}
+
+\subsection{Process on Psychrometric Charts}
+Based on the calculated absolute humidity (d) and dry bulb temperature (T), the changing state of the air for different velocities is plotted below for saturated and superheated steam conditions.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Plots/sat_v_3_36.png}
+        \caption{Saturated, v = 3.36 m/s}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Plots/sup_v_3_36.png}
+        \caption{Superheated, v = 3.36 m/s}
+    \end{subfigure}
+    
+    \vspace{0.5cm}
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Plots/sat_v_1_58.png}
+        \caption{Saturated, v = 1.58 m/s}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Plots/sup_v_1_58.png}
+        \caption{Superheated, v = 1.58 m/s}
+    \end{subfigure}
+    
+    \vspace{0.5cm}
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Plots/sat_v_1_23.png}
+        \caption{Saturated, v = 1.23 m/s}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Plots/sup_v_1_23.png}
+        \caption{Superheated, v = 1.23 m/s}
+    \end{subfigure}
+    
+    \caption{Psychrometric Process Change for Different Airflows}
+\end{figure}

@@ -1,0 +1,70 @@
+\section{EXPERIMENTAL THEORY}
+\subsection{Classification of moist air condition}
+\begin{itemize}
+    \item \textbf{Unsaturated moist air:} the type of moist air that the amount of vapor contains in which isn’t maximum. Unsaturated moist air has ability to contain more water. The condition of vapor in unsaturated moist air is superheated steam. Vapor pressure of unsaturated moist air is smaller than the saturated pressure corresponding to moist air temperature ($P_h < P_{hs}$).
+    \item \textbf{Saturated moist air:} the type of moist air that the amount of vapor contains in which is maximum $G_h = G_{hmax}$. The condition of vapor in saturated moist air is dry saturated steam. Vapor pressure of saturated moist air is equal to the saturated pressure corresponding to moist air temperature ($P_h = P_{hs}$).
+    \item \textbf{Supersaturated moist air:} the type of moist air that the amount of vapor contains in which is maximum and can contain more water condensate. If the temperature is lower than $0^\circ\text{C}$, there will be ice. The condition of vapor in supersaturated moist air is moist saturated steam.
+\end{itemize}
+
+\subsection{Characteristic parameters of moist air}
+The primary characteristics are summarized in Table \ref{tab:params}, and their full definitions and formulas are detailed below.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|c|l|}
+\hline
+\textbf{PARAMETER} & \textbf{SYMBOL} & \textbf{UNIT} \\ \hline
+Relative humidity & $\varphi$ & \% \\ \hline
+Absolute humidity & $x$ (or $d, y$) & kg$_{\text{H2O}}$/kg$_{\text{dry\_air}}$ \\ \hline
+Heat function (Enthalpy) & $H$ (or $I$) & kJ/kg$_{\text{dry\_air}}$ \\ \hline
+Dry bulb temperature & $t$ ($t_{dry}, \tau$) & $^\circ$C \\ \hline
+Wet bulb temperature & $t_{wet}$ & $^\circ$C \\ \hline
+Drying potential & $\varepsilon$ & $^\circ$C \\ \hline
+Dew point & $T_{dp}$ & $^\circ$C \\ \hline
+\end{tabular}
+\caption{Parameters of humid air}
+\label{tab:params}
+\end{table}
+
+\begin{description}
+    \item[Relative humidity ($\varphi$):] The ratio of the water vapor in the air at a certain temperature and pressure to the maximum water vapor it can contain.
+    \begin{equation*}
+        \varphi = \frac{P_h}{P_{bh}} \cdot 100\% = \frac{\rho_h}{\rho_{bh}} \cdot 100\%
+    \end{equation*}
+    \begin{itemize}
+        \item $P_h, P_{bh}$: vapor partial pressure and vapor saturated pressure of water at the same temperature condition.
+    \end{itemize}
+    
+    \item[Absolute humidity ($x$):] Density of moisture (water vapor) per unit volume of air, expressed usually as kilogram per cubic meter (kg/m$^3$).
+    \begin{equation*}
+        x = \frac{M_h}{M_{kkk}} \times \frac{P_h}{P-P_h} = \frac{18}{29} \times \frac{\varphi P_{bh}}{P - \varphi P_{bh}}
+    \end{equation*}
+
+    \item[Heat function / Enthalpy ($H$):] Total heat content of the moist air, including sensible heat of dry air and latent/sensible heat of vapor.
+    \begin{equation*}
+        H = C_{kkk} \cdot t + (r + C_h t) \cdot x = t + (2493 + 1.97t) \cdot x
+    \end{equation*}
+    \begin{itemize}
+        \item $C_{kkk} = 1$ (kJ/kg.$^\circ$C): specific heat of dry air
+        \item $t$ ($^\circ$C): temperature of dry air
+        \item $r = 2493$ (kJ/kg.$^\circ$C): latent heat of water at $0^\circ$C
+        \item $C_h = 1.97$ (kJ/kg.$^\circ$C): specific heat of steam
+    \end{itemize}
+
+    \item[Dry bulb temperature ($t_{dry}$):] Refers basically to the ambient air temperature. It is called "Dry bulb" because the air temperature is indicated by a thermometer not affected by the moisture of the air.
+
+    \item[Wet bulb temperature ($t_{wet}$):] Wet bulb temperature can be measured by using a thermometer with the bulb wrapped in wet muslin. The adiabatic evaporation of water from the thermometer bulb and the cooling effect is indicated by a "wet bulb temperature".
+
+    \item[Drying potential ($\varepsilon$):] Difference between dry bulb temperature and wet bulb temperature:
+    \begin{equation*}
+        \varepsilon = t_{dry} - t_{wet}
+    \end{equation*}
+
+    \item[Dew point ($T_{dp}$):] The dew point temperature is defined as the temperature at which condensation begins if the air is cooled at constant pressure.
+\end{description}
+
+\subsection{Classification of steam condition}
+\begin{itemize}
+    \item \textbf{Saturated steam:} When the water evaporated at boiling temperature.
+    \item \textbf{Superheated steam:} is saturated steam heated up without changing vapor pressure.
+\end{itemize}
