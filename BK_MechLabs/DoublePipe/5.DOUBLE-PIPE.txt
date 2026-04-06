@@ -1,0 +1,2326 @@
+**CONTENT**
+
+[1. ABSTRACT: [2](#abstract)](#abstract)
+
+[1.1. Purposes: [2](#purposes)](#purposes)
+
+[1.2. Methods: [2](#methods)](#methods)
+
+[1.3. Results: [2](#results)](#results)
+
+[1.4. Result evaluation: [3](#result-evaluation)](#result-evaluation)
+
+[2. EXPERIMENTAL PRINCIPLE:
+[3](#experimental-principle)](#experimental-principle)
+
+[2.1. Heat balance equation for two fluid streams
+[3](#heat-balance-equation-for-two-fluid-streams)](#heat-balance-equation-for-two-fluid-streams)
+
+[2.2. Heat transfer equation
+[4](#heat-transfer-equation)](#heat-transfer-equation)
+
+[2.3. Logarithm Mean Temperature Difference
+[4](#logarithm-mean-temperature-difference)](#logarithm-mean-temperature-difference)
+
+[2.4. Overall heat transfer coefficient, K~l~^\*^
+[4](#overall-heat-transfer-coefficient-kl)](#overall-heat-transfer-coefficient-kl)
+
+[2.5. Thermal transmittance coefficient α ~1~, α ~2~ between wall and
+fluid streams
+[4](#thermal-transmittance-coefficient-α-1-α-2-between-wall-and-fluid-streams)](#thermal-transmittance-coefficient-α-1-α-2-between-wall-and-fluid-streams)
+
+[2.6. Flow mode of fluid determined by Re number
+[5](#flow-mode-of-fluid-determined-by-re-number)](#flow-mode-of-fluid-determined-by-re-number)
+
+[2.7. Nu number [5](#nu-number)](#nu-number)
+
+[2.8. Pr number [6](#pr-number)](#pr-number)
+
+[2.9. Gr number [6](#gr-number)](#gr-number)
+
+[3. EXPERIMENT EQUIPMENT AND METHOD:
+[8](#experiment-equipment-and-method)](#experiment-equipment-and-method)
+
+[3.1. Experiment equipment:
+[8](#experiment-equipment)](#experiment-equipment)
+
+[3.2. Method: [8](#method)](#method)
+
+[4. RESULTS [9](#results-1)](#results-1)
+
+[4.1. Heat Q and heat loss:
+[12](#heat-q-and-heat-loss)](#heat-q-and-heat-loss)
+
+[4.3. Experimental heat transfer coefficient Kl:
+[18](#experimental-heat-transfer-coefficient-kl)](#experimental-heat-transfer-coefficient-kl)
+
+[4.4. Heat transmittance coefficient α~1~, α~2~:
+[19](#heat-transmittance-coefficient-α1-α2)](#heat-transmittance-coefficient-α1-α2)
+
+[4.4.1. Heat transmittance coefficient α~1~, α~2~ - Tube B
+[21](#heat-transmittance-coefficient-α1-α2---tube-b)](#heat-transmittance-coefficient-α1-α2---tube-b)
+
+[4.4.2. Heat transmittance coefficient α~1~, α~2~ - Tube C
+[24](#heat-transmittance-coefficient-α1-α2---tube-c)](#heat-transmittance-coefficient-α1-α2---tube-c)
+
+[4.5. Overall heat transfer coefficient K~1~^\*^:
+[26](#overall-heat-transfer-coefficient-k1)](#overall-heat-transfer-coefficient-k1)
+
+[4.6. K~l~\* and K~l~ dependence on flow mode (Reynolds number):
+[35](#kl-and-kl-dependence-on-flow-mode-reynolds-number)](#kl-and-kl-dependence-on-flow-mode-reynolds-number)
+
+[4.7. Illustrating the dependence of K~1~^\*^ and K~1~ on Re:
+[37](#illustrating-the-dependence-of-k1-and-k1-on-re)](#illustrating-the-dependence-of-k1-and-k1-on-re)
+
+[5. DISCUSSION : [46](#discussion)](#discussion)
+
+[6. APPENDIX : [47](#appendix)](#appendix)
+
+[6.1. Physical parameters:
+[47](#physical-parameters)](#physical-parameters)
+
+[6.2. Heat Q calculation:
+[47](#heat-q-calculation)](#heat-q-calculation)
+
+[6.3. Specific geometric dimension:
+[48](#specific-geometric-dimension)](#specific-geometric-dimension)
+
+[6.4. Re number: [49](#re-number)](#re-number)
+
+[6.5. Thermal transmittance coefficient α ~1~, α ~2~:
+[49](#thermal-transmittance-coefficient-α-1-α-2)](#thermal-transmittance-coefficient-α-1-α-2)
+
+[6.6. Overall heat transfer coefficient, K^\*^~1~:
+[50](#overall-heat-transfer-coefficient-k1-1)](#overall-heat-transfer-coefficient-k1-1)
+
+[7. REFERENCES : [50](#references)](#references)
+
++-----------------------------------------------------------------------+
+| **[UNIT 2]{.underline}**                                              |
+|                                                                       |
+| **DOUBLE-PIPE HEAT EXCHANGER**                                        |
++=======================================================================+
++-----------------------------------------------------------------------+
+
+# ABSTRACT :
+
+## Purposes:
+
+- Get to know double-pipe heat exchanger, thermometers and flow meters.
+
+- Determine heat transfer coefficient of heat exchanging between two hot
+  and cold streams through a metal wall at different operation modes.
+
+- Establish heat balance.
+
+## Methods:
+
+> Study tube B and tube C at different operating modes, followed by
+> calculating heat transfer coefficient between hot and cold fluid
+> streams.
+
+## Results:
+
+> Raw result: 1 ft^3^ = 0.02832 m^3^
+
+1.  ***Tube B:*** Fluid flows vertically over the external surface of
+    the inner tube. The two flows are perpendicular to each other
+
+**[Table 1]{.underline}**: Tube B experimental data
+
+*(Experiments on the hot stream flow rate of 0.44 ft^3^/min were not
+performed due to burned-off resistor)*
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><p><strong>Hot</strong></p>
+<p><strong>flowrate</strong></p>
+<p><strong>(m<sup>3</sup>/min)</strong></p></th>
+<th colspan="4"
+style="text-align: center;"><strong>9.4400000E-05</strong></th>
+<th colspan="4"
+style="text-align: center;"><strong>0.0001416</strong></th>
+<th colspan="4"
+style="text-align: center;"><strong>0.0001888</strong></th>
+<th colspan="4"
+style="text-align: center;"><strong>0.000236</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Cold flowrate
+(m<sup>3</sup>/min)</strong></td>
+<td style="text-align: center;"><strong>t<sub>1V</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>1R</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>2V</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>2R</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>1V</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>1R</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>2V</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>2R</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>1V</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>1R</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>2V</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>2R</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>1V</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>1R</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>2V</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>2R</sub></strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">0.0000944</td>
+<td style="text-align: center;">81</td>
+<td style="text-align: center;">66</td>
+<td style="text-align: center;">29</td>
+<td style="text-align: center;">34</td>
+<td style="text-align: center;">82</td>
+<td style="text-align: center;">69</td>
+<td style="text-align: center;">34</td>
+<td style="text-align: center;">38</td>
+<td style="text-align: center;">81</td>
+<td style="text-align: center;">71</td>
+<td style="text-align: center;">34</td>
+<td style="text-align: center;">39</td>
+<td style="text-align: center;">81</td>
+<td style="text-align: center;">71</td>
+<td style="text-align: center;">37</td>
+<td style="text-align: center;">41</td>
+</tr>
+<tr>
+<td style="text-align: center;">0.0001416</td>
+<td style="text-align: center;">82</td>
+<td style="text-align: center;">65</td>
+<td style="text-align: center;">27</td>
+<td style="text-align: center;">32</td>
+<td style="text-align: center;">82</td>
+<td style="text-align: center;">68</td>
+<td style="text-align: center;">32</td>
+<td style="text-align: center;">36</td>
+<td style="text-align: center;">81</td>
+<td style="text-align: center;">70</td>
+<td style="text-align: center;">34</td>
+<td style="text-align: center;">38</td>
+<td style="text-align: center;">81</td>
+<td style="text-align: center;">71</td>
+<td style="text-align: center;">35</td>
+<td style="text-align: center;">39</td>
+</tr>
+<tr>
+<td style="text-align: center;">0.0001888</td>
+<td style="text-align: center;">82</td>
+<td style="text-align: center;">65</td>
+<td style="text-align: center;">27</td>
+<td style="text-align: center;">31</td>
+<td style="text-align: center;">82</td>
+<td style="text-align: center;">68</td>
+<td style="text-align: center;">30</td>
+<td style="text-align: center;">34</td>
+<td style="text-align: center;">81</td>
+<td style="text-align: center;">70</td>
+<td style="text-align: center;">33</td>
+<td style="text-align: center;">36</td>
+<td style="text-align: center;">81</td>
+<td style="text-align: center;">71</td>
+<td style="text-align: center;">34</td>
+<td style="text-align: center;">37</td>
+</tr>
+<tr>
+<td style="text-align: center;">0.0002356</td>
+<td style="text-align: center;">83</td>
+<td style="text-align: center;">65</td>
+<td style="text-align: center;">27</td>
+<td style="text-align: center;">31</td>
+<td style="text-align: center;">82</td>
+<td style="text-align: center;">68</td>
+<td style="text-align: center;">29</td>
+<td style="text-align: center;">33</td>
+<td style="text-align: center;">81</td>
+<td style="text-align: center;">69</td>
+<td style="text-align: center;">33</td>
+<td style="text-align: center;">35</td>
+<td style="text-align: center;">81</td>
+<td style="text-align: center;">71</td>
+<td style="text-align: center;">34</td>
+<td style="text-align: center;">37</td>
+</tr>
+</tbody>
+</table>
+
+2.  ***Tube C:*** Simple tube, fluid flows longitudinally over external
+    surface of the inner tube. The two flows are parallel to each other
+
+**[Table 1]{.underline}**: Tube B experimental data
+
+*(Experiments on the hot stream flow rate of 0.44 ft^3^/min were not
+performed due to burned-off resistor)*
+
+<table style="width:100%;">
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;"><p><strong>Hot</strong></p>
+<p><strong>flowrate</strong></p>
+<p><strong>(m<sup>3</sup>/min)</strong></p></th>
+<th colspan="4"
+style="text-align: center;"><strong>9.4400000E-05</strong></th>
+<th colspan="4"
+style="text-align: center;"><strong>0.0001416</strong></th>
+<th colspan="4"
+style="text-align: center;"><strong>0.0001888</strong></th>
+<th colspan="4"
+style="text-align: center;"><strong>0.000236</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Cold flowrate
+(m<sup>3</sup>/min)</strong></td>
+<td style="text-align: center;"><strong>t<sub>1V</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>1R</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>2V</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>2R</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>1V</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>1R</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>2V</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>2R</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>1V</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>1R</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>2V</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>2R</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>1V</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>1R</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>2V</sub></strong></td>
+<td style="text-align: center;"><strong>t<sub>2R</sub></strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">0.0000944</td>
+<td style="text-align: center;">84</td>
+<td style="text-align: center;">74</td>
+<td style="text-align: center;">37</td>
+<td style="text-align: center;">41</td>
+<td style="text-align: center;">81</td>
+<td style="text-align: center;">73</td>
+<td style="text-align: center;">37</td>
+<td style="text-align: center;">41</td>
+<td style="text-align: center;">81</td>
+<td style="text-align: center;">75</td>
+<td style="text-align: center;">36</td>
+<td style="text-align: center;">41</td>
+<td style="text-align: center;">86</td>
+<td style="text-align: center;">80</td>
+<td style="text-align: center;">38</td>
+<td style="text-align: center;">45</td>
+</tr>
+<tr>
+<td style="text-align: center;">0.0001416</td>
+<td style="text-align: center;">85</td>
+<td style="text-align: center;">75</td>
+<td style="text-align: center;">36</td>
+<td style="text-align: center;">38</td>
+<td style="text-align: center;">81</td>
+<td style="text-align: center;">73</td>
+<td style="text-align: center;">35</td>
+<td style="text-align: center;">38</td>
+<td style="text-align: center;">82</td>
+<td style="text-align: center;">74</td>
+<td style="text-align: center;">35</td>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;">86</td>
+<td style="text-align: center;">79</td>
+<td style="text-align: center;">36</td>
+<td style="text-align: center;">42</td>
+</tr>
+<tr>
+<td style="text-align: center;">0.0001888</td>
+<td style="text-align: center;">85</td>
+<td style="text-align: center;">74</td>
+<td style="text-align: center;">35</td>
+<td style="text-align: center;">37</td>
+<td style="text-align: center;">82</td>
+<td style="text-align: center;">73</td>
+<td style="text-align: center;">35</td>
+<td style="text-align: center;">37</td>
+<td style="text-align: center;">82</td>
+<td style="text-align: center;">74</td>
+<td style="text-align: center;">35</td>
+<td style="text-align: center;">38</td>
+<td style="text-align: center;">85</td>
+<td style="text-align: center;">78</td>
+<td style="text-align: center;">35</td>
+<td style="text-align: center;">40</td>
+</tr>
+<tr>
+<td style="text-align: center;">0.0002360</td>
+<td style="text-align: center;">86</td>
+<td style="text-align: center;">74</td>
+<td style="text-align: center;">35</td>
+<td style="text-align: center;">37</td>
+<td style="text-align: center;">82</td>
+<td style="text-align: center;">73</td>
+<td style="text-align: center;">34</td>
+<td style="text-align: center;">37</td>
+<td style="text-align: center;">81</td>
+<td style="text-align: center;">73</td>
+<td style="text-align: center;">34</td>
+<td style="text-align: center;">37</td>
+<td style="text-align: center;">85</td>
+<td style="text-align: center;">77</td>
+<td style="text-align: center;">34</td>
+<td style="text-align: center;">38</td>
+</tr>
+</tbody>
+</table>
+
+## Result evaluation:
+
+- There are deviations between experimental data and theory due to
+  errors from equipment and during the process of carry out the
+  experiments.
+
+- Heat transfer in tube type C is less efficient than in tube type B.
+
+- Experimental heat transfer coefficient K1 is lower than overall heat
+  transfer coefficient K1\* because of heat loss and errors happening
+  during experiment.
+
+# EXPERIMENTAL PRINCIPLE: 
+
+Heat exchanging in double-pipe heat exchanger is an example of complex
+heat transfer in which heat exchanges between two flows of fluid through
+a metal wall including convectional heat transfer from hot stream to the
+wall, heat transfer through the wall and convectional heat transfer from
+the wall to cold stream.
+
+## Heat balance equation for two fluid streams
+
+Q = G~1~C~1~(t~1in~ -- t~1out~) = G~2~C~2~(t~2out~ -- t~2in~) , W
+
+Where:\
+G~1~, G~2~ : hot and cold stream flow rate, kg/s.\
+C~1~, C~2~ : average specific heat capacity of hot and cold stream
+(J/kg.K)\
+t~1in~, t~1out~ : inlet and outlet temperature of the hot stream, ^0^C\
+t~2in~, t~2out~ : inlet and outlet temperature of the cold stream, ^0^C
+
+##  **Heat transfer equation**
+
+> Q = K~l~.∆t~log~.L
+>
+> Where:\
+> L : tube length, m\
+> K~l~ : experimental heat transfer coefficient, W/mK\
+> ∆t~log~ : Logarithm Mean Temperature Difference, K
+
+## Logarithm Mean Temperature Difference
+
+![](media/image2.wmf)
+
+## Overall heat transfer coefficient, K~l~^\*^
+
+> ![](media/image3.wmf)
+
+##  Thermal transmittance coefficient α ~1~, α ~2~ between wall and fluid streams
+
+> ![](media/image4.wmf)
+>
+> The coefficients A, n, m, ε~l~, ε~R~, are experimental coefficients
+> depending on:
+
+- Fluid stream flow mode
+
+- Correlation between streams and transfer surface
+
+- Characteristics of transfer surface (roughness, shapes, \...)
+
+## Flow mode of fluid determined by Re number
+
+> ![](media/image5.wmf)
+>
+> Where:\
+> w : flow velocity, m/s\
+> ν : kinetic viscosity of fluid, m^2^/s\
+> l : specific geometric dimension, m. In case of the fluid moves
+> through a non-round section, l is determined as the equivalent
+> diameter d~equivalent~
+>
+> ![](media/image6.wmf)
+>
+> Where:
+>
+> F : area of the section (the section that the fluid moves through),
+> m^2^
+>
+> Π : wet circumference of the section (the circumference that the fluid
+> contact to the heat transfer area), m
+>
+> ν is determined at the average temperature of the fluid.
+
+##  Nu number
+
+- Cross flow (tube B):
+
+> 5 \< Re \< 10^3^ ![](media/image7.wmf)
+>
+> 10^3^ \< Re \<2.10^5^ ![](media/image8.wmf)
+>
+> 2.10^5^ \< Re \< 2.10^6^ ![](media/image9.wmf)
+
+- Longitudinal (tube C):
+
+<!-- -->
+
+- Laminar flow Re \< 2320
+
+> ![](media/image10.wmf)
+
+- Transition flow 2320 \< Re \< 10000
+
+> ![](media/image11.wmf)
+
+C depends on Re:
+
+  --------------------------------------------------------------------------------
+  Re.10^-3^   2.1   2.2   2.3   2.4   2.5   3     4      5      6      8     10
+  ----------- ----- ----- ----- ----- ----- ----- ------ ------ ------ ----- -----
+  C           1.9   2.2   3.3   3.8   4.4   6     10.3   15.5   19.5   27    33
+
+  --------------------------------------------------------------------------------
+
+- Turbulent flow Re \>10^4^
+
+> ![](media/image12.wmf)
+
+ε~1~ depends on 1/d when Re \< 10^4^
+
+  -------------------------------------------------------------------------------
+    l/d      1       2       5      10      15      20      30      40      50
+  ------- ------- ------- ------- ------- ------- ------- ------- ------- -------
+   ε~1~     1.9     1.7    1.44    1.28    1.18    1.13    1.05    1.02      1
+
+  -------------------------------------------------------------------------------
+
+When Re \<10^4^, ε~1~ depends on Re
+
++-----------+-----------+-----------+-----------+-----------+----------+
+| **Re**    | **l/d**   |           |           |           |          |
++:=========:+:=========:+:=========:+:=========:+:=========:+:========:+
+|           | **10**    | **20**    | **30**    | **40**    | **50**   |
++-----------+-----------+-----------+-----------+-----------+----------+
+| 1.10^4^   | 1.23      | 1.13      | 1.07      | 1.03      | 1        |
+|           |           |           |           |           |          |
+| 2.10^4^   | 1.18      | 1.10      | 1.05      | 1.02      | 1        |
+|           |           |           |           |           |          |
+| 5.10^4^   | 1.13      | 1.08      | 1.04      | 1.02      | 1        |
+|           |           |           |           |           |          |
+| 1.10^5^   | 1.10      | 1.06      | 1.03      | 1.02      | 1        |
+|           |           |           |           |           |          |
+| 1.10^6^   | 1.05      | 1.03      | 1.02      | 1.01      | 1        |
++-----------+-----------+-----------+-----------+-----------+----------+
+
+##  Pr number
+
+![](media/image13.wmf)
+
+Where:\
+ν: kinetic viscosity of the fluid, m^2^/s.\
+α: thermal-conductivity of the fluid, m^2^/s.
+
+##  Gr number
+
+![](media/image14.wmf)
+
+Where:\
+Δt: difference in temperature between tube wall and fluid.\
+β: volume expansion coefficient, 1/K\
+Pr : Prandtl number of a fluid is determined at the average temperature
+of the fluid.\
+Pr~wall~ : Prandtl number of a fluid is determined at the average
+temperature the wall tube.
+
+*If temperature of the tube wall is unavailable, calculation can be
+performed as following steps:*
+
+t~2~
+
+t~2wall~
+
+t~1wall~
+
+t~1~
+
+Δt~log~
+
+Δt~wall~
+
+Δt~1~
+
+Δt~2~
+
+**Figure 1:** Heat transfer distribution diagram between tube wall and
+fluids.
+
+Δt~1~ = t~1~ -- t~1wall~
+
+Δt~2~ = t~2wall~ -- t~2~
+
+- Performing loop calculations.
+
+- At the begin, estimate the difference in temperature between tube wall
+  and fluid:
+
+> ![](media/image15.wmf)
+
+- Logarithm Mean Temperature Difference as:
+
+> ![](media/image16.png){width="1.9270833333333333in" height="0.3125in"}
+
+- Substituting:
+
+> ![](media/image17.png){width="1.8854166666666667in"
+> height="0.71875in"}
+>
+> ![](media/image18.png){width="1.8854166666666667in"
+> height="0.71875in"}
+
+- Then calculate the average temperature of the wall and the fluid and
+  calculate:
+
+> ![](media/image19.png){width="0.4583333333333333in"
+> height="0.4791666666666667in"}
+>
+> and Nu number: ![](media/image20.wmf), W/m^2^K
+>
+> Where:
+>
+> λ: thermal-conductivity of the fluid, W/mK.
+>
+> l: specific geometric dimension, m.
+
+- After the calculation of α~1~, α~2~, check ∆t~1~, ∆t~2~ by using the
+  following:
+
+> ![](media/image21.wmf)
+
+- So:
+
+> ![](media/image22.wmf)
+>
+> ![](media/image23.wmf)
+
+Allowable error is 5%, if not, the calculation will be repeated with the
+new Δt~1~, Δt~2~.
+
+# EXPERIMENT EQUIPMENT AND METHOD:
+
+## Experiment equipment:
+
+There are 3 types of heat transfer surface:
+
+- Type A : Elastic tube
+
+- Type B : Fluid flows vertically over the external surface of the inner
+  tube. The two flows are perpendicular to each other.
+
+- Type C : Simple tube, fluid flows longitudinally over external surface
+  of the inner tube. The two flows are parallel to each other.
+
+- Tube dimensions:
+
+**[Table 3:]{.underline}** Tube dimension
+
++----------------+-----------------+-----------------+-----------------+
+| **Tube**       | **Diameter      |                 | **Length (mm)** |
+|                | (mm)**          |                 |                 |
++:==============:+:===============:+:===============:+:===============:+
+|                | **Inner tube**  | **Outer tube**  |                 |
++----------------+-----------------+-----------------+-----------------+
+| **B**          | Φ14/16          | Φ26/28          | 925             |
+|                |                 |                 |                 |
+| **C**          | Φ14/16          | Φ26/28          | 1000            |
++----------------+-----------------+-----------------+-----------------+
+
+## Method:
+
+- Supply water to heater, turn on resistors to heat up the water.
+
+- Study flows of the hot and cold streams and how to adjust valves.
+
+- Adjust flow rate of the hot streams using valve 3 (reflux valve)
+  respectively at the flow rate of (ft3/min): 0.44; 0.4; 0.3; 0.2.
+
+- For each flow rate of the hot stream, adjust flow rate of the cold
+  stream using valve 4 respectively at the flow rate of (ft3/min): 0.2;
+  0.3; 0.4; 0.5.
+
+- Drive valve II to measure the flow rate of the hot and cold stream.
+
+- Measure inlet and outlet temperature of the cold stream (t2in, t2out),
+  and the hot stream (t1in, t1out) in each experiment mode when it is
+  stable. The hot steam is measured and reflux continuously to avoid
+  heat loss.
+
+- In this experiment, the streams are counterflow
+
+# RESULTS
+
+**[Table 4:]{.underline}** Parameters according to average flow
+temperature - Hot stream - Tube B
+
+  --------------------------------------------------------------------------------------------------------------------------------------------
+   **No.**     **G~1~       **G~2~     **t~1in~   **t~1out~   **t~1average~     **ρ~1~       **C~ρ1~      **λ~1~        **μ~1~      **Pr~1~**
+             (m^3^/s)**   (m^3^/s)**   (^o^C)**   (^o^C)**      (^o^C)**      (kg/m^3^)**   (J/kg.K)**   (W/m.K)**   (N.s/m^2^)**  
+  --------- ------------ ------------ ---------- ----------- --------------- ------------- ------------ ----------- -------------- -----------
+      1      0.0000944    0.0000944       81         66           73.5          975.70       4190.46      0.6658      0.0003853      2.4250
+
+      2                   0.0001416       82         65           73.5          975.70       4190.46      0.6658      0.0003853      2.4250
+
+      3                   0.0001888       82         65           73.5          975.70       4190.46      0.6658      0.0003853      2.4250
+
+      4                   0.0002360       83         65            74           975.41       4190.82      0.6661      0.0003827      2.4091
+
+      5      0.0001416    0.0000944       82         69           75.5          974.51       4191.96      0.6671      0.0003754      2.3626
+
+      6                   0.0001416       82         68            75           974.81       4191.58      0.6668      0.0003778      2.3779
+
+      7                   0.0001888       82         68            75           974.81       4191.58      0.6668      0.0003778      2.3779
+
+      8                   0.0002360       82         68            75           974.81       4191.58      0.6668      0.0003778      2.3779
+
+      9      0.0001888    0.0000944       81         71            76           974.21       4192.33      0.6675      0.0003729      2.3475
+
+     10                   0.0001416       81         70           75.5          974.51       4191.96      0.6671      0.0003754      2.3626
+
+     11                   0.0001888       81         70           75.5          974.51       4191.96      0.6671      0.0003754      2.3626
+
+     12                   0.0002360       81         69            75           974.81       4191.58      0.6668      0.0003778      2.3779
+
+     13      0.0002360    0.0000944       81         71            76           974.21       4192.33      0.6675      0.0003729      2.3475
+
+     14                   0.0001416       81         71            76           974.21       4192.33      0.6675      0.0003729      2.3475
+
+     15                   0.0001888       81         71            76           974.21       4192.33      0.6675      0.0003729      2.3475
+
+     16                   0.0002360       81         71            76           974.21       4192.33      0.6675      0.0003729      2.3475
+  --------------------------------------------------------------------------------------------------------------------------------------------
+
+**[\
+]{.underline}**
+
+**[Table 5:]{.underline}** Parameters according to average flow
+temperature - Cold stream - Tube B
+
+  -----------------------------------------------------------------------------------------------------------------------------------------
+   **No.**     **G~1~       **G~2~     **t~2in~   **t~2out~   **t~2average~     **ρ~2~       **C~ρ2~      **λ~2~        **μ~2~      Pr~2~
+             (m^3^/s)**   (m^3^/s)**   (^o^C)**   (^o^C)**      (^o^C)**      (kg/m^3^)**   (J/kg.K)**   (W/m.K)**   (N.s/m^2^)**  
+  --------- ------------ ------------ ---------- ----------- --------------- ------------- ------------ ----------- -------------- --------
+      1      0.0000944    0.0000944       29         34           31.5          995.21       4180.03      0.6166      0.0007725     5.5177
+
+      2                   0.0001416       27         32           29.5          995.82       4180.13      0.6137      0.0008055     5.8803
+
+      3                   0.0001888       27         31            29           995.96       4180.15      0.6129      0.0008141     5.9786
+
+      4                   0.0002360       27         31            29           995.96       4180.15      0.6129      0.0008141     5.9786
+
+      5      0.0001416    0.0000944       34         38            36           993.72       4179.80      0.6205      0.0007058     4.8472
+
+      6                   0.0001416       32         36            34           994.40       4179.90      0.6218      0.0007342     5.1236
+
+      7                   0.0001888       30         34            32           995.05       4180.00      0.6173      0.0007646     5.4340
+
+      8                   0.0002360       29         33            31           995.37       4180.05      0.6159      0.0007805     5.6040
+
+      9      0.0001888    0.0000944       34         39           36.5          993.54       4179.78      0.6220      0.0006989     4.7827
+
+     10                   0.0001416       34         38            36           993.72       4179.80      0.6205      0.0007058     4.8472
+
+     11                   0.0001888       33         36           34.5          994.23       4179.88      0.6226      0.0007269     5.0515
+
+     12                   0.0002360       33         35            34           994.40       4179.90      0.6218      0.0007342     5.1236
+
+     13      0.0002360    0.0000944       37         41            39           992.63       4179.65      0.6292      0.0006663     4.4849
+
+     14                   0.0001416       35         39            37           993.36       4179.75      0.6263      0.0006922     4.7200
+
+     15                   0.0001888       34         37           35.5          993.89       4179.83      0.6241      0.0007127     4.9134
+
+     16                   0.0002360       34         37           35.5          993.89       4179.83      0.6241      0.0007127     4.9134
+  -----------------------------------------------------------------------------------------------------------------------------------------
+
+**[\
+]{.underline}**
+
+**[Table 6:]{.underline}** Parameters according to average flow
+temperature - Hot stream - Tube C
+
+  --------------------------------------------------------------------------------------------------------------------------------------------
+   **No.**     **G~1~       **G~2~     **t~1in~   **t~1out~   **t~1average~     **ρ~1~       **C~ρ1~      **λ~1~        **μ~1~      **Pr~1~**
+             (m^3^/s)**   (m^3^/s)**   (^o^C)**   (^o^C)**      (^o^C)**      (kg/m^3^)**   (J/kg.K)**   (W/m.K)**   (N.s/m^2^)**  
+  --------- ------------ ------------ ---------- ----------- --------------- ------------- ------------ ----------- -------------- -----------
+      1      0.0000944    0.0000944       84         74            79           972.38       4194.68      0.6694      0.0003588      2.2610
+
+      2                   0.0001416       85         75            80           971.76       4195.47      0.6700      0.0003537      2.2336
+
+      3                   0.0001888       85         74           79.5          972.07       4195.07      0.6697      0.0003558      2.2472
+
+      4                   0.0002360       86         74            80           971.76       4195.47      0.6700      0.0003537      2.2336
+
+      5      0.0001416    0.0000944       81         73            77           973.61       4193.07      0.6681      0.0003670      2.3180
+
+      6                   0.0001416       81         73            77           973.61       4193.07      0.6681      0.0003670      2.3180
+
+      7                   0.0001888       82         73           77.5          973.30       4193.47      0.6685      0.0003647      2.3034
+
+      8                   0.0002360       82         73           77.5          973.30       4193.47      0.6685      0.0003647      2.3034
+
+      9      0.0001888    0.0000944       81         75            78           973.00       4193.87      0.6688      0.0003625      2.2891
+
+     10                   0.0001416       82         74            78           973.00       4193.87      0.6688      0.0003625      2.2891
+
+     11                   0.0001888       82         74            78           973.00       4193.87      0.6688      0.0003625      2.2891
+
+     12                   0.0002360       81         73            77           973.61       4193.07      0.6681      0.0003670      2.3180
+
+     13      0.0002360    0.0000944       86         80            83           969.87       4197.87      0.6718      0.0003412      2.1552
+
+     14                   0.0001416       86         79           82.5          970.19       4197.47      0.6715      0.0003432      2.1679
+
+     15                   0.0001888       85         78           81.5          970.82       4196.67      0.6709      0.0003473      2.1937
+
+     16                   0.0002360       85         77            81           971.14       4196.27      0.6706      0.0003494      2.2068
+  --------------------------------------------------------------------------------------------------------------------------------------------
+
+**[Table 7:]{.underline}** Parameters according to average flow
+temperature - Cold stream - Tube C
+
+  -----------------------------------------------------------------------------------------------------------------------------------------
+   **No.**     **G~1~       **G~2~     **t~2in~   **t~2out~   **t~2average~     **ρ~2~       **C~ρ2~      **λ~2~        **μ~2~      Pr~2~
+             (m^3^/s)**   (m^3^/s)**   (^o^C)**   (^o^C)**      (^o^C)**      (kg/m^3^)**   (J/kg.K)**   (W/m.K)**   (N.s/m^2^)**  
+  --------- ------------ ------------ ---------- ----------- --------------- ------------- ------------ ----------- -------------- --------
+      1      0.0000944    0.0000944       37         41            39           992.63       4179.65      0.6292      0.0006663     4.4849
+
+      2                   0.0001416       36         38            37           993.36       4179.75      0.6263      0.0006922     4.7200
+
+      3                   0.0001888       35         37            36           993.72       4179.80      0.6205      0.0007058     4.8472
+
+      4                   0.0002360       35         37            36           993.72       4179.80      0.6205      0.0007058     4.8472
+
+      5      0.0001416    0.0000944       37         41            39           992.63       4179.65      0.6292      0.0006663     4.4849
+
+      6                   0.0001416       35         38           36.5          993.54       4179.78      0.6220      0.0006989     4.7827
+
+      7                   0.0001888       35         37            36           993.72       4179.80      0.6205      0.0007058     4.8472
+
+      8                   0.0002360       34         37           35.5          993.89       4179.83      0.6241      0.0007127     4.9134
+
+      9      0.0001888    0.0000944       36         41           38.5          992.81       4179.66      0.6392      0.0006713     4.5415
+
+     10                   0.0001416       35         40           37.5          993.18       4179.72      0.6306      0.0006851     4.6589
+
+     11                   0.0001888       35         38           36.5          993.54       4179.78      0.6220      0.0006989     4.7827
+
+     12                   0.0002360       34         37           35.5          993.89       4179.83      0.6241      0.0007127     4.9134
+
+     13      0.0002360    0.0000944       38         45           41.5          991.67       4179.48      0.6650      0.0006215     4.2226
+
+     14                   0.0001416       36         42            39           992.63       4179.65      0.6292      0.0006663     4.4849
+
+     15                   0.0001888       35         40           37.5          993.18       4179.72      0.6306      0.0006851     4.6589
+
+     16                   0.0002360       34         38            36           993.72       4179.80      0.6205      0.0007058     4.8472
+  -----------------------------------------------------------------------------------------------------------------------------------------
+
+## Heat Q and heat loss:
+
+Q~1~ = G~1~C~1~(t~1in~ -- t~1out~); Q=G~2~C~2~(t~2out~ -- t~2in~)
+
+ΔQ = Q~1~ -- Q~2~
+
+**[\
+]{.underline}**
+
+**[Table 8:]{.underline}** Heat Q and heat loss in tube B
+
+  -------------------------------------------------------------------------
+     **t~1in~ -      **Q~1~      **t~2out~ -   **Q~2~ (W)**    **ΔQ (W)**
+     t~1out~**        (W)**       t~2in~**                   
+  ---------------- ----------- --------------- ------------- --------------
+         15           5788            5            1963           3825
+
+         17           6560            5            2947           3614
+
+         17           6560            4            3143           3417
+
+         18           6944            4            3929           3015
+
+         13           7518            4            1568           5950
+
+         14           8098            4            2354           5745
+
+         14           8098            4            3140           4958
+
+         14           8098            4            3927           4171
+
+         10           7709            5            1960           5750
+
+         11           8482            4            2352           6130
+
+         11           8482            3            2353           6129
+
+         12           9255            2            1961           7294
+
+         10           9637            4            1566           8070
+
+         10           9637            4            2351           7286
+
+         10           9637            3            2352           7284
+
+         10           9637            3            2941           6696
+  -------------------------------------------------------------------------
+
+**\
+**
+
+**[Table 9:]{.underline}** Heat Q and heat loss in tube C
+
+  ------------------------------------------------------------------------
+     **t~1in~ -     **Q~1~ (W)**  **t~2out~ -     **Q~2~      **ΔQ (W)**
+      t~1out~**                     t~2in~**       (W)**    
+  ----------------- ------------ -------------- ----------- --------------
+         10             3850           4           1566          2283
+
+         10             3848           2           1176          2672
+
+         11             4234           2           1568          2666
+
+         12             4617           2           1960          2657
+
+          8             4624           4           1566          3057
+
+          8             4624           3           1764          2860
+
+          9             5200           2           1568          3632
+
+          9             5200           3           2941          2260
+
+          6             4622           5           1958          2663
+
+          8             6162           5           2938          3224
+
+          8             6162           3           2352          3810
+
+          8             6165           3           2941          3224
+
+          6             5764           7           2738          3026
+
+          7             6726           6           3524          3202
+
+          7             6729           5           3918          2811
+
+          8             7692           4           3920          3772
+  ------------------------------------------------------------------------
+
+***\
+***
+
+2.  **Logarithm Mean Temperature Difference:**
+
+**[Table 10:]{.underline}** ∆t~log~ tube B
+
+  -------------------------------------------------------------------------------------
+   **No.**      **Δt~max~**         **Δt~min~**      **Δt~max~/Δt~min~**   **Δt~log~**
+  --------- -------------------- ------------------ --------------------- -------------
+      1              47                  37               1.2702703           41.80
+
+      2              50                  38               1.3157895           43.73
+
+      3              51                  38               1.3421053           44.18
+
+      4              52                  38               1.3684211           44.63
+
+      5              44                  35               1.2571429           39.33
+
+      6              46                  36               1.2777778           40.80
+
+      7              48                  38               1.2631579           42.81
+
+      8              49                  39               1.2564103           43.81
+
+      9              42                  37               1.1351351           39.45
+
+     10              43                  36               1.1944444           39.40
+
+     11              45                  37               1.2162162           40.87
+
+     12              46                  36               1.2777778           40.80
+
+     13              40                  34               1.1764706           36.92
+
+     14              42                  36               1.1666667           38.92
+
+     15              44                  37               1.1891892           40.40
+
+     16              44                  37               1.1891892           40.40
+  -------------------------------------------------------------------------------------
+
+***[\
+]{.underline}***
+
+**[Table 11:]{.underline}** ∆t~log~ tube C
+
+  -------------------------------------------------------------------------------------
+   **No.**      **Δt~max~**         **Δt~min~**      **Δt~max~/Δt~min~**   **Δt~log~**
+  --------- -------------------- ------------------ --------------------- -------------
+      1              43                  37               1.1621622           39.92
+
+      2              47                  39               1.2051282           42.88
+
+      3              48                  39               1.2307692           43.34
+
+      4              49                  39               1.2564103           43.81
+
+      5              40                  36               1.1111111           37.96
+
+      6              43                  38               1.1315789           40.45
+
+      7              45                  38               1.1842105           41.40
+
+      8              45                  39               1.1538462           41.93
+
+      9              40                  39               1.025641            39.50
+
+     10              42                  39               1.0769231           40.48
+
+     11              44                  39               1.1282051           41.45
+
+     12              44                  39               1.1282051           41.45
+
+     13              41                  42               0.9761905           41.50
+
+     14              44                  43               1.0232558           43.50
+
+     15              45                  43               1.0465116           43.99
+
+     16              47                  43               1.0930233           44.97
+  -------------------------------------------------------------------------------------
+
+> Logarithm Mean Temperature Difference:
+> ![](media/image24.wmf)![](media/image25.wmf)
+
+**\
+**
+
+**[Table 12:]{.underline}** ∆t~log~ tube C
+
+  -------------------------------------------------------------------------------------
+   **No.**      **Δt~max~**         **Δt~min~**      **Δt~max~/Δt~min~**   **Δt~log~**
+  --------- -------------------- ------------------ --------------------- -------------
+      1              43                  37               1.1621622           39.92
+
+      2              47                  39               1.2051282           42.88
+
+      3              48                  39               1.2307692           43.34
+
+      4              49                  39               1.2564103           43.81
+
+      5              40                  36               1.1111111           37.96
+
+      6              43                  38               1.1315789           40.45
+
+      7              45                  38               1.1842105           41.40
+
+      8              45                  39               1.1538462           41.93
+
+      9              40                  39               1.025641            39.50
+
+     10              42                  39               1.0769231           40.48
+
+     11              44                  39               1.1282051           41.45
+
+     12              44                  39               1.1282051           41.45
+
+     13              41                  42               0.9761905           41.50
+
+     14              44                  43               1.0232558           43.50
+
+     15              45                  43               1.0465116           43.99
+
+     16              47                  43               1.0930233           44.97
+  -------------------------------------------------------------------------------------
+
+> Logarithm Mean Temperature Difference:
+> ![](media/image24.wmf)![](media/image25.wmf)
+
+## Experimental heat transfer coefficient Kl:
+
+> Calculate Kl from equation: Q = K~l~. ∆t~log~.L
+
+**[Table 13:]{.underline}** Experimental heat transfer coefficient -
+Tube B - L = 0.925 m
+
+  ----------------------------------------------------------------------------
+   **L (m)**  **Q~1~ (W)**  **K~l1~ (W/m.K)**  **Q~2~ (W)**  **K~l2~ (W/m.K)**
+  ----------- ------------- ------------------ ------------- -----------------
+   **0.925**      5788            149.70           1963            50.77
+
+   **0.925**      6560            162.19           2947            72.85
+
+   **0.925**      6560            160.52           3143            76.92
+
+   **0.925**      6944            168.20           3929            95.17
+
+   **0.925**      7518            206.67           1568            43.10
+
+   **0.925**      8098            214.60           2354            62.37
+
+   **0.925**      8098            204.53           3140            79.31
+
+   **0.925**      8098            199.84           3927            96.90
+
+   **0.925**      7709            211.28           1960            53.71
+
+   **0.925**      8482            232.76           2352            64.54
+
+   **0.925**      8482            224.37           2353            62.25
+
+   **0.925**      9255            245.26           1961            51.98
+
+   **0.925**      9637            282.19           1566            45.86
+
+   **0.925**      9637            267.66           2351            65.30
+
+   **0.925**      9637            257.88           2352            62.95
+
+   **0.925**      9637            257.88           2941            78.69
+  ----------------------------------------------------------------------------
+
+**[\
+]{.underline}**
+
+**[Table 14:]{.underline}** Experimental heat transfer coefficient -
+Tube C - L = 1 m
+
+  -------------------------------------------------------------------------
+    **L    **Q~1~ (W)**  **K~l1~ (W/m.K)**  **Q~2~ (W)**  **K~l2~ (W/m.K)**
+   (m)**                                                  
+  -------- ------------- ------------------ ------------- -----------------
+     1         3850            96.42            1566            39.23
+
+     1         3848            89.74            1176            27.42
+
+     1         4234            97.67            1568            36.18
+
+     1         4617            105.4            1960            44.74
+
+     1         4624            121.79           1566            41.26
+
+     1         4624            114.31           1764            43.6
+
+     1         5200            125.61           1568            37.87
+
+     1         5200            124.03           2941            70.13
+
+     1         4622            117.01           1958            49.58
+
+     1         6162            152.22           2938            72.59
+
+     1         6162            148.66           2352            56.73
+
+     1         6165            148.73           2941            70.94
+
+     1         5764            138.9            2738            65.98
+
+     1         6726            154.63           3524            81.02
+
+     1         6729            152.96           3918            89.06
+
+     1         7692            171.05           3920            87.17
+  -------------------------------------------------------------------------
+
+## Heat transmittance coefficient α~1~, α~2~:
+
+**[\
+]{.underline}**
+
+**[Table 15:]{.underline}** Fluid flow mode - Tube B
+
+> l~1~ = 0.014 m; F~1~ = 0.000154 m^2^ ;
+>
+> l~2~ = 0.026 m; F~2~ = 0.009250 m^2^
+
+  ----------------------------------------------------------------------------
+      **G~1~      **w~1~    **Re~1~**     **G~2~        **w~2~      **Re~2~**
+    (m^3^/s)**    (m/s)**               (m^3^/s)**      (m/s)**    
+  -------------- --------- ----------- ------------- ------------- -----------
+    0.0000944      0.613      21748      0.0000944      0.0102         342
+
+    0.0000944      0.613      21737      0.0001416      0.0153         492
+
+    0.0000944      0.613      21737      0.0001888      0.0204         649
+
+    0.0000944      0.613      21875      0.0002360      0.0255         811
+
+    0.0001416      0.920      33427      0.0000944      0.0102         374
+
+    0.0001416      0.920      33221      0.0001416      0.0153         539
+
+    0.0001416      0.920      33221      0.0001888      0.0204         690
+
+    0.0001416      0.920      33221      0.0002360      0.0255         846
+
+    0.0001888      1.226      44854      0.0000944      0.0102         377
+
+    0.0001888      1.226      44564      0.0001416      0.0153         560
+
+    0.0001888      1.226      44570      0.0001888      0.0204         726
+
+    0.0001888      1.226      44295      0.0002360      0.0255         898
+
+    0.0002360      1.533      56067      0.0000944      0.0102         395
+
+    0.0002360      1.533      56067      0.0001416      0.0153         571
+
+    0.0002360      1.533      56067      0.0001888      0.0204         740
+
+    0.0002360      1.533      56067      0.0002360      0.0255         925
+  ----------------------------------------------------------------------------
+
+**[Table 16]{.underline}:** Fluid flow mode - Tube C
+
+l~1~ = 0.014 m; F~1~ = 0.000154 m^2^;
+
+l~2~ = 0.026 m; F~2~ = 0.000330 m^2^
+
+  ----------------------------------------------------------------------------
+     **G~1~        **w~1~     **Re~1~**     **G~2~       **w~2~     **Re~2~**
+   (m^3^/s)**     (m/s)**                 (m^3^/s)**     (m/s)**   
+  ------------- ------------ ----------- ------------- ----------- -----------
+    0.0000944      0.613        23272      0.0000944     0.2861       11082
+
+    0.0000944      0.000        23582      0.0001416     0.4292       16013
+
+    0.0000944      0.000        23451      0.0001888     0.5722       20947
+
+    0.0000944      0.000        23582      0.0002360     0.7153       26184
+
+    0.0001416      0.000        34156      0.0000944     0.2861       11082
+
+    0.0001416      0.000        34156      0.0001416     0.4292       15863
+
+    0.0001416      0.000        34361      0.0001888     0.5722       20947
+
+    0.0001416      0.000        34361      0.0002360     0.7153       25935
+
+    0.0001888      0.000        46078      0.0000944     0.2861       11002
+
+    0.0001888      0.000        46078      0.0001416     0.4292       16176
+
+    0.0001888      0.000        46078      0.0001888     0.5722       21150
+
+    0.0001888      0.000        45542      0.0002360     0.7153       25935
+
+    0.0002360      0.000        60997      0.0000944     0.2861       11870
+
+    0.0002360      0.000        60661      0.0001416     0.4292       16624
+
+    0.0002360      0.000        59984      0.0001888     0.5722       21568
+
+    0.0002360      0.000        59643      0.0002360     0.7153       26184
+  ----------------------------------------------------------------------------
+
+Flow velocity: ![](media/image26.wmf)$
+$Reynolds number: ![](media/image27.wmf)
+
+### Heat transmittance coefficient α~1~, α~2~ - Tube B
+
+**\
+**
+
+**a/ Average fluid temperature and wall temperature:**
+
+**[Table 17:]{.underline}** t~1wall~ and t~2wall~ of Tube B
+
+  ---------------------------------------------------------------------------------------------------------------------------------
+   **No.**   **Re~1~**   **Re~2~**   **Δt~log~**   **Δt~1~**   **Δt~2~**   **t~1average~   **t~2average~   **t~1wall~   **t~2wall~
+                                                                             (^o^C)**        (^o^C)**       (^o^C)**     (^o^C)**
+  --------- ----------- ----------- ------------- ----------- ----------- --------------- --------------- ------------ ------------
+      1        21748        342         41.8          0.6        40.7          73.5            31.5           72.9         72.2
+
+      2        21737        492         43.73          1         42.3          73.5            29.5           72.5         71.8
+
+      3        21737        649         44.18         1.3        42.4          73.5             29            72.2         71.4
+
+      4        21875        811         44.63         1.6        42.6           74              29            72.4         71.6
+
+      5        33427        374         39.33         0.4        38.4          75.5             36            75.1         74.4
+
+      6        33221        539         40.8          0.6        39.7           75              34            74.4         73.7
+
+      7        33221        690         42.81         0.9        41.4           75              32            74.1         73.4
+
+      8        33221        846         43.81         1.1        42.2           75              31            73.9         73.2
+
+      9        44854        377         39.45         0.3        38.6           76             36.5           75.7         75.1
+
+     10        44564        560         39.4          0.5        38.4          75.5             36             75          74.4
+
+     11        44570        726         40.87         0.6        39.7          75.5            34.5           74.9         74.2
+
+     12        44295        898         40.8          0.8        39.5           75              34            74.2         73.5
+
+     13        56067        395         36.92         0.3        36.2           76              39            75.7         75.2
+
+     14        56067        571         38.92         0.4         38            76              37            75.6          75
+
+     15        56067        740         40.4          0.5        39.4           76             35.5           75.5         74.9
+
+     16        56067        925         40.4          0.6        39.3           76             35.5           75.4         74.8
+  ---------------------------------------------------------------------------------------------------------------------------------
+
+Temperature difference between the fluid and the wall:
+![](media/image28.wmf);
+
+Wall temperature: ![](media/image29.wmf); ![](media/image30.wmf)
+
+**\
+**
+
+> **b/ Pr number, Nu number and heat transmittance coefficient α:**
+>
+> **[Table 18:]{.underline}** Heat transmittance coefficient α~1~,
+> α~2~ - Tube B
+
+  -------------------------------------------------------------------------------------------------------------
+   **Pr~1~**   **Pr~1wall~**   **Pr~2~**   **Pr~2wall~**   **Nu~1~**   **Nu~2~**      **α~1~         **α~2~
+                                                                                   (W/m^2^.K)**   (W/m^2^.K)**
+  ----------- --------------- ----------- --------------- ----------- ----------- -------------- --------------
+     2.425         2.44          5.51          2.47         139.87       21.62         6651           513
+
+     2.425         2.45          5.88          2.48         139.68       26.97         6642           637
+
+     2.425         2.46          5.98          2.49         139.53       31.27         6635           737
+
+    2.4091         2.46          5.98          2.49         139.57       34.97         6641           824
+
+    2.3626         2.37          4.84           2.4         179.37       20.99         8547           501
+
+    2.3779          2.4          5.12          2.42         179.01       26.05         8526           623
+
+    2.3779          2.4          5.43          2.43         178.89       30.57         8520           726
+
+    2.3779         2.41           5.6          2.43         178.76       34.48         8514           817
+
+    2.3475         2.36          4.78          2.37         213.53       20.96        10180           501
+
+    2.3626         2.38          4.84          2.39         213.11       25.71        10155           614
+
+    2.3626         2.38          5.05           2.4         213.01       30.01        10151           719
+
+    2.3779          2.4          5.12          2.42         212.63       33.61        10127           804
+
+    2.3475         2.35          4.48          2.37         244.17       20.61        11642           499
+
+    2.3475         2.36          4.72          2.38         244.07       25.57        11637           616
+
+    2.3475         2.36          4.91          2.38         243.97       29.84        11632           716
+
+    2.3475         2.37          4.91          2.38         243.87       33.35        11627           800
+  -------------------------------------------------------------------------------------------------------------
+
+> Prandtl number: ![](media/image31.wmf)
+>
+> Nusselt number: ![](media/image32.wmf)
+>
+> Heat transmittance coefficient: ![](media/image33.wmf)
+
+### Heat transmittance coefficient α~1~, α~2~ - Tube C
+
+***a/ Average fluid temperature and wall temperature:***
+
+**[Table 19]{.underline}*: ***t~1wall~ and t~2wall~ of Tube C
+
+  ---------------------------------------------------------------------------------------------------------------------------------
+   **No.**   **Re~1~**   **Re~2~**   **Δt~log~**   **Δt~1~**   **Δt~2~**   **t~1average~   **t~2average~   **t~1wall~   **t~2wall~
+                                                                             (^o^C)**        (^o^C)**       (^o^C)**     (^o^C)**
+  --------- ----------- ----------- ------------- ----------- ----------- --------------- --------------- ------------ ------------
+      1        23272       11082        39.92        12.7        26.7           79              39            66.3         65.7
+
+      2        23582       16013        42.88        17.1        25.2           80              37            62.9         62.2
+
+      3        23451       20947        43.34        20.2        22.6          79.5             36            59.3         58.6
+
+      4        23582       26184        43.81        22.8        20.5           80              36            57.2         56.5
+
+      5        34156       11082        37.96         9.2        28.3           77              39            67.8         67.3
+
+      6        34156       15863        40.45        12.7        27.3           77             36.5           64.3         63.8
+
+      7        34361       20947        41.4         15.5        25.4          77.5             36             62          61.4
+
+      8        34361       25935        41.93        17.8        23.6          77.5            35.5           59.7         59.1
+
+      9        46078       11002        39.5          7.5        31.5           78             38.5           70.5          70
+
+     10        46078       16176        40.48        10.4        29.6           78             37.5           67.6         67.1
+
+     11        46078       21150        41.45        12.9        28.1           78             36.5           65.1         64.6
+
+     12        45542       25935        41.45        14.9        26.1           77             35.5           62.1         61.6
+
+     13        60997       11870        41.5          6.7        34.3           83             41.5           76.3         75.8
+
+     14        60661       16624        43.5          9.2        33.7          82.5             39            73.3         72.7
+
+     15        59984       21568        43.99        11.5         32           81.5            37.5            70          69.5
+
+     16        59643       26184        44.97        13.6        30.9           81              36            67.4         66.9
+  ---------------------------------------------------------------------------------------------------------------------------------
+
+Temperature difference between the fluid and the wall:
+![](media/image28.wmf);
+
+Wall temperature: ![](media/image29.wmf); ![](media/image34.wmf)
+
+**\
+**
+
+> **b/ Pr number, Nu number and heat transmittance coefficient α:**
+
+**[Table 20:]{.underline}** Heat transmittance coefficient α~1~, α~2~ -
+Tube C
+
+  -------------------------------------------------------------------------------------------------------------
+   **Pr~1~**   **Pr~1wall~**   **Pr~2~**   **Pr~2wall~**   **Nu~1~**   **Nu~2~**      **α~1~         **α~2~
+                                                                                   (W/m^2^.K)**   (W/m^2^.K)**
+  ----------- --------------- ----------- --------------- ----------- ----------- -------------- --------------
+     2.261         2.68          4.48           2.7          89.04       65.53         4258           1586
+
+    2.2336         2.82          4.72          2.85          88.11       66.96         4217           1613
+
+    2.2472         2.99          4.84          3.02          86.84       67.21         4154           1604
+
+    2.2336         3.09          4.84          3.13          86.12       66.61         4121           1590
+
+     2.318         2.62          4.48          2.64         123.79       65.91         5908           1595
+
+     2.318         2.76          4.78          2.78         122.21       67.97         5832           1626
+
+    2.3034         2.86          4.84          2.89         121.19       67.96         5786           1622
+
+    2.3034         2.97          4.91          2.99         120.07       67.96         5733           1631
+
+    2.2891         2.52          4.54          2.54         157.42       67.11         7520           1650
+
+    2.2891         2.63          4.66          2.65         155.84       67.59         7444           1639
+
+    2.2891         2.73          4.78          2.75         154.42       68.17         7377           1631
+
+     2.318         2.85          4.91          2.88         152.55       68.64         7280           1648
+
+    2.1552         2.34          4.22          2.35         192.79       65.13         9251           1666
+
+    2.1679         2.43          4.48          2.45          190.8       67.17         9151           1626
+
+    2.1937         2.54          4.66          2.56         188.53       68.17         9035           1653
+
+    2.2068         2.64          4.84          2.66         186.74       69.39         8945           1656
+  -------------------------------------------------------------------------------------------------------------
+
+Prandtl number: ![](media/image31.wmf)
+
+Nusselt number: ![](media/image35.wmf)
+
+Heat transmittance coefficient: ![](media/image33.wmf)
+
+## Overall heat transfer coefficient K~1~^\*^:
+
+Overall heat transfer coefficient (ignore
+fouling):![](media/image36.wmf);
+
+From K~l~^\*^, check temperature difference between the fluid and wall:
+![](media/image37.wmf);
+
+Error percentage: ![](media/image38.wmf)
+
+**[\
+]{.underline}**
+
+**[Table 21:]{.underline}** Overall heat transfer coefficient K~1~^\*^
+and checking Δt~1\*~ and Δt~2\*~ - Tube B
+
+λ~Cu~ = 385 W/m.K; d~inner~ = 0.014 m; d~outer~ = 0.016 m
+
+  ------------------------------------------------------------------------------------------------------
+   **No.**      **α~1~         **α~2~      **K~l~^\*^**   **Δt~1\*~**   **Error   **Δt~2\*~**   **Error
+             (W/m^2^.K)**   (W/m^2^.K)**                                 Δt~1~                   Δt~2~
+                                                                         (%)**                   (%)**
+  --------- -------------- -------------- -------------- ------------- --------- ------------- ---------
+      1          6651           513           23.66          0.15         77          1.9         95
+
+      2          6642           637           28.79          0.19         80          2.0         95
+
+      3          6635           737           32.81          0.22         83          2.0         95
+
+      4          6641           824           36.22          0.24         85          2.0         95
+
+      5          8547           501           23.57          0.11         75          1.9         95
+
+      6          8526           623           28.85          0.14         79          1.9         95
+
+      7          8520           726           33.19          0.17         81          2.0         95
+
+      8          8514           817           36.92          0.19         82          2.0         95
+
+      9         10180           501           23.83          0.09         72          1.9         95
+
+     10         10155           614           28.80          0.11         77          1.8         95
+
+     11         10151           719           33.35          0.13         79          1.9         95
+
+     12         10127           804           36.96          0.15         81          1.9         95
+
+     13         11642           499           23.87          0.08         70          1.8         95
+
+     14         11637           616           29.15          0.10         75          1.8         95
+
+     15         11632           716           33.57          0.12         78          1.9         95
+
+     16         11627           800           37.22          0.13         80          1.9         95
+  ------------------------------------------------------------------------------------------------------
+
+As the error is greater than 5%, take Δt~1\*~ and Δt~2\*~ to
+re-calculate wall temperature (t~wall~), Prandtl number on that wall
+temperature (Pr~wall~), Nusselt number, heat transmittance coefficient
+and overall heat transfer coefficient (K~l~^\*\*^), then check again the
+error of the temperature differnce between the fluid and wall (Δt~\*\*~)
+to the previous one (Δt~\*~).
+
+Repeat the calculation and checking until the error is no longer greater
+than 5%.
+
+**[\
+]{.underline}**
+
+**[Table 22+23:]{.underline}** Re-calculate K~1~^\*\*^ and checking
+Δt~1\*\*~ and Δt~2\*\*~ - Tube B
+
+λ~Cu~ = 385 W/m.K; d~inner~ = 0.014 m; d~outer~ = 0.016 m
+
+t~average~ are as in **Table 17** and Pr are as in **Table 18**
+
+  ---------------------------------------------------------------------------------------------------------------------------
+   **No.**   **Δt~1\*~**   **Δt~2\*~**   **t~1wall~**   **t~2wall~**   **Pr~1wall~**   **Pr~2wall~**   **Nu~1~**   **Nu~2~**
+  --------- ------------- ------------- -------------- -------------- --------------- --------------- ----------- -----------
+      1         0.15           1.9           73.4           33.4           2.43            5.21         140.09       17.94
+
+      2         0.19            2            73.3            2             2.43            5.52         140.03       22.08
+
+      3         0.22            2            73.3            2             2.43            5.61         140.02       25.53
+
+      4         0.24            2            73.8            2             2.42            5.61         140.19       28.54
+
+      5         0.11           1.9           75.4           1.9            2.36            4.61         179.55       17.82
+
+      6         0.14           1.9           74.9           1.9            2.38            4.86         179.31       21.88
+
+      7         0.17            2            74.8            2             2.38            5.13         179.29       25.35
+
+      8         0.19            2            74.8            2             2.38            5.27         179.28       28.41
+
+      9         0.09           1.9           75.9           1.9            2.35            4.55         213.69       17.81
+
+     10         0.11           1.8           75.4           1.8            2.36            4.61         213.36       21.82
+
+     11         0.13           1.9           75.4           1.9            2.37            4.79         213.37       25.25
+
+     12         0.15           1.9           74.9           1.9            2.38            4.86         213.08       28.24
+
+     13         0.08           1.8           75.9           1.8            2.35            4.29         244.31       17.77
+
+     14          0.1           1.8           75.9           1.8            2.35             4.5          244.3       21.8
+
+     15         0.12           1.9           75.9           1.9            2.35            4.67         244.28       25.22
+
+     16         0.13           1.9           75.9           1.9            2.35            4.67         244.27       28.19
+  ---------------------------------------------------------------------------------------------------------------------------
+
+  --------------------------------------------------------------------------------------------------
+      **α~1~         **α~2~      **K~l~^\*\*^**   **Δt~1\*\*~**   **Error   **Δt~2\*\*~**   **Error
+   (W/m^2^.K)**   (W/m^2^.K)**                                     Δt~1~                     Δt~2~
+                                                                   (%)**                     (%)**
+  -------------- -------------- ---------------- --------------- --------- --------------- ---------
+       6662           426            19.91            0.12          16            2            1
+
+       6659           521            24.02            0.16          17            2            2
+
+       6658           602            27.38            0.18          17            2            2
+
+       6670           673            30.27             0.2          17            2            2
+
+       8556           425             20.2            0.09          14           1.9           1
+
+       8540           523            24.55            0.12          15           1.9           1
+
+       8539           602            27.96            0.14          16            2            2
+
+       8539           673            30.98            0.16          16            2            2
+
+      10188           426            20.42            0.08          14           1.9           1
+
+      10167           521            24.69             0.1          14           1.9           1
+
+      10167           605            28.41            0.11          15           1.9           1
+
+      10149           675            31.49            0.13          15           1.9           1
+
+      11648           430            20.72            0.07          13           1.8           1
+
+      11647           525            25.07            0.08          14           1.9           1
+
+      11647           605            28.67             0.1          15           1.9           1
+
+      11646           677            31.84            0.11          15           1.9           1
+  --------------------------------------------------------------------------------------------------
+
+Since Δt~2\*\*~ error is less than 5% while Δt~1\*\*~ is still greater
+than 5%, repeat calculating and checking with the new Δt~1\*\*~ only
+
+**[\
+]{.underline}**
+
+**[Table 24:]{.underline}** Re-calculate K~1~^\*\*\*^ and checking
+Δt~1\*\*\*~ - Tube B
+
+λ~Cu~ = 385 W/m.K; d~inner~ = 0.014 m; d~outer~ = 0.016 m;
+
+t~average~ are as in **Table 17 and** Pr is as in **Table 18**
+
+  ----------------------------------------------------------------------------------------------------------------------------------------------
+   **No.**   **Δt~1\*\*~**   **t~1wall~**   **Pr~1~**   **Pr~1wall~**   **Nu~1~**      **α~1~      **K~l~^\*\*\*^**   **Δt~1\*\*\*~**   **Error
+                                                                                    (W/m^2^.K)**                                         Δt~1~
+                                                                                                                                         (%)**
+  --------- --------------- -------------- ----------- --------------- ----------- -------------- ------------------ ----------------- ---------
+      1          0.12           73.38         2.42          2.43         140.11         6663            19.92              0.12          0.011
+
+      2          0.16           73.34         2.42          2.43         140.05         6660            24.02              0.16          0.016
+
+      3          0.18           73.32         2.42          2.43         140.04         6659            27.38              0.18          0.019
+
+      4           0.2            73.8         2.41          2.41         140.21         6671            30.28               0.2          0.021
+
+      5          0.09           75.41         2.36          2.36         179.56         8557             20.2              0.09          0.006
+
+      6          0.12           74.88         2.38          2.38         179.32         8541            24.55              0.12          0.009
+
+      7          0.14           74.86         2.38          2.38         179.31         8540            27.97              0.14          0.012
+
+      8          0.16           74.84         2.38          2.38          179.3         8540            30.99              0.16          0.015
+
+      9          0.08           75.92         2.35          2.35          213.7        10188            20.42              0.08          0.005
+
+     10           0.1            75.4         2.36          2.36         213.37        10168             24.7               0.1          0.006
+
+     11          0.11           75.39         2.36          2.36         213.38        10168            28.41              0.11          0.009
+
+     12          0.13           74.87         2.38          2.38          213.1        10149             31.5              0.13          0.01
+
+     13          0.07           75.93         2.35          2.35         244.32        11649            20.72              0.07          0.004
+
+     14          0.08           75.92         2.35          2.35         244.31        11648            25.07              0.08          0.005
+
+     15           0.1            75.9         2.35          2.35          244.3        11647            28.67               0.1          0.007
+
+     16          0.11           75.89         2.35          2.35         244.29        11647            31.84              0.11          0.008
+  ----------------------------------------------------------------------------------------------------------------------------------------------
+
+Since Δt~1\*\*\*~ is less than 5%, **finish calculating and checking.**
+
+**[\
+]{.underline}**
+
+**[Table 25:]{.underline}** Overall heat transfer coefficient K~1~^\*^
+and checking Δt~1\*~ and Δt~2\*~ - Tube C
+
+λ~Cu~ = 385 W/m.K; d~inner~ = 0.014 m; d~outer~ = 0.016 m
+
+t~average~ are as in **Table 19 and** Pr is as in **Table 20**
+
+  --------------------------------------------------------------------------------------------
+      **α~1~         **α~2~      **K~l~^\*^**   **Δt~1\*~**   **Error   **Δt~2\*~**   **Error
+   (W/m^2^.K)**   (W/m^2^.K)**                                 Δt~1~                   Δt~2~
+                                                               (%)**                   (%)**
+  -------------- -------------- -------------- ------------- --------- ------------- ---------
+       4258           1586          55.74          0.52         96          1.4         95
+
+       4217           1613          56.24          0.57         97          1.5         94
+
+       4154           1604          55.76          0.58         97          1.5         93
+
+       4121           1590          55.29          0.59         97          1.5         93
+
+       5908           1595          61.07          0.39         96          1.5         95
+
+       5832           1626          61.77          0.43         97          1.5         94
+
+       5786           1622          61.54          0.44         97          1.6         94
+
+       5733           1631          61.66          0.45         97          1.6         93
+
+       7520           1650          66.07          0.35         95          1.6         95
+
+       7444           1639           65.6          0.36         97          1.6         95
+
+       7377           1631           65.2          0.37         97          1.7         94
+
+       7280           1648          65.56          0.37         97          1.6         94
+
+       9251           1666          69.17          0.31         95          1.7         95
+
+       9151           1626          67.67          0.32         97          1.8         95
+
+       9035           1653          68.47          0.33         97          1.8         94
+
+       8945           1656          68.45          0.34         97          1.9         94
+  --------------------------------------------------------------------------------------------
+
+As both errors are greater than 5%, repeat the calculating and checking
+
+**[\
+]{.underline}**
+
+**[Table 26+27:]{.underline}** Re-calculate K~1~^\*\*^ and checking
+Δt~1\*\*~ and Δt~2\*\*~ - Tube C
+
+λ~Cu~ = 385 W/m.K; d~inner~ = 0.014 m; d~outer~ = 0.016 m
+
+t~average~ are as in **Table 19 and** Pr is as in **Table 20**
+
+  ---------------------------------------------------------------------------------------------------------------------------
+   **No.**   **Δt~1\*~**   **Δt~2\*~**   **t~1wall~**   **t~2wall~**   **Pr~1wall~**   **Pr~2wall~**   **Nu~1~**   **Nu~2~**
+  --------- ------------- ------------- -------------- -------------- --------------- --------------- ----------- -----------
+      1         0.52           1.4           78.5           40.4           2.27            4.33          92.77       58.24
+
+      2         0.57           1.5           79.4           38.5           2.25            4.54          93.25       59.60
+
+      3         0.58           1.5           78.9           37.5           2.26            4.66          93.07       60.30
+
+      4         0.59           1.5           79.4           37.5           2.25            4.65          93.25       60.31
+
+      5         0.39           1.5           76.6           40.5           2.33            4.33         127.50       58.26
+
+      6         0.43           1.5           76.6           38.0           2.33            4.59         127.49       59.96
+
+      7         0.44           1.6           77.1           37.6           2.32            4.65         127.75       60.33
+
+      8         0.45           1.6           77.0           37.1           2.32            4.71         127.74       60.70
+
+      9         0.35           1.6           77.7           40.1           2.30            4.37         161.16       58.63
+
+     10         0.36           1.6           77.6           39.1           2.30            4.47         161.16       59.30
+
+     11         0.37           1.7           77.6           38.2           2.30            4.58         161.15       60.01
+
+     12         0.37           1.6           76.6           37.1           2.33            4.70         160.50       60.72
+
+     13         0.31           1.7           82.7           43.2           2.16            4.06         196.57       56.83
+
+     14         0.32           1.8           82.2           40.8           2.17            4.29         196.19       58.38
+
+     15         0.33           1.8           81.2           39.3           2.20            4.45         195.42       59.38
+
+     16         0.34           1.9           80.7           37.9           2.21            4.61         195.03       60.44
+  ---------------------------------------------------------------------------------------------------------------------------
+
+**\
+**
+
+  --------------------------------------------------------------------------------------------------
+       **\           **α~2~      **K~l~^\*\*^**   **Δt~1\*\*~**   **Error   **Δt~2\*\*~**   **Error
+       α~1~       (W/m^2^.K)**                                     Δt~1~                     Δt~2~
+   (W/m^2^.K)**                                                    (%)**                     (%)**
+  -------------- -------------- ---------------- --------------- --------- --------------- ---------
+       4436           1410           51.83            0.47          11           1.5           5
+
+       4463           1436           52.61            0.51          12           1.6           5
+
+       4452           1439           52.67            0.51          12           1.6           5
+
+       4463           1439           52.71            0.52          12           1.6           5
+
+       6085           1410           55.86            0.35          11           1.5           3
+
+       6084           1434           56.62            0.38          12           1.6           4
+
+       6100           1440           56.82            0.39          12           1.6           4
+
+       6099           1457           57.34            0.39          13           1.7           4
+
+       7699           1441           59.48            0.31          12           1.6           3
+
+       7699           1438           59.38            0.31          12           1.7           3
+
+       7698           1435           59.28            0.32          13           1.7           3
+
+       7660           1457           59.97            0.32          13           1.7           3
+
+       9433           1453           61.91            0.27          12           1.8           3
+
+       9410           1413           60.42            0.28          13           1.9           3
+
+       9365           1440           61.36            0.29          14           1.9           3
+
+       9342           1442           61.42             0.3          14           1.9           3
+  --------------------------------------------------------------------------------------------------
+
+As the error of Δt~1~ is greater than 5%, repeat the calculating and
+checking
+
+**[\
+]{.underline}**
+
+**[Table 28+29:]{.underline}** Re-calculate K~1~^\*\*\*^ and checking
+Δt~1\*\*\*~ and Δt~2\*\*\*~ - Tube C
+
+λ~Cu~ = 385 W/m.K; d~inner~ = 0.014 m; d~outer~ = 0.016 m
+
+t~average~ are as in **Table 19 and** Pr is as in **Table 20**
+
+  -------------------------------------------------------------------------------------------------------------------------------
+   **No.**   **Δt~1\*\*~**   **Δt~2\*\*~**   **t~1wall~**   **t~2wall~**   **Pr~1wall~**   **Pr~2wall~**   **Nu~1~**   **Nu~2~**
+  --------- --------------- --------------- -------------- -------------- --------------- --------------- ----------- -----------
+      1          0.47             1.5           78.53           40.5           2.27            4.32          92.78       58.27
+
+      2          0.51             1.6           79.49           38.6           2.25            4.53          93.27       59.63
+
+      3          0.51             1.6           78.99           37.6           2.26            4.65          93.09       60.33
+
+      4          0.52             1.6           79.48           37.6           2.25            4.64          93.27       60.34
+
+      5          0.35             1.5           76.65           40.5           2.33            4.32         127.52       58.28
+
+      6          0.38             1.6           76.62           38.1           2.33            4.59         127.51       59.98
+
+      7          0.39             1.6           77.11           37.6           2.31            4.64         127.77       60.35
+
+      8          0.39             1.7           77.11           37.2           2.31            4.70         127.76       60.72
+
+      9          0.31             1.6           77.69           40.1           2.30            4.36         161.18       58.64
+
+     10          0.31             1.7           77.69           39.2           2.30            4.46         161.18       59.32
+
+     11          0.32             1.7           77.68           38.2           2.30            4.57         161.17       60.03
+
+     12          0.32             1.7           76.68           37.2           2.33            4.69         160.53       60.74
+
+     13          0.27             1.8           82.73           43.3           2.16            4.05         196.60       56.84
+
+     14          0.28             1.9           82.22           40.9           2.17            4.28         196.22       58.40
+
+     15          0.29             1.9           81.21           39.4           2.20            4.44         195.45       59.40
+
+     16          0.30             1.9           80.70           37.9           2.21            4.61         195.05       60.46
+  -------------------------------------------------------------------------------------------------------------------------------
+
+.
+
+  ----------------------------------------------------------------------------------------------------------------
+      **α~1~         **α~2~      **K~l~^\*\*\*^**   **Δt~1\*\*\*~**  **Error Δt~1~  **Δt~2\*\*\*~**  **Error Δt~2~
+   (W/m^2^.K)**   (W/m^2^.K)**                                           (%)**                           (%)**
+  -------------- -------------- ------------------ ----------------- ------------- ----------------- -------------
+       4436           1410            51.84              0.47            0.016           1.47           0.00581
+
+       4464           1436            52.63              0.51            0.020           1.57           0.00759
+
+       4453           1440            52.69              0.51            0.022           1.59           0.00823
+
+       4464           1440            52.73              0.52            0.022           1.60           0.00837
+
+       6086           1410            55.88              0.35            0.013           1.50           0.00354
+
+       6085           1435            56.64              0.38            0.017           1.60           0.00472
+
+       6101           1440            56.84              0.39            0.018           1.63           0.00509
+
+       6100           1457            57.36              0.39            0.019           1.65           0.00545
+
+       7700           1442            59.50              0.31            0.013           1.63           0.00296
+
+       7700           1439            59.40              0.31            0.015           1.67           0.00327
+
+       7699           1436            59.30              0.32            0.016           1.71           0.00361
+
+       7661           1458            59.99              0.32            0.017           1.71           0.00392
+
+       9434           1454            61.92              0.27            0.012           1.77           0.00212
+
+       9411           1413            60.43              0.28            0.014           1.86           0.00255
+
+       9366           1441            61.38              0.29            0.016           1.87           0.00292
+
+       9343           1443            61.44              0.30            0.018           1.91           0.00333
+  ----------------------------------------------------------------------------------------------------------------
+
+Since both errors are less than 5%, **finish calculating and checking.**
+
+## K~l~\* and K~l~ dependence on flow mode (Reynolds number):
+
+**[\
+]{.underline}**
+
+**[Table 30:]{.underline}** K~l~\* and K~l~ dependence on flow mode Tube
+B
+
+  -----------------------------------------------------------------------------------------------------------
+      **G~1~         **G~2~        **HOT                                 **COLD                
+   (ft^3^/ph)**   (ft^3^/ph)**   STREAM**                               STREAM**               
+  -------------- -------------- ----------- ----------- -------------- ----------- ----------- --------------
+                                 **Re~1~**    **K~l1~    **K~l~^\*^**   **Re~2~**    **K~l2~    **K~l~^\*^**
+                                             (W/m.K)**                              (W/m.K)**  
+
+       0.2            0.2          21748      149.70        19.92          342        50.77        19.92
+
+                      0.3          21737      162.19        24.02          492        72.85        24.02
+
+                      0.4          21737      160.52        27.38          649        76.92        27.38
+
+                      0.5          21875      168.20        30.28          811        95.17        30.28
+
+       0.3            0.2          33427      206.67        20.20          374        43.10        20.20
+
+                      0.3          33221      214.60        24.55          539        62.37        24.55
+
+                      0.4          33221      204.53        27.97          690        79.31        27.97
+
+                      0.5          33221      199.84        30.99          846        96.90        30.99
+
+       0.4            0.2          44854      211.28        20.42          377        53.71        20.42
+
+                      0.3          44564      232.76        24.70          560        64.54        24.70
+
+                      0.4          44570      224.37        28.41          726        62.25        28.41
+
+                      0.5          44295      245.26        31.50          898        51.98        31.50
+
+       0.5            0.2          56067      282.19        20.72          395        45.86        20.72
+
+                      0.3          56067      267.66        25.07          571        65.30        25.07
+
+                      0.4          56067      257.88        28.67          740        62.95        28.67
+
+                      0.5          56067      257.88        31.84          925        78.69        31.84
+  -----------------------------------------------------------------------------------------------------------
+
+***[\
+]{.underline}***
+
+**[Table 31:]{.underline}** K~l~\* and K~l~ dependence on flow mode Tube
+C
+
+  -----------------------------------------------------------------------------------------------------------
+      **G~1~         **G~2~        **HOT                                 **COLD                
+   (ft^3^/ph)**   (ft^3^/ph)**   STREAM**                               STREAM**               
+  -------------- -------------- ----------- ----------- -------------- ----------- ----------- --------------
+                                 **Re~1~**    **K~l1~    **K~l~^\*^**   **Re~2~**    **K~l2~    **K~l~^\*^**
+                                             (W/m.K)**                              (W/m.K)**  
+
+       0.2            0.2          23272       96.42        51.84         11082       39.23        51.84
+
+                      0.3          23582       89.74        52.63         16013       27.42        52.63
+
+                      0.4          23451       97.67        52.69         20947       36.18        52.69
+
+                      0.5          23582      105.40        52.73         26184       44.74        52.73
+
+       0.3            0.2          34156      121.79        55.88         11082       41.26        55.88
+
+                      0.3          34156      114.31        56.64         15863       43.60        56.64
+
+                      0.4          34361      125.61        56.84         20947       37.87        56.84
+
+                      0.5          34361      124.03        57.36         25935       70.13        57.36
+
+       0.4            0.2          46078      117.01        59.50         11002       49.58        59.50
+
+                      0.3          46078      152.22        59.40         16176       72.59        59.40
+
+                      0.4          46078      148.66        59.30         21150       56.73        59.30
+
+                      0.5          45542      148.73        59.99         25935       70.94        59.99
+
+       0.5            0.2          60997      138.90        61.92         11870       65.98        61.92
+
+                      0.3          60661      154.63        60.43         16624       81.02        60.43
+
+                      0.4          59984      152.96        61.38         21568       89.06        61.38
+
+                      0.5          59643      171.05        61.44         26184       87.17        61.44
+  -----------------------------------------------------------------------------------------------------------
+
+## Illustrating the dependence of K~1~^\*^ and K~1~ on Re:
+
+### Tube B
+
+- ***[Changing cold stream flow rate on fixed hot stream flow
+  rate:]{.underline}***
+
+**[Figure 2:]{.underline}** Dependence of K~l~^\*^ & K~l2~ on Re~2~ when
+G~2~ changes from 0.2 ft^3^/min to 0.5 ft^3^/min (G~1~ = 0.2 ft^3^/min)
+
+**[Figure 3:]{.underline}** Dependence of K~l~^\*^ & K~l2~ on Re~2~ when
+G~2~ changes from 0.2 ft^3^/min to 0.5 ft^3^/min (G~1~ = 0.3 ft^3^/min)
+
+**[Figure 4:]{.underline}** Dependence of K~l~^\*^ & K~l2~ on Re~2~ when
+G~2~ changes from 0.2 ft^3^/min to 0.5 ft^3^/min (G~1~ = 0.4 ft^3^/min)
+
+**[Figure 5:]{.underline}** Dependence of K~l~^\*^ & K~l2~ on Re~2~ when
+G~2~ changes from 0.2 ft^3^/min to 0.5 ft^3^/min (G~1~ = 0.5 ft^3^/min)
+
+- ***[Changing hot stream flow rate on fixed cold stream flow
+  rate:]{.underline}***
+
+**[Figure 6:]{.underline}** Dependence of K~l~^\*^ & K~l1~ on Re~1~ when
+G~1~ changes from 0.2 ft^3^/min to 0.5 ft^3^/min (G~2~ = 0.2 ft^3^/min)
+
+**[Figure 7:]{.underline}** Dependence of K~l~^\*^ & K~l1~ on Re~1~ when
+G~1~ changes from 0.2 ft^3^/min to 0.5 ft^3^/min (G~2~ = 0.3 ft^3^/min)
+
+**[\
+]{.underline}**
+
+**[Figure 8:]{.underline}** Dependence of K~l~^\*^ & K~l1~ on Re~1~ when
+G~1~ changes from 0.2 ft^3^/min to 0.5 ft^3^/min (G~2~ = 0.4 ft^3^/min)
+
+**[Figure 9:]{.underline}** Dependence of K~l~^\*^ & K~l1~ on Re~1~ when
+G~1~ changes from 0.2 ft^3^/min to 0.5 ft^3^/min (G~2~ = 0.5 ft^3^/min)
+
+### Tube C
+
+- ***[Changing cold stream flow rate on fixed hot stream flow
+  rate:]{.underline}***
+
+**[Figure 10:]{.underline}** Dependence of K~l~^\*^ & K~l2~ on Re~2~
+when G~2~ changes from 0.2 ft^3^/min to 0.5 ft^3^/min (G~1~ = 0.2
+ft^3^/min)
+
+**[Figure 11:]{.underline}** Dependence of K~l~^\*^ & K~l2~ on Re~2~
+when G~2~ changes from 0.2 ft^3^/min to 0.5 ft^3^/min (G~1~ = 0.3
+ft^3^/min)
+
+**[Figure 12:]{.underline}** Dependence of K~l~^\*^ & K~l2~ on Re~2~
+when G~2~ changes from 0.2 ft^3^/min to 0.5 ft^3^/min (G~1~ = 0.4
+ft^3^/min)
+
+**[Figure 13:]{.underline}** Dependence of K~l~^\*^ & K~l2~ on Re~2~
+when G~2~ changes from 0.2 ft^3^/min to 0.5 ft^3^/min (G~1~ = 0.5
+ft^3^/min)
+
+- ***[Changing hot stream flow rate on fixed cold stream flow
+  rate:]{.underline}***
+
+**[Figure 14:]{.underline}** Dependence of K~l~^\*^ & K~l1~ on Re~1~
+when G~1~ changes from 0.2 ft^3^/min to 0.5 ft^3^/min (G~2~ = 0.2
+ft^3^/min)
+
+**[Figure 15:]{.underline}** Dependence of K~l~^\*^ & K~l1~ on Re~1~
+when G~1~ changes from 0.2 ft^3^/min to 0.5 ft^3^/min (G~2~ = 0.3
+ft^3^/min)
+
+**[\
+]{.underline}**
+
+**[Figure 16:]{.underline}** Dependence of K~l~^\*^ & K~l1~ on Re~1~
+when G~1~ changes from 0.2 ft^3^/min to 0.5 ft^3^/min (G~2~ = 0.4
+ft^3^/min)
+
+**[Figure 17:]{.underline}** Dependence of K~l~^\*^ & K~l1~ on Re~1~
+when G~1~ changes from 0.2 ft^3^/min to 0.5 ft^3^/min (G~2~ = 0.5
+ft^3^/min)
+
+# DISCUSSION :
+
+**[Question 1]{.underline} : *Is heat loss significant? Why?***
+
+From calculation, it can be seen that the heat loss is significant, more
+detail, the heat loss in tube B is generally more than the one in tube
+C.
+
+Causes:
+
+- Heat loss is the result of heat transfer from the fluids to the
+  environment, it may be because of a lack of good insulation.
+
+- The heat is not only loss to the environment but also is 'trapped' in
+  the metal wall. Also, copper has very high thermal-conductivity.
+
+- The flow rates are not really stable dunring the experiment, due to
+  the unstability in pump work, which leads to unstable heat transfer.
+
+- Tube B has more heat loss than tube C because the fluid streams in
+  tube B contact each other in vertical flow leading to shorter heat
+  transfer time in comparison with tube C. Beside that, fluid leaking on
+  tube B is also a cause.
+
+- Temperature values were displayed and observed subjectively leading to
+  some cases that the inlet and outlet temperature were equal, which
+  means there was not heat transfer, which is incorrect and does not
+  reflect the nature of the heat exchanging process.
+
+**[Question 2]{.underline} : *Errors percentage and their causes? How to
+avoid them?***
+
+Errors percentage is significant. There are several causes:
+
+- Flow rates of the hot and cold streams are not stable during the
+  experiment. It is impossible to maintain a constant flow rate.
+
+- The temperature changes continuously leading to errors in observing
+  results.
+
+- The hot stream is refluxed continuously leading to a non-constant hot
+  stream inlet temperature.
+
+- The higher the temperature, the greater the heat loss.
+
+- Insulation is not good enough.
+
+- There is fluid leaking during the experiment.
+
+- Errors occur in flow meter and thermal-meter (system error).
+
+- The experiment is performed once only, as the result, the repetition
+  of the results is not confirmed.
+
+- Students made mistakes in performing the experiment.
+
+- Rounding number also contributes to the errors. The observed results
+  are average numbers, which may leads to inaccurate calculation.
+
+How to avoid errors:
+
+- Supply a good insulation cover, repair leaks on the tubes.
+
+- Perform the experiment in not-too-high temperature.
+
+- Observe and note down the results quickly.
+
+- Repeat the experiment more than once.
+
+- Remove fouling inside tubes if possible.
+
+**[Question 3]{.underline} : *Compare experimental heat transfer
+coefficient K~1~ with overall heat transfer coefficient K~1~^\*^.***
+
+- In this experiment, K~l~ is greater than K~l~^\*^ in most cases, which
+  may be impossible. Because errors during the experiment are much
+  greater than heat loss.
+
+- The average wall temperature is estimated during calculation leading
+  to incorrect Pr~wall~ in comparison with the experiment.
+
+- The complex heat transfer had the student ignore some factor and only
+  note down the main factors. For example, convectional heat transfer in
+  tube B was ignored despite of the fact that convectional heat transfer
+  plays an important role in how heat transfer is functioned.
+
+- The difference between K~l~ and K~1~^\*^ is the result of significant
+  heat loss, heat transfer from outside, fouling,\... During
+  calculations, fouling was ignored since it is impossible to measure
+  the fouling, which leads to noticeable differences between
+  experimental and overall K.
+
+- While K~l~^\*^ keeps its stability and slightly increases linearly,
+  K~l~ fluctuates in the most cases.
+
+- The experimental heat transfer coefficient of cold streams is lower
+  than the overall due to the low heat transfer, because heat transfer
+  area is small in comparison with flow rate, and there may be also
+  fouling
+
+- The experiment heat transfer coefficient of hot stream is higher than
+  the overall due to the heat is absorbed by the copper wall, more over,
+  copper has higher thermal-conductivity than water.
+
+![](media/image39.wmf) In conclusion: The high thermal-conductivity
+copper wall which is covered by fouling is an important reason for heat
+loss, heat 'trapped' leading to huge difference between overall heat
+transfer coefficient and experimental one.
+
+# APPENDIX :
+
+## Physical parameters:
+
+> ρ (kg/m^3^), C~ρ~ (J/kg.degree), λ (W/m.degree), μ (N.s/m2) are taken
+> from available tables. Prandtl number is calculated from these former
+> parameters through formula:
+
+![](media/image31.wmf)
+
+## Heat Q calculation:
+
+> Heat Q~1~ of the hot stream transfers to the cold stream, the heat
+> Q~2~ that the cold stream receive is calculated as:
+
+Q = G.C.(t~in~ -- t~out~)
+
+Where:
+
+> G: fluid flow rate, kg/s
+>
+> C: heat capacity of fluid, J/kg.degree
+
+t~in~, t~out~: inlet and outlet temperature of fluid, ^0^C
+
+> Actually, there is heat loss, the heat transfer balance is established
+> as:
+
+![](media/image40.wmf)Q = G~1.~C~1.~(t~1in~ -- t~1out~) --
+G~2.~C~2.~(t~2out~ -- t~2in~) , W
+
+Where :\
+G~1~, G~2~ : hot and cold stream flow rate, kg/s.\
+C~1~, C~2~ : average specific heat capacity of hot and cold stream
+(J/kg.K)\
+t~1in~, t~1out~ : inlet and outlet temperature of the hot stream, ^0^C\
+t~2in~, t~2out~ : inlet and outlet temperature of the cold stream, ^0^C
+
+> ![](media/image41.wmf)Q: heat loss
+
+## Specific geometric dimension:
+
+In case of the fluid moves through a round section, specific geometric
+dimension is the diameter of the section.
+
+In case of the fluid moves through a non-round section, specific
+geometric dimension is determined as the equivalent diameter
+d~equivalent~ :
+
+![](media/image6.wmf)
+
+Where:
+
+F : area of the section (the section that the fluid moves through), m^2^
+
+Π : wet circumference of the section (the circumference that the fluid
+contact to the heat transfer area), m
+
+[Tube B:]{.underline} l~1~ = d~1inner~ = 0.014 m
+![](media/image42.wmf)m^2^
+
+l~2~ = d~2inner~ = 0.026 m ![](media/image43.wmf)
+
+![](media/image44.wmf) m^2^
+
+[Tube C:]{.underline} l~1~ = d~1inner~ = 0.014 m
+![](media/image42.wmf)m^2^
+
+d~2inner~ = 0.026 m ![](media/image45.wmf)m^2^
+
+![](media/image46.wmf)m
+
+## Re number:
+
+Flow velocity: ![](media/image26.wmf)$
+$Reynolds number: ![](media/image27.wmf)
+
+Where:
+
+w : flow velocity, m/s
+
+ν : kinetic viscosity of fluid, m^2^/s
+
+l : specific geometric dimension, m
+
+## Thermal transmittance coefficient α ~1~, α ~2~:
+
+![](media/image47.wmf)
+
+Where:
+
+> λ: thermal-conductivity of fluid, W/m.K
+>
+> l: specific geometric dimension, m
+
+Nusselt number can be calculated in several formulas depending on
+different flow mode in each tube:
+
+Re of hot streams in tube B has the value of 10^3^ ≤ Re \< 200000
+
+![](media/image48.wmf)
+
+Re of cold streams in tube B has the value of 5 \< Re \< 100
+
+![](media/image49.wmf)
+
+Re of all streams in tube C (except 1 stream) has the value of Re \>
+10000
+
+![](media/image50.wmf)
+
+In tube C: ![](media/image51.wmf)
+
+> From calculated Nu and taken λ~water~, calculate thermal transmittance
+> α for each stream in each tube.
+>
+> Pr is determined from average temperature of the hot and cold stream.
+>
+> Pr~wall~ is determined according to average temperature of the metal
+> wall. The average temperature of the metal wall is equal to the
+> average temperature of the hot stream and the cold stream.
+
+## Overall heat transfer coefficient, K^\*^~1~:
+
+From the value of α for each flow mode of each type of tube, choose
+thermal-conductivity of heat transfer copper tube λ = 385 W/m.K,
+calculate K~l~^\*^ as:
+
+![](media/image36.wmf)
+
+Where:\
+d~outer~, d~inner~ : External and internal diameter of the tube, m.\
+λ : thermal-conductivity of the tube, W/m.K.\
+Ignore fouling.
+
+# REFERENCES :
+
+> \[1\] Guide book *"Thí nghiệm quá trình và thiết bị"*, Department of
+> *Processes & Equipment Engineering*, HCM Bach Khoa University, 9/2003.
+>
+> \[2\]. Nguyen Bin and partners, *Handbook Process and equiment of
+> technology and chemical, vol.1-2,* Science-Technical Publisher.
