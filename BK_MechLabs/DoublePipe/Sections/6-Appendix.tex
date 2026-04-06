@@ -1,0 +1,88 @@
+% !TEX root = ../5.DOUBLE-PIPE.tex
+\section{APPENDIX}\label{appendix}
+
+\subsection{Physical Parameters}\label{physical-parameters}
+
+The density $\rho$ ($kg/m^3$), specific heat capacity $C_p$ ($J/kg \cdot K$), thermal conductivity $\lambda$ ($W/m \cdot K$), and dynamic viscosity $\mu$ ($N \cdot s / m^2$) are taken from standard property tables for water at the average fluid temperature.
+
+The Prandtl number is calculated from these parameters using the formula:
+\begin{equation}
+    Pr = \frac{\mu \cdot C_p}{\lambda}
+\end{equation}
+
+\subsection{Heat Q Calculation}\label{heat-q-calculation}
+
+Heat $Q_1$ of the hot stream transfers to the cold stream, the heat $Q_2$ that the cold stream receives is calculated as:
+\begin{equation}
+    Q = G \cdot C \cdot (t_{in} - t_{out})
+\end{equation}
+Where:
+\begin{itemize}
+    \item $G$: fluid flow rate, $kg/s$
+    \item $C$: heat capacity of fluid, $J/kg \cdot K$
+    \item $t_{in}, t_{out}$: inlet and outlet temperature of fluid, $^\circ C$
+\end{itemize}
+
+Actually, there is heat loss, the heat transfer balance is established as:
+\begin{equation}
+    \Delta Q = G_1 C_1 (t_{1in} - t_{1out}) - G_2 C_2 (t_{2out} - t_{2in}) \quad [W]
+\end{equation}
+Where $\Delta Q$ is the heat loss.
+
+\subsection{Specific Geometric Dimension}\label{specific-geometric-dimension}
+
+In case of the fluid moves through a round section, specific geometric dimension is the diameter of the section. In case of the fluid moves through a non-round section, specific geometric dimension is determined as the equivalent diameter $d_{equivalent}$:
+\begin{equation}
+    d_{eq} = \frac{4F}{\Pi}
+\end{equation}
+Where:
+\begin{itemize}
+    \item $F$: area of the section, $m^2$
+    \item $\Pi$: wet circumference of the section, $m$
+\end{itemize}
+
+\textbf{Tube B (Cross-flow):}
+\begin{itemize}
+    \item $l_1 = d_{1inner} = 0.014 \text{ m}$
+    \item $l_2 = d_{2inner} = 0.026 \text{ m}$ (equivalent diameter calculation based on annulus area and wetted perimeter).
+\end{itemize}
+
+\subsection{Reynolds Number}\label{re-number}
+
+Flow velocity $w$ is determined from the volumetric flow rate $V$:
+\begin{equation}
+    w = \frac{V}{F} \quad [m/s]
+\end{equation}
+The Reynolds number ($Re$) is then calculated as:
+\begin{equation}
+    Re = \frac{w \cdot l}{\nu}
+\end{equation}
+
+\subsection{Thermal Transmittance Coefficient $\alpha_1, \alpha_2$}\label{thermal-trans-alpha}
+
+The coefficient $\alpha$ is determined from the Nusselt number ($Nu$):
+\begin{equation}
+    \alpha = \frac{Nu \cdot \lambda}{l}
+\end{equation}
+Nusselt number is calculated in several formulas depending on flow mode in each tube:
+\begin{itemize}
+    \item \textbf{Tube B (Hot stream):} $10^3 \le Re < 2 \cdot 10^5$:
+    \begin{equation}
+        Nu = 0.023 \cdot Re^{0.8} \cdot Pr^{0.4}
+    \end{equation}
+    \item \textbf{Tube B (Cold stream):} $5 < Re < 100$:
+    \begin{equation}
+        Nu = 0.5 \cdot Re^{0.5} \cdot Pr^{0.38} \cdot \left(\frac{Pr}{Pr_{wall}}\right)^{0.25}
+    \end{equation}
+    \item \textbf{Tube C:} $Re > 10^4$:
+    \begin{equation}
+        Nu = 0.021 \cdot Re^{0.8} \cdot Pr^{0.43} \cdot \left(\frac{Pr}{Pr_{wall}}\right)^{0.25} \cdot \epsilon_l
+    \end{equation}
+\end{itemize}
+
+\subsection{Overall Heat Transfer Coefficient $K_l^*$}\label{overall-k-star}
+
+From the value of $\alpha$ for each flow mode of each type of tube, choosing the thermal conductivity of the copper tube $\lambda_w = 385 \text{ W/m.K}$, $K_l^*$ is calculated as:
+\begin{equation}
+    K_l^* = \frac{\pi}{\frac{1}{\alpha_1 d_1} + \frac{1}{2\lambda_w} \ln\left(\frac{d_2}{d_1}\right) + \frac{1}{\alpha_2 d_{2}}} \quad [W/m.K]
+\end{equation}
