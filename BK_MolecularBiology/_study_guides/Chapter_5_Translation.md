@@ -14,7 +14,7 @@
 
 ### 3. Mechanism (Eukaryote)
 *   **Initiation**:
-    *   **Cap-dependent**: eIFs bind 5' Cap, recruit 40S subunit. Scans for AUG.
+    *   **Cap-dependent**: eIFs bind 5' Cap, recruit 40S subunit forming 43S. Scans for AUG.
     *   **Cap-independent**: IRES (Internal Ribosome Entry Site).
 *   **Elongation**: Similar to prokaryotes (eEFs).
 *   **Termination**: eRF1, eRF3.

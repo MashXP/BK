@@ -162,3 +162,8 @@ Question 2: Detail the molecular events that occur during DNA replication. Expla
 
 **7. Classify the major groups of transcriptional regulatory elements. Explain the spatial paradox: Why must bacterial regulatory elements (like Operators) be right next to the promoter, whereas eukaryotic Enhancers can control target genes from vast distances**
 - **Bacterial regulation** is **position-dependent** because it relies on local physical blocking of the polymerase. **Eukaryotic regulation** is **position-independent** because the flexibility of the chromatin fiber allows 3D looping to bypass linear distance, coordinated by the **Mediator complex*.
+
+# 2026-04-07
+Main Function of Nuc membrane (only in Eukaryote): Regulating (export and import) molecules for transcription and translation.
+	Why slow? It has too many checkpoints.
+	
