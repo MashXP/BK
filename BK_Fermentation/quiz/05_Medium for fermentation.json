@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the primary component of almost all fermentation media?",
+    "options": [
+      "Carbon source",
+      "Nitrogen source",
+      "Water",
+      "Trace elements"
+    ],
+    "answer": "Water",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which term describes microorganisms that use organic compounds as both their energy and carbon source?",
+    "options": [
+      "Photoautotrophs",
+      "Chemoorganotrophs",
+      "Lithotrophs",
+      "Chemoautotrophs"
+    ],
+    "answer": "Chemoorganotrophs",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the most widely available carbohydrate used in fermentation, typically obtained from maize, potatoes, or cassava?",
+    "options": [
+      "Sucrose",
+      "Glucose",
+      "Starch",
+      "Lactose"
+    ],
+    "answer": "Starch",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the context of medium design, what does the 'Y' in the cellular yield coefficient formula represent?",
+    "options": [
+      "The growth rate of the organism",
+      "The ratio of cell dry matter produced to substrate utilized",
+      "The concentration of the carbon source",
+      "The amount of oxygen consumed per gram of biomass"
+    ],
+    "answer": "The ratio of cell dry matter produced to substrate utilized",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is considered a 'trace element' in fermentation media?",
+    "options": [
+      "Potassium (K)",
+      "Magnesium (Mg)",
+      "Zinc (Zn)",
+      "Calcium (Ca)"
+    ],
+    "answer": "Zinc (Zn)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary purpose of adding a buffer to a fermentation medium?",
+    "options": [
+      "To provide a source of nitrogen",
+      "To maintain a stable pH",
+      "To increase the solubility of oils",
+      "To act as a precursor for secondary metabolites"
+    ],
+    "answer": "To maintain a stable pH",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which nitrogen source is specifically noted as a byproduct of the starch manufacturing process?",
+    "options": [
+      "Yeast extract",
+      "Pharmamedia",
+      "Corn-steep liquor",
+      "Peanut meal"
+    ],
+    "answer": "Corn-steep liquor",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the most common type of growth factor required by fastidious microorganisms?",
+    "options": [
+      "Vitamins",
+      "Trace metals",
+      "Organic acids",
+      "Inorganic salts"
+    ],
+    "answer": "Vitamins",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which component is used to trigger specific gene expression in an expression system like S. cerevisiae with Gal1?",
+    "options": [
+      "Chelator",
+      "Inducer",
+      "Buffer",
+      "Precursor"
+    ],
+    "answer": "Inducer",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of these is a pure compound often used in small-scale R&D media to ensure reproducibility?",
+    "options": [
+      "Cane molasses",
+      "Tryptone",
+      "Corn-steep liquor",
+      "Peanut granules"
+    ],
+    "answer": "Tryptone",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Compared to glucose, how much energy does a typical oil contain on a per-weight basis?",
+    "options": [
+      "Approximately half the energy",
+      "The same amount of energy",
+      "Approximately 2.4 times the energy",
+      "Approximately 5 times the energy"
+    ],
+    "answer": "Approximately 2.4 times the energy",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a significant limitation of using deionized water in fermentation media compared to distilled water?",
+    "options": [
+      "It has a much lower output rate",
+      "It does not effectively remove dissolved ions",
+      "It does not remove organic compounds or microorganisms",
+      "It has a significantly lower operating cost"
+    ],
+    "answer": "It does not remove organic compounds or microorganisms",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why are vegetable oils sometimes preferred over carbohydrates in industrial fermentation, aside from their energy density?",
+    "options": [
+      "They decrease broth viscosity",
+      "They possess antifoam properties",
+      "They are easier to sterilize",
+      "They improve the solubility of inorganic nitrogen"
+    ],
+    "answer": "They possess antifoam properties",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary reason for adding chelating agents like EDTA or citric acid to a medium?",
+    "options": [
+      "To provide a source of organic carbon",
+      "To prevent the precipitation of insoluble metal phosphates",
+      "To increase the rate of oxygen transfer",
+      "To act as a nitrogen source for protein synthesis"
+    ],
+    "answer": "To prevent the precipitation of insoluble metal phosphates",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a disadvantage of residual (unutilized) oil in a fermentation broth?",
+    "options": [
+      "It increases the pH of the medium",
+      "It can increase broth viscosity and decrease oxygen transfer efficiency",
+      "It acts as a precursor for undesired by-products",
+      "It causes the precipitation of trace elements"
+    ],
+    "answer": "It can increase broth viscosity and decrease oxygen transfer efficiency",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does the composition of Cane Molasses typically differ from Beet Molasses?",
+    "options": [
+      "Cane molasses has higher sucrose and lower invert sugar",
+      "Cane molasses has lower sucrose and higher invert sugar",
+      "Cane molasses contains Raffinose while Beet molasses does not",
+      "Beet molasses contains significantly more nitrogen than Cane molasses"
+    ],
+    "answer": "Cane molasses has lower sucrose and higher invert sugar",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is organic nitrogen generally preferred over inorganic nitrogen sources in many fermentation processes?",
+    "options": [
+      "It is significantly cheaper",
+      "It usually promotes faster microbial growth",
+      "It does not affect the pH of the medium",
+      "It is easier to measure in the broth"
+    ],
+    "answer": "It usually promotes faster microbial growth",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a key criterion for selecting a medium for a large-scale industrial process?",
+    "options": [
+      "Use of the highest purity analytical grade reagents",
+      "Maximum yield of product per gram of substrate used",
+      "Minimal use of water to save costs",
+      "Avoidance of all agricultural by-products"
+    ],
+    "answer": "Maximum yield of product per gram of substrate used",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the stoichiometry of aerobic fermentation, which of the following are considered products of the reaction?",
+    "options": [
+      "Oxygen and Nitrogen source",
+      "Biomass, CO2, H2O, and Heat",
+      "Carbon source and Trace elements",
+      "Vitamins and Growth factors"
+    ],
+    "answer": "Biomass, CO2, H2O, and Heat",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a major limitation of the 'distillation' method for water treatment?",
+    "options": [
+      "It cannot remove dissolved ions",
+      "It has a very high output rate that is hard to control",
+      "Volatile contaminants with the same boiling point as water may carry over",
+      "It requires very little maintenance"
+    ],
+    "answer": "Volatile contaminants with the same boiling point as water may carry over",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which mineral component is specifically noted for its role as both a nutrient and a potential pH buffer?",
+    "options": [
+      "MgSO4",
+      "KH2PO4",
+      "ZnSO4",
+      "CuSO4"
+    ],
+    "answer": "KH2PO4",
+    "shuffleOptions": true
+  },
+  {
+    "question": "According to the provided material, which nitrogen source is preferred for the production of Penicillin?",
+    "options": [
+      "Peanut granules",
+      "Pharmamedia",
+      "Corn-steep liquor",
+      "Soybean meal"
+    ],
+    "answer": "Corn-steep liquor",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which nitrogen source is preferred for the production of Bacitracin?",
+    "options": [
+      "Peanut granules",
+      "Distillers' solubles",
+      "Ammonium salts",
+      "Yeast extract"
+    ],
+    "answer": "Peanut granules",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In medium optimization, what is the formula used to determine the number of trials in a full factorial search?",
+    "options": [
+      "n^x (where n is variables and x is levels)",
+      "x^n (where x is levels and n is variables)",
+      "x + n",
+      "x * n"
+    ],
+    "answer": "x^n (where x is levels and n is variables)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "When more than five independent variables need to be investigated for medium optimization, which design is recommended?",
+    "options": [
+      "One-variable-at-a-time (OVAT)",
+      "Full Factorial Search",
+      "Plackett-Burman Design",
+      "Simple Linear Regression"
+    ],
+    "answer": "Plackett-Burman Design",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the main drawback of the 'classical method' of medium optimization (changing one variable at a time)?",
+    "options": [
+      "It is too technically complex for most labs",
+      "It is extremely time-consuming and ignores interactions between variables",
+      "It only works for inorganic nutrients",
+      "It requires expensive specialized software"
+    ],
+    "answer": "It is extremely time-consuming and ignores interactions between variables",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Carbon substrates in fermentation media serve a dual role. What are these two roles?",
+    "options": [
+      "Solvent and heat transfer",
+      "Biosynthesis and energy generation",
+      "pH buffering and antifoaming",
+      "Gene induction and sterilization"
+    ],
+    "answer": "Biosynthesis and energy generation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a commercial nitrogen source derived from cottonseed oil that contains approximately 57% protein?",
+    "options": [
+      "Soytone",
+      "Pharmamedia",
+      "Tryptone",
+      "Corn-steep liquor"
+    ],
+    "answer": "Pharmamedia",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is the mineral content of water historically significant in the brewing industry?",
+    "options": [
+      "It determined the color of the bottles",
+      "It influenced the siting of breweries and the types of beer produced",
+      "It was used to prevent the water from freezing",
+      "It acted as the primary carbon source for yeast"
+    ],
+    "answer": "It influenced the siting of breweries and the types of beer produced",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT one of the four main criteria listed for choosing medium materials?",
+    "options": [
+      "Cost of materials",
+      "Stability of materials",
+      "Color of materials",
+      "Quality of materials"
+    ],
+    "answer": "Color of materials",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Based on the cellular yield coefficients (Y) provided, which substrate produces the highest amount of biomass dry weight per gram of substrate utilized?",
+    "options": [
+      "Methane",
+      "Methanol",
+      "Ethanol",
+      "Glucose"
+    ],
+    "answer": "Ethanol",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If a researcher is testing 3 different nutrients at 2 different concentrations each using a full factorial search, how many trials are required?",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "9"
+    ],
+    "answer": "8",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following best describes the interdependency between oil concentration and oxygen transfer in a fermenter?",
+    "options": [
+      "High oil concentration increases oxygen solubility, improving transfer",
+      "Residual oil increases broth viscosity, which hinders oxygen transfer",
+      "Oil acts as a catalyst for oxygen uptake by the cell membrane",
+      "Oil has no effect on oxygen transfer; it only affects foam"
+    ],
+    "answer": "Residual oil increases broth viscosity, which hinders oxygen transfer",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why might a medium that works perfectly on a small scale fail in a large-scale industrial fermenter?",
+    "options": [
+      "Industrial fermenters cannot use pure compounds",
+      "Large-scale processes have stricter requirements for aeration, agitation, and waste treatment compatibility",
+      "Small-scale media do not require nitrogen sources",
+      "Sterilization is not required for small-scale R&D"
+    ],
+    "answer": "Large-scale processes have stricter requirements for aeration, agitation, and waste treatment compatibility",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Based on the elemental composition table, which of the following microorganisms has the highest percentage of Nitrogen (N) in its composition?",
+    "options": [
+      "Klebsiella aerogenes",
+      "Aerobacter aerogenes",
+      "Saccharomyces cerevisiae",
+      "Candida utilis"
+    ],
+    "answer": "Aerobacter aerogenes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A microorganism is described as 'fastidious' in the text. What does this imply about its medium requirements?",
+    "options": [
+      "It can grow on simple inorganic salts and CO2",
+      "It requires preformed compounds like vitamins or specific amino acids because it cannot synthesize them",
+      "It only grows in the presence of high concentrations of oil",
+      "It is resistant to all forms of contamination"
+    ],
+    "answer": "It requires preformed compounds like vitamins or specific amino acids because it cannot synthesize them",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the stoichiometry of growth, 'Heat' is listed as a product. What is the practical implication of this for large-scale fermentation design?",
+    "options": [
+      "The medium must be pre-heated to start the reaction",
+      "Cooling systems are necessary to maintain the optimal temperature",
+      "Heat is used as the primary energy source for the microbes",
+      "Heat production indicates the fermentation has failed"
+    ],
+    "answer": "Cooling systems are necessary to maintain the optimal temperature",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following combinations of nitrogen sources is specifically associated with the production of Rifomycin?",
+    "options": [
+      "Corn-steep liquor and Glucose",
+      "Pharmamedia, Soybean meal, and (NH4)2SO4",
+      "Peanut granules and Yeast extract",
+      "Ammonium salt and natural plant nitrogen"
+    ],
+    "answer": "Pharmamedia, Soybean meal, and (NH4)2SO4",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If an optimization experiment involves 6 nutrients at 3 concentrations each, why is a full factorial search considered inappropriate?",
+    "options": [
+      "The math is too complex to calculate",
+      "It would require 729 trials, which is economically and practically unfeasible",
+      "Factorial searches only work for two variables at a time",
+      "Nutrients cannot be tested at more than two concentrations"
+    ],
+    "answer": "It would require 729 trials, which is economically and practically unfeasible",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following statements about water treatment is TRUE based on the provided comparison?",
+    "options": [
+      "Distilled water has a higher operating cost than deionized water when changing columns",
+      "Deionized water is a slower process and requires more counter space than distillation",
+      "Distilled water removes contaminants to a large extent but may carry over volatiles with the same boiling point",
+      "Deionized water is the only method that effectively removes microorganisms"
+    ],
+    "answer": "Distilled water removes contaminants to a large extent but may carry over volatiles with the same boiling point",
+    "shuffleOptions": true
+  }
+]

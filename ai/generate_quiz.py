@@ -55,8 +55,9 @@ def generate_quiz(client, contents):
     3. **Difficulty Distribution:**
        - ~10 Easy Questions (Definitions, basic facts)
        - ~20 Medium Questions (Comparisons, functions, advantages/disadvantages)
-       - ~10 Hard Questions (Specific details, complex application, dates/history)
+       - ~10 Hard Questions (Specific details, complex application, reasoning/interdependencies)
     4. **Constraints:**
+       - **Avoidance**: Do NOT include questions about specific obscure historical dates, history facts, or highly specific/obscure species-related numbers (e.g., precise elemental percentages of a very specific strain unless it's a major generalizable concept). Focus on high-level understanding and process interdependencies.
        - **Limit "All of the above":** Use this option sparingly (max 3-4 times).
        - **"shuffleOptions" Tag:**
          - Default to `true`.
@@ -89,7 +90,6 @@ def generate_quiz(client, contents):
 
     print("Sending request to Gemini... (this might take a minute for 40 questions)")
     try:
-        # Using gemini-2.0-flash which is generally fast and capable
         response = client.models.generate_content(
             model='gemini-3-flash-preview',
             contents=prompt_parts,

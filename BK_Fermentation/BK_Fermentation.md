@@ -4,7 +4,7 @@
 - [[01-02_IntroductionBasicConcepts|Chapter 1 & 2: Introduction & Basic concepts in fermentation technology]]
 - [[03_MicroorganismsInFermentationTechnology|Chapter 3: Microorganisms in fermentation technology]]
 - [[04_Fermenters|Chapter 4: Fermenters]]
-- [[05_FermentationProcesses|Chapter 5: Fermentation processes]]
+- [[05_FermentationMedium|Chapter 5: Media for Fermentation]]
 - [[06_FermentationProducts|Chapter 6: Fermentation products]]
 
 ---
