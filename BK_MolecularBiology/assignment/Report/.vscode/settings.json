@@ -1,0 +1,13 @@
+{
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.outDir": ".",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".*\\.tex$",
+                "cmd": "pdflatex -interaction=nonstopmode \"${file}\""
+            }
+        ]
+    }
+}

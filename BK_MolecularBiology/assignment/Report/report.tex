@@ -1,0 +1,133 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{url}
+\usepackage{abstract}
+\usepackage{caption}
+\usepackage{scrextend} % For arbitrary font sizes
+\changefontsizes{13pt} % Set exactly 13pt font size
+
+% Header configuration
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\lhead{\small Molecular Biology And Genetics Laboratory, Department of Biotechnology}
+\rhead{\small \thepage}
+\chead{}
+\lfoot{}
+\rfoot{}
+\cfoot{}
+
+% Section formatting
+\titleformat{\section}{\normalfont\Large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection.}{0.5em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{\thesubsubsection.}{0.5em}{}
+
+% Customizing the title section
+\makeatletter
+\renewcommand{\@maketitle}{
+    \noindent
+    \begin{minipage}[c]{0.1\textwidth}
+        \includegraphics[width=40px]{Images/bachkhoa_logo.png}
+    \end{minipage}%
+    \begin{minipage}[c]{0.9\textwidth}
+        \quad Ho Chi Minh City University of Technology (HCMUT), VNU-HCM
+    \end{minipage}
+    \par
+    \vskip 0.5em
+    \hrule
+    \vskip 2em
+    \begin{center}
+    {\huge\bfseries MOLECULAR BIOLOGY AND GENETICS: \par}
+    {\huge\bfseries LABORATORY REPORT \par}
+    \vskip 2em
+    
+    \textit{{\large 
+        Dinh Chan Phong\_2352902\textsuperscript{1,2}, 
+        Dong Minh Nghia\_2252525\textsuperscript{1,2}, 
+        Dinh Nguyen Chinh Nghia\_2352804\textsuperscript{1,2}, 
+        Nguyen Tran Nam Nguyen\_2352834\textsuperscript{1,2}, 
+        Hoang My Dung\textsuperscript{1,2,*} 
+    }} \par
+    \vskip 1.5em
+    {\small \textsuperscript{1} Department of Biotechnology, Faculty of Chemical Engineering, Ho Chi Minh City University of Technology (HCMUT) \par}
+    {\small \textsuperscript{2} Office for International Study Programs, Ho Chi Minh City University of Technology (HCMUT), 268 Ly Thuong Kiet Street, Dien Hong Ward, Ho Chi Minh City, Vietnam \par}
+    \vskip 1em
+    {\small * Corresponding author: hoangmydung@hcmut.edu.vn \par}
+    \end{center}
+}
+\makeatother
+
+\begin{document}
+\sloppy % Allow more flexible word spacing to avoid hyphenation
+
+\maketitle
+
+\begin{abstract}
+This study investigates the biological impact of Ultraviolet (UV) radiation on bacterial genomic integrity through a comprehensive molecular biology workflow. The experimental procedure began with the cultivation of bacteria in liquid MRS medium, followed by controlled UV exposure for 30 minutes to induce DNA damage. To assess cellular recovery and genetic stability, DNA was extracted using the Trizol-chloroform method across varying post-exposure incubation intervals. The extracted genetic material was subsequently analyzed via Polymerase Chain Reaction (PCR) and Agarose Gel Electrophoresis to evaluate the success of DNA recovery and the extent of UV-induced modifications. This integrated approach provides a practical framework for understanding DNA damage mechanisms and the fundamental techniques of genetic analysis, bridging the gap between theoretical molecular biology and laboratory application.
+\end{abstract}
+
+\noindent\textbf{Keywords:} UV radiation; DNA extraction; Trizol method; PCR; Electrophoresis; Bacterial DNA integrity.
+
+\vskip 2em
+\hrule
+\vskip 2em
+
+\section{Introduction}
+In the field of molecular biology, the ability to isolate, amplify, and analyze genetic material is a foundational requirement for both research and diagnostic applications. Among the various environmental factors affecting genetic stability, Ultraviolet (UV) radiation serves as a primary mutagenic agent capable of inducing structural lesions in DNA. Understanding how these stressors impact microbial genomes is essential for studying DNA repair mechanisms and evolutionary biology.
+
+This laboratory series was designed to equip students with essential techniques in molecular genetics while observing the real-time effects of UV-induced stress on bacterial cultures. The workflow encompasses a complete cycle of molecular analysis:
+\begin{itemize}
+    \item Bacterial Cultivation: Establishing a robust biomass in MRS medium at 37$^\circ$C.
+    \item Mutagenic Treatment: Subjecting the samples to UV exposure and monitoring recovery phases.
+    \item Genomic Extraction: Utilizing the Trizol reagent protocol to isolate high-quality DNA through organic phase separation and centrifugation at 12000g.
+    \item Molecular Characterization: Employing PCR amplification and agarose gel electrophoresis at 110mV to visualize and verify the targeted DNA segments.
+\end{itemize}
+By integrating these core methodologies, the experiment provides a comprehensive assessment of the impact of physical stressors on bacterial DNA, reinforcing the theoretical principles of molecular genetics through empirical evidence.
+
+\section{Theoretical Background}
+
+\subsection{UV-Induced DNA Damage and Repair}
+Ultraviolet (UV) radiation, particularly in the UV-C (200--280 nm) and UV-B (280--320 nm) ranges, is a potent mutagen that causes direct damage to DNA. The most common lesions are cyclobutane pyrimidine dimers (CPDs) and 6-4 photoproducts, formed between adjacent pyrimidine bases (cytosine or thymine) \cite{1}. These structural distortions interfere with DNA replication and transcription, potentially leading to mutations or cell death. Bacteria have evolved several repair mechanisms, including photoreactivation and nucleotide excision repair (NER), to maintain genomic integrity following UV exposure \cite{1}.
+
+\subsection{Principles of Nucleic Acid Extraction}
+The isolation of high-purity genomic DNA is a prerequisite for downstream molecular applications. The Trizol method (acid guanidinium thiocyanate-phenol-chloroform extraction) is a widely used technique for the simultaneous isolation of RNA, DNA, and proteins \cite{2}. Guanidinium thiocyanate acts as a powerful denaturant that lyses cells and inactivates nucleases. The addition of chloroform leads to phase separation: DNA partitions into the interphase or organic phase under acidic conditions, but can be recovered from the organic phase using specialized back-extraction buffers (BEB) which shift the pH to allow DNA solubilization into the aqueous phase \cite{2}.
+
+\subsection{Polymerase Chain Reaction (PCR)}
+PCR is an \textit{in vitro} technique for the exponential amplification of specific DNA sequences. The process relies on thermal cycling, consisting of three discrete temperature steps: denaturation (to separate DNA strands), annealing (to allow primers to bind to target sequences), and extension (where a thermostable DNA polymerase, such as Taq, synthesizes new DNA strands) \cite{3}. PCR allows for the detection of even minute quantities of genetic material, making it essential for verifying the presence and integrity of extracted DNA.
+
+\subsection{Agarose Gel Electrophoresis}
+Agarose gel electrophoresis is the standard method for separating DNA fragments based on their size and charge. Under an electric field, negatively charged DNA molecules migrate through the porous agarose matrix toward the positive anode \cite{4}. Smaller fragments migrate faster than larger ones, allowing for the determination of fragment sizes when compared against a molecular weight marker (ladder). Visualization is typically achieved using fluorescent dyes, such as GelRed, which intercalate with DNA and fluoresce under UV light \cite{4}.
+
+\section{Materials \& Methods}
+% WIP: Commented out for future implementation
+% \subsection{Experimental Workflow}
+% \subsection{Bacterial Cultivation}
+% \subsection{UV Treatment and Recovery}
+% \subsection{DNA Extraction Protocol}
+% \subsection{PCR Amplification}
+% \subsection{Electrophoresis Analysis}
+
+\section{Results \& Discussion}
+% WIP: Commented out for future implementation
+
+\section{Conclusion}
+% WIP: Commented out for future implementation
+
+\begin{thebibliography}{9}
+\bibitem{1} Setlow, R. B. (1968). The photochemistry, photobiology, and repair of polynucleotides. \emph{Progress in Nucleic Acid Research and Molecular Biology}, 8, 257--295.
+\bibitem{2} Chomczynski, P., \& Sacchi, N. (1987). Single-step method of RNA isolation by acid guanidinium thiocyanate-phenol-chloroform extraction. \emph{Analytical Biochemistry}, 162(1), 156--159.
+\bibitem{3} Saiki, R. K., et al. (1988). Primer-directed enzymatic amplification of DNA with a thermostable DNA polymerase. \emph{Science}, 239(4839), 487--491.
+\bibitem{4} Lee, P. Y., et al. (2012). Agarose gel electrophoresis for the separation of DNA fragments. \emph{Journal of Visualized Experiments}, (62), e3923.
+\end{thebibliography}
+
+\end{document}
