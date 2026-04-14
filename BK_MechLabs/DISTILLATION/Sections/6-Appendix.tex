@@ -1,0 +1,128 @@
+% !TEX root = ../5.DISTILLATION.tex
+\section{APPENDIX}
+
+\subsection{Physical Properties and Constants}
+
+The following data for Ethanol and Water was used in the calculations, distinguishing between molar and mass-based units:
+
+\textbf{Ethanol (C$_2$H$_5$OH):}
+\begin{itemize}
+    \item Molecular weight: $M_r = 46$ g/mol
+    \item Specific weight: $\rho_r = 0.772$ g/ml
+    \item Molar Specific heat ($40 - 80^\circ$C): $C_{r, mol} = 119.6$ J/mol.K
+    \item Mass Specific heat ($40 - 80^\circ$C): $C_{r, mass} = 2824$ J/kg.K
+    \item Latent heat of vaporization ($86.5^\circ$C): $r_r = 39741$ J/mol
+\end{itemize}
+
+\textbf{Water (H$_2$O):}
+\begin{itemize}
+    \item Molecular weight: $M_n = 18$ g/mol
+    \item Specific weight ($40 - 80^\circ$C): $\rho_n = 0.992$ g/ml
+    \item Molar Specific heat ($40 - 80^\circ$C): $C_{n, mol} = 75.24$ J/mol.K
+    \item Mass Specific heat ($40 - 80^\circ$C): $C_{n, mass} = 4186$ J/kg.K
+    \item Latent heat of vaporization ($86.5^\circ$C): $r_n = 41200$ J/mol
+\end{itemize}
+
+\subsection{Property Calculation Formulas}
+
+The following parameters were calculated for each experiment:
+
+\begin{enumerate}
+    \item \textbf{Flow rate conversion ($ml/min$):}
+          \begin{equation}
+              F_{ml/min} = F_{raw} \cdot 5.64
+          \end{equation}
+
+    \item \textbf{Molar fraction ($x_D, x_F$):}
+          \begin{equation}
+              x = \frac{C/M_r}{C/M_r + (1-C)/M_n}
+          \end{equation}
+          where $C$ is the mass concentration.
+
+    \item \textbf{Molar flow rate (mol/min):}
+          \begin{equation}
+              n = \frac{V \cdot \rho}{M_{mix} \cdot 60}
+          \end{equation}
+
+    \item \textbf{Average specific heat of the mixture ($C_{mix}$):}
+          \begin{equation}
+              C_{mix} = x \cdot C_R + (1-x) \cdot C_N
+          \end{equation}
+
+    \item \textbf{Average latent heat of the mixture ($r_{mix}$):}
+          \begin{equation}
+              r_{mix} = x \cdot r_R + (1-x) \cdot r_N
+          \end{equation}
+
+    \item \textbf{Feed quality ($q$):}
+          \begin{equation}
+              q = \frac{H_{GF} - H_F}{H_{GF} - H_{LF}}
+          \end{equation}
+
+    \item \textbf{Overall Efficiency ($E_0$):}
+          \begin{equation}
+              E_0 = \frac{n_{LT}}{n_T}
+          \end{equation}
+          where $n_{LT}$ is the number of theoretical trays and $n_T$ is the number of actual trays (5).
+\end{enumerate}
+
+\subsection{Supplemental Data Tables}
+
+Additional density values used for interpolation:
+
+\begin{table}[H]
+    \centering
+    \caption{Measured density values for various streams}
+    \begin{tabular}{lcccc}
+        \toprule
+        \textbf{Stream}   & \textbf{Temp ($^\circ$C)} & \textbf{$\rho_r$ (kg/m$^3$)} & \textbf{$\rho_n$ (kg/m$^3$)} & \textbf{$\rho_{tb}$ (kg/m$^3$)} \\
+        \midrule
+        Distillate (High) & 100.0                     & 716.20                       & 960.60                       & -                               \\
+        Distillate (Low)  & 44.0                      & 769.23                       & 990.06                       & 901.73                          \\
+        Feed              & 50.0                      & 763.85                       & 987.80                       & 947.49                          \\
+        Reflux            & 38.0                      & 774.542                      & 992.096                      & 905.33                          \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\subsection{Specific and Latent Heat Calculation}
+
+\begin{table}[H]
+    \centering
+    \caption{Specific and latent heat values (average)}
+    \begin{tabular}{lr}
+        \toprule
+        \textbf{Parameter}            & \textbf{Value}    \\
+        \midrule
+        Boiling point $t_{F, sôi}$    & 89 $^\circ$C      \\
+        Molecular fraction $x_{F}$    & 0.0623            \\
+        Specific Heat $C_R$ (Ethanol) & 3333.60 J/kg.K    \\
+        Specific Heat $C_N$ (Water)   & 4227.86 J/kg.K    \\
+        Average Specific Heat $C_F$   & 4102.66 J/kg.K    \\
+        Latent Heat $r_F$             & 2178129.90 J/kg.K \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\subsection{Nomenclature}
+
+\begin{table}[H]
+    \centering
+    \caption{Nomenclature and Symbols}
+    \begin{tabular}{lll}
+        \toprule
+        \textbf{Symbol}  & \textbf{Description}                                 & \textbf{Unit} \\
+        \midrule
+        $\alpha$         & Relative volatility                                  & [-]           \\
+        $x_D, x_F, x_W$  & Mole fraction of Ethanol (Distillate, Feed, Bottoms) & [-]           \\
+        $y_n$            & Mole fraction of Ethanol in vapor phase (stage n)    & [-]           \\
+        $R$              & Reflux ratio                                         & [-]           \\
+        $q$              & Feed condition parameter                             & [-]           \\
+        $L, V, D$        & Flow rates (Liquid, Vapor, Distillate)               & [mol/ph]      \\
+        $\rho_r, \rho_n$ & Density (Ethanol, Water)                             & [kg/m$^3$]    \\
+        $r_r, r_n$       & Latent heat of vaporization                          & [J/mol]       \\
+        $E_0$            & Overall column efficiency                            & [-]           \\
+        $n_{LT}$         & Number of theoretical stages                         & [-]           \\
+        \bottomrule
+    \end{tabular}
+\end{table}

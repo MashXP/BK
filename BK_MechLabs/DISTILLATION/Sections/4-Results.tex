@@ -1,0 +1,115 @@
+% !TEX root = ../5.DISTILLATION.tex
+\section{EXPERIMENTAL RESULTS}
+
+\subsection{Raw Data}
+
+\begin{table}[H]
+    \centering
+    \caption{Raw experimental results}
+    \label{tab:raw_data}
+    \begin{tabular}{cccccccccc}
+        \toprule
+        \textbf{No} & \textbf{Loc.} & \textbf{F}       & \textbf{D}       & \textbf{Reflux} & \multicolumn{2}{c}{\textbf{Conc. (\%)}} & \multicolumn{3}{c}{\textbf{Temp. ($^\circ$C)}}                                                       \\
+        \cmidrule(lr){6-7} \cmidrule(lr){8-10}
+                    & \textbf{Feed} & \textbf{(ml/ph)} & \textbf{(ml/ph)} & \textbf{$L_o$}  & \textbf{Feed}                           & \textbf{Dist.}                                 & \textbf{$t_F$} & \textbf{$t_D$} & \textbf{$t_{Lo}$} \\
+        \midrule
+        1           & 4             & 30               & 132              & 5               & 40                                      & 88                                             & 66             & 54             & 82                \\
+        2           & 4             & 30               & 100              & 10              & 40                                      & 88.4                                           & 67             & 54             & 81                \\
+        3           & 4             & 30               & 74               & 15              & 40                                      & 94.75                                          & 66             & 54             & 80                \\
+        4           & 2             & 30               & 80               & 10              & 40                                      & 76                                             & 67             & 54             & 86                \\
+        5           & 5             & 30               & 80               & 10              & 40                                      & 74.5                                           & 69             & 54             & 83                \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\subsection{Data Processing}
+
+\begin{table}[H]
+    \centering
+    \caption{Raw results processing (mol fractions)}
+    \label{tab:processing}
+    \begin{tabular}{cccccccc}
+        \toprule
+        \textbf{No} & \textbf{Loc.} & \textbf{F}\footnote{Calibration factor: $V_{ml/min} = V_{reading} \times 5.64$} & \textbf{D}       & \textbf{Reflux} & \textbf{$x_F$} & \textbf{$x_D$} & \textbf{$x_W$} \\
+                    & \textbf{Feed} & \textbf{(ml/min)} & \textbf{(ml/ph)} & \textbf{$L_o$}  &                &                &                \\
+        \midrule
+        1           & 4             & 169.2             & 132              & 28.2            & 0.0623         & 0.1685         & 0.029          \\
+        2           & 4             & 169.2             & 100              & 56.4            & 0.0622         & 0.1992         & 0.004          \\
+        3           & 4             & 169.2             & 74               & 84.6            & 0.0623         & 0.3226         & 0.031          \\
+        4           & 2             & 169.2             & 80               & 56.4            & 0.0624         & 0.2059         & 0.024          \\
+        5           & 5             & 169.2             & 80               & 56.4            & 0.0624         & 0.2126         & 0.025          \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Calculation Results}
+    \label{tab:calculations}
+    \begin{tabular}{cccccccc}
+        \toprule
+        \textbf{No} & \textbf{Loc.} & \textbf{R} & \textbf{$t_F$} & \textbf{$H_F$} & \textbf{$H_{GF}$} & \textbf{$H_{LF}$} & \textbf{$q$} \\
+        \midrule
+        1           & 4             & 0.21       & 66             & 270            & 2983              & 308               & 1.01         \\
+        2           & 4             & 0.56       & 67             & 274            & 2983              & 307               & 1.01         \\
+        3           & 4             & 1.14       & 66             & 270            & 2963              & 287               & 1.01         \\
+        4           & 2             & 0.71       & 67             & 274            & 3003              & 327               & 1.02         \\
+        5           & 5             & 0.71       & 69             & 283            & 3005              & 330               & 1.02         \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Operating lines and efficiency results}
+    \label{tab:lines}
+    \begin{tabular}{cccccc}
+        \toprule
+        \textbf{No} & \textbf{Input line}  & \textbf{Rectification line} & \textbf{$n_{LT}$} & \textbf{Ratio\footnote{Likely $\frac{n_{LT}}{n_{actual}}$ as per original notes}} & \textbf{$E_o$} \\
+        \midrule
+        1           & $y = 72.23x - 6.15$  & $y = 0.18x + 0.42$          & 1                 & 0.5 & 0.510          \\
+        2           & $y = 82.05x - 7.00$  & $y = 0.36x + 0.332$         & 2                 & 1.1 & 0.520          \\
+        3           & $y = 157.2x - 13.49$ & $y = 0.53x + 0.336$         & 2                 & 1.5 & 0.719          \\
+        4           & $y = 51.25x - 4.34$  & $y = 0.41x + 0.182$         & 2                 & 1.0 & 0.310          \\
+        5           & $y = 57.7x - 4.89$   & $y = 0.41x + 0.172$         & 3                 & 1.7 & 0.293          \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\subsection{Graphical Analysis}
+
+Schematic calculation of theoretical trays was performed for each experiment using the Python calculation suite. The resulting McCabe-Thiele diagrams are shown in Figure \ref{fig:mt_plots}.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{Figures/plot_1.png}
+        \caption{Experiment 1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{Figures/plot_2.png}
+        \caption{Experiment 2}
+    \end{subfigure}
+
+    \vspace{0.5cm}
+
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{Figures/plot_3.png}
+        \caption{Experiment 3}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{Figures/plot_4.png}
+        \caption{Experiment 4}
+    \end{subfigure}
+
+    \vspace{0.5cm}
+
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{Figures/plot_5.png}
+        \caption{Experiment 5}
+    \end{subfigure}
+    \caption{McCabe-Thiele diagrams for all five experiments.}
+    \label{fig:mt_plots}
+\end{figure}
