@@ -42,3 +42,9 @@ Xác định thể chế chính trị quản lý nhà nước
 4. Xác định cơ cấu kinh tế 
 5. Con người giữ vai trò quyết định
 Giáo dục? 
+
+
+Từ năm đổi mới, đổi mới kinh tế kế hoạch hóa tập trung có bao cấp:
+1. Nền kinh tế này quan lý chủ yếu bằng mệnh lệnh với chỉ tiêu có tính pháp lệnh tập trung từ trên xuống dưới
+2. Can thiệp sâu vào hdsx kinh doanh của các doanh nghiệp nhưng ko chịu trách nhiệm về mặt pháp lý và vật chất với quy định của mình
+3. Cồng kềnh kém năng động sinh ra quan liêu, sức ỳ lớn
