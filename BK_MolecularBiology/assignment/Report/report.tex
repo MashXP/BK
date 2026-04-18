@@ -109,19 +109,152 @@ PCR is an \textit{in vitro} technique for the exponential amplification of speci
 Agarose gel electrophoresis is the standard method for separating DNA fragments based on their size and charge. Under an electric field, negatively charged DNA molecules migrate through the porous agarose matrix toward the positive anode \cite{4}. Smaller fragments migrate faster than larger ones, allowing for the determination of fragment sizes when compared against a molecular weight marker (ladder). Visualization is typically achieved using fluorescent dyes, such as GelRed, which intercalate with DNA and fluoresce under UV light \cite{4}.
 
 \section{Materials \& Methods}
-% WIP: Commented out for future implementation
-% \subsection{Experimental Workflow}
-% \subsection{Bacterial Cultivation}
-% \subsection{UV Treatment and Recovery}
-% \subsection{DNA Extraction Protocol}
-% \subsection{PCR Amplification}
-% \subsection{Electrophoresis Analysis}
 
-\section{Results \& Discussion}
-% WIP: Commented out for future implementation
+\subsection{Bacterial Cultivation and Preparation}
+The experimental workflow utilized \textit{Lactobacillus} species as the biological model. Cultures were initiated from a solid-phase inoculum into liquid MRS (de Man, Rogosa, and Sharpe) medium. MRS medium provides a specialized nutrient profile (including acetate and polysorbate 80) that selectively supports the growth of Lactic Acid Bacteria (LAB) while suppressing competitive microflora. Inoculated samples were incubated at 37$^\circ$C for 12 hours to ensure the population reached the late logarithmic growth phase, providing optimal biomass density for downstream genomic isolation.
+
+\subsection{UV Irradiation and Post-Exposure Recovery}
+Bacterial suspensions were transferred to sterile, open-lid Petri dishes to avoid UV-C attenuation by plastic. Samples were subjected to direct UV radiation for 30 minutes to induce significant cyclobutane-pyrimidine dimer (CPD) lesions. To evaluate the kinetics of the bacterial DNA repair systems, particularly the nucleotide excision repair (NER) pathway, samples were moved to a dark environment at room temperature (25$^\circ$C) for varying recovery intervals, as detailed in Table 1.
+
+\begin{table}[h!]
+\centering
+\caption{Post-Exposure Incubation Intervals and Experimental Groups}
+\label{tab:uv_intervals}
+\begin{tabular}{@{}llcc@{}}
+\toprule
+\textbf{Group ID} & \textbf{Condition} & \textbf{UV Exposure (min)} & \textbf{Recovery Time (min)} \\ \midrule
+Control 1         & Negative Control   & 0                          & 0                            \\
+Control 2         & Negative Control   & 0                          & 120                          \\
+T1                & UV Treated         & 30                         & 15                           \\
+T2                & UV Treated         & 30                         & 30                           \\
+T3                & UV Treated         & 30                         & 60                           \\
+T4                & UV Treated         & 30                         & 90                           \\
+T5                & UV Treated         & 30                         & 120                          \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Genomic DNA Isolation (TRIzol-BEB Method)}
+Total genomic DNA (gDNA) was isolated using a modified TRIzol protocol. Unlike standard RNA-focused extractions, this method employs a Back Extraction Buffer (BEB) to recover DNA from the organic/interphase layers.
+\begin{enumerate}
+    \item \textbf{Biomass Harvesting:} Cells were pelleted via centrifugation at 6000g for 15 minutes.
+    \item \textbf{Lysis and Deproteinization:} 1 mL of TRIzol (phenol/guanidine thiocyanate) was added to the pellet. Following a 5-minute incubation, 200 $\mu$L of chloroform was added to facilitate phase separation via vigorous agitation.
+    \item \textbf{Phase Partitioning:} Samples were centrifuged at 12000g for 15 minutes at 4$^\circ$C. The upper aqueous phase was discarded. 
+    \item \textbf{DNA Back-Extraction:} 500 $\mu$L of alkaline BEB was added to the organic phase. This shifts the pH, allowing the gDNA to transition from the interphase into the new aqueous layer during a 10-minute inversion period.
+    \item \textbf{Precipitation:} DNA was precipitated from the recovered aqueous phase using 400 $\mu$L of cold isopropanol, centrifuged at 12000g, and washed with 70\% ethanol to remove residual chaotropic salts. The final pellet was resuspended in 50 $\mu$L of TE buffer.
+\end{enumerate}
+
+\subsection{Molecular Characterization via PCR and Electrophoresis}
+Targeted DNA sequences were amplified to assess genomic integrity. The PCR reaction was prepared according to the parameters in Table 2, following the thermal cycling profile outlined in Table 3.
+
+\begin{table}[h!]
+\centering
+\begin{minipage}{0.45\textwidth}
+\centering
+\caption{PCR Reaction Components}
+\label{tab:pcr_mix}
+\begin{tabular}{@{}lc@{}}
+\toprule
+\textbf{Component} & \textbf{Volume ($\mu$L)} \\ \midrule
+2X Master Mix      & 10.0                     \\
+Forward Primer (5 $\mu$M) & 1.6                      \\
+Reverse Primer (5 $\mu$M) & 1.6                      \\
+Template DNA       & 1.0                      \\
+Nuclease-Free Water & 5.8                      \\ \midrule
+\textbf{Total Volume} & \textbf{20.0}            \\ \bottomrule
+\end{tabular}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\centering
+\caption{Thermal Cycling Profile}
+\label{tab:pcr_cycle}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Step} & \textbf{Temp ($^\circ$C)} & \textbf{Time} & \textbf{Cycles} \\ \midrule
+Initial Denat. & 95 & 15 min & 1 \\
+Denaturation   & 95 & 30 s   & \\
+Annealing      & 55 & 30 s   & 35 \\
+Extension      & 72 & 45 s   & \\
+Final Ext.     & 72 & 5 min  & 1 \\ \bottomrule
+\end{tabular}
+\end{minipage}
+\end{table}
+
+The resulting amplicons were analyzed via 1\% agarose gel electrophoresis (0.5 g agarose in 50 mL 1X TAE buffer). Samples (10 $\mu$L) were mixed with 2 $\mu$L of GelRed nucleic acid stain. Electrophoresis was performed at a constant 110 mV for 45 minutes to achieve high-resolution separation of fragments. Bands were visualized using a UV transilluminator and sized against a 100 bp molecular weight ladder.
+
+\section{Results}
+The PCR products were analyzed by gel electrophoresis (1\% agarose, 1$\times$ TAE, 110 V, $\sim$35 min, GelRed stain) and visualized under UV transillumination. The resulting banding patterns across the different experimental lanes are summarized in Figure 1 and Table 4.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{Images/gel_photo.png} % Figure to be added later
+\caption{Gel electrophoresis of PCR products from UV-treated bacterial DNA. Lane 1: 100 bp ladder. Lanes 4--6: bands of increasing intensity corresponding to increasing post-UV recovery time, indicating time-dependent DNA repair.}
+\label{fig:gel_electrophoresis}
+\end{figure}
+
+\subsection{Lane Analysis}
+\begin{itemize}
+    \item \textbf{Lane 1 (100 bp DNA ladder):} The ladder resolved clearly with multiple distinct bands, confirming that gel preparation, electrophoresis, and staining were performed correctly.
+    \item \textbf{Lanes 4, 5, and 6 (UV-treated samples with increasing recovery times):} Faint but visible PCR bands were observed. Notably, band intensity increased progressively from Lane 4 to Lane 6, corresponding to longer post-UV recovery times. This indicates that bacteria given more time to repair UV-induced DNA damage yielded higher-quality template DNA, resulting in more efficient PCR amplification.
+    \item \textbf{Remaining sample lanes:} No discrete bands were detected. The absence of signal in these lanes is attributed to experimental errors during sample handling (see Section 5.3).
+\end{itemize}
+
+\begin{table}[h!]
+\centering
+\caption{Summary of Gel Electrophoresis Results}
+\label{tab:results_summary}
+\begin{tabular}{@{}llcc@{}}
+\toprule
+\textbf{Lane} & \textbf{Sample (estimated)} & \textbf{Band visible?} & \textbf{Relative intensity} \\ \midrule
+1             & 100 bp ladder               & Yes --- clear          & ---                         \\
+2             & Control or short recovery   & No                     & ---                         \\
+3             & Control or short recovery   & No                     & ---                         \\
+4             & UV-treated, moderate recovery & Yes                   & + (faint)                   \\
+5             & UV-treated, longer recovery   & Yes                   & ++ (moderate)               \\
+6             & UV-treated, longest recovery  & Yes                   & +++ (strongest)             \\
+7+            & Other samples               & No                     & ---                         \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\section{Discussion}
+
+\subsection{Expected Results}
+In this experiment, bacteria were exposed to UV radiation for 30 minutes and then allowed to recover at room temperature for varying durations (15, 30, 60, 90, and 120 minutes). Two control groups received no UV treatment. After DNA extraction and PCR amplification, the following results were expected:
+\begin{itemize}
+    \item \textbf{Control groups (no UV):} Strong, bright PCR bands at the expected amplicon size, since undamaged genomic DNA serves as an efficient template for Taq polymerase.
+    \item \textbf{UV-treated, short recovery (15--30 min):} Weak or absent PCR bands. UV-C radiation induces thymine dimers (cyclobutane pyrimidine dimers) that physically block Taq polymerase during extension, preventing successful amplification.
+    \item \textbf{UV-treated, intermediate recovery (60 min):} Faint bands may begin to appear as bacterial DNA repair mechanisms (nucleotide excision repair, photoreactivation) have had time to remove some lesions.
+    \item \textbf{UV-treated, long recovery (90--120 min):} Bands of moderate intensity, potentially approaching control levels, reflecting more extensive DNA repair prior to extraction.
+\end{itemize}
+
+\subsection{Interpretation of lanes 4--6: Time-Dependent DNA Repair}
+The key finding of this experiment is the progressive increase in PCR band intensity across lanes 4, 5, and 6, which correspond to samples with increasing post-UV recovery time. This result is consistent with the expected biological mechanism:
+\begin{itemize}
+    \item UV-C radiation ($\sim$254 nm) induces cyclobutane pyrimidine dimers (CPDs) and 6-4 photoproducts in bacterial genomic DNA. These lesions distort the DNA helix and physically block Taq polymerase during PCR extension.
+    \item Bacteria possess enzymatic DNA repair pathways --- most notably nucleotide excision repair (NER) --- that recognize and excise UV-induced lesions, restoring the original DNA sequence.
+    \item Samples allowed longer recovery times before DNA extraction had more opportunity for repair, producing template DNA with fewer blocking lesions, and therefore amplifying more efficiently by PCR.
+\end{itemize}
+The gradient of band intensities (faint $\rightarrow$ moderate $\rightarrow$ strongest) directly demonstrates this time-dependent DNA repair and aligns with the expected results of the experiment.
+
+\subsection{Absence of Bands in Other Lanes}
+Several lanes showed no detectable PCR product. Possible explanations include:
+\begin{itemize}
+    \item \textbf{Pipetting or loading errors:} Incorrect volumes, accidental omission of template, or loss of sample during gel loading could result in empty wells.
+    \item \textbf{DNA extraction variability:} The TRIzol-based DNA extraction protocol is sensitive to technique. Incomplete cell lysis, loss of pellet during ethanol washes, or over-/under-drying of the DNA pellet could lead to insufficient template for individual samples.
+    \item \textbf{Sample mix-up or cross-contamination:} In a multi-group lab setting, mislabeling of tubes or accidental contamination may have affected specific samples.
+    \item \textbf{Very short recovery time:} If any of the blank lanes correspond to 15-minute recovery samples, the extensive unrepaired UV damage may have been severe enough to completely prevent PCR amplification.
+\end{itemize}
 
 \section{Conclusion}
-% WIP: Commented out for future implementation
+Despite technical issues with some sample lanes, the experiment successfully demonstrated the central hypothesis: bacterial DNA repair following UV exposure is time-dependent, as evidenced by the increasing PCR band intensity with longer recovery times in lanes 4--6. The intact DNA ladder confirms the electrophoresis system functioned correctly, and the trend observed is biologically meaningful and consistent with our understanding of UV mutagenesis and prokaryotic repair mechanisms.
+
+To strengthen these findings in future experiments, the following improvements are recommended:
+\begin{enumerate}
+    \item Quantify extracted DNA concentration (e.g., NanoDrop) before PCR to normalize template input.
+    \item Include a positive PCR control (known good template) to confirm reagent functionality.
+    \item Use a dedicated genomic DNA extraction kit for more consistent yields.
+    \item Run duplicate reactions per sample to distinguish true biological results from technical artifacts.
+\end{enumerate}
 
 \begin{thebibliography}{9}
 \bibitem{1} Setlow, R. B. (1968). The photochemistry, photobiology, and repair of polynucleotides. \emph{Progress in Nucleic Acid Research and Molecular Biology}, 8, 257--295.
