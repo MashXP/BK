@@ -5,7 +5,7 @@
 - [[03_MicroorganismsInFermentationTechnology|Chapter 3: Microorganisms in fermentation technology]]
 - [[04_Fermenters|Chapter 4: Fermenters]]
 - [[05_FermentationMedium|Chapter 5: Media for Fermentation]]
-- [[06_FermentationProducts|Chapter 6: Fermentation products]]
+- [[06_ProcessesSterilizationRecoveryPurification|Chapter 6: Processes: Sterilization, Recovery, and Purification]]
 
 ---
 
@@ -21,6 +21,4 @@ Prepare 4-5 slides to answer the question.
 4. **Antibiotic** (G6)
 5. Phages
 6. Food Waste/Composting
-
-### 2026-02-26
 
