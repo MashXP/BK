@@ -1,0 +1,75 @@
+% !TEX root = ../7.RETENTIONTIME.tex
+\section{CALCULATION}
+
+\subsection{Calculated values for 1 tank system}
+\subsubsection{Experiment}
+Maximum absorption: $D_0 = 0.03$
+
+Average retention time:
+\begin{equation}
+    \bar{t} = \frac{\sum D_i t_i}{\sum D_i}
+\end{equation}
+
+Compact time:
+\begin{equation}
+    \theta = \frac{t}{\bar{t}}
+\end{equation}
+
+Measurement of retention time's distribution:
+\begin{equation}
+    E_{\theta} = \frac{D}{D_0}
+\end{equation}
+
+\subsubsection{Theory}
+Water flowrate input to the tank: $v = 0.4$ (l/min) = $0.4 \times 10^{-3}~(m^3/min)$
+
+Tank volume: $V = \frac{\pi}{4} \times 0.148^2 \times 0.12 = 0.0021~(m^3)$
+
+Volume time:
+\begin{equation}
+    \tau = \frac{V}{v} = 5.16~\text{min}
+\end{equation}
+
+Compact time:
+\begin{equation}
+    \theta = \frac{t}{\tau}
+\end{equation}
+
+Measurement of retention time's distribution:
+\begin{equation}
+    E_{\theta} = e^{-\theta}
+\end{equation}
+
+\subsection{Calculated values for 2 tank system}
+\subsubsection{Experiment}
+Maximum absorption: $D_0 = 0.03 / 2 = 0.015$
+
+\subsubsection{Theory}
+Tank volume: $V = 2 \times \frac{\pi}{4} \times 0.148^2 \times 0.12 = 0.0041~(m^3)$
+
+Volume time:
+\begin{equation}
+    \tau = \frac{V}{v} = 10.32~\text{min}
+\end{equation}
+
+Measurement of retention time's distribution ($N=2$):
+\begin{equation}
+    E_{\theta} = \frac{N(N\theta)^{N-1}}{(N-1)!} e^{-N\theta} = 2(2\theta) e^{-2\theta}
+\end{equation}
+
+\subsection{Calculated values for 3 tank system}
+\subsubsection{Experiment}
+Maximum absorption: $D_0 = 0.03 / 3 = 0.01$
+
+\subsubsection{Theory}
+Tank volume: $V = 3 \times \frac{\pi}{4} \times 0.148^2 \times 0.12 = 0.0062~(m^3)$
+
+Volume time:
+\begin{equation}
+    \tau = \frac{V}{v} = 15.48~\text{min}
+\end{equation}
+
+Measurement of retention time's distribution ($N=3$):
+\begin{equation}
+    E_{\theta} = \frac{N(N\theta)^{N-1}}{(N-1)!} e^{-N\theta} = \frac{3(3\theta)^2}{2} e^{-3\theta}
+\end{equation}

@@ -1,0 +1,602 @@
+![OISP_Logo](media/image1.png){width="0.9371314523184602in"
+height="0.9305555555555556in"}
+
+**HO CHI MINH CITY UNIVERSITY OF TECHNOLOGY**
+
+**OFFICE FOR INTERNATIONAL STUDY PROGRAMS**
+
+**RENTENTION TIME**
+
+Department: Processes and Equipment
+
+Class: CC15HC1
+
+Nguyeãn Minh Thuøy -- 1552369
+
+11 May 2018
+
+**\
+**
+
+**OUTLINE**
+
+[**1.** **ABSTRACT:** [3](#_Toc513714883)](#_Toc513714883)
+
+[*1.1.* *Experimental purpose:* [3](#_Toc513714884)](#_Toc513714884)
+
+[*1.2.* *Experimental results:* [3](#_Toc513714885)](#_Toc513714885)
+
+[**2.** **EXPERIMENTAL THEORIES :** [4](#_Toc513714886)](#_Toc513714886)
+
+[*2.1.* *Basic concept:* [4](#_Toc513714887)](#_Toc513714887)
+
+[*2.2.* *Methods of studying retention time:*
+[4](#_Toc513714888)](#_Toc513714888)
+
+[*2.3.* *Retention time distribution function of CSTRs's model:*
+[6](#_Toc513714889)](#_Toc513714889)
+
+[**3.** **EXPERIMENTAL EQUIPMENT:** [7](#_Toc513714890)](#_Toc513714890)
+
+[**4.** **EXPERIMENTAL METHODS:** [7](#_Toc513714891)](#_Toc513714891)
+
+[**5.** **EXPERIMENT RESULTS:** [8](#_Toc513714892)](#_Toc513714892)
+
+[**6.** **DISCUSSION:** [11](#_Toc513714893)](#_Toc513714893)
+
+[**7.** **CALCULATION:** [12](#_Toc513714894)](#_Toc513714894)
+
+[**8.** **REFERRENCES:** [14](#_Toc513714895)](#_Toc513714895)
+
+#  
+
+1.  []{#_Toc513714883 .anchor}**ABSTRACT:**
+
+    1.  []{#_Toc513714884 .anchor}***Experimental purpose:***
+
+- Survey retention time of a system of continuous stirred-tank
+  reactors(CSTRs).
+
+- Determine real retention time distribution function of and compare
+  with theoretical retention time distribution function.
+
+  1.  []{#_Toc513714885 .anchor}***Experimental results:***
+
+Maximum absorbance (for 1 reactor): D~o~ = 0,03
+
+Reactor diameter: d = 14.8 (cm)
+
+Water level in the CSTR: H = 12 (cm)
+
+Flowrate of water: v = 0,4 (litter/min)
+
+**[Table 1]{.underline}:** *Raw results*
+
+![](media/image2.png){width="3.991613079615048in"
+height="7.73511154855643in"}
+
+2.  []{#_Toc513714886 .anchor}**EXPERIMENTAL THEORIES :**
+
+    1.  []{#_Toc513714887 .anchor}***Basic concept:***
+
+In the equipment system, different fluid elements will follow different
+paths. Based on defined retention time distribution function, we can
+evaluate correlatively about the flows in the equipments, drawbacks when
+designing such as some areas where propeller cannot reach,\... and find
+ways to overcome thanks to this evaluation.
+
+Study of retention time is a necessary method for comparing equipment
+based on material flow, from which we can improve, set up the optimal
+model.
+
+Also, based on retention time distribution function, we can operate
+optimally and thereby set parameters, control methods as well as
+optimize the process in the equipment.
+
+The retention time of an element in the system is the time that the
+element stays in the reactor, or in any equipment to be surveyed.
+Retention time of an equipment is a probability quantity. So, all
+retention times are around the average retention time, therefore
+determining the average retention time is particularly significant.
+
+![](media/image3.wmf) (1)
+
+Where: t~Vi~ is retention time of an element i.
+
+With the definition of retention time distribution function F (t~V~) = E
+(t~V~):
+
+![](media/image4.wmf) (2)
+
+Or: ![](media/image5.wmf) (3)
+
+With point functions we have:
+
+![](media/image6.wmf) (4)
+
+K is equal split.
+
+Average retention time according to volume:
+
+![](media/image7.wmf) (5)
+
+With V~R~ : Volume of fluid in the reactor, litter.
+
+V~M~: Flowrate of the input, litter/sec.
+
+If the indicator does not reach the ideal correlation, the above
+equation is not satisfied (If ![](media/image8.wmf), the indicator may
+be absorbed into the wall or some additional details of reactor).
+
+2.  []{#_Toc513714888 .anchor}***Methods of studying retention time:***
+
+The retention time study can be carried out according to the following
+methods:
+
+1)  Determine the composition of components at time t (or τ) of leaving
+    the equipment, determine function F(t) or F(τ).
+
+2)  Determine the composition of components at time t (or τ) of still
+    remaining in the equipment, function I(t) or I(τ).
+
+3)  Determine the composition of components at time t (or τ) of being
+    out of the equipment, function f(t) or f(τ).
+
+To survey the performance of a real reactor, we often use the stimulus
+-- response method (marking method). The types of input stimuli and
+output responses are shown in Figure 1.
+
+Input signal Output signal
+
+(Stimuli) Reactor (Response)
+
+Output
+
+**Concentration of indicator**
+
+Any input signal
+
+**Time**
+
+Output
+
+**Concentration of indicator**
+
+Circulated input signal
+
+**Time**
+
+**Concentration of indicator**
+
+Step signal
+
+Output
+
+**Time**
+
+**Concentration of indicator**
+
+Pulse signal
+
+Output
+
+**Time**
+
+**Figure 1:** *Frequently-used stimulus -- response signals*
+
+So, marked components must have characteristics that does not influence
+and distinct from the components that make up the correlation in the
+system.
+
+Indicators for liquid environment may be colored solution, radioactive
+substances, stable radioactive isotopes, glowed solid particles\...
+Indicators appropriate to the nature of the components in the system
+must have appropriate density, viscosity, diffusion coefficient.
+
+When there are appropriate indicators, we can put them into the system
+in two types of signals: random signal (Stochas) and determined signal
+(Determinis). Determined signal can be divided into two types:
+circulated signal and uncirculated signal.
+
+To survey equipment, people use uncirculated determined signal. This
+type of signal can be created thanks to:
+
+1)  Marked by collision.
+
+2)  Marked by continuous input of a specified amount.
+
+3)  Marked by occupying the whole place in the system.
+
+Because it is convenient for the use and uniformity of the stimulus
+signal in the form of step and pulse. In this experiment, we use marked
+by collision type. This type is the implementation of the technical
+condition of Dirac's function (Dirac's momentum function), also known as
+Delta's function.
+
+![](media/image9.wmf)
+
+![](media/image10.wmf)
+
+This marked type is suitable for colored solution.
+
+1.  []{#_Toc513714889 .anchor}***Retention time distribution function of
+    CSTRs's model:***
+
+Most real equipment usually has the distribution function of the CSTRs's
+model.
+
+One ideal reactor with the type of collision mark must satisfy: Volume
+V~R~ in the reactor is constant over time, in the reactor there is a
+complete agitation of a component in the system homogeneously at all
+positions in volume V~R~. So, in the reactor there is a surge of input
+flow.
+
+Average retention time according to volume:
+
+![](media/image11.wmf) (6)
+
+![](media/image12.wmf)
+
+When connecting ideal reactors to each other, we have CSTRs's model:
+
+The general form of distribution function:
+
+![](media/image13.wmf) (7)
+
+When n = 1, wa have an ideal CSTRs's model. When n = ∞, we have an ideal
+push model.
+
+Assume that initially there was no indicator in the input flow, and then
+an impulse signal is applied by putting a certain amount of indicator to
+the fluid flow for a short period of time.
+
+The curve showing the concentration of indicator over time in the output
+flow corresponding to the pulse stimulation signal at the input is
+called the curve C. Initial concentration of indicator is C~o~. With the
+area below the curve is equal to 1, we have:
+
+Dimensionless compact time: ![](media/image14.wmf) (8)
+
+With t is a time when any fluid component passes through the equipment.
+
+![](media/image15.wmf) and τ are determined according to (4) and (5).
+
+![](media/image16.wmf) or ![](media/image17.wmf) (9)
+
+2,0
+
+Small dispersion
+
+![](media/image18.wmf) = 0,002
+
+Tube ![](media/image19.wmf)
+
+1,5
+
+Stirrer
+
+![](media/image18.wmf) = ∞
+
+Medium dispersion
+
+![](media/image18.wmf) = 0,025
+
+1,0
+
+Large dispersion
+
+![](media/image18.wmf) = 0,02
+
+0,5
+
+0 0,5 1 1,5
+
+**Figure 2**: The curve C showing the response at output flow for
+
+the pulse signal at the input flow.
+
+3.  []{#_Toc513714890 .anchor}**EXPERIMENTAL EQUIPMENT:**
+
+Test tube, stopwatch, pipet, colored subtances and light transmittance
+(absorbance) meter.
+
+4.  []{#_Toc513714891 .anchor}**EXPERIMENTAL METHODS:**
+
+Proceed in the following order:
+
+1)  Open the valve for water to flow into the high-positioned tank until
+    there is water in the overflowing tube.
+
+2)  Open the valve for water to flow through flow meter into the CSTRs
+    system and adjust the flowrate.
+
+3)  System of one reactor: When the system is stable, put colored
+    subtance into reactor 1. Click the stopwatch (At the same time with
+    the time when we put the colored subtance into the reactor), take
+    root time. Use test tubes to take samples from time to time, then
+    compare the color.
+
+4)  System of two, three reactors: Do the same like one reactor, put the
+    colored subtance into reactor 1 and take samples at the last reactor
+    (from the last interconnected pipe).
+
+<!-- -->
+
+5.  []{#_Toc513714892 .anchor}**EXPERIMENT RESULTS:**
+
+**[Table 2]{.underline}:** *1 tank system*
+
+![](media/image20.png){width="4.436848206474191in"
+height="3.5920428696412947in"}
+
+The values are needed to calculated:
+
+> D~0~ = 0.03 (m)
+>
+> t~tb~ = 7.24 (min)
+>
+> v = 0.0004 (m^3^/min)
+>
+> V = 0.0021 (m^3^)
+>
+> τ  = 5.16 (min)
+
+![](media/image21.png){width="4.301994750656168in"
+height="2.564584426946632in"}
+
+**Figure 3**: The graph shows the relation $\frac{D}{D_{0}} = f(\theta)$
+for the theoretical and empirical case of a 1-tank system
+
+**[Table 3]{.underline}:** *2 tank system*
+
+![](media/image22.png){width="4.135416666666667in"
+height="5.447426727909011in"}
+
+The values are needed to calculated:
+
+> D~0~ = 0.015 (m)
+>
+> t~tb~ = 11.67 (min)
+>
+> v = 0.0004 (m^3^/min)
+>
+> V = 0.0041 (m^3^)
+>
+> τ  = 10.32 (min)
+
+![](media/image23.png){width="3.741864610673666in"
+height="2.2440944881889764in"}
+
+**Figure 4**: The graph shows the relation $\frac{D}{D_{0}} = f(\theta)$
+for the theoretical and empirical case of a 2-tank system
+
+**[Table 4]{.underline}:** *3 tank system*
+
+![](media/image24.png){width="4.240975503062117in"
+height="7.3801410761154855in"}
+
+The values are needed to calculated:
+
+> D~0~ = 0.015 (m)
+>
+> t~tb~ = 11.67 (min)
+>
+> v = 0.0004 (m^3^/min)
+>
+> V = 0.0041 (m^3^)
+>
+> τ  = 10.32 (min)
+
+![](media/image25.png){width="4.244744094488189in"
+height="2.550304024496938in"}
+
+**Figure 5**: The graph shows the relation $\frac{D}{D_{0}} = f(\theta)$
+for the theoretical and empirical case of a 3-tank system
+
+6.  []{#_Toc513714893 .anchor}**DISCUSSION:**
+
+**[Problem 1]{.underline}: *Compare the retention time distribution
+function of theory and experiment.***
+
+♦ [1 tank system]{.underline}: As we could see in the Figure 3, the
+retention time distribution function of the experiment is totally
+different compare with the theory. Generally, the E values of the theory
+is smaller than the experiment. Besides, the compact time values (θ) of
+theory is larger than the experiment one. That means according to the
+theory, it might be appear the flow -- off or obtuse area. However, the
+tank does not have lots of fluid pipes so the flow -- off phenomena does
+not happen, just only the obtuse area which the agitators can not
+affect.
+
+♦ [2 tank system]{.underline}: Following to the Figure 4, the retention
+time distribution function of the experiment is a little bit look like
+the theory. That means the E value increases until it's maximum and then
+decreases. However, the raising is not regular like the theory. It's
+quite fluctuated. Additionally, the E values of the theory is higher
+than the experiment.
+
+♦ [3 tank system]{.underline}: The retention time distribution function
+of the experiment is completely different compare with the theory. It's
+extremely fluctuated.
+
+**[Problem 2]{.underline}: *The phenomenon of the process and the
+equipment incures the unsteady***
+
+♦ Create the obtuse area in the equipment. The reason is that the speed
+of the agitators is too slow so there are some places can not be
+stirred.
+
+♦ Create the circulation of the fluid because of the unevenly mix of the
+fluid in solution. This may be due to the properties of the fluid or the
+slow speed of the agitators.
+
+- To overcome this phenomena, we can increase the speed for evenly and
+  all the solution.
+
+- Besides, there are still have some other phenomenon incurring the
+  unsteady:
+
+♦ The alter of the speed and movement direction of the fluid due to the
+surface shape of the equipment (reactor, agitators, piping, \...). This
+create some unwanted areas such as swirl area, dead area, flowing area,
+\..., these places existing in a few time or prolonged can affect the
+results.
+
+♦ Rotor speed of agitators is unstable over time (due to motor, swirl
+pivot, ...)
+
+♦ The indicator absorption of equipment makes the concentration of the
+indicator decreasing over time.
+
+♦ The ambient temperature can alter during experiment. This makes the
+correlation between the molecules of the fluid changes in the system
+(viscocity, density, velocity, ...). In addition, it changes the
+properties of the fluid moving in piping and equipment.
+
+**[Problem 3]{.underline}: *Evaluate the errors***
+
+a)  [Error due to the equipment]{.underline}:
+
+♦ *[Photometer:]{.underline}* This is the biggest reason why the results
+have the errors
+
+- Because the cuvet and sample are not clean, the dirt is also absorped
+  the light. Therefore, the results are also be influenced
+
+- The photometer is too sensitive so just a little bit dirty on the
+  cuvet also affect the results. Moreover, depend on the way we put the
+  cuvet into the machine, we get the different values because of the
+  different position of the dirt on the cuvet surface.
+
+- The machine is old may also affect our result.
+
+- The electric supplying for the photometer is not unstable.
+
+♦ *[Agitators:]{.underline}*
+
+- Swirling is unevenly, the velocity is unsteady due to the voltage.
+
+- Swirling slowly makes heterogeneous increasing.
+
+♦ *[Piping:]{.underline}*
+
+Due to the different resistance force of piping and valve, it's
+difficult to control the flowrate input and output of the tanks. This
+difficulty increases in case of multi tank system. In reality, we can
+not keep the volume in the tank compare with beginning during experiment
+(Eventhough the system works quite stably before adding indicator).
+During experiment, we have to control the valves so as to the fluid
+volume in the tank is not alter, so that it will affect the steady of
+the system.
+
+b)  [Operation errors]{.underline}:
+
+    - Because of the time we determine to get the samples.
+
+    - We might not clean the cuvet clearly The cuvet does not dry before
+      measurement (The old sample could be still in the cuvet, the
+      result obviously has the errors). Furhermore, the experiment
+      condition is one of the important reason (Does not have the
+      apparatus for drying, does not have many replace cuvet).
+
+    - The flowrates in the tank are controlled unstably.
+
+c)  [Errors because of the initial moment and pulse signal:]{.underline}
+
+We can not be established the right equation of the momentum function
+DIRAC because the time controlling can not be operated for indicator
+equal zero (In real, the experiment for indicator by pipet lose 5s),
+this time is quiet long and so that it makes the different between the
+curve of theory and experiment (is built from momentum function DIRAC).
+
+7.  []{#_Toc513714894 .anchor}**CALCULATION:**
+
+**Calculated values for 1 tank system**
+
+1.  [Experiment:]{.underline}
+
+Maximum absorption: D~o~ = 0.03
+
+Average retention time: ![](media/image26.wmf)
+
+Compact time: ![](media/image27.wmf)
+
+Measurement of retention time's distribution: E~θ~ =
+![](media/image28.wmf)
+
+2.  [Theory]{.underline}:
+
+Water flowrate input to the tank: v = 0,4 (l/min) = 0,4.10^-3^
+(m^3^/min)
+
+Tank volume: V = (π/4). 0,148^2^. 0,12 = 0,0021 (m^3^)
+
+Volume time: ![](media/image29.wmf)= 5.16
+
+Compact time: ![](media/image30.wmf)
+
+Measurement of retention time's distribution: E~θ~ =
+![](media/image31.wmf)
+
+**Calculated values for 2 tank system**
+
+3.  [Experiment:]{.underline}
+
+Maximum absorption: D~o~ = 0.03/2 = 0.015
+
+Average retention time: ![](media/image26.wmf)
+
+Compact time: ![](media/image27.wmf)
+
+Measurement of retention time's distribution: E~θ~ =
+![](media/image28.wmf)
+
+4.  [Theory]{.underline}:
+
+Water flowrate input to the tank: v = 0.4 (l/min) = 0,4.10^-3^
+(m^3^/min)
+
+Tank volume: V = 2. (π/4). 0.148^2^. 0.12 = 0.0041 (m^3^)
+
+Volume time: ![](media/image29.wmf)= 10.32
+
+Compact time: ![](media/image30.wmf)
+
+Measurement of retention time's distribution: E~θ~ =
+![](media/image32.wmf)
+
+**Calculated values for 3 tank system**
+
+5.  [Experiment:]{.underline}
+
+Maximum absorption: D~o~ = 0.03/3 = 0.01
+
+Average retention time: ![](media/image26.wmf)
+
+Compact time: ![](media/image27.wmf)
+
+Measurement of retention time's distribution: E~θ~ =
+![](media/image28.wmf)
+
+6.  [Theory]{.underline}:
+
+Water flowrate input to the tank: v = 0.4 (l/min) = 0,4.10^-3^
+(m^3^/min)
+
+Tank volume: V = 3. (π/4). 0.148^2^. 0.12 = 0.0062 (m^3^)
+
+Volume time: ![](media/image29.wmf)= 15.48
+
+Compact time: ![](media/image30.wmf)
+
+Measurement of retention time's distribution: E~θ~ =
+![](media/image33.wmf)
+
+8.  []{#_Toc513714895 .anchor}**REFERRENCES:**
+
+\[1\]. Vuõ Baù Minh, *"Quaù trình vaø Thieát bò trong Coâng Ngheä Hoùa
+Hoïc & Thöïc phaåm -- Taäp 4: Kyõ thuaät phaûn öùng"*, Nhaø xuaát baûn
+Ñaïi hoïc Quoác gia TpHCM, 2004, 380tr.
+
+\[2\]. Levenspiel Octave, "Chemical reaction Engineering", John Willey
+and Sons, Bookcomp, New York, 1999
