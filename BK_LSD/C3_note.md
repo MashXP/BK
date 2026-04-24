@@ -48,3 +48,6 @@ Từ năm đổi mới, đổi mới kinh tế kế hoạch hóa tập trung có
 1. Nền kinh tế này quan lý chủ yếu bằng mệnh lệnh với chỉ tiêu có tính pháp lệnh tập trung từ trên xuống dưới
 2. Can thiệp sâu vào hdsx kinh doanh của các doanh nghiệp nhưng ko chịu trách nhiệm về mặt pháp lý và vật chất với quy định của mình
 3. Cồng kềnh kém năng động sinh ra quan liêu, sức ỳ lớn
+
+Do làm chủ tập thế, mô hình lợi ích tập thể gắn kết do nd lao động làm chủ.
+Con người được giải phóng khỏi áp bức bốc lột bất công làm theo năng lực hưởng theo lao động. Có cuộc sống ấm no tự do hạnh phúc. Có điều kiện phát triển cá nhân 
