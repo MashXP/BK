@@ -104,7 +104,26 @@ V.Bảo +4
 	X Bách
 	Nguyên
 }
-
+### 2026-04-28
++2 {
+	L.Phong
+	C.Phong
+	Huy
+	Tú Anh
+	XNhi
+	Q Bảo
+	V Bảo
+	Kiên
+	Bách
+	T.Khang
+	Tùng
+	H Khang
+	Trúc
+	Phát 
+	Nghĩa
+	Tài
+	V.Anh
+}
 
 ---
 # GROUP MEMBERS list
