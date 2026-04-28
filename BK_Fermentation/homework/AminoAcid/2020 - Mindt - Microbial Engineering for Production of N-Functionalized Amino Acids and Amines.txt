@@ -1,0 +1,1940 @@
+REVIEW
+www.biotechnology-journal.com
+
+Microbial Engineering for Production of N-Functionalized
+Amino Acids and Amines
+Melanie Mindt, Tatjana Walter, Pierre Kugler, and Volker F. Wendisch*
+a plant regulator of systemic acquired resistance to pathogen infection, or N-acylated
+compounds such as the N-acetylated hormone melatonin have been identiﬁed and
+characterized. While this review focuses
+on the microbial engineering of bacteria
+and yeasts for production of N-substituted
+low-molecular-weight compounds, we also
+introduce the occurrence, physiological
+roles, and applications—for example, in
+the pharmaceutical and ﬁne chemical
+industries—of these compounds as well as
+their biosynthetic pathways and enzymes.
+Where applicable, we describe metabolic
+engineering strategies for the provision of
+precursor metabolites and the integration
+of the N-functionalizing enzymes into the
+metabolism of the microbial production
+host. Since Corynebacterium glutamicum is
+an ideal host for production of nitrogenous
+compounds and used in the industrial
+million-ton-scale amino acid production,
+many illustrative examples are given
+for this production host. Performance parameters of illustrative
+examples are summarized in Table 1.
+The reader is referred to concise reviews on the chemical synthesis of N-functionalized molecules[1,2] or on post-translational
+modiﬁcation of proteins at ɛ-amino groups of lysine residues,
+for example, in collagen, or at their N-termini.[3] We will neither
+cover N-phosphorylated compounds such as N-phosphocreatine
+nor phosphoramidates that contain P─N bonds as in adenosine 5-phosphoramidate[4] nor N-nitroso compounds such as
+streptozotocin.[5]
+Technological breakthroughs currently drive new developments in microbial engineering, for example, by CRISPR/Cas
+genome editing, as well as in enzyme engineering, for example,
+by directed evolution.[6] This prompted us to propose that combining N-functionalizing enzymes with systems metabolic engineering for eﬃcient supply of their substrates may lead to the
+development of fermentative processes for sustainable production of N-alkylated, N-hydroxylated, or N-acylated bioactive compounds.
+
+N-functionalized amines play important roles in nature and occur, for
+example, in the antibiotic vancomycin, the immunosuppressant cyclosporine,
+the cytostatic actinomycin, the siderophore aerobactin, the cyanogenic
+glucoside linamarin, and the polyamine spermidine. In the pharmaceutical
+and ﬁne-chemical industries N-functionalized amines are used as building
+blocks for the preparation of bioactive molecules. Processes based on
+fermentation and on enzyme catalysis have been developed to provide
+sustainable manufacturing routes to N-alkylated, N-hydroxylated, N-acylated,
+or other N-functionalized amines including polyamines. Metabolic
+engineering for provision of precursor metabolites is combined with
+heterologous N-functionalizing enzymes such as imine or ketimine
+reductases, opine or amino acid dehydrogenases, N-hydroxylases,
+N-acyltransferase, or polyamine synthetases. Recent progress and
+applications of fermentative processes using metabolically engineered
+bacteria and yeasts along with the employed enzymes are reviewed and the
+perspectives on developing new fermentative processes based on insight
+from enzyme catalysis are discussed.
+
+1. Introduction
+Natural products as well as ﬁne and bulk chemicals often contain
+N-speciﬁc modiﬁcations such as N-alkyl-, N-hydroxy-, or N-acylgroups. Enzymes for the synthesis of N-alkylated compounds
+such as the N-methylated glycopeptide antibiotic vancomycin,
+N-hydroxylated compounds such as N-hydroxy-l-pipecolic acid,
+Dr. M. Mindt, T. Walter, P. Kugler, Prof. V. F. Wendisch
+Genetics of Prokaryotes
+Biology and CeBiTec
+Bielefeld University
+Bielefeld 33615, Germany
+E-mail: volker.wendisch@uni-bielefeld.de
+Dr. M. Mindt
+BU Bioscience
+Wageningen University and Research
+Wageningen 6708 PB, The Netherlands
+The ORCID identiﬁcation number(s) for the author(s) of this article
+can be found under https://doi.org/10.1002/biot.201900451
+© 2020 The Authors. Biotechnology Journal published by WILEY-VCH
+Verlag GmbH & Co. KGaA, Weinheim. This is an open access article
+under the terms of the Creative Commons
+Attribution-NonCommercial-NoDerivs License, which permits use and
+distribution in any medium, provided the original work is properly cited,
+the use is non-commercial and no modiﬁcations or adaptations are
+made.
+
+DOI: 10.1002/biot.201900451
+
+Biotechnol. J. 2020, 15, 1900451
+
+1900451 (1 of 15)
+
+2. Microbial Production of N-Alkylated Amino
+Acids
+N-alkylamino acids can be found in plants, mammals, and various microorganisms. They occur in proteins and peptides as
+well as freely and they extend the chemical repertoire of the 20
+
+© 2020 The Authors. Biotechnology Journal published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+www.biotechnology-journal.com
+
+proteinogenic amino acids. N-alkylation increases amino acid
+lipophilicity and renders proteins less prone to proteolysis. Thus,
+as building blocks of peptide-based drugs they improve certain
+pharmacokinetic properties of these peptidomimetics such as biological stability, improved bioavailability, or altered conformational stability.[7–9] For example, N-methylation of a synthetic
+integrin ligand improved receptor selectivity and the respective cyclic pentapeptide c(Arg-Gly-Asp-d-Phe-NMeVal) was later
+named Cilengitide. Speciﬁcally, docking studies indicated that reduced backbone ﬂexibility of Cilengitide as consequence of Nmethylation was beneﬁcial for the observed increased receptor
+selectivity.[10,11]
+Amino acid N-alkylation reactions occur abundantly for
+amino acids embedded into peptides, but rarely for free amino
+acids.[12,13] The methylation of synthetic peptides is performed
+either at the peptide itself on solid support or by incorporation of N-methylated amino acid monomers.[14–16] Approaches
+for chemical synthesis of free N-alkylated amino acids were
+studied intensively. Synthetic preparation of N-alkylated amino
+acids can be performed i. a. by direct alkylation of protected
+amino acids, ring opening of 5-oxazolidinones, or by reductive
+amination.[14,15,17] However, these methods are often limited
+by low yields, dimethylation, or requirement of heavy metal
+ions.[17] To overcome these disadvantages, microbial production
+of N-methylated amino acids was developed recently (Figure 1).
+Three independent routes have been engineered depending
+either on a native pathway for C1-assimilation present in methylotrophic bacteria, reductive alkylamination of 2-oxo acids by
+the bacterial reductase DpkA, or by S-adenosyl-l-methionine
+(SAM)-dependent methylation of the aromatic compound
+anthranilate.
+
+2.1. N-Methylation by Addition of Methylamine to Glutamate
+Derivatives
+Fermentative production of l-theanine and N-methylglutamate
+(Figure 1A) can be realized based on a pathway for methylamine assimilation found in some methylotrophic bacteria
+like Methyloversatilis universalis, Methylobacterium extorquens, and
+Methylocella silvestris.[18–21] The N-methylated amino acid Nmethylglutamate serves as a key intermediate of the eponymous multi-step pathway of methylamine assimilation present
+in some methylotrophs.[18–21] Expression of the genes coding for N-methylglutamate synthase (NMGS) (mgsABC) in
+metabolically engineered Pseudomonas putida KT2440 enabled
+glucose-based production of N-methylglutamate by methylamination of the TCA cycle intermediate 2-oxoglutarate. Interestingly, coexpression of mgsABC and gmaS, which encodes 𝛾glutamylmethylamide synthetase (GMAS), resulted in higher
+product titers. Upon derepression of the glycerol catabolism by
+deletion of regulatory gene glpR and integration of a second
+copy of the endogenous glutamate dehydrogenase gene gdhA, Nmethylglutamate was produced from glycerol and methylamine
+in a fed-batch bioreactor to a ﬁnal titer of 18 g L−1 at a yield of
+0.11 g g−1 with a volumetric productivity of 0.13 g L−1 h−1 .[22]
+l-theanine, a glutamine derivative ethylated at the N5 -position,
+is a non-proteinogenic amino acid and was ﬁrst isolated from
+
+Biotechnol. J. 2020, 15, 1900451
+
+1900451 (2 of 15)
+
+Melanie Mindt is a postdoctoral researcher at the BU Bioscience at Wageningen University and Research.
+She studied her Bachelor and Master of Science of Biochemistry at the
+Heinrich-Heine University, Düsseldorf,
+Germany. She received her Ph.D. in July
+2019 from Bielefeld University for her
+investigation of the de novo synthesis
+of N-alkylated amino acids using recombinant Corynebacterium glutamicum and Pseudomonas
+putida in the Wendisch lab.
+Volker F. Wendisch is Chair of Genetics
+of Prokaryotes at the Faculty of Biology
+at Bielefeld University. Since 2010 he
+is member of the board of Center for
+Biotechnology (CeBiTec) and since
+2019 its Deputy Scientiﬁc Director.
+He studied biology in Köln University.
+After having completed his Ph.D. at
+the Research Center Jülich in 1997, he
+worked as postdoctoral researcher at
+the University of California, Berkeley, CA, USA. From 2006–
+2009 he was Professor for Metabolic Engineering at Münster University. Prof. Wendisch’s research interests concern
+genome-based metabolic engineering of industrially relevant
+microorganisms, systems, and synthetic microbiology.
+
+green tea leaves[23] and was later found also in the mushroom Xerocomus badius.[24] Next to its ﬂavor-enhancing ability, l-theanine
+is thought to have favorable physiological and pharmacological
+eﬀects.[25–27] In plants, l-theanine is synthesized by addition
+of ethylamine to l-glutamate in an ATP-dependent manner
+catalyzed by l-theanine synthetase.[13,14] Carbon labeling experiments revealed that ethylamine derives from l-alanine by
+decarboxylation.[28,29] Hence, l-theanine can be isolated from
+tea leaves, but low yields and high costs result in ineﬀective
+industrial scale production.[30–32] Due to its low stability, the
+plant-derived l-theanine synthetase is not used in microbial
+production. However, side-activity for l-theanine synthesis
+has been described for l-glutamine synthetase (EC 6.3.1.2[33] ),
+l-glutaminase (EC 3.5.1.2[34] ), 𝛾-glutamyltranspeptidase (EC
+2.3.2.2[35] ), and 𝛾-glutamylmethylamide synthase (GMAS, EC
+6.3.4.12[36] ). Both l-glutaminase and 𝛾-glutamyltranspeptidase
+transfer a glutamyl moiety to ethylamine, while l-glutamine
+synthetase and GMAS catalyze alkylamidation of glutamate
+in an ATP-dependent manner.[37] Various studies described
+biological production of the desired compound using free enzymes or whole cell catalysts, either prokaryotic or eukaryotic,
+but all approaches required external supply of l-glutamate.[37]
+The ﬁrst fermentative production of l-theanine starting from
+glucose has been described recently. Expression of diﬀerent 𝛾glutamylmethylamide synthase genes from methylotrophic
+bacteria in C. glutamicum strains enabled a glucose and
+ethylamine dependent fermentative production of l-theanine.
+
+© 2020 The Authors. Biotechnology Journal published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+18607314, 2020, 7, Downloaded from https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/biot.201900451 by Readcube (Labtiva Inc.), Wiley Online Library on [27/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.biotechnology-journal.com
+
+Table 1. De novo synthesis of N-functionalized amines by (recombinant) microorganisms. Titer, yield, and volumetric productivity values of illustrative
+production processes for N-functionalized amino acid and amines along with proposed production processes are listed.
+Strain
+
+Product
+
+Enzyme(s)
+
+Titer
+[g L−1 ]
+
+Yield
+[g g−1 ]
+
+Productivity
+[g L−1 h−1 ]
+
+Fermentation
+mode
+
+References
+for
+established
+processes
+
+N-alkylation
+a)
+
+l-theanine
+
+GMAS
+
+42.0
+
+0.20
+
+0.88
+
+Fed-batch
+
+[ 39 ]
+
+N-methyl-l-glutamate
+
+GMAS, NMGS
+
+17.9
+
+0.11
+
+0.13
+
+Fed-batch
+
+[ 22 ]
+
+C. glutamicum pyruvate
+c)
+producer [ 48 ]
+
+N-methyl-l-alanine
+
+DpkA
+
+31.7
+
+0.71
+
+0.35
+
+Fed-batch
+
+[ 43 ]
+
+C. glutamicum glyoxylate
+d)
+producer [58]
+
+Sarcosine
+
+DpkA
+
+9.1
+
+0.26
+
+0.16
+
+Shake ﬂask
+
+[ 42 ]
+
+C. glutamicum glyoxylate
+d)
+producer [58]
+
+N-ethylglycine
+
+DpkA
+
+6.1
+
+0.17
+
+0.11
+
+Shake ﬂask
+
+[ 42 ]
+
+2-Oxoisocaproate
+e)
+producer [ 63 ]
+
+N-methyl-l-leucine
+
+DpkA
+
+Hypothetical process
+
+C. glutamicum
+
+Pseudomons putida
+
+b)
+
+f)
+
+E. coli
+
+f)
+
+E. coli
+
+N-methylanthranilate
+
+0.0029
+
+—
+
+0.0012
+
+Shake ﬂask
+
+[ 70 ]
+
+N-methyl-Omethylanthranilate
+
+0.0157
+
+—
+
+—
+
+Shake ﬂask
+
+[ 70 ]
+
+0.38
+
+1.37
+
+Fed-batch
+
+[146]
+
+N-hydroxylation
+g) [ 91 ]
+
+l-valine producer
+
+N-hydroxy-l-valine
+
+CYP79D1, CYP79D2[ 88 ]
+
+Hypothetical process
+
+l-isoleucine
+h)
+producer [ 97 ]
+
+N-hydroxy-l-isoleucine
+
+CYP79D1, CYP79D2[ 88 ]
+
+Hypothetical process
+
+l-lysine producer [ 104]
+
+N6 -hydroxy-l-lysine
+
+IucD[ 101]
+
+Hypothetical process
+
+l-ornithin
+j)
+producer [ 109]
+
+N5 -hydroxy-l-ornithine
+
+PvdA[ 108]
+
+Hypothetical process
+
+l-pipecolic acid
+k)
+producer [ 116]
+
+N-hydroxy-pipecolic acid
+
+FMO01[ 115]
+
+Hypothetical process
+
+Cadaverine
+l)
+producer [ 122]
+
+N-hydroxy-cadaverine
+
+AvbB[ 119]
+
+Hypothetical process
+
+Putrescine
+m)
+producer [ 112]
+
+N-hydroxy-putrescine
+
+AvbB[ 119]
+
+Hypothetical process
+
+N-acetylglucosamine
+
+GNA1[ 146]
+
+131.6
+
+l-glutamate
+o)
+producer [67]
+
+N-acetylglutamate
+
+ArgA[ 167]
+
+Hypothetical process
+
+l-ornithin
+j)
+producer [ 109]
+
+N-acetylornithine
+
+ArgJ[ 170]
+
+Hypothetical process
+
+Putrescine
+m)
+producer [ 112]
+
+N-acetylputrescine
+
+SnaA[ 130]
+
+Hypothetical process
+
+Cadaverine
+l)
+producer [ 122]
+
+N-acetylcadaverin
+
+SnaA[ 130]
+
+Hypothetical process
+
+Actinopolyspora
+p)
+halophila
+
+Glycine betaine
+
+—
+
+13
+
+Complex
+medium
+
+0.14
+
+Batch
+
+[200]
+
+Agrobacterium and
+q)
+Rhizobium isolates
+
+l-carnitine
+
+—
+
+—
+
+99.5 mol%
+
+1.21
+
+Fed-batch
+
+[201]
+
+l-carnitine
+
+N-lysine
+methyltransferase[ 195] ,
+carnitine biosynthetic
+pathway[197]
+
+Hypothetical process
+
+i)
+
+N-acetylation
+n)
+
+Bacillus subtillis
+
+Betaines
+
+i)
+
+l-lysine producer [ 104]
+
+Polyamines
+S. cerevisiae
+s)
+
+E. coli
+
+t)
+
+E. coli
+
+r)
+
+Spermidine
+
+SPE1, SPE2, SPE3
+
+0.22
+
+2.2×10−3
+
+0.003
+
+Fed-batch
+
+[208]
+
+1,3-diaminopropane
+
+Dat, Ddc
+
+13
+
+0.1
+
+0.19
+
+Fed-batch
+
+[209]
+
+Putrescine
+
+SpeC
+
+42.3
+
+0.26
+
+1.23
+
+Fed-batch
+
+[210]
+
+(Continued)
+
+Biotechnol. J. 2020, 15, 1900451
+
+1900451 (3 of 15)
+
+© 2020 The Authors. Biotechnology Journal published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+18607314, 2020, 7, Downloaded from https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/biot.201900451 by Readcube (Labtiva Inc.), Wiley Online Library on [27/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.biotechnology-journal.com
+
+Table 1. Continued.
+Strain
+
+Product
+
+u)
+
+Enzyme(s)
+
+Titer
+[g L−1 ]
+
+Yield
+[g g−1 ]
+
+Productivity
+[g L−1 h−1 ]
+
+Fermentation
+mode
+
+References
+for
+established
+processes
+
+Putrescine
+
+SpeC
+
+19
+
+0.16
+
+0.55
+
+Fed-batch
+
+[211]
+
+Cadaverine
+
+LdcC
+
+88
+
+0.29
+
+2.2
+
+Fed-batch
+
+[129]
+
+C. glutamicum
+
+Cadaverine
+
+LdcC
+
+103.8
+
+0.30
+
+1.47
+
+Fed-batch
+
+[212]
+
+Putrescine
+m)
+producer [ 112]
+
+sym-homospermidine
+
+Homospermidine
+synthase [225]
+
+Hypothetical process
+
+N-methylpyrrolinium
+
+PMT, DAO
+
+0.017
+
+—
+
+0.14×10−3
+
+Shake ﬂask
+
+[226]
+
+C. glutamicum
+
+v)
+
+C. glutamicum
+
+w)
+
+S. cerevisiae
+
+x)
+
+a) C. glutamicum GKG-047; b) P. putida KT2440 Δupp ΔglpR::Ptac-gdhA (pEV1-mgsABC-gmaS); c) C. glutamicum ATCC 13032 ΔaceE Δpqo ΔldhA ΔC-T ilvN ΔalaT ΔavtA;
+d) C. glutamicum ATCC 13032 ΔaceB icdGTG ; e) C. glutamicum ATCC 13032 ∆ltbR ∆ilvE ∆prpC1 ∆prpC2 PgltA mut_L1 (pBB1leuA EC-G462D ); f) E. coli BL21(DE3) ΔtrpD ΔtyrR
+
+ΔmetJ; g) C. glutamicum R JCM 18 229 ΔLP_ΔAc+GP_ilvNGE CTM _ΔAla (pCRB-BNGE CTM ; pCRB-DLD); h) C. glutamicum IWJ001 (pDXW-8-cysK); i) C. glutamicum ATCC 13020
+Psod lysCT311I Psod dapB 2xddh 2xlysA Δpck homV59A Psod pycAP458S icdGTG Ptuf fbp Psod tkt; j) C. glutamicum ATCC MB001 ΔargFRG Pgdh4 -argBA49V,M54V pgiGTG Ptuf - argCJBA49V,M54V D;
+k) C. glutamicum GRLys1 ΔsugR ΔldhA ΔlysE2 (pVWEx1-lysDH-proC); l) B. methanolicus MGA3 (pBV2mp-cadA); m) C. glutamicum ATCC 13032 ΔargR ΔargF (pVWEx1-speC);
+n) B. subtilis ΔnagP/ ΔgamP ΔgamA Δldh Δpta ΔglcK ΔpckA Δpyk::lox72 ΔnagAB::P
+veg- yqaB, Pveg -glmS ΔgamR::lox72 ΔamyE:: sgzwf1 -sgpfkA2 -sgglmM2 ΔlacA::gamR-PgamA dCas9 ΔalsSD::lox72 (pSTg-GNA1); o) C. glutamicum ATCC 13032; triggered with ciproﬂoxacin; p) Actinopolyspora halophila MTCC263; q) Rhizobium sp. HK13 (DSM 2903);
+r) S. cerevisiae SR8 ΔOAZ1 overexpressing SPE1,2,3 (pTPO1); s) E. coli W3110 ΔlacI thrAC1034T lysCC1055T Pppc::Ptrc PaspC::Ptrc ΔpfkA (p15DDopt paspC); t) E. coli W3110 ΔlacI
+ΔspeE ΔspeG ΔargI ΔpuuPA PargECBH::Ptrc PspeF-potE::Ptrc PargD::Ptrc PspeC::Ptrc ΔrpoS (pKK117SargF); u) C. glutamicum ORN1 (pVWEx1-speC-5‘ 21 -argF); v) C. glutamicum
+LYS-12 bioD::Ptuf ldcCopt ΔNCgl1469 ΔlysE Pcg2893 ::Psod ; w) C. glutamicum PKC lysE::PH30 -ldcCEc ; x) S. cerevisiae BY4742 PTEF1 -EcODC-TFBA1 , PPGK1 -AtPMT-TCYC1 , PTEF1 -AaDAO3TPRM9 , PTCCTDH -SAM2-TPGI , ΔALD4, ΔALD5, ΔHFD1.
+
+The production titer could be improved by change of the base
+strain to a glutamate overproducing C. glutamicum strain[38] and
+prevention of glutamate export by deletion of the l-glutamate
+exporter gene yggB. A titer of 42 g L−1 was achieved in fed-batch
+bioreactor cultivation in 5 L scale when gmaS from Methylovorus
+mays was expressed.[39] Biochemical characterization of both
+enzymes GMAS and NMGS elaborated a small substrate spectrum: while GMAS accepts also l-glutamine as substrate,[40]
+NMGS was described to convert some alkylamines (ethylamine,
+propylamine, butylamine) with decreasing activity for increasing
+alkyl moieties.[12] Thus, the access to other N-alkylated amino
+acids produced via the GMAS and NMGS pathway is limited.
+
+2.2. Reductive Alkylamination of 2-Oxo Acids Yielding
+N-Alkylated Amino Acids
+N-alkylamino acid dehydrogenase DpkA from Pseudomonas
+species proved crucial to provide a more versatile route for the
+production of N-alkylated amino acids by microbial fermentation
+(Figure 1B).[41–43] Natively, DpkA plays a role in degradation of
+d-lysine and d-proline where it catalyzes imine reduction of the
+cyclic imines piperidin-2-carboxylate and pyroline-2-carboxylate
+yielding l-pipecolic acid and l-proline, respectively.[44] In addition, this imine reductase (IRED) catalyzes the reductive alkylamination of 2-oxo acids yielding the respective N-alkylamino
+acids. It has been hypothesized that alkylamines and 2-oxo acids
+may spontaneously form imines in aqueous solutions that subsequently are reduced by DpkA.[45–47]
+Various 2-oxo acids are present in a bacterial cell, for example,
+as intermediates in glycolysis, the TCA cycle or in amino acid
+biosynthesis pathways, thus, simple introduction of DpkA into
+a bacterium is not suﬃcient for eﬃcient and selective production of a chosen N-alkylamino acid. It is pivotal to engineer the
+
+Biotechnol. J. 2020, 15, 1900451
+
+1900451 (4 of 15)
+
+bacterial production host for a) high dpkA expression and b) for
+provision of high concentrations of the required 2-oxo acid.[41–43]
+Fermentative production of N-methyl-l-alanine by C. glutamicum involved strain engineering to ensure a) provision of
+high concentrations of pyruvate from glucose and b) heterologous expression of dpkA from Pseudomonas species for Nmethylamination of pyruvate using methylamine.[43] The pyruvate secreting C. glutamicum strain ELB-P was chosen as a
+basis.[48] This strain produced up to 17.6 g L−1 pyruvate in shakeﬂask fermentations due to several modiﬁcations of the pyruvateconverting enzymes: accumulation of pyruvate was enabled by
+deletion of the pyruvate dehydrogenase subunit E1p (aceE), the
+pyruvate-quinone oxidoreductase gene (pqo), the C-terminal regulatory domain of the acetohydroxyacid synthase gene (ilvN), the
+lactate dehydrogenase gene (ldhA), and both genes for l-alanine
+synthesizing aminotransferases (alaT for alanine aminotransferase and avtA for alanine-valine aminotransferase). In an elegant manner, growth and product formation by this recombinant
+C. glutamicum strain are decoupled. This concept, which was
+transferred to l-lysine, l-valine, isobutanol, and 2-oxoisovalerate
+production,[49–55] ensures that the strain utilizes carbon sources
+like sugars for product formation, whereas acetate is required for
+biomass formation. Balancing the ratios of glucose and acetate as
+carbon substrates as well as media optimization with respect to
+ammonium and methylammonium concentrations proved important to obtain N-methyl-l-alanine as dominant product in
+high titers. Finally, transfer to fed-batch bioreactor cultivation allowed for a production of 32 g L−1 N-methyl-l-alanine at a yield
+of 0.7 g g−1 (glucose) and a volumetric productivity of 0.35 g L−1
+h−1 .[43]
+Extending this concept to the microbial production of Nalkylated glycine derivatives, that show potential as antipsychotic
+drugs,[56,57] as building blocks for peptidomimetics or detergents,
+involved a) strain engineering for suﬃcient supply of the 2-oxo
+acid glyoxylate and b) engineering of DpkA for better acceptance
+
+© 2020 The Authors. Biotechnology Journal published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+18607314, 2020, 7, Downloaded from https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/biot.201900451 by Readcube (Labtiva Inc.), Wiley Online Library on [27/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.biotechnology-journal.com
+
+Figure 1. Functionalization of amines by N-alkylation (depicted in red) can be achieved by diﬀerent routes depending on the product of interest. The
+ATP-dependent N-alkylation of glutamate is performed by A) 𝛾-glutamylmethylamide syntethase (GMAS) and N-methylglutamate synthase (NMGS),
+B) reductive amination of 2-oxo acids by the N-methylamino acid dehydrogenase DpkA, and C) the production of O-methyl-N-methylanthranilate is
+catalyzed by SAM-dependent anthranilate N-methyltransferase (NMT) and SAM-dependent anthranilate O-methyltransferase (AAMT) or by anthranilate
+CoA ligase and methanol anthraniloyltransferase.
+
+Biotechnol. J. 2020, 15, 1900451
+
+1900451 (5 of 15)
+
+© 2020 The Authors. Biotechnology Journal published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+18607314, 2020, 7, Downloaded from https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/biot.201900451 by Readcube (Labtiva Inc.), Wiley Online Library on [27/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.biotechnology-journal.com
+
+of glyoxylate as substrate for N-alkylation.[41,42] A base strain
+overproducing glyoxylate was derived from a glycolate producing
+strain which lacks the glyoxylate converting malate synthase
+and has low isocitrate dehydrogenase activity due to initiation
+codon exchange from ATG to GTG.[58] Based on the discovery
+that the imine reductase DpkA does not only accept pyruvate
+and several 2-oxo acids,[46] but also glyoxylate as substrate with
+good catalytic activity,[42] DpkA was integrated into the central
+metabolism of the glyoxylate accumulating C. glutamicum base
+strain and enabled the production of sarcosine (also known
+as N-methylglycine). A ﬁnal titer of 8.7 g L−1 sarcosine and a
+volumetric productivity of 0.12 g L−1 h−1 were achieved in a
+xylose-based process.[42] This process depended on the substrate
+promiscuity of the IRED DpkA[42] and, thus, rational enzyme
+engineering and subsequent characterization was employed
+to develop a more eﬃcient mutant of DpkA.[41] Mutation of a
+single amino acyl residue in the substrate binding site of DpkA
+(DpkAF117L ) increased speciﬁc activities for reductive alkylamination of glyoxylate using either methylamine or ethylamine as
+substrat.[41] Based on DpkAF117L , an improved volumetric productivity (0.16 g L−1 h−1 ) was achieved for sarcosine production
+and fermentative production of N-ethylglycine to a ﬁnal titer of
+6.1 g L−1 could be established.[41] Notably, sustainable production
+of sarcosine and N-ethylglycine from alkylamines and second
+generation feedstocks such as rice straw hydrolysate could be
+demonstrated.[41] The DpkA-based approach of N-alkylating
+2-oxo acids may be diversiﬁed further. Regarding provision of
+the 2-oxo acid precursor, it is conceivable that E. coli, Clostridium
+thermocullum, Synechococcus elongates, and C. glutamicum strains
+developed for biofuel production from 2-oxo acid precursors
+can be converted to strains overproducing N-alkylated amino
+acids. These strains involve 2-oxo acid decarboxylation using
+2-oxoisovalerate decarboxylase KivD from Lactococcus lactis and
+aldehyde reduction by an aldehyde dehydrogenase.[52,59–62] In
+principle, this would only require a replacement of kivD and adhA
+by dpkA and feeding alkylamines. Alternatively, strains overproducing a particular 2-oxo acid[38,55,63–69] may be used as basis.
+However, it must be kept in mind that DpkA may have to be engineered to ensure eﬃcient and selective N-alkylamination of the
+overproduced 2-oxo acid or an alternative IRED has to be used.
+2.3. SAM-Dependent N-Methylation of Amino Acids
+SAM-dependent N-methyltransferases have been described i.a.
+for the synthesis of N-methylanthranilate[70] and the anthranilatederived alkaloid 4-hydroxy-1-methyl-2-quinolone.[71] O-alkylated
+N-methylanthranilates are known to have ﬂavor and fragrance characteristics as well as antinociceptive and analgesic
+activities,[72,73] while the group of anthranilate-derived alkaloids
+include bioactive molecules which show antiseptic, convulsive,
+or antineoplastic activities. The SAM-dependent N-methylation
+of anthranilate is catalyzed by anthranilate N-methyltransferase
+(Figure 1C). Upon expression of the respective gene from Ruta
+graveolens in an engineered E. coli BL21 strain low titers of
+N-methylanthranilate (0.029 g L−1 ) accumulated.[70] This strain
+was previously optimized by deletion of anthranilate phosphoribosyl transferase gene trpD, and the genes tyrR and metJ
+encoding negative transcriptional regulators of the aromatic
+
+Biotechnol. J. 2020, 15, 1900451
+
+1900451 (6 of 15)
+
+amino acid biosynthesis and SAM biosynthesis, respectively.
+Similarly, low titers were obtained upon further conversion of Nmethylanthranilate to either O-methyl-N-methylanthranilate
+or
+4-hydroxy-1-methyl-2-quinolone
+(0.016
+g
+L−1 )[70]
+(0.018 g L−1 ).[71] By contrast, O-methylanthranilate production
+to high titers (5.74 g L−1 ) has been described as consequence
+of systems metabolic engineering and the development of fedbatch mode two-phase bioreactor cultivation with tributyrin.[74]
+It has to be noted that the hydrophobicity and/or volatility of
+a compound dictates its suitability for two-phase cultivations
+(e.g., better suited for O-methylanthranilate and O-methyl-Nmethylanthranilate than for the charged N-methylanthranilate)
+and that the overlay phase has to be chosen accordingly. However, as upscaling eﬃciencies of 10 to 70-fold have been observed
+when moving from two-phase shake ﬂasks to two-phase bioreactors in the case of O-methylanthranilate [74] and patchoulol,[75]
+this approach may prove crucial for commercialization.
+
+3. N-Hydroxylating Enzymes and Their Application
+in Microbial Amino Acid and Amine Production
+Hydroxylation at diﬀerent positions of amino acids is well-known
+in nature.[76–78] While hydroxylation of aliphatic or aromatic carbon atoms, for example, by phenylalanine, tryptophan, or
+tyrosine hydroxylases, have been studied well due to their
+physiological roles in mammals as in phenylketonuria or the
+biosynthesis of catecholamines or serotonin,[77] N-hydroxylases
+that occur in all three domains of life have received less attention.
+N-hydroxylating enzymes are involved in several biosynthesis
+pathways, for example, in siderophore synthesis in plants and
+bacteria, but also known for enhancing antibiotic resistance.[79,80]
+
+3.1. N-Hydroxylation in Nature
+Cytochrome P450s (CYPs, EC 1.14) and ﬂavin dependent
+monooxygenases (FMOs, EC 1.13) are known for their Nhydroxylating activities. FMOs, for example, play a role in
+the adaptation of butterﬂies to pyrrolizidine-alkaloid-producing
+plants.[81,82] Higher resistance or nonsusceptibility against the
+antibiotic rifampicin is observed in many Nocardia isolates due to
+FMO-catalyzed hydroxylation of rifampicin at the N2 -position.[79]
+Aerobactin is an iron chelating siderophore, which helps E. coli
+and related bacteria to survive in iron-poor environments[80] and
+its synthesis initiates by N-hydroxylation of the amino acid llysine in an NAPDH dependent manner by the membranebound FMO l-lysine N6 -monooxygenase. After N6 -acetylation of
+N6 -hydroxy-l-lysine (Section 4.1) and subsequent N1 -citrylation,
+aerobactin synthase ligates the resulting N1 -citryl-N6 -acetyl-N6 hydroxy-l-lysine to N6 -acetyl-N6 -hydroxy-l-lysine yielding the dihydroxamate siderophore aerobactin.[83–85]
+
+3.2. N-Hydroxylation for Microbial Production
+While C-hydroxylated amino acids have been produced by microbial fermentation, for example, 4-hydroxy-l-isoleucine[86] and 4hydroxy-l-proline,[87] no fermentative process for N-hydroxylated
+
+© 2020 The Authors. Biotechnology Journal published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+18607314, 2020, 7, Downloaded from https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/biot.201900451 by Readcube (Labtiva Inc.), Wiley Online Library on [27/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.biotechnology-journal.com
+
+Figure 2. Hypothetical processes for production of N-acylated (depicted in blue) and N-hydroxylated (depicted in green) amino acids and amines.
+N-hydroxy-l-valine and N-hydroxy-l-isoleucine formation can be catalyzed by a Cytochrome P450 from cassava, N-hydroxy-l-ornithine by l-ornithine
+N5 -hydroxylase PvdA from P. aeruginosa. Avaroferrin formation can proceed via N-hydroxycadaverine and N-hydroxyputrescine formed by N-hydroxylase
+AvbB from Shewanella algae, N-hydroxy-N-succinylcadaverine, and N-hydroxy-N-succinylputrescine is formed by N-succinyl transferase AvbC before
+condensation by siderophore synthase AvbD. N6 -hydroxy-l-lysine formation is catalyzed by N6 -l-lysine hydroxylase IucD. N-hydroxy-l-pipecolic acid
+formation can be catalyzed by the ﬂavin dependent monooxygenase FMO01 from A. thaliana. Dashed lines refer to multiple reaction steps and continuous
+lines to one reaction.
+
+amines or amino acids has been published. Potentially, such
+processes can be envisioned, i.a. based on N-hydroxylases active
+with l-valine or l-isoleucine. For example, the ﬁrst step in
+the biosynthesis of the cyanogenic glucosides linamarin and
+lotaustralin in cassava is catalyzed by N-hydroxylating CYPs
+(CYP79D1, CYP79D2) active with l-valine and l-isoleucine as
+substrates (Figure 2).[88] These CYPs could be functionally expressed in the methylotrophic yeast Pichia pastoris, but not in E.
+coli.[88] In principle, microbial production of N-hydroxy-l-valine
+and N-hydroxy-l-isoleucine may be possible since strains of
+Bacillus licheniformis, C. glutamicum, E. coli, and Saccharomyces
+cerevisiae have been engineered for high titre l-valine (up to 150
+g L−1 ) or l-isoleucine (up to 50 g L−1 ) production.[89–100] Likely, S.
+cerevisiae is the preferred host for expression of plant CYP genes,
+in particular, since functional expression of cassava CYP79D1
+and CYP79D2 failed in E. coli.
+The proposed concept of expressing an amine N-hydroxylase
+gene in a strain overproducing the respective amine or amino
+acid to enable fermentative production of the chosen Nhydroxylated amine or amino acid may be relevant in several instances, for example, N6 -hydroxy-l-lysine, N5 -hydroxy-l-
+
+Biotechnol. J. 2020, 15, 1900451
+
+1900451 (7 of 15)
+
+ornithine, N-hydroxypipecolic acid, N-hydroxycadaverine, or Nhydroxyputrescine (Figure 2). Fermentative production of N6 hydroxy-l-lysine may be based on expression of iucD from
+E. coli encoding l-lysine N6 -monooxygenase, which showed a
+sub-millimolar KM for l-lysine,[83,101] in an l-lysine overproducing bacterium. The annual fermentative production of l-lysine
+topped 2.5 million metric tonnes in 2017[102–104] and C. glutamicum strains producing l-lysine to titers up to 120 g L−1 are
+known.[104,105] Alternatively, other bacterial hosts such as E. coli
+for glucose-based l-lysine production or Bacillus methanolicus for
+l-lysine production from methanol as alternative carbon source
+would be suitable.[106,107]
+Access to N5 -hydroxy-l-ornithine by fermentation may become possible if a gene coding for an FMO with l-ornithine
+N5 -hydroxylating activity is expressed in an l-ornithine overproducing strain.[108] l-Ornithine overproduction has been engineered in C. glutamicum, E. coli, B. subtilis, Weissella confuse,
+and S. cerevisiae.[109–114] The FMO PvdA from Pseudomonas aeruginosa, which is part of the biosynthetic pathway leading to the
+siderophore pyoverdin, is a good candidate for fermentative production of N5 -hydroxy-l-ornithine due to its relatively low KM
+
+© 2020 The Authors. Biotechnology Journal published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+18607314, 2020, 7, Downloaded from https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/biot.201900451 by Readcube (Labtiva Inc.), Wiley Online Library on [27/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.biotechnology-journal.com
+
+value of 0.58 mm and a high vmax of 1.34 𝜇mol min−1 mg−1 .[108]
+Production of N-hydroxy-l-pipecolic acid (Figure 2) may become
+possible by overexpression of the l-pipecolate N-hydroxylase
+FMO1 from Arabidopsis thaliana[115] in an engineered l-pipecolic
+acid producer.[116,117]
+In
+principle,
+both
+N-hydroxycadaverine
+and
+Nhydroxyputrescine can be accessed via fermentation employing the same FMO, that is, either PubA from Shewanella
+putrefaciens[118] or AvbB from Shewanella algae[119] or GorA from
+Gordonia rubripertincta.[120] Expression of one of these enzymes,
+which show multi-speciﬁcity with putrescine, cadaverine, and
+hexamethylenediamine, in a putrescine overproducing strain
+will yield N-hydroxyputrescine, whereas N-hydroxycadaverine is
+formed upon expression in a cadaverine overproducing strain
+(Figure 2). Various strains for overproduction of either cadaverine or putrescine are available among the species C. glutamicum,
+E. coli, B. methanolicus, and Serratia proteamaculans.[112,121–128]
+In C. glutamicum, cadaverine production via l-lysine decarboxylase allows for high cadaverine titers without contaminating
+putrescine formation,[129] and vice versa putrescine production via ornithine decarboxylase enables high putrescine titers
+without contaminating cadaverine.[130,131] Thus, these C. glutamicum strains meet the prerequisite to use a multi-speciﬁc
+N-hydroxylase such as GorA for exclusive production of either
+N-hydroxyputrescine or N-hydroxycadaverine based on substrate
+availability for GorA.
+
+4. N-Acetylation of Amino Acids and Amines for
+Microbial Production
+N-acylated and especially N-acetylated amines are widespread
+among bacteria and eukaryotes. N-acylation plays a role in melatonin and siderophore biosynthesis, biosynthesis of bacterial
+and fungal cell walls, and the exoskeleton of crustaceans, posttranslational modiﬁcations of proteins, or as part of detoxiﬁcation
+processes including antibiotic resistance.[132–136]
+
+4.1. N-Acetylation in Nature
+N-acetylation requires CoA-activated acyl-groups for transfer
+to primary or secondary amino groups in proteins or other
+amines. Depending on their substrate speciﬁcity amino acid Nacetyltransferases (EC 2.3.1.1), diamine N-acetyltransferases (EC
+2.3.1.57), and arylamine N-acetyltransferases (EC 2.3.1.5) can be
+distinguished. Co- and post-translational N-terminal acylation of
+proteins occurs in all branches of life and impacts enzymatic activity, stability, or folding patterns of proteins signiﬁcantly.[136]
+The proportion of proteins partially or fully acetylated at their
+N-termini is particularly large in eukaryotes: 50–70% in yeast,
+72% in A. thaliana, and 80–90% in humans.[136,137] Although
+underestimated for a long time, N-terminal acylation of bacterial proteins is of high functional relevance. Bacterial cell
+walls contain polymeric peptidoglycan comprising N-acetyl-dglucosamine (GlcNAc) and N-acetylmuraminic acid (MurNAc)
+as monomeric constituents.[138] N-acetylation of low-molecularweight amines is important as well, for example, N-acetylation
+of serotonin is a crucial and rate limiting step for the biosyn-
+
+Biotechnol. J. 2020, 15, 1900451
+
+1900451 (8 of 15)
+
+thesis of melatonin, a hormone released by the pineal gland for
+regulation of the sleep–wake cycle.[132,139] N-acetyl or N-succinyl
+transferases also function in siderophore biosynthesis (Figure 2)
+and often accept N6 -hydroxylated substrates that arise from Nhydroxylation reactions (Section 3.1). For example, formation of
+N6 -acetyl-N6 -hydroxy-l-lysine in E. coli aerobactin biosynthesis
+is catalyzed by N6 -hydroxylysine N-acetyltransferase IucB.[80,85]
+In pyoverdine biosynthesis, N5 -formyl-N5 -hydroxy ornithine and
+N5 -acetyl-N5 -hydroxy ornithine are synthesized.[133,140] For avaroferrin synthesis in S. algae (Figure 3), N-hydroxyputrescine and
+N-hydroxycadaverine are succinylated by the N-succinyl transferase AvbC.[119] Antibiotic resistance may be due to N-acylation.
+Aminoglycoside acetyltransferases are causal, for example, for
+resistance of E. coli isolates to gentamicin and sisomicin[135] or
+for ciproﬂoxacin resistance of clinical isolates of E. coli, Klebsiella
+pneumoniae, and Enterobacter.[141]
+4.2. Microbial Production of N-Acetylated Compounds
+N-acetyl-d-glucosamine and its derivative N-acetyl-d-neuraminic
+acid ﬁnd application in pharmaceutical and health food
+products.[142] N-acetylglucosamine production by S. cerevisiae
+with titers up to 3.0 g L−1 in shake ﬂask cultivation were obtained
+based on systems metabolic engineering.[143] Overexpression of
+the genes for glutamine-fructose-6-phosphate amidotransferase
+Gfa1 and the phosphatase YqaB were combined with decreased
+glucose uptake rate by overexpression of MTH1-ΔT, which
+codes for a truncated glucose sensing regulator. In addition, the
+pyruvate kinase-1 (Pyk1) and phosphofructokinase-1 (PFK-1)
+genes were repressed by dCas9 and the gene encoding phosphofructokinase 2 (PFK-2) was deleted.[94,134,144] Similarly, B.
+subtilis was engineered to produce 48.9 g L−1 GlcNAc at a yield
+of 0.32 g g−1 glucose in fed-batch fermentation.[145] Recently,
+B. subtilis has been engineered for the production of 130 g L−1
+GlcNAc in 15 L fed-batch cultivation. An autonomous dualcontrol system was established for balancing the metabolic ﬂux
+towards the production of GlcNAc by the application of a GlcNAc
+biosensor in combination with CRISPRi-based NOT gates for
+self-adjusting gene expression levels.[146] The acetyl transferase
+GNA1 from S. cerevisiae was heterologously overexpressed and
+high product titers were obtained by the combination of modular engineering of GlcNAc synthesis-related metabolic network,
+glycolysis, and peptidoglycan synthesis, blocking sporulation,
+engineering the maintenance metabolism, and blocking acetoin
+overﬂow.[142,145,147,148] In E. coli, a straightforward strategy employed inactivation of genes involved in glucosamine transport
+and catabolism, overexpression of the l-glutamine-d-fructose6-phosphate aminotransferase gene (glmS) and one of three
+diﬀerent GlcN-6-P N-acetyltransferase genes (either from S. cerevisiae, Candida albicans, or A. thaliana). Notably, the best strain
+produced 110 g L−1 GlcNAc with a yield of 0.45 g g−1 glucose in
+two-phase fed batch process.[149] A comparable approach in E.
+coli led to about 73 g L−1 GlcNAc.[150,151] The GlcNAc derivative
+N-acetyl-d-neuraminic acid was produced by recombinant E.
+coli to a titer of 13.8 g L−1 using glycerol and GlcNAc in a
+pyruvate-independent biocatalytic process.[152–155]
+Long-chain N-acylated aromatic amino acids are frequently
+encountered in antibacterial screens of metagenomic cDNA
+
+© 2020 The Authors. Biotechnology Journal published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+18607314, 2020, 7, Downloaded from https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/biot.201900451 by Readcube (Labtiva Inc.), Wiley Online Library on [27/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.biotechnology-journal.com
+
+O
+H2N
+
+OH
+
+glycine
+
+H
+N
+
+SAH
+
+OH
+
+N-methylglycine
+(sarcosine)
+
+SAH
+
+O2
+H2O
+NH3
+H2O2
+
+O
+
+SAM
+SDMT
+
+H2N
+
+NH2
+cadaverine
+
+DAO
+
+N,Ndimethylglycine
+
+putrescine
+
+N-methylputrescine
+
+SAH
+
+OH
+
+NH2
+
+H2N
+
+NH2
+
+N
+H
+
+SAM
+
+N
+
+NH2
+
+SAM
+
+PMT
+
+O
+
+GSMT,
+SDMT
+
+H2N
+
+1,3-diaminopropane
+
+putrescine
+
+SAM
+
+GSMT
+
+NH2
+
+H2N
+
+H2N
+
+N
+H
+
+NH2
+
+sym-norspermidine
+
+O
+
+N
+H
+
+N-methyl-γ-butyraldehyde
+
+H2N
+
+H
+N
+sym-homospermidine
+
+Spontaneous
+
+NH2
+
+NH2
+
+SAH
+O
+
+N+
+
+OH
+
+glycine betaine
+
+N+
+
+N
+
+H2N
+N-methylpyrrolimium
+
+NH2
+
+N -aminopropylspermidine
+4
+
+Figure 3. Production of betaines and polyamines. A) Glycine betaine formation proceeds via three N-methylation (depicted in red) steps by glycinesarcosine methyltransferase (GSMT) and sarcosine-dimethylglycine methyltransferase (SDMT), which show overlapping substrate speciﬁcities. B) Production of N-methylpyrrolinium: putrescine is converted to N-methylputrescine by putrescine N-methyltransferase (PMT) and further oxidized by diamine oxidases (DAO) to yield N-methyl-𝛾-butyraldehyde, which spontaneously cyclizes to N-methylpyrrolinium. C) Overview of the various polyamines
+discussed in the text.
+
+libraries.[156–158] These long-chain N-acylated amino acids arise
+from acylation of the respective amino acids (l-phenylalanine,
+l-tyrosine, l-tryptophan, and l-arginine) activated by CoA or
+acyl carrier proteins. For instance, the N-acylating enzyme NasP
+uses activated fatty acids of typical chain lengths between C12–
+C20.[157] While various strains for overproduction of the amino
+acids l-phenylalanine, l-tyrosine, l-tryptophan, and l-arginine
+are available [159–166] and the genes for N-acylating enzymes and
+acyl activating enzymes are known, a production host has to be
+chosen to facilitate the accumulation of the very hydrophobic
+compounds in the cell membranes and to withstand the impact
+of high concentrations of these antibiotics.
+Amino acids such as N-acetyl-l-glutamate and N-acetyl-lornithine occur, for example, as intermediates in amino acid
+biosynthesis routes. In l-arginine biosynthesis, N-acetyl glutamate synthase (EC 2.3.1.1) N-acetylates l-glutamate with acetylCoA,[167–169] while acetylglutamate-acetylornithine transacetylase
+(EC 2.3.1.35) catalyzes acetyl transfer between l-ornithine and
+l-glutamate.[170,171] Production of N-acetyl-l-glutamate and Nacetyl-l-ornithine has not been followed per se, but has been
+pivotal during the optimization of strains overproducing larginine,[172] l-ornithine,[109] l-proline (via the ornithine cyclodeaminase route),[173] or l-citrulline[174] . Interception of larginine biosynthesis in a strain overproducing l-arginine to very
+high titers may prove suitable, for example, for the overproduc-
+
+Biotechnol. J. 2020, 15, 1900451
+
+1900451 (9 of 15)
+
+tion of N-acetyl-l-glutamate. Also, in the so-called succinylase
+and acetylase variants of l-lysine biosynthesis, N-succinylated
+intermediates (e.g., in C. glutamicum) or N-acetylated intermediates (e.g., in E. coli) occur. In C. glutamicum, tetrahydrodipicolinate N-succinyltransferase DapD forms l-N-succinyl2-amino-6-ketopimelate using succinyl-CoA as a cofactor, while
+the E. coli enzyme generates the N-acetylated version of this
+molecule.[175,176]
+Interestingly, N-acetylation of the diamines putrescine and
+cadaverine was very eﬃcient in C. glutamicum and the
+gene for spermi(di)ne N-acetyl-transferase snaA[130] had to be
+deleted in putrescine and cadaverine overproducing strains to
+avoid secretion of these compounds.[131,177–179] Polyamine Nacetyltransferases are widespread and found in humans, animals, yeasts, and bacteria.[180–182] Speciﬁc processes for production of N-acetylated polyamines have not yet been described but
+appear possible given the ease of biosynthesis and excretion of Nacetylputrescine and N-acetylcadaverine by recombinant C. glutamicum (Section 4.1).
+
+5. Production of Betaines and Polyamines
+Betaines as well as polyamines are both associated with stress
+tolerance in nature.[77] Due to their unique chemical properties
+
+© 2020 The Authors. Biotechnology Journal published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+18607314, 2020, 7, Downloaded from https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/biot.201900451 by Readcube (Labtiva Inc.), Wiley Online Library on [27/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.biotechnology-journal.com
+
+Betaines are low-molecular weight zwitterionic compounds with
+a negative charge and a quaternary ammonium or phosphonium
+cation function (Figure 3). The positive charge cannot be balanced by proton migration. The eponymous betaine is also called
+trimethylglycine or glycine betaine. Betaines may function as
+compatible solutes or as methyl group donors.[183] Choline is not
+a betaine sensu stricto, it is used for example as dietary supplement especially for poultry feed[184] or has medical applications
+as it is closely related to the neurotransmitter acetylcholine.[185]
+Glycine betaine is used as methyl donor and osmolyte in animal
+feed and in plants it is used to increase cold, drought, and salt
+resistance, for example, to prolong storage life of iceberg lettuce.
+These properties yield to further applications in the pharmaceutical, cosmetics, and fermentation industries.[186] l-Carnitine plays
+an essential role in the transport of long chain fatty acids and,
+thus, has many medical applications such as in the treatment of
+cardiovascular diseases, as dietary supplement, or nutraceutical,
+where it is being marketed to improve weight management and
+exercise performance.[187]
+
+Actinopolyspora halophila that produces these compounds as
+compatible solutes.[199] In optimized bioreactor fermentations
+about 13 g L‒1 glycine betaine and about 5 g L‒1 trehalose
+accumulated.[200]
+To date, the lack of an eﬀective lysine N-methylase yielding
+TML hampers development of a fermentative de novo l-carnitine
+synthesis process. Since biological resolution of racemic d,lcarnitine is not industrially attractive, current processes revolve around biotransformation of precursors crotonobetaine,
+𝛾-butyrobetaine, and 3-dehydrocarnitine to l-carnitine with E.
+coli, Proteus mirabilis, or isolates related to Agrobacterium and
+Rhizobium.[187] A large-scale fed-batch biotransformation process
+for the production of l-carnitine from 𝛾-butyrobetaine was developed by Lonza AG, producing >99.9% ee l-carnitine with
+a 99.5% yield and a volumetric productivity of 1.2 g L−1 h−1 .
+This process was chosen over a continuous process making
+use of cell recycling with a productivity of 5.5 g L−1 h−1 and
+91% yield due to higher downstream processing costs resulting from the lower yield in the continuous process.[201] Biotransformation of crotonobetaine using resting cells of metabolically
+engineered E. coli led to a 95% yield and a maximal productivity of 9.6 g L−1 h−1 overcoming the need for anaerobic cultivation conditions.[202] A novel non-fermentative approach to
+carnitine production could make use of engineered halohydrin
+hydrogen-halide-lyase HheB from Corynebacterium sp. N-1074
+that catalyzes the conversion of 1,3-dichloro-2-propanol and hydrogen cyanide to R-4-chloro-3-hydroxybutyronitrile, a precursor
+for chemical l-carnitine synthesis.[203]
+
+5.2. Biosynthesis of Betaines
+
+5.4. Occurrence, Functions and Applications of Polyamines
+
+The quaternary ammonium groups of glycine betaine, choline,
+l-carnitine, and their derivatives arise from three subsequent
+N-methylation reactions catalyzed by SAM-dependent methyltransferases. In the case of choline, the substrate of the
+SAM-dependent N-methyltransferases is ethanolamine or its
+derivatives.[188–192] Choline can be converted to glycine betaine
+by two consecutive oxidation reactions with betainealdehyde
+as intermediate.[191] In an alternative pathway, glycine is Nmethylated three times by glycine-sarcosine methyltransferase
+and sarcosine-dimethylglycine methyltransferase, which show
+overlapping substrate speciﬁcity (Figure 3).[183] Biosynthesis of
+l-carnitine is special as its precursor N𝜖 -trimethyllysine (TML) is
+formed by degradation of proteins such as histones or calmodulin that were post-translationally modiﬁed by N-methylation of
+lysyl residues.[193,194] TML is converted to l-carnitine in a fourstep pathway. The existence of a fungal N-methyltransferase active with free l-lysine remains debated.[195–197] The Rubisco large
+subunit methyltransferase of pea shows a strong preference for
+its protein substrate, but some side activity with free l-lysine has
+been observed.[198]
+
+Polyamines are alkaline organic compounds with an aliphatic,
+saturated carbon backbone, at least two primary amino groups,
+and a varying number of secondary amino groups. They are
+applied in a wide variety of commercial applications due to
+their unique combination of reactivity, basicity, and surface activity. The main commercial interest in biogenic polyamines is
+their use in polymers. Diamines can be used as monomers for
+the production of polyamides, whereas higher amines can be
+applied as curing agents in epoxy-resins.[204] The occurrence,
+biosynthesis, and applications of diamines have been reviewed
+elsewhere.[204–206] Here, we give examples for polyamines carrying secondary amine groups (Figure 3), such as the linear triamines and tetramines, or branched polyamines such as N4 aminopropylspermidine, a triamine with a tertiary amine group.
+These compounds arise from N-alkylation of polyamines with
+primary amine groups or by condensation of several polyamine
+molecules.
+The linear spermidine is synthesized by spermidine synthase that catalyzes the addition of a propylamine moiety
+to putrescine. Propylamine is derived from decarboxylated Sadenosyl-l-methionine (dcSAM) which can be formed by a Sadenosylmethionine decarboxylase.[207] Spermidine is present in
+all living organisms and is closely related to cell growth and
+the regulation of several other biological processes. Since it was
+shown to prolong lifespan and reduce inﬂammation, it has been
+used for skin anti-ageing, human hair growth stimulation, in the
+treatment of type 2 diabetes, and in increasing fruit shelf life.[208]
+
+they can interact with diﬀerent cell components and, for example, function as compatible solutes and organic osmolytes. This
+makes them interesting for applications in the pharmaceutical
+and cosmetics industry but also for uses as platform chemicals
+and building blocks in polymer industry.
+
+5.1. Occurrence, Functions, and Applications of Betaines
+
+5.3. Fermentative Production of Betaines
+Glycine betaine can be fermentatively coproduced with the disaccharide trehalose from acid whey, a waste product of the
+dairy industry, using the extreme obligate halophile organism
+
+Biotechnol. J. 2020, 15, 1900451
+
+1900451 (10 of 15)
+
+© 2020 The Authors. Biotechnology Journal published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+18607314, 2020, 7, Downloaded from https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/biot.201900451 by Readcube (Labtiva Inc.), Wiley Online Library on [27/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.biotechnology-journal.com
+
+5.5. Fermentative Production of Polyamines
+A system for spermidine production was constructed in S.
+cerevisiae by overexpressing a polyamine transporter for product secretion and genes of the spermidine biosynthetic pathway in addition to the disruption of a gene responsible for
+feedback inhibition of the pathway. As an inhibitory eﬀect of
+glucose on spermidine production was observed, the process
+was designed to use a mixture of xylose and glucose as carbon source. However, in a fed-batch fermentation only about
+0.2 g L−1 were produced.[208] This may be due to the fact that
+SAM or dcSAM have to be regenerated from methylthioadenosine, which arises from dcSAM-dependent N-propylamination
+of putrescine in spermidine biosynthesis. For example, the fermentative 1,3-diaminopropane production by metabolically engineered E. coli yielded two orders of magnitude higher titers for
+1,3-diaminopropane, that is, 13 g L−1 .[209] These high titers can
+also be reached for putrescine production, that is, 42.3 g L−1 obtained with E. coli in a fed-batch process at a yield of 0.26 g putrescine per g glucose and a volumetric productivity of 1.23 g L−1
+h−1 .[210] A C. glutamicum fed-batch process led to 19 g L−1 putrescine at a yield of 0.16 g putrescine per g glucose and a volumetric productivity of 0.55 g L−1 h−1 .[211]
+As C. glutamicum is an industrial l-lysine producer it is a suitable host for fermentative cadaverine production as evidenced by
+cadaverine production from glucose with a titer of 88 g L−1 at
+a yield of 0.29 g cadaverine per g glucose and a productivity of
+2.2 g L−1 h−1 .[129] Integration of the E. coli ldcC gene driven by
+the tuf promoter into the lysine exporter gene lysE on the chromosome of an industrial l-lysine producing C. glutamicum strain
+led to the highest reported cadaverine titer of 103.8 g L−1 .[212] Cadaverine production with alternative carbon substrates such as
+xylose,[213] xylooligosaccharides,[214] cellobiose,[215] galactose (by
+E. coli),[216] or methanol (by B. methanolicus)[217] has also been described. Cadaverine production has also been shown by two novel
+approaches: using synthetic mutualistic consortia consisting either of two E. coli strains[124] or one E. coli and one C. glutamicum
+strain[218] on the one hand and coproduction of cadaverine with
+succinic acid, the monomeric precursors of polyamide PA5,4
+on the other hand.[219] Conversion of l-lysine to cadaverine has
+been shown by whole-cell-biotransformation[216,220–223] or by biocatalysis using catalytically active inclusion bodies of LdcC from
+E. coli.[224]
+Conceptionally, the eﬃcient 1,3-diaminopropane, putrescine,
+and cadaverine overproducing strains could be used as basis
+for production of polyamines with secondary amine groups.
+For example, the bacterial homospermidine synthase found
+in many proteobacteria such as Legionella pneumophila and
+P. aeruginosa condenses two molecules of putrescine to symhomospermidine[225] and might be expressed in a putrescine
+overproducing strain to enable fermentative production of symhomospermidine. The recent demonstration of production of
+N-methylpyrrolinium (Figure 3), the precursor of alkaloids
+such as tropane alkaloids, by metabolically engineered E. coli,
+and S. cerevisiae strains is important.[226] First, putrescine Nmethyltransferase from the plant Anisodus tanguticus converts
+putrescine to N-methylputrescine, a polyamine with a secondary
+amine group. Second, diamine oxidases (DAOs) from the related plant Anisodus acutangulus oxidize N-methylputrescine to
+
+Biotechnol. J. 2020, 15, 1900451
+
+1900451 (11 of 15)
+
+N-methyl-𝛾-butyraldehyde which spontaneously cyclizes to Nmethylpyrrolinium, a cyclic quaternary imine compound. Titers
+of 0.002–0.017 g L−1 N-methylpyrrolinium were obtained.[226]
+The discovery of an enzyme from the hyperthermophilic archaeon Pyrococcus furiosus catalyzing aminopropylation of the
+polyamines agmatine, 1,3-diaminopropane, putrescine, cadaverine, and sym-norspermidine[227] may open ways to establish
+aminopropyl derivatives of poylamines such as tridansyl-N-(3aminopropyl)cadaverine.
+
+6. Conclusions and Perspectives
+The fermentative production of N-functionalized compounds has
+seen ﬁrst successes, but this ﬁeld is still in its infancy. For industrial application, key parameters such as titers, yields, and volumetric productivities have to be met and downstream processing
+requires that the chosen product can easily be separated from
+structurally similar side-products or formation of these has to be
+avoided by process operation or by strain engineering.
+The employment of N-functionalizing enzymes with broad
+substrate speciﬁcity such as DpkA used for alkylamination
+of 2-oxo acids required metabolic engineering strategies for
+the selective provision of the required 2-oxo acids (e.g., DpkA
+in a host engineered for pyruvate overproduction yielded Nmethyl-l-alanine, while DkpA in a host engineered for glyoxylate
+production yielded sarcosine). Enzyme engineering and directed
+evolution have until now played a minor role to direct substrate
+selectivity towards obtaining a speciﬁc N-functionalized target
+product in high purity. However, this dynamically developing
+research area[6] is expected to have a major impact on realizing biocatalytic and fermentative processes for production of
+N-functionalized ﬁne chemicals.
+Embedding the employed N-functionalizing enzyme into the
+metabolism of the production host is critical for production to
+high titers, yields, and productivities. In this respect, we foresee
+major improvements of the production hosts through genetic
+screens facilitated by the new CRISPR/Cas genome editing
+and CRISPRi gene repression tools that can be multiplexed
+for higher throughput.[228] Moreover, non-targeted approaches
+such as adaptive laboratory evolution (ALE) will speed up strain
+development and in combination with genome re-sequencing
+the selected genetic changes can be identiﬁed. Gene targets
+identiﬁed by CRISPR/Cas and CRISPRi screens as well as
+genome alterations identiﬁed by genome re-sequencing of
+strains selected in ALE experiments will have to be assessed
+in follow-up experiments to determine if they are causal for
+improved performance. This subset of genes can then be used
+as basis for rational systems metabolic engineering avoiding
+possible detrimental eﬀects of bystander mutations that may
+have arisen during ALE experiments.
+These technological developments as well as a dramatically
+growing metagenomics data base provide access to the hitherto
+unexploited catalyst reservoir present in microorganisms, which
+cannot be cultivated in the laboratory. They bear the potential to
+inspire the development of a plethora of eﬃcient fermentative
+production processes, which would not only lead to N-alkylated,
+N-hydroxylated, or N-acylated bioactive compounds, betaines,
+and polyamines, but also to other N-functionalized compounds
+
+© 2020 The Authors. Biotechnology Journal published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+18607314, 2020, 7, Downloaded from https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/biot.201900451 by Readcube (Labtiva Inc.), Wiley Online Library on [27/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.biotechnology-journal.com
+
+such as N-nitroso or N-phosphorylated compounds or phosphoramidates.
+
+Acknowledgements
+The authors gratefully acknowledge support by ERACoBiotech via grants
+INDIE (BMEL 22023517) and C1Pro (BMEL 22023617), by the IndoGerman project BIOCON (BMBF 01DQ17009) and by funding from
+the state of North Rhine-Westphalia (NRW) and the “European Regional Development Fund (EFRE)” through project “Cluster Industrial Biotechnology (CLIB) Kompetenzzentrum Biotechnologie (CKB)”
+(34.EFRE-0300095/1703FI04).
+
+Conﬂict of Interest
+The authors declare no conﬂict of interest.
+
+Keywords
+bioactives, fermentation, metabolic engineering, natural products, Nfunctionalization
+Received: December 22, 2019
+Revised: March 4, 2020
+Published online: March 30, 2020
+
+[1] Y. Li, C. Wang, F. Zhu, Z. Wang, J. F. Soulé, P. H. Dixneuf, X.-F. Wu,
+Chem. Commun. 2016, 53, 142.
+[2] K. Natte, H. Neumann, M. Beller, R. V. Jagadeesh, Angew. Chem.,
+Int. Ed. 2017, 56, 6384.
+[3] I. Scott, M. Yamauchi, M. Sricholpech, Essays Biochem. 2012, 52,
+113.
+[4] J. J. Petkowski, W. Bains, S. Seager, Molecules 2019, 24, 866.
+[5] T. L. Ng, R. Rohac, A. J. Mitchell, A. K. Boal, E. P. Balskus, Nature
+2019, 566, 94.
+[6] S. C. Hammer, A. M. Knight, F. H. Arnold, Curr. Opin. Green Sustain.
+Chem. 2017, 7, 23.
+[7] J. Chatterjee, F. Rechenmacher, H. Kessler, Angew. Chem., Int. Ed.
+2013, 52, 254.
+[8] M. L. di Gioia, A. Leggio, F. Malagrinò, E. Romio, C. Siciliano, A.
+Liguori, Mini-Rev. Med. Chem. 2016, 16, 683.
+[9] A. Sharma, A. Kumar, S. A. H. A. Monaim, Y. E. Jad, A. El-Faham, B.
+G. de la Torre, F. Albericio, Biopolymers 2018, 109, e23110.
+[10] J. Chatterjee, O. Ovadia, G. Zahn, L. Marinelli, A. Hoﬀman, C. Gilon,
+H. Kessler, J. Med. Chem. 2007, 50, 5878.
+[11] C. Mas-Moruno, F. Rechenmacher, H. Kessler, Anti-Cancer Agents
+Med. Chem. 2010, 10, 753.
+[12] R. J. Pollock, L. B. Hersh, J. Biol. Chem. 1971, 246, 4737.
+[13] K. Sasaoka, M. Kito, Y. Onishi, Agric. Biol. Chem. 1965, 29, 984.
+[14] L. Gentilucci, R. de Marco, L. Cerisoli, Curr. Pharm. Des. 2010, 16,
+3185.
+[15] C. Gilon, M. A. Dechantsreiter, F. Burkhart, A. Friedler, H. Kessler,
+in Houben-Weyl Methods of Organic Chemistry (Eds: M. Goodman,
+A. Felix, L. Moroder, C. Toniolo), Georg Thieme Verlag, Stuttgart,
+Germany 2002, pp. 215–291.
+[16] N. Sewald, Angew. Chem., Int. Ed. 2002, 41, 4661.
+[17] L. Aurelio, R. T. C. Brownlee, A. B. Hughes, Chem. Rev. 2004, 104,
+5823.
+
+Biotechnol. J. 2020, 15, 1900451
+
+1900451 (12 of 15)
+
+[18] Y. Chen, J. Scanlan, L. Song, A. Crombie, M. T. Rahman, H. Schafer,
+J. C. Murrell, Appl. Environ. Microbiol. 2010, 76, 4530.
+[19] C. Gruﬀaz, E. E. L. Muller, Y. Louhichi-Jelail, Y. R. Nelli, G. Guichard,
+F. Bringel, Appl. Environ. Microbiol. 2014, 80, 3541.
+[20] E. Latypova, S. Yang, Y.-S. Wang, T. Wang, T. A. Chavkin, M. Hackett,
+H. Schäfer, M. G. Kalyuzhnaya, Mol. Microbiol. 2010, 75, 426.
+[21] D. D. Nayak, C. J. Marx, J. Bacteriol. 2014, 196, 4130.
+[22] M. Mindt, T. Walter, J. M. Risse, V. F. Wendisch, Front. Bioeng.
+Biotechnol. 2018, 6, 159.
+[23] Y. Sakato, J. Agric. Chem. Soc. Jpn. 1950, 23, 262.
+[24] J. Casimir, J. Jadot, M. Renard, Bioch. Biophys. Acta 1960, 39, 462.
+[25] M. Nakagawa, Jpn. Agric. Res. Q. 1970, 5, 43.
+[26] M. Saeed, M. Naveed, M. Arif, M. U. Kakar, R. Manzoor, M. E. A.
+El-Hack, M. Alagawany, R. Tiwari, R. Khandia, A. Munjal, K. Karthik,
+K. Dhama, H. M. N. Iqbal, M. Dadar, C. Sun, Biomed. Pharmacother.
+2017, 95, 1260.
+[27] J. Williams, D. Sergi, A. J. McKune, E. N. Georgousopoulou, D. D.
+Mellor, N. Naumovski, Phytother. Res. 2019, 33, 571.
+[28] T. Takeo, Phytochemistry 1974, 13, 1401.
+[29] T. Takeo, Phytochemistry 1978, 17, 313.
+[30] A. Ekanayake, J. J. Li (Circulat Biotech Llc, Procter and Gamble Co.),
+US7303773B2, 2007.
+[31] M. Lachová, J. Lehotay, G. Karasová, I. Skačáni, D. W. Armstrong, J.
+Liq. Chromatogr. Relat. Technol. 2007, 30, 2045.
+[32] Y. Zhang, B. Chen, Z. Huang, Z. Shi, J. Liq. Chromatogr. Relat. Technol. 2004, 27, 875.
+[33] T. Tachiki, H. Suzuki, S. Wakisaka, T. Yano, T. Tochikura, J. Gen. Appl.
+Microbiol. 1986, 32, 545.
+[34] T. Takashi, Y. Takeshi, U. Masashi, N. Yasuki, I. Nobuo, H. Yu-ichi,
+S. Ju-ichi, Biosci., Biotechnol., Biochem. 1996, 60, 1160.
+[35] H. Suzuki, S. Izuka, N. Miyakawa, H. Kumagai, Enzyme Microb. Technol. 2002, 31, 884.
+[36] T. Kimura, I. Sugahara, K. Hanai, Y. Tonomura, Biosci., Biotechnol.,
+Biochem. 1992, 56, 708.
+[37] W. Mu, T. Zhang, B. Jiang, Biotechnol. Adv. 2015, 33, 335.
+[38] Y. Li, L. Sun, J. Feng, R. Wu, Q. Xu, C. Zhang, N. Chen, X. Xie, Bioprocess Biosyst. Eng. 2016, 39, 967.
+[39] H. Ma, X. Fan, N. Cai, D. Zhang, G. Zhao, T. Wang, R. Su, M. Yuan, Q.
+Ma, C. Zhang, Q. Xu, X. Xie, N. Chen, Y. Li, Appl. Microbiol. Biotechnol. 2020, 104, 119.
+[40] W. V. Shaw, L. Tsai, E. R. Stadtman, J. Biol. Chem. 1966, 241, 935.
+[41] M. Mindt, S. Hannibal, M. Heuser, J. M. Risse, K. Sasikumar, K.
+M. Nampoothiri, V. F. Wendisch, Front. Bioeng. Biotechnol. 2019, 7,
+232.
+[42] M. Mindt, M. Heuser, V. F. Wendisch, Bioresour. Technol. 2019, 281,
+135.
+[43] M. Mindt, J. M. Risse, H. Gruß, N. Sewald, B. J. Eikmanns, V. F.
+Wendisch, Sci. Rep. 2018, 8, 12895.
+[44] H. Muramatsu, H. Mihara, R. Kakutani, M. Yasuda, M. Ueda, T. Kurihara, N. Esaki, J. Biol. Chem. 2005, 280, 5329.
+[45] H.-F. Kung, C. Wagner, Biochim. Biophys. Acta, Gen. Subj. 1970, 201,
+513.
+[46] H. Mihara, H. Muramatsu, R. Kakutani, M. Yasuda, M. Ueda, T. Kurihara, N. Esaki, FEBS J. 2005, 272, 1117.
+[47] H. Muramatsu, H. Mihara, R. Kakutani, M. Yasuda, M. Ueda, T. Kurihara, N. Esaki, Tetrahedron: Asymmetry 2004, 15, 2841.
+[48] S. Wieschalka, B. Blombach, B. J. Eikmanns, Appl. Microbiol. Biotechnol. 2012, 94, 449.
+[49] B. Blombach, M. E. Schreiner, M. Moch, M. Oldiges, B. J. Eikmanns,
+Appl. Microbiol. Biotechnol. 2007, 76, 615.
+[50] B. Blombach, M. E. Schreiner, J. Holatko, T. Bartek, M. Oldiges, B.
+J. Eikmanns, Appl. Environ. Microbiol. 2007, 73, 2079.
+[51] B. Blombach, A. Arndt, M. Auchter, B. J. Eikmanns, Appl. Environ.
+Microbiol. 2009, 75, 1197.
+
+© 2020 The Authors. Biotechnology Journal published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+18607314, 2020, 7, Downloaded from https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/biot.201900451 by Readcube (Labtiva Inc.), Wiley Online Library on [27/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.biotechnology-journal.com
+
+[52] B. Blombach, T. Riester, S. Wieschalka, C. Ziert, J.-W. Youn, V.
+F. Wendisch, B. J. Eikmanns, Appl. Environ. Microbiol. 2011, 77,
+3300.
+[53] J. Buchholz, A. Schwentner, B. Brunnenkan, C. Gabris, S. Grimm,
+R. Gerstmeir, R. Takors, B. J. Eikmanns, B. Blombach, Appl. Environ.
+Microbiol. 2013, 79, 5566.
+[54] B. J. Eikmanns, B. Blombach, J. Biotechnol. 2014, 192, 339.
+[55] F. S. Krause, B. Blombach, B. J. Eikmanns, Appl. Environ. Microbiol.
+2010, 76, 8053.
+[56] R. Werdehausen, D. Kremer, T. Brandenburger, L. Schlösser, J.
+Jadasz, P. Küry, I. Bauer, C. Aragón, V. Eulenburg, H. Hermanns,
+Anesthesiology 2012, 116, 147.
+[57] G. Tsai, H.-Y. Lane, P. Yang, M.-Y. Chong, N. Lange, Biol. Psychiatry
+2004, 55, 452.
+[58] A. Zahoor, A. Otten, V. F. Wendisch, J. Biotechnol. 2014, 192, 366.
+[59] S. Atsumi, T. Hanai, J. C. Liao, Nature 2008, 451, 86.
+[60] S. Atsumi, W. Higashide, J. C. Liao, Nat. Biotechnol. 2009, 27, 1177.
+[61] J. C. Liao, L. Mi, S. Pontrelli, S. Luo, Nat. Rev. Microbiol. 2016, 14,
+288.
+[62] K. M. Smith, K.-M. Cho, J. C. Liao, Appl. Microbiol. Biotechnol. 2010,
+87, 1045.
+[63] V. Bückle-Vallant, F. S. Krause, S. Messerschmidt, B. J. Eikmanns,
+Appl. Microbiol. Biotechnol. 2014, 98, 297.
+[64] H. B. Coban, A. Demirci, P. H. Patterson, R. J. Elias, Bioprocess
+Biosyst. Eng. 2014, 37, 2343.
+[65] J.-H. Jo, H.-Y. Seol, Y.-B. Lee, M.-H. Kim, H.-H. Hyun, H.-H. Lee, Can.
+J. Microbiol. 2012, 58, 278.
+[66] N. Kataoka, A. S. Vangnai, T. Pongtharangkul, T. Yakushi, M. Wada,
+A. Yokota, K. Matsushita, Biosci., Biotechnol., Biochem. 2019, 83,
+372.
+[67] D. Lubitz, V. F. Wendisch, BMC Microbiol. 2016, 16, 235.
+[68] Y. Song, J. Li, H. Shin, L. Liu, G. Du, J. Chen, Bioresour. Technol. 2016,
+219, 716.
+[69] M. Vogt, S. Haas, T. Polen, J. van Ooyen, M. Bott, Microb. Biotechnol.
+2015, 8, 351.
+[70] H. L. Lee, S.-Y. Kim, E. J. Kim, D. Y. Han, B.-G. Kim, J.-H. Ahn, J.
+Microbiol. Biotechnol. 2019, 29, 839.
+[71] H. J. Choo, J.-H. Ahn, J. Agric. Food Chem. 2019, 67, 8581.
+[72] E. Correa, W. Quiñones, F. Echeverri, Pharm. Biol. 2016, 54, 569.
+[73] N. S. Radulović, A. B. Miltojević, M. McDermott, S. Waldren, J. A.
+Parnell, M. M. G. Pinheiro, P. D. Fernandes, F. d. S. Menezes, J.
+Ethnopharmacol. 2011, 135, 610.
+[74] Z. W. Luo, J. S. Cho, S. Y. Lee, Proc. Natl. Acad. Sci. USA 2019, 116,
+10749.
+[75] N. Henke, J. Wichmann, T. Baier, J. Frohwitter, K. Lauersen, J. Risse,
+P. Peters-Wendisch, O. Kruse, V. Wendisch, Genes 2018, 9, 219.
+[76] E. G. Hrycay, S. M. Bandiera, in Monooxygenase, Peroxidase and Peroxygenase Properties and Mechanisms of Cytochrome P450 (Eds: E. G.
+Hrycay, S. M. Bandiera), Springer International Publishing, Cham
+2015, pp. 1–61.
+[77] P. F. Fitzpatrick, Biochemistry 2003, 42, 14083.
+[78] G. Zurlo, J. Guo, M. Takada, W. Wei, Q. Zhang, Biochim. Biophys.
+Acta 2016, 1866, 208.
+[79] L.-K. Liu, H. Abdelwahab, J. S. M. D. Campo, R. Mehra-Chaudhary,
+P. Sobrado, J. J. Tanner, J. Biol. Chem. 2016, 291, 21553.
+[80] J. B. Neilands, J. Biol. Chem. 1995, 270, 26723.
+[81] C. Naumann, T. Hartmann, D. Ober, Proc. Natl. Acad. Sci. USA 2002,
+99, 6085.
+[82] S. Sehlmeyer, L. Wang, D. Langel, D. G. Heckel, H. Mohagheghi, G.
+Petschenka, D. Ober, PLoS One 2010, 5, e10435.
+[83] G. L. Challis, ChemBioChem 2005, 6, 601.
+[84] V. de Lorenzo, J. B. Neilands, J. Bacteriol. 1986, 167, 350.
+[85] V. de Lorenzo, A. Bindereif, B. H. Paw, J. B. Neilands, J. Bacteriol.
+1986, 165, 570.
+
+Biotechnol. J. 2020, 15, 1900451
+
+1900451 (13 of 15)
+
+[86] S. V. Smirnov, N. N. Samsonova, A. E. Novikova, N. G. Matrosov, N.
+Y. Rushkevich, T. Kodera, J. Ogawa, H. Yamanaka, S. Shimizu, FEMS
+Microbiol. Lett. 2007, 273, 70.
+[87] X.-C. Wang, J. Liu, J. Zhao, X.-M. Ni, P. Zheng, X. Guo, C.-M. Sun,
+J.-B. Sun, Y.-H. Ma, J. Biosci. Bioeng. 2018, 126, 470.
+[88] M. D. Andersen, P. K. Busk, I. Svendsen, B. L. Møller, J. Biol. Chem.
+2000, 275, 1966.
+[89] N. V. Geraskina, E. V. Sycheva, V. V. Samsonov, N. S. Eremina, C.
+D. Hook, V. A. Serebrianyi, N. V. Stoynova, PLoS One 2019, 14,
+e0215777.
+[90] G. Han, X. Hu, X. Wang, Enzyme Microb. Technol. 2015, 78, 27.
+[91] S. Hasegawa, M. Suda, K. Uematsu, Y. Natsuma, K. Hiraga, T.
+Jojima, M. Inui, H. Yukawa, Appl. Environ. Microbiol. 2013, 79,
+1250.
+[92] Q.-G. Huang, B.-D. Zeng, L. Liang, S.-G. Wu, J.-Z. Huang, World J.
+Microbiol. Biotechnol. 2018, 34, 121.
+[93] C. Lange, D. Rittmann, V. F. Wendisch, M. Bott, H. Sahm, Appl. Environ. Microbiol. 2003, 69, 2521.
+[94] K.-M. Lee, S.-K. Kim, Y.-G. Lee, K.-H. Park, J.-H. Seo, Bioresour. Technol. 2018, 268, 271.
+[95] C. Liang, Y. Huo, G. Qi, X. Wei, Q. Wang, S. Chen, Biotechnol. Lett.
+2015, 37, 1243.
+[96] E. Lorenz, S. Klatte, V. F. Wendisch, J. Biotechnol. 2013, 168, 289.
+[97] W. Ma, J. Wang, Y. Li, X. Wang, Biotechnol. Appl. Biochem. 2019, 66,
+74.
+[98] M. Oldiges, B. J. Eikmanns, B. Blombach, Appl. Microbiol. Biotechnol.
+2014, 98, 5859.
+[99] N. Takpho, D. Watanabe, H. Takagi, Metab. Eng. 2018, 46, 60.
+[100] X. Wang, H. Zhang, P. J. Quinn, Appl. Microbiol. Biotechnol. 2018,
+102, 4319.
+[101] P. Macheroux, H. J. Plattner, A. Romaguera, H. Diekmann, Eur. J.
+Biochem. 1993, 213, 995.
+[102] J. H. Lee, V. F. Wendisch, Biores. Technol. 2017, 245, 1575.
+[103] V. F. Wendisch, Metab. Eng. 2020, 58, 17.
+[104] J. Becker, O. Zelder, S. Häfner, H. Schröder, C. Wittmann, Metab.
+Eng. 2011, 13, 159.
+[105] N. Tatsumi, M. Inui, Corynebacterium Glutamicum: Biology and
+Biotechnology, Springer Science & Business Media, Secaucus, NJ
+2012.
+[106] T. Brautaset, Ø. M. Jakobsen, K. F. Degnes, R. Netzer, I. Naerdal, A.
+Krog, R. Dillingham, M. C. Flickinger, T. E. Ellingsen, Appl. Microbiol.
+Biotechnol. 2010, 87, 951.
+[107] H. Ying, X. He, Y. Li, K. Chen, P. Ouyang, Appl. Biochem. Biotechnol.
+2014, 172, 3835.
+[108] K. M. Meneely, E. W. Barr, J. M. Bollinger, A. L. Lamb, Biochemistry
+2009, 48, 4371.
+[109] J. V. K. Jensen, D. Eberhardt, V. F. Wendisch, J. Biotechnol. 2015, 214,
+85.
+[110] Y.-J. Lee, J.-Y. Cho, Biotechnol. Lett. 2006, 28, 1849.
+[111] M. Rakhimuzzaman, M. Noda, N. Danshiitsoodol, M. Sugiyama,
+Biol. Pharm. Bull. 2019, 42, 1581.
+[112] J. Schneider, V. F. Wendisch, Appl. Microbiol. Biotechnol. 2010, 88,
+859.
+[113] M. Wang, M. Xu, Z. Rao, T. Yang, X. Zhang, J. Ind. Microbiol. Biotechnol. 2015, 42, 1427.
+[114] B. Zhang, G. Gao, X.-H. Chu, B.-C. Ye, Bioresour. Technol. 2019, 284,
+204.
+[115] M. Hartmann, T. Zeier, F. Bernsdorﬀ, V. Reichel-Deland, D. Kim, M.
+Hohmann, N. Scholten, S. Schuck, A. Bräutigam, T. Hölzel, C. Ganter, J. Zeier, Cell 2018, 173, 456.e16.
+[116] F. Pérez-García, J. M. Risse, K. Friehs, V. F. Wendisch, Biotechnol. J.
+2017, 12, 1600646.
+[117] F. Pérez-García, P. Peters-Wendisch, V. F. Wendisch, Appl. Microbiol.
+Biotechnol. 2016, 100, 8075.
+
+© 2020 The Authors. Biotechnology Journal published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+18607314, 2020, 7, Downloaded from https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/biot.201900451 by Readcube (Labtiva Inc.), Wiley Online Library on [27/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.biotechnology-journal.com
+
+[118] T. Böttcher, J. Clardy, Angew. Chem., Int. Ed. 2014, 53, 3510.
+[119] S. Rütschlin, S. Gunesch, T. Böttcher, O. Enzyme, Cell Chem. Biol.
+2017, 24, 598.e10.
+[120] C. O. Esuola, O. O. Babalola, T. Heine, R. Schwabe, M. Schlömann,
+D. Tischler, J. Mol. Catal. B: Enzym. 2016, 134, 378.
+[121] F. de Filippis, C. Pennacchia, R. di Pasqua, A. Fiore, V. Fogliano, F.
+Villani, D. Ercolini, Int. J. Food Microbiol. 2013, 165, 332.
+[122] M. Irla, T. M. B. Heggeset, I. Nærdal, L. Paul, T. Haugen, S. B. Le, T.
+Brautaset, V. F. Wendisch, Front. Microbiol. 2019, 10, 425.
+[123] Y.-M. Moon, S. Y. Yang, T. R. Choi, H.-R. Jung, H.-S. Song, Y. H. Han,
+H. Y. Park, S. K. Bhatia, R. Gurav, K. Park, J.-S. Kim, Y.-H. Yang, Enzyme Microb. Technol. 2019, 127, 58.
+[124] J. Wang, X. Lu, H. Ying, W. Ma, S. Xu, X. Wang, K. Chen, P. Ouyang,
+Front. Microbiol. 2018, 9, 1312.
+[125] Z. Bubelová, F. Buňka, M. Taťáková, K. Štajnochová, K. Purevdorj, L.
+Buňková, J. Environ. Sci. Health, Part B 2015, 50, 797.
+[126] B. del Rio, B. Redruello, V. Ladero, M. Fernandez, M. C. Martin, M.
+A. Alvarez, Int. J. Food Microbiol. 2016, 232, 1.
+[127] Z. Li, Y.-P. Shen, X.-L. Jiang, L.-S. Feng, J.-Z. Liu, J. Ind. Microbiol.
+Biotechnol. 2018, 45, 123.
+[128] D. R. Morris, K. L. Koﬀron, J. Bacteriol. 1967, 94, 1516.
+[129] S. Kind, S. Neubauer, J. Becker, M. Yamamoto, M. Völkert, G. , Abendroth, O. Zelder, C. Wittmann, Metab. Eng. 2014, 25, 113.
+[130] A. Q. D. Nguyen, J. Schneider, V. F. Wendisch, J. Biotechnol. 2015,
+201, 75.
+[131] A. Q. D. Nguyen, J. Schneider, G. K. Reddy, V. F. Wendisch, Metabolites 2015, 5, 211.
+[132] J. Jiao, Y. Ma, S. Chen, C. Liu, Y. Song, Y. Qin, C. Yuan, Y. Liu, Front.
+Plant Sci. 2016, 7, 1387.
+[133] I. L. Lamont, L. W. Martin, T. Sims, A. Scott, M. Wallace, J. Bacteriol.
+2006, 188, 3149.
+[134] S.-W. Lee, M.-K. Oh, Biotechnol. Bioeng. 2016, 113, 2524.
+[135] A. M. Ahmed, E. E. A. Younis, S. A. Osman, Y. Ishida, S. A. Elkhodery, T. Shimamoto, Vet. Microbiol. 2009, 136, 397.
+[136] A. Drazic, L. M. Myklebust, R. Ree, T. Arnesen, Biochim. Biophys.
+Acta, Proteins Proteomics 2016, 1864, 1372.
+[137] K. T. Nguyen, S.-H. Mun, C.-S. Lee, C.-S. Hwang, Exp. Mol. Med.
+2018, 50, 1.
+[138] G. Seltmann, O. Holst, The Bacterial Cell Wall, 1st ed., SpringerVerlag, Berlin Heidelberg 2002.
+[139] D. Zhao, Y. Yu, Y. Shen, Q. Liu, Z. Zhao, R. Sharma, R. J. Reiter, Front.
+Endocrinol. 2019, 10, 249.
+[140] M. T. Ringel, T. Brüser, Microb. Cell 2018, 5, 424.
+[141] A. Robicsek, J. Strahilevitz, G. A. Jacoby, M. Macielag, D. Abbanat,
+C. H. Park, K. Bush, D. C. Hooper, Nat. Med. 2006, 12, 83.
+[142] L. Liu, Y. Liu, H. Shin, R. Chen, J. Li, G. Du, J. Chen, Appl. Microbiol.
+Biotechnol. 2013, 97, 6149.
+[143] S.-W. Lee, B.-Y. Lee, M.-K. Oh, J. Agric. Food Chem. 2018, 66, 13191.
+[144] S.-W. Lee, M.-K. Oh, Metab. Eng. 2015, 28, 143.
+[145] W. Ma, Y. Liu, H.-D. Shin, J. Li, J. Chen, G. Du, L. Liu, Bioresour. Technol. 2018, 250, 642.
+[146] Y. Wu, T. Chen, Y. Liu, R. Tian, X. Lv, J. Li, G. Du, J. Chen, R. LedesmaAmaro, L. Liu, Nucleic Acids Res. 2020, 48, 996.
+[147] Y. Liu, Y. Zhu, J. Li, H. Shin, R. R. Chen, G. Du, L. Liu, J. Chen, Metab.
+Eng. 2014, 23, 42.
+[148] Y. Liu, Y. Zhu, W. Ma, H. Shin, J. Li, L. Liu, G. Du, J. Chen, Metab.
+Eng. 2014, 24, 61.
+[149] M.-D. Deng, D. K. Severson, A. D. Grund, S. L. Wassink, R. P.
+Burlingame, A. Berry, J. A. Running, C. A. Kunesh, L. Song, T. A.
+Jerrell, R. A. Rosson, Metab. Eng. 2005, 7, 201.
+[150] X. Chen, L. Liu, J. Li, G. Du, J. Chen, Bioresour. Technol. 2012, 110,
+534.
+[151] X. Chen, L. Liu, J. Li, J. Liu, G. Du, J. Chen, J. Ind. Microbiol. Biotechnol.
+2012, 39, 359.
+
+Biotechnol. J. 2020, 15, 1900451
+
+1900451 (14 of 15)
+
+[152] X. Chen, J. Zhou, L. Zhang, Z. Pu, L. Liu, W. Shen, Y. Fan, Metab.
+Eng. 2018, 47, 374.
+[153] X. Gao, F. Zhang, M. Wu, Z. Wu, G. Shang, J. Agric. Food Chem. 2019,
+67, 6285.
+[154] F. Tao, Y. Zhang, C. Ma, P. Xu, Appl. Microbiol. Biotechnol. 2010, 87,
+1281.
+[155] D. Zhu, J. Wu, X. Zhan, L. Zhu, Y. Jiang, J. Ind. Microbiol. Biotechnol.
+2019, 46, 125.
+[156] S. F. Brady, J. Clardy, Org. Lett. 2005, 7, 3613.
+[157] J. Clardy, S. F. Brady, J. Bacteriol. 2007, 189, 6487.
+[158] J. W. Craig, F.-Y. Chang, J. H. Kim, S. C. Obiajulu, S. F. Brady, Appl.
+Environ. Microbiol. 2010, 76, 1633.
+[159] B. Kim, R. Binkley, H. U. Kim, S. Y. Lee, Biotechnol. Bioeng. 2018, 115,
+2554.
+[160] Q. Wang, W. Zeng, J. Zhou, Chin. J. Biotechnol. 2019, 35, 1247.
+[161] M. Xu, J. Li, Q. Shu, M. Tang, X. Zhang, T. Yang, Z. Xu, Z. Rao, J. Ind.
+Microbiol. Biotechnol. 2019, 46, 1155.
+[162] D. Lubitz, J. M. P. Jorge, F. Pérez-García, H. Taniguchi, V. F.
+Wendisch, Appl. Microbiol. Biotechnol. 2016, 100, 8465.
+[163] C. Zhao, H. Fang, J. Wang, S. Zhang, X. Zhao, Z. Li, C. Lin, Z. Shen,
+L. Cheng, Biotechnol. Prog. 2019, 5, e2944.
+[164] C. Zang, Z. Zhao, Y. Wang, Y. Zhang, J. Ding, Chin. J. Biotechnol.
+2014, 54, 24.
+[165] J. Wu, Y. Liu, S. Zhao, J. Sun, Z. Jin, D. Zhang, J. Microbiol. Biotechnol.
+2019, 29, 923.
+[166] C. Zhang, J. Zhang, Z. Kang, G. Du, J. Chen, J. Ind. Microbiol. Biotechnol. 2015, 42, 787.
+[167] D. K. Marvil, T. Leisinger, J. Biol. Chem. 1977, 252, 3295.
+[168] K. Petri, F. Walter, M. Persicke, C. Rückert, J. Kalinowski, BMC Genomics 2013, 14, 713.
+[169] D. Shi, L. Caldovic, Z. Jin, X. Yu, Q. Qu, L. Roth, H. Morizono,
+Y. Hathout, N. M. Allewell, M. Tuchman, Acta Crystallogr., Sect. F:
+Struct. Biol. Cryst. Commun. 2006, 62, 1218.
+[170] W. Dou, M. Xu, D. Cai, X. Zhang, Z. Rao, Z. Xu, Appl. Biochem.
+Biotechnol. 2011, 165, 845.
+[171] A. Iqbal, I. J. Clifton, M. Bagonis, N. J. Kershaw, C. Domene, T. D.
+W. Claridge, C. W. Wharton, C. J. Schoﬁeld, J. Am. Chem. Soc. 2009,
+131, 749.
+[172] S. H. Park, H. U. Kim, T. Y. Kim, J. S. Park, S.-S. Kim, S. Y. Lee, Nat.
+Commun. 2014, 5, 4618.
+[173] J. V. K. Jensen, V. F. Wendisch, Microb. Cell Fact. 2013, 12, 63.
+[174] D. Eberhardt, J. V. K. Jensen, V. F. Wendisch, AMB Express 2014, 4,
+85.
+[175] H.-Y. Sagong, K.-J. Kim, J. Agric. Food Chem. 2015, 63, 10641.
+[176] C. Richaud, F. Richaud, C. Martin, C. Haziza, J. C. Patte, J. Biol. Chem.
+1984, 259, 14824.
+[177] S. Kind, C. Wittmann, Appl. Microbiol. Biotechnol. 2011, 91,
+1287.
+[178] S. Kind, W. K. Jeong, H. Schröder, O. Zelder, C. Wittmann, Appl.
+Environ. Microbiol. 2010, 76, 5175.
+[179] T. M. Meiswinkel, D. Rittmann, S. N. Lindner, V. F. Wendisch, Bioresour. Technol. 2013, 145, 254.
+[180] B. Liu, A. Sutton, R. Sternglanz, J. Biol. Chem. 2005, 280, 16659.
+[181] D. P. Woolridge, J. D. Martinez, D. E. Stringer, E. W. Gerner, Biochem.
+J. 1999, 340, 753.
+[182] S. A. Shinsky, D. W. Christianson, Biochemistry 2018, 57, 3105.
+[183] A. Nyyssölä, J. Kerovuo, P. Kaukinen, N. von Weymarn, T.
+Reinikainen, J. Biol. Chem. 2000, 275, 22196.
+[184] M. Frauenkron, J.-P. Melder, G. Ruider, R. Rossbacher, H. Höke, in
+Ullmann’s Encyclopedia of Industrial Chemistry, 6th ed., Wiley-VCH
+Verlag GmbH & Co. KGaA, Weinheim, Germany 2001.
+[185] C. E. Gidding, in Kirk-Othmer Encyclopedia of Chemical Technology,
+John Wiley & Sons, Inc., Hoboken, NJ 2000.
+[186] P. Mäkelä, Sugar Tech 2004, 6, 207.
+
+© 2020 The Authors. Biotechnology Journal published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+18607314, 2020, 7, Downloaded from https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/biot.201900451 by Readcube (Labtiva Inc.), Wiley Online Library on [27/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+www.biotechnology-journal.com
+
+[187] V. Bernal, P. Arense, M. Cánovas, in Industrial Biotechnology of Vitamins, Biopigments, and Antioxidants (Eds: E. J. Vandamme, J. L.
+Revuelta), Wiley VCH, Weinheim 2016, pp. 389–419.
+[188] A. H. Datko, S. H. Mudd, Plant Physiol. 1988, 88, 854.
+[189] A. H. Datko, S. H. Mudd, Plant Physiol. 1988, 88, 1338.
+[190] M. L. Nuccio, M. J. Ziemak, S. A. Henry, E. A. Weretilnyk, A. D. Hanson, J. Biol. Chem. 2000, 275, 14095.
+[191] S. D. McNeil, M. L. Nuccio, M. J. Ziemak, A. D. Hanson, Proc. Natl.
+Acad. Sci. USA 2001, 98, 10001.
+[192] M. P. Prud’homme, T. S. Moore, Plant Physiol. 1992, 100, 1527.
+[193] L. Servillo, A. Giovane, D. Cautela, D. Castaldo, M. L. Balestrieri,
+PLoS One 2014, 9, e84589.
+[194] D. M. Cameron, S. T. Gregory, J. Thompson, M.-J. Suh, P. A. Limbach, A. E. Dahlberg, J. Bacteriol. 2004, 186, 5819.
+[195] P. R. Borum, H. P. Broquist, J. Biol. Chem. 1977, 252, 5651.
+[196] W.-K. Kang, B.-U. Lee, Y. Park, E.-S. Koh, J.-Y. Ju, J. Lee, H. Kim, H.
+Choi (CJ CheilJedang Corp), US20080199920A1, 2008.
+[197] J. Franken, A. Burger, J. H. Swiegers, F. F. Bauer, Appl. Microbiol.
+Biotechnol. 2015, 99, 6377.
+[198] R. C. Trievel, E. M. Flynn, R. L. Houtz, J. H. Hurley, Nat. Struct. Mol.
+Biol. 2003, 10, 545.
+[199] J. R. Kar, J. E. Hallsworth, R. S. Singhal, Environ. Technol. Innov. 2015,
+3, 68.
+[200] J. R. Kar, R. S. Singhal, Chem. Eng. Sci. 2017, 163, 83.
+[201] H.-P. Meyer, K. T. Robins, Monatsh. Chem. 2005, 136, 1269.
+[202] P. Arense, V. Bernal, D. Charlier, J. Iborra, M. Foulquié-Moreno, M.
+Cánovas, Microb. Cell Fact. 2013, 12, 56.
+[203] T. Akiyama, F. Watanabe, W. Mizunashi, presented at Enzyme
+Engineering XXV, Whistler, British Columbia, Canada September
+2019.
+[204] J. Schneider, V. F. Wendisch, Appl. Microbiol. Biotechnol. 2011, 91,
+17.
+[205] V. F. Wendisch, M. Mindt, F. Pérez-García, Appl. Microbiol. Biotechnol. 2018, 102, 3583.
+[206] T. U. Chae, J. H. Ahn, Y.-S. Ko, J. W. Kim, J. A. Lee, E. H. Lee, S. Y.
+Lee, Metab. Eng. 2020, 58, 2.
+[207] W. H. Bowman, C. W. Tabor, H. Tabor, J. Biol. Chem. 1973, 248, 2480.
+[208] S.-K. Kim, J.-H. Jo, Y.-C. Park, Y.-S. Jin, J.-H. Seo, Enzyme Microb.
+Technol. 2017, 101, 30.
+[209] T. U. Chae, W. J. Kim, S. Choi, S. J. Park, S. Y. Lee, Sci. Rep. 2015, 5,
+13040.
+[210] M. Noh, S. M. Yoo, W. J. Kim, S. Y. Lee, Cell Syst. 2017, 5, 418.e4.
+
+Biotechnol. J. 2020, 15, 1900451
+
+1900451 (15 of 15)
+
+[211] J. Schneider, D. Eberhardt, V. F. Wendisch, Appl. Microbiol. Biotechnol. 2012, 95, 169.
+[212] H. T. Kim, K.-A. Baritugo, Y. H. Oh, S. M. Hyun, T. U. Khang, K. H.
+Kang, S. H. Jung, B. K. Song, K. Park, I.-K. Kim, M. O. Lee, Y. Kam,
+Y. T. Hwang, S. J. Park, J. C. Joo, ACS Sustainable Chem. Eng. 2018,
+6, 5296.
+[213] N. Buschke, J. Becker, R. Schäfer, P. Kiefer, R. Biedendieck, C.
+Wittmann, Biotechnol. J. 2013, 8, 557.
+[214] K. Imao, R. Konishi, M. Kishida, Y. Hirata, S. Segawa, N. Adachi, R.
+Matsuura, Y. Tsuge, T. Matsumoto, T. Tanaka, A. Kondo, Bioresour.
+Technol. 2017, 245, 1684.
+[215] R. Matsuura, M. Kishida, R. Konishi, Y. Hirata, N. Adachi, S. Segawa,
+K. Imao, T. Tanaka, A. Kondo, Biotechnol. Bioeng. 2019, 116, 2640.
+[216] D. H. Kwak, H. G. Lim, J. Yang, S. W. Seo, G. Y. Jung, Biotechnol.
+Biofuels 2017, 10, 20.
+[217] I. Naerdal, J. Pfeifenschneider, T. Brautaset, V. F. Wendisch, Microb.
+Biotechnol. 2015, 8, 342.
+[218] E. Sgobba, A. K. Stumpf, M. Vortmann, N. Jagmann, M. Krehenbrink, M. E. Dirks-Hofmeister, B. Moerschbacher, B. Philipp, V. F.
+Wendisch, Bioresour. Technol. 2018, 260, 302.
+[219] J. Wang, J. Mao, W. Tian, G. Wei, S. Xu, W. Ma, K. Chen, M. Jiang, P.
+Ouyang, Green Chem. 2018, 20, 2880.
+[220] W. Ma, W. Cao, B. Zhang, K. Chen, Q. Liu, Y. Li, P. Ouyang, Sci. Rep.
+2015, 5, 15630.
+[221] J. Shin, J. C. Joo, E. Lee, S. M. Hyun, H. J. Kim, S. J. Park, Y.-H. Yang,
+K. Park, Appl. Biochem. Biotechnol. 2018, 185, 909.
+[222] W. Ma, W. Cao, H. Zhang, K. Chen, Y. Li, P. Ouyang, Biotechnol. Lett.
+2015, 37, 799.
+[223] H. T. Kim, K. A. Baritugo, Y. H. Oh, K. H. Kang, Y. J. Jung, S. Jang, B.
+K. Song, I. K. Kim, M. O. Lee, Y. T. Hwang, K. Park, S. J. Park, J. C.
+Joo, Polymers 2019, 11, 1184.
+[224] R. Kloss, M. H. Limberg, U. Mackfeld, D. Hahn, A. Grünberger, V.
+D. Jäger, U. Krauss, M. Oldiges, M. Pohl, Sci. Rep. 2018, 8, 5856.
+[225] S. Krossa, A. Faust, D. Ober, A. J. Scheidig, Sci. Rep. 2016, 6, 19501.
+[226] Y. Ping, X. Li, B. Xu, W. Wei, W. Wei, G. Kai, Z. Zhou, Y. Xiao, ACS
+Synth. Biol. 2019, 8, 257.
+[227] G. Cacciapuoti, M. Porcelli, M. A. Moretti, F. Sorrentino, L. Concilio,
+V. Zappia, Z.-J. Liu, W. Tempel, F. Schubot, J. P. Rose, B.-C. Wang,
+P. S. Brereton, F. E. Jenney, M. W. W. Adams, J. Bacteriol. 2007, 189,
+6057.
+[228] K. Schultenkämper, L. F. Brito, V. F. Wendisch, Biotechnol. Appl.
+Biochem. 2020, bab.1901.
+
+© 2020 The Authors. Biotechnology Journal published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+
+18607314, 2020, 7, Downloaded from https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/biot.201900451 by Readcube (Labtiva Inc.), Wiley Online Library on [27/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+www.advancedsciencenews.com
+
+

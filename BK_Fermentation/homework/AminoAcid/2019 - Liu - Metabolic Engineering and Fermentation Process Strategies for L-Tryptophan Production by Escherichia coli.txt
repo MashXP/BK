@@ -1,0 +1,2059 @@
+processes
+Review
+
+Metabolic Engineering and Fermentation Process
+Strategies for L-Tryptophan Production by
+Escherichia coli
+Lina Liu 1 , Muhammad Bilal 1, * , Hongzhen Luo 1 , Yuping Zhao 1 and Hafiz M. N. Iqbal 2, *
+1
+2
+
+*
+
+School of Life Science and Food Engineering, Huaiyin Institute of Technology, Huaian 223003, China;
+nabestwishes@126.com (L.L.); hzluo@hyit.edu.cn (H.L.); zhaoyuping@hyit.edu.cn (Y.Z.)
+School of Engineering and Sciences, Campus Monterrey, Tecnologico de Monterrey,
+Ave. Eugenio Garza Sada 2501, Monterrey CP 64849, N.L., Mexico
+Correspondence: bilaluaf@hotmail.com (M.B.); hafiz.iqbal@itesm.mx (H.M.N.I.);
+Tel.: +52-81-8358-2000 (ext. 5679) (H.M.N.I.)
+
+Received: 7 March 2019; Accepted: 8 April 2019; Published: 12 April 2019
+
+
+
+
+Abstract: L-tryptophan is an essential aromatic amino acid that has been widely used in medicine,
+food, and animal feed. Microbial biosynthesis of L-tryptophan through metabolic engineering
+approaches represents a sustainable, cost-effective, and environmentally friendly route compared to
+chemical synthesis. In particular, metabolic pathway engineering allows enhanced product titers by
+inactivating/blocking the competing pathways, increasing the intracellular level of essential precursors,
+and overexpressing rate-limiting enzymatic steps. Based on the route of the L-tryptophan biosynthesis
+pathway, this review presents a systematic and detailed summary of the contemporary metabolic
+engineering approaches employed for L-tryptophan production. In addition to the engineering of the
+L-tryptophan biosynthesis pathway, the metabolic engineering modification of carbon source uptake,
+by-product formation, key regulatory factors, and the polyhydroxybutyrate biosynthesis pathway in
+L-tryptophan biosynthesis are discussed. Moreover, fermentation bioprocess optimization strategies
+used for L-tryptophan overproduction are also delineated. Towards the end, the review is wrapped
+up with the concluding remarks, and future strategies are outlined for the development of a high
+L-tryptophan production strain.
+Keywords: metabolic engineering; bioprocess; L-tryptophan; by-product; regulatory factors;
+polyhydroxybutyrate; fermentation process optimization
+
+1. Introduction
+With the development of DNA recombinant and genetic engineering technologies in microbial
+breeding, a large number of amino acid production strains have been constructed to achieve the
+industrial production of L-amino acids [1–4]. L-Tryptophan, an essential amino acid for human and
+animal activity, can serve as a supplement in the food and feed industry, as well as medicine to promote
+good sleep quality and mood [5,6]. The annual demand of L-tryptophan in the global market is above
+50,000 tons, and the market growth rate is over 10% [7]. With the rapid growth of market demand,
+the development of L-tryptophan production technologies has received considerable research attention
+around the globe. Chemical synthesis, enzyme conversion, and microbial fermentation are common
+methods for L-tryptophan production. Given the advantages of cheap raw materials, high purity
+products, and the facile extraction process, microbial fermentation has currently become the method of
+choice for producing L-tryptophan in industry.
+At present, the strains used for L-tryptophan production mainly include Escherichia coli (E. coli)
+and Corynebacterium glutamicum. In light of well-characterized biochemistry and physiology, favorable
+Processes 2019, 7, 213; doi:10.3390/pr7040213
+
+www.mdpi.com/journal/processes
+
+Processes 2019, 7, 213
+Processes 2019, 7, 213
+
+2 of 17
+2 of 17
+
+favorable
+growth and
+conditions,
+and the of
+availability
+versatile
+genetic tools,
+manipulation
+E. as
+colian
+growth
+conditions,
+the availability
+versatile of
+genetic
+manipulation
+E. coli tools,
+appeared
+appeared
+idealfor
+host
+for the
+commercial
+production of
+numerous
+valuable[8].
+bioproducts
+ideal
+host as an
+organism
+theorganism
+commercial
+production
+of numerous
+valuable
+bioproducts
+Previously,
+[8].highest
+Previously,
+the highest
+L-tryptophan
+(54.5 g·L−1by
+) was
+achieved
+by E. coli AGX1757/pSC101
+the
+L-tryptophan
+yield
+(54.5 g·L−1 )yield
+was achieved
+E. coli
+AGX1757/pSC101
+with a conversion
+−1 [9]. In E. coli, the biosynthesis
+−1
+with
+a
+conversion
+rate
+(
+L
+-tryptophan
+yield
+on
+glucose)
+of
+0.23
+g·g
+rate (L-tryptophan yield on glucose) of 0.23 g·g [9]. In E. coli, the biosynthesis pathway of L-tryptophan
+pathway of
+L the
+-tryptophan
+includes
+the the
+central
+metabolic
+pathway,
+common
+aromatic
+mainly
+includes
+central mainly
+metabolic
+pathway,
+common
+aromatic
+aminothe
+acid
+pathway,
+and the
+amino
+acid
+pathway,
+and
+the
+L-tryptophan branch pathway [6]. The center metabolic pathway
+L-tryptophan branch pathway [6]. The center metabolic pathway containing glycolysis and the pentose
+containingpathway
+glycolysis(PPP)
+and the
+phosphate
+pathway
+(PPP) of
+arephosphoenolpyruvate
+responsible for the generation
+of
+phosphate
+arepentose
+responsible
+for the
+generation
+(PEP) and
+phosphoenolpyruvate
+(PEP)
+and
+erythrose-4-phosphate
+(E4P)
+with
+glucose
+as
+the
+original
+substrate.
+erythrose-4-phosphate (E4P) with glucose as the original substrate. The common pathway points to
+The common pathway points to the process that 3-deoxy-d-arabinoheptulosonate-7-phosphate
+the process that 3-deoxy-d-arabinoheptulosonate-7-phosphate (DAHP) forms chorismate (CHA) by a
+(DAHP) forms chorismate (CHA) by a series of enzyme-catalyzed reactions. The formation of DAHP
+series of enzyme-catalyzed reactions. The formation of DAHP is catalyzed by DAHP synthases (DS)
+is catalyzed by DAHP synthases (DS) with PEP and E4P as substrates. The L-Tryptophan branch
+with PEP and E4P as substrates. The L-Tryptophan branch pathway refers to the process by which
+pathway refers to the process by which CHA eventually generates L-tryptophan under the control of
+CHA eventually generates L-tryptophan under the control of a tryptophan operon [10]. In addition to
+a tryptophan operon [10]. In addition to the long metabolic pathway, the complex metabolic
+the long metabolic pathway, the complex metabolic regulation mechanism also exists in the process
+regulation mechanism also exists in the process of the microbial biosynthesis of L-tryptophan [10]. In
+of the microbial biosynthesis of L-tryptophan [10]. In earlier reports, attempts at the metabolic
+earlier reports, attempts at the metabolic engineering modification of L-tryptophan production strains
+engineering modification of L-tryptophan production strains mainly focused on eliminating feedback
+mainly focused on eliminating feedback regulation and disrupting competing pathways in the
+regulation
+androutes;
+disrupting
+competing
+pathways the
+in the
+biosynthesis
+routes;
+example,
+the
+biosynthesis
+for example,
+eliminating
+feedback
+inhibition
+of for
+substrates
+byeliminating
+site-directed
+feedback
+inhibition
+of
+substrates
+by
+site-directed
+mutagenesis
+and
+disrupting
+the
+L-phenylalanine
+and
+mutagenesis and disrupting the L-phenylalanine and L-tyrosine branch pathway to block LL-tyrosine
+branch
+pathway
+to block L-phenylalanine and L-tyrosine biosynthesis, respectively [9–13].
+phenylalanine
+and
+L-tyrosine biosynthesis, respectively [9–13]. However, the metabolic flux of the LHowever,
+thebiosynthesis
+metabolic flux
+of thecan
+L-tryptophan
+biosynthesis
+pathway
+cansuch
+alsoasbethe
+influenced
+tryptophan
+pathway
+also be influenced
+by several
+factors,
+regulatoryby
+several
+factors,
+such
+as
+the
+regulatory
+proteins,
+by-product
+formation,
+and
+other
+related
+biosynthesis
+proteins, by-product formation, and other related biosynthesis pathways. In addition to metabolic
+pathways.
+In addition
+to (Figure
+metabolic1), the
+engineering
+approaches
+(Figure 1), the
+fermentation
+optimization
+engineering
+approaches
+fermentation
+optimization
+strategies also
+have significant
+strategiesonalso have
+significant
+on yield
+improving
+L-tryptophan
+yield and
+reducing
+by-product
+effects
+improving the
+L effects
+-tryptophan
+and the
+reducing
+by-product
+formation.
+Based on
+the
+formation.
+Based
+on
+the
+literature
+reported
+during
+the
+last
+decade
+and
+the
+recent
+advances,
+this
+review
+literature reported during the last decade and the recent advances, this review systematically
+systematically
+genetic engineering
+modification
+and fermentation
+optimization
+strategies
+describes
+thedescribes
+genetic the
+engineering
+modification and
+fermentation
+optimization
+strategies for
+Lfor
+L-tryptophan
+overproduction
+and the
+factors
+influencing
+biosynthesis
+L-tryptophan.
+tryptophan
+overproduction
+and the
+factors
+influencing
+the the
+biosynthesis
+of L of
+-tryptophan.
+
+Figure 1. Schematic representation of metabolic engineering approaches for induced production of
+Figure
+1. Schematic
+representation
+of metabolic engineering approaches for induced production of LL-tryptophan
+using engineered
+E. coli.
+tryptophan using engineered E. coli.
+
+Processes 2019, 7, 213
+
+3 of 17
+
+2. Metabolic Engineering Modification of Related Pathways
+2.1. Glucose Transport
+The glucose transport in E. coli is carried out by means of the phosphoenolpyruvate: the glucose
+phosphotransferase system (PTS) and the galactose transport system (Figure 2). In the galactose
+transport system, galactose permease coding by gene galP plays an important role in the transport of
+galactose and glucose [14]. The glucose transport efficiency of the galactose transport system is much
+weaker than that of PTS due to the lower expression of intracellular galp. The PTS, which is primarily
+responsible for glucose uptake and phosphorylation, generally includes two central phosphoryl
+carriers, Enzyme I (EI) and phosphoryl carrier protein (HPr) [15]. Glucose transport by PTS not only
+consumes large amounts of PEP, an indispensable precursor in the L-tryptophan biosynthesis pathway,
+but also leads to disrupting the reasonable distribution of metabolic flow between glycolysis and the
+tricarboxylic acid (TCA) cycle [16], resulting in a lower L-tryptophan production capacity. Therefore,
+the construction of PTS-deficient strains is the most common strategy used to improve the accumulation
+of PEP for enhanced L-tryptophan production [17–20]. Studies have shown that a positive effect of
+the overexpression of a glucose facilitator and glucokinase from Zymomonas mobilis could restore
+glucose uptake in a PTS-negative E. coli mutant [21]. Recently, an L-tryptophan production strain
+KW018 was constructed by the combinatorial overexpression of glucokinase and galactose permease to
+overcome the lower transport rate of glucose in a PTS-deficient strain [17]. In contrast to PTS knockout,
+a series of HPr mutants were applied in the genome for weakening PTS. As a result, the glucose
+transport rates of all mutant strains were relatively decreased. Among the mutant strains, E. coli
+FB-04(pta1) ∆pykF-ptsHN12S achieved a 38.0% increased conversion rate compared with the parent
+strain [22]. This phenomenon of a higher product yield upon reduced rates of sugar uptake has also
+been previously described [23,24].
+2.2. The Central Metabolic Pathway
+PEP and E4P, derived from glycolysis and the pentose phosphate pathway, respectively, are two
+critical precursors for L-tryptophan biosynthesis. Modifying the central metabolic pathway to raise the
+supply of PEP and E4P increased the carbon flow in the L-tryptophan biosynthesis pathway, and thus,
+finally improved the L-tryptophan titer. The biosynthesis of E4P is mainly catalyzed by transketolase
+(TKT), an isozyme encoded by the genes tktA and tktB, in which the tktA-encoded isozyme plays a
+major role. To increase E4P supply, transketolase was generally overexpressed in an L-tryptophan
+production strain. Overexpressing transketolase together with AroG and the tryptophan operon in an
+L-tryptophan production strain led to an increase in the L-tryptophan yield of 90% [25]. Previously,
+L-tryptophan production strain GPT1002 was constructed by overexpressing genes tktA, mutated trpE,
+and aroG [20].
+Considering that pyruvate kinase, encoded by genes pykA and pykF, catalyzes PEP to generate
+pyruvate (PYR), pyruvate kinase deficiency improved the accumulation of PEP [26]. It was reported
+that gene pykF deletion significantly raised the expression of related enzymes in the aromatic amino
+acid common pathway [27,28]. In contrary to pyruvate kinase, phosphoenolpyruvate (PEP) synthetase
+(encoding by gene ppsA) catalyzes the conversion of PYR into PEP, contributing to the accumulation
+of PEP [29]. Overexpressing PPSA enhanced the level of PEP; in turn, the content of DAHP in the
+aromatic amino acid common pathway was increased [30]. Genes of ppsA and tktA combined with
+aroG and trpED were reported to be overexpressed for the development of a L-tryptophan production
+strain [31]. In addition, the inactivation of PEP carboxylase (PEPC), an enzyme catalyzing the formation
+of oxaloacetate from PEP, was found to be beneficial for the accumulation of PEP [32].
+
+Processes 2019, 7, 213
+Processes 2019, 7, 213
+
+4 of 17
+
+4 of 17
+
+Figure 2. The metabolic pathway involved in L-tryptophan biosynthesis and its regulations in E. coli.
+Figure 2. The metabolic pathway involved in L-tryptophan biosynthesis and its regulations in E. coli.
+The dashed lines indicate feedback inhibitions by the aromatic amino acid end products.
+The dashed lines indicate feedback inhibitions by the aromatic amino acid end products.
+
+2.3. The Aromatic Amino Acid Common Pathway and the L-tryptophan Branch Pathway
+2.2. The Central Metabolic Pathway
+In the biosynthesis pathway of L-tryptophan, the aromatic amino acid common pathway and the
+PEP andbranch
+E4P, derived
+from
+glycolysis
+the pentose
+phosphate
+respectively, are
+two
+L-tryptophan
+pathway
+involved
+theand
+feedback
+inhibitions
+of apathway,
+series of rate-limiting
+enzymes,
+critical
+precursors
+for
+L-tryptophan biosynthesis. Modifying the central metabolic pathway to raise
+mainly including DAHP synthase and ANTA synthase [10]. DAHP synthase, a main rate-limiting
+the supply of PEP and E4P increased the carbon flow in the L-tryptophan biosynthesis pathway, and
+enzyme catalyzing PEP and E4P to form DAHP, plays a key role in directing carbon flow from
+thus, finally improved the L-tryptophan titer. The biosynthesis of E4P is mainly catalyzed by
+the central metabolic pathway to the common pathway. In E. coli, DAHP synthase is composed of
+transketolase (TKT), an isozyme encoded by the genes tktA and tktB, in which the tktA-encoded
+three isozymes: AroG, AroF, and AroH, whose activities are feedback-inhibited by L-phenylalanine,
+isozyme plays a major role. To increase E4P supply, transketolase was generally overexpressed in an
+L-tyrosine, and L-tryptophan, respectively. Given that the activities of AroG and AroF account for
+L-tryptophan production strain. Overexpressing transketolase together with AroG and the
+more
+than 99% of total enzyme activities, significant research work has been dedicated to screening
+tryptophan operon in an L-tryptophan production strain led to an increase in the L-tryptophan yield
+outofanti-feedback
+regulated
+isozymes of AroG and AroF to eliminate the feedback inhibition by
+90% [25]. Previously,
+L-tryptophan production strain GPT1002 was constructed by overexpressing
+substrates
+[10].
+For AroG,
+two aroG
+AroG[20].
+mutants, P150L and D146N, completely relieved the feedback
+genes
+tktA,
+mutated
+trpE, and
+inhibition
+by
+L-phenylalanine
+[33].
+For
+studies
+have pykA
+indicated
+that AroF
+mutants
+(N8K,
+P148L,
+Considering that pyruvate kinase,AroF,
+encoded
+by genes
+and pykF,
+catalyzes
+PEP to
+generate
+and
+Q152I)
+could
+remove
+the
+feedback
+regulation
+by
+L-tyrosine
+[34,35].
+Moreover,
+deleting
+the
+Ile11
+pyruvate (PYR), pyruvate kinase deficiency improved the accumulation of PEP [26]. It was reported
+residue
+of AroF
+achieved
+a significant
+effect of
+anti-feedback
+inhibition,
+and this
+mutant
+was
+that gene
+pykF also
+deletion
+significantly
+raised the
+expression of
+related enzymes
+in the
+aromatic
+amino
+employed in
+the pathway
+construction
+of anIn contrary
+L-tryptophan
+productionkinase,
+strain [10]. ANTA
+synthase, (PEP)
+another
+acid
+common
+[27,28].
+to pyruvate
+phosphoenolpyruvate
+major rate-limiting enzyme encoded by the gene trpED, catalyzes the generation of ANTA from
+
+Processes 2019, 7, 213
+
+5 of 17
+
+CHA, whereas the activity of ANTA synthase is inhibited by L-tryptophan [36]. The problem of the
+feedback inhibition of ANTA synthase was completely addressed by replacing the 40-serine residue
+with phenylalanine in the enzyme TrpE [37], and a higher L-tryptophan yield was obtained compared
+to that of the parent strain by overexpressing the mutated enzyme [10]. Except for the discovery of
+anti-feedback regulatory enzymes, overexpression of enzymes related to the common pathway and
+the L-tryptophan branch pathway also plays a decisive role in the overproduction of L-tryptophan.
+In the L-tryptophan branch pathway, the structural genes, known as the tryptophan operon in
+the genome, are responsible for L-tryptophan biosynthesis [17], whereas the attenuator, a segment
+nucleotide sequence consisting of 162 nucleotides located before the structural genes, regulates
+the tryptophan operator. When intracellular L-tryptophan reaches a certain level, the secondary
+structure conformation of the attenuator changes, and then prevents the transcription of the tryptophan
+operon [38]. It was reported that a tryptophan attenuator-deficient strain exhibited a higher transcription
+of tryptophan operon genes than that of the parent strain GPT1001 [20]. In order to improve the
+expression of the structural genes, a low-copy plasmid containing the tryptophan operon (including
+anti-feedback inhibited TrpE) was introduced to an L-tryptophan production strain, and ANTA was
+added to the fermentation medium at the same time, resulting in an accumulation of L-tryptophan
+of 6.2 g·L−1 [11]. Li et al. [37] overexpressed the anti-feedback inhibited enzymes of AroG and
+TrpED for L-tryptophan biosynthesis, leading to an L-tryptophan yield of 0.168 g·L−1 in the shake
+flask fermentation. Zhao et al. [10] employed the method of overexpressing anti-feedback-inhibited
+AroF and the tryptophan operator in a low-copy vector pSV for the development of L-tryptophan
+production strain FB-04. Moreover, considering that L-serine is a crucial terminal substrate in the
+L-tryptophan biosynthesis pathway, the increased level of L-serine is required for efficient L-tryptophan
+production. It is well-known that 3-phosphoglycerate dehydrogenase SerA encoded by the gene serA
+plays an important role in the biosynthesis of L-serine [39]. Overexpression of the gene serA was
+evidenced to have an obvious effect on L-tryptophan overproduction [6]. Accompanied by fermentation
+optimization, overexpressing anti-feedback-inhibited AroG, the whole tryptophan operator, and serA
+in a constitutive plasmid and then introducing this plasmid into the host eventually obtained an
+L-tryptophan yield up to 42 g·L−1 [40].
+2.4. The Branch Pathway
+The biosynthesis of L-tryptophan is usually accompanied by the generation of a small amount of
+the other two aromatic amino acids (L-phenylalanine and L-tyrosine). The biosynthesis pathways of
+L-phenylalanine and L-tyrosine can be blocked to prevent the loss of carbons towards these pathways.
+For example, inactivation of PheA, a bi-functional enzyme of the L-phenylalanine branch [41], had a
+significant influence on L-tryptophan biosynthesis, causing an improvement of the L-tryptophan yield
+by 1.38-fold. Inactivation of TyrA, an enzyme of the L-tyrosine branch, results in the completely blocked
+biosynthesis of L-phenylalanine and L-tyrosine. However, deficiencies of both L-phenylalanine and
+L-tyrosine might affect the growth of cells [10].
+2.5. The Degradation Pathway
+In microbial strains, the biosynthesis of L-tryptophan is always regulated by the degradation
+of L-tryptophan. The tryptophanase TnaA encoded by the tnaA gene plays a significant role in
+L-tryptophan degradation [42]. TnaA catalyzes the formation of L-tryptophan in the presence of a
+high concentration of ammonia and PYR; however, it only has an effect on degrading L-tryptophan
+in the normal physiological state of cells. Thus, inactivation of TnaA was confirmed to facilitate the
+biosynthesis of L-tryptophan [11,43]. Moreover, inactivation of TnaA was implemented for constructing
+FB-02, an L-tryptophan production strain, leading to a raised L-tryptophan yield by 2.7-fold [10].
+
+Processes 2019, 7, 213
+
+6 of 17
+
+2.6. The Transport Pathway
+The L-tryptophan transport system, including the three permeases Mtr, TnaB, and AroP, is engaged
+in the uptake of L-tryptophan in E. coli. Among them, Mtr and TnaB display a high-affinity and
+low-affinity uptake specific to L-tryptophan, respectively, while AroP participates in the transfer of
+all aromatic amino acids [6]. Single deficiency of Mtr, TnaB, and AroP, led to a lower L-tryptophan
+absorption activity and a significantly higher accumulation of extracellular L-tryptophan. Among all
+knockout mutants, the absence of Mtr achieved the highest L-tryptophan yield, increasing by 34%
+compared to the parent strain [44]. A higher growth rate in the logarithmic growth period has also been
+observed by AroP inactivation, and the final L-tryptophan yield of the mutant increased by 13.3% in a
+30-L fed-batch fermentation process [42]. Also, the concerted inactivation of Mtr, TnaB, and AroP was
+reported to enhance L-tryptophan production by 51.6% compared to the parent strain [45]. Apart from
+these three permeases described above, YddG, an aromatic amino acid exporter, showed remarkable
+facilitation for L-tryptophan transport and overproduction [46,47]. Studies have demonstrated that
+the overexpression of YddG in Mtr-deficient strains accumulated a lower intracellular L-tryptophan
+content, but higher extracellular L-tryptophan yield [48]. Moreover, the increased level of YddG
+expression by fusing with promoter Ptac had an obvious promotion for L-tryptophan biosynthesis,
+raising the L-tryptophan yield by 14.3% compared to that of the parent strain [47].
+2.7. The Pta-AckA Pathway
+In the process of L-tryptophan fermentation using glucose as a carbon source, the rapid growth of
+cells and lower level of dissolved oxygen often lead to the accumulation of acetate, which not only
+wastes the carbon source and reduces the conversion rate, but also inhibits the growth of cells and
+L-tryptophan biosynthesis [49]. When the concentration of acetate reaches a certain level, cell growth
+and L-tryptophan biosynthesis can be inhibited [50]. Therefore, reducing the formation of acetate
+has a significant effect on the overproduction of L-tryptophan. To minimize acetate formation in
+the fermentation process as much as possible, the dissolved oxygen must be sufficient. However,
+this mainly increases the production cost in industrial production. Thus, genetic engineering would
+be a convenient method to reduce acetate formation. In E. coli, both, the PoxB oxidase pathway and
+the Pta-AckA pathway are involved in acetate formation, in which the latter is the primary acetate
+formation pathway (Figure 3) [51]. Pyruvate oxidase is not only a stationary-phase enzyme, and the
+removal of the poxB gene affects the central metabolism at the enzyme level in E. coli, leading to a
+reduced glucose uptake rate and cell growth rate [52]. In the Pta-AckA pathway, the two enzymes
+phosphate acetyltransferase (Pta) and acetate kinase (AckA) catalyze the formation of acetate from
+acetyl-CoA, successively. Pta, the key enzyme in this pathway, catalyzes the conversion of acetyl-CoA to
+acetyl phosphate [53]. Despite that, the AckA-deficient strain displayed better fermentative properties,
+displaying a 21.8% reduction in acetate content and a 6.5% increase in L-tryptophan production
+compared with the parental strain [54]. Pta-AckA pathway disruption by the inactivation of Pta is the
+most common genetic manipulation employed to reduce acetate accumulation [55,56]. It was reported
+that Pta was inactivated in the construction of L-tryptophan production strain TRTH 0709/pMEL03,
+largely decreasing acetate formation [48]. Given that the Pta-AckA pathway is closely related to
+physiological metabolism and acetyl phosphate plays an important cellular role as a phosphorus
+donor in the effect of acetylation, the absence of Pta caused a remarkable reduction in cell growth [57].
+In contrary to the disruption of the Pta-AckA pathway, a weakened Pta-AckA pathway was employed,
+resulting in a 15.5% increase in the L-tryptophan yield and a decrease in acetate content (only 48% of
+the control). The decreased Pta-AckA pathway was also confirmed to enhance the metabolic flow of
+the L-tryptophan biosynthesis pathway [49].
+
+related to physiological metabolism and acetyl phosphate plays an important cellular role as a
+phosphorus donor in the effect of acetylation, the absence of Pta caused a remarkable reduction in
+cell growth [57]. In contrary to the disruption of the Pta-AckA pathway, a weakened Pta-AckA
+pathway was employed, resulting in a 15.5% increase in the L-tryptophan yield and a decrease in
+Processescontent
+2019, 7, 213
+7 ofto17
+acetate
+(only 48% of the control). The decreased Pta-AckA pathway was also confirmed
+enhance the metabolic flow of the L-tryptophan biosynthesis pathway [49].
+
+Glucose
+
+Pyruvate
+
+H2O
+
+CO2
+Acetate
+
+PoxB
+
+ATP
+
+Pta
+
+ADP
+
+Acetyl-P
+
+Acetyl-CoA
+Pi
+
+CoA
+
+Figure 3. The acetate biosynthesis pathway in E. coli.
+Figure 3. The acetate biosynthesis pathway in E. coli.
+
+2.8. The Polyhydroxybutyrate Synthesis Pathway
+
+2.8. The
+Synthesis biosynthesis
+Pathway
+InPolyhydroxybutyrate
+the process of L-tryptophan
+by E. coli, some particular substances can improve
+L-tryptophan
+biosynthesis
+by regulating
+carbon metabolism.
+Polyhydroxybutyrate
+(PHB),can
+a biopolymer
+In the process
+of L-tryptophan
+biosynthesis
+by E. coli, some
+particular substances
+improve
+accumulated
+under
+a
+carbon
+surplus
+condition,
+can
+not
+only
+enhance
+the
+stress
+resistance
+of
+the host,
+L-tryptophan biosynthesis by regulating carbon metabolism. Polyhydroxybutyrate (PHB),
+a
+but
+also
+change
+the
+metabolic
+flow
+of
+E.
+coli
+[58].
+Poly(3-hydroxyalkanoate)
+polymerase,
+encoded
+biopolymer accumulated under a carbon surplus condition, can not only enhance the stress resistance
+thehost,
+genes
+catalyzes
+theE. coli
+formation
+acetyl-CoA,polymerase,
+successively
+ofbythe
+butphaA,
+also phaB,
+changeand
+the phaC,
+metabolic
+flow of
+[58]. of PHB from
+Poly(3-hydroxyalkanoate)
+(Figure
+4).
+Previously,
+improved
+succinate
+production
+and
+decreased
+reduced
+acetate
+secretion
+were
+encoded by the genes phaA, phaB, and phaC, catalyzes the formation of PHB from acetyl-CoA,
+achieved
+by
+employing
+the
+PHB
+biosynthesis
+pathway
+in
+succinate
+production
+strains
+[58].
+Besides,
+successively (Figure 4). Previously, improved succinate production and decreased reduced acetate
+the
+construction
+of
+the by
+PHB
+biosynthesis
+pathway in
+GPT1002
+was in
+reported
+to direct
+acetyl-CoA
+secretion
+were
+achieved
+employing
+the PHB
+biosynthesis
+pathway
+succinate
+production
+strainsto
+PHB
+biosynthesis,
+resulting
+in
+an
+improvement
+in
+L-tryptophan
+production
+and
+a
+reduction
+in
+acetate
+[58]. Besides, the construction of the PHB biosynthesis pathway in GPT1002 was reported to direct
+Processes
+2019, 7,
+213
+8 of 17
+secretion
+[19].
+acetyl-CoA to PHB biosynthesis, resulting in an improvement in L-tryptophan production and a
+
+reduction in acetate secretion [19].
+
+Figure 4. The PHB biosynthesis pathway.
+Figure 4. The PHB biosynthesis pathway.
+
+3. Transcriptional Regulation by Regulatory Factors
+The regulatory network of L-tryptophan biosynthesis is complex, which involves the expression
+of various genes [10]. The transcriptional regulation itself involving a complex network of global and
+regulatory factors has a considerable influence on gene expression, which in turn, can affect the
+distribution of metabolic fluxes in E. coli [59]. The results of L-tryptophan metabolism network
+optimization indicated that the relative weakened metabolic flow of the TCA cycle and enhanced
+metabolic flow of the pentose phosphate pathway were beneficial for increasing the metabolic flow
+
+Processes 2019, 7, 213
+
+8 of 17
+
+3. Transcriptional Regulation by Regulatory Factors
+The regulatory network of L-tryptophan biosynthesis is complex, which involves the expression
+of various genes [10]. The transcriptional regulation itself involving a complex network of global
+and regulatory factors has a considerable influence on gene expression, which in turn, can affect
+the distribution of metabolic fluxes in E. coli [59]. The results of L-tryptophan metabolism network
+optimization indicated that the relative weakened metabolic flow of the TCA cycle and enhanced
+metabolic flow of the pentose phosphate pathway were beneficial for increasing the metabolic
+flow of the L-tryptophan biosynthesis pathway [60]. Global regulator protein Cra (renamed from
+FruR) is well-known to affect the metabolic flow of the central metabolic pathway by regulating the
+transcription of genes involved in carbon metabolism and energy metabolism [61]. Inactivating Cra
+can upregulate the expression of genes involved in the pentose phosphate pathway and downregulate
+the expression of genes involved in the TCA cycle (Figure 5) [62,63]. The upregulated metabolic flow
+of the pentose phosphate pathway can improve the supply of NADPH, a critical cofactor involved in
+L-tryptophan biosynthesis [10]. Inactivation of Cra enhanced the metabolic flow of the L-tryptophan
+biosynthesis pathway, leading to an increased L-tryptophan yield and conversion rate of 62.5% and
+52.4%, respectively [64]. Global regulator CsrA, as a carbon storage regulator, participates in the
+regulation of metabolic flow. It was found that the absence of CsrA could enhance the metabolic
+flow of gluconeogenesis, contributing to the accumulation of PEP [65]. Silencing CsrA by artificial
+sRNAs has a significant promoting effect on L-tyrosine biosynthesis, thus improving L-tyrosine yield
+by 1.2-fold compared to the parent strain [66]. CsrB, a small untranslated RNA from the carbon storage
+regulator, was overexpressed in E. coli KT1306 to improve the availability of PEP, resulting in an obvious
+increase in the L-tryptophan yield of 7.5% [66]. Except for the global regulator mentioned above,
+the special regulator TyrR has a negative role in L-tryptophan biosynthesis, because this TyrR inhibits
+the transcription of genes involved in aromatic amino acid biosynthesis, containing the gene encoding
+DAHP synthase, a critical enzyme in the L-tryptophan biosynthesis pathway [67]. Researches have
+pointed out that inactivating TyrR resulted in a remarkable increase of DAHP synthase activity [68].
+It is well-known that TrpR, a repressor encoded by a trpR gene located upstream of the tryptophan
+operator, regulates the transcription and translation of the tryptophan operator [69]. When the content
+of L-tryptophan in cells reaches a particular value, the transcription of the operator is stopped due
+to the inhibition of the repressor TrpR. Studies have shown that the development of L-tryptophan
+production strains is always accompanied by the inactivation of TrpR [10,11]. Attenuation is another
+special type of regulatory mechanism in the biosynthesis of tryptophan, which is achieved by the
+leader region trpL situated upstream of the trpEDCBA genes [70]. Briefly, two tryptophan codons are
+adjacently present in the trpL region, thus making translation sensitive to the intracellular L-tryptophan
+level. At a high L-tryptophan level, the ribosomes do not stall at this point, leading to the formation of
+the termination structure of the mRNA. However, when the L-tryptophan level is inadequate, the RNA
+polymerase stalls at the position of the two adjacent tryptophan codons, and prevents the formation of
+the transcription termination structure, and transcription of the trpEDCBA operon continues [71].
+
+Briefly, two tryptophan codons are adjacently present in the trpL region, thus making translation sensitive to
+the intracellular L-tryptophan level. At a high L-tryptophan level, the ribosomes do not stall at this point, leading
+Processes 2019, 7, 213
+9 of 17
+to the formation of the termination structure of the mRNA. However, when the L-tryptophan level is inadequate,
+shown
+that
+the at the
+development
+of of
+L the
+-tryptophan
+production
+strains is
+always
+accompanied
+the
+the RNA Processes
+polymerase
+stalls
+position
+two adjacent
+tryptophan
+codons,
+and prevents
+the9by
+formation of
+2019,
+7, 213
+of 17
+inactivation
+of
+TrpR
+[10,11].
+Attenuation
+is
+another
+special
+type
+of
+regulatory
+mechanism
+in
+the
+biosynthesis
+the transcription termination structure, and transcription of the trpEDCBA operon continues [71].
+of tryptophan, which is achieved by the leader region trpL situated upstream of the trpEDCBA genes [70].
+Briefly, two tryptophan codons are adjacently present in the trpL region, thus making translation sensitive to
+the intracellular L-tryptophan level. At a high L-tryptophan level, the ribosomes do not stall at this point, leading
+to the formation of the termination structure of the mRNA. However, when the L-tryptophan level is inadequate,
+the RNA polymerase stalls at the position of the two adjacent tryptophan codons, and prevents the formation of
+the transcription termination structure, and transcription of the trpEDCBA operon continues [71].
+
+Figure5.5. Combined
+Combined
+overview
+of
+genes
+and
+expression
+changes
+inin
+the in the
+overview
+of FruR-regulated
+FruR-regulated
+genesand
+andoverall
+overallgene
+gene
+expression
+changes
+Figure 5.Figure
+Combined
+overview
+of FruR-regulated
+genes
+overall
+gene
+expression
+changes
+central
+metabolic
+pathways.
+The
+three
+major
+central
+metabolic
+pathways
+shown
+areare
+glycolysis,
+the
+the
+central
+metabolic
+pathways.
+The
+three
+major
+central
+metabolic
+pathways
+shown
+glycolysis,
+central metabolic pathways. The three major central metabolic pathways shown are glycolysis, the
+pentose
+phosphate
+pathway,
+and
+the
+TCA
+cycle.
+Values
+without
+brackets
+are
+protein
+expression
+fold
+the pentose phosphate pathway, and the TCA cycle. Values without brackets are protein expression
+pentose phosphate
+and
+the
+TCA
+cycle.
+Values
+are
+protein
+expression fold
+changes
+ofpathway,
+P+P+
+fruR
+P+
+cells,
+while
+values
+inbrackets
+brackets are
+arethe
+thecorresponding
+corresponding
+fold
+changes
+of
+fruRcells
+cellsover
+over
+P+WT
+WT
+cells,
+while without
+values in
+brackets
+changes of P+
+fruR fold
+cells
+over
+WT
+cells,
+while
+values
+brackets
+are the
+corresponding
+transcriptional
+foldchanges.
+changes.P+
+Genes
+that
+areactivated
+activatedby
+by
+FruRin
+(→)are
+are
+generally
+downregulated
+transcriptional
+Genes
+that
+are
+FruR
+(→)
+generally
+downregulated
+(green
+boxes),
+while
+those
+that
+are
+repressed
+by
+FruR
+(
+)
+are
+generally
+upregulated
+(red
+boxes)
+ininP+
+(green
+boxes),
+while
+those
+that
+are
+repressed
+by
+FruR
+(
+)
+are
+generally
+upregulated
+(red
+boxes)
+transcriptional fold changes. Genes that are activated by FruR (→) are generally downregulated
+P+
+fruR
+cells
+vs.
+P+
+WT
+cells.
+At
+least
+two
+biological
+samples,
+each
+with
+three
+technical
+replicates,
+fruR
+cells
+vs.
+P+
+WT
+cells.
+At
+least
+two
+biological
+samples,
+each
+with
+three
+technical
+replicates,
+were in P+
+(green boxes), while those that are repressed by FruR ( ) are generally upregulated (red boxes)
+were
+analyzed.
+Reprinted
+from
+Ow
+et al.
+with from
+permission
+from
+Elsevier.(2007)
+Copyright
+(2007)
+analyzed.
+Reprinted
+from Ow
+et al.
+[62],
+with[62],
+permission
+Elsevier.
+Copyright
+Elsevier B.V.
+fruR cells vs. P+ WT cells. At least two biological samples, each with three technical replicates, were
+Elsevier B.V.
+analyzed.
+Reprinted from
+OwStrategies
+et al. [62], with permission from Elsevier. Copyright (2007) Elsevier B.V.
+4. Fermentation
+Process
+
+4. Fermentation Process Strategies
+
+4.1. Optimization
+ofStrategies
+Fermentation Conditions
+4. Fermentation
+Process
+4.1. Optimization
+of Fermentation
+Conditions
+Microbial fermentation of L-tryptophan production by E. coli has been widely studied.
+Microbial fermentation of L-tryptophan production by E. coli has been widely studied.
+Optimization of the glucose feeding rate had an apparent stimulating effect on the L-tryptophan
+[72,73]. It has been demonstrated that the L-tryptophan yield and conversion rate were increased by
+yield [72,73]. It
+has beenof L
+demonstrated
+that the L-tryptophan
+yieldcoli
+andhas
+conversion
+rate
+were studied.
+Microbial
+fermentation
+by E.
+been
+widely
+35% and
+38%, respectively,
+by-tryptophan
+optimizing the production
+glucose supplementation
+rate in a 14-L
+fermenter
+[40].
+increased by 35% and 38%, respectively, by optimizing the glucose supplementation rate in a 14-L
+Optimization of the glucose feeding rate had an apparent stimulating effect on the L-tryptophan yield
+
+4.1. Optimization
+of Fermentation
+Optimization
+of the glucoseConditions
+feeding rate had an apparent stimulating effect on the L-tryptophan yield
+
+[72,73]. It has been demonstrated that the L-tryptophan yield and conversion rate were increased by
+35% and 38%, respectively, by optimizing the glucose supplementation rate in a 14-L fermenter [40].
+
+Processes 2019, 7, 213
+
+10 of 17
+
+fermenter [40]. Given the inhibition of acetate for L-tryptophan production, the methods of maintaining
+the dissolved oxygen level, determining the appropriate initial glucose concentration, limiting glucose
+flow, and controlling the specific growth rate were performed to reduce the production of acetate
+in a 5-L fermenter [74]. Optimization results showed that acetate formation was decreased by 51%,
+thereby resulting in a higher cell biomass and L-tryptophan yield by 51% and 47% compared to that
+of the parent strain, respectively, in the process of high-density fermentation. In addition, the effects
+of a specific growth rate and inorganic salt on L-tryptophan production by the fermentation of
+recombinant E. coli FB-04 were investigated to reduce the acetate formation. The results indicated that
+an appropriate specific growth rate and inorganic salt concentration led to a lower acetate accumulation,
+and finally, a higher L-tryptophan yield (53.4 g·L−1 ) was obtained in a 3-L fermenter, increasing by
+141.6% compared to the conditions without optimization. Furthermore, the L-tryptophan yield of FB-04
+reached 53.6 g·L−1 by scale-up production in a 30-L fermenter [75]. Moreover, given that the pH in
+medium affects the production of L-tryptophan, a three-stage strategy was employed to control the pH,
+resulting in an optimum yield of 43.65 g·L−1 by E. coli TRJH/DPB in a 5-L seed fermenter [76]. Except
+for the fermentation factors mentioned above, temperature also had a noticeable effect on l-tryptophan
+production. A Variable-temperature and Control System (30–36◦ C sequential heating process) was
+achieved for E. coli strain TRTH fed-batch fermentation in a 5-L fermenter, leading to a 15% higher
+L-tryptophan yield compared to the single temperature control strategy [77]. Table 1 portrays the
+recent metabolic engineering and fermentation optimization strategies for enhanced L-tryptophan
+production by E. coli from glucose.
+4.2. Addition of Related Substances
+Previously, Aiba et al. [11] introduced a low-copy plasmid expressing the enzymes of anti-feedback
+inhibited TrpD, TrpE into a trpR, and tnaA double deletion strain for the development of a L-tryptophan
+production strain. To further raise the L-tryptophan yield, anthranilate (ANTA) was incorporated
+into the fermentation medium, leading to an accumulation of L-tryptophan of 6.2 g·L−1 [11]. On this
+basis, combining chemical mutagenesis with the addition of a surfactant in the fermentation medium,
+the final L-tryptophan yield was as high as 54.5 g·L−1 [9]. Given that xylose forms E4P catalyzed by a
+series of enzymes [46], adding xylose into the medium as a co-substrate was found to enhance the
+precursor E4P supply for L-tryptophan production [19]. Indole and L-serine are well-known substrates
+for L-tryptophan biosynthesis in microbial processes [10]. Similarly, the supplementation of Iranian
+cane molasses, an inexpensive L-serine source, and adding Triton X-100 into the medium as an indole
+reservoir, improved the biosynthesis of L-tryptophan [79]. In addition, adding PL61 was known to
+have a significant effect on improving L-tryptophan production, leading to the highest titer (35.5 g·L−1 )
+of the L-tryptophan yield in a 10-L fermenter [73]. It was reported that glutamate, a by-product during
+L-tryptophan biosynthesis, accumulated to an extremely high level, whereas the content of glutamine,
+a crucial substrate, was maintained at a relatively low level [40,78]. Thus, overexpressing glutamine
+synthetase, which catalyzes glutamate to form glutamine, might be an important measure to further
+improve the L-tryptophan production titer.
+
+Processes 2019, 7, 213
+
+11 of 17
+
+Table 1. Metabolic engineering and fermentation optimization strategies for L-tryptophan production by E. coli from glucose.
+Strains
+
+Gene Modificationa
+
+Optimization
+Strategies
+
+Fermentative
+Scale (L)
+
+L-Tryptophan
+Yield (g·L−1 )
+
+Conversion
+Rate (g·g−1 )
+
+Productivity
+(g·L−1 h−1 )
+
+Acetate
+Content (g·L−1 )
+
+Reference
+
+KW023
+
+A: trpEDCBA, aroG fbr , galP, galk
+B: pykF, ptsH, trpR, attenuator
+C: downregulation of pta
+A: trpEDCBA
+B: aroF, aroG, mtr, tnaA, tnaB
+C: ∆aroH:: Ptac -aroGfbr -serA
+A: aroFfbr , trpEfbr D
+B: trpR, tnaA, pheA, tyrA, pykF
+C: ∆pta1:: pta1, ∆ptsH:: ptsHN12S
+A: aroFfbr , trpEfbr D
+B: trpR, tnaA, pheA, tyrA,
+C: ∆pta:: pta1,
+
+—
+
+5
+
+39.7
+
+0.167
+
+1.6
+
+0.5
+
+[17]
+
+—
+
+1.5
+
+40
+
+0.15
+
+0.6
+
+—
+
+[78]
+
+—
+
+3
+
+26
+
+0.178
+
+—
+
+0.6
+
+[22]
+
+—
+
+3
+
+44
+
+0.129
+
+0.82
+
+2.1
+
+[49]
+
+Iranian cane molasses
+concentration
+Triton X-100 concentration
+—
+
+10
+
+0.43
+
+—
+
+—
+
+—
+
+[79]
+
+30
+
+48.7
+
+0.219
+
+—
+
+0.95
+
+[19]
+
+—
+
+5
+
+16.3
+
+—
+
+0.25
+
+1.02
+
+[45]
+
+Glucose feeding rate
+PL61 concentration
+pH
+Glucose Feeding rate
+Specific growth rate
+Salt ion concentration
+Glucose feeding rate
+—
+
+10
+
+35.5
+
+—
+
+—
+
+—
+
+[73]
+
+30
+
+43.7
+
+—
+
+—
+
+1.15
+
+[76]
+
+3
+
+53.4
+
+—
+
+—
+
+0.3
+
+[75]
+
+30
+3
+
+38.8
+14.7
+
+0.199
+0.12
+
+—
+0.05
+
+0.9
+—
+
+[72]
+[44]
+
+—
+
+30
+
+36.3
+
+—
+
+1.01
+
+—
+
+[16]
+
+Dissolved oxygen level
+Initial glucose concentration
+Glucose feeding rate
+Specific growth rate
+Temperature
+Glucose feeding rate
+ANTA concentration
+
+5
+
+33.9
+
+—
+
+—
+
+0.9
+
+[74]
+
+5
+14
+11
+
+30.2
+42.3
+54.5
+
+—
+0.176
+0.23
+
+—
+—
+0.683
+
+—
+—
+—
+
+[77]
+[40]
+[9]
+
+—
+
+Shake flask
+
+9.2
+
+0.13
+
+—
+
+[13]
+
+S028
+
+∆pykF-ptsHN12S
+
+FB-04(pta1)
+
+ATCC 11303
+
+Dpta/mtr-Y
+GPT1017
+
+W3110-ZDrr
+TRJH/∆PB
+FB-04/pSV-04
+TRJH
+FB-04/pSV03
+TRTH-Y
+TRTH/pSV-709
+
+TRTH/pSV-709
+JB102
+AGX1757/pSC101
+EMS4-C25/pTC701
+
+A: aroGfbr , trpEfbr DCBA, serA, tktA, ppsA, yddG
+B: trpR, tnaA, pta, tyrA, mtr
+A: aroGfbr , trpEfbr , tktA
+B: trpR, tnaA, tnaB, ptsH, tyrA, aroP, mtr attenuator
+C: ∆trp promoter:5CPtacs promoter cluster
+A: trpEDCBA
+B: trpR, tnaA
+A: trpEDCBA
+B: trpR, tnaA, pta
+—
+A: trpEDCBA
+A: aroF, trpED
+B: trpR, tnaA, mtr, pheA
+A: trpEDCBA, yddG
+B: tnaA
+A: trpEDCBA
+
+A: trpEDCBA
+A: aroGfbr , trpEfbr , serA
+A: trpEfbr D
+B: trpR, tnaA
+A: trpEDCBA
+
+A: gene overexpression; B: gene deletion; C: other genome modification. “—” indicates no description.
+
+Processes 2019, 7, 213
+
+12 of 17
+
+5. Conclusions and Future Prospects
+Nowadays, the market demand for L-tryptophan is increasing rapidly. Given the advantages of
+cheap raw materials, high purity products, and the easy extraction process, the fermentative production
+of L-tryptophan by genetically engineered microbial strains has received considerable attention in the
+industry. In the wild-type strain, to satisfy the normal physiological function of cells, only a small
+number of intermediates from the center metabolic pathway can be used for L-tryptophan biosynthesis
+by following the economics principle. Metabolic engineering modification for L-tryptophan production
+by E. coli is an excellent example of the sustainable production of a highly valued product. With the
+development of metabolic engineering breeding, a large number of L-tryptophan production strains
+have been constructed. Increasing the expression of enzymes involved in L-tryptophan biosynthesis is
+well-known to have a significant effect on L-tryptophan production. Given the limited capacity of
+a plasmid to accommodate genes, overexpression of a series of enzymes involved in L-tryptophan
+biosynthesis in the plasmid is restricted; therefore, it is an excellent way to improve the expression of
+key enzymes by genome modification. Given the complexity of L-tryptophan biosynthesis to achieve a
+significant increase of L-tryptophan production, the expression of the enzymes needs combinatorial
+modulation by employing promoters with different start-up strengths. Previously, a promoter library
+including promoters with different start-up strengths was first constructed, and then combinatorial
+modulation of the genes galP and glk was obtained by applying the promoter library to the E. coli
+genome for enhancing alternative glucose utilization [80]. Thus, the promoter library mentioned above
+is expected to apply in the construction of L-tryptophan production strains, coordinating regulation of
+the expression of genes related to L-tryptophan biosynthesis in the genome.
+In addition to increasing the expression of the enzymes, the transcriptional regulation itself
+involves a complex network of global and specific regulators, and is generally considered the main
+role in gene expression involved in L-tryptophan biosynthesis, in turn, controlling the distribution of
+metabolic fluxes [59]. The global regulatory protein (Crp) is well-known to enhance the metabolic flow
+of the tricarboxylic acid cycle (TCA) by upregulating the expression of enzymes related in the TCA
+cycle [81]. Thus, inactivation of Crp is expected to weaken the metabolic flow of the TCA cycle, which is
+beneficial for L-tryptophan production. Moreover, FlhD, a regulatory protein involved in flagella
+synthesis, is a transcriptional regulatory factor involved in aerobic respiration. Inactivation of FlhD
+enhanced aerobic respiration and weakened anaerobic respiration [82], contributing to the reduction of
+acetate formation in the case of an insufficient oxygen supply [50]. Except for metabolic engineering
+modification for L-tryptophan production, various large-scale analytical techniques, such as proteome
+and transcriptome analysis, are expected to facilitate the further efficient development of L-tryptophan
+production strains.
+Author Contributions: Conceptualization, L.L., M.B., and H.L.; Literature review, L.L. and H.L.; Writing-Original
+Draft Preparation, L.L., M.B., and H.L.; Figures, M.B. and H.M.N.I.; Tables, M.B.; Writing-Review & Editing, L.L.,
+M.B., and H.L.; Revisions & Final editing, M.B. and H.M.N.I.; and APC Funding Acquisition, H.M.N.I.
+Funding: This research received no external funding. The APC (ID: processes-469951) was funded by MDPI,
+St. Alban-Anlage 66, 4052 Basel, Switzerland.
+Acknowledgments: This study was funded by financial support from the Natural Science Foundation of Jiangsu
+Province (BK20170459), China; the National Natural Science Foundation of China (21808075); and the Research
+and Innovation Project for College Graduates of Jiangsu Province (no. KYLX15-1143). All authors are grateful to
+their representative institutes for providing literature facilities.
+Conflicts of Interest: The authors report no conflicting interest in any capacity, competitive or financial.
+
+Processes 2019, 7, 213
+
+13 of 17
+
+Abbreviations
+GLC
+G6P
+F6P
+F-1,6-BP
+GA3P
+PG
+PEP
+PYR
+AcCoA
+CisACO
+OAA
+CIT
+ICI
+MAL
+SUCC
+SUCCoA
+2-OXO
+FUM
+G-LAC
+6-PGT
+Ru5P
+R5P
+X5P
+S7P
+GA3P
+E4P
+DAHP
+DHS
+DHQ
+SHIK
+S3P
+NADP
+NADPH
+ANTA
+CHA
+I3GP
+Ser
+Trp
+Phe
+Tyr
+
+glucose
+glucose-6-phosphate
+fructose-6-phosphate
+fructose-1, 6-bisphosphate
+glyceraldehyde 3-phosphate
+phosphoglycerate
+phosphoenolpyruvate
+pyruvate
+acetyl coenzyme A
+cis-aconitate
+oxaloacetate
+citric acid
+iso-citric acid
+malate
+succinate
+Succinate coenzyme A
+2-oxoglutarate
+fumarate;
+6-phospho-glucono-1, 5-lactone;
+6-Phospho-gluconate;
+ribulose 5-phosphate
+ribose 5-phosphate
+xylulose 5-phosphate
+sedoheptulose 7-phosphate
+glyceraldehyde 3-phosphate
+erythrose 4-phosphate;
+3-deoxy-d-arobino-heptulosonate 7-phosphate;
+3-dehydroshikimate;
+3-dehydroquinate
+shikimate
+shikimate 3-phosphate
+oxidized nicotinamide adenine dinucleotide phosphate
+reduced nicotinamide adenine dinucleotide phosphate;
+anthranilate
+chorismate
+indole 3-glycerolphosphate
+serine
+tryptophan
+phenylalanine
+tyrosine
+
+References
+1.
+2.
+3.
+4.
+
+Hermann, T. Industrial production of amino acids by coryneform bacteria. J. Biotechnol. 2003, 104, 155–172.
+[CrossRef]
+Ikeda, M.; Nakagawa, S. The Corynebacterium glutamicum genome: Features and impacts on biotechnological
+processes. Appl. Microbiol. Biotechnol. 2003, 62, 99–109. [CrossRef]
+Kirchner, O.; Tauch, A. Tools for genetic engineering in the amino acid-producing bacterium Corynebacterium
+glutamicum. J. Biotechnol. 2003, 104, 287–299. [CrossRef]
+Leuchtenberger, W. Amino Acids—Technical Production and Use. In Biotechnology: Products of Primary
+Metabolism; Rehm, H.-J., Reed, G., Eds.; Verlagsgesellschaft mbH: Weinheim, Germany, 1996; Chapter 14a;
+pp. 465–502.
+
+Processes 2019, 7, 213
+
+5.
+6.
+7.
+
+8.
+9.
+10.
+
+11.
+12.
+13.
+14.
+
+15.
+
+16.
+17.
+18.
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+24.
+
+14 of 17
+
+Leuchtenberger, W.; Huthmacher, K.; Drauz, K. Biotechnological production of amino acids and derivatives:
+Current status and prospects. Appl. Microbiol. Biotechnol. 2005, 69, 1–8. [CrossRef]
+Ikeda, M. Towards bacterial strains overproducing L-tryptophan and other aromatics by metabolic
+engineering. Appl. Microbiol. Biotechnol. 2006, 69, 615–626. [CrossRef]
+Sanchez, S.; Demain, A.L. Microbial primary metabolites: Biosynthesis and perspectives. In Encyclopedia of
+Industrial Biotechnology: Bioprocess, Bioseparation, and Cell Technology; Flickinger, M.C., Ed.; John Wiley & Sons,
+Inc.: Hoboken, NJ, USA, 2009; pp. 1–16.
+Pontrelli, S.; Chiu, T.Y.; Lan, E.I.; Chen, F.Y.H.; Chang, P.; Liao, J. Escherichia coli as a host for metabolic
+engineering. Metab. Eng. 2018, 50, 16–46. [CrossRef]
+Azuma, S.; Tsunekawa, H.; Okabe, M.; Okamoto, R.; Aiba, S. Hyper-production of L-trytophan via
+fermentation with crystallization. Appl. Microbiol. Biotechnol. 1993, 39, 471–476. [CrossRef]
+Zhao, Z.J.; Zou, C.; Zhu, Y.X.; Dai, J.; Chen, S.; Wu, D.; Wu, J.; Chen, J. Development of L-tryptophan
+production strains by defined genetic modification in Escherichia coli. J. Ind. Microbiol. Biotechnol. 2011, 38,
+1921–1929. [CrossRef] [PubMed]
+Aiba, S.; Tsunekawa, H.; Imanaka, T. New approach to tryptophan production by Escherichia coli: Genetic
+manipulation of composite plasmids in vitro. Appl. Microbiol. Biotechnol. 1982, 43, 289–297.
+Caligiuri, M.G.; Bauerle, R. Subunit Communication in the Anthranilate Synthase Complex from Salmonella
+typhimurium. Science 1991, 252, 1845–1848. [CrossRef]
+Chan, E.C.; Tsai, H.L.; Chen, S.L.; Mou, D.G. Amplification of the tryptophan operon gene in Escherichia coli
+chromosome to increase L-tryptophan biosynthesis. Appl. Microbiol. Biotechnol. 1993, 40, 301–305. [CrossRef]
+De, A.R.; Lara, A.R.; Hernández, V.; Hernández-Montalvo, V.; Gosset, G.; Bolívar, F.; Ramírez, O.T.
+Replacement of the glucose phosphotransferase transport system by galactose permease reduces acetate
+accumulation and improves process performance of Escherichia coli for recombinant protein production
+without impairment of growth rate. Metab. Eng. 2006, 8, 281–290.
+Deutscher, J.; Aké, F.M.; Derkaoui, M.; Zébré, A.C.; Cao, T.N.; Bouraoui, H.; Kentache, T.; Mokhtari, A.;
+Milohanic, E.; Joyet, P. The bacterial phosphoenolpyruvate:Carbohydrate phosphotransferase system:
+Regulation by protein phosphorylation and phosphorylation-dependent protein-protein interactions.
+Microbiol. Mol. Biol. Rev. 2014, 78, 231–256. [CrossRef] [PubMed]
+Sonja, K.B. Glucose Transport in Escherichia coli Mutant Strains with Defects in Sugar Transport Systems.
+J. Bacteriol. 2012, 194, 5897–5908.
+Chen, Y.; Liu, Y.; Ding, D.; Cong, L.; Zhang, D. Rational design and analysis of an Escherichia coli strain for
+high-efficiency tryptophan production. J. Ind. Microbiol. Biotechnol. 2018, 45, 1–11. [CrossRef]
+Wu, T.; Zhao, J.; Mao, X. Effect of PTS modifications on L-tryptophan production in Escherichia coli. Chin. J.
+Biotechnol. 2017, 33, 1877–1882.
+Gu, P.; Kang, J.; Yang, F.; Wang, Q.; Liang, Q.; Qi, Q. The improved L-tryptophan production in recombinant
+Escherichia coli by expressing the polyhydroxybutyrate synthesis pathway. Appl. Microbiol. Biotechnol. 2013,
+97, 4121–4127. [CrossRef]
+Gu, P.; Fan, Y.; Kang, J.; Wang, Q.; Qi, Q. One-step of tryptophan attenuator inactivation and promoter
+swapping to improve the production of L-tryptophan in Escherichia coli. Microb. Cell. Fact. 2012, 11, 30.
+[CrossRef]
+Snoep, J.L.; Arfman, N.; Yomano, L.P.; Fliege, R.K.; Conway, T.; Ingram, L.O. Reconstruction of glucose
+uptake and phosphorylation in a glucose-negative mutant of Escherichia coli by using Zymomonas mobilis
+genes encoding the glucose facilitator protein and glucokinase. J. Bacteriol. 1994, 176, 2133–2135. [CrossRef]
+[PubMed]
+Liu, L.; Chen, S.; Wu, J. Phosphoenolpyruvate: Glucose phosphotransferase system modification increases
+the conversion rate during L-tryptophan production in Escherichia coli. J. Ind. Microbiol. Biotechnol. 2017, 44,
+1–11. [CrossRef]
+Singh, R.; White, D.; Demirel, Y.; Kelly, R.; Noll, K.; Blum, P. Uncoupling fermentative synthesis of molecular
+hydrogen from biomass formation in Thermotoga maritima. Appl. Environ. Microbiol. 2018, 84, e00998-18.
+[CrossRef]
+Singh, R.; Tevatia, R.; White, D.; Demirel, Y.; Blum, P. Comparative kinetic modeling of growth and molecular
+hydrogen overproduction by engineered strains of Thermotoga maritima. Int. J. Hydrog. Energy. 2019, 44,
+7125–7136. [CrossRef]
+
+Processes 2019, 7, 213
+
+25.
+26.
+
+27.
+
+28.
+29.
+30.
+31.
+32.
+
+33.
+
+34.
+
+35.
+
+36.
+
+37.
+38.
+
+39.
+40.
+41.
+
+42.
+43.
+
+44.
+45.
+
+15 of 17
+
+Ongay, R. Tryptophan Biosynthesis by Genetically Engineered Escherichia coli Utilizing Different Carbon Sources;
+Texas A & M University: College Station, TX, USA, 1994.
+Siddiquee, K.A.Z.; Arauzo-Bravo, M.J.; Shimizu, K. Effect of a pyruvate kinase (pykF-gene) knockout mutation
+on the control of gene expression and metabolic fluxes in Escherichia coli. FEMS Microbiol. Lett. 2004, 235,
+25–33. [CrossRef]
+Al, Z.S.K.; Arauzobravo, M.J.; Shimizu, K. Metabolic flux analysis of pykF gene knockout Escherichia coli based
+on 13C-labeling experiments together with measurements of enzyme activities and intracellular metabolite
+concentrations. Appl. Microbiol. Biotechnol. 2004, 63, 407–417.
+Kedar, P.; Colah, R.; Shimizu, K. Proteomic investigation on the gene knockout Escherichia coli for aromatic
+amino acid production. Enzyme Microb. Tech. 2007, 41, 455–465. [CrossRef]
+Niersbach, M.; Kreuzaler, F.; Geerse, R.H.; Postma, W.; Hirsch, H.J. Cloning and nucleotide sequence of the
+Escherichia coli K-12 ppsA gene, encoding PEP synthase. Mol. Gen. Genet. 1992, 231, 332–336. [PubMed]
+Liao, J.C.; Chao, Y.P.; Patnaik, R. Alteration of the biochemical valves in the central metabolism of Escherichia
+coli. Ann. NY Acad. Sci. 1994, 745, 21–34. [CrossRef] [PubMed]
+Wang, J.; Zhang, T.; Yu, J.L.; Xu, Q.S.; Guo, C.J.; Huang, Y.W. Modification of the central metabolism of E. coli
+and its effect on tryptophan yield. Chin. Med. Biotechnol. 2008, 3, 93–97.
+Tan, Z.; Zhu, X.; Chen, J.; Li, Q.; Zhang, X. Activating phosphoenolpyruvate carboxylase and
+phosphoenolpyruvate carboxykinase in combination for improvement of succinate production. Appl. Environ.
+Microb. 2013, 79, 4838–4844. [CrossRef]
+Kikuchi, Y.; Tsujimoto, K.; Kurahashi, O. Mutational analysis of the feedback sites of phenylalanine-sensitive
+3-deoxy-D-arabino-heptulosonate-7-phosphate synthase of Escherichia coli. Appl. Environ. Microb. 1997, 63,
+761–762.
+Bongaerts, J.; Krämer, M.; Müller, U.; Raeven, L.; Wubbolts, M. Metabolic Engineering for Microbial
+Production of Aromatic Amino Acids and Derived Compounds. Metab. Eng. 2001, 3, 289–300. [CrossRef]
+[PubMed]
+Jossek, R.; Bongaerts, J.; Sprenger, G.A. Characterization of a new feedback-resistant 3-deoxy-d-arabinoheptulosonate 7-phosphate synthase AroF of Escherichia coli. FEMS Microbiol. Lett. 2001, 202, 145–148.
+[CrossRef]
+Balderashernández, V.E.; Sabidoramos, A.; Silva, P.; Cabreravalladares, N.; Hernándezchávez, G.;
+Báezviveros, J.L.; Martínez, A.; Bolívar, F.; Gosset, G. Metabolic engineering for improving anthranilate
+synthesis from glucose in Escherichia coli. Microb. Cell. Fact. 2009, 8, 1–12.
+Li, J.X.; Guo, C.J.; Liu, Y.; Lin, W.P.; Zhang, X.M.; Xu, Q.S. Cloning and expression of trpED encoding ANTA
+synthase Escherichia coli. Lett. Biotech. 2007, 18, 183–185.
+Engelberg-Kulka, H.; Amiel, A.; Miller, C.; Schoulaker-Schwarz, R. Studies on the involvement of the UGA
+readthrough process in the mechanism of attenuation of the tryptophan operon of Escherichia coli. Mol. Gen.
+Genet. 1982, 188, 156–160. [CrossRef] [PubMed]
+Tobey, K.L.; Grant, G.A. The nucleotide sequence of the serA gene of Escherichia coli and the amino acid
+sequence of the encoded protein, D-3-phosphoglycerate dehydrogenase. J. Biol. Chem. 1986, 261, 12179–12183.
+Dodge, T.C.; Gerstner, J.M. Optimization of the glucose feed rate profile for the production of tryptophan
+from recombinant E coli. J. Chem. Technol. Biot. 2002, 77, 1238–1245. [CrossRef]
+Liu, D.X.; Fan, C.S.; Tao, J.H.; Liang, G.X.; Gao, S.E.; Wang, H.J.; Li, X.; Song, D.X. Integration of E.coli
+aroG-pheA tandem genes into Corynebacterium glutamicum tyrA locus and its effect on L-phenylalanine
+biosynthesis. World J. Gastroenterol. 2004, 10, 3683–3687. [CrossRef]
+Li, G.; Young, K.D. A new suite of tnaA mutants suggests that Escherichia coli tryptophanase is regulated by
+intracellular sequestration and by occlusion of its active site. BMC Microbiol. 2015, 15, 1–17. [CrossRef]
+Marínsanguino, A.; Torres, N.V. Optimization of tryptophan production in bacteria. Design of a strategy for
+genetic manipulation of the tryptophan operon for tryptophan flux maximization. Biotechnol. Progr. 2000, 16,
+133–145. [CrossRef]
+Zhao, Z.J.; Chen, S.; Wu, D.; Wu, J.; Chen, J. Effect of gene knockouts of L-tryptophan uptake system on the
+production of L-tryptophan in Escherichia coli. Process Biochem. 2012, 47, 340–344. [CrossRef]
+Gu, P.; Fan, Y.; Li, F.; Liang, Q.; Qi, Q. Knocking out analysis of tryptophan permeases in Escherichia coli for
+improving L-tryptophan production. Appl. Microbiol. Biotechnol. 2013, 97, 6677–6683. [CrossRef]
+
+Processes 2019, 7, 213
+
+46.
+
+47.
+48.
+49.
+50.
+51.
+52.
+53.
+
+54.
+55.
+
+56.
+
+57.
+58.
+59.
+60.
+
+61.
+62.
+
+63.
+64.
+65.
+66.
+67.
+68.
+
+16 of 17
+
+Liu, R.; Liang, L.; Chen, K.; Ma, J.; Jiang, M.; Wei, P.; Ouyang, P. Fermentation of xylose to succinate by
+enhancement of ATP supply in metabolically engineered Escherichia coli. Appl. Microbiol. Biotechnol. 2012, 94,
+959–968. [CrossRef]
+Jing, L.I.; Shi, B.C.; Wang, C.Y.; Zhao, Z.J.; Shi, J.P. Effect of engineering of L-tryptophan transport system on
+L-tryptophan production in Escherichia coli. Sci. Technol. Food Indus. 2017, 15.
+Wang, J.; Cheng, L.K.; Wang, J.; Liu, Q.; Shen, T.; Chen, N. Genetic engineering of Escherichia coli to enhance
+production of L-tryptophan. Appl. Microbiol. Biotechnol. 2013, 97, 7587–7596. [CrossRef]
+Liu, L.; Duan, X.; Wu, J. L-Tryptophan Production in Escherichia coli Improved by Weakening the Pta-AckA
+Pathway. PLoS ONE 2016. [CrossRef]
+Suárez, D.C.; Kilikian, B.V. Acetic acid accumulation in aerobic growth of recombinant Escherichia coli. Process
+Biochem. 2000, 35, 1051–1055. [CrossRef]
+Phue, J.N.; Sang, J.L.; Kaufman, J.B.; Negrete, A.; Shiloach, J. Acetate accumulation through alternative
+metabolic pathways in ackA. Biotechnol. Lett. 2010, 32, 1897–1903. [CrossRef]
+Mai, L.; Shanjing, Y.; Kazuyuki, S. Effect of poxB gene knockout on metabolism in Escherichia coli based on
+growth characteristics and enzyme activities. World J. Microb. Biot. 2007, 23, 573–580.
+Kakuda, H.; Hosono, K.; Shiroishi, K.; Ichihara, S. Identification and characterization of the ackA (acetate
+kinase A)-pta (phosphotransacetylase) operon and complementation analysis of acetate utilization by an
+ackA-pta deletion mutant of Escherichia coli. J. Biochem. 1994, 116, 916–922. [CrossRef]
+Zhao, C.; Cheng, L.K.; Wang, J.; Shen, Z.; Chen, N. Impact of deletion of the genes encoding acetate kinase
+on production of L-tryptophan by Escherichia coli. Ann. Microbiol. 2016, 66, 1–9. [CrossRef]
+Klein, A.H.; Shulla, A.; Reimann, S.A.; Keating, D.H.; Wolfe, A.J. The Intracellular Concentration of Acetyl
+Phosphate in Escherichia coli Is Sufficient for Direct Phosphorylation of Two-Component Response Regulators.
+J. Bacteriol. 2007, 189, 5574–5581. [CrossRef]
+Chang, D.E.; Shin, S.; Rhee, J.S.; Pan, J.G. Acetate metabolism in a pta mutant of Escherichia coli W3110:
+Importance of maintaining acetyl coenzyme A flux for growth and survival. J. Bacteriol. 1999, 181, 6656–6663.
+[PubMed]
+Mccleary, W.R.; Stock, J.B. Acetyl phosphate and the activation of two-component response regulators. J. Biol.
+Chem. 1994, 269, 31567–31572.
+Tyo, K.E.; Fischer, C.R.; Simeon, F.; Stephanopoulos, G. Analysis of polyhydroxybutyrate flux limitations by
+systematic genetic and metabolic perturbations. Metab. Eng. 2010, 12, 187–195. [CrossRef]
+Gottesman, S. Bacterial regulation: Global regulatory networks. Annu. Rev. Genet. 1984, 18, 415–441.
+[CrossRef] [PubMed]
+Schmidm, J.W.; Mauch, K.; Reuss, M.; Gilles, E.D.; Kremling, A. Metabolic design based on a coupled gene
+expression-metabolic network model of tryptophan production in Escherichia coli. Metab. Eng. 2004, 6,
+364–377. [CrossRef]
+Ramseier, T.M.; Bledig, S.; Michotey, V.; Feghali, R.; Saier, M.H.J. The global regulatory protein FruR
+modulates the direction of carbon flow in Escherichia coli. Mol. Microbiol. 1995, 16, 1157–1169. [CrossRef]
+Ow, S.W.; Lee, M.Y.; Nissom, P.M.; Philp, R.; Oh, K.W.; Yap, G.S. Inactivating FruR global regulator in
+plasmid-bearing Escherichia coli alters metabolic gene expression and improves growth rate. J. Biotechnol.
+2007, 131, 261–269. [CrossRef] [PubMed]
+Yao, R.; Kurata, H.; Shimizu, K. Effect of cra gene mutation on the metabolism of Escherichia coli for a mixture
+of multiple carbon sources. Adv. Biosci. Biotechnol. 2013, 4, 477–486. [CrossRef]
+Liu, L.; Duan, X.; Wu, J. Modulating the direction of carbon flow in Escherichia coli to improve L-tryptophan
+production by inactivating the global regulator FruR. J. Biotechnol. 2016, 231, 141–148. [CrossRef] [PubMed]
+Sabnis, N.A.; Yang, H.; Romeo, T. Pleiotropic regulation of central carbohydrate metabolism in Escherichia
+coli via the gene csrA. J. Biol. Chem. 1995, 270, 29096–29104. [CrossRef]
+Lijun, L.U.; Bin, Z.; Hong, Z.; Xinyao, L.U.; Fang, H.; Jian, S. Improved production of L-tryptophan in
+Escherichia coli with csrB and tktA overexpression. Chin. J. Appl. Environ. Biol. 2015, 21, 647–651.
+Wang, J.G.; Fan, C.S.; Wu, Y.Q.; Jin, R.L.; Liu, D.X.; Shang, L.; Jiang, P.H. Regulation of aroP expression by
+tyrR gene in Escherichia coli. Acta Bioch. Bioph. Sin. 2003, 35, 993–997.
+Shang, L.; Fan, C.S.; Jin, R.L.; Liu, D.X.; Wang, J.G.; Yin, J.; Song, D.X. Knockout of tyrR gene in Escherichia coli
+and its effects on the phenylalanine biosynthesis. Acta Bioch. Et. Bioph. Sin. 2003, 35, 728–733.
+
+Processes 2019, 7, 213
+
+69.
+
+70.
+71.
+72.
+73.
+
+74.
+75.
+76.
+
+77.
+78.
+79.
+80.
+
+81.
+82.
+
+17 of 17
+
+Tripet, B.P.; Goel, A.; Copie, V. Internal dynamics of the tryptophan repressor (TrpR) and two functionally
+distinct TrpR variants, L75F-TrpR and A77V-TrpR, in their L-Trp-bound forms. Biochemistry 2011, 50,
+5140–5153. [CrossRef]
+Henkin, T.M.; Yanofsky, C. Regulation by transcription attenuation in bacteria: How RNA provides
+instructions for transcription termination/antitermination decisions. Bioessays 2002, 24, 700–707. [CrossRef]
+Niu, H.; Li, R.; Liang, Q.; Qi, Q.; Li, Q.; Gu, P. Metabolic engineering for improving l-tryptophan production
+in Escherichia coli. J. Indus. Microbiol. Biotechnol. 2019, 46, 55–65. [CrossRef]
+Cheng, L.K.; Wang, J.; Xu, Q.Y.; Xie, X.X.; Zhang, Y.J.; Zhao, C.G.; Chen, N. Effect of feeding strategy on
+L-tryptophan production by recombinant Escherichia coli. Ann. Microbiol. 2012, 62, 1625–1634. [CrossRef]
+Luo, W.; Huang, J.; Zhu, X.C.; Huang, L.; Cai, J.; Xu, Z.N. Enhanced Production of L-Tryptophan with
+Glucose Feeding and Surfactant Addition and Related Metabolic Flux Redistribution in the Recombinant
+Escherichia coli. Food Sci. Biotechnol. 2013, 22, 207–214. [CrossRef]
+Cheng, L.K.; Huang, J.; Qin, Y.F.; Xu, Q.Y.; Xie, X.X.; Wen, T.Y.; Chen, N. Effect of the byproduct-acetic acid
+on L-tryptophan fermentation. Microbiol. Chin. 2010, 37, 166–173.
+Zou, C.; Chen, S.; Zhao, Z.J.; Lei, W.; Feng, L.; Wu, D.; Jian, C.; Wu, J. Optimization of L-tryptophan
+fermentation conditions from recombinant Escherichia coli. Ind. Microbiol. 2012, 42, 25–29.
+Cheng, L.K.; Wang, J.; Xu, Q.Y.; Zhao, C.G.; Shen, Z.Q.; Xie, X.X.; Chen, N. Strategy for pH control and pH
+feedback-controlled substrate feeding for high-level production of L-tryptophan by Escherichia coli. World J.
+Microbiol. Biotechnol. 2013, 29, 883–890. [CrossRef] [PubMed]
+Zhao, C.G.; Xie, X.X.; Cheng, L.K.; Qing-Yang, X.U. Effect of Temperature on the Process of Escherichia coli
+L-Tryptophan Fermentation. Lett. Biotechnol. 2009, 12, A88.
+Chen, L.; Zeng, A.P. Rational design and metabolic analysis of Escherichia coli for effective production of
+L-tryptophan at high concentration. Appl. Microbiol. Biotechnol. 2017, 101, 59–568. [CrossRef] [PubMed]
+Sadeghiyan-Rizi, T.; Fooladi, J.; Sadrai, S. Preliminary Study on Cost-Effective L-Tryptophan Production
+from Indole and L-Serine by E. Coli Cells. Avicenna. J. Med. Biotechnol. 2016, 8, 188–192.
+Lu, J.; Tang, J.; Liu, Y.; Zhu, X.; Zhang, T.; Zhang, X. Combinatorial modulation of galP and glk gene expression
+for improved alternative glucose utilization. Appl. Microbiol. Biotechnol. 2012, 93, 2455–2462. [CrossRef]
+[PubMed]
+Perrenoud, A.; Sauer, U. Impact of global transcriptional regulation by ArcA, ArcB, Cra, Crp, Cya, Fnr,
+and Mlc on glucose catabolism in Escherichia coli. J. Bacteriol. 2005, 187, 3171–3179. [CrossRef]
+Prüss, B.M.; Campbell, J.W.; Van, T.D.; Zhu, C.; Kogan, Y.; Matsumura, P. FlhD/FlhC is a regulator of anaerobic
+respiration and the Entner-Doudoroff pathway through induction of the methyl-accepting chemotaxis protein
+Aer. J. Bacteriol. 2003, 185, 534–543. [CrossRef]
+© 2019 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC BY) license (http://creativecommons.org/licenses/by/4.0/).
+
+

@@ -1,0 +1,1151 @@
+ii .
+
+~ •
+
+4
+
+:
+
+MICROBIOLOGY
+REVIEWS
+ELSEVIER
+
+FEMS Microbiology Reviews 16 (1995) 243-252
+
+i
+
+Corynebacterium glutamicum
+Hermann Sahm *, Lothar Eggeling, Bernd Eikmanns, Reinhard Kr~imer
+InstitutfiJrBiotechnologie,ForschungszentrumJiilich, D-52425Jiilich, Germany
+
+Abstract
+The Gram-positive bacterium Corynebacterium glutamicum is used for the industrial production of amino acids, e.g. of
+L-glutamate and L-lysine. In the last 10 years, genetic engineering and amplification of relevant structural genes have
+become fascinating methods for the construction of strains with desired genotypes. By cloning and expressing the various
+genes of the L-lysine pathway in C. glutamicum we could demonstrate that an increase of the flux of L-aspartate
+semialdehyde to L-lysine could be obtained in strains with increased dehydrodipicolinate synthase activity. By combined
+overexpression of deregulated aspartate kinase and dihydrodipicolinate synthase, the L-lysine secretion could be increased
+(10-20%). Recently we detected that in C. glutamicum two pathways exist for the synthesis of DL-diaminopimelate and
+L-lysine. Mutants defective in one pathway are still able to synthesize enough L-lysine for growth, but the L-lysine secretion
+is reduced to 50-70%. Using NMR spectroscopy, we could calculate how much of the L-lysine secreted into the medium is
+synthesized via each pathway. Amplification of the feedback inhibition-insensitive homoserine dehydrogenase and homoserine kinase in a high L-lysine overproducing strain enabled channelling of the carbon flow from the intermediate aspartate
+semialdehyde towards homoserine, resulting in a high accumulation of L-threonine. For a further flux from L-threonine to
+L-isoleucine the allosteric control of threonine dehydratase must be eliminated. In addition to all steps considered so far to be
+important for amino acid overproduction, the secretion into the culture medium also has to be noted. Recently it could be
+demonstrated that L-glutamate, L-lysine and L-isoleucine are not secreted via passive diffusion but via specific active carder
+systems. Analysis of lysine-overproducing C. glutamicum strains indicates that this secretion carrier has a strong influence
+on the overproduction of this amino acid. Thus, for the construction of strong amino acid overproducing strains by using the
+gene cloning techniques, the overexpression of the genes for the export systems also seems necessary.
+
+Keywords: Corynebacterium glutamicum; Amino acid production; Metabolic design; L-Lysine; L-Threonine; L-Isoleucine
+
+1. Introduction
+L-Amino acids have a wide spectrum of commercial use as food additives, feed supplements, infusion
+
+* Corresponding author. Tel.: (+49-2461) 61 3294; Fax:
+( + 49-2461) 61 2710.
+
+compounds, therapeutic agents, and precursors for
+the synthesis of peptides or agrochemicals. In the
+mid-fifties, in Japan a bacterium was isolated which
+excreted large quantities of L-glutamic acid into the
+culture medium [1]. This bacterium, Corynebacterium glutamicum, is a short, aerobic, Gram-positive rod capable o f growing on a simple medium.
+Under optimal conditions this organism converts
+
+0168-6445/95/$29.00 © 1995 Federation of European Microbiological Societies. All rights reserved
+SSDI 0168-6445(94)00084-0
+
+Downloaded from https://academic.oup.com/femsre/article/16/2-3/243/504949 by guest on 27 April 2026
+
+Metabolic design in amino acid producing bacterium
+
+244
+
+H. Sahm et aL / FEMS Microbiology Reviews 16 (1995) 243-252
+
+about 100 g/1 glucose into 50 g / l glutamic acid
+within a few days; about 350 000 t of L-glutamate are
+produced annually with this bacterium. In the last 30
+years, various mutants of C. glutamicum were isolated which are also able to produce significant
+amounts of other L-amino acids. During the past
+decade, a new generation of strain improvements
+was developed using the gene cloning technique, as
+demonstrated by the following few examples.
+
+At present, L-lysine is produced in an amount of
+about 180000 t / a with strains of C. glutamicum or
+subspecies. The wild-types of these organisms do not
+secrete lysine, but strains producing this amino acid
+have been obtained by classical screening programs.
+During these procedures, mutants were selected primarily as resistant or sensitive to a variety of chemicals by assuming as targets enzymes of the amino
+acid pathway [2] or of central metabolism [3]. At
+each screening step, the mutant producing the highest titer of lysine was selected for subsequent mutagenesis. This empirical procedure resulted in strains
+with high productivity. However, their metabolic
+changes can be described neither qualitatively nor
+quantitatively. This also agrees with the fact that it is
+
+Table 1
+Enzyme activities a and lysine secretion of recombinants of Corynebacterium glutamicum
+Plasmid
+
+pJC33
+pJC31
+pJC300
+pJC24
+
+pJC25
+pJC40
+pCT4-1
+pJC50
+
+Relevant enzyme
+
+Aspartate kinase d
+Aspartate kinase, g-subunit
+Aspartate semialdehyde dehydrogenase
+Dihydrodipicolinate synthase
+Dihydrodipicolinate reductase
+Diaminopimelate dehydrogenase
+Diaminopimelate decarboxylase
+Aspartate kinase ~ plus
+dihydrodipicolinate synthase
+
+Specific activity ( U / m g ) in strain
+
+Mean ( + SD) lysine b
+
+13032
+
+concentration (mM) with strain
+
+0.01
+0.016
+0.23
+0.06
+0.13
+0.03
+-
+
+r-13032
+
+0.20
+0.02
+0.25
+1.05
+1.33
+2.5
+0.28
+-
+
+r-52-5 c
+
+0.29
+0.14
+1.88
+1.08
+2.1
+0.27
+0.21
+2.05
+
+r-13032
+
+r-52-
+
+38 + 3
+24 + 2
+0+ 1
+11 _+ 2
+0± 1
+0+ 1
+0+ 1
+-
+
+48 + 3
+38 + 2
+48 + 2
+41 5:3
+39 + 2
+40 + 3
+68 + 5
+
+a Cells were cultivated on minimal medium containing glucose and specific activities were determined after 48 h.
+b Lysine was determined in supernatants after 48 h. Values are means from at least three independent cultivations. Strain 52-5 with no
+plasmid cultivated in parallel accumulated 40 + 3 mM lysine.
+c Strain 52-5 is a mutant with feedback-resistant aspartate kinase; r stands for the recombinant strain carrying one of the given plasmid.
+d The specific kinase activities assayed in the presence of 60 mM lysine plus 60 mM threonine were 0.00 U / m g in 13032, 0.21 U / m g in
+r-13032, and 0.32 U / m g in r-52-5.
+
+Downloaded from https://academic.oup.com/femsre/article/16/2-3/243/504949 by guest on 27 April 2026
+
+2. L-Lysine producing strains
+
+impossible to reconstruct a good lysine producer by
+using most of the published strain development
+schemes. The only exception is the use of the lysine
+analog S-2-aminoethyl-L-cysteine. Some of the mutants resistant to this analog secrete lysine, which can
+be attributed to an altered feedback response of the
+aspartate kinase [4]. This is the only enzyme involved in the lysine biosynthesis in C. glutamicum
+which is known to be controlled in its activity [5].
+Aspartate kinase activity is strongly inhibited by the
+presence of lysine (1 mM) together with threonine (5
+mM) (Fig. 1).
+Recently, Cremer et al. [6] have described a rational approach to analysis of lysine production with C.
+glutamicum by overexpression of the various biosynthetic enzymes. Each of the six genes that are involved in the pathway of aspartate to lysine was
+overexpressed individually in the wild-type and a
+mutant with a feedback resistant aspartate kinase.
+Five- to ten-fold higher specific activities of each of
+the enzymes were observed in the recombinant C.
+glutamicum strains (Table 1). Analysis of lysine
+formation revealed that overexpression of the gene
+for the feedback-resistant aspartate kinase alone suffices to achieve lysine secretion in the wild-type.
+This result confirms that the deregulation of the
+aspartate kinase is the decisive first step in order to
+obtain C. glutamicum strains overproducing lysine.
+
+H. Sahm et al. / FEMS Microbiology Reviews 16 (1995) 243-252
+(
+
+L-Aaplrtsta
+
+~_
+~'*'~"
+
+Aspartata
+I
+k/nasa
+]_
+(/ysC)
+V
+L-Aspartylpholphata
+Aspartatesamialdahyde
+~
+dahydrogenase
+(asd)
+
+I
+
+i
+L.Aapartataaamlaldahyda -,- -4:>L-Thraonlne
+
+~
+
+~
+
+L-Mathlonlne
+L-2,3-Dlhydrodlplcollnate
+
+Oihydrodiptcolinate
+reducfase
+(dape)
+
+,
+
+L-Isolauclne
+
+L-Plporldalna-2,6-dlcarboxylata
+
+Tatrahydroclipicollnate
+succinylase
+(aap~
+
+/
+
+N-Succlnyl-2-amlno-
+
+6-katoplmelata
+
+N.Succinyl-aminokatopimelata
+~
+transaminase
+(dapC)
+
+Diaminopimalate
+(ddh)
+
+dehydrogena se
+
+N-Suc©lnyl-2,6-L,Ldlamlnoplmalata
+
+N-Succinyl-diaminopimelata
+dasuccinylase
+(dapE)
+L,L-Dlamlnoplmalata
+
+Diaminopirnelate
+apimarase
+(dapF)
+
+~
+
+/
+
+D,L-Dlamlnoplmalate
+
+~
+
+Cell wall
+
+Diaminopimelate
+dacarboxylase
+(lyaA)
+,,..,,,.,._........................
+
+L-Lysina
+
+Parmaasa
+L-Lyslne
+
+Fig. 1. The split pathway of L-lysine biosynthesis and its regulation in Corynebacterium glutamicum. ~ ,
+= inhibition.
+
+Neither aspartate semialdehyde dehydrogenase, dihydrodipicolinate reductase, diaminopimelate dehydrogenase, nor diaminopimelate decarboxylase overexpression had any effect on lysine overproduction.
+Most surprisingly, however, overexpression of dehydrodipicolinate synthase also converted the wild-type
+into a lysine-secreting strain, although not to the
+same extent as the deregulated aspartate kinase did.
+This is a strong indication that dihydrodipicolinate
+synthase is also involved in the flow control of this
+pathway.
+
+As shown in Fig. 1, the following two enzymes
+are competing for the intermediate aspartate semialdehyde: the dihydrodipicolinate synthase, which
+converts this compound lysine, and the homoserine
+dehydrogenase which converts this intermediate to
+threonine. Kinetic studies indicate that homoserine
+dehydrogenase has a much higher affinity for aspartate semialdehyde than dihydrodipicolinate synthase.
+Increasing the specific activity of the dihydrodipicolinate synthase by overexpressing the gene a greater
+quantity of aspartate semialdehyde is converted to
+lysine which is then secreted. The overexpression of
+dihydrodipicolinate synthase had also a positive effect on very good lysine overproducers. By combined overexpression of aspartate kinase and dihydrodipicolinate synthase lysine secretion could be
+further increased (10-20%). These results show that
+of the six enzymes that convert aspartate to lysine,
+aspartate kinase and dihydrodipicolinate synthase are
+responsible for metabolic flux control within this
+biosynthetic pathway. For the construction of strong
+lysine-producing strains the activities of these enzymes must be increased.
+By sequencing the aspartate kinase gene lysC, it
+was found that within the coding region for a
+polypeptide of 421 amino acids a second in-frame
+gene is located which codes for a polypeptide of 172
+amino acids. This polypeptide is identical to the
+carboxy terminus of the larger polypeptide. Both
+genes, termed lysCct and lysCfl, code for a native
+aspartate kinase protein which is a tetramer of a 2 fiE
+structure and has a molecular mass of 125.8 kDa [7].
+Comparison of the wild-type gene with the gene
+coding for the deregulated aspartate kinase revealed
+a single base pair exchange (C to A) in the lysCfl
+region resulting in a substitution of serine 3°1 in the
+wild-type enzyme to tyrosine 3°1 in the mutant enzyme. Plasmid-bound expression of this mutated
+lysC[3 region conferred partial feedback resistant
+aspartate kinase activity to the wild-type of C. glutamicum [6]. Therefore, the /3-subunit is important
+for the allosteric control of aspartate kinase.
+As shown in Fig. 2 three different pathways of
+D,L-diaminopimelate and L-lysine synthesis are
+known in prokaryotes. All bacteria investigated in
+detail so far appear to utilize only one of the three
+pathways [8,9]. For example, Escherichia coli is
+using the succinylase variant and in Bacillus subtilis
+
+Downloaded from https://academic.oup.com/femsre/article/16/2-3/243/504949 by guest on 27 April 2026
+
+Dihydrodipicolinate
+synthase
+(dapA)
+
+i
+
+245
+
+246
+
+H. Sahm et aL / FEMS Microbiology Reviews 16 (1995) 243-252
+
+L-Aspartate
+
+,5
+L-~-Aspartylphosphate
+L-Aspartate13-semialdehyde
+
+L-2,3-Dihydrodipicolinate
+
+,5
+
+L-It ,-Piperideine-2,6-diearboxylate
+
+Amino- ~
+transferase
+
+N-Succinyt-2-amino6-keto-L-pimelate
+~ Aminotransferase
+
+N-AcetyI-L,Ldiaminopimelate
+
+N-SuccinyI-LLdiaminopimelate
+
+(d~C)
+
+D-Oiamino-
+
+pimel=e
+dehydrogenase
+(ddh)
+
+Deacetylase~ ~ Desuccinylase
+(dapE)
+
+L,L-Diaminopimelate /
+Epimerase~
+(dapF)
+
+D,L-Diaminopimelate
+L-Lysine
+Fig. 2. The three pathways of D,L-diaminopimelate and L-lysine
+synthesis in prokaryotes.
+
+the acetylase variant is responsible for lysine synthesis. However, recently, Schrumpf et al. [10] have
+detected that in C. glutamicum the dehydrogenase
+variant and the succinylase variant exist side by side,
+both allowing D,L-aminopimelate and L-lysine synthesis. This is the only bacterium known so far
+which has two parallel anabolic pathways, their functions besides the synthesis of D,L-diaminopimelate
+for cell wall synthesis and lysine synthesis is not
+known. Mutants with an inactive dehydrogenase
+pathway are still prototrophic but in overproducers
+lysine secretion is reduced to 50-70%. Thus, although the dehydrogenase pathway is not essential
+for growth on mineral salt medium, it is a prerequisite for handling an increased flow of metabolites to
+diaminopimelate and finally to lysine; for further
+strain improvement this might be very important.
+During the last decade, nuclear magnetic resonance methods have become firmly established as a
+powerful tool for analysing metabolite concentrations in cell extracts but also in whole cells. There-
+
+Table 2
+Nitrogen-dependent flux partitioning in Corynebacterium glutamicum
+
+Strain
+
+Nitrogensource
+
+Lysine Growth Contribu(mM) OD600 tionof
+dehydrogenase
+
+(%)
+
+DG52-5
+140 mM Glutamate 4.6
+MH20-22B 600 mM (NHa)2SO4 4.3
+MH20-22B 150 mM (NH4)2SO4 5.6
+MH20-22B 38 mM (NH4)2SO4 3.7
+MH20-22B 23 mM (NH4)2SO4 1.9
+
+22
+11
+14
+14
+12
+
+0
+51
+24
+6
+0
+
+Downloaded from https://academic.oup.com/femsre/article/16/2-3/243/504949 by guest on 27 April 2026
+
+N-Acetyl-2-amino6-keto-L-pimelate
+
+fore the NMR technique was applied to study the
+actual physiological flux distribution between the
+two variants of lysine biosynthesis in the wild-type
+strain and in several lysine producing strains. By this
+method the fate of individual carbon atoms can be
+followed. Sonntag et al. [11] fed cultures with [6t3C]glucose and determined the specific enrichments
+in carbons of intracellular and excreted lysine and in
+the metabolite pyruvate which enters the lysine synthetic pathway before it splits into its two variants.
+This enabled unequivocal determinations of the flux
+distribution for various strains under a variety of
+conditions. The dehydrogenase variant was found to
+contribute about 30% to finally accumutated lysine
+irrespective of which strain is considered [11,12].
+This was unexpected since the specific dehydrogenase activity is always very much higher than that of
+the succinylase enzymes [10]. Surprisingly, it turned
+out that the partition coefficient between the two
+variants varied with cultivation time. At the beginning of the culture the dehydrogenase variant contributed about 70% of the flux, whereas the contribution decreased with cultivation time to nearly zero at
+the end. This was traced to the availability of ammonium in culture medium. At high ammonium concentrations the dehydrogenase variant carried more than
+50% of the total flux whereas in the absence of
+external amminoum and in the presence of glutamate
+as sole nitrogen source only the succinylase variant
+is operative (Table 2). Since the dehydrogenase has a
+high g m of 36 mM for NH~ [13], it is conclusive
+that ammonium availability directly influences the
+contribution of this enzyme for lysine synthesis by
+its kinetic characteristics. This example shows the
+
+H. Sahm et al. / FEMS Microbiology Reviews 16 (1995) 243-252
+e
+. .x. .t .e.r. n. .a. l. . . . .~
+i
+i
+
+IC
+
+~
+,. . . internal
+....
+i
+
+ON- o
++OW|y$
+
+lys ÷
+
++ION_ 0
+
+lys +
+
+~
+
++ @+
+
+{~+t
+*
+i
+
+(iii) it is positively charged, thus the membrane
+potential stimulates secretion.
+Recent analysis of lysine-hyperproducing C. glutamicum strains indicates that this secretion carrier
+has a strong influence on the overproduction of this
+amino acid [18]. Thus, for the construction of strong
+lysine-overproducing strains by using the gene
+cloning technique, the overexpression of the gene(s)
+for this export system seems also necessary.
+
+Fig. 3. Kinetic model for lysine export in Corynebacterium glutamicum.
+
+3. L-Threonine producing strains
+
+extremely powerful use of the NMR technique to
+determine accurate split ratios of pathways. These
+techniques will be extended to other main pathways
+in C. glutamicum in order to study the central
+metabolic network of this organism.
+In addition to all steps considered so far to be
+important for lysine overproduction, the secretion of
+lysine into the culture medium also has to be noted.
+Although it is still widely accepted that excretion of
+amino acids may occur as a result of a physically
+changed (leaky) membrane [14], recently Kr~imer and
+co-workers provided evidence for the presence of
+specific secretion carriers [15-17]. While in the cells
+of C. glutamicum high concentrations of glutamate
+(approx. 200 mM) and lysine (approx. 50 mM) could
+be detected, only lysine was secreted into the culture
+medium. Thus, the secretion of lysine is not the
+consequence of unspecific permeability of the plasma
+membrane but is mediated by a secretion carrier
+which is specific for lysine. The results of all experimental data are summarized in the model shown in
+Fig. 3 [17]. In C. glutamicum, lysine is excreted in
+symport with two O H - ions. The substrate loaded
+carrier is uncharged. After lysine is transported
+through the membrane, the carrier changes its orientation back to the cytosol. The pH gradient and the
+lysine gradient are important for the translocation of
+the loaded carrier. The membrane potential is important for the reorientation of the positively charged
+unloaded carrier. All data clearly show that this
+carrier is a well-designed secretion carrier because
+(i) it has a rather high K m value for lysine (20 mM);
+(ii) it is an OH- symport system in contrast to the
+uptake systems, that are H ÷ antiport systems; and
+
+Another example of strain improvement by recombinant DNA techniques is the amplification of
+the threonine biosynthetic genes in C. glutamicum.
+In C. glutamicum the carbon flux from aspartate to
+threonine is firstly subjected to the control exerted
+by the regulatory features of aspartate kinase, and
+further at the level of homoserine dehydrogenase and
+homoserine kinase (Fig. 4). This enzyme is feedback
+inhibited by L-threonine (apparent K i = 0.16 mM)
+and by isoleucine (apparent K i = 5 mM) [5]. In
+addition, the synthesis of both homoserine dehydrogenase and homoserine kinase was reported to be
+repressed three-fold by the addition of methionine to
+the growth medium [19,20]. The other two enzymes
+involved in threonine biosynthesis, aspartate semialdehyde dehydrogenase and threonine synthase do
+not seem to be subjected to any inhibition or repression [19,21,22]. The specific activities of the threonine biosynthetic enzymes, determined in cell-free
+extracts from wild-type C. glutamicum (ATCC
+13032), and their regulatory features are summerized
+in Table 3.
+Mutants of C. glutamicum possessing a homoserine dehydrogenase insensitive to feedback inhibition
+by L-threonine were obtained by classic mutagenesis
+procedures and subsequent selection on media containing the threonine analogue 2-amino-3-hydroxyvalerate [22-25]. Recently, we isolated and analysed
+a horn gene (homFB R) coding for a feedback-resistant homoserine dehydrogenase from a C. glutamicum mutant DM 368-3 [22]. Nucleotide sequence
+analysis and comparison to the wild-type horn gene
+revealed that a single transition from G to A in
+homFB R leading to replacement of glycine 378 by
+glutamate 378 in the mutant homoserine dehydroge-
+
+Downloaded from https://academic.oup.com/femsre/article/16/2-3/243/504949 by guest on 27 April 2026
+
+L
+i
+i
+
+247
+
+248
+
+H. Sahm et al./ FEMS Microbiology Reviews 16 (1995) 243-252
+
+nases may be the domain responsible for feedback
+inhibition.
+Amplification of the feedback inhibition-insensitive homoserine dehydrogenase and homoserine kinase in a high-lysine-overproducing strain permitted
+channeling of the carbon flow from the intermediate
+aspartate semialdehyde toward homoserine, resulting
+in a high accumulation of L-threonine. The final
+lysine concentration was shifted from 65 g / l to 4
+g / l and the final threonine concentration was increased from 0 g/1 to 52 g / l (Fig. 6) [27]. Overexpression of the third gene for threonine biosynthesis,
+threonine synthase alone or in combination with the
+other two genes had no further effect on threonine or
+lysine overproduction [28]. However, threonine production could be increased by 12% by the expression
+of cloned phosphoenolpyruvate carboxylase [29].
+This improvement can be explained by the fact that
+in this strain the formation of the precursor oxaloacetate and thus the carbon flow into the pathway of
+the biosynthesis of the aspartate family of amino
+acids is increased.
+
+4. L-Isoleucine-producing strains
+Isoleucine is derived from threonine and synthesized in five reactions (Fig. 4) which are catalysed
+by (i) threonine dehydratase, (ii) acetohydroxy acid
+
+Table 3
+Specific activities and regulatory properties of Corynebacterium glutamicum enzyme involved in L-threonine and L-isoleucinc biosynthesis
+Enzyme
+
+Specific activity
+(/.tmol m i n - l (rag protein)- 1)
+
+Enzyme activity
+inhibited by a
+
+Corresponding
+gene(s)
+
+Gene expression
+regulated by a
+
+Aspartate kinase
+Aspartate semialdehyde
+dehydrogenase
+Homoserine dehydrogenase
+Homoserine kinase
+Threonine synthase
+
+0.010
+
+lys + thr
+
+lysC(lysC ot + lysC8)
+
+-
+
+0.016
+0.830
+0.022
+0.006
+
+thr + ile
+(thr)
+-
+
+asd
+horn
+thrB
+thrC
+
+met
+met
+-
+
+Threonine dehydratase
+Acetohydroxy acid synthase
+
+0.020
+0.030
+
+ile
+ile, leu, val
+
+ilvA
+ilvB, ilvN
+
+Isomeroreductase
+Dihydroxy dehydratase
+Transaminase B
+
+0.034
+0.084
+0.120
+
+-
+
+ilvC
+ilvD
+ilvE
+
+ile, leu, val
+(2-oxobutyrate)
+-
+
+a lys, lysine; thr, threonine; ile, isoleucine; leu, leucine; val, valine; met, methionine
+
+Downloaded from https://academic.oup.com/femsre/article/16/2-3/243/504949 by guest on 27 April 2026
+
+nase is responsible for deregulation [26]. Using sidedirected mutagenesis we replaced the GAG codon
+for glutamate 378 by CAG coding for glutamine and
+by GCG coding for alanine and studied the sensitivity of the altered homoserine dehydrogenase with
+respect to threonine. As shown in Fig. 5, these
+changes had a significant effect on the inhibition
+kinetics. Half maximal inhibition was observed at
+0.15 mM L-threonine for the wild-type enzyme
+(Gly378), at 4 mM for the enzyme possessing Ala 378,
+at 20 mM for the enzyme possessing Gln 378, and at
+approximately 100 mM for the enzyme from C.
+glutamicum DM 368-3 (GluaTS). Thus, it is obvious
+that the size as well as the charge of the side chain of
+amino acid 378 has an effect on the threonine inhibition of homoserine dehydrogenase. Archer et al. [25]
+also characterized a horn allele (designated horn~)
+coding for a feedback-resistant homoserine dehydrogenase from an independently isolated C. glutamicum mutant R102. This enzyme was 20% inhibited
+at 50 mM L-threonine. In the hornd~ gene, a single
+deletion of a G led to a frameshift in the horn
+reading frame and thus to ten amino acid changes
+and a deletion of the seven carboxy terminal amino
+acids relative to the wild-type enzyme. The analysis
+of both horn alleles, homFaa and horndr, revealed the
+mutation to be located at the carboxy terminus of the
+homoserine dehydrogenase. Thus, the carboxy terminal part of monofunctional homoserine dehydroge-
+
+H. Sahm et al. / FEMS Microbiology Reviews 16 (1995) 243-252
+
+249
+
+L-Asl~artate
+
+lysC
+
+I
+
+Aspartata ~ ................................., .......
+kinase
+
+10
+
+L-Aspartyl phosphate
+
+asd
+
+L-Aspartate semialdehyda
+
+~- - - , ~ J ~
+L-Methionine ~
+
+8
+
+earn~aldehyde
+dahydrooanasa
+~
+
+o
+Q.
+
+~
+
+L-Lysine
+
+Homoaarlne
+dehydroganase "~..................~
+
+ham
+~
+
+Homosarine
+
+i
+
+thrB
+
+kin,,a
+
+I
+2
+
+Homoserine
+phosphate
+
+!
+
+rhraonlne
+$ynthasa
+
+thrC
+
+I
+i
+
+0 i-
+
+i
+
+i
+
+0
+
+10
+
+20
+
+L-Threonine
+
+Thraonine ~ ...............................
+dahydratase
+
+ilvA
+Ketobutyrate
+
+~'~'~J~
+
+Acatohydroxy
+acid synthasa
+
+ilvBN
+
+~ ..............
+
+Acetohydroxy butyrate
+
+ilvC
+
+~
+
+Dlhydroxyacid
+dahydratasa
+
+Ketomethyl velerate
+
+ilvE
+
+1
+
+i
+
+i
+
+40
+
+50
+
+L-threonine
+
+[raM]
+
+Fig. 5. Threonine-sensitivity of wild-type Corynebacterium glutamicum homoserine dehydrogenase (HDH) and various recombinant HDHs changed in amino acid 378. The specific HDH
+activities were determined in cell-free extracts from Corynebacterium glutamicum strains carrying the genes for the respective
+HDH on plasmid. ( O ) wild-type HDH-GIy378; ( • ) HDH-AIa378;
+( • ) HDH-Gln 378 ; ( • ) HDH-GIu 378.
+
+Isomeroraductasa
+
+Dihydroxymethyl valerate
+
+ilvD
+
+i
+30
+
+TransanllnaaaB
+
+v
+L-Isoleucine
+
+Fig. 4. Biosynthetic pathway of L-threonine and L-soleucine and
+its regulation in Corynebacterium glutamicum. ~ 1 ~
+=
+inhibition; ~ •
+= repression.
+
+glutamicum threonine dehydratase isoleucine is a
+negative allosteric effector which increases the apparent K m value for threonine from 21 to 78 mM
+and valine acts as a positive allosteric effector reducing the K m value to 12 mM [34,35]. Thus, with
+respect to these effectors the C. glutamicum enzyme
+is regulated similarly to that of E. coli. The other
+enzyme important for carbon flux control, acetohyAsp --~ - - ~ ASA - ' ~ Horn --~ --,- ~
+
+synthase, (iii) isomeroreductase, (iv) dihydroxy acid
+dehydratase, and (v) transaminase B. Only the first
+of these enzymes is isoleucine-specific, since the
+other four are also involved in valine and leucine
+biosynthesis. In contrast to enterobacteria, in which
+up to five isoenzymes of acetohydroxy acid synthase
+have been found [30], C. glutamicum possesses only
+one acetohydroxy acid synthase [31-33].
+The carbon flux from threonine to isoleucine is
+controlled by threonine dehydratase and by acetohydroxy acid synthase. There are no indications of
+regulation of the last three enzymes involved, neither
+on the genetic nor the enzyme level. For the C.
+
+O g/I
+
+i
+i
+
+Asp --~ --~ ASA ---l, Horn ~
+
+4 gll
+
+P
+
+--~ ~
+
+HD
+
+5 2 g/1
+
+HK
+
+C.glutsn~cumthre0nine0~r0n
+Fig.
+
+6.
+
+Diversion
+
+of
+
+carbon
+
+flow
+
+by
+
+introduction
+
+of
+
+the
+
+Corynebacterium glutamicum threonine operon into a lysine-producing strain [27].
+
+Downloaded from https://academic.oup.com/femsre/article/16/2-3/243/504949 by guest on 27 April 2026
+
+"r
+
+........ ~
+
+250
+
+It. Sahm et al. / F E M S Microbiology Reviews 16 (1995) 243-252
+
+the isoleucine excretion would increase the internal
+concentration of isoleucine and its precursors and
+thus explain this result.
+
+6. Conclusion
+In the last years the biochemistry, physiology and
+molecular biology of amino acid biosynthesis in C.
+glutamicum have been studied intensively and, especially by development and application of genetic
+techniques, a lot of information has emerged. The
+current knowledge on the biosyntheses of lysine,
+threonine and isoleucine and their regulatory features
+shows that the pathways leading to these amino acids
+are much simpler in their regulation when compared
+e.g. to the corresponding pathways in E. coli. In C.
+glutamicum, only very few of the involved enzymes
+are controlled and up to now no isoenzymes could be
+detected. This may be a reason why this bacterium
+can be manipulated quite well for the production of
+various amino acids.
+Single a n d / o r combined cloning and expression
+of the genes or disruption of certain genes in C.
+glutamicum enabled the analysis of carbon flux control in response to elevation or removal of the respective enzyme activity. Based on these analyses,
+new strategies for the manipulation of this industrially important amino acid producer become possible.
+So far, the development of highly productive strains
+was based on random mutagenesis, selection and
+screening procedures and thus has been an empirical
+and undefined process. Detailed information on the
+biosynthetic pathways and their regulation and the
+availability of the genes involved now permit directed metabolic design, i,e. improvement of amino
+acid biosynthesis and excretion by manipulation of
+enzymatic a n d / o r regulatory functions of C. glutamicum with the application of recombinant DNA technology.
+
+References
+[1] Kinoshita, S. and Nakayama, K. (1978) Amino acids. In:
+Primary Products of Metabolism (Rose, A.H., Ed.), pp. 209261. Academic Press, London.
+[2] Tosaka, O., Takinami, K. and Hirose, Y. (1978) L-Lysine
+production by S-(2-aminoethyl)-L-cysteine and or-amino-r-
+
+Downloaded from https://academic.oup.com/femsre/article/16/2-3/243/504949 by guest on 27 April 2026
+
+droxy acid synthase, is feedback inhibited to approximately 50% by the three branched chain amino
+acids [31]. This is comparable to the situation found
+for two of the E. coli isoenzymes [30]. The amount
+of C. glutamicum acetohydroxy acid synthase in the
+cells is strictly regulated. The addition of 2oxobutyrate results in an up to 20-fold increase of
+the specific activity [31]. This is assumed to be due
+to the high affinity of the acetohydroxy acid synthase
+to 2-oxobutyrate, which might result in a intracellular leucine and valine shortage. Keilhauer et al. [33]
+recently showed that expression of the acetohydroxy
+acid synthase genes in C. glutamicum is regulated at
+the transcriptional level.
+Although it is evident that the carbon flux from
+threonine to isoleucine is controlled by the regulation
+of threonine dehydratase and acetohydroxy acid synthase, up to now there have been no reports on the
+isolation of C. glutamicum mutants possessing one
+or both of the enzymes in a deregulated fashion.
+Recently the gene coding for the enzyme threonine
+dehydratese were cloned from C. glutamicum and
+sequenced [35]. Thus, by site directed mutagenesis,
+the allosteric domain of the enzyme can be changed
+to overcome the feedback control. To obtain effective isoleucine overproduction, the mutated strain
+should also possess a deregulated aspartate kinase
+and a deregulated homoserine dehydrogenase to allow an appropriate supply of threonine. By the addition of the precursor 2-oxobutyrate to growing cells
+of C. glutamicum and by bypassing the control of
+acetohydroxy acid synthase by leucine shortage it
+was possible to obtain an accumulation of up to 19
+g / l isoleucine in the medium [31]. This result shows
+that acetohydroxy acid synthase is not as tightly
+controlled as aspartate kinase or homoserine dehydrogenase.
+Ebbighausen et al. [15] demonstrated a specific
+isoleucine export carrier which is most probably
+secondary active. It is not entirely clear whether this
+carrier limits the isoleucine excretion into the
+medium. However, with hydroxybutyrate as precursor for isoleucine synthesis Wilhelm et al. [36] found
+a variety of degradation products of the intermediates of the isoleucine biosynthetic pathway. Since
+also degradation products of the last intermediate
+were detected it can be assumed to be present in a
+rather high cytosolic concentration. A limitation of
+
+H. Sahm et al. / FEMS Microbiology Reviews 16 (1995) 243-252
+
+strain of Corynebacterium glutamicum. Appl. Microbiol.
+Biotechnol. 37, 566-571.
+[19] Miyajima, R. and Shiio, L (1971) Regulation of aspartate
+family amino acid biosynthesis in Brevibacterium flavum.
+Repression of the enzymes in threonine biosynthesis. Agric.
+Biol. Chem. 35, 424-430.
+[20] Peoples, O.P., Liebl, W., Bodis, M., Maeng, P.J., Follettie,
+M.T., Archer, J.A. and Sinskey, A.J. (1988) Nucleotide
+sequence and fine structural analysis of the Corynebacterium
+glutamicum hom-thrB operon. Mol. Microbiol. 2, 63-72.
+[21] Miyajima, R., Otsuka, S. and Shiio, I. (1968) Regulation of
+aspartate family amino acid biosynthesis in Brevibacterium
+flavum. Inhibition by amino acids of the enzymes in threonine biosynthesis. J. Biochem. 63, 139-148.
+[22] Eikmanns, B., Metzger, M., Reinscheid, D., Kircher, M. and
+Sahm, H. (1991b) Amplification of three biosynthesis genes
+in Corynebacterium glutamicum and its influence on carbon
+flux in different strains. Appl. Microbiol. Biotechnol. 34,
+617-622.
+[23] Shiio, I. and Nakamori, S. (1970) Microbial production of
+L-threonine, Part 2. Production by a-amino-fl-hydroxyvaleric
+acid resistant mutants of glutamate producing bacteria. Agric.
+Biol. Chem. 34, 448-456.
+[24] Kinoshita, S. (1985) Glutamic acid bacteria. In: Biology of
+Industrial Microorganisms (Demain, A.L. and Solomon, N.A.,
+Eds.), pp. 115-142. The Benjamin/Cummings Publishing
+Company, Menlo Park, CA.
+[25] Archer, J.A.C., Solow-Cordero, D.E. and Sinskey, A.J. (1991)
+A C-terminal deletion in Corynebacterium glutamicum homoserine dehydrogenase abolishes allosteric inhibition by
+L-threonine. Gene 107, 53-59.
+[26] Reinscheid, D., Eikmanns, B. and Sahm, H. (1991) Analysis
+of a Corynebacterium glutamicum horn gene coding for
+feedback-resistant homoserine dehydrogenase. J. Bacteriol.
+173, 3228-3230.
+[27] Katsumata, R., Mizukami, R., Ozaki, A., Kikuchi, Y., Kino,
+K., Oka, T. and Furuya, A. (1987) Gene cloning in glutamic
+acid bacteria: the system and its applications. In: Proc. 4th
+Eur. Congr. Biotechnology (Neijssel, O.M., van der Meer,
+R.R. and Luyben, K.C.A.M., Eds.), Vol. 4, pp. 767-776.
+Elsevier, Amsterdam.
+[28] Eikmanns, B.J., Metzger, M., Reinscheid, D., Kircher, M.
+and Sahm, H. (1991) Amplification of three threonine
+biosynthesis genes in Corynebacterium glummicum and its
+influence on carbon flux in different strains. Appl. Microbiol.
+Biotechnol. 34, 617-622.
+[29] Sano, K., Ito, K., Miwa, K. and Nakamori, S. (1987) Amplification of the phosphoenol pyruvate carboxylase gene of
+Brevibacterium lactofermentum to improve amino acid production. Agric. Biol. Chem. 51, 597-599.
+[30] Umbarger, H.E. (1987) Biosynthesis of the branched-chain
+amino acids. In: Escherichia coli and Salmonella typhimurium (Ingraham, J.L., Low, K.B., Magasanik, B.,
+Schaechter, M. and Umbarger, H.E., Eds.), pp. 352-367.
+American Society for Microbiology, Washington, D.C.
+[31] Eggeling, I., Cordes, C., Eggeling, L. and Sahm, H. (1987)
+Regulation of acetohydroxy acid synthase in Corynebac-
+
+Downloaded from https://academic.oup.com/femsre/article/16/2-3/243/504949 by guest on 27 April 2026
+
+hydroxyvaleric acid resistant mutants of Brevibacterium
+lactofermentum. Agric. Biol. Chem. 42, 745-752.
+[3] Shiio, I., Sugimoto, S. and Toride, Y. (1984) Studies on
+mechanisms for lysine production by pyruvate kinase-deficient mutants of Brevibacterium flavum. Agric. Biol. Chem.
+48, 1551-1558.
+[4] Sano, K. and Shiio, I. (1970) Microbial production of L-lysine.
+11I. Production by mutants resistant to S-(2-aminoethyl)-L-cysteine. J. Gen. Appl. Microbiol. 16, 373-391.
+[5] Cremer, J., Treptow, C., Eggeling, L. and Sabra, H. (1988)
+Regulation of enzymes of lysine biosynthesis in Corynebacterium glutamicum. J. Gen. Microbiol. 134, 3221-3229.
+[6] Cremer, J., Eggeling, L. and Sahm, H. (1991) Control of the
+lysine biosynthetic sequence in Corynebacterium glutamicum
+as analyzed by overexpression of the individual corresponding genes. Appl. Environ. Microbiol. 57, 1746-1752.
+[7] Kalinowski, J., Cremer, J., Bachmann, B., Eggeling, L.,
+Sahm, H. and Piihler, A. (1991) Genetic and biochemical
+analysis of the aspartokinase from Corynebacterium glutamicum. Mol. Microbiol. 5, 1197-1204.
+[8] Weinberger, S. and Gilvarg, C. (1970) Bacterial distribution
+of the use of succinyl and acetyl blocking groups in diaminopimelate acid biosynthesis. J. Bacteriol. 101, 323-324.
+[9] White, P..I. (1983) The essential role of diaminopimelate
+dehydrogenase in the biosynthesis of lysine by Bacillus
+sphaericus. J. Gen. Microbiol. 129, 739-749.
+[10] Schrumpf, B., Schwarzer, A., Kalinowski, J., Piihler, A.,
+Eggeling, L. and Sahm, H. (1991) A functionally split pathway for lysine synthesis in Corynebacterium glutamicum. J.
+Bacteriol. 173, 4510-4516.
+[11] Sonntag, K., Eggeling, L, de Graaf, A.A. and Sahm, H.
+(1993) Flux partitioning in the split pathway of lysine synthesis in Corynebacterium glutamicum. Quantification by 13Cand 1H-NMR spectroscopy. Eur. J. Biochem. 213, 13251331.
+[12] Yamaguchi, K., Ishino, S., Araki, K. and Shirahata, K.
+(1986) 13-NMR studies of lysine fermentation with a
+Corynebacterium glutamicum mutant. Agric. Biol. Chem. 50,
+2453-2459.
+[13] Misono, H., Togawa, H., Yamamoto, T. and Soda, K. (1979)
+Meso-diaminopimelate dehydrogenase: Distribution and the
+reaction product. J. Bacteriol. 137, 22-27.
+[14] Demain, A.L. and Birnbaum, J. (1968) Alteration of permeability for the release of metabolites from the microbial cell.
+Curr. Top. Microbiol. Immunol. 46, 1-25.
+[15] Ebbighausen, H., Weil, B. and Kr~imer, R. (1989) Transport
+of branched-chain amino acids in Corynebacterium glutamicum. Arch. Microbiol. Biotechnol. 151, 238-244.
+[16] Hoischen, C. and Kr~imer, R. (1990) Membrane alteration is
+necessary but not sufficient for effective glutamate secretion
+in Corynebacterium glutamicum. L Bacteriol. 172, 34093416.
+[17] Brrer, S. and Kr~imer, R. (1991) Lysine excretion by
+Corynebacterium glutamicum: 2. Energetics and mechanism
+of the transport system. Eur. J. Biochem. 202, 137-143.
+[18] Schrumpf, B., Eggeling, L. and Sahm, H. (1992) Isolation
+and prominent characteristics of an L-lysine hyperproducing
+
+251
+
+252
+
+H. Sahm et al. / FEMS Microbiology Reviews 16 (1995) 243-252
+
+terium glutamicum during fermentation of a-ketobutyrate to
+L-isoleucine. Appl. Microbiol. Biotechnol. 25, 346-351.
+[32] Cordes, C., M/Sckel, B., Eggeling, L. and Sahm, H. (1992)
+Cloning, organization and functional analysis of ilvA, ilvB
+and ilvC genes from Corynebacterium glutamicum. Gene
+112, 113-116.
+[33] Keilhauer, C., Eggeling, L. and Sahm, H. (1993) Isoleucine
+synthesis in Corynebacterium glutamicum: Molecular analysis of the ilvB-ilvN-ilvC operon. J. Bacteriol. 175, 55955603.
+[34] Miyajima, R. and Shiio, I. (1972) Regulation of aspartate
+
+family amino acid biosynthesis in Brevibacterium flavum.
+Effects of isoleucine and valine on threonine dehydratase
+activity and its formation. J. Biochem. 71, 951-960.
+[351 Mfckel, B., Eggeling, L. and Sahm, H. (1992) Functional
+and structural analyses of threonine dehydratase from
+Corynebacterium glutamicum. J. Bacteriol. 174, 8065-8072.
+[361 Wilhelm, C., Eggeling, I., Nassenstein, A., Jebsen, C.,
+Eggeling, L. and Sahm, H. (1989) Limitations during hydroxybutyrate conversion to isoleucine with Corynebacterium glutamicum, as analyzed by the formation of by-products. Appl. Mierobiol. Biotechnol. 31, 458-462.
+Downloaded from https://academic.oup.com/femsre/article/16/2-3/243/504949 by guest on 27 April 2026
+
+

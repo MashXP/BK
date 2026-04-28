@@ -1,0 +1,2343 @@
+fermentation
+Article
+
+Mechanism and Effect of Amino Acids on Lactic Acid Production
+in Acidic Fermentation of Food Waste
+Yan Zhou 1 , Xuedong Zhang 1, * , Yue Wang 1 and Hongbo Liu 1,2
+1
+
+2
+
+*
+
+Citation: Zhou, Y.; Zhang, X.; Wang,
+Y.; Liu, H. Mechanism and Effect of
+Amino Acids on Lactic Acid
+Production in Acidic Fermentation of
+Food Waste. Fermentation 2024, 10, 179.
+https://doi.org/10.3390/
+
+School of Environment and Ecology, Jiangnan University, Wuxi 214122, China;
+6211403016@stu.jiangnan.edu.cn (Y.Z.)
+Jiangsu Collaborative Innovation Center of Water Treatment Technology and Material, Suzhou University of
+Science and Technology, Suzhou 215011, China
+Correspondence: xuedong.zhang@jiangnan.edu.cn
+
+Abstract: Amino acids, particularly the ones that cannot be synthesised during fermentation, are
+reportedly to be key nutrients for anaerobic fermentation processes, and some of the acids are also
+intermediate products of anaerobic fermentation of protein-rich waste. To date, particularly, there
+is a lack of research on the effects of some amino acids, such as cysteine, glycine, aspartic acid, and
+valine, on lactic production from the fermentation of food waste and also the mechanisms involved
+in the process. Thus, this study investigated the effects of the four different amino acids on lactic
+acid production during the acidic anaerobic fermentation of food waste. Firstly, batch experiments
+on synthetic food waste at different pHs (4.0, 5.0, and 6.0) were executed. The results harvested
+in this study showed that higher LA concentrations and yields could be obtained at pH 5.0 and
+pH 6.0, compared with those at pH 4.0. The yield of lactic acid was slightly lower at pH 5.0 than
+at pH 6.0. Furthermore, caustic consumption at pH 5.0 was much lower. Therefore, we conducted
+batch experiments with additions of different amino acids (cysteine, glycine, aspartic acid, and valine)
+under pH 5.0. The additions of the four different amino acids showed different or even opposite
+influences on LA production. Glycine and aspartic acids presented no noticeable effects on lactic acid
+production, but cysteine evidently enhanced the lactic acid yield of food waste by 13%. Cysteine
+addition increased α-glucosidase activity and hydrolysis rate and simultaneously enhanced the
+abundance of Lactobacillus at the acidification stage as well as lactate dehydrogenase, which also all
+favoured lactic acid production. However, the addition of valine evidently reduced lactic acid yield
+by 18%, and the results implied that valine seemingly inhibited the conversion of carbohydrate. In
+addition, the low abundance of Lactobacillus was observed in the tests with valine, which appeared
+to be detrimental to lactic acid production. Overall, this study provides a novel insight into the
+regulation of lactic acid production from anaerobic fermentation of food waste by adding amino
+acids under acidic fermentation conditions.
+
+fermentation10040179
+Academic Editor: Alessio Siciliano
+
+Keywords: food waste; anaerobic fermentation; amino acids; lactic acid
+
+Received: 2 March 2024
+Revised: 20 March 2024
+Accepted: 22 March 2024
+Published: 25 March 2024
+
+Copyright: © 2024 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+
+1. Introduction
+It is estimated that about 2.5 × 109 tons of food waste (FW) will be generated globally
+by 2025 [1]. If the bulky waste is improperly treated, a public food and environmental
+security crisis could take place due to the potential pollution of the environment caused by
+the waste [2]. Currently, one of the most widely implemented resource recovery methods for
+food waste is anaerobic digestion for methane production, but the approach has two evident
+drawbacks: a long retention time and relatively poor stability [3]. Therefore, an effective
+food waste management system is impending to provide cost-effective resource and energy
+recovery, further achieving a circular bio-economy and fulfilling the goal of sustainability [4].
+Thus far, several promising fermentation technologies have emerged and been employed to
+produce value-added products, such as biohydrogen, biohythane, lactic acid (LA), volatile
+
+Fermentation 2024, 10, 179. https://doi.org/10.3390/fermentation10040179
+
+https://www.mdpi.com/journal/fermentation
+
+Fermentation 2024, 10, 179
+
+2 of 15
+
+fatty acids (VFAs), and medium chain carboxylic acids (MCCAs), from various food or
+industrial organic waste (Table 1) [5–7].
+The anaerobic digestion (AD) process consists of four steps: hydrolysis, acidogenesis,
+acetogenesis, and methanogenesis. LA as an intermediate product is produced during
+acidogenesis [4], and has a broad range of applications such as a flavour enhancer, antacid,
+and preservative in the food, chemical, cosmetic, and pharmaceutical industries [8,9]. LA,
+especially, can be used in the plastics sector to produce biodegradable polylactic acid (PLA)
+plastics and polyhydroxyalkanoates (PHA) [10]. The demand for lactic acid gradually
+increases every year. The global demand for LA produced from non-fossil fuel-based
+processes has reached an annual growth rate of 15% [11]. The production of LA from
+fermentation processes is conducive to reconciling the consumption of fossil energy and
+reaching the goal of carbon neutrality [12].
+To obtain a high LA yield, the operating conditions of fermentation processes such
+as pH, temperature, and substrate composition should be optimised [13]. pH, as a key
+influencing factor, significantly affects enzymatic activity and bacterial metabolism [14].
+However, reportedly, lactic acid fermentation has a rather wider pH range from 3.5 to
+11 [6,15–20]. Seemingly, acidic conditions are more beneficial for LA production than
+alkaline conditions [6,21], and meanwhile, LA derived from FW at pH 6 was a very
+suitable substrate as an electron donor to facilitate the chain elongation process for caproate
+production [22,23]. Furthermore, the natural acidification of food waste also produces lactic
+acid, which indicates that food waste usually carries microorganisms that can carry out
+lactic acid production. Evidently, lactic acid fermentation can proceed without inoculation
+under anaerobic conditions [6]. Therefore, it is necessary to explore the natural fermentation
+of food waste under different acidic conditions.
+During the AD process, organic matter such as food waste is commonly degraded, and
+amino acids (AAs) are the main intermediates of protein degradation. Reportedly, amino
+acids are also nutrients required by microorganisms, and many of the AAs cannot be synthesised during AD, and a number of the AAs must be harvested from the environment [24].
+Therefore, it is important to supply certain amino acids that have important biological
+functions in anaerobic fermentation. For example, L-AAs (such as L-cysteine, L-alanine,
+and L-histidine) can serve as a source of nitrogen, promote microbial growth, and/or act
+as electron transporters in microbial biochemical reactions [25,26]. Certain D-AAs such as
+D-leucine and D-methionine can act as signalling molecules to regulate cell wall biogenesis,
+biofilm integrity, and spore germination, trigger microbial biofilm disintegration at low
+concentrations to regulate the distribution of bacterial populations, and influence the surrounding ecosystem [25,27,28]. To date, the focus on free amino acids in anaerobic digestion
+is mainly on the biodegradability of amino acids, which are commonly produced from
+substrates such as gelatin, sewage sludge, and food waste during fermentation [24,29–31].
+Furthermore, some amino acids have been reported to play a positive role in enhancing
+the anaerobic digestion process. For example, L-Cysteine promoted L-glucose degradation
+and influenced enzymatic and microbial activity that are related to VFAs and methane
+production [27]. Cysteine contains sulfur groups that can promote the anaerobic conversion of unsaturated long-chain fatty acids to methane [32]. Reportedly, the contents of
+L-aspartate and glycine are correlated with lactic acid yield in anaerobic fermentation [33].
+Valine degradation releases electrons, which can be used to steer selective production of
+VFAs by controlling the oxidation reduction potential (ORP) [34]. Thus, the addition of the
+amino acids to anaerobic fermentation systems of food waste presumably can substantially
+enhance the production of lactic acid or other VFAs.
+However, thus far, studies examining the effects of AAs on AD have mainly focused
+on VFAs and methane, and little has been explored on their effects on lactic acid production.
+Therefore, this study aimed to investigate the effects of acidic conditions and the addition
+of different amino acids on lactic acid production with indigenous microorganisms in
+FW. Firstly, the effect on lactic acid production was examined at pH levels of 4.0, 5.0,
+and 6.0. Subsequently, changes in lactic acid and metabolic intermediates involved in
+
+Fermentation 2024, 10, 179
+
+3 of 15
+
+the AD pathways by different amino acids were investigated. Furthermore, the microbial
+community profiles of the test groups were examined in-depth to reveal the influence of
+AA on LA yields and community structure.
+Table 1. Fermentation processes for production of high value-added products.
+Product
+
+Biohydrogen
+
+Biohythane
+
+Lactic acid
+
+VFAs
+
+VFAs and
+biohythane
+
+Substrate
+Synthetic
+food waste
+
+Synthetic
+organic
+wastewater
+
+Inoculum
+
+Reactor
+
+Operation Condition
+
+Outcomes
+
+Reference
+
+Clostridium
+acetobutulicum
+
+Batch fermentation reactor
+(working volume:
+1000 mL)
+
+Temperature: 32 ± 1 ◦ C;
+pH: 6.85; addition of
+Fe3 O4 (100 mg) and TiO2
+(50 mg)
+
+Volume: 3392 mL;
+yield: 213.66 mL
+H2 /g VS
+
+[35]
+
+Anaerobic sludge
+
+The reactor: a feeding
+tank; two anaerobic
+reactors (R1 (1.5 L):
+hydrogen producing
+reactor, R2 (1.5 L):
+methane-producing
+reactor); two gas
+collectors; a final effluent
+tank
+
+Sudden shock load phase:
+OLR: 25.0 g COD/L/d
+(R1); 15.7 g COD/L/d
+(R2)
+
+1.641 mol H2 /mol
+glucose; methane
+production rate:
+1.003 L CH4 /L/d
+
+[5]
+
+Concentration:
+22.8 g/L;
+productivity:
+0.95 g/L/h within
+24 h
+
+[18]
+
+Concentration:
+115 g/L; yield:
+0.97 g LA/g total
+sugar
+
+[19]
+
+Concentration:
+68 g/L; yield: 0.38 g
+LA/g TS
+
+[36]
+
+Yield: 0.46 g LA/g
+TS
+
+[6]
+
+Pretreatment with
+hydrogen peroxide and
+acetic acid, along with a
+combination of Viscozyme
+L, Celluclast 1.5 L, and
+Pectinex Ultra SP-L.
+Lactiplantibacillus
+plantarum WiKim0126
+induced fermentation
+with a 4% solid loading
+Pretreatment of food
+waste: Glycosylase
+(2 g/kg FW mixture) was
+used for saccharification;
+reactor pH: 6.8
+
+Coffee waste
+
+Lactiplantibacillus
+plantarum
+WiKim0126
+
+Deman, rogosa and
+sharpe (MRS) broth
+
+Canteen FW
+
+Enterococcus
+mundtii CGMCC
+22227
+
+Fermenters with a
+working volume of
+400 mL
+
+Modelled
+FW
+
+Mixture of
+commercial
+yoghurt and solid
+compost from an
+industrial
+platform
+
+Fed-batch fermentation at
+a pilot scale (12 L)
+
+Temperature: 35 ◦ C;
+pH: 5;
+Organic loading rate
+(OLR): 25 g TS/L/d for
+the first four days
+
+Canteen FW
+
+Indigenous
+microbiota
+
+Batch fermentation
+bioreactor (working
+volume: 5 L)
+
+pH: 6;
+temperature: 25 ◦ C;
+mechanically stirred:
+120 rpm;
+TS of FW: 7%
+
+Anaerobic sludge
+
+Continuous stirred tank
+reactors (working volume:
+1 L)
+
+Hydraulic retention time
+(HRT): 20 d;
+OLR: 3 g VS/L/d;
+a minor pH: 5.8
+
+Canteen FW
+
+Anaerobic
+digestion sludge
+
+Microbial electrolysis cell
+and anaerobic reactor
+(MEC-AR): working
+volume: 1 L, the
+two electrodes: carbon
+rod (8 × 3 × 50 mm),
+six square carbon felts
+(50 × 50 × 5 mm)
+
+Applied voltage: 1.2 V;
+HRT: 10 d;
+pH: 5.04 ± 0.10
+
+Canteen FW
+
+Indigenous
+microbiota
+
+Batch fermentation (total
+volume: 500 mL)
+
+VS of reactor FW: 75 g/L;
+pH: 6
+temperature: 37 ◦ C
+
+FW from FW
+treatment
+plant
+
+Acclimated
+pit mud obtained
+from a CE reactor
+
+Continuous stirred tank
+reactor (working volume:
+1 L)
+
+pH: FW was adjusted to
+pH 6.0 ± 0.5 before
+feeding, reactor no control;
+OLR: 9.24 g COD/L/d;
+HRT: 20 d
+
+Vegetable
+waste
+
+MCCAs
+
+VFAs concentration:
+29.6 ± 2.1 g/L
+(47.0 ± 2.1 g COD/L);
+bioconversion yield:
+49.2 ± 2.0%
+Biohythane yield:
+2.73 ± 0.05 L/L/d
+(with 34.80 ± 1.09%
+CH4 , 14.95 ± 0.86%
+H2 );
+VFAs concentration:
+19.39 ± 0.44 g
+COD/L
+Caproic acid
+concentration:
+88.24 mM
+MCCA
+concentration:
+29,886.10 mg
+COD/L; caproic
+acid concentration:
+28,191.66 mg
+COD/L
+
+[37]
+
+[7]
+
+[38]
+
+[23]
+
+Fermentation 2024, 10, 179
+
+4 of 15
+
+2. Materials and Methods
+2.1. Materials
+In order to ensure the consistency of food waste as substrate during the experiment,
+food waste was prepared based on the previous studies [20,39]. A specific ingredient recipe
+was listed in Table 2. The ingredients were mixed, cooked, then crushed and homogenised
+in a grinder. The prepared food waste was stored at 4 ◦ C for less than 10 d until further
+use. In addition, the naturally present microbes in the food waste were used as inoculum
+without external inoculation.
+Table 2. Ingredient recipe for food waste.
+Ingredient
+
+Mass ratio (%)
+
+Rice
+Noodles
+Cabbage
+Carrot
+Onion
+Potato
+Egg
+Tofu
+Mushroom
+Pork
+Spices
+
+21.8
+20.0
+12.0
+5.6
+5.0
+12.0
+4.6
+4.6
+3.0
+8.2
+3.2
+
+2.2. Effects of pH on Food Waste Fermentation
+Three test groups of different pHs (4.0, 5.0, and 6.0) were set up to explore the effects
+of pH on lactic acid production during the fermentation of food waste. In this study, the
+food waste was diluted with deionised water to a TS of 8.0%, and the characteristics of the
+food waste are depicted in Table 3. The tests were carried out in triplicate in serum bottles
+with a working volume of 300 mL. The bottles were purged with nitrogen gas for 10 min to
+maintain strict anaerobic niches. Then the serum bottles were incubated in an incubator
+shaker at 150 rpm, and the temperature was maintained at 37 ± 2 ◦ C. The pH was adjusted
+to 4.0, 5.0, and 6.0 with sodium hydroxide (6 M) and hydrochloric acid (6 M) solutions
+daily. Daily samples were taken to observe the changes in soluble chemical oxygen demand
+(SCOD), soluble carbohydrates, and lactic acid in the test bottles, and finally to define an
+appropriate pH for subsequent fermentation trials.
+Table 3. Characteristics of food waste: pH, total solids (TS), volatile solids (VS), total chemical oxygen
+demand (TCOD), and soluble chemical oxygen demand (SCOD).
+Index
+
+Food Waste
+
+pH
+TS (g/L)
+VS (g/L)
+TCOD (g/L)
+SCOD (g/L)
+
+5.02 ± 0.2
+82.92 ± 0.41
+81.19 ± 0.35
+110.40 ± 3.53
+51.93 ± 0.33
+
+2.3. Effects of Amino Acid Additions on Food Waste Fermentation
+According to the results harvested with the tests carried out in Section 2.2, a pH of 5.0
+was set for subsequent fermentation trials, and other operational conditions were the same
+as those mentioned above. In the trials with AA additions, 5 groups of experiments were
+carried out, namely, the control group without adding any amino acid (Control), the group
+with adding cysteine (Cys), the group with adding aspartic acid (Asp), the group with
+adding glycine (Gly), and the group with adding valine (Val). The trials were all executed in
+triplicate in the serum bottles with a working volume of 300 mL, and for each test, 300 mg
+of amino acids were added. The pH was adjusted to 5.0 with sodium hydroxide (6 M) and
+
+Fermentation 2024, 10, 179
+
+5 of 15
+
+hydrochloric acid (6 M) every 12 h. During the trials, samples were taken and analysed
+every 24 h.
+2.4. Analytical Methods
+The pH was measured using a digital meter equipped with a pH probe (ST310). TS and
+VS were determined using a weighing method (APHA.1998) [40]. Samples were centrifuged
+at 8000× g for 10 min and then filtered by membrane filters with a pore size of 0.45 µm
+to assay soluble components, including SCOD, soluble carbohydrate, soluble proteins,
+and fermentation products. COD was determined by the hash method (DRB200, HACH
+Company, Maricopa, Arizona, USA) [40]. Soluble carbohydrates and soluble proteins
+were determined using the phenol-sulfuric acid method and the Caulmers Brilliant Blue
+method [41], respectively. Amino acids were analysed using a fully automated amino acid
+analyser (EClassical 3100, Dalian Elite Analytical Instruments Co., Ltd., Dalian, China).
+VFAs were detected by a gas chromatograph (GC-2010, Shimadzu (Shanghai) Global
+Laboratory Consumables Co., Ltd., Shanghai, China), a flame ionisation detector (FID),
+and a fused-silica capillary column (PEG-20 M, Dalian Replete Science and Technilogy
+Co., Ltd., Dalian, China). The temperatures of the detector and injection port were 250 ◦ C
+and 210 ◦ C, respectively. Samples need to be pretreated before injection. Each sample was
+mixed with phosphoric acid (3 M) in a 1:1 ratio (v:v) and then filtered using a 0.22 µm
+microporous membrane to determine VFA concentrations. Lactic acid was measured
+using a high-performance liquid chromatograph (Ultimate 3000, Thermo Fisher Scientific
+(China) Co., Ltd., Shanghai, China) equipped with a Shim-pack GIST C18 AQ column
+(5 µm, 4.6 mm × 250 mm) and a diode array detector, with a mobile phase of 50 mmol/L
+NaH2 PO4 (pH was adjusted to 2.1 with 85% H3 PO4 ) at a flow rate of 1.0 mL/min, a column
+temperature of 40 ◦ C, and a detector UV of 210 nm. α-Glucosidase activity was determined
+according to the method employed in the study of Goel et al. [42]. Lactate dehydrogenase
+activity was determined spectrophotometrically using a lactate dehydrogenase test kit
+(ELISA), and all the procedures were carried out according to the instructions on the kit.
+Specific methods can be found in Supplementary Materials. DNA was extracted using the
+PowerSoil® DNA kit (Mo Bio Laboratories, San Diego, CA, USA), and the amplification
+products were purified using a PCR amplifier with primer pairs 338F and 806R, respectively,
+and then sequenced. Microbial samples were analyzed for high-throughput sequencing
+(Shanghai Majorbio Bio-pharm Technology Co., Ltd., Shanghai, China).
+2.5. Calculation of the Hydrolysis Rate
+The hydrolysis rate was calculated using the following formula [6]:
+Hydrolysis rate (%) =
+
+SCOD − SCOD0 − SCODAA
+× 100%
+TCOD0
+
+where SCOD represents the soluble COD of the fermentation broth by the end of the tests,
+SCOD0 and TCOD0 denote the soluble and total COD of the influent FW, and SCODAA
+represents the theoretical COD of added amino acids.
+2.6. Statistical Analysis of Data
+All assays were conducted in triplicate, and the results were expressed as the mean ± standard deviation of biological parallel experiments. Significant differences were identified
+through a t-test (ANOVA), and a p < 0.05 was considered to be statistically significant.
+3. Results and Discussion
+3.1. Effects of pH on Lactic Acid Production from Fermentation of Food Waste
+3.1.1. Effect of pH on Hydrolysis and Acid Production
+Figure 1a–c shows the changes in SCOD, soluble carbohydrates, and lactic acid during
+the fermentation of food waste at different pHs. In Figure 1a, SCOD increased in the
+first 2 days, which indicated that the leaching of solid organic matter in the initial phase
+
+Fermentation 2024, 10, x FOR PEER REVIEW
+
+7 of 16
+
+Fermentation 2024, 10, 179
+
+6 of 15
+
+Figure 1c indicates no substantial increase in lactic acid concentration in the group of
+pH 4.0, which merely reached 5.81 g COD/L at 18 d. Evidently, lactic acid fermentation in
+the
+was
+inhibited,
+whereas the
+acid concentration
+to increase
+at pH
+wasgroup
+greater
+than
+the consumption
+oflactic
+the soluble
+componentscontinued
+by microbes.
+The SCOD
+of
+5.0
+and
+pH
+6.0,
+reaching
+38.92
+g
+COD/L
+and
+46.70
+g
+COD/L
+at
+18
+d.
+The
+result
+was
+also
+in
+the group with a pH of 4.0 decreased to 46.67 g COD/L on the 10th day and then remained
+agreement
+with the
+ofof
+thethe
+degradation
+of soluble
+pH con-a
+stable. However,
+theresult
+SCOD
+other two test
+groupscarbohydrates.
+(pH 5.0 and pHThe
+6.0)lower
+maintained
+dition
+(pH
+4.0)
+apparently
+led
+to
+the
+accumulation
+of
+non-protonated
+fatty
+acids
+and
+furrelatively slow increase and reached a maximum of 61.63 g COD/L and 65.20 g COD/L,
+ther
+substantially
+undermined
+theSCOD
+metabolic
+pathways
+of the
+lactobacilli.
+ydrolysis
+and
+respectively,
+on the 17th
+day. The
+of the two
+groups
+(pH 5.0
+and pH 6.0)
+increased
+acidification
+werecompared
+presumably
+completely
+inhibited
+under
+condition,
+by 41%
+and 33%,
+with that
+of the group
+of pH
+4.0, the
+respectively.
+Theresulting
+increase in
+in
+lower
+lactic
+acid
+yields
+[45,46].
+Compared
+with
+that
+of
+the
+group
+at
+pH
+4.0,
+lactic
+acid
+yield
+SCOD at pH 5.0 and 6.0 proved that higher pH seemed to be more favourable for solids
+could
+be promoted
+at pH
+5.0 and pH
+6.0. The which
+group well
+at pH
+5.0 is with
+morethe
+economical
+in the
+dissolution
+during the
+fermentation
+processes,
+agreed
+results reported
+use
+of
+sodium
+hydroxide
+compared
+to
+pH
+6.0,
+and
+thus
+the
+subsequent
+pH
+conditions
+of
+by Tang et al. [43]. Acidic fermentation of food waste with an increase in pH was more
+the
+fermentation
+were defined
+as pH
+5.0.
+conducive
+to the tests
+solubilisation
+of food
+waste.
+
+Figure 1.
+1. (a)
+(a) SCOD,
+SCOD, (b)
+(b) soluble
+soluble carbohydrates,
+carbohydrates, and
+and (c)
+(c) lactic
+lactic acid
+acid under
+under different
+different pHs.
+pHs.
+Figure
+
+Figure 1b,
+the first
+3 days,
+an Fermentation
+increase in the
+3.1.2.In
+Variations
+of in
+Amino
+Acids
+during
+atcontent
+pH 5.0 of soluble carbohydrates
+under the three pH conditions was observed, indicating that the conversion of insoluble
+Commonly, amino acids are also key growth factors, just such as pyrimidines, pusubstances to soluble carbohydrates was seemingly greater than that of soluble carbohyrines,
+vitamins,
+which are
+essential
+for LAB
+reproduction
+[8,33].
+redratesand
+to small
+molecules.
+Then
+the content
+of growth
+soluble and
+carbohydrates
+began
+to The
+decline
+sults
+Section
+3.1.1 indicate
+that
+fermentation
+of food waste
+without exogenous
+inoculafromof
+day
+3 onwards,
+whereas
+the
+soluble carbohydrates
+concentration
+in the group
+of
+tion
+presented
+better
+LA
+yields
+at
+pH
+5.0.
+Thus,
+ionic
+amino
+acids
+were
+measured
+to unpH 4.0 remained almost unchanged after 5 days, which might be attributed to the severe
+derstand
+changes
+in aminobacteria
+acids during
+fermentation
+food of
+waste
+at pH
+inhibitorythe
+effects
+on acidogenic
+under the
+the condition.
+Theof
+groups
+pH 5.0
+and5.0.
+pH
+Figure
+2
+shows
+the
+changes
+of
+various
+soluble
+amino
+acids
+under
+pH
+5.0.
+Rich
+amino
+6.0 showed a continuous decrease in oluble carbohydrates content, down to 7.10 g/Lacid
+and
+species
+the original as
+FW,
+and aspartic
+acid (Asp),
+threonine
+(The), glutamic
+acid
+4.35 g/Lexisted
+at 18 d,inrespectively,
+higher
+pH seemingly
+alleviated
+acid inhibition
+and signifi(Glu),
+(Ala),
+cysteine
+(Cys),
+and The
+arginine
+(Arg) were
+the main
+of
+cantly alanine
+promoted
+bacterial
+activity
+[6,44].
+degradation
+rate of
+solublecomponents
+carbohydrates
+amino
+acids
+in
+the
+food
+waste.
+These
+six
+amino
+acids
+accounted
+for
+about
+85%
+of
+the
+total
+significantly increased with increasing pH, and higher pH at acidic conditions increased
+the reaction rate and shortened the fermentation period.
+
+Fermentation 2024, 10, 179
+
+7 of 15
+
+Figure 1c indicates no substantial increase in lactic acid concentration in the group of
+pH 4.0, which merely reached 5.81 g COD/L at 18 d. Evidently, lactic acid fermentation in
+the group was inhibited, whereas the lactic acid concentration continued to increase at pH
+5.0 and pH 6.0, reaching 38.92 g COD/L and 46.70 g COD/L at 18 d. The result was also
+in agreement with the result of the degradation of soluble carbohydrates. The lower pH
+condition (pH 4.0) apparently led to the accumulation of non-protonated fatty acids and
+further substantially undermined the metabolic pathways of the lactobacilli. Hydrolysis
+and acidification were presumably completely inhibited under the condition, resulting in
+lower lactic acid yields [45,46]. Compared with that of the group at pH 4.0, lactic acid yield
+could be promoted at pH 5.0 and pH 6.0. The group at pH 5.0 is more economical in the
+use of sodium hydroxide compared to pH 6.0, and thus the subsequent pH conditions of
+the fermentation tests were defined as pH 5.0.
+3.1.2. Variations of Amino Acids during Fermentation at pH 5.0
+Commonly, amino acids are also key growth factors, just such as pyrimidines, purines,
+and vitamins, which are essential for LAB growth and reproduction [8,33]. The results
+of Section 3.1.1 indicate that fermentation of food waste without exogenous inoculation
+presented better LA yields at pH 5.0. Thus, ionic amino acids were measured to understand
+the changes in amino acids during the fermentation of food waste at pH 5.0. Figure
+2 shows
+Fermentation 2024, 10, x FOR PEER REVIEW
+8 of 16
+the changes of various soluble amino acids under pH 5.0. Rich amino acid species existed
+in the original FW, and aspartic acid (Asp), threonine (The), glutamic acid (Glu), alanine
+(Ala), cysteine (Cys), and arginine (Arg) were the main components of amino acids in the
+amino
+acids.
+As These
+the fermentation
+proceeded,
+glutamic
+acid85%
+presented
+evident
+accumulafood
+waste.
+six amino acids
+accounted
+for about
+of the total
+amino
+acids. As the
+tion,fermentation
+increasing from
+the
+initial
+0.085
+g/L
+to
+0.287
+g/L,
+accounting
+for
+65%
+of
+the
+content ofrom
+proceeded, glutamic acid presented evident accumulation, increasing
+all amino
+acids,
+andg/L
+becoming
+theg/L,
+predominant
+acid
+thecontent
+end ofof
+fermentation.
+the initial
+0.085
+to 0.287
+accountingamino
+for 65%
+ofatthe
+all amino acids,
+The and
+degradation
+of the
+proteins in
+the food
+waste
+ledattothe
+theend of
+production of
+higher
+concentrabecoming
+predominant
+amino
+acid
+fermentation.
+The
+degradation
+tion of
+of proteins
+glutamate,
+andfood
+seemingly
+was
+difficult
+to be of a
+degraded
+by microbes
+in the
+in the
+waste it
+led
+to the
+production
+higher
+concentration
+ofgroup,
+glutamate,
+thusand
+leading
+to
+its
+accumulation.
+Notably,
+Glu
+and
+Ala
+were
+not
+only
+key
+cytoarchitectural
+seemingly it was difficult to be degraded by microbes in the group, thus leading to
+components
+and central
+metabolites
+but could
+be biosynthesised
+at a relatively lowcomponents
+energy
+its accumulation.
+Notably,
+Glu and
+Ala were
+not only key cytoarchitectural
+cost and
+[24,31].
+In addition,
+threonine
+declined
+from
+the initial
+g/L to low
+0.013energy
+g/L, and
+central
+metabolites
+but could
+be
+biosynthesised
+at a0.38
+relatively
+costcys[24,31].
+teineInwas
+quickly
+degradedeclined
+and utilised,
+while
+valine,
+iso-leucine,
+leucine,
+other was
+addition,
+threonine
+from the
+initial
+0.38 g/L to
+0.013 g/L,
+andand
+cysteine
+amino
+acids with
+low and
+initial
+contentwhile
+werevaline,
+quicklyiso-leucine,
+consumed and
+completely
+degraded.
+quickly
+degraded
+utilised,
+leucine, and
+other
+amino acids
+The with
+amino
+were
+presumably
+utilised
+by
+microorganisms
+fordegraded.
+conversion
+VFAs.acids
+lowacids
+initial
+content
+were quickly
+consumed
+and
+completely
+Thetoamino
+During
+fermentation,
+acids are for
+degraded
+into to
+smaller
+organic
+wereanaerobic
+presumably
+utilised byamino
+microorganisms
+conversion
+VFAs.
+Duringmatter,
+anaerobic
+fermentation,
+amino
+acids
+are
+degraded
+into
+smaller
+organic
+matter,
+such
+as
+VFAs.
+such as VFAs.
+
+Figure 2. Amino acids during fermentation at pH 5.0 (The full name of amino acids in the legend
+Figure 2. Amino acids during fermentation at pH 5.0 (The full name of amino acids in the legend
+is: Argnine (Arg); Lysine (Lys); Histidine (His); Phenylalanine (Phe); Tyrosine (Tyr); Leucine (Leu);
+is: Argnine (Arg); Lysine (Lys); Histidine (His); Phenylalanine (Phe); Tyrosine (Tyr); Leucine
+Isoleucine
+(Ile);
+Methionine
+(Met);
+Valine
+(Val);
+Cysteine
+(Cys);
+Alanine
+(Ala);
+Glycine
+(Gly);
+Glutamic
+(Leu);
+Isoleucine
+(Ile);
+Methionine
+(Met);
+Valine
+(Val);
+Cysteine
+(Cys);
+Alanine
+(Ala);
+Glycine
+(Gly);
+acid
+(Glu);
+Threonine
+(Thr);
+Aspartic
+acid
+(Asp)).
+Glutamic acid (Glu); Threonine (Thr); Aspartic acid (Asp)).
+
+3.2. Effects of Adding Different Amino Acids on Food Waste Fermentation
+Accordingly, cysteine, aspartic acid, glycine, and valine were selected as exogenously
+added amino acids, which were based on the changes in amino acid concentrations in food
+waste fermentation at pH 5.0 in this current study. A few studies showed that four amino
+
+Fermentation 2024, 10, 179
+
+8 of 15
+
+3.2. Effects of Adding Different Amino Acids on Food Waste Fermentation
+Accordingly, cysteine, aspartic acid, glycine, and valine were selected as exogenously
+added amino acids, which were based on the changes in amino acid concentrations in
+food waste fermentation at pH 5.0 in this current study. A few studies showed that
+four amino acids had special biological effects in anaerobic systems [28,34,47]. The effects
+of the four amino acids on lactic acid production from food waste fermentation were
+first explored. The effects of pH variations on amino acids can be ruled out by Figure S1.
+Figure 3 represents the ANOVA analysis of the results of the LA concentration every
+24 h and indicates Asp and Gly had no significant effects on lactic acid production at
+the same dose, compared to that of the control group (p > 0.05). The addition of Cys
+and Val presented distinctive effects on lactic acid production within the trials compared
+to that of the control group (p < 0.05). Therefore, the subsequent investigation mainly
+focused on how Cys and Val affected the fermentation of food waste. During anaerobic
+fermentation, amino acids were degraded from proteins, which were first hydrolysed
+proteases into peptides and amino acids [48]. Amino acids were then broken down in
+two main ways: (1) pairs of amino acids can be degraded by bacteria within the genus
+Clostridium (obligate anaerobes) via Stickland reaction. In the reactor, an amino acid
+Fermentation 2024, 10, x FOR PEER REVIEW
+9 of
+16
+acts as an electron donor, while another amino acid acts as an electron acceptor,
+offering
+cells approximately 0.5 moles of ATP per mole of amino acid transformed during the
+reaction [30]; (2) individual amino acids can also be fermented in processes that require
+the presence
+of hydrogen
+utilising
+bacteria. Commonly,
+the degradation
+of these
+conditions
+are organic
+compounds
+(short-chain
+and branched-chain
+organicproducts
+acids), amamino
+acids
+under
+anaerobic
+conditions
+are
+organic
+compounds
+(short-chain
+and
+branchedmonia, carbon dioxide, and small amounts of hydrogen and sulfur compounds [24,42].
+chain organic
+acids), acids
+ammonia,
+carbon
+dioxide, and
+small
+amounts of
+hydrogento
+and
+sulfur
+However,
+certain amino
+can also
+be degraded
+during
+anaerobic
+fermentation
+gencompounds
+[24,42].
+certain
+amino
+acidsadded
+can also
+be acids
+degraded
+during
+anaerobic
+erate lactic
+acid. Thus,
+toHowever,
+determine the
+impact
+of the
+amino
+on the
+lactic acid
+fermentation
+generate lactic
+acid. Thus,
+to determine
+impact
+of thedue
+added
+amino
+content
+due to its to
+conversion,
+the theoretical
+amount
+of lacticthe
+acid
+produced
+to the
+acids
+on
+the
+lactic
+acid
+content
+due
+to
+its
+conversion,
+the
+theoretical
+amount
+of
+lactic
+added amino acids was estimated. When all degraded AAs were converted to lactic acid,acid
+produced due
+to acid
+the added
+amino
+acids was
+estimated.
+Whenequation.
+all degraded
+the theoretical
+lactic
+yield was
+calculated
+using
+the reaction
+The AAs
+corre-were
+converted
+to
+lactic
+acid,
+the
+theoretical
+lactic
+acid
+yield
+was
+calculated
+using
+the
+reaction
+sponding theoretical lactic acid yields for the degradation of 1.00 g of Cys and Val were
+equation.
+The
+corresponding
+theoretical
+lactic
+acid
+yields
+for
+the
+degradation
+of
+1.00
+0.74 and 0.77 g, respectively (Equations (1)–(3)), which was negligible for lactic acid yield g of
+Cys and
+Valthe
+were
+0.74 and 0.77
+g, respectively (Equations (1)–(3)), which was negligible for
+compared
+with
+degradation
+of sugars.
+lactic acid yield compared with the degradation of sugars.
+Cys: C3H7NO2S+H2O→C3H4O3+H2S+NH3
+(1)
+Cys: C3 H7 NO2 S + H2 O → C3 H4 O3 + H2 S + NH3
+(1)
++
+C3H4O3+NADH+[H] →C3H6O3+[NAD ]
+(2)
+C3 H4 O3 + NADH + [H] → C3 H6 O3 + [NAD+ ]
+(2)
+
+Val:
+HNO
+11NO2+
++5H22O→C
+O63O
++NH
+3+2CO2+6H2
+Val:
+C5C
+H511
+O → 3CH36H
+2
+3 + NH3 + 2CO2 + 6H2
+
+(3) (3)
+
+Figure 3. Box plot of LA concentration every 24 h in five groups (Control, Cys, Asp, Gly, and Val).
+* p 3.
+< Box
+0.05.plot of LA concentration every 24 h in five groups (Control, Cys, Asp, Gly, and Val).
+Figure
+* p < 0.05.
+
+3.2.1. Effects of Different Amino Acids on Hydrolysis
+SCOD was the sum of soluble organic matter in the supernatant, and a higher SCOD
+indicated more potential fermentation substrate in the reactor and thereby provided more
+accessible pathways for microbes and enzymes to utilise [15]. Figure 4a shows the varia-
+
+Fermentation 2024, 10, 179
+
+9 of 15
+
+3.2.1. Effects of Different Amino Acids on Hydrolysis
+SCOD was the sum of soluble organic matter in the supernatant, and a higher SCOD
+indicated more potential fermentation substrate in the reactor and thereby provided more
+accessible pathways for microbes and enzymes to utilise [15]. Figure 4a shows the variation
+of SCOD with time for groups with additions of different amino acids. On day 1, there was
+a significant increase in SCOD for each group, which indicated that the insoluble solids
+in the reactor were gradually solubilised, and the increase of soluble matter can also be
+seen from the change in soluble carbohydrates content in Figure 4b. The subsequent SCOD
+remained nearly stable during the fermentation process, and that of the Control, Cys, and
+Val groups reached 58.93 g/L, 64.60 g/L, and 60.60 g/L, respectively. Based on the results
+of the ANOVA, the differences between the three groups of SCOD were also significant
+(p < 0.05). From the overall trend, the SCOD of the Cys and Val groups was higher than
+that of the control group. Figure 4c indicates that the soluble matter increased, and the
+hydrolysis rates of the three groups were 6.34%, 10.76%, and 6.23%, respectively. The
+Fermentation 2024, 10, x FOR PEER REVIEW
+10 of 16
+addition of cysteine presented a positive effect on the dissolution of insoluble solids from
+food waste.
+
+Figure 4. (a) SCOD, (b) soluble carbohydrates, and (c) hydrolysis rate for three groups (Control, Cys,
+and
+Val).
+Figure
+4. (a) SCOD, (b) soluble carbohydrates, and (c) hydrolysis rate for three groups (Control,
+Cys, and Val).
+
+Carbohydrates are more abundant components of food waste because they are commonly
+easier to degrade
+and utilise
+than components
+proteins andof
+lipids.
+carbohydrates
+be
+Carbohydrates
+are more
+abundant
+food Soluble
+waste because
+they arecan
+comhydrolysed
+to
+monosaccharides
+during
+hydrolysis.
+The
+degradation
+of
+monosaccharides
+monly easier to degrade and utilise than proteins and lipids. Soluble carbohydrates can
+usually
+proceeds
+than that ofduring
+amino hydrolysis.
+acids underThe
+anaerobic
+conditions
+[49]. From
+be
+hydrolysed
+to faster
+monosaccharides
+degradation
+of monosacchathe
+overall
+trend
+of
+soluble
+carbohydrates
+(Figure
+4b),
+the
+content
+of
+soluble
+carbohyrides usually proceeds faster than that of amino acids under anaerobic conditions
+[49].
+dratesthe
+in the
+Cystrend
+group
+almost
+completely(Figure
+consumed
+first 8
+whereas
+From
+overall
+of was
+soluble
+carbohydrates
+4b), in
+thethe
+content
+ofdays,
+soluble
+carboin the Control
+groups
+in the 12
+d the content
+still had
+7.05first
+g/L8 and
+g/L
+hydrates
+in theand
+Cys Val
+group
+was almost
+completely
+consumed
+in the
+days,12.00
+whereas
+in the Control and Val groups in the 12 d the content still had 7.05 g/L and 12.00 g/L unutilised, respectively, suggesting that the addition of Cys accelerated the utilisation of soluble carbohydrates and increased the rate of hydrolysis of carbohydrates in food waste.
+α-Glucosidase is a hydrolytic enzyme for the degradation of carbohydrates [42,43]. The αglucosidase activity of the groups of different amino acids at the first 5 days was analyzed,
+
+Fermentation 2024, 10, 179
+
+10 of 15
+
+unutilised, respectively, suggesting that the addition of Cys accelerated the utilisation
+of soluble carbohydrates and increased the rate of hydrolysis of carbohydrates in food
+waste. α-Glucosidase is a hydrolytic enzyme for the degradation of carbohydrates [42,43].
+The α-glucosidase activity of the groups of different amino acids at the first 5 days was
+analyzed, and the mean values of the α-glucosidase activity of different amino acid groups
+of the 5 days are listed in Table 4. Table 4 shows that the addition of cysteine increased
+the enzyme activity of α-glucosidase by 22% compared with that of the control group,
+which was consistent with the soluble carbohydrate content (Figure 4b). Pyruvate was
+an important metabolic intermediate, and monosaccharides can be converted to pyruvate
+and then utilised by microorganisms to produce lactic acid, and α-glucosidase played a
+crucial role in the degradation of soluble carbohydrates. Lactic acid production in food
+waste can reportedly be altered by modulating the activity of some key enzymes, such as
+α-glucosidase [42]. The content of soluble carbohydrates in the Val Group was lower than
+that of the Control Group, which suggests Val seemingly inhibited the hydrolysis of soluble
+carbohydrates. During degradation, valine could release more electrons and make the
+system more reductive (i.e., lower ORP) [34]. The ORP below zero is often referred to as an
+intermediate transition between an oxidative and reductive environment, which reportedly
+could affect the hydrolysis of proteins and carbohydrates in various substrates [50]. Figure
+S2 represents the changes in soluble protein, where all three groups first underwent a
+slight decrease in protein, and then the protein content increased to about 1.0 g/L. The
+differences between the three groups were not significant due to the low soluble protein
+content during fermentation.
+Table 4. Lactic acid yield, α-glucosidase, and lactate dehydrogenase activity of Control, Cys, and
+Val groups.
+
+α-glucosidase activity (U/g·VS)
+Lactic acid yield
+(g/g TS)
+lactate dehydrogenase activity
+(µmol/min/104 cell)
+
+Control
+
+Cys
+
+Val
+
+138.56 ± 2.9
+
+169.36 ± 2.4
+
+134.31 ± 2.4
+
+0.50 ± 0.04
+
+0.56 ± 0.04
+
+0.41 ± 0.08
+
+1.76 ± 0.08
+
+1.89 ± 0.05
+
+1.28 ± 0.13
+
+Note: α-glucosidase activity was the average of the previous five days, lactate dehydrogenase activity was
+measured on the 7th day.
+
+3.2.2. Effects of Different Amino Acids on Acidification
+During acidification, various organic acids, such as lactic acid and VFAs, were produced. Pyruvate produced by the metabolism of soluble carbohydrates and proteins can
+be converted to lactic acid under the action of lactate dehydrogenase (LDH). Figure 5a
+shows the changes of lactic acid after the addition of different amino acids. The maximum
+concentration of lactic acid was 50.34 g COD/L in the Cys group, reaching the maximum
+on the 7th day, and the lactic acid concentration in the Control and Val groups were 32.40 g
+COD/L and 26.56 g COD/L, respectively, on the 7th day. The yields of lactic acid in the
+Control and Val groups were significantly lower than those of the Cys group (Table 4),
+indicating the addition of cysteine not only promoted the production of lactic acid but also
+seemingly shortened the period of lactic acid fermentation. The trend of the LA concentration well agreed with the trend of soluble carbohydrate degradation in the Cys group.
+The addition of cysteine substantially promoted the conversion of soluble carbohydrates,
+and thus more monosaccharides were available in the Cys group in the early stage, which
+might be more potent for lactic acid production. The lactate dehydrogenase activity was
+analyzed on day 7 (Table 4), which demonstrated that the lactate dehydrogenase activity
+was the highest in the Cys group. However, the Val group presented a certain inhibitory
+effect on the lactate dehydrogenase, which suggested that the addition of cysteine likely
+improved the rate of degradation of soluble carbohydrates and enhanced the activity of
+α-glucosidase. In turn, the addition of cysteine presented a certain positive effect on the
+
+Fermentation 2024, 10, x FOR PEER REVIEW
+
+Fermentation 2024, 10, 179
+
+12 of 16
+
+15
+acid content was higher in the Val group, and valine reportedly could release more11 of
+electrons during degradation, making the niche of the group more reducing (lower ORP) and
+more favourable for the accumulation of VFAs [34]. Probably the added Val facilitated the
+activity
+of of
+lactate
+dehydrogenase,
+shortened
+productive
+lactic
+acid,inand
+conversion
+lactic acid to
+acetic acid,
+whichthe
+led to a
+higherperiod
+acetic of
+acid
+content
+thethus
+Val
+subsequently promoted lactic acid production.
+group.
+
+Figure 5.
+5. (a)
+(a) Lactic
+Lactic acid
+acid concentration
+concentration of three groups (Control, Cys, and Val); VFA concentration
+Figure
+concentration of
+of
+(b)
+Control,
+(c)
+Cys,
+(d)
+Val.
+(b) Control, (c) Cys, (d) Val.
+
+addition,
+the composition
+of VFAs varied among the groups with different amino
+3.2.3 In
+Microbial
+Community
+Analysis
+acids. Figure 5b–d show the changes in VFAs in the control group, Cys, and Val groups,
+In order to decipher the effects of additions of different amino acids on the microbial
+respectively. The two groups with the addition of amino acids presented much higher
+community, samples from days 6 and 12 of each reactor were collected and analysed (Figlevels of VFAs than the control group, and the dominant VFA species during fermentation
+ure 6). Figure 6b shows that Lactobacillus spp. was positively correlated with lactic acid
+in the three groups were acetic acid (HAc) and butyric acid (HBu), accompanied by a
+production. Lactic acid bacteria (LAB), such as Lactobacillus spp., have been reported to
+low concentration of propionic acid (HPr) throughout the entire fermentation period.
+exist at very low pH conditions and produce lactic acid at a pH of 4.0 [51]. Lactobacillus
+Butyric acid contents of three groups on day 2 were significantly higher, and perhaps
+spp. was the main contributor to the production of lactic acid, as it was evidently domithe microorganisms present in the food waste were more favourable for butyric acid
+nant in the whole process (Figure 6b). The most dominant genus in the raw food waste
+production at the beginning. However, as the fermentation proceeded, the dominant
+was the genus Weissella (45%), and Lactobacillus was not the most dominant microorganism
+microorganisms changed to be more favourable for lactic acid production. The final acetic
+in the raw food waste. However, during the fermentation over time, Lactobacillus domiacid content was higher in the Val group, and valine reportedly could release more electrons
+nated
+all three reactors,
+with
+increase
+84%, 95%,
+76% in(lower
+the control,
+Cys,more
+and
+duringindegradation,
+making
+thean
+niche
+of theofgroup
+moreand
+reducing
+ORP) and
+Val
+groups
+in
+the
+end.
+The
+changes
+in
+the
+relative
+abundance
+of
+Lactobacillus
+and
+the
+favourable for the accumulation of VFAs [34]. Probably the added Val facilitated enthe
+hanced
+lacticofacid
+yields
+also in
+good
+agreement.
+production
+was seemconversion
+lactic
+acidwere
+to acetic
+acid,
+which
+led to aButyric
+higheracid
+acetic
+acid content
+in the
+ingly
+related to Streptococcus, Lactococcus, Weissella, and Leuconostoc. These bacteria can
+Val group.
+produce other organic acids, such as acetic and butyric acids, from organic matter and also
+perform
+lactic acid
+fermentation
+in certain niches [52–54]. As shown in Figure 6a, on day
+3.2.3. Microbial
+Community
+Analysis
+In order to decipher the effects of additions of different amino acids on the microbial
+community, samples from days 6 and 12 of each reactor were collected and analysed
+(Figure 6). Figure 6b shows that Lactobacillus spp. was positively correlated with lactic acid
+
+Fermentation 2024, 10, 179
+
+12 of 15
+
+production. Lactic acid bacteria (LAB), such as Lactobacillus spp., have been reported to
+exist at very low pH conditions and produce lactic acid at a pH of 4.0 [51]. Lactobacillus
+spp. was the main contributor to the production of lactic acid, as it was evidently dominant
+in the whole process (Figure 6b). The most dominant genus in the raw food waste was
+the genus Weissella (45%), and Lactobacillus was not the most dominant microorganism in
+the raw food waste. However, during the fermentation over time, Lactobacillus dominated
+in all three reactors, with an increase of 84%, 95%, and 76% in the control, Cys, and Val
+groups in the end. The changes in the relative abundance of Lactobacillus and the enhanced
+lactic acid yields were also in good agreement. Butyric acid production was seemingly
+Fermentation 2024, 10, x FOR PEER REVIEW
+13 of 16
+related to Streptococcus, Lactococcus, Weissella, and Leuconostoc. These bacteria can produce
+other organic acids, such as acetic and butyric acids, from organic matter and also perform
+lactic acid fermentation in certain niches [52–54]. As shown in Figure 6a, on day 6, the
+6, the
+proportion
+of these
+bacteria
+the valine
+evidently
+higher
+thathe
+in
+proportion
+of these
+bacteria in
+thein
+valine
+groupgroup
+was was
+evidently
+higher
+than than
+that in
+the
+control
+group.
+The
+percentage
+in
+the
+group
+with
+cysteine
+was
+evidently
+lower
+than
+control group. The percentage in the group with cysteine was evidently lower than that
+that
+the control
+group,
+which
+consistent
+with
+organicacid
+acidcontent
+contentofofthe
+the three
+three
+in
+theincontrol
+group,
+which
+waswas
+consistent
+with
+thethe
+organic
+groups,
+implying
+that
+cysteine
+and
+valine
+affected
+the
+distribution
+of
+microbial
+species
+in
+groups, implying that cysteine and valine affected the distribution of microbial species in
+the reactors.
+reactors. Amino
+Amino acids in anaerobic
+anaerobic media
+media can
+can affect
+affect microbial
+microbial growth
+growth as
+as inhibitory
+inhibitory or
+or
+the
+stimulatorycompounds
+compounds[45].
+[45].Thus,
+Thus,the
+theincrease
+increaseininthe
+the
+rate
+lactic
+acid
+production
+stimulatory
+rate
+of of
+lactic
+acid
+production
+duedue
+to
+to
+addition
+cysteine
+valine
+might
+related
+function
+in the
+metathethe
+addition
+of of
+cysteine
+andand
+valine
+might
+be be
+related
+to to
+theirtheir
+function
+in the
+basicbasic
+metabolic
+bolic
+pathways.
+revealed
+the
+selectivity of
+microorganisms
+in and
+bioreactors
+pathways.
+These These
+results results
+revealed the
+selectivity
+of
+microorganisms
+in bioreactors
+food
+and
+as a suitable
+substrate
+lactic acid
+fermentation.
+Furthermore,
+the addiwastefood
+as awaste
+suitable
+substrate for
+lacticfor
+acid
+fermentation.
+Furthermore,
+the addition
+of
+tion
+of to
+cysteine
+fermentation
+foodcould
+waste could
+increase the
+abundance
+of
+Lactocysteine
+the to the
+fermentation
+of foodof
+waste
+increase the
+abundance
+of
+Lactobacillus
+and
+thusand
+promote
+production
+of
+lactic of
+acid.
+bacillus
+thus the
+promote
+the
+production
+lactic acid.
+
+Figure 6. (a) The relative abundance at the genus level of microbial communities of the groups
+Figure 6. (a) The relative abundance at the genus level of microbial communities of the groups
+Control,
+Val, and
+and (b)
+(b) aaheat
+heatmap
+mapofofthe
+thecorrelation
+correlationbetween
+betweenmicrobial
+microbial
+communities
+and
+Control, Cys,
+Cys, and
+and Val,
+communities
+and
+fermentation
+products.
+fermentation products.
+
+4. Conclusions
+4. Conclusions
+The present study demonstrated that higher LA concentrations (38.92–46.7 g/L) were
+The present study demonstrated that higher LA concentrations (38.92–46.7 g/L) were
+obtained at pH 5.0 and pH 6.0, implying higher substrate degradation rates compared with
+obtained at pH 5.0 and pH 6.0, implying higher substrate degradation rates compared
+those at pH 4.0. Different amino acids presented distinctive effects on the production of
+with those
+at pHfood
+4.0. waste.
+Different
+amino promoted
+acids presented
+distinctive
+effects and
+on the
+production
+lactic
+acid from
+Cysteine
+substrate
+solubilisation
+carbohydrate
+of
+lactic
+acid
+from
+food
+waste.
+Cysteine
+promoted
+substrate
+solubilisation
+and
+carbohydegradation and subsequently facilitated lactic acid production, in which enhanced
+key
+drate
+degradation
+and
+subsequently
+facilitated
+lactic
+acid
+production,
+in
+which
+enhanced
+enzyme (LDH) activity and enriched Lactobacillus played an essential role during the
+key enzyme phase.
+(LDH) However,
+activity and
+enriched
+Lactobacillus
+played
+an essentialofrole
+during the
+acidification
+valine
+evidently
+inhibited
+the degradation
+carbohydrate
+acidification
+phase.
+However,
+valine
+evidently
+inhibited
+the
+degradation
+of
+carbohydrate
+due to the mitigated α-glucosidase activity, limited the reduction of available pyruvate
+due
+to the
+mitigated
+α-glucosidase
+activity, lactic
+limited
+theproduction.
+reduction ofThis
+available
+in
+in
+cells,
+and
+thus subsequently
+suppressed
+acid
+studypyruvate
+examined
+cells,
+and
+thus
+subsequently
+suppressed
+lactic
+acid
+production.
+This
+study
+examined
+inin-depth the mechanisms and significance of pH regulation and the addition of amino
+depthinthe
+mechanisms
+and significance
+of waste.
+pH regulation
+and thethis
+addition
+ofstudy
+aminooffers
+acids
+acids
+lactic
+acid production
+from food
+Furthermore,
+current
+production
+from
+food
+waste.
+Furthermore,
+offers a
+feasible
+ain lactic
+feasibleacid
+way to
+improve
+lactic
+acid
+production
+from this
+foodcurrent
+waste.study
+Using
+cysteine-rich
+way
+to
+improve
+lactic acid
+production
+waste. Using
+cysteine-rich
+substrates
+is
+substrates
+is
+worth
+exploring for
+lacticfrom
+acidfood
+fermentation
+instead of
+pure amino
+acids.
+worth exploring for lactic acid fermentation instead of pure amino acids. In addition, attention should be paid to the production of amino acids as intermediate products of anaerobic fermentation in future studies. Different amino acids can have distinctive biological functions, which should be diligently explored in order to efficiently regulate anaerobic digestion through the addition of specific AAs.
+
+Fermentation 2024, 10, 179
+
+13 of 15
+
+In addition, attention should be paid to the production of amino acids as intermediate
+products of anaerobic fermentation in future studies. Different amino acids can have
+distinctive biological functions, which should be diligently explored in order to efficiently
+regulate anaerobic digestion through the addition of specific AAs.
+Supplementary Materials: The following supporting information can be downloaded at: https://www.
+mdpi.com/article/10.3390/fermentation10040179/s1, Figure S1: Variations of pH in the reactors with
+pH adjustment every 12 h; Figure S2: Soluble protein for three groups (Control, Cys, and Val).
+Author Contributions: Methodology, Data curation, Writing—original draft, Investigation, Y.Z.;
+Funding acquisition, Conceptualization, Writing—review and editing, X.Z. and H.L.; Methodology,
+Formal analysis, Y.W. All authors have read and agreed to the published version of the manuscript.
+Funding: This research was funded by Taihu Talent Program—Innovative Individual (2022) and
+“Shuang Chuang Doctoral Talent” of Jiangsu Province (2022) (NO. JSSCBS20221049).
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: All data generated or analyzed during this study are included in this
+published article.
+Conflicts of Interest: The authors declare no conflicts of interest.
+
+References
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+
+10.
+11.
+
+12.
+13.
+14.
+
+15.
+16.
+
+Zhang, W.; Li, X.; He, Y.; Xu, X.; Chen, H.; Zhang, A.; Liu, Y.; Xue, G.; Makinia, J. Ammonia amendment promotes high rate
+lactate production and recovery from semi-continuous food waste fermentation. Bioresour. Technol. 2020, 302, 122881. [CrossRef]
+Zhou, M.M.; Yan, B.H.; Wong, J.W.C.; Zhang, Y. Enhanced volatile fatty acids production from anaerobic fermentation of food
+waste: A mini-review focusing on acidogenic metabolic pathways. Bioresour. Technol. 2018, 248, 68–78. [CrossRef]
+Wang, Q.; Feng, K.; Li, H. Nano iron materials enhance food waste fermentation. Bioresour. Technol. 2020, 315, 123804. [CrossRef]
+[PubMed]
+De Groof, V.; Coma, M.; Arnot, T.; Leak, D.J.; Lanham, A.B. Selecting fermentation products for food waste valorisation with HRT
+and OLR as the key operational parameters. Waste Manag. 2021, 127, 80–89. [CrossRef] [PubMed]
+Wirasembada, Y.C.; Shin, B.; Shin, J.; Kurniawan, A.; Cho, J. Effects of sudden shock load on simultaneous biohythane production
+in two-stage anerobic digestion of high-strength organic wastewater. Bioresour. Technol. 2024, 394, 130186. [CrossRef]
+Tang, J.L.; Wang, X.C.; Hu, Y.S.; Zhang, Y.M.; Li, Y.Y. Lactic acid fermentation from food waste with indigenous microbiota: Effects
+of pH, temperature and high OLR. Waste Manag. 2016, 52, 278–285. [CrossRef] [PubMed]
+Bian, C.L.; Chen, X.Y.; Wang, J.; Xiao, B.Y.; Liu, R.Z.; Li, L.; Liu, J.G. Simultaneous biohythane and volatile fatty acids production
+from food waste in microbial electrolysis cell-assisted acidogenic reactor. J. Clean. Prod. 2023, 420, 138370. [CrossRef]
+Sunhoon, K.; Pyung, C.L.; Eun, G.L.; Yong, K.C.; Nam, C. Production of lactic acid by Lactobacillusrhamnosus with vitaminsupplemented soybean hydrolysate. Enzym. Microb. Technol. 2000, 26, 209–215.
+Daly, S.E.; Usack, J.G.; Harroff, L.A.; Booth, J.G.; Keleman, M.P.; Angenent, L.T. Systematic Analysis of Factors That Affect
+Food-Waste Storage: Toward Maximizing Lactate Accumulation for Resource Recovery. ACS Sustain. Chem. Eng. 2020, 8,
+13934–13944. [CrossRef]
+Ma, X.; Gao, M.; Li, C.; Wang, N.; Wang, Q.; Sun, X.; Ma, X. Effects of different lignocellulosic wastes on alleviating acidification
+of L-lactic acid production from food waste fermentation. Bioresour. Technol. 2021, 342, 126043. [CrossRef]
+Ye, T.; Li, X.; Zhang, T.; Su, Y.; Zhang, W.; Li, J.; Gan, Y.; Zhang, A.; Liu, Y.; Xue, G. Copper (II) addition to accelerate lactic acid
+production from co-fermentation of food waste and waste activated sludge: Understanding of the corresponding metabolisms,
+microbial community and predictive functional profiling. Waste Manag. 2018, 76, 414–422. [CrossRef] [PubMed]
+Gu, X.X.; Cui, M.; Wang, B.; Zhang, C.H.; Zhu, Y.L.; Jin, X.; Wang, R.; Zhang, X.Q. Electrospun Environment-Friendly Poly
+(L-Lactic Acid)/CO2 -Based Polyurea Nanofiber Film for Piezoelectric Sensor. Adv. Sustain. Syst. 2023, 7, 2200441. [CrossRef]
+Xu, X.; Zhang, W.; Gu, X.; Guo, Z.; Song, J.; Zhu, D.; Liu, Y.; Liu, Y.; Xue, G.; Makinia, J. Stabilizing lactate production through
+repeated batch fermentation of food waste and waste activated sludge. Bioresour. Technol. 2020, 300, 122709. [CrossRef] [PubMed]
+Bao, X.Y.; Feng, H.R.; Guo, G.; Huo, W.J.; Li, Q.H.; Xu, Q.F.; Liu, Q.; Wang, C.; Chen, L. Effects of laccase and lactic acid bacteria on
+the fermentation quality, nutrient composition, enzymatic hydrolysis, and bacterial community of alfalfa silage. Front. Microbiol.
+2022, 13, 1035942. [CrossRef] [PubMed]
+Feng, K.; Li, H.; Zheng, C.Z. Shifting product spectrum by pH adjustment during long-term continuous anaerobic fermentation
+of food waste. Bioresour. Technol. 2018, 270, 180–188. [CrossRef] [PubMed]
+Yue, L.; Chuan, S.; Wu, Y.Y.; Han, D.; Li, K.; Ma, J.Y. Effect of pH dynamic control on ethanol-lactic type fermentation (ELTF)
+performance of glucose. Environ. Technol. 2022, 43, 4102–4114. [CrossRef]
+
+Fermentation 2024, 10, 179
+
+17.
+18.
+19.
+
+20.
+21.
+
+22.
+
+23.
+24.
+25.
+
+26.
+27.
+28.
+
+29.
+30.
+31.
+32.
+
+33.
+34.
+35.
+
+36.
+
+37.
+38.
+39.
+40.
+41.
+42.
+
+14 of 15
+
+Wu, Y.Y.; Ma, H.L.; Zheng, M.Y.; Wang, K.J. Lactic acid production from acidogenic fermentation of fruit and vegetable wastes.
+Bioresour. Technol. 2015, 191, 53–58. [CrossRef] [PubMed]
+Kim, S.; Kim, J.C.; Kim, Y.Y.; Yang, J.E.; Lee, H.M.; Hwang, I.M.; Park, H.W.; Kim, H.M. Utilization of coffee waste as a sustainable
+feedstock for high-yield lactic acid production through microbial fermentation. Sci. Total Environ. 2024, 912, 169521. [CrossRef]
+Liu, S.; Wang, Q.H.; Li, Y.; Zhu, W.B.; Wang, N.H.; Sun, H.S.; Gao, M.; Ma, X.Y. Highly efficient oriented bioconversion of food
+waste to lactic acid in an open system: Microbial community analysis and biological carbon fixation evaluation. Bioresour. Technol.
+2023, 370, 128398. [CrossRef]
+Yang, L.; Chen, L.; Li, H.; Deng, Z.; Liu, J. Lactic acid production from mesophilic and thermophilic fermentation of food waste at
+different pH. J. Environ. Manag. 2022, 304, 114312. [CrossRef]
+Bonk, F.; Bastidas, O.J.R.; Yousef, A.F.; Schmidt, J.E.; Bonk, F. Exploring the selective lactic acid production from food waste
+in uncontrolled pH mixed culture fermentations using different reactor configurations. Bioresour. Technol. 2017, 238, 416–424.
+[CrossRef] [PubMed]
+Montecchio, D.; Gazzola, G.; Gallipoli, A.; Gianico, A.; Braguglia, C.M. Medium chain Fatty acids production from Food Waste
+via homolactic fermentation and lactate/ethanol elongation: Electron balance and thermodynamic assessment. Waste Manag.
+2024, 177, 289–297. [CrossRef] [PubMed]
+Zhang, Y.Y.; Bai, J.Z.; Zuo, J.E. Performance and mechanisms of medium-chain fatty acid production by anaerobic fermentation of
+food waste without external electron donors. Bioresour. Technol. 2023, 374, 128735. [CrossRef] [PubMed]
+Du, J.; Yin, Q.D.; Zhou, X.Z.; Guo, Q.N.; Wu, G.X. Distribution of extracellular amino acids and their potential functions in
+microbial cross-feeding in anaerobic digestion systems. Bioresour. Technol. 2022, 360, 127535. [CrossRef] [PubMed]
+Liu, H.; Xu, H.T.; Ma, C.W.; Zhu, Z.H.; Xu, T.C.; Guo, Y.L.; Ye, J.F. Review on the intermediate amino acids and their enantiomers
+during the anaerobic digestion: The distribution, biofunctions and mechanisms. Rev. Environ. Sci. Bio-Technol. 2022, 21, 469–482.
+[CrossRef]
+Helmstetter, F.; Arnold, P.; Höger, B.; Petersen, L.M.; Beitz, E. Formate-nitrite transporters carrying nonprotonatable amide amino
+acids instead of a central histidine maintain pH-dependent transport. J. Biol. Chem. 2019, 294, 623–631. [CrossRef]
+Liu, H.; Chen, Y.G. Enhanced Methane Production from Food Waste Using Cysteine To Increase Biotransformation of LMonosaccharide, Volatile Fatty Acids, and Biohydrogen. Environ. Sci. Technol. 2018, 52, 3777–3785. [CrossRef] [PubMed]
+Wang, M.; Zhang, X.; Huang, H.; Qin, Z.; Liu, C.; Chen, Y. Amino Acid Configuration Affects Volatile Fatty Acid Production
+during Proteinaceous Waste Valorization: Chemotaxis, Quorum Sensing, and Metabolism. Environ. Sci. Technol. 2022, 56,
+8702–8711. [CrossRef]
+Reggiani, R.; Bertani, A. Anaerobic amino acid metabolism. Russ. J. Plant Physiol. 2003, 50, 733–736. [CrossRef]
+Ramsay, I.R.; Pullammanappallil, P.C. Protein degradation during anaerobic wastewater treatment: Derivation of stoichiometry.
+Biodegradation 2001, 12, 247–257. [CrossRef]
+Chen, S.S.; Dong, B.; Dai, X.H.; Wang, H.Y.; Li, N.; Yang, D.H. Effects of thermal hydrolysis on the metabolism of amino acids in
+sewage sludge in anaerobic digestion. Waste Manag. 2019, 88, 309–318. [CrossRef]
+Yekta, S.S.; Elreedy, A.; Liu, T.; Hedenström, M.; Isaksson, S.; Fujii, M.; Schnürer, A. Influence of cysteine, serine, sulfate, and
+sulfide on anaerobic conversion of unsaturated long-chain fatty acid, oleate, to methane. Sci. Total Environ. 2022, 817, 152967.
+[CrossRef]
+Song, L.; Yang, D.; Liu, R.; Liu, S.; Dai, X. The dissolution of polysaccharides and amino acids enhanced lactic acid production
+from household food waste during pretreatment process. Sci. Total Environ. 2023, 864, 161068. [CrossRef]
+Chen, B.Y.; Rupani, P.F.; Azman, S.; Dewil, R.; Appels, L. A redox-based strategy to enhance propionic and butyric acid production
+during anaerobic fermentation. Bioresour. Technol. 2022, 361, 127672. [CrossRef]
+Masihi, F.; Rezaeitavabe, F.; Karimi-Jashni, A.; Riefler, G. Optimization and enhancement of biohydrogen production in a
+single-stage hybrid (dark/photo) fermentation reactor using Fe3 O4 and TiO2 nanoparticles. Int. J. Hydrogen Energy 2024, 52,
+295–305. [CrossRef]
+Chenebault, C.; Moscoviz, R.; Trably, E.; Escudié, R.; Percheron, B. Lactic acid production from food waste using a microbial
+consortium: Focus on key parameters for process upscaling and fermentation residues valorization. Bioresour. Technol. 2022,
+354, 127230. [CrossRef]
+Gonçalves, M.J.; González-Fernández, C.; Greses, S. Long hydraulic retention time mediates stable volatile fatty acids production
+against slight pH oscillations. Waste Manag. 2024, 176, 140–148. [CrossRef]
+Tang, J.L.; Yang, H.; Pu, Y.H.; Hu, Y.S.; Huang, J.; Jin, N.; He, X.R.; Wang, X.C. Caproic acid production from food waste using
+indigenous microbiota: Performance and mechanisms. Bioresour. Technol. 2023, 387, 129687. [CrossRef]
+Wang, Q.; Yang, L.; Feng, K.; Li, H.; Deng, Z.; Liu, J. Promote lactic acid production from food waste fermentation using biogas
+slurry recirculation. Bioresour. Technol. 2021, 337, 125393. [CrossRef]
+AHPA. Standard Methods for the Examination of Water and Wastewater; American Public Health Association: Washington, DC,
+USA, 1998.
+Lowry, O.; Rosebrough, N.; Farr, A.L.; Randall, R. Protein Measurement with the Folin Phenol Reagent. J. Biol. Chem. 1951, 193,
+265–275. [CrossRef]
+Goel, R.; Mino, T.; Satoh, H.; Matsuo, T. Enzyme activities under anaerobic and aerobic conditions inactivated sludge sequencing
+batch reactor. Water Res. 1998, 32, 2081–2088. [CrossRef]
+
+Fermentation 2024, 10, 179
+
+43.
+44.
+
+45.
+46.
+47.
+48.
+49.
+
+50.
+51.
+52.
+53.
+54.
+
+15 of 15
+
+Tang, J.; Wang, X.C.; Hu, Y.; Zhang, Y.; Li, Y. Effect of pH on lactic acid production from acidogenic fermentation of food waste
+with different types of inocula. Bioresour. Technol. 2017, 224, 544–552. [CrossRef]
+Wu, Q.L.; Guo, W.Q.; Zheng, H.S.; Chao, L.H.; Chi, F.X.; Li, Y.R.; Ren, N.Q. Enhancement of volatile fatty acid production
+by co-fermentation of food waste and excess sludge without pH control: The mechanism and microbial community analyses.
+Bioresour. Technol. 2016, 216, 653–660. [CrossRef]
+Aljundi, I.H.; Belovich, J.M.; Talu, O. Adsorption of lactic acid from fermentation broth and aqueous solutions on Zeolite
+molecular sieves. Chem. Eng. Sci. 2005, 60, 5004–5009. [CrossRef]
+Dalie, D.K.D.; Deschamps, A.M.; Richard-Forget, F. Lactic acid bacteria—Potential for control of mould growth and mycotoxins:
+A review. Food Control 2010, 21, 370–380. [CrossRef]
+Liu, H.; Chen, Y.; Ye, J.; Xu, H.; Zhu, Z.; Xu, T. Effects of different amino acids and their configurations on methane yield and
+biotransformation of intermediate metabolites during anaerobic digestion. J. Environ. Manag. 2021, 296, 113152. [CrossRef]
+Hassan, M.A.; Abol-Fotouh, D.; Omer, A.M.; Tamer, T.M.; Abbas, E. Comprehensive insights into microbial keratinases and their
+implication in various biotechnological and industrial sectors: A review. Int. J. Biol. Macromol. 2020, 154, 567–583. [CrossRef]
+Xia, A.; Cheng, J.; Ding, L.K.; Lin, R.C.; Song, W.L.; Su, H.B.; Zhou, J.H.; Cen, K.F. Substrate consumption and hydrogen
+production via co-fermentation of monomers derived from carbohydrates and proteins in biomass wastes. Appl. Energy 2015, 139,
+9–16. [CrossRef]
+Nguyen, D.; Khanal, S.K. A little breath of fresh air into an anaerobic system: How microaeration facilitates anaerobic digestion
+process. Biotechnol. Adv. 2018, 36, 1971–1983. [CrossRef]
+Itoh, Y.; Tada, K.; Kanno, T.; Horiuchi, J.I. Selective production of lactic acid in continuous anaerobic acidogenesis by extremely
+low pH operation. J. Biosci. Bioeng. 2012, 114, 537–539. [CrossRef]
+Park, B.H.; Kim, I.S.; Park, J.K.; Zhi, Z.; Lee, H.M.; Kwon, O.W.; Lee, B.C. Probiotic effect of Lactococcus lactis subsp. cremoris
+RPG-HL-0136 on intestinal mucosal immunity in mice. Appl. Biol. Chem. 2021, 64, 1–9.
+Yu, H.S.; Jang, H.J.; Lee, N.K.; Paik, H.D. Evaluation of the probiotic characteristics and prophylactic potential of Weissella cibaria
+strains isolated from kimchi. LWT-Food Sci. Technol. 2019, 112, 108229. [CrossRef]
+Cai, Y.M.; Benno, Y.; Ogawa, M.; Ohmomo, S.; Kumai, S.; Nakase, T. Influence of Lactobacillus spp. from an inoculant and of
+Weissella and Leuconostoc spp. from forage crops on silage fermentation. Appl. Environ. Microbiol. 1998, 64, 2982–2987. [CrossRef]
+[PubMed]
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+
