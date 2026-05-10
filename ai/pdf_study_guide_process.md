@@ -1,58 +1,44 @@
 # PDF Processing and Verification Workflow
 
-This document outlines the standard operating procedure for verifying the integrity of generated Markdown course materials against the source PDF lectures.
+This document outlines the standard operating procedure for generating or verifying course materials from PDF lectures using image extraction.
 
 ## Goal
-To ensure that the Markdown notes accurately and completely reflect the content of the source PDF slides, including code examples, syntax, and key concepts.
+To synthesize accurate Markdown study guides or verify notes by processing PDF slides as high-fidelity images.
 
 ## Procedure
 
 ### 1. Preparation
-1.  **Identify Target Files**: Locate the source PDF(s) and the corresponding Markdown file.
-2.  **Create Temp Directory**: Ensure `_temp` exists.
-3. Check for the `split_pdfs_script.py` and `.venv`.
+1.  **Identify Target Files**: Locate source PDF(s) in `_pdf/`.
+2.  **Create Image Directory**: Create a temporary directory (e.g., `_temp_images/`) for processing.
 
-### 2. PDF Splitting and Compression
-Split large PDFs into smaller chunks (default: 5 pages) using Python, then use Ghostscript to aggressively compress them for optimal token usage.
-
-**Step A: Split PDFs**
-Use the provided Python script (`split_pdfs_script.py`) to split the source PDF into chunks.
-
+### 2. Image Extraction
+Convert PDF pages to JPEG images for direct visual analysis by the agent. This bypasses text extraction issues and layout distortions.
 
 **Execution:**
-`./venv/bin/python3 split_pdfs_script.py "_materials/TARGET_MODULE/Lecture"`
-
-**Step B: Compress Output**
-Run the following command to compress the split files in `_temp` using Ghostscript. This significantly reduces file size (lowering quality) to ensure they fit within context windows.
-
 ```bash
-for f in _temp/*.pdf; do 
-    gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen -dNOPAUSE -dQUIET -dBATCH -sOutputFile="${f}_temp" "$f" && mv "${f}_temp" "$f"
-done
+pdftoppm -jpeg -r 150 source_lecture.pdf _temp_images/page
 ```
+*Note: `-r 150` provides sufficient resolution while keeping file sizes manageable.*
 
-### 3. Iterative Analysis and Verification
-**CRITICAL**: Process split files sequentially. 
+### 3. Iterative Batch Analysis
+**CRITICAL**: Process images in batches of 5 to maintain context and ensure comprehensive synthesis.
 
 **Step-by-Step Loop:**
-1.  **Read Baseline**: Read the existing Markdown file to establish context (`read_file`).
-2.  **Read Split PDF**: Read **ONE** split PDF file (e.g., `Part_1.pdf`) using `read_file`.
-3.  **Analyze & Compare**:
-    -   **Describe Slides**: Briefly describe the content of each slide found in the PDF part (e.g., "Slide 1: Title...", "Slide 2: Syntax for...").
-    -   **Cross-Reference**: Compare these observations with the corresponding Markdown sections.
-    -   **Checklist**: Verify headers, code syntax/accuracy, diagrams, and exercises.
-    -   **Note Discrepancies**: Log any missing content, errors, or typos.
-4.  **Repeat**: Move to the next split PDF.
+1.  **Batch Load**: Read **5** consecutive page images (e.g., `page-01.jpg` to `page-05.jpg`) using `read_file`.
+2.  **Analyze & Synthesize**:
+    -   **Extract Content**: Identify headers, key concepts, formulas, and code snippets.
+    -   **Structure**: Format content into Markdown, preserving hierarchical relationships found on slides.
+    -   **Cross-Reference (if verifying)**: Compare image content against existing Markdown and note discrepancies.
+3.  **Repeat**: Move to the next batch of 5 images until the lecture is complete.
 
-### 4. Reporting
--   Summarize findings.
--   Highlight specific missing sections.
--   Propose specific edits to the Markdown file.
+### 4. Final Review
+-   Combine batch outputs into a single cohesive Markdown file.
+-   Ensure consistent formatting and check for missing transitions between batches.
+-   Add WikiLinks to related materials.
 
 ### 5. Cleanup
--   Remove the `_temp` directory when finished.
--   DO NOT remove the `split_pdfs_script.py`
+-   Remove the `_temp_images/` directory when finished.
 
 ---
 **Instruction to Agent:**
-Follow this procedure for material verification. Ensure the splitting script is used to generate optimized, compressed chunks.
+Follow this procedure for study guide generation or verification. Use `pdftoppm` to extract images and process them in batches of 5. Do not use split PDF scripts or Ghostscript.
