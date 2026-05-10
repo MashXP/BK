@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the primary definition of 'Sterilization' in the context of fermentation?",
+    "options": [
+      "The process of cleaning the exterior of the fermenter vessel",
+      "The elimination of biological contamination (bacteria, yeast, fungi, bacteriophage)",
+      "The dilution of the medium to reduce microbial concentration",
+      "The addition of antibiotics to the fermentation broth"
+    ],
+    "answer": "The elimination of biological contamination (bacteria, yeast, fungi, bacteriophage)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What are the three main parts of the industrial fermentation processes covered in Chapter 6?",
+    "options": [
+      "Inoculation, Fermentation, Harvesting",
+      "Media formulation, Sterilization, Product extraction",
+      "Sterilization, Recovery, and Purification",
+      "Upstream, Midstream, and Downstream processing"
+    ],
+    "answer": "Sterilization, Recovery, and Purification",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which reaction is a common cause of nutrient quality loss and growth inhibition during heat sterilization?",
+    "options": [
+      "Haber process",
+      "Maillard-type browning reaction",
+      "Saponification",
+      "Polymerization of sugars"
+    ],
+    "answer": "Maillard-type browning reaction",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the standard regime for moist heat (steam) sterilization in a laboratory autoclave?",
+    "options": [
+      "100°C for 60 minutes",
+      "121°C for 15-20 minutes",
+      "150°C for 5 minutes",
+      "180°C for 2 hours"
+    ],
+    "answer": "121°C for 15-20 minutes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The '3 NOs' rules to prevent contamination include: NO remaining, NO entering, and:",
+    "options": [
+      "NO cooling",
+      "NO spreading",
+      "NO sampling",
+      "NO mixing"
+    ],
+    "answer": "NO spreading",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is the most common target for Microfiltration (MF)?",
+    "options": [
+      "Proteins",
+      "Ions and salts",
+      "Bacteria",
+      "Viruses"
+    ],
+    "answer": "Bacteria",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What percentage range of total manufacturing costs can recovery (Downstream Processing) typically account for?",
+    "options": [
+      "1% to 5%",
+      "15% to 70%",
+      "80% to 95%",
+      "Less than 10%"
+    ],
+    "answer": "15% to 70%",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary objective of adding flocculating agents during recovery?",
+    "options": [
+      "To kill the microorganisms",
+      "To increase particle size for easier clarification",
+      "To change the color of the product",
+      "To adjust the pH of the broth"
+    ],
+    "answer": "To increase particle size for easier clarification",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In chromatography, which technique separates molecules based primarily on their size?",
+    "options": [
+      "Affinity Chromatography",
+      "Ion-Exchange Chromatography",
+      "Gel Permeation (Gel Filtration)",
+      "Reverse Phase Chromatography"
+    ],
+    "answer": "Gel Permeation (Gel Filtration)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is generally the final stage in the purification of fermentation products?",
+    "options": [
+      "Centrifugation",
+      "Cell disruption",
+      "Drying",
+      "Flocculation"
+    ],
+    "answer": "Drying",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a disadvantage of Dry Heat sterilization?",
+    "options": [
+      "High energy consumption",
+      "Complex handling procedures",
+      "Very slow compared to filtration",
+      "Produces toxic chemical residues"
+    ],
+    "answer": "High energy consumption",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is agitation critical during the sterilization of a medium inside a large-scale fermenter?",
+    "options": [
+      "To prevent the medium from foaming",
+      "To ensure uniform heat distribution throughout the vessel",
+      "To speed up the cooling process only",
+      "To break down large nutrient molecules before heating"
+    ],
+    "answer": "To ensure uniform heat distribution throughout the vessel",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which mechanism of air filtration involves extremely small particles colliding with filter molecules due to Brownian motion?",
+    "options": [
+      "Inertial Impaction",
+      "Diffusion",
+      "Electrostatic Attraction",
+      "Interception"
+    ],
+    "answer": "Diffusion",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a key difference between a Surface Filter and a Depth Filter?",
+    "options": [
+      "Surface filters have pores larger than the particles they remove",
+      "Depth filters rely primarily on physical blocking of larger particles",
+      "Surface filters lead to 'cake' formation on the filter surface",
+      "Depth filters are only used for gas sterilization"
+    ],
+    "answer": "Surface filters lead to 'cake' formation on the filter surface",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which path is taken in Downstream Processing if the desired product is intracellular?",
+    "options": [
+      "Solid-Liquid Separation \u2192 Supernatant \u2192 Recovery",
+      "Solid-Liquid Separation \u2192 Cell disruption \u2192 Cell debris removal \u2192 Recovery",
+      "Fermenter \u2192 Distillation \u2192 Drying",
+      "Fermenter \u2192 Flocculation \u2192 Supernatant \u2192 Recovery"
+    ],
+    "answer": "Solid-Liquid Separation \u2192 Cell disruption \u2192 Cell debris removal \u2192 Recovery",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which material is a common biological flocculating agent used to bridge negatively charged particles?",
+    "options": [
+      "Iron (III) chloride",
+      "Aluminum sulfate",
+      "Chitosan",
+      "Sodium dodecyl sulfate"
+    ],
+    "answer": "Chitosan",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which type of centrifuge rotor is characterized by high separation efficiency but forms a pellet along the wall that can be hard to recover?",
+    "options": [
+      "Swinging-Bucket",
+      "Fixed-Angle",
+      "Vertical Tube",
+      "Continuous Flow"
+    ],
+    "answer": "Fixed-Angle",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary structural component of the inner cell wall of yeast and fungi that must be addressed during disruption?",
+    "options": [
+      "Peptidoglycan",
+      "Cellulose",
+      "Chitin and \u03b2-glucans",
+      "Lipopolysaccharide"
+    ],
+    "answer": "Chitin and \u03b2-glucans",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does a High Pressure Homogenizer achieve cell disruption?",
+    "options": [
+      "By using shock waves from cavitation",
+      "By liquid shear forces as the suspension is forced through a valve",
+      "By physical grinding with glass beads",
+      "By chemical dissolution of the lipid membrane"
+    ],
+    "answer": "By liquid shear forces as the suspension is forced through a valve",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In Gel Permeation Chromatography, which molecules elute from the column first?",
+    "options": [
+      "The smallest molecules because they move faster",
+      "The largest molecules because they are excluded from the gel matrix",
+      "Molecules with the highest positive charge",
+      "Molecules with the highest solubility in the buffer"
+    ],
+    "answer": "The largest molecules because they are excluded from the gel matrix",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Ion-exchange resins are typically eluted by sequentially washing with buffers of increasing:",
+    "options": [
+      "Temperature or Pressure",
+      "Ionic strength or pH",
+      "Viscosity or Density",
+      "Concentration of detergents"
+    ],
+    "answer": "Ionic strength or pH",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Ultrafiltration (UF) is primarily used for the separation of which components?",
+    "options": [
+      "Ions and small salts",
+      "Macromolecules like proteins, enzymes, and hormones",
+      "Whole bacterial cells only",
+      "Sand and large debris"
+    ],
+    "answer": "Macromolecules like proteins, enzymes, and hormones",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the main application of Reverse Osmosis in the beverage industry mentioned in the text?",
+    "options": [
+      "Adding carbonation to soft drinks",
+      "Removing alcohol to produce non-alcoholic wine",
+      "Filtering out yeast after fermentation",
+      "Sterilizing the water used for brewing"
+    ],
+    "answer": "Removing alcohol to produce non-alcoholic wine",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is a Spray Dryer considered suitable for heat-sensitive biological materials despite using high inlet temperatures (150-250\u00b0C)?",
+    "options": [
+      "The material is pre-cooled to 0\u00b0C",
+      "The residence time in the high-heat zone is extremely short (\u223c0.01 s)",
+      "The material is protected by a layer of inert gas",
+      "The heat is only applied to the container, not the product"
+    ],
+    "answer": "The residence time in the high-heat zone is extremely short (\u223c0.01 s)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT a consequence of foreign microorganisms in a fermentation process?",
+    "options": [
+      "Loss of productivity due to competition for nutrients",
+      "Interference with downstream extraction",
+      "Increase in the concentration of the desired product",
+      "Degradation of the product by contaminant enzymes"
+    ],
+    "answer": "Increase in the concentration of the desired product",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which method of sterilization is specifically mandatory for exhaust air in processes using recombinant organisms?",
+    "options": [
+      "Chemical treatment with formaldehyde",
+      "Filtration using hydrophobic membranes",
+      "UV radiation",
+      "Boiling at 100\u00b0C"
+    ],
+    "answer": "Filtration using hydrophobic membranes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What happens to the specific death rate (k) during heat sterilization?",
+    "options": [
+      "It remains constant regardless of temperature",
+      "It decreases as the temperature increases",
+      "It depends on the species and its physiological state",
+      "It is always the same for all bacteria"
+    ],
+    "answer": "It depends on the species and its physiological state",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which filtration technique involves flow parallel to the membrane, reducing cake buildup and improving productivity?",
+    "options": [
+      "Dead-end Filtration",
+      "Cross-flow/Tangential Flow Filtration (TFF)",
+      "Surface Filtration",
+      "Gravity Filtration"
+    ],
+    "answer": "Cross-flow/Tangential Flow Filtration (TFF)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The destruction of microorganisms by heat follows which type of kinetics?",
+    "options": [
+      "Zero-order kinetics",
+      "First-order kinetics",
+      "Second-order kinetics",
+      "Michaelis-Menten kinetics"
+    ],
+    "answer": "First-order kinetics",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which chemical detergent is described as 'anionic' and used to disorganize biological membranes for cell disruption?",
+    "options": [
+      "Triton X-100",
+      "SDS (Sodium Dodecyl Sulfate)",
+      "Formaldehyde",
+      "Chitosan"
+    ],
+    "answer": "SDS (Sodium Dodecyl Sulfate)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "According to the table provided, how much glucose remains if it is sterilized at 121\u00b0C for 60 minutes?",
+    "options": [
+      "64%",
+      "46%",
+      "35%",
+      "10%"
+    ],
+    "answer": "35%",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does MWCO stand for in the context of membrane processes?",
+    "options": [
+      "Maximum Water Capacity Output",
+      "Molecular Weight Cut-Off",
+      "Microbial Waste Control Operation",
+      "Minimum Weight Concentration Order"
+    ],
+    "answer": "Molecular Weight Cut-Off",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why might centrifugation be preferred over filtration for solid-liquid separation despite being more expensive?",
+    "options": [
+      "It always uses less power",
+      "It is easier to use at home",
+      "It is suitable for cases where high hygiene standards are required",
+      "It works better for extremely large particles"
+    ],
+    "answer": "It is suitable for cases where high hygiene standards are required",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Comparing the bursting forces required for cell disruption, which statement is true?",
+    "options": [
+      "E. coli requires a much higher force than A. niger",
+      "A. niger requires a much higher force (250-550 \u03bcN) than E. coli (1-9 \u03bcN)",
+      "Both require exactly the same force",
+      "Bacteria generally require more force than fungi"
+    ],
+    "answer": "A. niger requires a much higher force (250-550 \u03bcN) than E. coli (1-9 \u03bcN)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which mechanism of air filtration occurs because particles cannot follow the rapid changes in direction of the fluid around filter fibers?",
+    "options": [
+      "Diffusion",
+      "Electrostatic Attraction",
+      "Inertial Impaction",
+      "Interception"
+    ],
+    "answer": "Inertial Impaction",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzyme would be most appropriate for the biological disruption of yeast cell walls?",
+    "options": [
+      "Glycosidases",
+      "Glucanases/Chitinase",
+      "Cellulases",
+      "Amylases"
+    ],
+    "answer": "Glucanases/Chitinase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the continuous flow system for liquid waste sterilization, what is the final step before disposal?",
+    "options": [
+      "Steam Injection",
+      "Cooling",
+      "Neutralization (pH 7.0)",
+      "Heat Exchange"
+    ],
+    "answer": "Neutralization (pH 7.0)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A particle retention range of 0.001 to 0.01 \u03bcm is characteristic of which filtration type?",
+    "options": [
+      "Microfiltration (MF)",
+      "Ultrafiltration (UF)",
+      "Nanofiltration (NF)",
+      "Reverse Osmosis (RO)"
+    ],
+    "answer": "Nanofiltration (NF)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary role of the 'cyclone separator' in a spray drying system?",
+    "options": [
+      "To atomize the liquid into droplets",
+      "To heat the inlet air",
+      "To discharge the dried product from the air stream",
+      "To cool the exhaust air"
+    ],
+    "answer": "To discharge the dried product from the air stream",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which technique is specifically used to concentrate a vaccine up to 10-fold?",
+    "options": [
+      "Dead-end filtration",
+      "Gel Permeation Chromatography",
+      "Bead milling",
+      "Dry heat sterilization"
+    ],
+    "answer": "Gel Permeation Chromatography",
+    "shuffleOptions": true
+  }
+]
