@@ -1,0 +1,442 @@
+[
+  {
+    "question": "In a classic Mendelian monohybrid cross (Yellow x Green), what is the expected phenotypic ratio in the F2 generation under complete dominance?",
+    "options": [
+      "1:2:1",
+      "3:1",
+      "9:3:3:1",
+      "1:1"
+    ],
+    "answer": "3:1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which type of inheritance occurs when the heterozygote displays a phenotype that is intermediate between the two homozygotes?",
+    "options": [
+      "Complete Dominance",
+      "Codominance",
+      "Incomplete Dominance",
+      "Epistasis"
+    ],
+    "answer": "Incomplete Dominance",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the expected F2 phenotypic ratio for a trait following incomplete dominance?",
+    "options": [
+      "3:1",
+      "1:2:1",
+      "9:7",
+      "15:1"
+    ],
+    "answer": "1:2:1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The AB blood type in humans, where both A and B antigens are equally expressed on red blood cells, is an example of:",
+    "options": [
+      "Incomplete Dominance",
+      "Codominance",
+      "Pleiotropy",
+      "Polygenic inheritance"
+    ],
+    "answer": "Codominance",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What term is used to describe a single gene that affects multiple, seemingly unrelated phenotypic traits?",
+    "options": [
+      "Epistasis",
+      "Pleiotropy",
+      "Collaboration",
+      "Polygenic"
+    ],
+    "answer": "Pleiotropy",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a complementary gene interaction, what is the expected F2 phenotypic ratio?",
+    "options": [
+      "9:3:3:1",
+      "9:7",
+      "13:3",
+      "12:3:1"
+    ],
+    "answer": "9:7",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which F2 phenotypic ratio is characteristic of a 'Collaboration' or 'New Phenotypes' interaction involving two non-allelic genes?",
+    "options": [
+      "9:3:3:1",
+      "9:6:1",
+      "9:7",
+      "15:1"
+    ],
+    "answer": "9:3:3:1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the F2 phenotypic ratio for an additive interaction with a cumulative effect (e.g., flattened vs round vs elongated fruit)?",
+    "options": [
+      "9:3:3:1",
+      "9:6:1",
+      "12:3:1",
+      "9:7"
+    ],
+    "answer": "9:6:1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What term refers to a gene interaction where one gene masks or suppresses the expression of another gene at a different locus?",
+    "options": [
+      "Pleiotropy",
+      "Epistasis",
+      "Incomplete Dominance",
+      "Collaboration"
+    ],
+    "answer": "Epistasis",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In dominant suppression, what is the characteristic F2 phenotypic ratio?",
+    "options": [
+      "12:3:1",
+      "13:3",
+      "9:3:4",
+      "9:7"
+    ],
+    "answer": "13:3",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following describes the genotypes that would produce a 'White' phenotype in a 13:3 dominant suppression scenario?",
+    "options": [
+      "C_ii only",
+      "Any genotype containing the suppressor allele (I)",
+      "aabb only",
+      "aaB_ only"
+    ],
+    "answer": "Any genotype containing the suppressor allele (I)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the expected F2 phenotypic ratio in dominant epistasis?",
+    "options": [
+      "9:3:3:1",
+      "12:3:1",
+      "9:3:4",
+      "15:1"
+    ],
+    "answer": "12:3:1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In recessive epistasis (e.g., coat color in Labrador retrievers), what is the characteristic F2 phenotypic ratio?",
+    "options": [
+      "9:7",
+      "9:3:4",
+      "13:3",
+      "12:3:1"
+    ],
+    "answer": "9:3:4",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If a cross between a red flower and a white flower produces all pink flowers in the F1, and then pink x pink produces 1 red : 2 pink : 1 white, the trait is controlled by:",
+    "options": [
+      "Complete dominance",
+      "Incomplete dominance",
+      "Recessive epistasis",
+      "Codominance"
+    ],
+    "answer": "Incomplete dominance",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A cross between a Walnut comb chicken (A_B_) and a Single comb chicken (aabb) produces Walnut, Rose, Pea, and Single comb offspring in the F2 in a 9:3:3:1 ratio. This is an example of:",
+    "options": [
+      "Dominant suppression",
+      "Collaboration (New Phenotypes)",
+      "Complementary interaction",
+      "Recessive epistasis"
+    ],
+    "answer": "Collaboration (New Phenotypes)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a 9:7 complementary interaction, the 'aa' or 'bb' homozygous recessive condition at either locus results in:",
+    "options": [
+      "A new phenotype distinct from either parent",
+      "The masking of the dominant phenotype at the other locus",
+      "A lethal condition",
+      "Increased expression of both genes"
+    ],
+    "answer": "The masking of the dominant phenotype at the other locus",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which interaction involves the cumulative number of dominant alleles affecting the intensity of the phenotype?",
+    "options": [
+      "Dominant epistasis",
+      "Additive effect (cumulative effect)",
+      "Pleiotropy",
+      "Codominance"
+    ],
+    "answer": "Additive effect (cumulative effect)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the hypostatic gene in an epistatic interaction?",
+    "options": [
+      "The gene that does the masking",
+      "The gene whose expression is masked or suppressed",
+      "The gene with the dominant allele",
+      "The gene on the sex chromosome"
+    ],
+    "answer": "The gene whose expression is masked or suppressed",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a 9:3:4 recessive epistasis ratio, which genotype corresponds to the '4' part of the ratio?",
+    "options": [
+      "A_B_",
+      "aaB_ and aabb",
+      "A_bb",
+      "Only aabb"
+    ],
+    "answer": "aaB_ and aabb",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What genotype would result in a 'Rose' comb in the 9:3:3:1 chicken comb collaboration experiment?",
+    "options": [
+      "A_B_",
+      "A_bb",
+      "aaB_",
+      "aabb"
+    ],
+    "answer": "A_bb",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Polygenic inheritance often results in a phenotype that shows:",
+    "options": [
+      "Distinct, discrete categories",
+      "Continuous variation in the population",
+      "Only one possible outcome",
+      "No variation at all"
+    ],
+    "answer": "Continuous variation in the population",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the 9:6:1 additive interaction for fruit shape, which genotypes result in a 'Round' shape?",
+    "options": [
+      "A_B_",
+      "A_bb and aaB_",
+      "aabb",
+      "Only A_bb"
+    ],
+    "answer": "A_bb and aaB_",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The term 'Allele' refers to:",
+    "options": [
+      "The location of a gene on a chromosome",
+      "Different versions or variants of the same gene",
+      "A group of linked genes",
+      "The protein product of a gene"
+    ],
+    "answer": "Different versions or variants of the same gene",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Mendel's 'Law of Segregation' states that:",
+    "options": [
+      "Genes on different chromosomes sort independently",
+      "The two alleles for a trait separate during gamete formation",
+      "Dominant alleles are always more common",
+      "Mutations occur randomly"
+    ],
+    "answer": "The two alleles for a trait separate during gamete formation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Mendel's 'Law of Independent Assortment' applies to genes that are:",
+    "options": [
+      "Located very close together on the same chromosome",
+      "Located on different chromosomes or far apart on the same chromosome",
+      "Only found in males",
+      "Only found in mitochondria"
+    ],
+    "answer": "Located on different chromosomes or far apart on the same chromosome",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A homozygous organism has:",
+    "options": [
+      "Two different alleles for a specific gene",
+      "Two identical alleles for a specific gene",
+      "Only one copy of a gene",
+      "Three copies of every chromosome"
+    ],
+    "answer": "Two identical alleles for a specific gene",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A heterozygous organism (Aa) carrying a completely dominant allele 'A' will have the same phenotype as which genotype?",
+    "options": [
+      "aa",
+      "AA",
+      "Both AA and aa",
+      "Neither AA nor aa"
+    ],
+    "answer": "AA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Phenotype' of an organism refers to its:",
+    "options": [
+      "Genetic makeup",
+      "Observable physical or biochemical characteristics",
+      "Number of chromosomes",
+      "Speed of DNA replication"
+    ],
+    "answer": "Observable physical or biochemical characteristics",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a 12:3:1 dominant epistasis ratio, the '12' is formed by the genotypes:",
+    "options": [
+      "rryy",
+      "R_ _ _ (including R_Y_ and R_yy)",
+      "rrY_",
+      "A_B_"
+    ],
+    "answer": "R_ _ _ (including R_Y_ and R_yy)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a classic example of pleiotropy in humans?",
+    "options": [
+      "ABO blood groups",
+      "Sickle cell anemia (one gene mutation affecting multiple systems)",
+      "Eye color",
+      "Height"
+    ],
+    "answer": "Sickle cell anemia (one gene mutation affecting multiple systems)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If two genes show a 9:7 ratio in the F2, we can conclude that:",
+    "options": [
+      "The genes are linked",
+      "The genes are alleles of each other",
+      "Both genes must be dominant for the trait to be expressed",
+      "One gene is dominant over the other"
+    ],
+    "answer": "Both genes must be dominant for the trait to be expressed",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The Punnett square is a tool used to:",
+    "options": [
+      "Measure the rate of mutation",
+      "Predict the possible genotypes and phenotypes of offspring",
+      "Sequence DNA",
+      "Separate proteins by size"
+    ],
+    "answer": "Predict the possible genotypes and phenotypes of offspring",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the expected phenotypic ratio of a test cross involving a dihybrid (AaBb x aabb) assuming independent assortment?",
+    "options": [
+      "9:3:3:1",
+      "1:1:1:1",
+      "3:1",
+      "1:1"
+    ],
+    "answer": "1:1:1:1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a 9:3:3:1 ratio, the '9' represents the proportion of offspring that are:",
+    "options": [
+      "Homozygous recessive for both genes",
+      "Dominant for both traits (A_B_)",
+      "Dominant for the first trait and recessive for the second",
+      "Heterozygous for both genes only"
+    ],
+    "answer": "Dominant for both traits (A_B_)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which interaction results in a 'Walnut' comb in chickens?",
+    "options": [
+      "Complementary",
+      "Collaboration between two dominant alleles (A and B)",
+      "Dominant suppression",
+      "Recessive epistasis"
+    ],
+    "answer": "Collaboration between two dominant alleles (A and B)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Dominant suppression (13:3) is also known as:",
+    "options": [
+      "Inhibitory gene interaction",
+      "Duplicate dominant epistasis",
+      "Cumulative interaction",
+      "Intermediate inheritance"
+    ],
+    "answer": "Inhibitory gene interaction",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If you cross a homozygous dominant (AA) with a homozygous recessive (aa), the F1 generation will be:",
+    "options": [
+      "100% homozygous dominant",
+      "100% heterozygous",
+      "50% homozygous, 50% heterozygous",
+      "100% homozygous recessive"
+    ],
+    "answer": "100% heterozygous",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The term 'Locus' refers to:",
+    "options": [
+      "A type of insect",
+      "The specific position of a gene on a chromosome",
+      "The end of a chromosome",
+      "A cluster of ribosomes"
+    ],
+    "answer": "The specific position of a gene on a chromosome",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Polygenic inheritance is often called:",
+    "options": [
+      "Monogenic inheritance",
+      "Quantitative inheritance",
+      "Mendelian inheritance",
+      "Epistatic inheritance"
+    ],
+    "answer": "Quantitative inheritance",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following ratios is NOT a modified Mendelian dihybrid ratio?",
+    "options": [
+      "9:7",
+      "12:3:1",
+      "3:1",
+      "13:3"
+    ],
+    "answer": "3:1",
+    "shuffleOptions": true
+  }
+]

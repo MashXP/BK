@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the primary effect of self-fertilization on the genetic structure of a population over multiple generations?",
+    "options": [
+      "Increase in heterozygosity",
+      "Decrease in heterozygosity by half each generation",
+      "Constant allele frequencies with no change in genotypes",
+      "Loss of all dominant alleles"
+    ],
+    "answer": "Decrease in heterozygosity by half each generation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "For a self-fertilizing population starting with 100% Aa, what is the expected ratio of Aa individuals at generation 'n'?",
+    "options": [
+      "2^n",
+      "2",
+      "(2^n - 1)",
+      "1/2"
+    ],
+    "answer": "2",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the self-fertilization model $(2^n - 1) AA : 2 Aa : (2^n - 1) aa$, what happens as 'n' approaches infinity?",
+    "options": [
+      "The population becomes entirely heterozygous",
+      "The population approaches pure homozygosity",
+      "The allele frequencies of A and a change significantly",
+      "The population goes extinct"
+    ],
+    "answer": "The population approaches pure homozygosity",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The Hardy-Weinberg Principle describes the relationship between allele and genotype frequencies in which type of population?",
+    "options": [
+      "Small, isolated populations",
+      "Large, randomly mating populations",
+      "Self-fertilizing plant populations",
+      "Highly mutated bacterial cultures"
+    ],
+    "answer": "Large, randomly mating populations",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the Hardy-Weinberg equation $p^2 + 2pq + q^2 = 1$, what does $p^2$ represent?",
+    "options": [
+      "Frequency of the dominant allele",
+      "Frequency of the homozygous dominant genotype (AA)",
+      "Frequency of the heterozygous genotype (Aa)",
+      "Frequency of the homozygous recessive genotype (aa)"
+    ],
+    "answer": "Frequency of the homozygous dominant genotype (AA)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the Hardy-Weinberg equation, $2pq$ represents the frequency of which genotype?",
+    "options": [
+      "Homozygous dominant",
+      "Homozygous recessive",
+      "Heterozygous",
+      "Wild-type"
+    ],
+    "answer": "Heterozygous",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If $p$ is the frequency of allele A and $q$ is the frequency of allele a, which of the following is ALWAYS true in a two-allele system?",
+    "options": [
+      "p = q",
+      "p + q = 1",
+      "p^2 = q^2",
+      "2pq = 1"
+    ],
+    "answer": "p + q = 1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT a required condition for Hardy-Weinberg Equilibrium?",
+    "options": [
+      "No natural selection",
+      "No mutations",
+      "Large population size",
+      "Frequent migration (gene flow)"
+    ],
+    "answer": "Frequent migration (gene flow)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Genetic drift has the most significant impact on which type of population?",
+    "options": [
+      "Very large populations",
+      "Small populations",
+      "Populations in H-W equilibrium",
+      "Infinite populations"
+    ],
+    "answer": "Small populations",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Random mating means that:",
+    "options": [
+      "Individuals choose mates based on specific traits",
+      "The probability of any two individuals mating is independent of their genotypes",
+      "Only individuals with dominant alleles can reproduce",
+      "Mating only occurs within the same family"
+    ],
+    "answer": "The probability of any two individuals mating is independent of their genotypes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which statistical test is commonly used to determine if observed genotype frequencies significantly deviate from Hardy-Weinberg expectations?",
+    "options": [
+      "T-test",
+      "ANOVA",
+      "Chi-square (χ2) test",
+      "Linear regression"
+    ],
+    "answer": "Chi-square (χ2) test",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a population in Hardy-Weinberg equilibrium, if the frequency of allele 'a' (q) is 0.3, what is the frequency of the 'Aa' genotype?",
+    "options": [
+      "0.09",
+      "0.42",
+      "0.49",
+      "0.7"
+    ],
+    "answer": "0.42",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If the frequency of the homozygous recessive genotype (aa) is 0.16, what is the frequency of the recessive allele 'a' (q) assuming H-W equilibrium?",
+    "options": [
+      "0.04",
+      "0.16",
+      "0.4",
+      "0.84"
+    ],
+    "answer": "0.4",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does 'gene flow' refer to in population genetics?",
+    "options": [
+      "The movement of genes within a single chromosome",
+      "The movement of alleles between different populations (migration)",
+      "The loss of alleles due to random sampling",
+      "The change in allele frequency due to natural selection"
+    ],
+    "answer": "The movement of alleles between different populations (migration)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which condition for H-W equilibrium ensures that no new alleles are added to the gene pool?",
+    "options": [
+      "Random mating",
+      "No mutation",
+      "Large population size",
+      "No selection"
+    ],
+    "answer": "No mutation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Natural selection violates Hardy-Weinberg equilibrium because it:",
+    "options": [
+      "Increases the mutation rate",
+      "Favors certain genotypes over others, changing allele frequencies",
+      "Causes the population to shrink to a small size",
+      "Forces individuals to mate with relatives"
+    ],
+    "answer": "Favors certain genotypes over others, changing allele frequencies",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A population is found to have genotype frequencies: AA=0.25, Aa=0.50, aa=0.25. Is this population in Hardy-Weinberg equilibrium?",
+    "options": [
+      "Yes",
+      "No",
+      "Cannot be determined without allele frequencies",
+      "Only if it is a small population"
+    ],
+    "answer": "Yes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The sum of all alleles in a population is called the:",
+    "options": [
+      "Genotype",
+      "Phenotype",
+      "Gene pool",
+      "Genome"
+    ],
+    "answer": "Gene pool",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a self-fertilizing population, if the frequency of Aa is 0.5 at generation 1, what will it be at generation 2?",
+    "options": [
+      "0.5",
+      "0.25",
+      "0.125",
+      "0.75"
+    ],
+    "answer": "0.25",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following describes the ratio of AA to Aa to aa in the 3rd generation (n=3) of a self-fertilizing population starting with 100% Aa?",
+    "options": [
+      "1:2:1",
+      "3:2:3",
+      "7:2:7",
+      "15:2:15"
+    ],
+    "answer": "7:2:7",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The Hardy-Weinberg Principle serves as a 'null hypothesis' in evolutionary biology. What does this mean?",
+    "options": [
+      "It describes what happens when evolution is occurring rapidly",
+      "It describes what happens to allele frequencies when NO evolution is occurring",
+      "It is always proven wrong in nature",
+      "It only applies to bacteria"
+    ],
+    "answer": "It describes what happens to allele frequencies when NO evolution is occurring",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If a population's observed genotype frequencies differ significantly from H-W expectations, we can conclude that:",
+    "options": [
+      "The population is very large",
+      "One or more evolutionary forces (selection, drift, etc.) are acting on the population",
+      "The population is in equilibrium",
+      "Random mating is occurring"
+    ],
+    "answer": "One or more evolutionary forces (selection, drift, etc.) are acting on the population",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a cause of genetic drift?",
+    "options": [
+      "The bottleneck effect",
+      "Selective advantage of heterozygotes",
+      "High mutation rate",
+      "Constant migration"
+    ],
+    "answer": "The bottleneck effect",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In H-W equilibrium, if $p = 1$, then:",
+    "options": [
+      "The population is 100% Aa",
+      "The allele 'a' has been lost (q = 0)",
+      "The population is 50% AA and 50% aa",
+      "Evolution is occurring"
+    ],
+    "answer": "The allele 'a' has been lost (q = 0)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The term 'Allele Frequency' refers to:",
+    "options": [
+      "The number of individuals with a certain phenotype",
+      "The proportion of a specific allele relative to the total number of alleles for that gene in the gene pool",
+      "The number of genes on a chromosome",
+      "The rate of DNA replication"
+    ],
+    "answer": "The proportion of a specific allele relative to the total number of alleles for that gene in the gene pool",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a population with two alleles, if p = 0.6, what is q?",
+    "options": [
+      "0.6",
+      "0.4",
+      "0.36",
+      "0.16"
+    ],
+    "answer": "0.4",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is an example of non-random mating?",
+    "options": [
+      "Inbreeding",
+      "Assortative mating (choosing similar mates)",
+      "Self-fertilization",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "shuffleOptions": false
+  },
+  {
+    "question": "The Chi-square test compares:",
+    "options": [
+      "Two different species",
+      "Observed values with expected (theoretical) values",
+      "Mean and standard deviation",
+      "RNA and DNA levels"
+    ],
+    "answer": "Observed values with expected (theoretical) values",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If a population has 36% AA, 48% Aa, and 16% aa individuals, what are the frequencies of alleles A and a?",
+    "options": [
+      "p=0.36, q=0.16",
+      "p=0.6, q=0.4",
+      "p=0.5, q=0.5",
+      "p=0.8, q=0.2"
+    ],
+    "answer": "p=0.6, q=0.4",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Microevolution is defined as:",
+    "options": [
+      "The origin of new species",
+      "A change in allele frequencies within a population over time",
+      "The extinction of a population",
+      "The movement of organelles within a cell"
+    ],
+    "answer": "A change in allele frequencies within a population over time",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Self-fertilization leads to a change in ________ frequencies but not necessarily ________ frequencies (in the absence of selection).",
+    "options": [
+      "Genotype; allele",
+      "Allele; genotype",
+      "Phenotype; Genotype",
+      "DNA; RNA"
+    ],
+    "answer": "Genotype; allele",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the degree of freedom typically used for a H-W Chi-square test with two alleles and three genotypes?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "answer": "1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The Hardy-Weinberg Principle is named after:",
+    "options": [
+      "Two English biologists",
+      "An English mathematician and a German physician",
+      "A single researcher with a hyphenated name",
+      "A university in the US"
+    ],
+    "answer": "An English mathematician and a German physician",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Genetic drift is caused by:",
+    "options": [
+      "Natural selection",
+      "Random sampling error in small populations",
+      "Mutations in the germline",
+      "Migration into a population"
+    ],
+    "answer": "Random sampling error in small populations",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Founder Effect' is a type of:",
+    "options": [
+      "Natural selection",
+      "Genetic drift",
+      "Mutation",
+      "Gene flow"
+    ],
+    "answer": "Genetic drift",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the self-fertilization model $(2^n-1)AA : 2Aa : (2^n-1)aa$, if n=2, the genotype ratio is:",
+    "options": [
+      "1:2:1",
+      "3:2:3",
+      "7:2:7",
+      "15:2:15"
+    ],
+    "answer": "3:2:3",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If a population has p = 0.5, what is the maximum possible frequency of heterozygotes in H-W equilibrium?",
+    "options": [
+      "0.25",
+      "0.5",
+      "0.75",
+      "1.0"
+    ],
+    "answer": "0.5",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which evolutionary force is the ultimate source of all genetic variation?",
+    "options": [
+      "Genetic drift",
+      "Natural selection",
+      "Mutation",
+      "Gene flow"
+    ],
+    "answer": "Mutation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In H-W equilibrium, genotype frequencies are determined solely by:",
+    "options": [
+      "Mutation rate",
+      "Allele frequencies",
+      "Population size",
+      "The environment"
+    ],
+    "answer": "Allele frequencies",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Hardy-Weinberg equilibrium is a state where ________ does NOT occur.",
+    "options": [
+      "Reproduction",
+      "Evolution",
+      "Metabolism",
+      "Mitosis"
+    ],
+    "answer": "Evolution",
+    "shuffleOptions": true
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "question": "Which of the following is the correct general pathway for secretory proteins?",
+    "options": [
+      "Cytosol -> Golgi -> ER -> Plasma Membrane",
+      "Cytosol -> ER -> Golgi -> Plasma Membrane/Secreted",
+      "Nucleus -> ER -> Golgi -> Lysosome",
+      "Golgi -> ER -> Cytosol -> Mitochondria"
+    ],
+    "answer": "Cytosol -> ER -> Golgi -> Plasma Membrane/Secreted",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Proteins destined for the ER typically contain which of the following?",
+    "options": [
+      "Nuclear localization signal (NLS)",
+      "An N-terminal Signal Sequence",
+      "A poly-A tail",
+      "A 5' Cap"
+    ],
+    "answer": "An N-terminal Signal Sequence",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which complexes are responsible for transporting proteins across mitochondrial membranes?",
+    "options": [
+      "TIM and TOM complexes",
+      "mTORC1 and mTORC2",
+      "E1 and E2 enzymes",
+      "Nuclear pores"
+    ],
+    "answer": "TIM and TOM complexes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary function of TIM complexes?",
+    "options": [
+      "Transport across the outer mitochondrial membrane",
+      "Transport across the inner mitochondrial membrane",
+      "Attaching ubiquitin to proteins",
+      "Forming peptide bonds"
+    ],
+    "answer": "Transport across the inner mitochondrial membrane",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Glycosylation primarily occurs in which two organelles?",
+    "options": [
+      "Nucleus and Ribosome",
+      "ER and Golgi",
+      "Mitochondria and Lysosome",
+      "Cytosol and Plasma Membrane"
+    ],
+    "answer": "ER and Golgi",
+    "shuffleOptions": true
+  },
+  {
+    "question": "N-linked glycosylation involves the addition of a sugar moiety to which amino acid residue?",
+    "options": [
+      "Serine (Ser)",
+      "Threonine (Thr)",
+      "Asparagine (Asn)",
+      "Lysine (Lys)"
+    ],
+    "answer": "Asparagine (Asn)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzyme is responsible for the formation and rearrangement of disulfide bonds in the ER?",
+    "options": [
+      "DNA Polymerase",
+      "Protein Disulfide Isomerase (PDI)",
+      "Ubiquitin ligase",
+      "mTOR"
+    ],
+    "answer": "Protein Disulfide Isomerase (PDI)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the role of chaperones like BiP in the ER?",
+    "options": [
+      "They add ubiquitin to misfolded proteins",
+      "They assist in protein folding and prevent aggregation",
+      "They cleave the signal sequence",
+      "They catalyze the formation of ATP"
+    ],
+    "answer": "They assist in protein folding and prevent aggregation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The degradation of most cellular proteins is carried out by which system?",
+    "options": [
+      "The Lysosome only",
+      "The Ubiquitin-Proteasome System",
+      "The TOR pathway",
+      "TIM/TOM complexes"
+    ],
+    "answer": "The Ubiquitin-Proteasome System",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzymes are involved in the ubiquitination cascade?",
+    "options": [
+      "DNA polymerases I, II, and III",
+      "E1 (activating), E2 (conjugating), and E3 (ligating) enzymes",
+      "TIM, TOM, and PAM",
+      "Restriction endonucleases"
+    ],
+    "answer": "E1 (activating), E2 (conjugating), and E3 (ligating) enzymes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Ubiquitin is typically attached to which amino acid residue on the target protein?",
+    "options": [
+      "Lysine (Lys)",
+      "Arginine (Arg)",
+      "Methionine (Met)",
+      "Cysteine (Cys)"
+    ],
+    "answer": "Lysine (Lys)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the specific component that recognizes and degrades ubiquitinated proteins?",
+    "options": [
+      "The Golgi apparatus",
+      "The 26S Proteasome",
+      "The Nucleosome",
+      "RNA Polymerase II"
+    ],
+    "answer": "The 26S Proteasome",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does ERAD stand for?",
+    "options": [
+      "Endoplasmic Reticulum Associated Degradation",
+      "Early Ribosome Assembly Diagnostic",
+      "Extracellular RNA Antigen Detection",
+      "Enhanced Retrograde Aminoacid Delivery"
+    ],
+    "answer": "Endoplasmic Reticulum Associated Degradation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the ERAD pathway, misfolded proteins are moved from the ER to which location for degradation?",
+    "options": [
+      "Back into the Golgi",
+      "Into the Nucleus",
+      "Into the Cytosol",
+      "Into the Mitochondria"
+    ],
+    "answer": "Into the Cytosol",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The TOR pathway is a central regulator of which cellular processes?",
+    "options": [
+      "Growth and metabolism",
+      "DNA replication only",
+      "Viral assembly",
+      "Cell wall synthesis"
+    ],
+    "answer": "Growth and metabolism",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which mTOR complex is specifically sensitive to nutrients and growth factors?",
+    "options": [
+      "mTORC1",
+      "mTORC2",
+      "mTORC3",
+      "mTORC4"
+    ],
+    "answer": "mTORC1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "mTORC1 is directly activated by which small GTPase?",
+    "options": [
+      "Ras",
+      "Rheb (Rheb-GTP)",
+      "Rho",
+      "Rab"
+    ],
+    "answer": "Rheb (Rheb-GTP)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following signals would typically INHIBIT the mTORC1 pathway?",
+    "options": [
+      "Abundant amino acids",
+      "Presence of growth factors",
+      "Low energy levels (activated AMPK)",
+      "High levels of Rheb-GTP"
+    ],
+    "answer": "Low energy levels (activated AMPK)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is an OUTPUT of activated mTORC1?",
+    "options": [
+      "Inhibition of protein synthesis",
+      "Promotion of ribosome biogenesis",
+      "Activation of autophagy",
+      "Degradation of ribosomes"
+    ],
+    "answer": "Promotion of ribosome biogenesis",
+    "shuffleOptions": true
+  },
+  {
+    "question": "mTORC1 activation affects autophagy by:",
+    "options": [
+      "Promoting it",
+      "Inhibiting it",
+      "Having no effect",
+      "Changing its location"
+    ],
+    "answer": "Inhibiting it",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The Golgi apparatus is involved in which of the following?",
+    "options": [
+      "Protein sorting and further glycosylation",
+      "DNA synthesis",
+      "Translation of mRNA",
+      "Generation of ATP"
+    ],
+    "answer": "Protein sorting and further glycosylation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Disulfide bonds primarily stabilize which level of protein structure?",
+    "options": [
+      "Primary",
+      "Secondary",
+      "Tertiary (and sometimes quaternary)",
+      "Linear"
+    ],
+    "answer": "Tertiary (and sometimes quaternary)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which organelle is considered the starting point for the secretory pathway?",
+    "options": [
+      "Golgi",
+      "Endoplasmic Reticulum (ER)",
+      "Lysosome",
+      "Mitochondria"
+    ],
+    "answer": "Endoplasmic Reticulum (ER)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A protein that is retro-translocated from the ER for degradation is first tagged with:",
+    "options": [
+      "A sugar chain",
+      "Ubiquitin",
+      "A phosphate group",
+      "An acetyl group"
+    ],
+    "answer": "Ubiquitin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Nuclear transport occurs through which of the following structures?",
+    "options": [
+      "TIM complexes",
+      "TOM complexes",
+      "Nuclear pores",
+      "ER membrane"
+    ],
+    "answer": "Nuclear pores",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Protein sorting via signal sequences was the basis of the 'Signal Hypothesis' proposed by:",
+    "options": [
+      "Watson and Crick",
+      "Günter Blobel",
+      "Gregor Mendel",
+      "Louis Pasteur"
+    ],
+    "answer": "Günter Blobel",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Proteins that fail to fold correctly in the ER are primarily handled by:",
+    "options": [
+      "Mitochondrial transport",
+      "The ERAD pathway",
+      "Nuclear export",
+      "Direct secretion"
+    ],
+    "answer": "The ERAD pathway",
+    "shuffleOptions": true
+  },
+  {
+    "question": "AMPK acts as a sensor for:",
+    "options": [
+      "High protein levels",
+      "Low energy status (High AMP/ATP ratio)",
+      "Calcium concentration",
+      "DNA damage"
+    ],
+    "answer": "Low energy status (High AMP/ATP ratio)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "mTOR stands for:",
+    "options": [
+      "Messenger Target of Ribosomes",
+      "Mechanistic Target of Rapamycin",
+      "Metabolic Transport of RNA",
+      "Mitotic Organization Regulator"
+    ],
+    "answer": "Mechanistic Target of Rapamycin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which PTM is known to stabilize protein structure and is often found on surface-exposed or secreted proteins?",
+    "options": [
+      "Methylation",
+      "Glycosylation",
+      "Ubiquitination",
+      "Hydroxylation"
+    ],
+    "answer": "Glycosylation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The TOM complex is found in the:",
+    "options": [
+      "Inner mitochondrial membrane",
+      "Outer mitochondrial membrane",
+      "Plasma membrane",
+      "Nuclear envelope"
+    ],
+    "answer": "Outer mitochondrial membrane",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT a known signal that activates the mTORC1 complex?",
+    "options": [
+      "Amino acids",
+      "Insulin (growth factor)",
+      "High AMP levels",
+      "Oxygen availability"
+    ],
+    "answer": "High AMP levels",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What happens to the ubiquitin tags after a protein is degraded by the proteasome?",
+    "options": [
+      "They are degraded with the protein",
+      "They are released and recycled for future use",
+      "They are converted into amino acids",
+      "They are secreted from the cell"
+    ],
+    "answer": "They are released and recycled for future use",
+    "shuffleOptions": true
+  },
+  {
+    "question": "PDI is particularly important for proteins that contain which amino acid?",
+    "options": [
+      "Methionine",
+      "Cysteine",
+      "Lysine",
+      "Proline"
+    ],
+    "answer": "Cysteine",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A polypeptide that is being synthesized on a ribosome and simultaneously entering the ER is undergoing:",
+    "options": [
+      "Post-translational translocation",
+      "Co-translational translocation",
+      "Retro-translocation",
+      "Endocytosis"
+    ],
+    "answer": "Co-translational translocation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary role of the E3 enzyme in the ubiquitination process?",
+    "options": [
+      "Activating the ubiquitin molecule",
+      "Substrate recognition and transfer of ubiquitin to the target protein",
+      "Unfolding the protein for the proteasome",
+      "Synthesizing the ubiquitin peptide"
+    ],
+    "answer": "Substrate recognition and transfer of ubiquitin to the target protein",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Autophagy is a process where the cell:",
+    "options": [
+      "Synthesizes new proteins",
+      "Replicates its DNA",
+      "Degrades its own components via the lysosome",
+      "Secretes hormones"
+    ],
+    "answer": "Degrades its own components via the lysosome",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which statement about mTORC1 output is true?",
+    "options": [
+      "It promotes translation initiation by phosphorylating targets like S6K1",
+      "It prevents the formation of ribosomes",
+      "It decreases the rate of cell growth",
+      "It only functions in the nucleus"
+    ],
+    "answer": "It promotes translation initiation by phosphorylating targets like S6K1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The signal sequence that directs a protein to the ER is typically removed by:",
+    "options": [
+      "The proteasome",
+      "Signal peptidase",
+      "PDI",
+      "BiP"
+    ],
+    "answer": "Signal peptidase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Mitochondrial proteins encoded by the nuclear genome are synthesized in the:",
+    "options": [
+      "Mitochondrial matrix",
+      "ER lumen",
+      "Cytosol",
+      "Nucleus"
+    ],
+    "answer": "Cytosol",
+    "shuffleOptions": true
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the primary protein around which DNA wraps to form a nucleosome?",
+    "options": [
+      "Actin",
+      "Histone",
+      "Tubulin",
+      "Myosin"
+    ],
+    "answer": "Histone",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which chromosomal structure is essential for proper segregation during cell division and serves as the attachment point for the kinetochore?",
+    "options": [
+      "Telomere",
+      "Centromere",
+      "Barr body",
+      "Nucleolus"
+    ],
+    "answer": "Centromere",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the function of the enzyme telomerase?",
+    "options": [
+      "To replicate mitochondrial DNA",
+      "To extend shortened telomeres using an RNA template",
+      "To repair double-strand breaks in the middle of a chromosome",
+      "To degrade chromatin during apoptosis"
+    ],
+    "answer": "To extend shortened telomeres using an RNA template",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a typical mammalian cell cycle of 24 hours, which phase lasts the longest (approximately 10 hours)?",
+    "options": [
+      "S Phase",
+      "G1 Phase",
+      "G2 Phase",
+      "M Phase"
+    ],
+    "answer": "G1 Phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What occurs during the S phase of the cell cycle?",
+    "options": [
+      "Protein synthesis for mitosis",
+      "DNA duplication (synthesis)",
+      "Cytokinesis",
+      "Chromosome condensation"
+    ],
+    "answer": "DNA duplication (synthesis)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The cell cycle checkpoint that ensures DNA replication is complete before mitosis begins is the:",
+    "options": [
+      "G1/S checkpoint",
+      "G2/M checkpoint",
+      "Spindle checkpoint",
+      "Restriction point"
+    ],
+    "answer": "G2/M checkpoint",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which protein complex triggers the cell's passage past the G2 checkpoint into M phase?",
+    "options": [
+      "DNA Polymerase III",
+      "MPF (Maturation-Promoting Factor)",
+      "TIM/TOM complex",
+      "Proteasome"
+    ],
+    "answer": "MPF (Maturation-Promoting Factor)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Cdks (Cyclin-dependent kinases) only become active when they are bound to:",
+    "options": [
+      "ATP",
+      "Cyclins",
+      "DNA",
+      "Ubiquitin"
+    ],
+    "answer": "Cyclins",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In females, what is the randomly inactivated X chromosome called?",
+    "options": [
+      "Nucleosome",
+      "Barr body",
+      "Solenoid",
+      "Prophage"
+    ],
+    "answer": "Barr body",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Genes located on the same chromosome that tend to be inherited together are said to be:",
+    "options": [
+      "Allelic",
+      "Linked",
+      "Epistatic",
+      "Heterozygous"
+    ],
+    "answer": "Linked",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The failure of chromosomes or chromatids to separate properly during division is called:",
+    "options": [
+      "Translocation",
+      "Nondisjunction",
+      "Inversion",
+      "Crossing over"
+    ],
+    "answer": "Nondisjunction",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which syndrome is characterized by Trisomy 21?",
+    "options": [
+      "Klinefelter Syndrome",
+      "Down Syndrome",
+      "Turner Syndrome",
+      "Double-Y Syndrome"
+    ],
+    "answer": "Down Syndrome",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Turner syndrome (45, X) is an example of:",
+    "options": [
+      "Trisomy",
+      "Monosomy",
+      "Polyploidy",
+      "Translocation"
+    ],
+    "answer": "Monosomy",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which chromosome abnormality involves a male with an extra X chromosome (47, XXY)?",
+    "options": [
+      "Down Syndrome",
+      "Klinefelter Syndrome",
+      "Double-Y Syndrome",
+      "Trisomy X"
+    ],
+    "answer": "Klinefelter Syndrome",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which type of chromosomal mutation involves the reversal of a chromosomal segment's orientation?",
+    "options": [
+      "Deletion",
+      "Duplication",
+      "Inversion",
+      "Translocation"
+    ],
+    "answer": "Inversion",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A Robertsonian translocation specifically involves the fusion of:",
+    "options": [
+      "Two acrocentric chromosomes",
+      "Two X chromosomes",
+      "Mitochondrial and nuclear DNA",
+      "Sister chromatids"
+    ],
+    "answer": "Two acrocentric chromosomes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which chemical can be used to induce autopolyploidy in plants by disrupting the spindle apparatus?",
+    "options": [
+      "Penicillin",
+      "Colchicine",
+      "EcoRI",
+      "BamHI"
+    ],
+    "answer": "Colchicine",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Extranuclear inheritance, such as that found in mitochondria, usually follows which pattern?",
+    "options": [
+      "Paternal inheritance",
+      "Maternal inheritance",
+      "Random inheritance",
+      "X-linked inheritance"
+    ],
+    "answer": "Maternal inheritance",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In Comparative Genomic Hybridization (CGH), a Green to Red ratio of LESS than 1 indicates a:",
+    "options": [
+      "Duplication",
+      "Deletion",
+      "Inversion",
+      "Normal karyotype"
+    ],
+    "answer": "Deletion",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a 'Karyotype'?",
+    "options": [
+      "A technique for sequencing DNA",
+      "An organized profile of a person's chromosomes",
+      "A type of protein found in skin",
+      "The location of a specific gene"
+    ],
+    "answer": "An organized profile of a person's chromosomes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In CGH analysis, which color is typically used to label the 'Normal DNA' control?",
+    "options": [
+      "Green",
+      "Red",
+      "Blue",
+      "Yellow"
+    ],
+    "answer": "Red",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary risk associated with interstitial deletions in chromosomes?",
+    "options": [
+      "Loss of genetic information in the middle of a chromosome arm",
+      "Increased rate of telomere shortening",
+      "Failure of the kinetochore to attach",
+      "Permanent cell cycle arrest in G0"
+    ],
+    "answer": "Loss of genetic information in the middle of a chromosome arm",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Meiosis I nondisjunction results in which set of gametes?",
+    "options": [
+      "n+1, n-1, n, n",
+      "n+1, n+1, n-1, n-1",
+      "All normal (n)",
+      "n+1, n, n, n"
+    ],
+    "answer": "n+1, n+1, n-1, n-1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following describes allopolyploidy?",
+    "options": [
+      "Doubling of chromosomes within a single species",
+      "Chromosome doubling resulting from hybridization between different species",
+      "Loss of a single chromosome (n-1)",
+      "Movement of genes to the mitochondria"
+    ],
+    "answer": "Chromosome doubling resulting from hybridization between different species",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Solenoid' model describes which level of DNA organization?",
+    "options": [
+      "The wrapping of DNA around histones",
+      "The further coiling of nucleosome fibers",
+      "The fusion of acrocentric chromosomes",
+      "The replication of the leading strand"
+    ],
+    "answer": "The further coiling of nucleosome fibers",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which cell cycle phase is characterized by intense synthesis of mRNA and proteins needed for DNA replication?",
+    "options": [
+      "G1",
+      "G2",
+      "M",
+      "S"
+    ],
+    "answer": "G1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If growth factors are limited, a cell may enter a non-dividing state known as:",
+    "options": [
+      "S phase",
+      "G0 phase",
+      "G2 phase",
+      "Prophase"
+    ],
+    "answer": "G0 phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Crossing over, which leads to incomplete linkage, occurs during:",
+    "options": [
+      "Mitosis",
+      "Prophase I of Meiosis",
+      "S phase",
+      "G2 phase"
+    ],
+    "answer": "Prophase I of Meiosis",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Cytoplasmic Male Sterility (CMS) in plants is often determined by genes in the:",
+    "options": [
+      "Nucleus",
+      "Mitochondria",
+      "Ribosome",
+      "Telomere"
+    ],
+    "answer": "Mitochondria",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Rf' gene in plants functions as a:",
+    "options": [
+      "Restriction factor",
+      "Nuclear restorer of fertility",
+      "Ribosomal fragment",
+      "RNA factor"
+    ],
+    "answer": "Nuclear restorer of fertility",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a 'Reciprocal Translocation'?",
+    "options": [
+      "One-way transfer of a chromosomal segment",
+      "Two-way exchange of segments between non-homologous chromosomes",
+      "Loss of both ends of a chromosome",
+      "Reversal of a gene sequence"
+    ],
+    "answer": "Two-way exchange of segments between non-homologous chromosomes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Trisomy X (47, XXX) occurs in:",
+    "options": [
+      "Males",
+      "Females",
+      "Both equally",
+      "Plants only"
+    ],
+    "answer": "Females",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Double-Y Syndrome (47, XYY) results in which phenotype?",
+    "options": [
+      "Sterile female",
+      "Male, often taller than average",
+      "Female with mental impairment",
+      "Sterile male with female characteristics"
+    ],
+    "answer": "Male, often taller than average",
+    "shuffleOptions": true
+  },
+  {
+    "question": "To prepare a karyotype, cells are often arrested in which phase of mitosis?",
+    "options": [
+      "Prophase",
+      "Metaphase",
+      "Anaphase",
+      "Telophase"
+    ],
+    "answer": "Metaphase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In CGH, what does a ratio equal to 1 represent?",
+    "options": [
+      "Deletion",
+      "Duplication",
+      "Equivalent amounts of cancer and normal DNA (Normal)",
+      "Total loss of DNA"
+    ],
+    "answer": "Equivalent amounts of cancer and normal DNA (Normal)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Telomeres prevent chromosomes from:",
+    "options": [
+      "Replicating too fast",
+      "Fusing with each other or being degraded",
+      "Attaching to the spindle",
+      "Entering the nucleus"
+    ],
+    "answer": "Fusing with each other or being degraded",
+    "shuffleOptions": true
+  },
+  {
+    "question": "As humans age, the average length of telomeres in somatic cells typically:",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Stays the same",
+      "Becomes random"
+    ],
+    "answer": "Decreases",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which checkpoint is the main 'decision point' for a cell to commit to division?",
+    "options": [
+      "G1/S checkpoint",
+      "G2/M checkpoint",
+      "M checkpoint",
+      "Telomere checkpoint"
+    ],
+    "answer": "G1/S checkpoint",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The kineticore attaches to the spindle fibers at which chromosomal region?",
+    "options": [
+      "Telomere",
+      "Centromere",
+      "Nucleosome",
+      "P-arm"
+    ],
+    "answer": "Centromere",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which statement about aneuploidy is correct?",
+    "options": [
+      "It involves an entire extra set of chromosomes (3n, 4n)",
+      "It involves the loss or gain of a single chromosome (2n+1, 2n-1)",
+      "It only occurs in bacteria",
+      "It is always beneficial"
+    ],
+    "answer": "It involves the loss or gain of a single chromosome (2n+1, 2n-1)",
+    "shuffleOptions": true
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the primary mechanism of DNA methylation in eukaryotes?",
+    "options": [
+      "Addition of a methyl group to Cytosine or Adenine",
+      "Removal of a phosphate group from Guanine",
+      "Addition of an acetyl group to Histone H3",
+      "Replacement of Uracil with Thymine"
+    ],
+    "answer": "Addition of a methyl group to Cytosine or Adenine",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In mammals, what percentage of CpG sites are typically methylated?",
+    "options": [
+      "10-20%",
+      "50-60%",
+      "90-98%",
+      "100%"
+    ],
+    "answer": "90-98%",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzyme is responsible for maintaining DNA methylation patterns from mother to daughter cells?",
+    "options": [
+      "DNMT1",
+      "DNMT3a",
+      "DNMT3b",
+      "DNMT3L"
+    ],
+    "answer": "DNMT1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzymes are involved in 'de novo' DNA methylation?",
+    "options": [
+      "DNMT1 and DNMT3L",
+      "DNMT3a and DNMT3b",
+      "DNMT1 only",
+      "Restriction endonucleases"
+    ],
+    "answer": "DNMT3a and DNMT3b",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary role of DNMT3L?",
+    "options": [
+      "It is the main maintenance methyltransferase",
+      "It supports DNMT3a/3b and inhibits transposons",
+      "It removes methyl groups from CpG islands",
+      "It acetylates histone tails"
+    ],
+    "answer": "It supports DNMT3a/3b and inhibits transposons",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A nucleosome consists of approximately how many base pairs of DNA?",
+    "options": [
+      "50 bp",
+      "147 bp",
+      "200 bp",
+      "1000 bp"
+    ],
+    "answer": "147 bp",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How many times does DNA wrap around a histone octamer in a nucleosome?",
+    "options": [
+      "1 time",
+      "1.67 times",
+      "2.5 times",
+      "5 times"
+    ],
+    "answer": "1.67 times",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which histones make up the histone octamer in a eukaryotic nucleosome?",
+    "options": [
+      "H1, H2, H3, H4",
+      "Two copies each of H2A, H2B, H3, and H4",
+      "Four copies each of H3 and H4",
+      "H1, H2A, H2B, H3"
+    ],
+    "answer": "Two copies each of H2A, H2B, H3, and H4",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Where do most histone modifications that affect gene expression occur?",
+    "options": [
+      "On the core globular domain",
+      "On the H3 and H4 tails",
+      "On the minor groove of the DNA",
+      "On the linker DNA"
+    ],
+    "answer": "On the H3 and H4 tails",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which term describes condensed, transcriptionally repressed chromatin?",
+    "options": [
+      "Euchromatin",
+      "Heterochromatin",
+      "Nucleosome",
+      "CpG island"
+    ],
+    "answer": "Heterochromatin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which term describes open, relaxed, and transcriptionally active chromatin?",
+    "options": [
+      "Euchromatin",
+      "Heterochromatin",
+      "3D folding",
+      "Prophage"
+    ],
+    "answer": "Euchromatin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a primary functional outcome of the 3D folding of chromatin?",
+    "options": [
+      "It keeps genes permanently turned off",
+      "It brings regulatory factors closer to their target genes",
+      "It prevents DNA replication",
+      "It facilitates the removal of introns"
+    ],
+    "answer": "It brings regulatory factors closer to their target genes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following are examples of short non-coding RNAs (ncRNAs)?",
+    "options": [
+      "lncRNA and mRNA",
+      "miRNA, siRNA, and piRNA",
+      "tRNA and rRNA",
+      "snRNA and snoRNA"
+    ],
+    "answer": "miRNA, siRNA, and piRNA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What can be a function of long non-coding RNAs (lncRNAs)?",
+    "options": [
+      "Acts as a guide for proteins",
+      "Acts as a scaffold/architect for chromatin complexes",
+      "Acts as an enhancer for gene expression",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "shuffleOptions": false
+  },
+  {
+    "question": "In prokaryotes, the R-M system is used primarily for:",
+    "options": [
+      "RNA processing",
+      "Protection against foreign DNA like phages",
+      "Repairing double-strand breaks",
+      "Regulating the circadian rhythm"
+    ],
+    "answer": "Protection against foreign DNA like phages",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The prokaryotic R-M system consists of which two types of enzymes?",
+    "options": [
+      "Polymerase and Ligase",
+      "Restriction endonuclease (REase) and Methyltransferase (MTase)",
+      "Helicase and Primase",
+      "DNMT1 and DNMT3"
+    ],
+    "answer": "Restriction endonuclease (REase) and Methyltransferase (MTase)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Dam methylase in bacteria methylates which base at GATC sequences?",
+    "options": [
+      "Cytosine",
+      "Guanine",
+      "Adenine",
+      "Thymine"
+    ],
+    "answer": "Adenine",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which bacterial process is NOT regulated by Dam methylation?",
+    "options": [
+      "Initiation of DNA replication at OriC",
+      "Mismatch repair (MutS/MutL)",
+      "Histone acetylation",
+      "Gene expression"
+    ],
+    "answer": "Histone acetylation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is an 'Orphan MTase' in prokaryotes?",
+    "options": [
+      "A methyltransferase that lacks a corresponding restriction endonuclease",
+      "A methyltransferase that only works on RNA",
+      "An enzyme that removes methyl groups",
+      "A DNMT3a homolog found in bacteria"
+    ],
+    "answer": "A methyltransferase that lacks a corresponding restriction endonuclease",
+    "shuffleOptions": true
+  },
+  {
+    "question": "CcrM is an example of an orphan MTase that acts as a:",
+    "options": [
+      "Transcription factor",
+      "Cell cycle regulator",
+      "DNA polymerase subunit",
+      "Phage protein"
+    ],
+    "answer": "Cell cycle regulator",
+    "shuffleOptions": true
+  },
+  {
+    "question": "CpG islands are characterized by a high frequency of which sequence?",
+    "options": [
+      "G following C",
+      "A following T",
+      "Repeated GATC sequences",
+      "TATA boxes"
+    ],
+    "answer": "G following C",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which DNMT is essential for genomic imprinting and X-chromosome inactivation by establishing new patterns?",
+    "options": [
+      "DNMT1",
+      "DNMT3a/3b",
+      "DNMT3L",
+      "Dam methylase"
+    ],
+    "answer": "DNMT3a/3b",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does negative DNA supercoiling typically affect eukaryotic gene expression?",
+    "options": [
+      "It has no effect",
+      "It generally facilitates the opening of DNA for transcription",
+      "It permanently silences all genes",
+      "It triggers DNA degradation"
+    ],
+    "answer": "It generally facilitates the opening of DNA for transcription",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'epigenetic code' primarily involves modifications to:",
+    "options": [
+      "The DNA sequence itself",
+      "The DNA sugar-phosphate backbone",
+      "Histone tails and DNA bases (methylation)",
+      "Ribosomal RNA"
+    ],
+    "answer": "Histone tails and DNA bases (methylation)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the context of mismatch repair in E. coli, how does the cell distinguish the template strand from the new strand?",
+    "options": [
+      "The new strand is acetylated",
+      "The template strand is methylated by Dam methylase",
+      "The new strand contains Uracil",
+      "The template strand is shorter"
+    ],
+    "answer": "The template strand is methylated by Dam methylase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which statement about heterochromatin is true?",
+    "options": [
+      "It is where most actively transcribed genes are located",
+      "It is more accessible to RNA polymerase than euchromatin",
+      "It is characterized by high levels of DNA methylation and specific histone marks",
+      "It does not contain any histones"
+    ],
+    "answer": "It is characterized by high levels of DNA methylation and specific histone marks",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzyme works with DNMT3a/3b to help silence retrotransposons in the germline?",
+    "options": [
+      "DNMT1",
+      "DNMT3L",
+      "Dcm methylase",
+      "MutH"
+    ],
+    "answer": "DNMT3L",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In prokaryotes, Dcm methylation typically occurs at which type of sequence?",
+    "options": [
+      "GATC",
+      "CC(A/T)GG",
+      "TATA",
+      "CpG"
+    ],
+    "answer": "CC(A/T)GG",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the effect of histone acetylation on chromatin structure?",
+    "options": [
+      "It causes chromatin to condense into heterochromatin",
+      "It neutralizes positive charges on histones, leading to open euchromatin",
+      "It removes the DNA from the histones entirely",
+      "It recruits DNMT1 to the promoter"
+    ],
+    "answer": "It neutralizes positive charges on histones, leading to open euchromatin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a role of ncRNAs in epigenetics?",
+    "options": [
+      "Recruiting chromatin-modifying enzymes to specific genomic loci",
+      "Acting as decoys for miRNAs",
+      "Regulating mRNA stability and translation",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "shuffleOptions": false
+  },
+  {
+    "question": "The R-M system allows bacteria to distinguish 'self' from 'non-self' DNA based on:",
+    "options": [
+      "Length",
+      "Methylation patterns",
+      "Presence of introns",
+      "GC content"
+    ],
+    "answer": "Methylation patterns",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What happens if a restriction enzyme encounters a recognition site that is NOT methylated in the bacterial host?",
+    "options": [
+      "It methylates the site",
+      "It cleaves the DNA",
+      "It ignores the site",
+      "It recruits a polymerase"
+    ],
+    "answer": "It cleaves the DNA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which epigenetic mechanism is most directly linked to the 'maintenance' of cell identity across cell divisions?",
+    "options": [
+      "miRNA degradation",
+      "DNMT1-mediated methylation",
+      "ATP-dependent chromatin remodeling",
+      "Dam methylation"
+    ],
+    "answer": "DNMT1-mediated methylation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In eukaryotes, DNA methylation typically occurs on which base?",
+    "options": [
+      "Adenine",
+      "Guanine",
+      "Cytosine",
+      "Thymine"
+    ],
+    "answer": "Cytosine",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which histone modification is often associated with gene silencing?",
+    "options": [
+      "H3K4 methylation",
+      "H3K9 methylation",
+      "H3K27 acetylation",
+      "H4K16 acetylation"
+    ],
+    "answer": "H3K9 methylation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the relationship between DNA methylation and histone deacetylation?",
+    "options": [
+      "They are mutually exclusive",
+      "They often act together to reinforce a repressive chromatin state",
+      "DNA methylation causes histone acetylation",
+      "They only occur in prokaryotes"
+    ],
+    "answer": "They often act together to reinforce a repressive chromatin state",
+    "shuffleOptions": true
+  },
+  {
+    "question": "CpG stands for:",
+    "options": [
+      "Cytosine-phosphate-Guanine",
+      "Central Promoter Gene",
+      "Chromatin protein Group",
+      "Common prokaryotic Genome"
+    ],
+    "answer": "Cytosine-phosphate-Guanine",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'architect' function of lncRNAs refers to their ability to:",
+    "options": [
+      "Code for small structural proteins",
+      "Organize 3D chromatin loops and nuclear compartments",
+      "Direct the ribosome to the start codon",
+      "Degrade damaged DNA"
+    ],
+    "answer": "Organize 3D chromatin loops and nuclear compartments",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzyme class is inhibited by the presence of a methyl group in the recognition sequence during the bacterial R-M response?",
+    "options": [
+      "MTase",
+      "REase",
+      "Ligase",
+      "Gyrase"
+    ],
+    "answer": "REase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Epigenetic changes are defined as changes in gene expression that:",
+    "options": [
+      "Involve permanent changes to the DNA sequence",
+      "Are not inherited",
+      "Are heritable but do not involve changes to the DNA sequence",
+      "Only occur in response to heat shock"
+    ],
+    "answer": "Are heritable but do not involve changes to the DNA sequence",
+    "shuffleOptions": true
+  }
+]

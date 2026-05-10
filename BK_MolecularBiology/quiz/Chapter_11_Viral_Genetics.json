@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is a bacteriophage?",
+    "options": [
+      "A bacterium that infects viruses",
+      "A virus that infects bacteria",
+      "A type of antibiotic",
+      "A bacterial toxin"
+    ],
+    "answer": "A virus that infects bacteria",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the lytic cycle, what is the fate of the host bacterial cell?",
+    "options": [
+      "It continues to grow and divide normally",
+      "It integrates the viral DNA and enters a dormant state",
+      "It replicates rapidly and then lyses (bursts) to release new phages",
+      "It becomes resistant to all future viral infections"
+    ],
+    "answer": "It replicates rapidly and then lyses (bursts) to release new phages",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a 'prophage'?",
+    "options": [
+      "A newly synthesized viral particle",
+      "Viral DNA that has integrated into the host bacterial chromosome",
+      "A protein coat of a virus",
+      "A type of mutation in a viral gene"
+    ],
+    "answer": "Viral DNA that has integrated into the host bacterial chromosome",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The process by which a prophage exits the host chromosome and enters the lytic cycle is called:",
+    "options": [
+      "Transcription",
+      "Induction",
+      "Translation",
+      "Ligation"
+    ],
+    "answer": "Induction",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following describes the lysogenic cycle?",
+    "options": [
+      "The virus immediately kills the host cell",
+      "The viral DNA is replicated along with the bacterial DNA as a prophage",
+      "The host cell is used only to produce viral proteins without DNA replication",
+      "The virus remains outside the cell and injects only its proteins"
+    ],
+    "answer": "The viral DNA is replicated along with the bacterial DNA as a prophage",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is 'Fine Structure Mapping' (Intragenic Mapping) used for?",
+    "options": [
+      "Determining the distance between two different genes",
+      "Establishing distances between mutations located within the same gene",
+      "Identifying the species of a virus",
+      "Mapping the entire bacterial chromosome"
+    ],
+    "answer": "Establishing distances between mutations located within the same gene",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In Benzer's experiment, why was *E. coli* B used?",
+    "options": [
+      "Only wild-type phages can grow on it",
+      "Both mutant and wild-type phages can grow on it, allowing for a total phage count",
+      "It is resistant to all phage infections",
+      "It produces the largest viral plaques"
+    ],
+    "answer": "Both mutant and wild-type phages can grow on it, allowing for a total phage count",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In Benzer's experiment, which host was used to specifically select for recombinant (wild-type) phages?",
+    "options": [
+      "E. coli B",
+      "E. coli K12(λ)",
+      "S. aureus",
+      "B. subtilis"
+    ],
+    "answer": "E. coli K12(λ)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is a 'factor of 2' included in the recombinant frequency formula for intragenic mapping?",
+    "options": [
+      "Because the virus has two strands of DNA",
+      "To account for the double mutants that are produced but not detected on K12(λ)",
+      "Because each plaque represents two viruses",
+      "To normalize the data for 24-hour growth"
+    ],
+    "answer": "To account for the double mutants that are produced but not detected on K12(λ)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the formula for calculating recombinant frequency (RF) in Benzer's mapping experiment?",
+    "options": [
+      "RF = [Wild-type plaques] / [Total plaques]",
+      "RF = 2 * [Wild-type plaques in K12(λ)] / [Total plaques in B]",
+      "RF = [Total plaques in B] / [Wild-type plaques in K12(λ)]",
+      "RF = 1/2 * [Wild-type plaques in K12(λ)]"
+    ],
+    "answer": "RF = 2 * [Wild-type plaques in K12(λ)] / [Total plaques in B]",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Using the example from page 69, if there are 11 million wild-type plaques on K12 and 6.6 billion total plaques on B, what is the RF?",
+    "options": [
+      "0.0016",
+      "0.0033",
+      "0.0066",
+      "0.011"
+    ],
+    "answer": "0.0033",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary purpose of a complementation test?",
+    "options": [
+      "To measure the distance between two mutations",
+      "To determine if two different mutations are in the same gene or in different genes",
+      "To create new viral strains",
+      "To sequence the viral genome"
+    ],
+    "answer": "To determine if two different mutations are in the same gene or in different genes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a complementation test, if no viral plaques form after coinfecting a host with two different mutant strains, it indicates:",
+    "options": [
+      "The mutations are in different genes",
+      "The mutations are in the same gene (noncomplementation)",
+      "The host cell is immune to both viruses",
+      "The viruses have successfully recombined"
+    ],
+    "answer": "The mutations are in the same gene (noncomplementation)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If two mutant phages coinfect a host and functional viral particles are produced (plaques form), what can be concluded?",
+    "options": [
+      "The mutations are in the same gene",
+      "The mutations are in different genes (complementation)",
+      "One of the mutants reverted to wild-type spontaneously",
+      "The host cell provides the missing viral DNA"
+    ],
+    "answer": "The mutations are in different genes (complementation)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Restriction mapping is used to determine:",
+    "options": [
+      "The amino acid sequence of a protein",
+      "The locations of restriction enzyme cleavage sites on a DNA molecule",
+      "The rate of viral replication",
+      "The number of ribosomes in a cell"
+    ],
+    "answer": "The locations of restriction enzyme cleavage sites on a DNA molecule",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A 7.5 kb linear DNA fragment is cut by HindIII into 3.0 and 4.5 kb. How many HindIII sites does it have?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": "1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the restriction mapping problem (Page 55), why is the middle fragment 2.5 kb?",
+    "options": [
+      "It is the size of the SmaI fragment",
+      "It is the difference between the total length and the two end-anchored sites (7.5 - 2.0 - 3.0)",
+      "It is the size of the HindIII fragment",
+      "It is a random error"
+    ],
+    "answer": "It is the difference between the total length and the two end-anchored sites (7.5 - 2.0 - 3.0)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If SmaI cuts at 2.0 kb from one end and HindIII cuts at 3.0 kb from the opposite end, what are the sizes of the three fragments produced in a double digest of a 7.5 kb linear DNA?",
+    "options": [
+      "1.0, 2.0, 4.5",
+      "2.0, 2.5, 3.0",
+      "3.0, 3.0, 1.5",
+      "2.0, 5.0, 0.5"
+    ],
+    "answer": "2.0, 2.5, 3.0",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What happens when two phages with mutations in different genes (e.g., Gene A mutant and Gene B mutant) coinfect the same cell?",
+    "options": [
+      "No protein is produced for either gene",
+      "Gene A mutant provides functional B protein, and Gene B mutant provides functional A protein",
+      "They compete and kill each other",
+      "They fuse into a single large virus"
+    ],
+    "answer": "Gene A mutant provides functional B protein, and Gene B mutant provides functional A protein",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Benzer's work focused on which specific region of the T4 bacteriophage genome?",
+    "options": [
+      "The TATA box",
+      "The rII region",
+      "The origin of replication",
+      "The tail fiber genes"
+    ],
+    "answer": "The rII region",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A virus that can exist either in a lytic or lysogenic state is known as a:",
+    "options": [
+      "Virulent phage",
+      "Temperate phage",
+      "Retrovirus",
+      "Prophage"
+    ],
+    "answer": "Temperate phage",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is an example of a temperate phage?",
+    "options": [
+      "T4",
+      "Lambda (λ)",
+      "T7",
+      "HIV"
+    ],
+    "answer": "Lambda (λ)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the 'clear plaque' phenotype often associated with in phage genetics?",
+    "options": [
+      "Efficient lytic growth",
+      "High rate of lysogeny",
+      "No growth at all",
+      "Mutation in the restriction system"
+    ],
+    "answer": "Efficient lytic growth",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the complementation test, why do no plaques form in the noncomplementation case?",
+    "options": [
+      "The cell is not infected",
+      "The cell cannot produce one of the essential proteins needed for viral assembly",
+      "The DNA is degraded too quickly",
+      "The viruses are too large for the cell"
+    ],
+    "answer": "The cell cannot produce one of the essential proteins needed for viral assembly",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The distance in a viral genetic map is measured in:",
+    "options": [
+      "Minutes",
+      "Centimorgans or Map Units (based on recombination frequency)",
+      "Base pairs only",
+      "Micrometers"
+    ],
+    "answer": "Centimorgans or Map Units (based on recombination frequency)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How many genes are being tested for relative position in a standard complementation test?",
+    "options": [
+      "One",
+      "Two (to see if mutations are in the same or different genes)",
+      "Three",
+      "Dozens"
+    ],
+    "answer": "Two (to see if mutations are in the same or different genes)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzyme would you use to perform a restriction digest?",
+    "options": [
+      "Ligase",
+      "Restriction endonuclease",
+      "Polymerase",
+      "Reverse transcriptase"
+    ],
+    "answer": "Restriction endonuclease",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What describes a 'double mutant' in the context of Benzer's intragenic recombination experiment?",
+    "options": [
+      "A phage with two different mutations in the same gene",
+      "A phage that infects two different species",
+      "A phage with two protein coats",
+      "A phage that uses two different replication origins"
+    ],
+    "answer": "A phage with two different mutations in the same gene",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If you have 100 wild-type plaques on K12(λ) and 1,000,000 total plaques on B, what is the RF?",
+    "options": [
+      "0.0001",
+      "0.0002",
+      "0.01",
+      "0.1"
+    ],
+    "answer": "0.0002",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The ability of a phage to integrate into the host genome is a key feature of which cycle?",
+    "options": [
+      "Lytic",
+      "Lysogenic",
+      "Translation",
+      "Mapping"
+    ],
+    "answer": "Lysogenic",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In restriction mapping, if you use two enzymes together and the resulting fragments sum up to the total DNA length, what does this suggest?",
+    "options": [
+      "The enzymes worked correctly and the DNA is linear",
+      "The DNA was degraded",
+      "The enzymes cut at the same site",
+      "One enzyme inhibited the other"
+    ],
+    "answer": "The enzymes worked correctly and the DNA is linear",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the 'lawn' in a phage plaque assay?",
+    "options": [
+      "A layer of plastic",
+      "A continuous layer of growing bacteria on an agar plate",
+      "The viral particles themselves",
+      "The liquid media"
+    ],
+    "answer": "A continuous layer of growing bacteria on an agar plate",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What represents a 'plaque' on the bacterial lawn?",
+    "options": [
+      "A colony of bacteria",
+      "A clear area where bacteria have been lysed by phages",
+      "A spot of contaminated mold",
+      "A cluster of antibiotics"
+    ],
+    "answer": "A clear area where bacteria have been lysed by phages",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT a mechanism of viral genetic exchange?",
+    "options": [
+      "Recombination during coinfection",
+      "Transformation of viral particles",
+      "Complementation",
+      "Transduction of bacterial DNA"
+    ],
+    "answer": "Transformation of viral particles",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the mapping problem (Page 55), if HindIII alone gave 3.0 and 4.5, and SmaI alone gave 2.0 and 5.5, what can you say about the sites?",
+    "options": [
+      "They must be at least 2.5 kb apart",
+      "They are at the same position",
+      "One site is internal to the other's fragment",
+      "They are on different chromosomes"
+    ],
+    "answer": "One site is internal to the other's fragment",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Bacteriophages are used as vectors in which technique?",
+    "options": [
+      "PCR",
+      "Transduction (and some types of cloning)",
+      "SDS-PAGE",
+      "Western Blot"
+    ],
+    "answer": "Transduction (and some types of cloning)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which scientist is famous for his 'Fine Structure' mapping of the rII locus?",
+    "options": [
+      "Mendel",
+      "Benzer",
+      "Watson",
+      "Griffith"
+    ],
+    "answer": "Benzer",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the 'multiplicity of infection' (MOI)?",
+    "options": [
+      "The speed of viral replication",
+      "The ratio of phage particles to host cells during an infection",
+      "The number of genes in a virus",
+      "The size of a plaque"
+    ],
+    "answer": "The ratio of phage particles to host cells during an infection",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In Benzer's experiment, why do rII mutants NOT grow on *E. coli* K12(λ)?",
+    "options": [
+      "The mutants cannot attach to the cell",
+      "The prophage λ prevents the growth of rII mutants",
+      "The mutants lack a DNA polymerase",
+      "K12(λ) lacks the receptors for T4"
+    ],
+    "answer": "The prophage λ prevents the growth of rII mutants",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Recombination in viruses occurs through:",
+    "options": [
+      "Meiosis",
+      "Physical exchange of DNA between two different viral genomes in a coinfected cell",
+      "Fusion of two viral particles",
+      "Error-prone PCR"
+    ],
+    "answer": "Physical exchange of DNA between two different viral genomes in a coinfected cell",
+    "shuffleOptions": true
+  }
+]

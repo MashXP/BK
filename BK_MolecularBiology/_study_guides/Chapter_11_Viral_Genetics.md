@@ -19,7 +19,11 @@ Mapping can be performed within viruses to determine the relative order and dist
     - Recombinant (wild-type) phages are measured by infecting *E. coli* K12(lambda), where only wild-type can grow.
 - **Calculation**:
     - `Frequency of recombinants = 2 * [Wild-type plaques in E. coli K12(λ)] / [Total number of plaques in E. coli B]`
-    - (The factor of 2 accounts for the double mutants which are not detected but produced in equal numbers to wild-type).
+    - **Rationale**: The factor of 2 accounts for the double mutants which are not detected but produced in equal numbers to wild-type.
+    - **Example (Source: Page 69)**:
+        - Wild-type plaques on K12: $11 \times 10^6$
+        - Total plaques on B: $6.6 \times 10^9$
+        - $RF = \frac{2 \times (11 \times 10^6)}{6.6 \times 10^9} = 3.3 \times 10^{-3} = 0.0033$
 
 ### Complementation Test
 - Used to determine if two different mutations are in the same gene or in different genes.
@@ -32,18 +36,16 @@ Mapping can be performed within viruses to determine the relative order and dist
 ## 3. Restriction Mapping
 A technique to determine the locations of restriction enzyme cleavage sites on a DNA molecule.
 
-### Practice Problem
+### Practice Problem (Source: Page 55)
 - **DNA Fragment**: 7.5 kb (linear)
 - **Digestion Results**:
-    - HindIII: 2.5 kb, 5 kb (One site)
-    - SmaI: 2.0 kb, 5.5 kb (One site)
-    - HindIII + SmaI: 2.5 kb, 3.0 kb, 2.0 kb
+    - *Hind*III: 3.0 kb, 4.5 kb (One site)
+    - *Sma*I: 2.0 kb, 5.5 kb (One site)
+    - *Hind*III + *Sma*I: 2.0 kb, 2.5 kb, 3.0 kb
 - **Logic**:
-    - HindIII cuts at 2.5 kb (or 5.0 kb from other end).
-    - SmaI cuts at 2.0 kb (or 5.5 kb from other end).
-    - In double digest, fragments are 2.0, 2.5, 3.0.
-    - If SmaI site is at 2.0 and HindIII site is at 5.0 (from same end), the middle fragment would be 3.0.
-    - Total: 2.0 (End to SmaI) + 3.0 (SmaI to HindIII) + 2.5 (HindIII to other end) = 7.5 kb.
-- **Map**: `[End] --2.0kb-- (SmaI) --3.0kb-- (HindIII) --2.5kb-- [End]`
+    - *Sma*I cuts at 2.0 kb from one end (leaving 5.5 kb).
+    - *Hind*III cuts at 3.0 kb from the **other** end (leaving 4.5 kb).
+    - The middle fragment is $7.5 - 2.0 - 3.0 = 2.5$ kb.
+- **Map**: `[End] --2.0kb-- (SmaI) --2.5kb-- (HindIII) --3.0kb-- [End]`
 
 ---

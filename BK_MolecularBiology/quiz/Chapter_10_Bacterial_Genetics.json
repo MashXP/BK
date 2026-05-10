@@ -1,0 +1,442 @@
+[
+  {
+    "question": "Most bacterial species have a chromosome with which of the following characteristics?",
+    "options": [
+      "Single, linear DNA molecule",
+      "Multiple, circular DNA molecules",
+      "Single, circular DNA molecule",
+      "Fragmented, linear RNA molecule"
+    ],
+    "answer": "Single, circular DNA molecule",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The approximate length of a typical bacterial chromosome is measured in:",
+    "options": [
+      "Thousands of base pairs",
+      "Millions of base pairs (Mbp)",
+      "Billions of base pairs (Gbp)",
+      "Nanometers"
+    ],
+    "answer": "Millions of base pairs (Mbp)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary function of the origin of replication in a bacterial chromosome?",
+    "options": [
+      "To stop DNA synthesis",
+      "To initiate DNA synthesis",
+      "To code for antibiotic resistance",
+      "To promote cell-to-cell contact"
+    ],
+    "answer": "To initiate DNA synthesis",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is true about repetitive sequences in bacterial chromosomes?",
+    "options": [
+      "They have no known function",
+      "They are only found at the ends of the chromosome",
+      "They can play roles in DNA folding, replication, and gene regulation",
+      "They are always exactly 100 bp long"
+    ],
+    "answer": "They can play roles in DNA folding, replication, and gene regulation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How is bacterial DNA organized to fit inside the small volume of the cell?",
+    "options": [
+      "It is wrapped around histones like eukaryotes",
+      "It is organized into loop domains and further compacted by supercoiling",
+      "It is kept in a linear form to save space",
+      "It is mostly degraded"
+    ],
+    "answer": "It is organized into loop domains and further compacted by supercoiling",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which form of supercoiling is most common in bacteria and helps in strand separation?",
+    "options": [
+      "Positive supercoiling",
+      "Negative supercoiling",
+      "Neutral supercoiling",
+      "Left-handed supercoiling"
+    ],
+    "answer": "Negative supercoiling",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which mechanism of horizontal gene transfer (HGT) requires direct cell-to-cell contact?",
+    "options": [
+      "Transformation",
+      "Transduction",
+      "Conjugation",
+      "Transposition"
+    ],
+    "answer": "Conjugation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A bacterial cell that contains an F factor plasmid is referred to as:",
+    "options": [
+      "F-",
+      "F+",
+      "Hfr",
+      "Competent"
+    ],
+    "answer": "F+",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the role of the 'relaxosome' during bacterial conjugation?",
+    "options": [
+      "It builds the conjugation bridge",
+      "It makes a cut at the origin of transfer in the F factor",
+      "It replicates the host chromosome",
+      "It kills the recipient cell"
+    ],
+    "answer": "It makes a cut at the origin of transfer in the F factor",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What happens to a recipient cell (F-) after it successfully receives the T-DNA strand and replicates it during conjugation?",
+    "options": [
+      "It dies",
+      "It remains F-",
+      "It becomes an F+ cell",
+      "It turns into a bacteriophage"
+    ],
+    "answer": "It becomes an F+ cell",
+    "shuffleOptions": true
+  },
+  {
+    "question": "An Hfr (High Frequency of Recombination) cell is formed when:",
+    "options": [
+      "An F factor is lost from the cell",
+      "An F factor integrates into the bacterial host chromosome",
+      "A cell takes up DNA from the environment",
+      "A phage infects the cell"
+    ],
+    "answer": "An F factor integrates into the bacterial host chromosome",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which HGT mechanism involves the uptake of naked DNA fragments from the surrounding environment?",
+    "options": [
+      "Conjugation",
+      "Transformation",
+      "Transduction",
+      "Translocation"
+    ],
+    "answer": "Transformation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A bacterial cell that has the ability to take up extracellular DNA is said to be:",
+    "options": [
+      "Conjugative",
+      "Competent",
+      "Virulent",
+      "Transducible"
+    ],
+    "answer": "Competent",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Cotransformation experiments show that two genes are more likely to be taken up together if they are:",
+    "options": [
+      "On different chromosomes",
+      "Located far apart on the chromosome",
+      "Located close together on the chromosome",
+      "Both coding for ribosomal proteins"
+    ],
+    "answer": "Located close together on the chromosome",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following describes transduction?",
+    "options": [
+      "Transfer of DNA via a pilus",
+      "Uptake of DNA from a dead cell",
+      "Genetic transfer mediated by a bacteriophage",
+      "Spontaneous mutation in the DNA"
+    ],
+    "answer": "Genetic transfer mediated by a bacteriophage",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a 'transducing particle' in generalized transduction?",
+    "options": [
+      "A phage that contains only viral DNA",
+      "A phage head that has accidentally packaged a piece of bacterial host DNA",
+      "A bacterial cell that has a phage integrated in its genome",
+      "A small plasmid that moves between cells"
+    ],
+    "answer": "A phage head that has accidentally packaged a piece of bacterial host DNA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Time-of-entry mapping is a technique associated with which process?",
+    "options": [
+      "Transformation",
+      "Bacteriophage infection",
+      "Conjugation (using Hfr strains)",
+      "DNA sequencing"
+    ],
+    "answer": "Conjugation (using Hfr strains)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In *E. coli* mapping, if `lacZ` enters at 16 minutes and `galE` enters at 25 minutes, what is the relative distance between them?",
+    "options": [
+      "9 minutes",
+      "41 minutes",
+      "16 minutes",
+      "25 minutes"
+    ],
+    "answer": "9 minutes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Cotransduction mapping relies on the frequency of two genes being carried by the same:",
+    "options": [
+      "Plasmid",
+      "Conjugation bridge",
+      "Bacteriophage particle",
+      "Insertion sequence"
+    ],
+    "answer": "Bacteriophage particle",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What are Insertion Sequences (IS)?",
+    "options": [
+      "Plasmids that carry antibiotic resistance",
+      "Simple transposable elements that encode only transposition enzymes",
+      "Sequences where DNA replication starts",
+      "Specific regions in the ribosome"
+    ],
+    "answer": "Simple transposable elements that encode only transposition enzymes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The Tn5 transposon is known to carry resistance genes for which antibiotics?",
+    "options": [
+      "Ampicillin and Penicillin",
+      "Neomycin, bleomycin, and streptomycin",
+      "Tetracycline and Chloramphenicol",
+      "Erythromycin and Vancomycin"
+    ],
+    "answer": "Neomycin, bleomycin, and streptomycin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which genetic element is capable of capturing and expressing various gene cassettes, often related to antibiotic resistance?",
+    "options": [
+      "Insertion Sequence",
+      "Integron",
+      "Prophage",
+      "Hfr factor"
+    ],
+    "answer": "Integron",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the restriction mapping problem (Page 55), why is the SmaI site placed 2.0 kb from an end?",
+    "options": [
+      "Because SmaI alone produces a 2.0 kb fragment",
+      "Because the double digest also contains a 2.0 kb fragment",
+      "Both A and B",
+      "None of the above"
+    ],
+    "answer": "Both A and B",
+    "shuffleOptions": false
+  },
+  {
+    "question": "A 7.5 kb fragment is cut by HindIII into 3.0 kb and 4.5 kb pieces. How many HindIII sites are present?",
+    "options": [
+      "Zero",
+      "One",
+      "Two",
+      "Three"
+    ],
+    "answer": "One",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If a 7.5 kb fragment is digested by HindIII and SmaI into fragments of 2.0, 2.5, and 3.0 kb, what is the distance between the HindIII and SmaI sites?",
+    "options": [
+      "2.0 kb",
+      "2.5 kb",
+      "3.0 kb",
+      "7.5 kb"
+    ],
+    "answer": "2.5 kb",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The DNA loops in a bacterial chromosome are maintained by:",
+    "options": [
+      "Specific loop-binding proteins",
+      "Histone octamers",
+      "Telomerase",
+      "RNA polymerase"
+    ],
+    "answer": "Specific loop-binding proteins",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is negative supercoiling advantageous for a cell?",
+    "options": [
+      "It makes the DNA more stable against heat",
+      "It creates tension that facilitates the unwinding of the DNA double helix",
+      "It prevents any proteins from binding to the DNA",
+      "It allows the DNA to be stored in the mitochondria"
+    ],
+    "answer": "It creates tension that facilitates the unwinding of the DNA double helix",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the 'origin of transfer' (oriT)?",
+    "options": [
+      "Where the chromosome starts replicating",
+      "The specific site where the F factor DNA is cut for transfer during conjugation",
+      "The location of the antibiotic resistance gene",
+      "The site where the phage attaches to the cell"
+    ],
+    "answer": "The specific site where the F factor DNA is cut for transfer during conjugation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "During conjugation, which form of DNA is actually transferred from the donor to the recipient?",
+    "options": [
+      "Double-stranded circular plasmid",
+      "Single-stranded DNA (T-DNA)",
+      "Double-stranded linear fragment",
+      "mRNA"
+    ],
+    "answer": "Single-stranded DNA (T-DNA)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The term 'horizontal gene transfer' refers to the exchange of genetic material:",
+    "options": [
+      "From parent to offspring",
+      "Between organisms of the same generation (often different species)",
+      "Only between bacteria and viruses",
+      "Between the nucleus and mitochondria"
+    ],
+    "answer": "Between organisms of the same generation (often different species)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Phage P1 is commonly used in which type of experiment?",
+    "options": [
+      "Conjugation mapping",
+      "Transformation",
+      "Generalized transduction",
+      "Restriction mapping"
+    ],
+    "answer": "Generalized transduction",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If two genes have a high cotransduction frequency, they are:",
+    "options": [
+      "Far apart",
+      "Physically close to each other",
+      "On different chromosomes",
+      "Never inherited together"
+    ],
+    "answer": "Physically close to each other",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the cotransduction formula `C = (1 - d/L)³`, what does `L` represent?",
+    "options": [
+      "The length of the entire bacterial chromosome",
+      "The maximum size of DNA that can fit in the phage head",
+      "The distance between the genes in base pairs",
+      "The time it takes for the phage to lyse the cell"
+    ],
+    "answer": "The maximum size of DNA that can fit in the phage head",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A transposon that carries antibiotic resistance genes in addition to its transposition genes is called a:",
+    "options": [
+      "Insertion Sequence",
+      "Complex Transposon",
+      "Integron",
+      "Hfr factor"
+    ],
+    "answer": "Complex Transposon",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The `neo-r` gene provides resistance to which antibiotic?",
+    "options": [
+      "Neomycin",
+      "Nystatin",
+      "Nitrofurantoin",
+      "Novobiocin"
+    ],
+    "answer": "Neomycin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which mechanism of genetic exchange was first discovered by Griffith in his 'S. pneumoniae' experiment?",
+    "options": [
+      "Conjugation",
+      "Transformation",
+      "Transduction",
+      "Transposition"
+    ],
+    "answer": "Transformation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'minutes' used in bacterial mapping (e.g., *E. coli* 100-minute map) refer to:",
+    "options": [
+      "The actual time of DNA replication",
+      "The time it takes for genes to enter a recipient during Hfr conjugation",
+      "The age of the bacterial culture",
+      "The speed of the phage infection"
+    ],
+    "answer": "The time it takes for genes to enter a recipient during Hfr conjugation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "An Hfr strain transfers chromosomal genes in which order?",
+    "options": [
+      "Randomly",
+      "Simultaneously",
+      "In a specific, linear sequence starting from the origin of transfer",
+      "Only the antibiotic resistance genes first"
+    ],
+    "answer": "In a specific, linear sequence starting from the origin of transfer",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Bacterial chromosomes are typically 'supercoiled' by which class of enzymes?",
+    "options": [
+      "Polymerases",
+      "Topoisomerases (e.g., DNA gyrase)",
+      "Ligases",
+      "Restriction enzymes"
+    ],
+    "answer": "Topoisomerases (e.g., DNA gyrase)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A 7.5 kb DNA fragment is digested with HindIII into 3.0 and 4.5 kb. SmaI cuts it into 2.0 and 5.5 kb. If SmaI and HindIII sites were on opposite ends, what would the double digest look like?",
+    "options": [
+      "2.0, 2.5, 3.0",
+      "1.0, 2.0, 4.5",
+      "3.0, 4.5",
+      "2.0, 5.5"
+    ],
+    "answer": "2.0, 2.5, 3.0",
+    "shuffleOptions": true
+  }
+]

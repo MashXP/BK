@@ -66,5 +66,25 @@ Mapping the relative positions of genes on the circular chromosome.
 
 ## 5. Other Genetic Elements
 - **Insertion Sequences (IS)**: Simple transposable elements encoding only the enzymes for transposition (e.g., IS50).
-- **Transposons (Tn)**: Complex elements that may carry additional genes like antibiotic resistance (e.g., Tn5).
+- **Transposons (Tn)**: Complex elements that may carry additional genes like antibiotic resistance.
+    - **Example (Tn5)**: Carries genes for resistance to neomycin (`neo-r`), bleomycin (`ble-r`), and streptomycin (`str-r`).
 - **Integrons**: DNA elements that capture and express gene **cassettes** (often carrying resistance genes) using site-specific recombination.
+
+---
+
+## 6. Restriction Mapping Practice (Source: Page 55)
+### Problem
+A 7.5 kb linear DNA fragment is digested with two restriction enzymes, *Hind*III and *Sma*I. The resulting fragments are analyzed via gel electrophoresis:
+- **HindIII alone**: 3.0 kb, 4.5 kb
+- **SmaI alone**: 2.0 kb, 5.5 kb
+- **Double Digest (HindIII + SmaI)**: 2.0 kb, 2.5 kb, 3.0 kb
+
+### Mapping Logic
+1.  **HindIII** cuts once ($3.0 + 4.5 = 7.5$).
+2.  **SmaI** cuts once ($2.0 + 5.5 = 7.5$).
+3.  **Double Digest** yields 3 fragments ($2.0 + 2.5 + 3.0 = 7.5$).
+4.  Since SmaI produces a 2.0 kb fragment and the double digest also has a 2.0 kb fragment, the SmaI site must be 2.0 kb from an end.
+5.  Since HindIII produces a 3.0 kb fragment and the double digest also has a 3.0 kb fragment, the HindIII site must be 3.0 kb from the opposite end.
+6.  The remaining middle fragment is $7.5 - 2.0 - 3.0 = 2.5$ kb.
+
+**Map**: `[End] --- 2.0 (SmaI) --- 2.5 (HindIII) --- 3.0 --- [End]`

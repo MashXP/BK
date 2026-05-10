@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the primary purpose of molecular cloning?",
+    "options": [
+      "To sequence an entire genome",
+      "To create identical copies of DNA fragments",
+      "To observe cell division under a microscope",
+      "To synthesize lipids"
+    ],
+    "answer": "To create identical copies of DNA fragments",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzyme is used to join an insert and a vector together during cloning?",
+    "options": [
+      "DNA Polymerase",
+      "DNA Ligase",
+      "Helicase",
+      "Restriction Endonuclease"
+    ],
+    "answer": "DNA Ligase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the purpose of using antibiotics in the cloning workflow?",
+    "options": [
+      "To kill the host cells entirely",
+      "To select for cells that have successfully taken up the plasmid",
+      "To induce protein expression",
+      "To stabilize the DNA double helix"
+    ],
+    "answer": "To select for cells that have successfully taken up the plasmid",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which technique is commonly used to verify the size and purity of an expressed protein?",
+    "options": [
+      "PCR",
+      "Southern Blot",
+      "SDS-PAGE",
+      "Northern Blot"
+    ],
+    "answer": "SDS-PAGE",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The pET-28a(+) vector contains a resistance marker for which antibiotic?",
+    "options": [
+      "Ampicillin",
+      "Kanamycin",
+      "Tetracycline",
+      "Chloramphenicol"
+    ],
+    "answer": "Kanamycin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the pET-28a(+) vector, what is the role of the 'lacI' gene?",
+    "options": [
+      "Antibiotic resistance",
+      "Regulation of protein expression",
+      "DNA replication origin",
+      "Promoting cell lysis"
+    ],
+    "answer": "Regulation of protein expression",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a 'Multiple Cloning Site' (MCS)?",
+    "options": [
+      "A region with many different restriction enzyme recognition sites",
+      "The origin of replication for the plasmid",
+      "The site where the antibiotic resistance gene is located",
+      "A sequence that codes for the signal peptide"
+    ],
+    "answer": "A region with many different restriction enzyme recognition sites",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the recognition sequence for the restriction enzyme BamHI?",
+    "options": [
+      "5'-AAGCTT-3'",
+      "5'-GGATCC-3'",
+      "5'-GAATTC-3'",
+      "5'-CTCGAG-3'"
+    ],
+    "answer": "5'-GGATCC-3'",
+    "shuffleOptions": true
+  },
+  {
+    "question": "PCR stands for:",
+    "options": [
+      "Protein chain Reaction",
+      "Polymerase Chain Reaction",
+      "Polynucleotide Coiling Region",
+      "Phosphate Catalyst Response"
+    ],
+    "answer": "Polymerase Chain Reaction",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which component of PCR serves as the building blocks for the new DNA strand?",
+    "options": [
+      "Primers",
+      "dNTPs (Nucleotides)",
+      "Taq Polymerase",
+      "Probes"
+    ],
+    "answer": "dNTPs (Nucleotides)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the role of primers in a PCR reaction?",
+    "options": [
+      "To provide energy for the reaction",
+      "To bracket the target DNA region and provide a starting point for synthesis",
+      "To denature the DNA at high temperatures",
+      "To protect the DNA from degradation"
+    ],
+    "answer": "To bracket the target DNA region and provide a starting point for synthesis",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is Taq polymerase used in PCR instead of normal E. coli DNA polymerase?",
+    "options": [
+      "It is faster",
+      "It is heat-stable and can survive the high temperatures of the denaturation step",
+      "It does not require primers",
+      "It can read RNA templates"
+    ],
+    "answer": "It is heat-stable and can survive the high temperatures of the denaturation step",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the typical temperature for the initial denaturation step in PCR?",
+    "options": [
+      "55°C",
+      "72°C",
+      "95°C",
+      "4°C"
+    ],
+    "answer": "95°C",
+    "shuffleOptions": true
+  },
+  {
+    "question": "During the annealing step of PCR, what is the temperature range usually used?",
+    "options": [
+      "95°C",
+      "45-68°C",
+      "72-80°C",
+      "37°C"
+    ],
+    "answer": "45-68°C",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the general rule for the extension time in a standard PCR cycle?",
+    "options": [
+      "10 seconds per cycle",
+      "1 minute per kilobase (kb) of DNA",
+      "5 minutes total",
+      "1 hour"
+    ],
+    "answer": "1 minute per kilobase (kb) of DNA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which technique is specifically used to detect the presence of a specific mRNA molecule?",
+    "options": [
+      "Southern Blot",
+      "Northern Blot",
+      "Western Blot",
+      "SDS-PAGE"
+    ],
+    "answer": "Northern Blot",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which technique is specifically used to detect the presence of a specific DNA sequence?",
+    "options": [
+      "Southern Blot",
+      "Northern Blot",
+      "Western Blot",
+      "ELISA"
+    ],
+    "answer": "Southern Blot",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A Western Blot is used to detect:",
+    "options": [
+      "DNA",
+      "RNA",
+      "Proteins",
+      "Lipids"
+    ],
+    "answer": "Proteins",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which chromatography technique is frequently used for high-purity protein purification in cloning workflows?",
+    "options": [
+      "Paper chromatography",
+      "Affinity chromatography",
+      "Gas chromatography",
+      "Size-exclusion only"
+    ],
+    "answer": "Affinity chromatography",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What happens during the denaturation step of a PCR cycle?",
+    "options": [
+      "Primers bind to the template",
+      "The double-stranded DNA template separates into single strands",
+      "The polymerase synthesizes a new strand",
+      "The reaction is stopped"
+    ],
+    "answer": "The double-stranded DNA template separates into single strands",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the typical number of cycles in a routine PCR thermocycling program?",
+    "options": [
+      "5 cycles",
+      "10-15 cycles",
+      "30 cycles",
+      "100 cycles"
+    ],
+    "answer": "30 cycles",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The recognition sequence for HindIII is:",
+    "options": [
+      "5'-GGATCC-3'",
+      "5'-AAGCTT-3'",
+      "5'-GATATC-3'",
+      "5'-CCCGGG-3'"
+    ],
+    "answer": "5'-AAGCTT-3'",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The f1 origin in pET-28a(+) is used for:",
+    "options": [
+      "Initiating bacterial DNA replication",
+      "Generating single-stranded DNA (often for sequencing/mutagenesis)",
+      "Antibiotic resistance",
+      "Transcription initiation"
+    ],
+    "answer": "Generating single-stranded DNA (often for sequencing/mutagenesis)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Recombinant DNA refers to:",
+    "options": [
+      "DNA that has been mutated naturally",
+      "A DNA molecule formed by joining segments from different sources",
+      "DNA that has been purified from a cell",
+      "The DNA in a ribosome"
+    ],
+    "answer": "A DNA molecule formed by joining segments from different sources",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the context of PCR, what are 'dNTPs'?",
+    "options": [
+      "Double-stranded nucleotides",
+      "Deoxynucleotide triphosphates",
+      "Dimerized nucleotide precursors",
+      "Determined nitrogenous types"
+    ],
+    "answer": "Deoxynucleotide triphosphates",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following describes the correct order of the three main steps in a single PCR cycle?",
+    "options": [
+      "Annealing -> Denaturation -> Extension",
+      "Denaturation -> Annealing -> Extension",
+      "Extension -> Denaturation -> Annealing",
+      "Denaturation -> Extension -> Annealing"
+    ],
+    "answer": "Denaturation -> Annealing -> Extension",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a major advantage of using TaqMan probes in qPCR?",
+    "options": [
+      "They make the reaction faster",
+      "They provide increased specificity and allow for real-time quantification",
+      "They allow PCR to occur at room temperature",
+      "They eliminate the need for primers"
+    ],
+    "answer": "They provide increased specificity and allow for real-time quantification",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Molecular hybridization techniques depend on which principle?",
+    "options": [
+      "Protein-protein interactions",
+      "Base-pairing (complementarity) between a probe and a target sequence",
+      "Enzyme-substrate specificity",
+      "Differential solubility in lipids"
+    ],
+    "answer": "Base-pairing (complementarity) between a probe and a target sequence",
+    "shuffleOptions": true
+  },
+  {
+    "question": "SDS-PAGE separates proteins primarily based on their:",
+    "options": [
+      "Charge",
+      "Molecular weight (size)",
+      "Isoelectric point",
+      "Hydrophobicity"
+    ],
+    "answer": "Molecular weight (size)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the typical size of the pET-28a(+) vector?",
+    "options": [
+      "1000 bp",
+      "5369 bp",
+      "10,000 bp",
+      "2.5 Mbp"
+    ],
+    "answer": "5369 bp",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A restriction enzyme that makes a 'staggered' cut produces:",
+    "options": [
+      "Blunt ends",
+      "Sticky (overhanging) ends",
+      "Circular ends",
+      "Hairpin loops"
+    ],
+    "answer": "Sticky (overhanging) ends",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which step in cloning ensures that the resulting plasmid has the correct DNA sequence?",
+    "options": [
+      "Ligation",
+      "Transformation",
+      "Sequencing (Verification)",
+      "Purification"
+    ],
+    "answer": "Sequencing (Verification)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In PCR, if the annealing temperature is too low, what is a likely outcome?",
+    "options": [
+      "No amplification occurs",
+      "The DNA template is degraded",
+      "Non-specific amplification (primers bind to incorrect sites)",
+      "The polymerase is inactivated"
+    ],
+    "answer": "Non-specific amplification (primers bind to incorrect sites)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What happens during the 'Final Extension' step of a PCR program?",
+    "options": [
+      "New cycles are started",
+      "The polymerase is denatured",
+      "It allows the completion of any partially synthesized strands",
+      "The reaction is cooled to 4°C"
+    ],
+    "answer": "It allows the completion of any partially synthesized strands",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT required for a standard PCR reaction?",
+    "options": [
+      "Template DNA",
+      "dNTPs",
+      "Restriction enzymes",
+      "Primers"
+    ],
+    "answer": "Restriction enzymes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The Southern Blot was named after:",
+    "options": [
+      "The geographical region where it was invented",
+      "Edwin Southern",
+      "The direction of the buffer flow",
+      "A type of protein found in the South"
+    ],
+    "answer": "Edwin Southern",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a Western Blot, what is typically used to detect the specific protein of interest?",
+    "options": [
+      "A radioactive DNA probe",
+      "Fluorescently labelled mRNA",
+      "Specific antibodies",
+      "Ethidium bromide"
+    ],
+    "answer": "Specific antibodies",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The process of introducing a plasmid into a bacterial cell is called:",
+    "options": [
+      "Translation",
+      "Transformation",
+      "Transduction",
+      "Transcription"
+    ],
+    "answer": "Transformation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the function of the 'ori' sequence in a plasmid vector?",
+    "options": [
+      "It codes for antibiotic resistance",
+      "It is the origin of replication required for the plasmid to be copied in the host",
+      "It contains the multiple cloning site",
+      "It acts as a stop codon"
+    ],
+    "answer": "It is the origin of replication required for the plasmid to be copied in the host",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following techniques follows protein synthesis to verify the final product?",
+    "options": [
+      "PCR",
+      "Southern Blot",
+      "Western Blot",
+      "Northern Blot"
+    ],
+    "answer": "Western Blot",
+    "shuffleOptions": true
+  }
+]

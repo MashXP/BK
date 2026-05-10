@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the total sedimentation coefficient of a prokaryotic ribosome?",
+    "options": [
+      "50S",
+      "70S",
+      "80S",
+      "100S"
+    ],
+    "answer": "70S",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following describes the subunits of a eukaryotic ribosome?",
+    "options": [
+      "30S and 50S",
+      "40S and 60S",
+      "50S and 70S",
+      "20S and 40S"
+    ],
+    "answer": "40S and 60S",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In prokaryotes, which rRNA molecule is a component of the 30S small subunit?",
+    "options": [
+      "5S rRNA",
+      "16S rRNA",
+      "23S rRNA",
+      "18S rRNA"
+    ],
+    "answer": "16S rRNA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which initiator amino acid is used specifically in prokaryotic translation?",
+    "options": [
+      "Methionine (Met)",
+      "Formyl-methionine (fMet)",
+      "Leucine",
+      "Valine"
+    ],
+    "answer": "Formyl-methionine (fMet)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The Shine-Dalgarno sequence is a feature of:",
+    "options": [
+      "Eukaryotic mRNA",
+      "Prokaryotic mRNA",
+      "Viral DNA",
+      "Transfer RNA (tRNA)"
+    ],
+    "answer": "Prokaryotic mRNA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a major difference between prokaryotic and eukaryotic translation processes?",
+    "options": [
+      "Prokaryotes use tRNA, while eukaryotes use mRNA",
+      "Prokaryotes can perform transcription and translation simultaneously",
+      "Eukaryotes do not use ribosomes",
+      "Prokaryotes require a 5' Cap for initiation"
+    ],
+    "answer": "Prokaryotes can perform transcription and translation simultaneously",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In eukaryotes, which rRNA molecule is found in the 40S subunit?",
+    "options": [
+      "18S rRNA",
+      "28S rRNA",
+      "5.8S rRNA",
+      "16S rRNA"
+    ],
+    "answer": "18S rRNA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which rRNAs are components of the eukaryotic 60S large subunit?",
+    "options": [
+      "5S, 16S, 23S",
+      "5S, 5.8S, 28S",
+      "18S only",
+      "5S and 18S"
+    ],
+    "answer": "5S, 5.8S, 28S",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Initiation of translation in prokaryotes involves the 30S subunit binding to which specific mRNA sequence?",
+    "options": [
+      "TATA box",
+      "Shine-Dalgarno sequence",
+      "Kozak sequence",
+      "Poly-A tail"
+    ],
+    "answer": "Shine-Dalgarno sequence",
+    "shuffleOptions": true
+  },
+  {
+    "question": "During the elongation phase of translation, where does the new aminoacyl-tRNA enter the ribosome?",
+    "options": [
+      "P site",
+      "E site",
+      "A site",
+      "Exit tunnel"
+    ],
+    "answer": "A site",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzyme activity is responsible for forming the peptide bond between amino acids?",
+    "options": [
+      "RNA polymerase",
+      "Peptidyl transferase",
+      "Aminoacyl-tRNA synthetase",
+      "Helicase"
+    ],
+    "answer": "Peptidyl transferase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What happens during the translocation step of elongation?",
+    "options": [
+      "The mRNA is degraded",
+      "The ribosome moves along the mRNA by one codon",
+      "The peptide chain is released",
+      "The tRNA is charged with a new amino acid"
+    ],
+    "answer": "The ribosome moves along the mRNA by one codon",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following are the three standard stop codons recognized by release factors?",
+    "options": [
+      "AUG, GUA, CAU",
+      "UAA, UAG, UGA",
+      "AAA, CCC, GGG",
+      "UAU, UGU, UUC"
+    ],
+    "answer": "UAA, UAG, UGA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In cap-dependent initiation in eukaryotes, which proteins bind to the 5' Cap?",
+    "options": [
+      "IF1 and IF2",
+      "eIFs (eukaryotic initiation factors)",
+      "Release factors",
+      "DNA polymerases"
+    ],
+    "answer": "eIFs (eukaryotic initiation factors)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does IRES stand for in the context of translation?",
+    "options": [
+      "Internal Ribosome Entry Site",
+      "Initial RNA Entry Sequence",
+      "Independent Ribosomal Elongation Signal",
+      "Intergenic Region Enhancer Segment"
+    ],
+    "answer": "Internal Ribosome Entry Site",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which mechanism allows for eukaryotic translation initiation without a 5' Cap?",
+    "options": [
+      "Shine-Dalgarno sequence binding",
+      "IRES-mediated initiation",
+      "Direct binding to the Poly-A tail",
+      "Simultaneous transcription"
+    ],
+    "answer": "IRES-mediated initiation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which release factors are specific to eukaryotic translation termination?",
+    "options": [
+      "RF1 and RF2",
+      "eRF1 and eRF3",
+      "IF1 and IF3",
+      "eEF1 and eEF2"
+    ],
+    "answer": "eRF1 and eRF3",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In prokaryotes, which component of the ribosome provides the peptidyl transferase activity?",
+    "options": [
+      "A specific protein in the 50S subunit",
+      "The 23S rRNA in the large subunit",
+      "The 16S rRNA in the small subunit",
+      "The tRNA in the P site"
+    ],
+    "answer": "The 23S rRNA in the large subunit",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the role of IFs (initiation factors) in prokaryotic translation?",
+    "options": [
+      "They form the peptide bond",
+      "They help the 30S subunit bind to mRNA and fMet-tRNA",
+      "They catalyze translocation",
+      "They recognize the stop codon"
+    ],
+    "answer": "They help the 30S subunit bind to mRNA and fMet-tRNA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "After the peptide bond is formed, the tRNA in the P site moves to which site before exiting?",
+    "options": [
+      "A site",
+      "E site",
+      "P site",
+      "Initiator site"
+    ],
+    "answer": "E site",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In eukaryotes, the 43S pre-initiation complex scans the mRNA for which sequence?",
+    "options": [
+      "The Shine-Dalgarno sequence",
+      "The start codon (AUG)",
+      "The stop codon",
+      "The promoter"
+    ],
+    "answer": "The start codon (AUG)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Eukaryotic transcription and translation are spatially separated because:",
+    "options": [
+      "Eukaryotes have no nucleus",
+      "Transcription occurs in the nucleus and translation in the cytoplasm",
+      "Translation occurs in the nucleus",
+      "Ribosomes are found inside the nucleus"
+    ],
+    "answer": "Transcription occurs in the nucleus and translation in the cytoplasm",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which eukaryotic subunit carries out the scanning process for the start codon?",
+    "options": [
+      "40S subunit",
+      "60S subunit",
+      "50S subunit",
+      "70S subunit"
+    ],
+    "answer": "40S subunit",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which ribosomal site is occupied by the initiator tRNA during the assembly of the full ribosome?",
+    "options": [
+      "A site",
+      "P site",
+      "E site",
+      "S site"
+    ],
+    "answer": "P site",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The energy for translation (specifically initiation, elongation, and translocation) is primarily derived from:",
+    "options": [
+      "ATP",
+      "GTP",
+      "TTP",
+      "CTP"
+    ],
+    "answer": "GTP",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is true regarding the genetic code?",
+    "options": [
+      "It is overlapping",
+      "It is nearly universal across all life forms",
+      "Each codon specifies multiple amino acids",
+      "There are no stop codons"
+    ],
+    "answer": "It is nearly universal across all life forms",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Peptidyl transferase is an example of a:",
+    "options": [
+      "Protease",
+      "Ribozyme",
+      "DNA polymerase",
+      "Phosphatase"
+    ],
+    "answer": "Ribozyme",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the function of eukaryotic elongation factors (eEFs)?",
+    "options": [
+      "Binding to the 5' Cap",
+      "Facilitating tRNA entry and ribosome movement during elongation",
+      "Recognizing the TATA box",
+      "Cleaving the mRNA after translation"
+    ],
+    "answer": "Facilitating tRNA entry and ribosome movement during elongation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which statement about prokaryotic 50S subunit rRNAs is correct?",
+    "options": [
+      "It contains 5S and 23S rRNA",
+      "It contains 16S and 18S rRNA",
+      "It only contains proteins",
+      "It contains 28S rRNA"
+    ],
+    "answer": "It contains 5S and 23S rRNA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The sequence on the tRNA that pairs with the mRNA codon is called the:",
+    "options": [
+      "Sense codon",
+      "Anticodon",
+      "Shine-Dalgarno sequence",
+      "Poly-A signal"
+    ],
+    "answer": "Anticodon",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which initiation factor in eukaryotes is responsible for bringing the tRNA to the 40S subunit?",
+    "options": [
+      "eIF2",
+      "eIF4E",
+      "IF1",
+      "RF3"
+    ],
+    "answer": "eIF2",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In eukaryotes, the poly-A tail can interact with the 5' Cap to:",
+    "options": [
+      "Degrade the mRNA",
+      "Enhance translation efficiency by circularizing the mRNA",
+      "Prevent ribosome binding",
+      "Stop transcription"
+    ],
+    "answer": "Enhance translation efficiency by circularizing the mRNA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The mRNA Shine-Dalgarno sequence is complementary to a sequence at the 3' end of which rRNA?",
+    "options": [
+      "5S rRNA",
+      "16S rRNA",
+      "23S rRNA",
+      "28S rRNA"
+    ],
+    "answer": "16S rRNA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Release factors work by adding which molecule to the peptidyl-tRNA to release the chain?",
+    "options": [
+      "Another amino acid",
+      "A water molecule (hydrolysis)",
+      "A phosphate group",
+      "An acetyl group"
+    ],
+    "answer": "A water molecule (hydrolysis)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How many reading frames can an mRNA sequence potentially have?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "answer": "3",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which prokaryotic initiation factor prevents the large subunit from binding prematurely?",
+    "options": [
+      "IF1",
+      "IF2",
+      "IF3",
+      "eIF3"
+    ],
+    "answer": "IF3",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The A, P, and E sites of the ribosome stand for:",
+    "options": [
+      "Aminoacyl, Peptidyl, and Exit",
+      "Adenine, Protein, and Entry",
+      "Attachment, Poly-A, and End",
+      "Alpha, Proline, and Epsilon"
+    ],
+    "answer": "Aminoacyl, Peptidyl, and Exit",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Polysomes (polyribosomes) are:",
+    "options": [
+      "Large clusters of ribosomes in the nucleus",
+      "Multiple ribosomes translating a single mRNA molecule simultaneously",
+      "Specialized ribosomes for viral RNA",
+      "Degraded ribosomal subunits"
+    ],
+    "answer": "Multiple ribosomes translating a single mRNA molecule simultaneously",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which amino acid is typically found at the N-terminus of a newly synthesized eukaryotic protein?",
+    "options": [
+      "Formyl-methionine",
+      "Methionine",
+      "Alanine",
+      "Glycine"
+    ],
+    "answer": "Methionine",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In eukaryotes, which factor recognizes the 5' Cap specifically?",
+    "options": [
+      "eIF2",
+      "eIF4E",
+      "eIF4G",
+      "eIF1"
+    ],
+    "answer": "eIF4E",
+    "shuffleOptions": true
+  }
+]
