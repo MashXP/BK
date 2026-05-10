@@ -20,20 +20,20 @@ pdftoppm -jpeg -r 150 source_lecture.pdf _temp_images/page
 ```
 *Note: `-r 150` provides sufficient resolution while keeping file sizes manageable.*
 
-### 3. Iterative Batch Analysis
-**CRITICAL**: Process images in batches of 5 to maintain context and ensure comprehensive synthesis.
+### 3. Iterative Batch Analysis & Implementation
+**CRITICAL**: Process images in batches of 5. Update target file immediately after each batch to prevent context loss.
 
 **Step-by-Step Loop:**
 1.  **Batch Load**: Read **5** consecutive page images (e.g., `page-01.jpg` to `page-05.jpg`) using `read_file`.
-2.  **Analyze & Synthesize**:
+2.  **Analyze & Commit**:
     -   **Extract Content**: Identify headers, key concepts, formulas, and code snippets.
-    -   **Structure**: Format content into Markdown, preserving hierarchical relationships found on slides.
+    -   **Write/Update**: Immediately append synthesized content to the target Markdown file or update existing sections. Do not wait for all batches to finish.
     -   **Cross-Reference (if verifying)**: Compare image content against existing Markdown and note discrepancies.
 3.  **Repeat**: Move to the next batch of 5 images until the lecture is complete.
 
 ### 4. Final Review
--   Combine batch outputs into a single cohesive Markdown file.
--   Ensure consistent formatting and check for missing transitions between batches.
+-   Review the file for cohesive flow and check for missing transitions between batches.
+-   Ensure consistent formatting throughout.
 -   Add WikiLinks to related materials.
 
 ### 5. Cleanup
