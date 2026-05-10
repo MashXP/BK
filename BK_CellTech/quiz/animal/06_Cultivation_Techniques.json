@@ -1,0 +1,420 @@
+[
+  {
+    "question": "What is the primary purpose of microcarrier culture?",
+    "options": [
+      "To grow lymphocytes in suspension without any surface",
+      "To allow anchorage-dependent cells to be grown in suspension by providing a small floating surface",
+      "To encapsulate cells in a semi-permeable membrane for transplantation",
+      "To count cells automatically using lasers"
+    ],
+    "answer": "To allow anchorage-dependent cells to be grown in suspension by providing a small floating surface",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which material is NOT commonly used to make microcarrier beads?",
+    "options": [
+      "Dextran",
+      "Cellulose",
+      "Plastic",
+      "Stainless Steel"
+    ],
+    "answer": "Stainless Steel",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the standard concentration of microcarriers used in a bioreactor (e.g., Cytodex)?",
+    "options": [
+      "2x10^2 beads/mL",
+      "2x10^5 beads/mL",
+      "2x10^8 beads/mL",
+      "10^10 beads/mL"
+    ],
+    "answer": "2x10^5 beads/mL",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is gentle stirring (50-70 rpm) critical in microcarrier culture?",
+    "options": [
+      "To maximize the temperature of the media",
+      "To keep beads in suspension without causing shear damage to the cells",
+      "To ensure the cells stay inside the beads",
+      "To prevent the media from becoming acidic"
+    ],
+    "answer": "To keep beads in suspension without causing shear damage to the cells",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which type of microcarrier has a positively charged dextran matrix to attract cells?",
+    "options": [
+      "Cytodex 1",
+      "Cytodex 3",
+      "Cytopore",
+      "Cytoline"
+    ],
+    "answer": "Cytodex 1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which microcarrier is coated with Collagen type I to mimic the Extracellular Matrix (ECM)?",
+    "options": [
+      "Cytodex 1",
+      "Cytodex 3",
+      "Cytopore",
+      "Cytoline"
+    ],
+    "answer": "Cytodex 3",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the key advantage of using macroporous microcarriers like Cytopore?",
+    "options": [
+      "Cells grow on the surface and are easily counted",
+      "Cells grow inside the pores, protecting them from shear forces",
+      "They are made of magnetic material",
+      "They are cheaper than standard plastic beads"
+    ],
+    "answer": "Cells grow inside the pores, protecting them from shear forces",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which microcarrier is characterized by high density and composed of silica/polyethylene?",
+    "options": [
+      "Cytodex 1",
+      "Cytopore",
+      "Cytoline",
+      "Cytodex 3"
+    ],
+    "answer": "Cytoline",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a method for detaching cells from microcarrier beads?",
+    "options": [
+      "Centrifugation at 10,000 rpm",
+      "Trypsinization (enzymatic digestion)",
+      "Heating to 45\u00b0C",
+      "Adding more microcarriers"
+    ],
+    "answer": "Trypsinization (enzymatic digestion)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Besides enzymes, what other chemical can be used for cell detachment in microcarrier culture?",
+    "options": [
+      "Glucose",
+      "Chelating agents (EDTA)",
+      "Phenol Red",
+      "DMSO"
+    ],
+    "answer": "Chelating agents (EDTA)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Hypotonic shock is a method used for cell detachment.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "How are beads separated from cells during harvesting after detachment?",
+    "options": [
+      "Using a magnet",
+      "Differential sedimentation (beads settle faster than cells)",
+      "By adding serum to dissolve the beads",
+      "By using an inverted microscope"
+    ],
+    "answer": "Differential sedimentation (beads settle faster than cells)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What mesh size is typically used for filtration to separate cells from microcarrier beads?",
+    "options": [
+      "1 \u00b5m",
+      "10 \u00b5m",
+      "100 \u00b5m",
+      "1000 \u00b5m"
+    ],
+    "answer": "100 \u00b5m",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary goal of cell encapsulation for transplantation?",
+    "options": [
+      "To make the cells grow faster in the host",
+      "To protect the transplanted cells from the host immune system (immune isolation)",
+      "To prevent the cells from producing therapeutic products",
+      "To change the genetic makeup of the cells"
+    ],
+    "answer": "To protect the transplanted cells from the host immune system (immune isolation)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why can therapeutic products like insulin exit an encapsulation capsule?",
+    "options": [
+      "The capsule has large holes for all molecules",
+      "The capsule is made of a semi-permeable membrane that allows small molecules to diffuse",
+      "The cells break the capsule when they produce insulin",
+      "Insulin is a gas that passes through the material"
+    ],
+    "answer": "The capsule is made of a semi-permeable membrane that allows small molecules to diffuse",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which material is commonly used to form solid capsules in cell encapsulation?",
+    "options": [
+      "Trypsin",
+      "Alginate",
+      "Collagen",
+      "Dextran"
+    ],
+    "answer": "Alginate",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does 'Immune Isolation' mean in the context of encapsulation?",
+    "options": [
+      "The cells are isolated from all nutrients",
+      "Antibodies and immune cells from the host cannot enter the capsule to attack the cells",
+      "The cells are trained to become part of the immune system",
+      "The cells are kept in a separate room from the patient"
+    ],
+    "answer": "Antibodies and immune cells from the host cannot enter the capsule to attack the cells",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which method is used for generating 3D spheroids or Embryoid Bodies (EBs)?",
+    "options": [
+      "Microcarrier Culture",
+      "Hanging Drop Method",
+      "Trypsinization",
+      "Centrifugation"
+    ],
+    "answer": "Hanging Drop Method",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does the hanging drop method promote cell aggregation?",
+    "options": [
+      "By using magnetic force",
+      "By using gravity to concentrate cells at the bottom of a droplet",
+      "By adding glue to the media",
+      "By stirring the droplet rapidly"
+    ],
+    "answer": "By using gravity to concentrate cells at the bottom of a droplet",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Hanging drop method is particularly useful for which type of cells?",
+    "options": [
+      "Red blood cells",
+      "Stem cells (for EB formation)",
+      "Bacteria",
+      "Skin fibroblasts"
+    ],
+    "answer": "Stem cells (for EB formation)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Microcarrier beads always carry a negative charge to repel cells.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which of the following is a drawback of microcarrier culture?",
+    "options": [
+      "It cannot be scaled up",
+      "Harvesting cells from the beads can be technically difficult",
+      "It only works for suspension cells",
+      "It requires no media"
+    ],
+    "answer": "Harvesting cells from the beads can be technically difficult",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In cell encapsulation, which of the following can diffuse THROUGH the semi-permeable membrane?",
+    "options": [
+      "Host antibodies",
+      "Nutrients and Oxygen",
+      "Immune T-cells",
+      "Large viral particles"
+    ],
+    "answer": "Nutrients and Oxygen",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Encapsulation can involve hollow silica or inorganic hybrids.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "What is the typical diameter of a microcarrier bead?",
+    "options": [
+      "1-10 nm",
+      "100-300 \u00b5m",
+      "1-5 mm",
+      "10 cm"
+    ],
+    "answer": "100-300 \u00b5m",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Cytodex 1 microcarriers use a ________ charge to facilitate cell attachment.",
+    "options": [
+      "Positive",
+      "Negative",
+      "Neutral",
+      "Magnetic"
+    ],
+    "answer": "Positive",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which harvesting step follows detachment in microcarrier culture?",
+    "options": [
+      "Washing with PBS",
+      "Separation of cells from beads",
+      "Adding more media",
+      "Stirring at 100 rpm"
+    ],
+    "answer": "Separation of cells from beads",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Differential sedimentation works because beads settle faster than cells due to their greater mass/size.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Hanging drops are usually created on the underside of a Petri dish lid.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "3D spheroids are a more physiologically relevant model than 2D monolayers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Cell encapsulation is a strategy for 'Cell Therapy' to deliver products like insulin.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which microcarrier is specifically described as having macroporous cellulose?",
+    "options": [
+      "Cytodex 1",
+      "Cytodex 3",
+      "Cytopore",
+      "Cytoline"
+    ],
+    "answer": "Cytopore",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The hanging drop method prevents cells from attaching to any plastic surface.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Embryoid Bodies (EBs) are aggregates of:",
+    "options": [
+      "Epithelial cells",
+      "Pluripotent stem cells",
+      "Fibroblasts",
+      "Yeast cells"
+    ],
+    "answer": "Pluripotent stem cells",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the benefit of growing cells INSIDE pores (macroporous beads)?",
+    "options": [
+      "Easier detachment",
+      "Protection from fluid shear forces in the bioreactor",
+      "Increased visibility under the microscope",
+      "Lower nutrient requirement"
+    ],
+    "answer": "Protection from fluid shear forces in the bioreactor",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a physical method for cell detachment in microcarrier systems?",
+    "options": [
+      "Trypsin",
+      "EDTA",
+      "Hypotonic shock",
+      "Serum addition"
+    ],
+    "answer": "Hypotonic shock",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Filtration using 100\u00b5m mesh allows beads to pass through while retaining cells.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Cell encapsulation can involve membrane-coated hollow spheres.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which of the following is a characteristic of Cytoline microcarriers?",
+    "options": [
+      "Low density",
+      "High density silica/polyethylene",
+      "Positive charge only",
+      "Collagen coating"
+    ],
+    "answer": "High density silica/polyethylene",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The term 'Bioreactor' usually refers to a vessel for large-scale cell cultivation.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  }
+]

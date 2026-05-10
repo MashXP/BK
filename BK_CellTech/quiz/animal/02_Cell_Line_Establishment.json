@@ -1,0 +1,436 @@
+[
+  {
+    "question": "Which of the following is the correct order of stages in establishing a continuous cell line?",
+    "options": [
+      "Primary Culture -> Subculture -> Cell Line -> Continuous Cell Line",
+      "Cell Line -> Primary Culture -> Subculture -> Continuous Cell Line",
+      "Subculture -> Primary Culture -> Cell Line -> Continuous Cell Line",
+      "Continuous Cell Line -> Cell Line -> Subculture -> Primary Culture"
+    ],
+    "answer": "Primary Culture -> Subculture -> Cell Line -> Continuous Cell Line",
+    "shuffleOptions": false
+  },
+  {
+    "question": "What happens to normal cells during senescence?",
+    "options": [
+      "They transform into tumor cells",
+      "They stop dividing after a finite number of doublings",
+      "They begin to divide at an accelerated rate",
+      "They lose their requirement for anchorage"
+    ],
+    "answer": "They stop dividing after a finite number of doublings",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which feature is characteristic of transformed cells compared to normal cells?",
+    "options": [
+      "High serum requirement",
+      "Strict density-dependent inhibition",
+      "Reduced dependence on anchorage (can grow in agar)",
+      "Stable diploid genetics"
+    ],
+    "answer": "Reduced dependence on anchorage (can grow in agar)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In terms of doubling time, how do transformed cells typically compare to normal cells?",
+    "options": [
+      "Transformed cells have a longer doubling time",
+      "Transformed cells have a reduced doubling time (faster growth)",
+      "Both have identical doubling times",
+      "Normal cells always grow faster than transformed cells"
+    ],
+    "answer": "Transformed cells have a reduced doubling time (faster growth)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which phase of the cell cycle is dedicated to DNA replication?",
+    "options": [
+      "G1 Phase",
+      "S Phase",
+      "G2 Phase",
+      "M Phase"
+    ],
+    "answer": "S Phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary function of G1 Phase in the cell cycle?",
+    "options": [
+      "Cell division into two daughter cells",
+      "Preparation for DNA replication by synthesizing proteins and enzymes",
+      "Preparation for mitosis",
+      "Actual synthesis of new DNA strands"
+    ],
+    "answer": "Preparation for DNA replication by synthesizing proteins and enzymes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which proteins are the primary regulators of the cell cycle?",
+    "options": [
+      "Albumin and Globulin",
+      "Cyclins and Cyclin-Dependent Kinases (CDKs)",
+      "Insulin and Glucagon",
+      "Hemoglobin and Myoglobin"
+    ],
+    "answer": "Cyclins and Cyclin-Dependent Kinases (CDKs)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a primary function of telomeres at the ends of chromosomes?",
+    "options": [
+      "Encoding essential enzymes for metabolism",
+      "Protecting chromosome ends from degradation",
+      "Acting as the site for ribosome attachment",
+      "Regulating the transport of mRNA out of the nucleus"
+    ],
+    "answer": "Protecting chromosome ends from degradation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What phenomenon does the 'End replication problem' describe?",
+    "options": [
+      "The inability of DNA polymerase to fully replicate the very ends of linear chromosomes",
+      "The tendency of cells to stop dividing in high density",
+      "The mutation of DNA during the M phase",
+      "The breakdown of the nuclear envelope during prophase"
+    ],
+    "answer": "The inability of DNA polymerase to fully replicate the very ends of linear chromosomes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In which of the following cell types is telomerase typically ACTIVE?",
+    "options": [
+      "Most somatic cells",
+      "Aging fibroblasts",
+      "Cancer cells and stem cells",
+      "Muscle cells in adults"
+    ],
+    "answer": "Cancer cells and stem cells",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of aging fibroblasts in vitro?",
+    "options": [
+      "Increased doubling time",
+      "Decreased adhesion",
+      "Shortened telomeres",
+      "Increased telomerase activity"
+    ],
+    "answer": "Increased telomerase activity",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the effect of hTERT expression in a cell?",
+    "options": [
+      "It triggers immediate apoptosis",
+      "It reactivates telomerase, allowing cells to bypass senescence",
+      "It causes the cell to become anchorage-dependent",
+      "It inhibits the S-phase of the cell cycle"
+    ],
+    "answer": "It reactivates telomerase, allowing cells to bypass senescence",
+    "shuffleOptions": true
+  },
+  {
+    "question": "SV40 Large T-Antigen bypasses senescence by targeting which two 'guardian' proteins?",
+    "options": [
+      "Actin and Myosin",
+      "p53 and pRb",
+      "Ras and Myc",
+      "CDK4 and Cyclin D"
+    ],
+    "answer": "p53 and pRb",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does the SV40 T-antigen affect the pRb protein?",
+    "options": [
+      "It degrades pRb in the proteasome",
+      "It binds to pRb, releasing the transcription factor E2F",
+      "It phosphorylates pRb to activate it",
+      "It prevents pRb from entering the nucleus"
+    ],
+    "answer": "It binds to pRb, releasing the transcription factor E2F",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the result of releasing E2F from pRb?",
+    "options": [
+      "Immediate cell death",
+      "Induction of S-phase gene transcription",
+      "Stabilization of the nuclear membrane",
+      "Inhibition of protein synthesis"
+    ],
+    "answer": "Induction of S-phase gene transcription",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does SV40 T-antigen interact with p53?",
+    "options": [
+      "It increases p53 expression",
+      "It sequesters and inactivates p53, blocking apoptosis",
+      "It helps p53 bind to DNA more effectively",
+      "It has no interaction with p53"
+    ],
+    "answer": "It sequesters and inactivates p53, blocking apoptosis",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which viral system is specifically preferred for the immortalization of epithelial cells?",
+    "options": [
+      "EBV",
+      "SV40",
+      "HPV E6/E7",
+      "Adenovirus"
+    ],
+    "answer": "HPV E6/E7",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the specific role of the HPV E6 protein in immortalization?",
+    "options": [
+      "It binds pRb to release E2F",
+      "It recruits ubiquitin ligase to p53 for proteasomal degradation",
+      "It inhibits telomerase activity",
+      "It mimics the CD40 receptor"
+    ],
+    "answer": "It recruits ubiquitin ligase to p53 for proteasomal degradation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Besides p53 degradation, what else does HPV E6 induce?",
+    "options": [
+      "pRb activation",
+      "hTERT (telomerase) expression",
+      "G1 arrest",
+      "Contact inhibition"
+    ],
+    "answer": "hTERT (telomerase) expression",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary mechanism of HPV E7 in driving the cell cycle?",
+    "options": [
+      "Binds to and inactivates pRb, displacing E2F",
+      "Degrades p53 via the ubiquitin pathway",
+      "Activates the PI3K/Akt pathway directly",
+      "Inhibits Cyclin D production"
+    ],
+    "answer": "Binds to and inactivates pRb, displacing E2F",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which virus is considered the 'gold standard' for immortalizing human B-lymphocytes?",
+    "options": [
+      "SV40",
+      "HPV",
+      "EBV",
+      "HIV"
+    ],
+    "answer": "EBV",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the EBV system, which protein mimics a constitutively active CD40 receptor?",
+    "options": [
+      "EBNA-2",
+      "LMP-1",
+      "E6",
+      "T-antigen"
+    ],
+    "answer": "LMP-1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which signaling pathways are triggered by the EBV LMP-1 protein to ensure cell survival?",
+    "options": [
+      "MAPK and ERK",
+      "NF-\u03baB and PI3K/Akt",
+      "Wnt and Notch",
+      "p53 and pRb"
+    ],
+    "answer": "NF-\u03baB and PI3K/Akt",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the function of the EBNA-2 protein in EBV-infected cells?",
+    "options": [
+      "It degrades p53",
+      "It acts as a transcriptional activator of host genes like c-myc",
+      "It binds to magnetic microbeads",
+      "It prevents the cell from attaching to a substrate"
+    ],
+    "answer": "It acts as a transcriptional activator of host genes like c-myc",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does the RasV12 mutant provide to a cell in an immortalization system?",
+    "options": [
+      "Constitutively active growth factor signaling (MAPK/ERK)",
+      "Degradation of pRb",
+      "Extension of telomeres",
+      "Reversal of apoptosis"
+    ],
+    "answer": "Constitutively active growth factor signaling (MAPK/ERK)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why are MycT58A and RasV12 often used in cooperation with SV40 or E6/E7?",
+    "options": [
+      "To increase the cost of the media",
+      "To prevent Oncogene-Induced Senescence (OIS)",
+      "To ensure the cells remain primary",
+      "To decrease the doubling time"
+    ],
+    "answer": "To prevent Oncogene-Induced Senescence (OIS)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Normal cells are typically heteroploid or aneuploid.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which of the following describes the genetic stability of transformed cells?",
+    "options": [
+      "Highly stable diploid genome",
+      "Unstable (Heteroploid/Aneuploid)",
+      "Identical to the parent tissue indefinitely",
+      "Only contains mitochondrial DNA"
+    ],
+    "answer": "Unstable (Heteroploid/Aneuploid)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does 'Density-dependent inhibition' mean for normal cells?",
+    "options": [
+      "They grow faster as the density increases",
+      "They stop dividing once they form a confluent monolayer",
+      "They only grow when the density is extremely low",
+      "They die immediately upon contact with other cells"
+    ],
+    "answer": "They stop dividing once they form a confluent monolayer",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which phase of the cell cycle involves preparation for mitosis?",
+    "options": [
+      "G1",
+      "S",
+      "G2",
+      "M"
+    ],
+    "answer": "G2",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Telomerase is an enzyme that prevents the shortening of telomeres by synthesizing chromosome ends.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which oncogene is a transcription factor that drives rapid cycle progression when stabilized?",
+    "options": [
+      "Ras",
+      "Myc (e.g., MycT58A)",
+      "p53",
+      "pRb"
+    ],
+    "answer": "Myc (e.g., MycT58A)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the main risk of using SV40 Large T-Antigen for immortalization?",
+    "options": [
+      "Low efficiency of transformation",
+      "Potential for genomic instability and aneuploidy",
+      "Requirement for extremely high serum levels",
+      "Inability to grow epithelial cells"
+    ],
+    "answer": "Potential for genomic instability and aneuploidy",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which protein acts as a 'destroyer' of p53 via proteasomal degradation?",
+    "options": [
+      "SV40 T-antigen",
+      "HPV E6",
+      "HPV E7",
+      "EBV LMP-1"
+    ],
+    "answer": "HPV E6",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the cell establishment process, what follows a Primary Culture?",
+    "options": [
+      "Tissue Fragment",
+      "Subculture (Passage)",
+      "Immortalization",
+      "Crisis"
+    ],
+    "answer": "Subculture (Passage)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is 'Aneuploidy'?",
+    "options": [
+      "A stable set of chromosomes",
+      "An abnormal number of chromosomes",
+      "The process of cell division",
+      "The state of being anchorage-dependent"
+    ],
+    "answer": "An abnormal number of chromosomes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a symptom of 'In Vitro Aging' in fibroblasts?",
+    "options": [
+      "Decreased doubling time",
+      "Increased adhesion",
+      "Altered cytoskeleton",
+      "Elongated telomeres"
+    ],
+    "answer": "Altered cytoskeleton",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'T-antigen' of SV40 is a viral protein.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which virus uses LMP-1 to mimic CD40 signaling?",
+    "options": [
+      "Simian Virus 40",
+      "Human Papillomavirus",
+      "Epstein-Barr Virus",
+      "Cytomegalovirus"
+    ],
+    "answer": "Epstein-Barr Virus",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the doubling count range for the finite lifespan of normal cells?",
+    "options": [
+      "1-5",
+      "10-100",
+      "500-1000",
+      "Infinite"
+    ],
+    "answer": "10-100",
+    "shuffleOptions": true
+  }
+]

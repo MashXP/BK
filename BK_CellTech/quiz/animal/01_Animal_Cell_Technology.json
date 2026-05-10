@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the primary definition of an animal cell culture?",
+    "options": [
+      "Cells maintained as independent units in a homogeneous population",
+      "Cells grown within a living organism to study physiology",
+      "Heterogeneous mixtures of different tissue types in a bioreactor",
+      "Fixed tissue sections prepared for histological examination"
+    ],
+    "answer": "Cells maintained as independent units in a homogeneous population",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT a primary purpose of animal cell technology?",
+    "options": [
+      "Investigating normal cell physiology",
+      "Producing artificial skin tissue",
+      "Synthesizing viral vaccines",
+      "Cloning whole organisms from single somatic cells"
+    ],
+    "answer": "Cloning whole organisms from single somatic cells",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a significant advantage of using cell cultures over animal models?",
+    "options": [
+      "Increased complexity of systemic interactions",
+      "Precise control of environmental factors",
+      "Total elimination of ethical concerns for all culture types",
+      "Higher variability in experimental results"
+    ],
+    "answer": "Precise control of environmental factors",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What occurs during the 'differentiation loss' phase in continuous growth cultures?",
+    "options": [
+      "Cells become more specialized over time",
+      "Cell characteristics change, leading to a loss of specific tissue functions",
+      "Cells stop dividing and enter a permanent rest state",
+      "Cells begin to differentiate into multiple different lineages spontaneously"
+    ],
+    "answer": "Cell characteristics change, leading to a loss of specific tissue functions",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which equipment is essential for maintaining a sterile work area to prevent contamination?",
+    "options": [
+      "Inverted Microscope",
+      "Laminar Flow Cabinet",
+      "Centrifuge",
+      "CO2 Incubator"
+    ],
+    "answer": "Laminar Flow Cabinet",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What are the standard conditions maintained by a typical cell culture incubator?",
+    "options": [
+      "High CO2, High Humidity, Optimal Temperature",
+      "Vacuum environment, Low Temperature, Light-shielded",
+      "Pure Oxygen atmosphere, Dry conditions, 37°C",
+      "Atmospheric air, 10% Humidity, 40°C"
+    ],
+    "answer": "High CO2, High Humidity, Optimal Temperature",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is an inverted microscope specifically used in cell culture labs?",
+    "options": [
+      "To allow viewing of cells floating at the surface of the media",
+      "To view cells attached to the bottom of culture vessels through the objective from below",
+      "Because it has higher magnification than standard compound microscopes",
+      "To protect the user from harmful UV radiation used to visualize cells"
+    ],
+    "answer": "To view cells attached to the bottom of culture vessels through the objective from below",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the standard gas phase concentration of CO2 in a cell culture incubator?",
+    "options": [
+      "1–2%",
+      "5–10%",
+      "15–20%",
+      "25%"
+    ],
+    "answer": "5–10%",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which buffering system is commonly used in media that requires a CO2 atmosphere?",
+    "options": [
+      "HEPES Buffer",
+      "Bicarbonate-CO2 Buffer",
+      "Phosphate Buffered Saline (PBS)",
+      "TRIS Buffer"
+    ],
+    "answer": "Bicarbonate-CO2 Buffer",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What color does Phenol Red turn when the culture medium becomes acidic due to bacterial contamination?",
+    "options": [
+      "Red",
+      "Pink",
+      "Yellow",
+      "Purple"
+    ],
+    "answer": "Yellow",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which amino acid is critical as a carbon and nitrogen source but is notoriously unstable in media?",
+    "options": [
+      "Leucine",
+      "Glutamine",
+      "Alanine",
+      "Tryptophan"
+    ],
+    "answer": "Glutamine",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a major disadvantage of using serum (like FBS) in cell culture media?",
+    "options": [
+      "It inhibits cell growth",
+      "It is too cheap to be effective",
+      "It has high batch-to-batch variability",
+      "It eliminates the need for antibiotics"
+    ],
+    "answer": "It has high batch-to-batch variability",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which antibiotic is typically used to inhibit Gram-negative bacteria in cell culture?",
+    "options": [
+      "Penicillin G",
+      "Streptomycin",
+      "Amphotericin B",
+      "Gentamicin"
+    ],
+    "answer": "Streptomycin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which medium was specifically designed for lymphocyte and hybridoma cultures?",
+    "options": [
+      "DMEM",
+      "EMEM",
+      "RPMI 1640",
+      "Ham's F-12"
+    ],
+    "answer": "RPMI 1640",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which medium allows for fibroblast growth in the absence of a CO2-enriched atmosphere?",
+    "options": [
+      "Leibovitz",
+      "BME",
+      "GMEM",
+      "199"
+    ],
+    "answer": "Leibovitz",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary origin of a 'Primary Culture'?",
+    "options": [
+      "Cells derived directly from tissue via disaggregation",
+      "Cells derived from established tumor cell lines",
+      "Cells that have undergone spontaneous immortalization",
+      "Cells purchased from a commercial cell bank"
+    ],
+    "answer": "Cells derived directly from tissue via disaggregation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How many generations do primary cultures typically survive before reaching senescence?",
+    "options": [
+      "1–10",
+      "30–50",
+      "100–200",
+      "Unlimited"
+    ],
+    "answer": "30–50",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which cell morphology is described as polygonal and growing in attached discrete patches?",
+    "options": [
+      "Fibroblastic",
+      "Epithelial-like",
+      "Lymphoblast-like",
+      "Mesenchymal"
+    ],
+    "answer": "Epithelial-like",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is an example of an immortalized epithelial cell line derived from human cervical carcinoma?",
+    "options": [
+      "BHK",
+      "CHO",
+      "HeLa",
+      "COS-7"
+    ],
+    "answer": "HeLa",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a cell growth curve, which phase is characterized by no increase in cell number as cells adapt to the environment?",
+    "options": [
+      "Log Phase",
+      "Stationary Phase",
+      "Lag Phase",
+      "Decline Phase"
+    ],
+    "answer": "Lag Phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does Forward Scatter (FSC) correlate with in flow cytometry?",
+    "options": [
+      "Granularity",
+      "Cell Size",
+      "Fluorescence intensity",
+      "DNA content"
+    ],
+    "answer": "Cell Size",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does Side Scatter (SSC) measure in flow cytometry?",
+    "options": [
+      "Cell length",
+      "External markers",
+      "Internal complexity/granularity",
+      "Surface charge"
+    ],
+    "answer": "Internal complexity/granularity",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which biomarker combination is used to specifically identify T-helper cells?",
+    "options": [
+      "CD3+ and CD8+",
+      "CD3+ and CD4+",
+      "CD4+ and CD8+",
+      "CD19+ and CD3+"
+    ],
+    "answer": "CD3+ and CD4+",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In an Annexin V / PI apoptosis plot, which quadrant contains live, healthy cells?",
+    "options": [
+      "Bottom Right (LR)",
+      "Top Right (UR)",
+      "Bottom Left (LL)",
+      "Top Left (UL)"
+    ],
+    "answer": "Bottom Left (LL)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Cells that are Annexin V positive but PI negative are in which state?",
+    "options": [
+      "Live",
+      "Early Apoptosis",
+      "Late Apoptosis",
+      "Necrosis"
+    ],
+    "answer": "Early Apoptosis",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the purpose of Propidium Iodide (PI) in apoptosis analysis?",
+    "options": [
+      "To bind to phosphatidylserine on the outer membrane",
+      "To stain dead or dying cells with compromised membranes",
+      "To identify mitochondrial activity",
+      "To label specific surface receptors"
+    ],
+    "answer": "To stain dead or dying cells with compromised membranes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does Magnetic Cell Sorting (MACS) separate cells?",
+    "options": [
+      "By using lasers to push cells into different containers",
+      "By using antibodies conjugated to magnetic microbeads",
+      "By using density gradients in a centrifuge",
+      "By using electric fields to attract charged cells"
+    ],
+    "answer": "By using antibodies conjugated to magnetic microbeads",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In MACS, what happens during 'Positive Selection'?",
+    "options": [
+      "Unlabeled cells are collected as the target population",
+      "Labeled cells are retained in a magnetic column and then eluted",
+      "All cells are killed except for the desired type",
+      "Cells are sorted based on their forward scatter profile"
+    ],
+    "answer": "Labeled cells are retained in a magnetic column and then eluted",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which media component is primarily responsible for maintaining the osmolarity of the culture?",
+    "options": [
+      "Glucose",
+      "Vitamins",
+      "Salts",
+      "Amino Acids"
+    ],
+    "answer": "Salts",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a major limitation of primary cell cultures compared to cell lines?",
+    "options": [
+      "They are genetically unstable",
+      "They have a finite lifespan and will eventually reach senescence",
+      "They cannot be grown in suspension",
+      "They are always derived from tumors"
+    ],
+    "answer": "They have a finite lifespan and will eventually reach senescence",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following describes 'Crisis phase' in the context of cell culture?",
+    "options": [
+      "The moment when a culture becomes contaminated",
+      "The period of rapid exponential growth",
+      "The point where finite cell lines stop dividing and die or transform",
+      "The recovery period after cryopreservation"
+    ],
+    "answer": "The point where finite cell lines stop dividing and die or transform",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the role of Glutamine in cell culture media?",
+    "options": [
+      "It acts solely as a pH indicator",
+      "It provides both carbon and nitrogen for cell growth",
+      "It is an antifungal agent",
+      "It increases the stability of vitamins"
+    ],
+    "answer": "It provides both carbon and nitrogen for cell growth",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which quadrant in an Annexin V/PI plot indicates late apoptosis or necrosis?",
+    "options": [
+      "LL (Lower Left)",
+      "LR (Lower Right)",
+      "UR (Upper Right)",
+      "UL (Upper Left)"
+    ],
+    "answer": "UR (Upper Right)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why might a researcher choose Fructose over Glucose as a carbohydrate source?",
+    "options": [
+      "To increase the growth rate significantly",
+      "To decrease the production of lactic acid and stabilize pH",
+      "To provide a cheaper alternative for large scale production",
+      "Because Fructose is essential for all cell types"
+    ],
+    "answer": "To decrease the production of lactic acid and stabilize pH",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In flow cytometry, what is 'Immunophenotyping'?",
+    "options": [
+      "Measuring the size of cells using laser light",
+      "Using fluorescently labeled antibodies to identify specific cell markers",
+      "Separating cells based on their magnetic properties",
+      "Counting the number of dead cells in a sample"
+    ],
+    "answer": "Using fluorescently labeled antibodies to identify specific cell markers",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which cell line is described as 'Fibroblast-like' and originating from 'Baby Hamster Kidney'?",
+    "options": [
+      "CHO",
+      "HeLa",
+      "BHK",
+      "3T3"
+    ],
+    "answer": "BHK",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the standard concentration of Penicillin G used in culture media?",
+    "options": [
+      "10 U/ml",
+      "100 U/ml",
+      "1000 U/ml",
+      "50 mg/l"
+    ],
+    "answer": "100 U/ml",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the main function of HEPES in cell culture media?",
+    "options": [
+      "Energy source",
+      "Antibiotic agent",
+      "Organic buffering agent",
+      "Growth factor"
+    ],
+    "answer": "Organic buffering agent",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which phase of the growth curve is the best time to harvest cells for experiments requiring healthy, actively dividing cells?",
+    "options": [
+      "Lag Phase",
+      "Log (Exponential) Phase",
+      "Stationary Phase",
+      "Decline Phase"
+    ],
+    "answer": "Log (Exponential) Phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What happens to bicarbonate-buffered media when it is removed from a CO2 incubator?",
+    "options": [
+      "It becomes highly acidic",
+      "It becomes alkaline (pH increases)",
+      "It remains stable at pH 7.2",
+      "It solidifies"
+    ],
+    "answer": "It becomes alkaline (pH increases)",
+    "shuffleOptions": true
+  }
+]

@@ -1,0 +1,428 @@
+[
+  {
+    "question": "Which of the following is a manual direct method for cell counting?",
+    "options": [
+      "Lowry Assay",
+      "Haemocytometer",
+      "Glucose Consumption",
+      "DNA Determination"
+    ],
+    "answer": "Haemocytometer",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which dye is commonly used in the dye exclusion method to distinguish live cells from dead cells?",
+    "options": [
+      "Phenol Red",
+      "Trypan Blue",
+      "MTT",
+      "Annexin V"
+    ],
+    "answer": "Trypan Blue",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does Trypan Blue work in viability testing?",
+    "options": [
+      "Live cells take up the dye and turn blue",
+      "Dead cells take up the dye and turn blue, while live cells exclude it",
+      "The dye reacts with mitochondrial enzymes to produce a purple color",
+      "The dye binds to DNA in the nucleus of healthy cells"
+    ],
+    "answer": "Dead cells take up the dye and turn blue, while live cells exclude it",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the standard formula to calculate cells per ml using a Haemocytometer (Neubauer chamber)?",
+    "options": [
+      "Cells per ml = Total count * 10^2",
+      "Cells per ml = (Total count * 10^4) / Number of squares counted",
+      "Cells per ml = Total count / 10^4",
+      "Cells per ml = (Total count * Volume) / 100"
+    ],
+    "answer": "Cells per ml = (Total count * 10^4) / Number of squares counted",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is an example of an automatic image analysis system for cell counting?",
+    "options": [
+      "Lowry System",
+      "Sorcerer System",
+      "Bradford System",
+      "Hoechst System"
+    ],
+    "answer": "Sorcerer System",
+    "shuffleOptions": true
+  },
+  {
+    "question": "When would a researcher typically use an indirect method for determining cell density?",
+    "options": [
+      "When cells are in a simple suspension in a T-flask",
+      "When direct counting is difficult, such as with colonies in agar or complex bioreactors",
+      "Only when the cells are already dead",
+      "When they want to measure the size of the cells"
+    ],
+    "answer": "When direct counting is difficult, such as with colonies in agar or complex bioreactors",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which assay is used for protein determination as an indirect measure of cell number?",
+    "options": [
+      "MTT Assay",
+      "Lowry Assay",
+      "Glucose Oxidase Assay",
+      "LDH Assay"
+    ],
+    "answer": "Lowry Assay",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Besides the Lowry assay, which other method is mentioned for protein determination?",
+    "options": [
+      "Bradford Assay",
+      "Hoechst Assay",
+      "Trypan Assay",
+      "Annexin Assay"
+    ],
+    "answer": "Bradford Assay",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How can DNA determination be used to estimate cell numbers?",
+    "options": [
+      "By measuring the amount of glucose consumed by the DNA",
+      "By using fluorescent reagents like Hoechst 33258 that bind to DNA",
+      "By counting the number of chromosomes under an inverted microscope",
+      "By measuring the rate of DNA secretion into the media"
+    ],
+    "answer": "By using fluorescent reagents like Hoechst 33258 that bind to DNA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What metabolic activity can be measured to estimate cell density indirectly?",
+    "options": [
+      "Oxygen production",
+      "Glucose consumption",
+      "Trypan blue exclusion",
+      "Laminar flow rate"
+    ],
+    "answer": "Glucose consumption",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzymes are involved in the indirect measurement of metabolic activity via glucose consumption?",
+    "options": [
+      "DNA Polymerase and Ligase",
+      "Glucose oxidase and peroxidase",
+      "Trypsin and Collagenase",
+      "LDH and MTT"
+    ],
+    "answer": "Glucose oxidase and peroxidase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The MTT assay measures viability based on which cellular component's activity?",
+    "options": [
+      "Cell membrane integrity",
+      "Mitochondrial activity",
+      "Nucleus size",
+      "Ribosome count"
+    ],
+    "answer": "Mitochondrial activity",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In an MTT assay, what is the color change observed when cells are viable?",
+    "options": [
+      "Blue to Red",
+      "Yellow to Purple",
+      "Clear to Blue",
+      "Green to Yellow"
+    ],
+    "answer": "Yellow to Purple",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What substance is MTT reduced to in viable cells?",
+    "options": [
+      "Lactate",
+      "Formazan",
+      "Glucose",
+      "ATP"
+    ],
+    "answer": "Formazan",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does the leakage of Lactate Dehydrogenase (LDH) into the culture medium indicate?",
+    "options": [
+      "High rate of cell division",
+      "Loss of membrane integrity and cell death",
+      "Active protein synthesis",
+      "Adequate nutrient supply"
+    ],
+    "answer": "Loss of membrane integrity and cell death",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How can intracellular energy charge be measured to assess viability?",
+    "options": [
+      "By measuring glucose levels in the media",
+      "By measuring ATP levels using Luciferase or Chromatography",
+      "By counting the number of mitochondria per cell",
+      "By observing the color of Phenol Red"
+    ],
+    "answer": "By measuring ATP levels using Luciferase or Chromatography",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which radioactive isotopes are used to measure the rate of protein synthesis as a proxy for viability?",
+    "options": [
+      "14C and 32P",
+      "3H-leucine and 35S-methionine",
+      "131I and 60Co",
+      "Uranium and Thorium"
+    ],
+    "answer": "3H-leucine and 35S-methionine",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Direct counting with a haemocytometer distinguishes between live and dead cells IF Trypan Blue is used.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which of the following is NOT an indirect method for cell counting?",
+    "options": [
+      "Lowry assay",
+      "DNA determination",
+      "Haemocytometer count",
+      "Glucose consumption measurement"
+    ],
+    "answer": "Haemocytometer count",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A Neubauer chamber is another name for which device?",
+    "options": [
+      "Incubator",
+      "Haemocytometer",
+      "Flow Cytometer",
+      "Centrifuge"
+    ],
+    "answer": "Haemocytometer",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The Sorcerer system is an example of manual counting.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which of the following measurements is a direct indicator of cell membrane damage?",
+    "options": [
+      "ATP levels",
+      "LDH determination",
+      "MTT reduction",
+      "Glucose consumption"
+    ],
+    "answer": "LDH determination",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary drawback of using radioactive isotopes for measuring protein synthesis?",
+    "options": [
+      "They are not sensitive enough",
+      "They require specialized handling and disposal of radioactive waste",
+      "They kill the cells immediately",
+      "They only work for plant cells"
+    ],
+    "answer": "They require specialized handling and disposal of radioactive waste",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Luciferase is used in the measurement of which viability marker?",
+    "options": [
+      "Glucose",
+      "ATP",
+      "DNA",
+      "Trypan Blue"
+    ],
+    "answer": "ATP",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the haemocytometer formula, what does '10^4' represent?",
+    "options": [
+      "The number of cells in the entire flask",
+      "The volume conversion factor for the counting chamber (0.1 mm depth)",
+      "The magnification of the microscope",
+      "The number of squares on the grid"
+    ],
+    "answer": "The volume conversion factor for the counting chamber (0.1 mm depth)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Dye exclusion is a method for measuring cell density ONLY.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which assay involves the conversion of a yellow substrate to a purple product by living cells?",
+    "options": [
+      "Lowry",
+      "MTT",
+      "Bradford",
+      "Trypan"
+    ],
+    "answer": "MTT",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is measured to determine cell death via LDH?",
+    "options": [
+      "LDH concentration inside the cells",
+      "LDH activity in the supernatant (culture media)",
+      "The color of the LDH enzyme",
+      "The rate of LDH synthesis"
+    ],
+    "answer": "LDH activity in the supernatant (culture media)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which method would be best for counting cells growing on a solid matrix in a bioreactor?",
+    "options": [
+      "Haemocytometer",
+      "Protein determination (Lowry/Bradford)",
+      "Inverted microscope",
+      "Laminar flow analysis"
+    ],
+    "answer": "Protein determination (Lowry/Bradford)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The Hoechst 33258 reagent is used to detect:",
+    "options": [
+      "Protein",
+      "Glucose",
+      "DNA",
+      "ATP"
+    ],
+    "answer": "DNA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Viability measurement determines the percentage of dead cells in a population.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Protein determination can differentiate between live and dead cells.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which method uses 'dye exclusion'?",
+    "options": [
+      "Trypan Blue",
+      "MTT",
+      "Hoechst 33258",
+      "Lowry"
+    ],
+    "answer": "Trypan Blue",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does a Haemocytometer measure?",
+    "options": [
+      "Cell size",
+      "Cell concentration (number of cells per unit volume)",
+      "Cell pH",
+      "Cell granularity"
+    ],
+    "answer": "Cell concentration (number of cells per unit volume)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "MTT is reduced by which organelles?",
+    "options": [
+      "Nucleus",
+      "Mitochondria",
+      "Lysosomes",
+      "Golgi apparatus"
+    ],
+    "answer": "Mitochondria",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Haemocytometer counting usually requires a microscope.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which technique provides information on both size and granularity of cells?",
+    "options": [
+      "MTT Assay",
+      "Flow Cytometry",
+      "Haemocytometer",
+      "Bradford Assay"
+    ],
+    "answer": "Flow Cytometry",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the Lowry assay, the color intensity is proportional to the amount of ________ in the sample.",
+    "options": [
+      "DNA",
+      "Glucose",
+      "Protein",
+      "ATP"
+    ],
+    "answer": "Protein",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The accumulation of formazan crystals is a key step in which assay?",
+    "options": [
+      "LDH",
+      "Lowry",
+      "MTT",
+      "DNA Determination"
+    ],
+    "answer": "MTT",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Indirect methods often measure a parameter that is proportional to the total cell mass.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  }
+]

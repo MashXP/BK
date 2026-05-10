@@ -1,0 +1,414 @@
+[
+  {
+    "question": "What is the most common type of serum used as a supplement in animal cell culture media?",
+    "options": [
+      "Human Serum",
+      "Fetal Bovine Serum (FBS)",
+      "Horse Serum",
+      "Chicken Serum"
+    ],
+    "answer": "Fetal Bovine Serum (FBS)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a key advantage of using serum in culture media?",
+    "options": [
+      "Low protein content for easy purification",
+      "High growth-promoting activity due to attachment factors and hormones",
+      "Zero risk of viral contamination",
+      "Consistent composition across all batches"
+    ],
+    "answer": "High growth-promoting activity due to attachment factors and hormones",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does Albumin in serum benefit cell cultures?",
+    "options": [
+      "It acts as a primary energy source like glucose",
+      "It protects cells from shear forces and pH fluctuations",
+      "It is a specific antibiotic against Gram-negative bacteria",
+      "It triggers apoptosis in old cells"
+    ],
+    "answer": "It protects cells from shear forces and pH fluctuations",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which disadvantage of serum significantly hinders the downstream purification of recombinant antibodies?",
+    "options": [
+      "High cost",
+      "Ethical concerns",
+      "High protein content",
+      "Potential for viral contamination"
+    ],
+    "answer": "High protein content",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Batch-to-batch variation in serum is a problem because:",
+    "options": [
+      "It makes the media too expensive",
+      "It affects the reproducibility of experimental results",
+      "It increases the risk of prions",
+      "It prevents cells from attaching to the plastic"
+    ],
+    "answer": "It affects the reproducibility of experimental results",
+    "shuffleOptions": true
+  },
+  {
+    "question": "BSE (Bovine Spongiform Encephalopathy) is a concern related to which serum disadvantage?",
+    "options": [
+      "Cost",
+      "Ethical concerns",
+      "Contamination risk (prions)",
+      "Growth promotion"
+    ],
+    "answer": "Contamination risk (prions)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Serum-free media strategies focus on identifying and adding which specific components?",
+    "options": [
+      "Antibiotics and Antifungals",
+      "Mitogenic components",
+      "Inorganic salts only",
+      "Waste products from other cultures"
+    ],
+    "answer": "Mitogenic components",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which component is added to serum-free media to facilitate iron delivery to the cells?",
+    "options": [
+      "Insulin",
+      "Transferrin",
+      "Albumin",
+      "Glucose"
+    ],
+    "answer": "Transferrin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary role of Insulin and Insulin-Like Growth Factor (IGF) in serum-free media?",
+    "options": [
+      "To prevent bacterial growth",
+      "To stimulate glucose uptake and promote growth",
+      "To provide essential amino acids",
+      "To act as a pH indicator"
+    ],
+    "answer": "To stimulate glucose uptake and promote growth",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which growth factor in serum-free media activates the mTORC1 pathway for protein synthesis?",
+    "options": [
+      "Transferrin",
+      "Epithelial Growth Factor (EGF)",
+      "Albumin",
+      "Penicillin"
+    ],
+    "answer": "Epithelial Growth Factor (EGF)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Peptide hydrolysates used in serum-free media are typically derived from which sources?",
+    "options": [
+      "Animal blood",
+      "Plants or yeast",
+      "Synthetic chemicals",
+      "Sea water"
+    ],
+    "answer": "Plants or yeast",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Serum contains hormones and proteases that can benefit cell growth.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "The use of serum-free media generally increases the complexity of downstream purification.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which of the following is NOT a mitogenic component mentioned for serum-free media?",
+    "options": [
+      "Insulin",
+      "EGF",
+      "Streptomycin",
+      "Transferrin"
+    ],
+    "answer": "Streptomycin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Mycoplasma contamination is a risk associated with using serum.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Why is the high protein content of serum a disadvantage for bioprocessing?",
+    "options": [
+      "It makes the cells grow too slowly",
+      "It masks the presence of the target recombinant protein during purification",
+      "It causes the media to freeze at higher temperatures",
+      "It inhibits the uptake of glucose"
+    ],
+    "answer": "It masks the presence of the target recombinant protein during purification",
+    "shuffleOptions": true
+  },
+  {
+    "question": "EGF primarily activates which cellular pathway?",
+    "options": [
+      "Krebs cycle",
+      "mTORC1 pathway",
+      "Glycolysis",
+      "Apoptosis pathway"
+    ],
+    "answer": "mTORC1 pathway",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Transferrin is necessary in serum-free media because:",
+    "options": [
+      "Cells need iron for growth, and transferrin is the carrier",
+      "It stabilizes the pH of the media",
+      "It prevents the cells from adhering to the flask",
+      "It is the main source of energy"
+    ],
+    "answer": "Cells need iron for growth, and transferrin is the carrier",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Albumin is the most abundant protein in serum.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Replacing serum with specific components makes the media 'Defined'.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which factor is responsible for protecting cells from physical 'shear forces' in a stirred tank bioreactor?",
+    "options": [
+      "Insulin",
+      "Albumin",
+      "Glucose",
+      "EGF"
+    ],
+    "answer": "Albumin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following describes the ethical concerns regarding serum?",
+    "options": [
+      "The use of viruses for immortalization",
+      "The methods used to collect blood from bovine fetuses",
+      "The high cost of the media",
+      "The use of antibiotics in the lab"
+    ],
+    "answer": "The methods used to collect blood from bovine fetuses",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Batch-to-batch consistency is one of the main strengths of serum-based media.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "shuffleOptions": false
+  },
+  {
+    "question": "What is the primary reason serum-free media is used in the production of therapeutic proteins?",
+    "options": [
+      "To increase the speed of cell division to the maximum",
+      "To simplify downstream processing and ensure product safety",
+      "Because it is always much cheaper than serum",
+      "To allow the use of lower CO2 levels"
+    ],
+    "answer": "To simplify downstream processing and ensure product safety",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Hormones in serum can include insulin and growth factors.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "IGF stands for:",
+    "options": [
+      "Insulin-Like Growth Factor",
+      "Internal Growth Fluid",
+      "Integrated Growth Function",
+      "Induced Germination Factor"
+    ],
+    "answer": "Insulin-Like Growth Factor",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Attachment factors in serum help anchorage-dependent cells to:",
+    "options": [
+      "Float in the media",
+      "Adhere to the surface of the culture vessel",
+      "Synthesize DNA faster",
+      "Resist antibiotic treatment"
+    ],
+    "answer": "Adhere to the surface of the culture vessel",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The presence of unknown factors in serum is a drawback for scientific reproducibility.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which component in serum-free media is crucial for metabolic signaling and nutrient uptake?",
+    "options": [
+      "Transferrin",
+      "Insulin",
+      "Trypsin",
+      "Collagenase"
+    ],
+    "answer": "Insulin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The risk of prion contamination (like BSE) is associated with products of animal origin.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "What does mTORC1 regulation primarily control?",
+    "options": [
+      "Cell division only",
+      "Protein synthesis and cell growth",
+      "DNA repair",
+      "Mitochondrial fission"
+    ],
+    "answer": "Protein synthesis and cell growth",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a disadvantage of serum-free media compared to serum-containing media?",
+    "options": [
+      "Higher risk of viral contamination",
+      "More difficult to purify products",
+      "May require more effort to optimize for a specific cell line",
+      "Contains too much albumin"
+    ],
+    "answer": "May require more effort to optimize for a specific cell line",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Serum can act as a buffer against changes in pH.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Peptide hydrolysates are used as a source of:",
+    "options": [
+      "Genetic material",
+      "Nutrients and growth factors in a complex form",
+      "Buffering capacity",
+      "Antibiotics"
+    ],
+    "answer": "Nutrients and growth factors in a complex form",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Growth promotion in serum is due to a mixture of various growth factors and hormones.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Defining the media components exactly is impossible when using serum.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which of the following is a reason for the high cost of FBS?",
+    "options": [
+      "It is synthesized in a lab",
+      "Fluctuating availability and high demand",
+      "It requires no specialized storage",
+      "It is a byproduct of the plant industry"
+    ],
+    "answer": "Fluctuating availability and high demand",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Micronutrients are found in serum.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Proteases in serum can sometimes be a disadvantage if they degrade the target product.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "The primary goal of media optimization is to achieve:",
+    "options": [
+      "The most expensive media possible",
+      "The highest possible cell growth and product yield with a consistent, safe composition",
+      "The most complex media possible",
+      "Media that only works for one specific day"
+    ],
+    "answer": "The highest possible cell growth and product yield with a consistent, safe composition",
+    "shuffleOptions": true
+  }
+]

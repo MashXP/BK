@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the biological definition of 'Regeneration' in plant tissue culture?",
+    "options": [
+      "The process of a plant dying and being replaced by seeds",
+      "Reconstructing missing parts or developing new individuals from isolated tissues",
+      "The growth of a plant from a seed in soil",
+      "The conversion of light energy into chemical energy"
+    ],
+    "answer": "Reconstructing missing parts or developing new individuals from isolated tissues",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What are the two primary pathways of regeneration discussed in Chapter 4?",
+    "options": [
+      "Photosynthesis and Respiration",
+      "Mitosis and Meiosis",
+      "Organogenesis and Somatic Embryogenesis",
+      "Pollination and Fertilization"
+    ],
+    "answer": "Organogenesis and Somatic Embryogenesis",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What defines an 'adventitious shoot'?",
+    "options": [
+      "A shoot formed at the apex of a stem",
+      "A shoot formed from an axillary bud",
+      "A shoot that forms in a location other than typical apical or axillary buds",
+      "A shoot that grows only in the dark"
+    ],
+    "answer": "A shoot that forms in a location other than typical apical or axillary buds",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In adventitious shoot formation, what characterizes 'Indirect' formation?",
+    "options": [
+      "Shoots develop directly from the explant tissue",
+      "Shoots arise through an intermediate callus stage",
+      "Shoots are produced by seeds",
+      "Shoots are formed using only water"
+    ],
+    "answer": "Shoots arise through an intermediate callus stage",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary purpose of adventitious shoot formation in biotechnology?",
+    "options": [
+      "Generating secondary metabolites",
+      "Micropropagation to increase plant numbers",
+      "Producing synthetic seeds",
+      "Studying root diseases"
+    ],
+    "answer": "Micropropagation to increase plant numbers",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which hormone is most essential for inducing adventitious shoots in most plant species?",
+    "options": [
+      "Auxin",
+      "Cytokinin",
+      "Abscisic acid",
+      "Ethylene"
+    ],
+    "answer": "Cytokinin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What can happen if the concentration of cytokinin is excessive during shoot induction?",
+    "options": [
+      "The plant will produce larger fruit",
+      "It can lead to abnormal shoot morphology",
+      "The roots will grow faster",
+      "The explant will immediately die"
+    ],
+    "answer": "It can lead to abnormal shoot morphology",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the optimal hormone ratio for inducing adventitious shoots?",
+    "options": [
+      "High Auxin + Low Cytokinin",
+      "High Cytokinin + Low Auxin",
+      "Balanced Auxin and Cytokinin",
+      "High Gibberellin + No Cytokinin"
+    ],
+    "answer": "High Cytokinin + Low Auxin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT an explant characteristic mentioned as a factor influencing organogenesis?",
+    "options": [
+      "Type of tissue source",
+      "Age of the tissue",
+      "Orientation/Placement on the medium",
+      "The color of the mother plant's flower"
+    ],
+    "answer": "The color of the mother plant's flower",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Regarding the age of the explant, which statement is generally true?",
+    "options": [
+      "Older tissues have higher regenerative potential",
+      "Younger tissues have higher regenerative potential",
+      "Age has no effect on regeneration",
+      "Only seeds can regenerate"
+    ],
+    "answer": "Younger tissues have higher regenerative potential",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In most species, what role does Light play in adventitious shoot formation?",
+    "options": [
+      "It inhibits shoot growth",
+      "It serves as a stimulus that promotes shoot formation",
+      "It is only necessary for root growth",
+      "It causes the callus to turn into a seed"
+    ],
+    "answer": "It serves as a stimulus that promotes shoot formation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is an 'adventitious root'?",
+    "options": [
+      "A root formed from the primary radicle",
+      "A root that forms from non-root tissue like a stem or leaf",
+      "A root that grows only in liquid medium",
+      "A root that cannot absorb water"
+    ],
+    "answer": "A root that forms from non-root tissue like a stem or leaf",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Secondary metabolite production is often the purpose of which specialized culture?",
+    "options": [
+      "Adventitious shoot culture",
+      "Adventitious root culture (e.g., 'hairy roots')",
+      "Somatic embryo maturation",
+      "Protoplast fusion"
+    ],
+    "answer": "Adventitious root culture (e.g., 'hairy roots')",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a 'somatic embryo'?",
+    "options": [
+      "An embryo formed by the fusion of sperm and egg",
+      "An embryo developed from a single non-reproductive somatic cell",
+      "A fully grown plant ready for the field",
+      "A type of callus that never differentiates"
+    ],
+    "answer": "An embryo developed from a single non-reproductive somatic cell",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Direct embryogenesis differs from indirect embryogenesis because it:",
+    "options": [
+      "Takes longer",
+      "Occurs without a callus phase",
+      "Requires more light",
+      "Only works in monocots"
+    ],
+    "answer": "Occurs without a callus phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Induction Phase' of somatic embryogenesis specifically requires which hormone?",
+    "options": [
+      "Cytokinin",
+      "Auxin",
+      "Gibberellin",
+      "Ethylene"
+    ],
+    "answer": "Auxin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "During the 'Embryo Development Phase' of somatic embryogenesis, what is the hormonal requirement?",
+    "options": [
+      "High concentrations of auxin",
+      "It typically does NOT require auxin",
+      "High concentrations of ethylene",
+      "A balance of all five major hormones"
+    ],
+    "answer": "It typically does NOT require auxin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which plant growth regulator is crucial for the maturation of somatic embryos?",
+    "options": [
+      "Auxin",
+      "Cytokinin",
+      "Abscisic Acid (ABA)",
+      "IAA"
+    ],
+    "answer": "Abscisic Acid (ABA)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "ABA helps somatic embryos develop in a way that closely resembles:",
+    "options": [
+      "Zygotic embryos (natural seeds)",
+      "Root tips",
+      "Callus tissue",
+      "Unicellular algae"
+    ],
+    "answer": "Zygotic embryos (natural seeds)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary difference between Organogenesis and Somatic Embryogenesis?",
+    "options": [
+      "Organogenesis only produces roots",
+      "Somatic embryogenesis produces a bipolar structure (embryo), while organogenesis produces individual organs",
+      "Organogenesis is faster",
+      "Somatic embryogenesis doesn't require nutrients"
+    ],
+    "answer": "Somatic embryogenesis produces a bipolar structure (embryo), while organogenesis produces individual organs",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The term 'bipolar' in embryogenesis refers to the presence of:",
+    "options": [
+      "Two different colors",
+      "Both a shoot and a root pole",
+      "Two nuclei in one cell",
+      "A cell that can survive in hot and cold"
+    ],
+    "answer": "Both a shoot and a root pole",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Hypocotyl is mentioned in the text as an example of an:",
+    "options": [
+      "Explant type",
+      "Organogenesis inhibitor",
+      "Gelling agent",
+      "Auxin type"
+    ],
+    "answer": "Explant type",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Organogenesis is defined as the formation of:",
+    "options": [
+      "Synthetic seeds",
+      "Individual organs (shoots or roots)",
+      "Pathogen-free embryos",
+      "Cell walls"
+    ],
+    "answer": "Individual organs (shoots or roots)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which phase of somatic embryogenesis triggers the cell's 'embryogenic potential'?",
+    "options": [
+      "Maturation phase",
+      "Induction phase",
+      "Acclimatization phase",
+      "Callus phase"
+    ],
+    "answer": "Induction phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What determines whether a plant variety responds to induction for organogenesis?",
+    "options": [
+      "The amount of sugar in the medium",
+      "The Genotype of the plant",
+      "The size of the petri dish",
+      "The brand of the autoclave"
+    ],
+    "answer": "The Genotype of the plant",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of these is NOT an adventitious organ?",
+    "options": [
+      "A shoot from a leaf",
+      "A root from a stem",
+      "An apical bud at the tip of a stem",
+      "A shoot from a hypocotyl"
+    ],
+    "answer": "An apical bud at the tip of a stem",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Abscisic acid (ABA) promotes 'Zygotic Resemblance' in somatic embryos by improving their:",
+    "options": [
+      "Color",
+      "Morphology and quality",
+      "Genetic sequence",
+      "Resistance to UV light"
+    ],
+    "answer": "Morphology and quality",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is the placement of an explant on the medium important for organogenesis?",
+    "options": [
+      "It determines the light absorption",
+      "It can affect the success of induction",
+      "It prevents the medium from drying",
+      "It stops the callus from moving"
+    ],
+    "answer": "It can affect the success of induction",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which hormone is used in low concentrations relative to cytokinin for shoot formation?",
+    "options": [
+      "Auxin",
+      "Gibberellin",
+      "ABA",
+      "Ethylene"
+    ],
+    "answer": "Auxin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Regeneration allows a plant to reconstruct 'missing parts'. This is possible due to:",
+    "options": [
+      "The plant's inability to move",
+      "The totipotency of plant cells",
+      "The presence of chloroplasts",
+      "The large size of plant genomes"
+    ],
+    "answer": "The totipotency of plant cells",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If you want to produce embryos directly from explant cells, you use:",
+    "options": [
+      "Direct embryogenesis",
+      "Indirect embryogenesis",
+      "Direct organogenesis",
+      "Micropropagation"
+    ],
+    "answer": "Direct embryogenesis",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The development of embryos from a previously induced callus is called:",
+    "options": [
+      "Direct embryogenesis",
+      "Indirect embryogenesis",
+      "Somatic maturation",
+      "Organogenic induction"
+    ],
+    "answer": "Indirect embryogenesis",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which growth regulator would you likely remove when transitioning from induction to development in somatic embryogenesis?",
+    "options": [
+      "Cytokinin",
+      "Auxin",
+      "ABA",
+      "B vitamins"
+    ],
+    "answer": "Auxin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the typical result of indirect shoot formation?",
+    "options": [
+      "Shoots grow from seeds",
+      "Shoots arise from an intermediate callus mass",
+      "The explant dies and is replaced",
+      "Roots are formed instead of shoots"
+    ],
+    "answer": "Shoots arise from an intermediate callus mass",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Somatic cells are defined as:",
+    "options": [
+      "Reproductive cells like pollen",
+      "Non-reproductive cells of the body",
+      "Cells found only in seeds",
+      "Cells that cannot divide"
+    ],
+    "answer": "Non-reproductive cells of the body",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Induction of adventitious organs depends on the interaction between exogenous hormones and:",
+    "options": [
+      "Endogenous hormones",
+      "The plastic of the vessel",
+      "The name of the scientist",
+      "The altitude of the lab"
+    ],
+    "answer": "Endogenous hormones",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Hairy root cultures are an example of which process?",
+    "options": [
+      "Adventitious shoot formation",
+      "Adventitious root formation for metabolite production",
+      "Direct embryogenesis",
+      "Vitrification"
+    ],
+    "answer": "Adventitious root formation for metabolite production",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is 'vigorous' growth often associated with somatic embryos matured with ABA?",
+    "options": [
+      "They have more sugar",
+      "They resemble the quality of natural zygotic embryos",
+      "They grow in the dark",
+      "They are larger than the explant"
+    ],
+    "answer": "They resemble the quality of natural zygotic embryos",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the context of Chapter 4, what is the role of hypocotyl?",
+    "options": [
+      "A type of hormone",
+      "A potential tissue source (explant)",
+      "A disinfectant",
+      "A gelling agent"
+    ],
+    "answer": "A potential tissue source (explant)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of these processes creates a structure with a shoot pole and a root pole simultaneously?",
+    "options": [
+      "Organogenesis",
+      "Somatic Embryogenesis",
+      "Axillary proliferation",
+      "Single-node culture"
+    ],
+    "answer": "Somatic Embryogenesis",
+    "shuffleOptions": true
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What type of water must be used in the media preparation room to remove minerals, gases, and organic matter?",
+    "options": [
+      "Tap water",
+      "Spring water",
+      "Distilled water",
+      "Filtered rainwater"
+    ],
+    "answer": "Distilled water",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which piece of equipment is specifically used for measuring milligrams of plant hormones and vitamins?",
+    "options": [
+      "Precision balance",
+      "Analytical balance",
+      "Volumetric flask",
+      "Graduated cylinder"
+    ],
+    "answer": "Analytical balance",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary function of an Autoclave in the media preparation room?",
+    "options": [
+      "Measuring liquid volumes",
+      "Distilling water",
+      "Steam sterilization of media and equipment",
+      "Adjusting the pH of the medium"
+    ],
+    "answer": "Steam sterilization of media and equipment",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The HEPA filter in a Laminar Flow Cabinet is designed to remove what percentage of airborne particles?",
+    "options": [
+      "50.00%",
+      "75.50%",
+      "95.00%",
+      "99.97%"
+    ],
+    "answer": "99.97%",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the standard concentration of alcohol used for wiping surfaces and hands in the transfer room?",
+    "options": [
+      "40%",
+      "76%",
+      "99%",
+      "25%"
+    ],
+    "answer": "76%",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the typical temperature maintained in the incubation (growth) room?",
+    "options": [
+      "15 +/- 2°C",
+      "20 +/- 5°C",
+      "25 +/- 2°C",
+      "37 +/- 1°C"
+    ],
+    "answer": "25 +/- 2°C",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The standard photoperiod in a growth room is usually set to:",
+    "options": [
+      "12h light / 12h dark",
+      "16h light / 8h dark",
+      "24h light / 0h dark",
+      "8h light / 16h dark"
+    ],
+    "answer": "16h light / 8h dark",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Most plant tissue culture media are adjusted to a standard pH of:",
+    "options": [
+      "4.5 +/- 0.1",
+      "5.8 +/- 0.02",
+      "7.0 +/- 0.5",
+      "8.2 +/- 0.02"
+    ],
+    "answer": "5.8 +/- 0.02",
+    "shuffleOptions": true
+  },
+  {
+    "question": "When should the pH of the medium be adjusted?",
+    "options": [
+      "After autoclaving",
+      "Before adding agar",
+      "Before autoclaving",
+      "During the inoculation process"
+    ],
+    "answer": "Before autoclaving",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Metal tools like forceps and scalpels are typically sterilized in the flow hood using:",
+    "options": [
+      "UV radiation",
+      "Liquid bleach",
+      "Fire/flaming",
+      "Distilled water"
+    ],
+    "answer": "Fire/flaming",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which sterilization method is used for heat-sensitive chemicals like certain vitamins or hormones?",
+    "options": [
+      "Autoclaving",
+      "Flaming",
+      "Filter sterilization",
+      "UV irradiation"
+    ],
+    "answer": "Filter sterilization",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the standard condition for autoclaving most media?",
+    "options": [
+      "100°C for 60 minutes",
+      "121°C for 15-20 minutes",
+      "150°C for 5 minutes",
+      "80°C for 30 minutes"
+    ],
+    "answer": "121°C for 15-20 minutes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the final step in the surface sterilization process for an explant?",
+    "options": [
+      "Wiping with 76% alcohol",
+      "Rinsing with tap water",
+      "Multiple rinses with sterile distilled water",
+      "Dipping in soapy water"
+    ],
+    "answer": "Multiple rinses with sterile distilled water",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The ultimate goal of explant surface sterilization is to obtain a sample that is:",
+    "options": [
+      "Dead and sterile",
+      "Sterile and living",
+      "Clean but contaminated",
+      "Large and differentiated"
+    ],
+    "answer": "Sterile and living",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT listed as a factor influencing sterilization effectiveness?",
+    "options": [
+      "Type of explant",
+      "Initial contamination levels",
+      "The color of the culture vessel",
+      "The aseptic technique of the operator"
+    ],
+    "answer": "The color of the culture vessel",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which disinfectant has a typical exposure time of only 0.1 to 5.0 minutes?",
+    "options": [
+      "Sodium hypochlorite",
+      "Calcium hypochlorite",
+      "Ethyl alcohol",
+      "Mercuric chloride"
+    ],
+    "answer": "Ethyl alcohol",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which element is the central component of the chlorophyll molecule?",
+    "options": [
+      "Nitrogen",
+      "Magnesium",
+      "Calcium",
+      "Phosphorus"
+    ],
+    "answer": "Magnesium",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary role of micronutrients in the culture medium?",
+    "options": [
+      "Main source of carbon",
+      "Structure of proteins",
+      "Cofactors for enzymes",
+      "Regulating osmotic pressure"
+    ],
+    "answer": "Cofactors for enzymes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is Iron (Fe) usually provided in a chelated form (FeEDTA)?",
+    "options": [
+      "To increase its toxicity to microbes",
+      "To prevent it from precipitating out of the solution",
+      "To make it act as a gelling agent",
+      "To adjust the pH of the medium"
+    ],
+    "answer": "To prevent it from precipitating out of the solution",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which B vitamin is also known as Thiamine?",
+    "options": [
+      "B1",
+      "B3",
+      "B6",
+      "B12"
+    ],
+    "answer": "B1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What organic supplement is added at roughly 100 mg/L to stimulate cell growth?",
+    "options": [
+      "Sucrose",
+      "Myo-inositol",
+      "Agar",
+      "NaOH"
+    ],
+    "answer": "Myo-inositol",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the standard carbon source used in plant tissue culture media?",
+    "options": [
+      "Glucose",
+      "Fructose",
+      "Sucrose",
+      "Starch"
+    ],
+    "answer": "Sucrose",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is an external carbon source necessary for in vitro plant cultures?",
+    "options": [
+      "To prevent the growth of bacteria",
+      "Because in vitro plants have limited photosynthesis",
+      "To maintain the pH at 5.8",
+      "To ensure the agar gels properly"
+    ],
+    "answer": "Because in vitro plants have limited photosynthesis",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which additive is used to absorb toxic compounds and can also stimulate root formation by darkening the medium?",
+    "options": [
+      "Coconut water",
+      "Activated charcoal",
+      "Gelling agent",
+      "Ethyl alcohol"
+    ],
+    "answer": "Activated charcoal",
+    "shuffleOptions": true
+  },
+  {
+    "question": "From which organism is the most common gelling agent, Agar, derived?",
+    "options": [
+      "Red algae",
+      "Green moss",
+      "Fungi",
+      "Synthetic polymers"
+    ],
+    "answer": "Red algae",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which culture medium is described as the most well-balanced and widely used today?",
+    "options": [
+      "White",
+      "Gamborg (B5)",
+      "Murashige and Skoog (MS)",
+      "Knop"
+    ],
+    "answer": "Murashige and Skoog (MS)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which medium is considered 'nutrient-poor'?",
+    "options": [
+      "MS",
+      "White",
+      "B5",
+      "LS"
+    ],
+    "answer": "White",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Precision balances in the lab are primarily used for measuring:",
+    "options": [
+      "Hormones and vitamins (milligrams)",
+      "Macronutrients, agar, and sucrose (grams)",
+      "Water volumes (liters)",
+      "Light intensity"
+    ],
+    "answer": "Macronutrients, agar, and sucrose (grams)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The pre-filter in a laminar flow hood is responsible for removing:",
+    "options": [
+      "Viruses and bacteria",
+      "Large particles like dust and hair",
+      "Gaseous chemical fumes",
+      "UV radiation"
+    ],
+    "answer": "Large particles like dust and hair",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of these is an UNDEFINED supplement used in tissue culture?",
+    "options": [
+      "Glycine",
+      "Coconut water",
+      "Pyridoxine",
+      "Sodium hypochlorite"
+    ],
+    "answer": "Coconut water",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary effect of pH on the gelling agent?",
+    "options": [
+      "pH determines the color of the agar",
+      "pH affects the firmness/gelling ability of the medium",
+      "pH makes the agar more nutrient-rich",
+      "pH has no effect on gelling"
+    ],
+    "answer": "pH affects the firmness/gelling ability of the medium",
+    "shuffleOptions": true
+  },
+  {
+    "question": "High-purity water is produced in the lab using a:",
+    "options": [
+      "Laminar flow cabinet",
+      "Water distiller",
+      "Autoclave",
+      "Shaker flask"
+    ],
+    "answer": "Water distiller",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which disinfectant is used at a concentration of 0.1-1.0% and has a 2-10 minute exposure time?",
+    "options": [
+      "Sodium hypochlorite",
+      "Mercuric chloride",
+      "Hydrogen peroxide",
+      "Silver nitrate"
+    ],
+    "answer": "Mercuric chloride",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Amino acids like proline and asparagine are added to the medium as sources of:",
+    "options": [
+      "Organic nitrogen",
+      "Inorganic carbon",
+      "Magnesium",
+      "Vitamins"
+    ],
+    "answer": "Organic nitrogen",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which macronutrient is crucial for cell division and the structure of nucleic acids?",
+    "options": [
+      "Potassium",
+      "Nitrogen",
+      "Magnesium",
+      "Sodium"
+    ],
+    "answer": "Nitrogen",
+    "shuffleOptions": true
+  },
+  {
+    "question": "UV lamps in the transfer room are used to:",
+    "options": [
+      "Provide light for photosynthesis",
+      "Sterilize the air and surfaces when the room is empty",
+      "Warm up the culture media",
+      "Identify different plant species"
+    ],
+    "answer": "Sterilize the air and surfaces when the room is empty",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of these is NOT a standard macronutrient mentioned in the text?",
+    "options": [
+      "Calcium",
+      "Sulfur",
+      "Potassium",
+      "Iodine"
+    ],
+    "answer": "Iodine",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What happens if the gelling agent concentration is too low?",
+    "options": [
+      "The medium will be too hard for roots to penetrate",
+      "The medium may remain liquid or be too soft",
+      "The plant will grow too fast",
+      "The pH will rise significantly"
+    ],
+    "answer": "The medium may remain liquid or be too soft",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Nicotinic acid is also known as vitamin:",
+    "options": [
+      "B1",
+      "B3",
+      "B6",
+      "B12"
+    ],
+    "answer": "B3",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following describes the 'photoperiod'?",
+    "options": [
+      "The intensity of the light source",
+      "The wavelength of the light",
+      "The cycle of light and dark hours",
+      "The age of the plantlet in culture"
+    ],
+    "answer": "The cycle of light and dark hours",
+    "shuffleOptions": true
+  }
+]

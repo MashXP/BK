@@ -1,0 +1,442 @@
+[
+  {
+    "question": "Which of the following represents the correct general workflow of micropropagation?",
+    "options": [
+      "Establishment -> Rooting -> Shoot Multiplication -> Acclimatization",
+      "Shoot Multiplication -> Establishment -> Rooting -> Acclimatization",
+      "Establishment -> Shoot Multiplication -> Rooting -> Acclimatization",
+      "Rooting -> Establishment -> Shoot Multiplication -> Acclimatization"
+    ],
+    "answer": "Establishment -> Shoot Multiplication -> Rooting -> Acclimatization",
+    "shuffleOptions": false
+  },
+  {
+    "question": "What is a significant disadvantage of micropropagation compared to traditional methods?",
+    "options": [
+      "Dependency on seasonal changes",
+      "High sensitivity to microbes and contamination risk",
+      "Inability to produce large quantities",
+      "Requires more field space"
+    ],
+    "answer": "High sensitivity to microbes and contamination risk",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The risk of 'somaclonal variation' falls under which category of micropropagation evaluation?",
+    "options": [
+      "Advantages",
+      "Disadvantages",
+      "Stage 1 requirements",
+      "Stage 4 outcomes"
+    ],
+    "answer": "Disadvantages",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary requirement for selecting an explant in Stage 1?",
+    "options": [
+      "It must be from a seedling only",
+      "It must be taken from a healthy, disease-free donor plant",
+      "It must be a root tissue",
+      "It must be a monocot species"
+    ],
+    "answer": "It must be taken from a healthy, disease-free donor plant",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which shoot multiplication method is limited to plants that do NOT have rosette leaves?",
+    "options": [
+      "Axillary shoot proliferation",
+      "Thin Cell Layer culture",
+      "Single-node culture",
+      "Protocorm culture"
+    ],
+    "answer": "Single-node culture",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In axillary shoot proliferation, what is specifically required to break apical dominance?",
+    "options": [
+      "Auxin",
+      "Cytokinin",
+      "Abscisic acid",
+      "Gibberellic acid"
+    ],
+    "answer": "Cytokinin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does 'tTCL' stand for in the context of Thin Cell Layer culture?",
+    "options": [
+      "Total Thin Cell Layer",
+      "Transverse Thin Cell Layer",
+      "Triple Thin Cell Layer",
+      "Terminal Thin Cell Layer"
+    ],
+    "answer": "Transverse Thin Cell Layer",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why does Thin Cell Layer (TCL) culture often result in fast organ formation?",
+    "options": [
+      "Explants are large and store many nutrients",
+      "Explants absorb external hormones more easily and quickly",
+      "TCL uses only root tissues",
+      "TCL is done in the dark"
+    ],
+    "answer": "Explants absorb external hormones more easily and quickly",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Protocorm culture is the standard method for multiplying which type of plants?",
+    "options": [
+      "Woody trees like Oak",
+      "Monocots like Pineapples and Orchids",
+      "Dicot legumes like Soybeans",
+      "Cacti and succulents"
+    ],
+    "answer": "Monocots like Pineapples and Orchids",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In orchid micropropagation, seeds develop into proembryos known as:",
+    "options": [
+      "Callus",
+      "Protocorms",
+      "Zygotes",
+      "Node explants"
+    ],
+    "answer": "Protocorms",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Meristem shoot tip culture is primarily used to produce plants free of:",
+    "options": [
+      "Fungi",
+      "Bacteria",
+      "Viruses",
+      "Genetic mutations"
+    ],
+    "answer": "Viruses",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which structural feature of shoot tips helps them stay virus-free?",
+    "options": [
+      "Thick waxy cuticle",
+      "Presence of large vascular bundles",
+      "Lack of vascular bundles and plasmodesmata",
+      "High concentration of thorns"
+    ],
+    "answer": "Lack of vascular bundles and plasmodesmata",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does the size of the explant in meristem culture affect virus elimination?",
+    "options": [
+      "Larger explants eliminate viruses more effectively",
+      "Smaller explants eliminate viruses more effectively",
+      "Size has no effect on virus status",
+      "Only medium explants work"
+    ],
+    "answer": "Smaller explants eliminate viruses more effectively",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which hormone should generally be REMOVED from the medium in the Rooting Stage (Stage 3)?",
+    "options": [
+      "Auxin",
+      "Cytokinin",
+      "Ethylene",
+      "Gibberellin"
+    ],
+    "answer": "Cytokinin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What modification to the mineral concentration of MS medium is often made for rooting?",
+    "options": [
+      "Increased by 2x",
+      "Kept at full strength",
+      "Reduced (e.g., half-strength)",
+      "Replaced with distilled water only"
+    ],
+    "answer": "Reduced (e.g., half-strength)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The first step of Acclimatization involves:",
+    "options": [
+      "Applying high-intensity light",
+      "Removing plantlets from vessels and cleaning off medium",
+      "Moving directly to field soil",
+      "Reducing $CO_2$ levels"
+    ],
+    "answer": "Removing plantlets from vessels and cleaning off medium",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Vitrification (Hyperhydricity) is characterized by plants that appear:",
+    "options": [
+      "Brown and dried out",
+      "Translucent, water-soaked, and brittle",
+      "Dark green and woody",
+      "Tall and spindly"
+    ],
+    "answer": "Translucent, water-soaked, and brittle",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following helps prevent vitrification?",
+    "options": [
+      "Reducing ventilation",
+      "Increasing the concentration of the gelling agent",
+      "Adding more sugar to the medium",
+      "Increasing cytokinin levels"
+    ],
+    "answer": "Increasing the concentration of the gelling agent",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Browning phenomenon is mainly caused by the oxidation of:",
+    "options": [
+      "Sugars",
+      "Proteins",
+      "Exudate phenolic compounds",
+      "Vitamins"
+    ],
+    "answer": "Exudate phenolic compounds",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which adsorbent is commonly added to the medium to combat the browning phenomenon?",
+    "options": [
+      "Agar",
+      "Sucrose",
+      "Activated Charcoal",
+      "NaOH"
+    ],
+    "answer": "Activated Charcoal",
+    "shuffleOptions": true
+  },
+  {
+    "question": "PVP (polyvinylpyrrolidone) is used in plant tissue culture to:",
+    "options": [
+      "Gel the medium",
+      "Adsorb phenolics to prevent browning",
+      "Sterilize the explant surface",
+      "Provide organic nitrogen"
+    ],
+    "answer": "Adsorb phenolics to prevent browning",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which antioxidants can be added to the medium to prevent browning?",
+    "options": [
+      "Ascorbic acid and Citric acid",
+      "Ethylene and ABA",
+      "Kinetin and Zeatin",
+      "Nitric acid and Sulfuric acid"
+    ],
+    "answer": "Ascorbic acid and Citric acid",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary energy source for plants in a Photoautotrophic micropropagation system?",
+    "options": [
+      "Sucrose",
+      "Photosynthesis (Light + $CO_2$)",
+      "Amino acids",
+      "Activated charcoal"
+    ],
+    "answer": "Photosynthesis (Light + $CO_2$)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Photoautotrophic micropropagation uses a medium that is strictly:",
+    "options": [
+      "Full-strength MS",
+      "Sugar-free",
+      "Liquid only",
+      "Hormone-free"
+    ],
+    "answer": "Sugar-free",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does the workflow of Photoautotrophic micropropagation differ from the standard system?",
+    "options": [
+      "It requires more stages",
+      "It merges Multiplication and Rooting into a single stage (Stage II)",
+      "It eliminates Stage I",
+      "It takes longer to reach ex vitro transplantation"
+    ],
+    "answer": "It merges Multiplication and Rooting into a single stage (Stage II)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a core requirement for Photoautotrophic micropropagation?",
+    "options": [
+      "Complete darkness",
+      "Increased air exchange for $CO_2$ supply",
+      "High concentrations of agar",
+      "Frequent addition of sucrose"
+    ],
+    "answer": "Increased air exchange for $CO_2$ supply",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a strategic benefit of a sugar-free medium in photoautotrophic systems?",
+    "options": [
+      "Plants grow slower",
+      "Significantly reduced risk of microbial contamination",
+      "Cheaper media preparation",
+      "Both B and C"
+    ],
+    "answer": "Both B and C",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Photoautotrophic plants often have higher survival rates because:",
+    "options": [
+      "They are smaller",
+      "They are already photosynthetically active before transplanting",
+      "They have no roots",
+      "They have been grown in the dark"
+    ],
+    "answer": "They are already photosynthetically active before transplanting",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the standard Photomixotrophic system, which stage specifically handles Rooting and Preparation?",
+    "options": [
+      "Stage I",
+      "Stage II",
+      "Stage III",
+      "Stage IV"
+    ],
+    "answer": "Stage III",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Vitrification can be controlled by adjusting cytokinin levels. Usually, this means:",
+    "options": [
+      "Increasing cytokinins",
+      "Reducing cytokinins",
+      "Replacing cytokinins with auxins",
+      "Removing all hormones"
+    ],
+    "answer": "Reducing cytokinins",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does 'PLB' stand for in orchid micropropagation?",
+    "options": [
+      "Plantlet Body",
+      "Protocorm-Like Body",
+      "Primary Leaf Bud",
+      "Photosynthetic Light Batch"
+    ],
+    "answer": "Protocorm-Like Body",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which type of TCL uses longitudinal sections?",
+    "options": [
+      "lTCL",
+      "tTCL",
+      "mTCL",
+      "pTCL"
+    ],
+    "answer": "lTCL",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Micropropagation allows for year-round production because it is NOT dependent on:",
+    "options": [
+      "Nutrients",
+      "Sterility",
+      "Seasonal changes",
+      "Electricity"
+    ],
+    "answer": "Seasonal changes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "High metabolic activity in meristem cells helps them stay virus-free by:",
+    "options": [
+      "Poisoning the virus",
+      "Competing effectively with viruses for nutrients",
+      "Speeding up virus replication",
+      "Building a cell wall that viruses cannot penetrate"
+    ],
+    "answer": "Competing effectively with viruses for nutrients",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A support matrix in photoautotrophic culture is often used to replace:",
+    "options": [
+      "The plant",
+      "The $CO_2$ source",
+      "Agar",
+      "The light source"
+    ],
+    "answer": "Agar",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which stage of the standard system involves acclimatization either in vitro or ex vitro?",
+    "options": [
+      "Stage I",
+      "Stage II",
+      "Stage III",
+      "Stage IV"
+    ],
+    "answer": "Stage IV",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Primary Acclimatization is characterized by:",
+    "options": [
+      "Initial transition to a controlled environment",
+      "Direct planting in the field",
+      "Removal of all leaves",
+      "Induction of flowers"
+    ],
+    "answer": "Initial transition to a controlled environment",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the purpose of the 'Gradual Hardening' step?",
+    "options": [
+      "Making the plant grow taller",
+      "Adapting the plant to lower humidity and higher light over time",
+      "Freezing the plant for storage",
+      "Killing off the weakest clones"
+    ],
+    "answer": "Adapting the plant to lower humidity and higher light over time",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is the photoautotrophic system considered more scalable for automation?",
+    "options": [
+      "It uses fewer chemicals",
+      "It has streamlined stages and uses sugar-free media",
+      "It doesn't require light",
+      "It only works for pineapples"
+    ],
+    "answer": "It has streamlined stages and uses sugar-free media",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In Stage 2, which method is best for fast organ formation due to high hormone absorption?",
+    "options": [
+      "Single-node culture",
+      "Axillary shoot proliferation",
+      "Thin Cell Layer (TCL) Culture",
+      "Seed germination"
+    ],
+    "answer": "Thin Cell Layer (TCL) Culture",
+    "shuffleOptions": true
+  }
+]

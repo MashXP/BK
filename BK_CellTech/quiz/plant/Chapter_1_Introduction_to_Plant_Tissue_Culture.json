@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the core principle that allows a single plant cell to develop into an entire organism?",
+    "options": [
+      "Cell Theory",
+      "Totipotency",
+      "Organogenesis",
+      "Photosynthesis"
+    ],
+    "answer": "Totipotency",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT a core tenet of Cell Theory?",
+    "options": [
+      "All living organisms are composed of cells",
+      "The cell is the basic unit of organisms",
+      "Cells arise from pre-existing cells",
+      "All cells contain a cell wall"
+    ],
+    "answer": "All cells contain a cell wall",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the process of plant tissue culture, what is the 'explant'?",
+    "options": [
+      "The nutrient medium used for growth",
+      "A mass of undifferentiated cells",
+      "The small piece of plant tissue used to start the culture",
+      "A fully developed plantlet ready for soil"
+    ],
+    "answer": "The small piece of plant tissue used to start the culture",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is 'callus' in plant tissue culture?",
+    "options": [
+      "A specialized organ like a root or shoot",
+      "A mass of undifferentiated cells",
+      "The tool used to isolate the explant",
+      "A specific type of growth regulator"
+    ],
+    "answer": "A mass of undifferentiated cells",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which stage of plant tissue culture involves moving plantlets to pots filled with nutrient-rich compost?",
+    "options": [
+      "Inoculation",
+      "Explant Isolation",
+      "Callus Formation",
+      "Acclimation/Transplantation"
+    ],
+    "answer": "Acclimation/Transplantation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary purpose of Organ Culture in biotechnology?",
+    "options": [
+      "Producing large quantities of wood",
+      "Production of secondary metabolites like drugs and dyes",
+      "Generating synthetic seeds",
+      "Creating new species of animals"
+    ],
+    "answer": "Production of secondary metabolites like drugs and dyes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which culture type is best suited for large-scale production of plant metabolites in bioreactors using liquid media?",
+    "options": [
+      "Organ Culture",
+      "Callus Culture",
+      "Cell Suspension Culture",
+      "Protoplast Culture"
+    ],
+    "answer": "Cell Suspension Culture",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What defines a 'protoplast' in tissue culture?",
+    "options": [
+      "A cell with its nucleus removed",
+      "A cell with its cell wall removed",
+      "A cell that has reached full maturity",
+      "A cell capable of only forming roots"
+    ],
+    "answer": "A cell with its cell wall removed",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Pomato' is a famous example of which culture technique?",
+    "options": [
+      "Protoplast Fusion",
+      "Organ Culture",
+      "Seed Germination",
+      "Hydroponics"
+    ],
+    "answer": "Protoplast Fusion",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Who is credited with the first (though unsuccessful) attempt to culture single cells in 1902?",
+    "options": [
+      "White",
+      "Murashige",
+      "Haberlandt",
+      "Skoog"
+    ],
+    "answer": "Haberlandt",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In 1934, White successfully established continuously growing cultures of which plant organ?",
+    "options": [
+      "Tomato shoots",
+      "Tomato roots",
+      "Ginkgo leaves",
+      "Potato tubers"
+    ],
+    "answer": "Tomato roots",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which scientists discovered that the ratio of cytokinin to auxin controls organogenesis in 1957?",
+    "options": [
+      "Murashige and Skoog",
+      "Gautheret and White",
+      "Skoog and Miller",
+      "Haberlandt and Darwin"
+    ],
+    "answer": "Skoog and Miller",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A medium with a high auxin to cytokinin ratio will primarily induce the formation of:",
+    "options": [
+      "Shoots",
+      "Roots",
+      "Flowers",
+      "Leaves"
+    ],
+    "answer": "Roots",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A medium with a high cytokinin to auxin ratio will primarily induce the formation of:",
+    "options": [
+      "Roots",
+      "Shoots",
+      "Callus",
+      "Seeds"
+    ],
+    "answer": "Shoots",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A balanced ratio of auxin and cytokinin typically induces:",
+    "options": [
+      "Rapid flowering",
+      "Root development",
+      "Callus formation",
+      "Immediate seed production"
+    ],
+    "answer": "Callus formation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the most extensively used culture medium in plant tissue culture today, formulated in 1962?",
+    "options": [
+      "White's medium",
+      "MS medium",
+      "Yeast extract medium",
+      "B vitamin medium"
+    ],
+    "answer": "MS medium",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The MS medium was developed by which two scientists?",
+    "options": [
+      "Skoog and Miller",
+      "Murashige and Skoog",
+      "White and Gautheret",
+      "Haberlandt and White"
+    ],
+    "answer": "Murashige and Skoog",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is an application of plant tissue culture for protecting endangered medicinal plants?",
+    "options": [
+      "Rapid Propagation",
+      "Conservation",
+      "Synthetic Seeds",
+      "Protoplast Fusion"
+    ],
+    "answer": "Conservation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which plant growth regulator group is primarily associated with inducing shoots in tissue culture?",
+    "options": [
+      "Auxins",
+      "Cytokinins",
+      "Gibberellins",
+      "Abscisic acid"
+    ],
+    "answer": "Cytokinins",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The use of tissue culture to produce clones of a mother plant is called:",
+    "options": [
+      "Protoplast Fusion",
+      "Secondary Metabolite Production",
+      "Rapid Propagation",
+      "Callus Induction"
+    ],
+    "answer": "Rapid Propagation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which historical stage of tissue culture focused on the discovery of vitamins and plant growth regulators?",
+    "options": [
+      "Stage I",
+      "Stage II",
+      "Stage III",
+      "Stage IV"
+    ],
+    "answer": "Stage II",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What was the significance of Haberlandt's experiment in 1902?",
+    "options": [
+      "He proved that single cells could divide indefinitely",
+      "He demonstrated that differentiated cells could survive in culture, though they didn't divide",
+      "He invented the MS medium",
+      "He successfully fused protoplasts"
+    ],
+    "answer": "He demonstrated that differentiated cells could survive in culture, though they didn't divide",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Gautheret (1939) was the first to induce callus formation from which layer of woody species?",
+    "options": [
+      "Epidermis",
+      "Xylem",
+      "Phloem",
+      "Cambium"
+    ],
+    "answer": "Cambium",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which specific auxin was used by Gautheret to induce callus in 1939?",
+    "options": [
+      "IAA",
+      "NAA",
+      "2,4-D",
+      "IBA"
+    ],
+    "answer": "IAA",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Organ culture of Panax ginseng is primarily done to harvest:",
+    "options": [
+      "Vitamins",
+      "Secondary metabolites",
+      "Fiber",
+      "Synthetic seeds"
+    ],
+    "answer": "Secondary metabolites",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of these is a benefit of Cell Suspension Culture compared to Callus Culture for industrial use?",
+    "options": [
+      "It allows for easier manipulation in liquid bioreactors",
+      "It requires less lighting",
+      "It prevents the formation of secondary metabolites",
+      "It uses simpler media"
+    ],
+    "answer": "It allows for easier manipulation in liquid bioreactors",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Protoplast fusion is primarily used to:",
+    "options": [
+      "Create identical clones",
+      "Eliminate viruses from plants",
+      "Combine genetic traits of two different species",
+      "Speed up seed germination"
+    ],
+    "answer": "Combine genetic traits of two different species",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What requirement must be met during inoculation to ensure success?",
+    "options": [
+      "High light intensity",
+      "Sterile conditions",
+      "Presence of soil",
+      "Addition of fertilizer"
+    ],
+    "answer": "Sterile conditions",
+    "shuffleOptions": true
+  },
+  {
+    "question": "When an explant 'loses specificity', it forms which structure?",
+    "options": [
+      "Protoplast",
+      "Callus",
+      "Plantlet",
+      "Stomata"
+    ],
+    "answer": "Callus",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which species is mentioned as an example for Aloe vera metabolite production via organ culture?",
+    "options": [
+      "Ginkgo biloba",
+      "Aloe vera",
+      "Panax ginseng",
+      "Vanilla planifolia"
+    ],
+    "answer": "Aloe vera",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why did Haberlandt's 1902 experiment fail to show cell division?",
+    "options": [
+      "The cells were too young",
+      "The medium lacked the necessary growth regulators/hormones",
+      "The cells were contaminated by bacteria",
+      "He used the wrong plant species"
+    ],
+    "answer": "The medium lacked the necessary growth regulators/hormones",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following describes 'synthetic seeds'?",
+    "options": [
+      "Seeds produced by traditional pollination",
+      "Encapsulated somatic embryos or shoot tips",
+      "Genetically modified seeds sold in markets",
+      "Seeds that can only grow in MS medium"
+    ],
+    "answer": "Encapsulated somatic embryos or shoot tips",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the timeline of tissue culture, when did the synthesis of synthetic auxins occur?",
+    "options": [
+      "1902",
+      "1934",
+      "1948",
+      "1962"
+    ],
+    "answer": "1948",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The ability of a plant to differentiate into any cell type is known as:",
+    "options": [
+      "Pluripotency",
+      "Multipotency",
+      "Totipotency",
+      "Unipotency"
+    ],
+    "answer": "Totipotency",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which plant part is commonly used as an explant in the visual process described in the text?",
+    "options": [
+      "Root tip",
+      "Leaf",
+      "Seed coat",
+      "Anther"
+    ],
+    "answer": "Leaf",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Cell suspension cultures are typically maintained using:",
+    "options": [
+      "Solid agar medium",
+      "Soil-less potting mix",
+      "Liquid medium in shaker flasks",
+      "Distilled water only"
+    ],
+    "answer": "Liquid medium in shaker flasks",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which component was originally provided by yeast extract in White's 1934 medium?",
+    "options": [
+      "B vitamins",
+      "Glucose",
+      "Inorganic salts",
+      "Agar"
+    ],
+    "answer": "B vitamins",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The term 'phytohormones' refers to:",
+    "options": [
+      "Animal hormones applied to plants",
+      "Plant growth regulators",
+      "Nutrient salts in the medium",
+      "Sterilizing agents"
+    ],
+    "answer": "Plant growth regulators",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of these is NOT a major application of plant tissue culture mentioned in the text?",
+    "options": [
+      "Rapid Propagation",
+      "Conservation",
+      "Animal Cloning",
+      "Secondary Metabolites"
+    ],
+    "answer": "Animal Cloning",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The process of 'Inoculation' involves:",
+    "options": [
+      "Removing cells from the mother plant",
+      "Placing the explant on the growth medium",
+      "Harvesting secondary metabolites",
+      "Fusing two different protoplasts"
+    ],
+    "answer": "Placing the explant on the growth medium",
+    "shuffleOptions": true
+  }
+]

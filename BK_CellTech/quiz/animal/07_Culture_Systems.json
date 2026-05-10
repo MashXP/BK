@@ -1,0 +1,414 @@
+[
+  {
+    "question": "What is the primary motivation for using disposable (single-use) bioreactors?",
+    "options": [
+      "To increase the cost of production",
+      "To reduce cleaning validation and eliminate the risk of cross-contamination",
+      "To allow for higher temperatures than stainless steel",
+      "Because plastic bags are stronger than steel"
+    ],
+    "answer": "To reduce cleaning validation and eliminate the risk of cross-contamination",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which material is commonly used for the sterile bags in disposable bioreactors?",
+    "options": [
+      "Polyethylene (PE) or Polypropylene (PP)",
+      "Stainless Steel",
+      "Glass",
+      "Aluminum"
+    ],
+    "answer": "Polyethylene (PE) or Polypropylene (PP)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the estimated contamination risk in single-use bioreactor systems?",
+    "options": [
+      "Less than 1%",
+      "Around 10%",
+      "Over 50%",
+      "Zero percent (impossible to contaminate)"
+    ],
+    "answer": "Less than 1%",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The Wave Bioreactor achieves mixing and aeration through which type of motion?",
+    "options": [
+      "High-speed rotation",
+      "Rocking motion",
+      "Vibration",
+      "Magnetic stirring from the bottom"
+    ],
+    "answer": "Rocking motion",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a major advantage of the Wave Bioreactor's design?",
+    "options": [
+      "It requires no power source",
+      "It provides efficient mixing and aeration without high shear stress",
+      "It can only be used for plant cells",
+      "It is the heaviest bioreactor available"
+    ],
+    "answer": "It provides efficient mixing and aeration without high shear stress",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary goal of a two-compartment bioreactor like CeLLine or miniPerm?",
+    "options": [
+      "To reduce the number of cells",
+      "To increase cell density and product concentration",
+      "To use as much media as possible",
+      "To eliminate gas exchange"
+    ],
+    "answer": "To increase cell density and product concentration",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a CeLLine bioreactor, where are the cells located?",
+    "options": [
+      "In the large medium compartment",
+      "In a small cell compartment trapped by a semi-permeable membrane",
+      "Floating on top of the silicone membrane",
+      "Inside the gas supply line"
+    ],
+    "answer": "In a small cell compartment trapped by a semi-permeable membrane",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the function of the silicone membrane in a two-compartment bioreactor?",
+    "options": [
+      "To trap the cells",
+      "To allow gas exchange (O2 and CO2) at the bottom",
+      "To provide the main carbon source",
+      "To filter out bacteria"
+    ],
+    "answer": "To allow gas exchange (O2 and CO2) at the bottom",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How do nutrients reach the cells in a two-compartment bioreactor?",
+    "options": [
+      "They are injected directly into the cells",
+      "They diffuse from the large medium compartment across a semi-permeable membrane",
+      "The cells swim into the medium compartment to eat",
+      "Nutrients are not required in this system"
+    ],
+    "answer": "They diffuse from the large medium compartment across a semi-permeable membrane",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which bioreactor design mimics 'in vivo' vascularization?",
+    "options": [
+      "Wave Bioreactor",
+      "Hollow Fiber Bioreactor",
+      "Fixed-Bed Reactor",
+      "CeLLine"
+    ],
+    "answer": "Hollow Fiber Bioreactor",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a hollow fiber bioreactor, where do the cells grow?",
+    "options": [
+      "Inside the hollow fibers",
+      "In the extracapillary space (ECS)",
+      "On the outer surface of the cartridge",
+      "Inside the medium reservoir"
+    ],
+    "answer": "In the extracapillary space (ECS)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What flows through the fibers in a hollow fiber bioreactor?",
+    "options": [
+      "Cells",
+      "Medium (nutrients/oxygen)",
+      "Antibodies",
+      "Pure CO2"
+    ],
+    "answer": "Medium (nutrients/oxygen)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a significant benefit of hollow fiber bioreactors for product collection?",
+    "options": [
+      "They destroy the product to save space",
+      "They concentrate secreted products (like monoclonal antibodies) in the small volume of the ECS",
+      "They dilute the product in a large volume of media",
+      "They turn the product into a solid"
+    ],
+    "answer": "They concentrate secreted products (like monoclonal antibodies) in the small volume of the ECS",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Fixed-bed reactors immobilize cells on which type of support?",
+    "options": [
+      "Smooth plastic sheets",
+      "Stationary bed of macroporous carriers",
+      "Floating magnetic beads",
+      "Solid stainless steel rods"
+    ],
+    "answer": "Stationary bed of macroporous carriers",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does medium flow in a fixed-bed reactor?",
+    "options": [
+      "It doesn't flow; it stays stationary",
+      "It flows axially or radially through the bed",
+      "It flows in a zigzag pattern",
+      "It flows only from top to bottom"
+    ],
+    "answer": "It flows axially or radially through the bed",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Fixed-bed reactors are particularly well-suited for which type of cells?",
+    "options": [
+      "Suspension cells only",
+      "Adherent (anchorage-dependent) cells",
+      "Yeast and fungi",
+      "Red blood cells"
+    ],
+    "answer": "Adherent (anchorage-dependent) cells",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Disposable bioreactors are typically flexible and easy to scale up by adding more units.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which of the following is a two-compartment system used in laboratories?",
+    "options": [
+      "Cytodex",
+      "miniPerm",
+      "Neubauer chamber",
+      "Trypsin"
+    ],
+    "answer": "miniPerm",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a two-compartment bioreactor, the product concentration is highest in the medium compartment.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Dense, tissue-like growth is a characteristic of which bioreactor type?",
+    "options": [
+      "T-flask",
+      "Hollow Fiber Bioreactor",
+      "Wave Bioreactor",
+      "Spinner bottle"
+    ],
+    "answer": "Hollow Fiber Bioreactor",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Hollow fiber systems allow for extremely high cell densities, sometimes reaching 10^8 cells/mL.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "What is the 'ECS' in the context of hollow fiber bioreactors?",
+    "options": [
+      "External Control System",
+      "Extracapillary Space",
+      "Essential Cell Supplement",
+      "Enzymatic Cleaning Solution"
+    ],
+    "answer": "Extracapillary Space",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Fixed-bed reactors are considered good for 'scale-up' in bioprocessing.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Disposable systems eliminate the need for 'Cleaning in Place' (CIP) validation.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which bioreactor type uses a rocking platform?",
+    "options": [
+      "CeLLine",
+      "Wave Bioreactor",
+      "Hollow Fiber",
+      "Fixed-Bed"
+    ],
+    "answer": "Wave Bioreactor",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Two-compartment bioreactors use a ________ membrane for gas exchange.",
+    "options": [
+      "Silicone",
+      "Stainless steel",
+      "Paper",
+      "Aluminum"
+    ],
+    "answer": "Silicone",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In hollow fiber bioreactors, the fibers themselves act like synthetic ________.",
+    "options": [
+      "Bones",
+      "Capillaries (Blood vessels)",
+      "Skin",
+      "Muscles"
+    ],
+    "answer": "Capillaries (Blood vessels)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Fixed-bed reactors can be designed with radial flow to improve nutrient distribution.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "The 'sterile bags' in disposable systems are intended for multi-year reuse.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which system is best for producing very high concentrations of monoclonal antibodies on a laboratory scale?",
+    "options": [
+      "Simple T-flask",
+      "CeLLine two-compartment flask",
+      "Standard Petri dish",
+      "Centrifuge tube"
+    ],
+    "answer": "CeLLine two-compartment flask",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Semi-permeable membranes in bioreactors allow small molecules to pass but retain large cells.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Hollow fiber cartridges are often used in the production of recombinant proteins.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "The rocking motion of a Wave Bioreactor creates ________ on the surface of the media.",
+    "options": [
+      "A vacuum",
+      "Waves that facilitate gas transfer",
+      "Solid crystals",
+      "Toxic bubbles"
+    ],
+    "answer": "Waves that facilitate gas transfer",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Axial flow in a fixed-bed reactor means the medium flows along the long axis of the bed.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which component separates the nutrient supply from the cell growth area in CeLLine?",
+    "options": [
+      "A silicone membrane",
+      "A semi-permeable membrane",
+      "A steel plate",
+      "A layer of oil"
+    ],
+    "answer": "A semi-permeable membrane",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The use of single-use systems reduces the 'time-to-market' for new drugs.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Fixed-bed carriers are often macroporous to allow cells to grow inside.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "CeLLine is an example of a disposable, high-density culture flask.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Hollow fiber bioreactors are NOT suitable for adherent cells.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "shuffleOptions": false
+  },
+  {
+    "question": "What is the primary benefit of the 'ECS' in a hollow fiber system?",
+    "options": [
+      "It provides a space for cells to grow without being washed away by the medium flow",
+      "It is where the waste is burned",
+      "It is the entry point for the magnet",
+      "It prevents the media from entering the fibers"
+    ],
+    "answer": "It provides a space for cells to grow without being washed away by the medium flow",
+    "shuffleOptions": true
+  }
+]

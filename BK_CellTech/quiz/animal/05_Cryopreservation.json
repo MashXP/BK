@@ -1,0 +1,424 @@
+[
+  {
+    "question": "Which phase of the cell growth curve is characterized by an exponential increase in cell number?",
+    "options": [
+      "Lag Phase",
+      "Log (Growth) Phase",
+      "Stationary Phase",
+      "Decline Phase"
+    ],
+    "answer": "Log (Growth) Phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary reason for the plateau observed in the Stationary Phase?",
+    "options": [
+      "The cells have adapted to the environment",
+      "Nutrient depletion, waste accumulation, and confluence",
+      "The temperature was lowered",
+      "The cells were subcultured too early"
+    ],
+    "answer": "Nutrient depletion, waste accumulation, and confluence",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the purpose of 'Subculture' in cell technology?",
+    "options": [
+      "To induce cell death and study necrosis",
+      "To maintain cells in the exponential growth phase",
+      "To allow the cells to reach senescence",
+      "To increase the concentration of toxic metabolites"
+    ],
+    "answer": "To maintain cells in the exponential growth phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzyme is commonly used to detach anchorage-dependent cells from a culture vessel during subculture?",
+    "options": [
+      "Ligase",
+      "Trypsin",
+      "Polymerase",
+      "Amylase"
+    ],
+    "answer": "Trypsin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "During subculture, how is the activity of Trypsin typically stopped?",
+    "options": [
+      "By heating the flask to 50\u00b0C",
+      "By adding fresh medium (which contains inhibitors)",
+      "By washing with distilled water",
+      "By adding more Trypsin"
+    ],
+    "answer": "By adding fresh medium (which contains inhibitors)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary goal of cryopreservation?",
+    "options": [
+      "To accelerate cell growth",
+      "To stop biological time and preserve cells for long-term storage",
+      "To induce genetic mutations",
+      "To sterilize the culture"
+    ],
+    "answer": "To stop biological time and preserve cells for long-term storage",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What type of damage occurs during 'Ice Injury' caused by rapid cooling?",
+    "options": [
+      "Dehydration due to high salt concentration",
+      "Formation of intracellular ice crystals that damage organelles",
+      "Overheating of the mitochondria",
+      "Loss of nutrients through the cell wall"
+    ],
+    "answer": "Formation of intracellular ice crystals that damage organelles",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does 'Solute Injury' occur during slow cooling?",
+    "options": [
+      "Water freezes outside cells, leading to osmotic imbalance and dehydration",
+      "Cells take up too much water and burst",
+      "Proteins are degraded by low temperatures",
+      "The pH of the media becomes extremely alkaline"
+    ],
+    "answer": "Water freezes outside cells, leading to osmotic imbalance and dehydration",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the optimal cooling rate for cell cryopreservation?",
+    "options": [
+      "10\u00b0C per minute",
+      "1\u00b0C per minute",
+      "0.1\u00b0C per minute",
+      "Instant freezing in liquid nitrogen"
+    ],
+    "answer": "1\u00b0C per minute",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a common cryoprotectant used in cell culture?",
+    "options": [
+      "Ethanol",
+      "DMSO (Dimethyl Sulfoxide)",
+      "Trypan Blue",
+      "PBS"
+    ],
+    "answer": "DMSO (Dimethyl Sulfoxide)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Besides DMSO, what is another commonly used cryoprotectant?",
+    "options": [
+      "Glycerol",
+      "Methanol",
+      "Acetone",
+      "Sodium Chloride"
+    ],
+    "answer": "Glycerol",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the temperature of Liquid Nitrogen used for long-term cell storage?",
+    "options": [
+      "0\u00b0C",
+      "-20\u00b0C",
+      "-80\u00b0C",
+      "-196\u00b0C"
+    ],
+    "answer": "-196\u00b0C",
+    "shuffleOptions": true
+  },
+  {
+    "question": "At what speed should cells be thawed for optimal recovery?",
+    "options": [
+      "Slowly, at room temperature over several hours",
+      "Rapidly, at 35-37\u00b0C",
+      "By placing them directly in a microwave",
+      "Thawing is not required; they should be used frozen"
+    ],
+    "answer": "Rapidly, at 35-37\u00b0C",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is rapid thawing preferred over slow thawing?",
+    "options": [
+      "To prevent the formation of harmful ice crystals during the warming process (recrystallization)",
+      "To ensure the cells don't get too hot",
+      "To save time in the laboratory",
+      "To activate the Trypsin inhibitor"
+    ],
+    "answer": "To prevent the formation of harmful ice crystals during the warming process (recrystallization)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which phase of the growth curve is best for collecting cells for cryopreservation?",
+    "options": [
+      "Lag Phase",
+      "Exponential (Log) Phase",
+      "Stationary Phase",
+      "Decline Phase"
+    ],
+    "answer": "Exponential (Log) Phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does cryopreservation help reduce 'genetic drift'?",
+    "options": [
+      "By forcing the cells to mutate",
+      "By stopping cell division, thus preventing the accumulation of spontaneous mutations over time",
+      "By filtering out unhealthy cells",
+      "By using magnetic sorting"
+    ],
+    "answer": "By stopping cell division, thus preventing the accumulation of spontaneous mutations over time",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Prefreezing cells to -30\u00b0C to -70\u00b0C is often done using:",
+    "options": [
+      "Liquid Nitrogen",
+      "An isopropanol container or EPS rack",
+      "A standard refrigerator",
+      "A Bunsen burner"
+    ],
+    "answer": "An isopropanol container or EPS rack",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Cryopreservation inhibits cell differentiation.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Cryopreservation increases the risk of bacterial contamination.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which mathematical formula describes the cell number in the Log Phase?",
+    "options": [
+      "N = N0 + x",
+      "N = N0 * 2^x",
+      "N = N0 / x",
+      "N = (N0 * 10^4) / x"
+    ],
+    "answer": "N = N0 * 2^x",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the stationary phase, the death rate of cells equals the growth rate.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Confluence is a state where:",
+    "options": [
+      "Cells are floating in suspension",
+      "Cells have covered the entire available surface of the culture vessel",
+      "Cells have stopped consuming glucose",
+      "Cells have all reached the stationary phase"
+    ],
+    "answer": "Cells have covered the entire available surface of the culture vessel",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Contact inhibition is characteristic of:",
+    "options": [
+      "Cancer cells",
+      "Normal, healthy cells",
+      "Transformed cells",
+      "Viral particles"
+    ],
+    "answer": "Normal, healthy cells",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the role of PBS in the subculture protocol?",
+    "options": [
+      "To feed the cells",
+      "To act as a wash buffer to remove traces of media and metabolic waste",
+      "To kill the bacteria",
+      "To freeze the cells"
+    ],
+    "answer": "To act as a wash buffer to remove traces of media and metabolic waste",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Trypsin is a proteolytic enzyme.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Incubation during subculture is necessary for:",
+    "options": [
+      "The cells to divide",
+      "The Trypsin to work effectively on cell-surface proteins",
+      "The media to cool down",
+      "The CO2 level to rise"
+    ],
+    "answer": "The Trypsin to work effectively on cell-surface proteins",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The Resuspension step in subculture involves adding fresh medium to detach the cells.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Vapor phase storage in liquid nitrogen tanks typically reaches which temperature?",
+    "options": [
+      "0\u00b0C",
+      "-70\u00b0C",
+      "-135\u00b0C",
+      "-196\u00b0C"
+    ],
+    "answer": "-135\u00b0C",
+    "shuffleOptions": true
+  },
+  {
+    "question": "DMSO is toxic to cells at room temperature.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Why must cells be collected in the exponential phase for cryopreservation?",
+    "options": [
+      "Because they are the most numerous",
+      "Because they are in their most robust and healthy physiological state",
+      "Because they are the easiest to count",
+      "Because they have the shortest telomeres"
+    ],
+    "answer": "Because they are in their most robust and healthy physiological state",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Recrystallization during slow thawing can cause:",
+    "options": [
+      "Cell growth acceleration",
+      "Physical damage to cell membranes and organelles",
+      "Increased ATP production",
+      "Enhanced genetic stability"
+    ],
+    "answer": "Physical damage to cell membranes and organelles",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Cryopreservation prevents senescence by:",
+    "options": [
+      "Mutating the cells to become immortal",
+      "Slowing metabolic processes and cell division to a halt",
+      "Providing unlimited nutrients",
+      "Removing toxic waste"
+    ],
+    "answer": "Slowing metabolic processes and cell division to a halt",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does N0 represent in the cell growth formula?",
+    "options": [
+      "Final number of cells",
+      "Initial number of cells",
+      "Number of doublings",
+      "Death rate"
+    ],
+    "answer": "Initial number of cells",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The Decline Phase is also known as the Death Phase.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Which of the following describes the 'Optimal Cooling' strategy?",
+    "options": [
+      "Fast cooling without cryoprotectant",
+      "Slow cooling with a cryoprotectant to balance ice and solute injury",
+      "Fast cooling with a cryoprotectant",
+      "Slow cooling without a cryoprotectant"
+    ],
+    "answer": "Slow cooling with a cryoprotectant to balance ice and solute injury",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Cryopreservation helps maintain a consistent cell stock for long-term projects.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Wait time in the lag phase is used by the cells for:",
+    "options": [
+      "Rapid division",
+      "Dying",
+      "Adaptation and synthesis of growth factors",
+      "Detaching from the surface"
+    ],
+    "answer": "Adaptation and synthesis of growth factors",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Washing with PBS is done AFTER adding Trypsin.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "shuffleOptions": false
+  },
+  {
+    "question": "Reseeding refers to:",
+    "options": [
+      "Harvesting the final product",
+      "Placing a known number of cells into fresh culture vessels",
+      "Removing the serum from the media",
+      "Adding antibiotics to the culture"
+    ],
+    "answer": "Placing a known number of cells into fresh culture vessels",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How often should cells ideally be subcultured?",
+    "options": [
+      "Every hour",
+      "When they reach confluence or the late exponential phase",
+      "Only after they reach the decline phase",
+      "Once a year"
+    ],
+    "answer": "When they reach confluence or the late exponential phase",
+    "shuffleOptions": true
+  }
+]
