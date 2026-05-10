@@ -1,0 +1,87 @@
+\section{THEORY}
+
+\subsection{Pressure drop of inlet gas flow}
+The pressure drop ($\Delta P_{dry}$) of the gas flow through the packed column depends on the gas velocity ($G$) in the condition of dried packing (no countercurrent liquid flow). The pressure drop in the packed column increases as the velocity of the inlet gas flowing through interstices in the packing materials is raised. The pressure drop increases with the 1.8 -- 2.0 power of the velocity of the gas:
+\begin{equation}
+    \Delta P_{dry} = \alpha G^n
+\end{equation}
+Where $n = 1.8 - 2.0$.
+
+When liquid enters the column at the top of the packing and flows downward, the interstices in the packing are reduced due to the occupation of the liquid in the free volume of the packing material. Therefore, the displacement of the gas flow becomes harder. With an increment of gas flow rate, the impedimental effect of the liquid flow regularly increases. When the gas flow rate reaches a critical value, the pressure drop rises gradually. If the gas flow rate exceeds this loading point, the pressure drop increases more rapidly and does not follow Equation (1). In the local regions of the column, the liquid becomes a continuous phase, and the column reaches the flooding point. The entire column may fill with fluid at this flooding point.
+
+\subsection{The friction factor \texorpdfstring{$f_{dry}$}{f\_dry} as a function of \texorpdfstring{$Re_c$}{Re\_c} for dried column}
+The pressure drop ($\Delta P_{dry}$) can be determined using the Ergun equation:
+\begin{equation}
+    \frac{\Delta P_{dry}}{Z} \frac{\varepsilon^3}{(1-\varepsilon)} \frac{d_{td} \rho_G}{G^2} = \frac{150(1-\varepsilon)}{Re} + 1.75
+\end{equation}
+
+Chilton and Colburn suggested a relation:
+\begin{equation}
+    \Delta P_{dry} = 2f_{dry} \frac{G^2 Z}{\rho_g D_h} \gamma_h \gamma_w \quad [N/m^2]
+\end{equation}
+Where:
+\begin{itemize}
+    \item $Z$: packing depth [m]
+    \item $G$: gas flow velocity per unit of packed section [kg/s.$m^2$]
+    \item $D_h$: nominal size of packing material [m]
+    \item $\rho_g$: density of gas flow [kg/$m^3$]
+    \item $\gamma_h$: adjustment factor of packing material (0.35 for Raschig rings)
+    \item $\gamma_w$: adjustment factor for wall effect (1.0)
+\end{itemize}
+
+Zhavoronkov suggested another relation:
+\begin{equation}
+    \Delta P_{dry} = \frac{2f_{dry} G^2 Z}{\varepsilon^2 \rho_G D_e} \quad [N/m^2]
+\end{equation}
+Where:
+\begin{itemize}
+    \item $\varepsilon$: porosity of packing material
+    \item $D_e = 4\varepsilon / a$: equivalent diameter of packing material [m]
+    \item $a$: specific surface area of packing material [$m^2/m^3$]
+\end{itemize}
+
+Friction factor $f_{dry}$ is a function of dimensionless $Re_c$:
+\begin{equation}
+    Re_c = \frac{G D_e}{\varepsilon \mu} = \frac{4G}{a \mu}
+\end{equation}
+Where $\mu$: viscosity of gas flow [kg/ms].
+
+In the turbulent flow region ($50 < Re_c < 7000$):
+\begin{equation}
+    f_{dry} = \frac{3.8}{Re_c^{0.2}}
+\end{equation}
+
+\subsection{Pressure drop \texorpdfstring{$\Delta P_{wet}$}{Delta P\_wet} for wetted column}
+The correlation between $\Delta P_{dry}$ and $\Delta P_{wet}$ is:
+\begin{equation}
+    \Delta P_{wet} = \sigma \Delta P_{dry} \implies f_{wet} = \sigma f_{dry}
+\end{equation}
+Leva suggested a relation for $\sigma$ as a function of liquid velocity $L$ [kg/$m^2$s]:
+\begin{equation}
+    \sigma = 10^{\Omega L} \quad \text{or} \quad \log \sigma = \Omega L
+\end{equation}
+For 12.7 mm Raschig rings (random packing, $\varepsilon = 0.568$, $L = 0.39 - 11.7$ kg/$m^2$s), $\Omega = 0.084$.
+
+From previous studies, the relation between the ratio of $\Delta P_{wet} / \Delta P_{dry}$ and the coefficient of fluid irrigation ($A$) is:
+\begin{equation}
+    A = \sqrt{\frac{1.75}{Re_L} \left( \frac{G_L}{F \rho_L} \right) \frac{q}{2g \varepsilon^2}}
+\end{equation}
+For $A < 0.3$ and ceramic packing material with $d < 30$ mm:
+\begin{equation}
+    \frac{\Delta P_{wet}}{\Delta P_{dry}} = \frac{1}{(1-A)^3}
+\end{equation}
+Where $Re_L = \frac{4G_L}{Fa \mu_L}$.
+
+\subsection{The flooding point of packed column}
+Flooding occurs when the liquid seizes the packed section entirely. Zhavoronkov defined the flooding situation using two dimensionless numbers $\pi_1$ and $\pi_2$:
+\begin{equation}
+    \pi_1 = \left( \frac{f_{dry} a}{\varepsilon^3} \right) \frac{v^2}{2g} \cdot \frac{\rho_G}{\rho_L} \cdot \mu_{td}^{0.2}
+\end{equation}
+\begin{equation}
+    \pi_2 = \frac{L}{G} \sqrt{\frac{\rho_G}{\rho_L}}
+\end{equation}
+Where:
+\begin{itemize}
+    \item $v$: gas flow rate before feeding [m/s]
+    \item $\mu_{td} = \mu_l / \mu_{water}$: relative viscosity
+\end{itemize}

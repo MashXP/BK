@@ -1,0 +1,39 @@
+\section{CALCULATION}
+
+\subsection{Sample Calculation for \texorpdfstring{$L=0$}{L=0} and \texorpdfstring{$G=10\%$}{G=10\%}}
+
+\textbf{1. Gas mass velocity ($G$):}
+\begin{equation}
+    G = \frac{G\% \cdot \rho_G \cdot V_{max}}{60 \cdot F} = \frac{10 \cdot 1.1305 \cdot 0.286}{60 \cdot 0.0064 \cdot 100} = 0.0847 \text{ kg/s.m}^2
+\end{equation}
+
+\textbf{2. Pressure drop ($\Delta P/Z$):}
+For $\Delta P = 1 \text{ mmH}_2\text{O}$:
+\begin{equation}
+    \Delta P [N/m^2] = \Delta P_{mmH2O} \cdot g = 1 \cdot 9.81 = 9.81 \text{ N/m}^2
+\end{equation}
+\begin{equation}
+    \frac{\Delta P}{Z} = \frac{9.81}{0.42} = 23.36 \text{ N/m}^3
+\end{equation}
+
+\textbf{3. Reynolds number ($Re$):}
+\begin{equation}
+    Re = \frac{4G}{a \mu} = \frac{4 \cdot 0.0847}{375 \cdot 1928 \cdot 10^{-8}} = 46.86
+\end{equation}
+
+\textbf{4. Friction factor ($f_{dry}$):}
+\begin{equation}
+    f_{dry} = \frac{2 \Delta P \varepsilon^3 \rho_G}{G^2 Z a} = \frac{2 \cdot 9.81 \cdot 0.586^3 \cdot 1.1305}{0.0847^2 \cdot 0.42 \cdot 375} = 4.02
+\end{equation}
+
+\textbf{5. Flooding parameters ($\pi_1, \pi_2$):}
+For $L = 0.2 \text{ gal/min}$ and $G^* = 100\%$:
+\begin{equation}
+    v = G^* / \rho_G = 0.8471 / 1.1305 = 0.7493 \text{ m/s}
+\end{equation}
+\begin{equation}
+    \pi_1 = \left( \frac{f_{dry} a}{\varepsilon^3} \right) \frac{v^2}{2g} \cdot \frac{\rho_G}{\rho_L} \cdot \mu_{td}^{0.2} = \left( \frac{4.19 \cdot 375}{0.586^3} \right) \frac{0.7493^2}{2 \cdot 9.81} \cdot \frac{1.1305}{995.6} \cdot 1^{0.2} = 0.2583
+\end{equation}
+\begin{equation}
+    \pi_2 = \frac{L}{G} \sqrt{\frac{\rho_G}{\rho_L}} = \frac{0.0027}{0.8471} \sqrt{\frac{1.1305}{995.6}} = 0.0952
+\end{equation}

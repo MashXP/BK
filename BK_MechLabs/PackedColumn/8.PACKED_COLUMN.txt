@@ -1,0 +1,988 @@
+![OISP_Logo](media/image1.png){width="0.9371314523184602in"
+height="0.9305555555555556in"}
+
+**HO CHI MINH CITY UNIVERSITY OF TECHNOLOGY**
+
+**OFFICE FOR INTERNATIONAL STUDY PROGRAMS**
+
+**PACKED COLUMN**
+
+Department: Processes and Equipment
+
+Class: CC15HC1
+
+Nguyeãn Minh Thuøy -- 1552369
+
+11 May 2018**\
+**
+
+OUTLINE
+
+[I. ABSTRACT: [3](#i.-abstract)](#i.-abstract)
+
+[1. Objective: [3](#objective)](#objective)
+
+[2. Experiment method: [3](#experiment-method)](#experiment-method)
+
+[3. Result data: [4](#result-data)](#result-data)
+
+[II. THEORY: [4](#ii.-theory)](#ii.-theory)
+
+[1. Pressure drop of inlet gas flow:
+[4](#pressure-drop-of-inlet-gas-flow)](#pressure-drop-of-inlet-gas-flow)
+
+[2. The friction factor f~dry~ as a function of Re~c~ for dried column:
+[5](#the-friction-factor-fdry-as-a-function-of-rec-for-dried-column)](#the-friction-factor-fdry-as-a-function-of-rec-for-dried-column)
+
+[3. Pressure drop ∆P~wet~ for wetted column:
+[6](#pressure-drop-pwet-for-wetted-column)](#pressure-drop-pwet-for-wetted-column)
+
+[4. The flooding point of packed column:
+[7](#the-flooding-point-of-packed-column)](#the-flooding-point-of-packed-column)
+
+[III. EXPERIMENTAL APPARATUS:
+[8](#iii.-experimental-apparatus)](#iii.-experimental-apparatus)
+
+[IV. RESULTS [10](#iv.-results)](#iv.-results)
+
+[V. DISCUSSION: [26](#v.-discussion)](#v.-discussion)
+
+[VI. APPENDIX: [27](#vi.-appendix)](#vi.-appendix)
+
+[VII. REFERENCES: [28](#vii.-references)](#vii.-references)
+
+# 
+
+# I. ABSTRACT:
+
+## Objective: 
+
+A Packed column was applied in mass transfer processes such as gas
+absorption, distillation, and liquid extraction. These experiments were
+to investigate the hydrodynamic characteristics and the effects of the
+gas and liquid velocities on the operating performance of the packed
+column. In the packed column, the inlet liquid is distributed over the
+top of the packed section and flows downward in the column, while the
+inlet gas was entered the distributing space below the packed section
+and flows upward through the interstices in the packing countercurrent
+to the flow of the liquid.
+
+Through the experiments, the students could determine:
+
+1\) The effects of gas and liquid velocities on the pressure drop of gas
+flow in the packed column
+
+2\) The variation of the friction coefficient of dried -- packing
+(f~dry~) as a function Reynolds number (Re) of inlet gas flow rate and
+inferring the experimental relations
+
+3\) The change of "σ" factor, showing the relationship between the
+pressure drop of the gas flow through the dried packing and that through
+the wetted packing in different inlet liquid velocities
+
+4\) The diagram of limiting operation performance of packed column
+(loading and flooding points)
+
+## Experiment method:
+
+Gas flow is supplied with different flowrate to packed column containing
+ceramic chocks. Pressure drop is surveyed in turn when only gas flow
+goes into column (dried column) and when gas flow goes into column
+combined with liquid flow goes down from the top with different
+flowrates (wetted column)
+
+## Result data:
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                    **L=0**                **L=0.2**               **L=0.4**               **L=0.6**               **L=0.8**               **L=1.0**               **L=1.2**               **L=1.4**                  **L=1.6**                  **L=1.8**
+  --------- ----------------------- ----------------------- ----------------------- ----------------------- ----------------------- ----------------------- ----------------------- ----------------------- -- ----------------------- -- -----------------------
+             ![](media/image2.wmf)   ![](media/image3.wmf)   ![](media/image3.wmf)   ![](media/image3.wmf)   ![](media/image3.wmf)   ![](media/image3.wmf)   ![](media/image3.wmf)   ![](media/image3.wmf)      ![](media/image3.wmf)      ![](media/image3.wmf)
+
+   **10**              3                       3                       4                       4                       4                       4                       3                       4                          4                          8
+
+   **20**              5                       7                       8                       9                       9                      12                      15                      16                         20                         32
+
+   **30**             11                      13                      15                      19                      20                      28                      35                      45                         55                         52
+
+   **40**             21                      21                      20                      29                      37                      53                      78                      101                                         
+
+   **50**             29                      31                      43                      46                      65                      110                     119                                                                 
+
+   **60**             41                      39                      49                      75                      116                     141                                                                                         
+
+   **70**             55                      60                      74                      112                                                                                                                                         
+
+   **80**             72                      76                      95                      140                                                                                                                                         
+
+   **90**             88                      93                      137                                                                                                                                                                 
+
+   **100**            106                     116                     139                                                                                                                                                                 
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# II. THEORY:
+
+## Pressure drop of inlet gas flow:
+
+The Pressure drop (∆P~dry~) of the gas flow through the packed column is
+depended on the gas velocity (G) in the condition of dried -- packing
+(no countercurrent-liquid flow). The pressure drop in the packed column
+increases as raising the velocity of the inlet gas flowing through
+interstices in the packing materials. The pressure drop increases with
+the 1.8 -- 2.0 power of the velocity of the gas.
+
+∆P~dry~ = α G^n^
+
+Where in, n = 1.8 -- 2.0
+
+When the liquid enters the column at the top of packing and flows
+downward, the interstices in the packing are reduced, due to the
+occupation of the liquid in the free volume of the packing material.
+Therefore, the displacement of the gas flow was harder in the packed
+column. With an increment of gas flow rate, the impedimental effect of
+the liquid flow regularly increases. When the gas flow rate reaches a
+critical value, the pressure drop rises gradually. If the gas glow rate
+exceeds this loading point, the pressure drop increases more rapidly and
+does not follow the equation (1). In the local regions of the column,
+the liquid becomes a continuous phase, and the column reaches the
+flooding point. The entire column may fill with fluid at this flooding
+point.'
+
+The graph of log(∆P~c~/Z), describing the pressure drop per unit packing
+depth, is show in figure 1.
+
+![](media/image4.png){width="4.125in" height="2.3541666666666665in"}
+
+log G
+
+Firgure 1: Effect of G and L on the pressure drop of packed column
+(∆P~c~)
+
+## The friction factor f~dry~ as a function of Re~c~ for dried column:
+
+The pressure drop (∆P~dry~) of gas flow through the packed column with
+no countercurrent-liquid flow can be determined using Ergun equation:
+
+$$\frac{{\mathrm{\Delta}P}_{dry}}{Z}\frac{\varepsilon^{3}}{(1 - \varepsilon)}.\frac{d_{td}\rho_{G}}{G^{2}} = \frac{150(1 - \varepsilon)}{Re} + 1.75$$
+
+Chilton and Colburn suggested a relation between pressure drop of gas
+flow and gas velocity through the packed column
+
+$${\mathrm{\Delta}P}_{dry} = 2f_{dry}\frac{G^{2}Z}{\rho_{g}D_{h}}\gamma_{h}\gamma_{w}\ ,\ N/m^{2}$$
+
+Z: the paking depth, m
+
+G: gas flow velocity per unit of packed section, kg/s.m^2^
+
+D~h~: nominal size of packing material, m
+
+ρ~g~: density of gas flow, kg/m^3^
+
+γ~h~: the adjustment factor of packing material
+
+γ~w~: the adjustment factor for effect of wall column on void fraction
+of packed column
+
+Sherwood collected the data of previous studies and suggested the
+characteristic values for Raschig rings:
+
+γ~h~ = 0.35
+
+γ~w~ = 1
+
+However, Zhavoronkov suggested another relation, referring the void
+fraction, is more accurate for ∆P~dry:~
+
+$${\mathrm{\Delta}P}_{dry} = \frac{2f_{dry}G^{2}Z}{\varepsilon^{2}\rho_{G}D_{e}}\ ,\ N/m^{2}$$
+
+Wherein: ε: porosity of packing material
+
+D~e~ = 4ε / a equivalent diameter of packing material, m
+
+a: specific surface area of packing material, m^2^/m^3^
+
+Friction factor f~dry~ is a function of dimensionless Re~c~ and is
+determined using the following equation:
+
+$${Re}_{c} = \frac{GD_{e}}{\varepsilon\mu} = \frac{4G}{a\mu}$$
+
+µ: viscosity of gas flow, kg/ms
+
+Zhavaronkov determined the variation of gas flow from laminar flow to
+turbulent flow regime through the Re~c~ of 50. In turbulent flow region,
+the Re~c~ is in the range of 50 \< Re~c~ \< 7000 with the random packed
+column. The f~dry~ is calculated as following equation:
+
+$$f_{dry} = \frac{3.8}{{Re}_{c}^{0.2}}$$
+
+However, this generalized relation is not accurate because it doesn't
+entirely mention the effect of packing material's shape.
+
+## Pressure drop ∆P~wet~ for wetted column:
+
+The correlation between the pressure drop for dried column ∆P~dry~ and
+that for wetted column ∆P~wet~ can be described as following
+
+∆P~wet~ = σ∆P~dry~
+
+Therefore, we can estimate:
+
+f~wet~ = σ f~dry~
+
+Where σ is a coefficient as a function of the liquid velocity L,
+kg/m^2^s
+
+Leva suggested a relation showing the effect of L on σ:
+
+σ = 10^ΩL^
+
+or log σ = ΩL
+
+The value of σ depends on types, dimension, packing mode (random or
+regular mode) and liquid velocity L.
+
+For example, with the Raschig rings for 12.7 mm, random packing, the
+porosity ε of 0.568, the liquid velocity L from 0.39 to 11.7 kg/m^2^s,
+the column is operated below the loading point:
+
+Ω = 0.084
+
+From some previous studies, the relation between the ratio of
+$\frac{{\mathrm{\Delta}p}_{wet}}{{\mathrm{\Delta}p}_{dry}}$ and
+coefficient of fluid irrigation can be showed as following
+
+$$A = \sqrt{\frac{1.75}{{Re}_{L}}\left( \frac{G_{L}}{F\rho_{L}} \right)\frac{q}{2g\varepsilon^{2}}}$$
+
+For A \< 0.3 and ceramic packing material with d \< 30 mm:
+
+$$\frac{{\mathrm{\Delta}p}_{wet}}{{\mathrm{\Delta}p}_{dry}} = \frac{1}{(1 - A)^{3}}$$
+
+$${Re}_{L} = \frac{4G_{L}}{Fa\mu_{L}}$$
+
+## The flooding point of packed column:
+
+When the packed column is flooded, the liquid seizes the packed section
+entirely, and the flows are disordered drastically. This phenomenon is
+atrocious for the operation of the packed column. The G~L~ which is
+responsible for this flooding situation is called G~L~^\*^.
+
+![](media/image5.png){width="2.377817147856518in"
+height="1.6884503499562555in"}
+
+Figure 2: Flooding plot of packed column
+
+Zhavoronkov pointed out that the flooding situation appears when the two
+number of π~1~ and π~2~ for the packed column have the relationship.
+
+$$\prod_{}^{}1 = \left( \frac{f_{dry}.a}{\varepsilon^{3}} \right)\frac{v^{2}}{2g} \bullet \frac{\rho_{G}}{\rho_{L}} \bullet \mu_{tđ}^{0.2}$$
+
+And
+
+$$\prod_{}^{}{2 = \frac{L}{G}\sqrt{\frac{\rho_{G}}{\rho_{L}}}}$$
+
+Where f~dry~: friction factor for dried column
+
+v: the flow rate of gas before feeding to the packed column, m/s
+
+µ~tđ~: relative viscosity of liquid compared to water
+
+$\mu_{tđ} = \frac{\mu_{l}}{\mu_{water}}$, if the liquid is water µ~tđ~ =
+1
+
+Therefore, the correlation of π~1~ and π~2~ as showed in the plot of log
+π~1~ -- log π~2~ determined the flooding graph of packed column. The
+limiting operation of the packed column is under this plot.
+
+# III. EXPERIMENTAL APPARATUS: 
+
+1.  **Diagram of experimental apparatus**
+
+The experimental unit consists of:
+
+1)  A glass column where the Raschig rings are packed randomly.
+
+2)  Gas feeding equipment with air blower (B~K~), gas pipe, U -- tube
+    manometer differential pressure gauge and gas flowmeter with scale
+    from 8 to 100%.
+
+3)  Water feeding equipment with feedtank (N), water pump (B~L~) and
+    liquid flowmeter with range from 0 to1.6.
+
+<!-- -->
+
+2.  **Characteristic of packed column**
+
+Glass column:
+
+-   Diameter d = 0.09 m
+
+-   Height H = 0.805 m
+
+-   Packing height Z = 0.42 m
+
+Packing material which is Raschig rings is arranged randomly, with the
+nominal diameter "d" = 12.7 mm, surface area "a" = 370 -- 380 m^2^/m^3^,
+porosity "ε" = 0.586.
+
+Figure 3: Diagram of experimental apparatus
+
+List of components in the diagram of experimental apparatus:
+
+-   A: Panel
+
+-   C: Packed column
+
+-   E: Bottom part of column
+
+-   F~K~: Gas flowmeter, V = 0.286 m^3^/min
+
+-   g: a liquid level device (pipe) at the bottom part of column
+
+-   F~L~: Liquid flowmeter, G~L~ = 5.805 l/min
+
+-   B~K~: air blower with a capacity of 1.0 Hp
+
+-   B~L~: liquid pump with a capacity of 0.5 Hp
+
+-   N: liquid tank
+
+-   AK: pressure gauge
+
+3.  **Experimental Method**
+
+    a.  **Preparation**
+
+-   Close all of the liquid valves
+
+-   Turn on the air valve and switch the air blower in 5 min for
+    removing all moisture in the column. Then, shut down the blower
+
+-   Open valve "1" and valve "3", and pumping water into the bottom part
+    of the column. Using valve "2" to adjust the water level equal to
+    the height of level device (the height = $\frac{3}{4}$ of the bottom
+    part of the column). Then, turn off the pump and close valve "3".
+
+    a.  **Measurement of pressure drop for dried column**
+
+-   Close all of the liquid valves. Open air valve "6" when the air
+    valve "5" is closed. Turn on the air blower and open valve "5"
+    slowly for adjusting the gas flow into the column
+
+-   With a fixed gas flow rate, determining of P~dry~ on the pressure
+    gauge for the mmH2O unit. After that, turn off the blower and
+    waiting for 5 min
+
+    a.  **Measurement for pressure drop of the wetted column**
+
+-   Switch on the air blower and adjust gas flow rate into the column in
+    range of 15 -- 20% for maximum flow rate
+
+-   Open the liquid valve "1" and turn on the pump. Using valve "VL"
+    from the liquid flowmeter to adjust the water flow rate at the top
+    of the column. If the float in flowmeter does not pop up as the
+    valve "VL" is opened at full volume, close the valve "1" closely to
+    raise the liquid flow rate
+
+-   At a specific liquid flow rate, altering the air flow rate and
+    measuring the P~wet~ until the operation of the column reaches the
+    flooding point and accomplishing the experiment
+
+-   Raising the liquid flow rate and conducting the experiment as above
+
+> Note:
+
+1)  Adjust the valve "4" to maintain the height of water level equal to
+    $\frac{3}{4}$ the height of the bottom part of the column through
+    the measurement of the pressure drop
+
+2)  Using the valve "2" to reduce water level from the column, if needed
+
+3)  Turn off the water pump B~L~ before opening the valve "4" at full
+    volume. Finally, switch off the air blower B~K~.
+
+4)  If the water infiltrates into the gas feeding pipe, opening the blue
+    valve behind the panel to eliminate water.
+
+# IV. RESULTS
+
+**Table 1: The result for dry column L = 0**
+
+  -------------------------------------------------------------------------------------------------------------------
+   **G%**        **G       **∆Pck (mm   **∆P~ck~    **∆P~ck~/Z   **f~ck~**   **Re~ck~**   **logG**   **log∆P~ck~/Z**
+            (kg/m^2^.s)**   H~2~O)**   (N/m^2^)**    (N/m)**                                        
+  -------- --------------- ---------- ------------ ------------ ----------- ------------ ---------- -----------------
+     10         0.08           3         29.43        70.07        11.85       46.86       -1.07          1.85
+
+     20         0.17           5         49.05        116.79       4.94        93.73       -0.77          2.07
+
+     30         0.25           11        107.91       256.93       4.83        140.59      -0.59          2.41
+
+     40         0.34           21        206.01       490.50       5.18        187.45      -0.47          2.69
+
+     50         0.42           29        284.49       677.36       4.58        234.32      -0.37          2.83
+
+     60         0.51           41        402.21       957.64       4.50        281.18      -0.29          2.98
+
+     70         0.59           55        539.55      1284.64       4.43        328.04      -0.23          3.11
+
+     80         0.68           72        706.32      1681.71       4.44        374.91      -0.17          3.23
+
+     90         0.76           88        863.28      2055.43       4.29        421.77      -0.12          3.31
+
+    100         0.85          106       1039.86      2475.86       4.19        468.63      -0.07          3.39
+  -------------------------------------------------------------------------------------------------------------------
+
+**Chart LogΔP~ck~/Z following LogG with L = 0**
+
+**Table 2: The result for wetted column L = 0.2**
+
+  -----------------------------------------------------------------------------------------------------
+   **G%**        **G        **∆P~cư~    **∆P~cư~    **∆P~cư~/Z       **σ        **f~cư~**   **Re~cư~**
+            (kg/m^2^.s)**     (mm      (N/m^2^)**    (N/m)**     (kg/m^2^s)**              
+                            H~2~O)**                                                       
+  -------- --------------- ---------- ------------ ------------ -------------- ----------- ------------
+     10         0.08           3         29.43        70.07          1.00         11.85       46.86
+
+     20         0.17           7         68.67        163.50         1.40         6.91        93.73
+
+     30         0.25           13        127.53       303.64         1.18         5.70        140.59
+
+     40         0.34           21        206.01       490.50         1.00         5.18        187.45
+
+     50         0.42           31        304.11       724.07         1.07         4.90        234.32
+
+     60         0.51           39        382.59       910.93         0.95         4.28        281.18
+
+     70         0.59           60        588.60      1401.43         1.09         4.84        328.04
+
+     80         0.68           76        745.56      1775.14         1.06         4.69        374.91
+
+     90         0.76           93        912.33      2172.21         1.06         4.53        421.77
+
+    100         0.85          116       1137.96      2709.43         1.09         4.58        468.63
+  -----------------------------------------------------------------------------------------------------
+
+**Chart ΔP~cö~/Z following G with L = 0.2**
+
+**Table 3: The result for wetted column L = 0.4**
+
++-----+---------+--------+--------+---------+---------+-------+------+
+| **G | **G**   | **∆P   | **     | **∆     | **σ**   | **f~  | **   |
+| %** |         | ~cư~** | ∆P~cư~ | P~cư~/Z |         | cư~** | Re~c |
+|     | *       |        | (N/m   | (N/m)** | **(kg/m |       | ư~** |
+|     | *(kg/m^ | **(mm  | ^2^)** |         | ^2^s)** |       |      |
+|     | 2^.s)** | H~     |        |         |         |       |      |
+|     |         | 2~O)** |        |         |         |       |      |
++:===:+:=======:+:======:+:======:+:=======:+:=======:+:=====:+:====:+
+| 10  | 0.08    | 4.0    | 39.24  | 93.43   | 1.33    | 15.80 | 4    |
+|     |         |        |        |         |         |       | 6.86 |
++-----+---------+--------+--------+---------+---------+-------+------+
+| 20  | 0.17    | 8.0    | 78.48  | 186.86  | 1.60    | 7.90  | 9    |
+|     |         |        |        |         |         |       | 3.73 |
++-----+---------+--------+--------+---------+---------+-------+------+
+| 30  | 0.25    | 15.0   | 147.15 | 350.36  | 1.36    | 6.58  | 14   |
+|     |         |        |        |         |         |       | 0.59 |
++-----+---------+--------+--------+---------+---------+-------+------+
+| 40  | 0.34    | 20.0   | 196.20 | 467.14  | 0.95    | 4.94  | 18   |
+|     |         |        |        |         |         |       | 7.45 |
++-----+---------+--------+--------+---------+---------+-------+------+
+| 50  | 0.42    | 43.0   | 421.83 | 1004.36 | 1.48    | 6.79  | 23   |
+|     |         |        |        |         |         |       | 4.32 |
++-----+---------+--------+--------+---------+---------+-------+------+
+| 60  | 0.51    | 49.0   | 480.69 | 1144.50 | 1.20    | 5.38  | 28   |
+|     |         |        |        |         |         |       | 1.18 |
++-----+---------+--------+--------+---------+---------+-------+------+
+| 70  | 0.59    | 74.0   | 725.94 | 1728.43 | 1.35    | 5.96  | 32   |
+|     |         |        |        |         |         |       | 8.04 |
++-----+---------+--------+--------+---------+---------+-------+------+
+| 80  | 0.68    | 95.0   | 931.95 | 2218.93 | 1.32    | 5.86  | 37   |
+|     |         |        |        |         |         |       | 4.91 |
++-----+---------+--------+--------+---------+---------+-------+------+
+| 90  | 0.76    | 137.0  | 1      | 3199.93 | 1.56    | 6.68  | 42   |
+|     |         |        | 343.97 |         |         |       | 1.77 |
++-----+---------+--------+--------+---------+---------+-------+------+
+| 100 | 0.85    | 139.0  | 1      | 3246.64 | 1.31    | 5.49  | 46   |
+|     |         |        | 363.59 |         |         |       | 8.63 |
++-----+---------+--------+--------+---------+---------+-------+------+
+
+**Chart ΔP~cö~/Z following G with L = 0.4**
+
+**Table 4: The result for wetted column L = 0.6**
+
++----+---------+---------+--------+----------+--------+------+------+
+| ** | **G     | **∆     | **     | **       | **σ**  | *    | **   |
+| G% | (kg/m^  | P~cư~** | ∆P~cư~ | ∆P~cư~/Z |        | *f~c | Re~c |
+| ** | 2^.s)** |         | (N/m   | (N/m)**  | **     | ư~** | ư~** |
+|    |         | **(mm   | ^2^)** |          | (kg/m^ |      |      |
+|    |         | H       |        |          | 2^s)** |      |      |
+|    |         | ~2~O)** |        |          |        |      |      |
++:==:+:=======:+:=======:+:======:+:========:+:======:+:====:+:====:+
+| 10 | 0.08    | 4.0     | 39.24  | 93.43    | 1.33   | 1    | 4    |
+|    |         |         |        |          |        | 5.80 | 6.86 |
++----+---------+---------+--------+----------+--------+------+------+
+| 20 | 0.17    | 9.0     | 88.29  | 210.21   | 1.80   | 8.89 | 9    |
+|    |         |         |        |          |        |      | 3.73 |
++----+---------+---------+--------+----------+--------+------+------+
+| 30 | 0.25    | 19.0    | 186.39 | 443.79   | 1.73   | 8.34 | 14   |
+|    |         |         |        |          |        |      | 0.59 |
++----+---------+---------+--------+----------+--------+------+------+
+| 40 | 0.34    | 29.0    | 284.49 | 677.36   | 1.38   | 7.16 | 18   |
+|    |         |         |        |          |        |      | 7.45 |
++----+---------+---------+--------+----------+--------+------+------+
+| 50 | 0.42    | 46.0    | 451.26 | 1074.43  | 1.59   | 7.27 | 23   |
+|    |         |         |        |          |        |      | 4.32 |
++----+---------+---------+--------+----------+--------+------+------+
+| 60 | 0.51    | 75.0    | 735.75 | 1751.79  | 1.83   | 8.23 | 28   |
+|    |         |         |        |          |        |      | 1.18 |
++----+---------+---------+--------+----------+--------+------+------+
+| 70 | 0.59    | 112.0   | 1      | 2616.00  | 2.04   | 9.03 | 32   |
+|    |         |         | 098.72 |          |        |      | 8.04 |
++----+---------+---------+--------+----------+--------+------+------+
+| 80 | 0.68    | 140.0   | 1      | 3270.00  | 1.94   | 8.64 | 37   |
+|    |         |         | 373.40 |          |        |      | 4.91 |
++----+---------+---------+--------+----------+--------+------+------+
+
+**Chart ΔP~cö~/Z following G with L = 0.6**
+
+**Table 5: The result for wetted column L = 0.8**
+
++----+---------+----------+--------+---------+--------+-----+-------+
+| ** | **G     | **       | **     | **∆     | **σ    | **f | **Re~ |
+| G% | (kg/m^  | ∆P~cư~** | ∆P~cư~ | P~cư~/Z | (kg/m^ | ~cư | cư~** |
+| ** | 2^.s)** |          | (N/m   | (N/m)** | 2^s)** | ~** |       |
+|    |         | **(mm    | ^2^)** |         |        |     |       |
+|    |         | H~2~O)** |        |         |        |     |       |
++====+=========+==========+========+=========+========+=====+:=====:+
+| 10 | 0.08    | 4.0      | 39.24  | 93.43   | 1.33   | 15  | 46.86 |
+|    |         |          |        |         |        | .80 |       |
++----+---------+----------+--------+---------+--------+-----+-------+
+| 20 | 0.17    | 9.0      | 88.29  | 210.21  | 1.80   | 8   | 93.73 |
+|    |         |          |        |         |        | .89 |       |
++----+---------+----------+--------+---------+--------+-----+-------+
+| 30 | 0.25    | 20.0     | 196.20 | 467.14  | 1.82   | 8   | 1     |
+|    |         |          |        |         |        | .78 | 40.59 |
++----+---------+----------+--------+---------+--------+-----+-------+
+| 40 | 0.34    | 37.0     | 362.97 | 864.21  | 1.76   | 9   | 1     |
+|    |         |          |        |         |        | .13 | 87.45 |
++----+---------+----------+--------+---------+--------+-----+-------+
+| 50 | 0.42    | 65.0     | 637.65 | 1518.21 | 2.24   | 10  | 2     |
+|    |         |          |        |         |        | .27 | 34.32 |
++----+---------+----------+--------+---------+--------+-----+-------+
+| 60 | 0.51    | 116.0    | 1      | 2709.43 | 2.83   | 12  | 2     |
+|    |         |          | 137.96 |         |        | .73 | 81.18 |
++----+---------+----------+--------+---------+--------+-----+-------+
+
+**Chart ΔP~cö~/Z following G with L = 0.8**
+
+**Table 6: The result for wetted column L = 1**
+
++----+---------+--------+---------+---------+-------+--------+------+
+| ** | **G     | **∆P~c | **∆     | **∆     | **σ** | **f    | **   |
+| G% | (kg/m^  | ư\ ~** | P~cư~** | P~cư~/Z |       | ~cư~** | Re~c |
+| ** | 2^.s)** |        |         | (N/m)** | **(k  |        | ư~** |
+|    |         | **(mm  | **(N/   |         | g/m^2 |        |      |
+|    |         | H~     | m^2^)** |         | ^s)** |        |      |
+|    |         | 2~O)** |         |         |       |        |      |
++:==:+:=======:+:======:+:=======:+:=======:+:=====:+:======:+:====:+
+| 10 | 0.08    | 4      | 39.24   | 93.43   | 1.33  | 15.80  | 4    |
+|    |         |        |         |         |       |        | 6.86 |
++----+---------+--------+---------+---------+-------+--------+------+
+| 20 | 0.17    | 12     | 117.72  | 196.20  | 2.40  | 11.85  | 9    |
+|    |         |        |         |         |       |        | 3.73 |
++----+---------+--------+---------+---------+-------+--------+------+
+| 30 | 0.25    | 28     | 274.68  | 457.80  | 2.55  | 12.29  | 14   |
+|    |         |        |         |         |       |        | 0.59 |
++----+---------+--------+---------+---------+-------+--------+------+
+| 40 | 0.34    | 53     | 519.93  | 866.55  | 2.52  | 13.08  | 18   |
+|    |         |        |         |         |       |        | 7.45 |
++----+---------+--------+---------+---------+-------+--------+------+
+| 50 | 0.42    | 110    | 1079.10 | 1798.50 | 3.79  | 17.38  | 23   |
+|    |         |        |         |         |       |        | 4.32 |
++----+---------+--------+---------+---------+-------+--------+------+
+| 60 | 0.51    | 141    | 1383.21 | 2305.35 | 3.44  | 15.47  | 28   |
+|    |         |        |         |         |       |        | 1.18 |
++----+---------+--------+---------+---------+-------+--------+------+
+
+**Chart ΔP~cö~/Z following G with L = 1**
+
+**Table 7: The result for wetted column L = 1.2**
+
++-------+--------+---------+---------+--------+-------+-----+-------+
+| *     | **G    | **∆P~   | **∆     | **∆P   | **σ** | **f | **Re~ |
+| *G%** | (      | cư\ ~** | P~cư~** | ~cư~/Z |       | ~cư | cư~** |
+|       | kg/m^2 |         |         | (      | **(k  | ~** |       |
+|       | ^.s)** | **(mm   | **(N/   | N/m)** | g/m^2 |     |       |
+|       |        | H       | m^2^)** |        | ^s)** |     |       |
+|       |        | ~2~O)** |         |        |       |     |       |
++=======+========+=========+=========+========+=======+=====+:=====:+
+| 10    | 0.08   | 3       | 29.43   | 70.07  | 1.00  | 11  | 46.86 |
+|       |        |         |         |        |       | .85 |       |
++-------+--------+---------+---------+--------+-------+-----+-------+
+| 20    | 0.17   | 15      | 147.15  | 350.36 | 3.00  | 14  | 93.73 |
+|       |        |         |         |        |       | .81 |       |
++-------+--------+---------+---------+--------+-------+-----+-------+
+| 30    | 0.25   | 35      | 343.35  | 817.50 | 3.18  | 15  | 1     |
+|       |        |         |         |        |       | .36 | 40.59 |
++-------+--------+---------+---------+--------+-------+-----+-------+
+| 40    | 0.34   | 78      | 765.18  | 1      | 3.71  | 19  | 1     |
+|       |        |         |         | 821.86 |       | .25 | 87.45 |
++-------+--------+---------+---------+--------+-------+-----+-------+
+| 50    | 0.42   | 119     | 1167.39 | 2      | 4.10  | 18  | 2     |
+|       |        |         |         | 779.50 |       | .80 | 34.32 |
++-------+--------+---------+---------+--------+-------+-----+-------+
+
+**Chart ΔP~cö~/Z following G with L = 1.2**
+
+**Table 8: The result for wetted column L = 1.4**
+
++-------+--------+----------+--------+---------+--------+-----+------+
+| *     | **G    | **∆P     | **∆P   | **∆     | **σ**  | **f | **   |
+| *G%** | (      | ~cư\ ~** | ~cư~** | P~cư~/Z |        | ~cư | Re~c |
+|       | kg/m^2 |          |        | (N/m)** | **     | ~** | ư~** |
+|       | ^.s)** | **(mm    | **(N/m |         | (kg/m^ |     |      |
+|       |        | H~2~O)** | ^2^)** |         | 2^s)** |     |      |
++=======+========+==========+========+=========+========+=====+:====:+
+| 10    | 0.08   | 4        | 39.24  | 93.43   | 1.33   | 15  | 4    |
+|       |        |          |        |         |        | .80 | 6.86 |
++-------+--------+----------+--------+---------+--------+-----+------+
+| 20    | 0.17   | 16       | 156.96 | 373.71  | 3.20   | 15  | 9    |
+|       |        |          |        |         |        | .80 | 3.73 |
++-------+--------+----------+--------+---------+--------+-----+------+
+| 30    | 0.25   | 45       | 441.45 | 1051.07 | 4.09   | 19  | 14   |
+|       |        |          |        |         |        | .75 | 0.59 |
++-------+--------+----------+--------+---------+--------+-----+------+
+| 40    | 0.34   | 101      | 990.81 | 2359.07 | 4.81   | 24  | 18   |
+|       |        |          |        |         |        | .93 | 7.45 |
++-------+--------+----------+--------+---------+--------+-----+------+
+
+**Chart ΔP~cö~/Z following G with L = 1.4**
+
+**Table 9: The result for wetted column L = 1.6**
+
++-------+-------+---------+--------+--------+--------+------+-------+
+| *     | **G   | **∆     | **∆P   | **∆P~c | **σ**  | *    | **Re~ |
+| *G%** | (kg   | P~cư~** | ~cư~** | ư~/Z** |        | *f~c | cư~** |
+|       | /m^2^ |         |        |        | **     | ư~** |       |
+|       | .s)** | **(mm   | **(N/m | **(    | (kg/m^ |      |       |
+|       |       | H       | ^2^)** | N/m)** | 2^s)** |      |       |
+|       |       | ~2~O)** |        |        |        |      |       |
++=======+=======+=========+========+========+========+======+:=====:+
+| 10    | 0.08  | 4       | 39.24  | 93.43  | 1.33   | 1    | 46.86 |
+|       |       |         |        |        |        | 5.80 |       |
++-------+-------+---------+--------+--------+--------+------+-------+
+| 20    | 0.17  | 20      | 196.20 | 327.00 | 4.00   | 1    | 93.73 |
+|       |       |         |        |        |        | 9.75 |       |
++-------+-------+---------+--------+--------+--------+------+-------+
+| 30    | 0.25  | 55      | 539.55 | 899.25 | 5.00   | 2    | 1     |
+|       |       |         |        |        |        | 4.13 | 40.59 |
++-------+-------+---------+--------+--------+--------+------+-------+
+
+**Chart ΔP~cö~/Z following G with L = 1.6**
+
+**Table 10: The result for wetted column L = 1.8**
+
++--------+-------+---------+--------+--------+--------+------+------+
+| **G%** | **G   | **∆     | **∆P   | **∆P~c | **σ**  | *    | **   |
+|        | (kg   | P~cư~** | ~cư~** | ư~/Z** |        | *f~c | Re~c |
+|        | /m^2^ |         |        |        | **     | ư~** | ư~** |
+|        | .s)** | **(mm   | **(N/m | **(    | (kg/m^ |      |      |
+|        |       | H       | ^2^)** | N/m)** | 2^s)** |      |      |
+|        |       | ~2~O)** |        |        |        |      |      |
++:======:+:=====:+:=======:+:======:+:======:+:======:+:====:+:====:+
+| 10     | 0.08  | 8       | 78.48  | 130.80 | 2.67   | 3    | 4    |
+|        |       |         |        |        |        | 1.59 | 6.86 |
++--------+-------+---------+--------+--------+--------+------+------+
+| 20     | 0.17  | 32      | 313.92 | 523.20 | 6.40   | 3    | 9    |
+|        |       |         |        |        |        | 1.59 | 3.73 |
++--------+-------+---------+--------+--------+--------+------+------+
+| 30     | 0.25  | 52      | 510.12 | 850.20 | 4.73   | 2    | 14   |
+|        |       |         |        |        |        | 2.82 | 0.59 |
++--------+-------+---------+--------+--------+--------+------+------+
+
+**Chart ΔP~cö~/Z following G with L = 1.8**
+
+**[CHART]{.underline}**
+
+**Chart of effect of G (gas flowrate) on ΔP/Z (pressure drop per height
+unit) and relative comparison among different flowrate values L**
+
+**Chart of effect of LogG on Log(ΔP/Z) (pressure drop per height unit)
+and relative comparison among different flowrate values L**
+
+**Chart of the effect of Re on**
+
+**LogRe~ck~**
+
+**logf~ck~ and logf~cö~ and relative comparison among the different
+values L**
+
+**Chart of the relation between Logσ and L at positions under loading
+point (choosing position G = 10, 20, 30%)**
+
+![](media/image6.png){width="6.140988626421697in"
+height="3.4916666666666667in"}
+
+**Table 8: The values after flooding**
+
+  -------------------------------------------------------------------------------------------------------------------------
+       **L        **G\*     **L      **L/G\***       **G\*         **v     **Π~1~**   **Π~2~**   **logΠ~1~**   **logΠ~2~**
+   (galon/ph)**   (%)**   (kg/s)**               (kg/m^2^.s)**   (m/s)**                                      
+  -------------- ------- ---------- ----------- --------------- --------- ---------- ---------- ------------- -------------
+       0.6         80       5.92       8.71          0.68         0.599     0.172      0.293        -0.76         -0.53
+
+       0.8         60       7.90       15.49         0.51         0.450     0.098      0.522        -1.01         -0.28
+
+        1          60       9.87       19.44         0.51         0.450     0.098      0.655        -1.01         -0.18
+
+       1.2         50      11.85       27.94         0.42         0.375     0.069      0.941        -1.16         -0.03
+
+       1.4         40      13.82       40.65         0.34         0.300     0.050      1.370        -1.30         0.14
+
+       1.6         30      15.80       63.19         0.25         0.225     0.026      2.129        -1.58         0.33
+
+       1.8         30      17.77       71.09         0.25         0.225     0.026      2.395        -1.58         0.38
+  -------------------------------------------------------------------------------------------------------------------------
+
+**Flooding chart of packed column logΠ~1~ following logΠ~2~**
+
+**LogΠ~1~**
+
+**LogΠ~2~**
+
+> **Table 9: The emperical results and equations**
+
++----------------------------------+-----------------------------------+
+| **Relation**                     | **Empirical results**             |
++:================================:+:=================================:+
+| ΔP~ck~/Z followed G at L = 0     | y = 3070.4x^2^ + 359.51x --       |
+|                                  | 8..9536                           |
+| ΔP~cö~/Z followed G at L = 0.2   |                                   |
+|                                  | y = 3723.9x^2^ -- 28.828x +       |
+| ΔP~cö~/Z followed G at L = 0.4   | 56.836                            |
+|                                  |                                   |
+| ΔP~cö~/Z followed G at L = 0.6   | y = 4784.4x^2^ -- 30.917x +       |
+|                                  | 28.029                            |
+| ΔP~cö~/Z followed G at L = 0.8   |                                   |
+|                                  | y = 9146x^2^ -- 1549.4x + 184.35  |
+| ΔP~cö~/Z followed G at L = 1     |                                   |
+|                                  | y = 17323x^2^ -- 4402.1x + 397.07 |
+| ΔP~cö~/Z followed G at L = 1.2   |                                   |
+|                                  | y = 11702x^2^ -- 1448.7x + 109.08 |
+| ΔP~cö~/Z followed G at L = 1.4   |                                   |
+|                                  | y = 35809x^2^ -- 6342.2x + 385.39 |
+| ΔP~cö~/Z followed G at L = 1.6   |                                   |
+|                                  | y = 35809x^2^ -- 6342.2x + 385.39 |
+| ΔP~cö~/Z followed G at L = 1.8   |                                   |
+|                                  | y = 23601x^2^ -- 3240x + 198.54   |
+|                                  |                                   |
+|                                  | y = -4557.5x^2^ + 5790.7x - 327   |
++----------------------------------+-----------------------------------+
+
++----------------------------------+-----------------------------------+
+| **Relation**                     | **Empirical results**             |
++:================================:+:=================================:+
+| Logf~ck~ followed Re~ck~ at L =  | y = -0.0006x + 0.8656             |
+| 0                                |                                   |
+|                                  | y = -0.0007x + 0.9235             |
+| Logf~cö~ followed Re~ck~ at L =  |                                   |
+| 0.2                              | y = -0.0006x + 0.9861             |
+|                                  |                                   |
+| Logf~cö~ followed Re~ck~ at L =  | y = -0.0005x + 1.046              |
+| 0.4                              |                                   |
+|                                  | y = -0.0002x + 1.0543             |
+| Logf~cö~ followed Re~ck~ at L =  |                                   |
+| 0.6                              | y = 0.0003x + 1.1032              |
+|                                  |                                   |
+| Logf~cö~ followed Re~ck~ at L =  | y = 0.0011x + 1.0434              |
+| 0.8                              |                                   |
+|                                  | y = 0.0015 x + 1.0995             |
+| Logf~cö~ followed Re~ck~ at L =  |                                   |
+| 1                                | y = 0.002x + 1.1082               |
+|                                  |                                   |
+| Logf~cö~ followed Re~ck~ at L =  | y = 0.0015x + 1.5938              |
+| 1.2                              |                                   |
+|                                  |                                   |
+| Logf~cö~ followed Re~ck~ at L =  |                                   |
+| 1.4                              |                                   |
+|                                  |                                   |
+| Logf~cö~ followed Re~ck~ at L =  |                                   |
+| 1.6                              |                                   |
+|                                  |                                   |
+| Logf~cö~ followed Re~ck~ at L =  |                                   |
+| 1.8                              |                                   |
++----------------------------------+-----------------------------------+
+
++----------------------------------+-----------------------------------+
+| **Relation**                     | **Empirical results**             |
++:================================:+:=================================:+
+| Logσ followed L                  | at G = 10% : y = 0.13x -- 0.001   |
+|                                  |                                   |
+|                                  | at G = 20% : y = 0.38x + 0.02     |
+|                                  |                                   |
+|                                  | at G = 30% : y = 0.42x -- 0.02    |
++----------------------------------+-----------------------------------+
+
+# V. DISCUSSION:
+
+1.  Based on the chart and practical data, we have:
+
+> Dry column: G increases, the $\mathrm{\Delta}P$ increases linearly.
+>
+> Wet columnL G increases, $\mathrm{\Delta}P$ increases obviously partly
+> as separated areas as chart mentioned in the theory. When the liquid
+> flowrate increases, column is closer to the flood point.
+>
+> After the loading point, $\mathrm{\Delta}P$ increases rapidly,
+> suddenly. The line in this area becomes so inclined that it is
+> difficult to operate the packed column at the bubble mode, although it
+> is the best condition for the packed column to operate. In fact, when
+> carrying out the experiment, till the flooding point, we stop the
+> experiment, so there is no area after loading point on the chart.
+
+2.  Purpose and the usage of the chart f according to Re.
+
+> The chart f according to Re is built to express the dependence of the
+> restriction force into the flowrate of the fluid. If the fluid
+> flowrate increases, the friction factor f between two phases
+> increases. The chart is built to determine the suitable flowrarte to
+> operate the column with the small restriction force and get the best
+> mass transfer efficiency between two phases without making the column
+> reach the flooding point. Nonetheless, the observation showed from the
+> chart is opposite, which means when the flowrate increases, the
+> restriction force reduces gradually. This result is due to the effect
+> of the error during the experiment.
+>
+> If one of both values Re or F is given, it can use the chart to
+> determine another: From the given f or Re, draw a straight line
+> horizontally or vertically, cut the chart f_Re at one point. From that
+> intersection point, draw a perpendicular line to the other axis, then,
+> missing value is determined.
+
+3.  Does the relation between the analyzed objectives follow the
+    prediction? If not, explain:
+
+> The relation between the objectives are approximately closer to the
+> prediction. Particularly, the relation is expressed as following:
+
+-   Log(∆P~ck~/Z) and logG are dependent linearly together following the
+    theoritical statement above.
+
+-   ∆P~cö~/Z and G are nearly separated into two distinguished areas:
+    The area under the loading point and the area above the loading
+    point.
+
+> \+ The area below the loading point: $\mathrm{\Delta}P$ increases
+> slowly and gradually, so these points are virtually lie on one line.
+>
+> \+ The area above the loading point: $\mathrm{\Delta}P$ increases
+> rapidly, suddenly, so the line is very inclined; If increasing the
+> liquid flowrate and gas flowrate, the column will gradually reach the
+> flooding point.
+
+-   Logσ and L: Completely depends linearly together, so expressed as a
+    line on the chart.
+
+4.  Nevertheless, during the experiment, some factors can cause the
+    error.
+
+-   Pump makes the liquid flowrate unstable.
+
+-   Fan makes the liquid flowrate unstable.
+
+-   The water column maintained at the bottom of the column is not
+    sufficient as the requiremnt, which leads to the flooding in the
+    difference pressure tube affecting the result.
+
+-   Error in reading and experiment implement.
+
+-   The experiment conditions are different among the measurement.
+
+*Note:*
+
+After adjusting the gas flowrate and liquid flowrate, the data must be
+collected immediately.
+
+During the experiment, it needs to take 10 minutes to cool down the
+apparatus and stabilize the system, then continue the operation.
+
+If the water runs in unconcidentally into the gas tube, open the valve
+after the board.
+
+# VI. APPENDIX:
+
+1.  Calculation f~ck~:
+
+![](media/image7.wmf)
+
+2.  Calculation f~cö~:
+
+f~cö~ = σ.f~ck~
+
+3.  Calculation Re­~ck~:
+
+![](media/image8.wmf)
+
+μ: The viscosity of air at 45^0^C.
+
+4.  Calculation σ:
+
+∆P~cö~ = σ.∆P~ck~
+
+5.  Calculation the flowrate transfer:
+
+-   Gas flowrate:
+
+![](media/image9.wmf)
+
+V = 0.286 m^3^/ph
+
+ρ~K~: density of gas stream at 45^0^C.
+
+The parameters of the gas stream from the tables:
+
+ρ~K~ = 1.1305 kg/m^3^
+
+μ = 1928.10^-8^kg/m.s
+
+-   Liquid flowrate:
+
+![](media/image10.wmf)
+
+4.586. Exchange factor from galon to litre.
+
+ρ~L~: density of liquid stream at 30^o^C
+
+With F: across area of the packed column:
+
+![](media/image11.wmf)0,0064 (m^2^)
+
+6.  Calculate the flooding point:
+
+![](media/image12.wmf)
+
+![](media/image13.wmf)
+
+With f~ck~: friction factor of wetted column.
+
+v: long velocity of the gas stream before entering the column, m/s
+
+v = G/F With: Gas stream flowrate (m^3^/s)
+
+μ~td~ :Relative viscosity of liquid compared to water
+![](media/image14.wmf). If case liquid is the water μ~td~ = 1.
+
+# VII. REFERENCES:
+
+1\. Treybal, R.E., "Mass Transfer Operation", Third Edition, pages 187
+-- 201, McGraw-Hill Book Company, New York, 1980.
+
+2\. Bennett, C.O., and J.E. Myers, "Momentum, Heat and Mass Transfer",
+Third Edition, pages 187 -- 201, McGraw-Hill Book Company, New York,
+1982.
+
+3\. Vu Ba Minh, "Process and Units -- Vol 3 -- Mass Transfer", BKU
+
+4\. McCabe W.L. et al, Units Operations of Chemical Engineering,
+McGraw-Hill, 1993, pg.689.
+
+5\. Hanesian, D. and Perna A.J., "A Laboratory Manual for Fundamentals
+of Engineering Design", NJIT
