@@ -16,3 +16,4 @@
 # (Keep source.pdf if you want, but usually PDFs are excluded from version control)
 
 __pycache__
+_temp_images
