@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the primary objective of binary distillation?",
+    "options": [
+      "To mix two liquids together",
+      "To separate two components based on their relative volatility (boiling points)",
+      "To increase the pressure of the fluid",
+      "To freeze the liquid mixture"
+    ],
+    "answer": "To separate two components based on their relative volatility (boiling points)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does the 'Reflux Ratio' ($R$) represent in a distillation column?",
+    "options": [
+      "The ratio of feed to distillate",
+      "The ratio of liquid returned to the column ($L$) to the distillate product taken off ($D$)",
+      "The ratio of vapor to liquid in the reboiler",
+      "The temperature difference between top and bottom"
+    ],
+    "answer": "The ratio of liquid returned to the column ($L$) to the distillate product taken off ($D$)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the McCabe-Thiele method, what does each 'step' on the graph represent?",
+    "options": [
+      "One second of operation",
+      "One theoretical equilibrium stage (tray)",
+      "One liter of feed",
+      "One degree of temperature increase"
+    ],
+    "answer": "One theoretical equilibrium stage (tray)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is 'Flooding' in a packed column?",
+    "options": [
+      "When the column is too clean",
+      "When gas velocity is so high it prevents liquid from flowing down, causing the column to fill with liquid",
+      "When the pump breaks",
+      "When the feed is too cold"
+    ],
+    "answer": "When gas velocity is so high it prevents liquid from flowing down, causing the column to fill with liquid",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Murphree Efficiency' ($E_M$) accounts for:",
+    "options": [
+      "Heat loss to the surroundings",
+      "The fact that real trays do not reach complete vapor-liquid equilibrium",
+      "The cost of the packing material",
+      "The weight of the column"
+    ],
+    "answer": "The fact that real trays do not reach complete vapor-liquid equilibrium",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the purpose of 'Packing Materials' (like Ceramic Raschig Rings) in a column?",
+    "options": [
+      "To filter out dirt",
+      "To increase the surface area for mass transfer between vapor and liquid",
+      "To support the weight of the column",
+      "To decrease the pressure drop"
+    ],
+    "answer": "To increase the surface area for mass transfer between vapor and liquid",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In Residence Time Distribution (RTD) studies, what does the $E(t)$ function represent?",
+    "options": [
+      "The energy efficiency of the reactor",
+      "The probability distribution of time that fluid elements stay in the reactor",
+      "The concentration of the feed",
+      "The speed of the agitator"
+    ],
+    "answer": "The probability distribution of time that fluid elements stay in the reactor",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which theoretical model represents a reactor with perfect, instantaneous mixing?",
+    "options": [
+      "Plug Flow Reactor (PFR)",
+      "Ideal CSTR (Continuous Stirred Tank Reactor)",
+      "Packed Bed",
+      "Batch Reactor"
+    ],
+    "answer": "Ideal CSTR (Continuous Stirred Tank Reactor)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A Plug Flow Reactor (PFR) model is represented in the 'Tanks-in-Series' model when $n$ is:",
+    "options": [
+      "1",
+      "2",
+      "Infinite (very large)",
+      "Zero"
+    ],
+    "answer": "Infinite (very large)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a 'Dead Zone' in a reactor?",
+    "options": [
+      "A region where the reactor is broken",
+      "A stagnant volume where fluid stays much longer than the average residence time",
+      "The space outside the reactor",
+      "The heating jacket"
+    ],
+    "answer": "A stagnant volume where fluid stays much longer than the average residence time",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In Distillation, the 'Light Key' component is the one that is:",
+    "options": [
+      "Heavier",
+      "More volatile (lower boiling point)",
+      "Darker in color",
+      "At the bottom of the column"
+    ],
+    "answer": "More volatile (lower boiling point)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Rectification Section' of a distillation column is located:",
+    "options": [
+      "Below the feed point",
+      "Above the feed point",
+      "Inside the reboiler",
+      "In the storage tank"
+    ],
+    "answer": "Above the feed point",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the 'q-line' in a McCabe-Thiele diagram?",
+    "options": [
+      "The equilibrium curve",
+      "The feed condition line",
+      "The diagonal line $y=x$",
+      "The waste line"
+    ],
+    "answer": "The feed condition line",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a packed column, 'Loading' is the point where:",
+    "options": [
+      "The column is first filled with packing",
+      "The gas flow starts to significantly hinder the liquid flow, causing a sharp increase in pressure drop",
+      "The pump is turned on",
+      "The water is drained"
+    ],
+    "answer": "The gas flow starts to significantly hinder the liquid flow, causing a sharp increase in pressure drop",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does increasing the liquid flow rate ($L$) affect the flooding point of a packed column?",
+    "options": [
+      "It allows for higher gas velocities before flooding",
+      "It causes flooding to occur at a lower gas velocity",
+      "It has no effect on flooding",
+      "It removes the flooding point entirely"
+    ],
+    "answer": "It causes flooding to occur at a lower gas velocity",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What tracer signal is typically used for RTD experiments in this laboratory?",
+    "options": [
+      "Step signal",
+      "Pulse signal (Dirac delta function)",
+      "Sinusoidal signal",
+      "No signal is used"
+    ],
+    "answer": "Pulse signal (Dirac delta function)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Compact Time' ($\\theta$) in RTD analysis is defined as:",
+    "options": [
+      "$t \\times \\tau$",
+      "$t / \\tau$",
+      "$\\tau / t$",
+      "$1 / t$"
+    ],
+    "answer": "$t / \\tau$",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If $\\bar{t} < \\tau$ in a reactor study, what phenomenon is likely present?",
+    "options": [
+      "Dead zones",
+      "Bypassing (channeling)",
+      "Perfect mixing",
+      "The reactor is too large"
+    ],
+    "answer": "Dead zones",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the McCabe-Thiele diagram, the 'Total Reflux' condition is shown when:",
+    "options": [
+      "The operating lines coincide with the diagonal ($y=x$)",
+      "The operating lines are horizontal",
+      "There are no operating lines",
+      "The feed is 100% vapor"
+    ],
+    "answer": "The operating lines coincide with the diagonal ($y=x$)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is 'Relative Volatility' ($\\alpha$) critical for distillation?",
+    "options": [
+      "It determines the color of the fluid",
+      "It represents the ease of separation between two components",
+      "It measures the weight of the vapor",
+      "It tells us the price of the ethanol"
+    ],
+    "answer": "It represents the ease of separation between two components",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which component of a packed column experiment is the primary source of measurement error for RTD?",
+    "options": [
+      "The pump",
+      "The photometer and cuvettes",
+      "The manometer",
+      "The collection tank"
+    ],
+    "answer": "The photometer and cuvettes",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a distillation column, the 'Stripping Section' is responsible for:",
+    "options": [
+      "Increasing the purity of the light component in the distillate",
+      "Removing the light component from the liquid moving down to the bottom",
+      "Cooling the reflux",
+      "Heating the feed"
+    ],
+    "answer": "Removing the light component from the liquid moving down to the bottom",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the 'HETP' (Height Equivalent to a Theoretical Plate)?",
+    "options": [
+      "The height of the entire column",
+      "The height of packing that achieves the same separation as one ideal equilibrium stage",
+      "The diameter of the Raschig rings",
+      "The distance between the pump and the column"
+    ],
+    "answer": "The height of packing that achieves the same separation as one ideal equilibrium stage",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why does a 'Dry' packed column have a lower pressure drop than a 'Wetted' one at the same gas velocity?",
+    "options": [
+      "The packing is lighter",
+      "There is no liquid occupying the void space and resisting the gas flow",
+      "The fan works harder when it's dry",
+      "Because water is sticky"
+    ],
+    "answer": "There is no liquid occupying the void space and resisting the gas flow",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If you have a 3-tank system in series, how will its $E(t)$ curve look compared to a 1-tank system?",
+    "options": [
+      "It will be a simple decay starting from the top",
+      "It will show a peak that increases and then decreases (more like a hump)",
+      "It will be a straight horizontal line",
+      "It will be identical"
+    ],
+    "answer": "It will show a peak that increases and then decreases (more like a hump)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does a 'By-pass' (or Channeling) indicate in a reactor?",
+    "options": [
+      "Some fluid is exiting the reactor much faster than the average time by skipping the main volume",
+      "The fluid is getting stuck in corners",
+      "The agitator is too fast",
+      "The reactor is full"
+    ],
+    "answer": "Some fluid is exiting the reactor much faster than the average time by skipping the main volume",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the McCabe-Thiele model, 'Constant Molar Overflow' assumes:",
+    "options": [
+      "Flow rates of liquid and vapor are constant within each section",
+      "The reboiler is always full",
+      "The feed is always at boiling point",
+      "The column never leaks"
+    ],
+    "answer": "Flow rates of liquid and vapor are constant within each section",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the 'Minimum Reflux Ratio' ($R_{\\min}$)?",
+    "options": [
+      "The ratio that gives the highest purity",
+      "The ratio below which the separation goal can never be achieved (requires infinite stages)",
+      "The ratio that uses the least energy",
+      "The ratio when the column is off"
+    ],
+    "answer": "The ratio below which the separation goal can never be achieved (requires infinite stages)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why must the 'Pulse' of tracer be injected quickly (e.g., < 5 seconds)?",
+    "options": [
+      "To save tracer material",
+      "To approximate the mathematical Dirac delta function",
+      "To avoid staining the pipes",
+      "To keep the pump running"
+    ],
+    "answer": "To approximate the mathematical Dirac delta function",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What happens at the 'Bottom' of the distillation column?",
+    "options": [
+      "The most volatile component is collected",
+      "The reboiler vaporizes the liquid to send vapor back up the column",
+      "The feed enters",
+      "The condenser cools the liquid"
+    ],
+    "answer": "The reboiler vaporizes the liquid to send vapor back up the column",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the wetted column formula $\\Delta P_{\\text{wet}} / \\Delta P_{\\text{dry}} = 1/(1-A)^3$, what is '$A$'?",
+    "options": [
+      "The area of the column",
+      "The fraction of void space occupied by liquid",
+      "Atmospheric pressure",
+      "Air velocity"
+    ],
+    "answer": "The fraction of void space occupied by liquid",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which factor is most likely to create 'Dead Zones' in a stirred tank?",
+    "options": [
+      "Low agitator speed",
+      "High fluid velocity",
+      "Small pipe diameter",
+      "Transparent walls"
+    ],
+    "answer": "Low agitator speed",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the 'Condenser's' role in distillation?",
+    "options": [
+      "To heat the feed",
+      "To turn the overhead vapor into liquid product and reflux",
+      "To measure the alcohol concentration",
+      "To stir the column"
+    ],
+    "answer": "To turn the overhead vapor into liquid product and reflux",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the Tanks-in-Series model, what happens as $n$ increases from 1 to 5 to 10?",
+    "options": [
+      "The flow becomes more mixed (CSTR-like)",
+      "The flow becomes more 'plug-like' (less dispersion)",
+      "The retention time decreases",
+      "The reactor volume increases"
+    ],
+    "answer": "The flow becomes more 'plug-like' (less dispersion)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the 'Loading' region in a packed column characterized by?",
+    "options": [
+      "A linear pressure drop increase",
+      "A sharp, non-linear rise in pressure drop as liquid starts to build up",
+      "A decrease in gas velocity",
+      "The packing falling out"
+    ],
+    "answer": "A sharp, non-linear rise in pressure drop as liquid starts to build up",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Dirac Delta Function' tracer injection is an idealization of:",
+    "options": [
+      "An infinitely wide pulse",
+      "An infinitely narrow and high pulse with area = 1",
+      "A continuous steady stream",
+      "A sinusoidal wave"
+    ],
+    "answer": "An infinitely narrow and high pulse with area = 1",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is 'Theoretical Stage' also called an 'Equilibrium Stage'?",
+    "options": [
+      "Because it is always at rest",
+      "Because the vapor and liquid leaving it are assumed to be in perfect thermodynamic equilibrium",
+      "Because it costs the same as a real stage",
+      "Because it's at the same height as the reboiler"
+    ],
+    "answer": "Because the vapor and liquid leaving it are assumed to be in perfect thermodynamic equilibrium",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the main advantage of the McCabe-Thiele method?",
+    "options": [
+      "It requires a supercomputer",
+      "It allows for a simple graphical determination of the number of theoretical stages",
+      "It predicts the color of the ethanol",
+      "It measures the flow rate of air"
+    ],
+    "answer": "It allows for a simple graphical determination of the number of theoretical stages",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If you observe 'Marbles' (floats) oscillating violently in a rotameter during distillation, what should you do?",
+    "options": [
+      "Ignore it",
+      "Stabilize the flow rate by adjusting valves to maintain a steady operating state",
+      "Turn off the cooling water",
+      "Add more feed"
+    ],
+    "answer": "Stabilize the flow rate by adjusting valves to maintain a steady operating state",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Average Retention Time' $\\bar{t}$ is the first moment of which distribution?",
+    "options": [
+      "The Equilibrium curve",
+      "The $E(t)$ function",
+      "The pressure drop curve",
+      "The temperature gradient"
+    ],
+    "answer": "The $E(t)$ function",
+    "shuffleOptions": true
+  }
+]

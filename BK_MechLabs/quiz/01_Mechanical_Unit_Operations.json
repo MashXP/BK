@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the primary mechanism of size reduction in a hammermill?",
+    "options": [
+      "Compression force",
+      "Shearing force",
+      "Impact force from high-speed rotors",
+      "Attrition (grinding between surfaces)"
+    ],
+    "answer": "Impact force from high-speed rotors",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which component is considered the 'heartbeat' of the hammermill system for maintaining a constant feed rate?",
+    "options": [
+      "The agitator",
+      "The screw feeder",
+      "The collector bag",
+      "The discharge screen"
+    ],
+    "answer": "The screw feeder",
+    "shuffleOptions": true
+  },
+  {
+    "question": "According to Bond's Law, what is the 'Work Index' ($W_i$)?",
+    "options": [
+      "The energy needed to reduce material from infinite size to 100 micrometers",
+      "The speed of the rotor in RPM",
+      "The mass of the hammers in the mill",
+      "The percentage of heat lost during grinding"
+    ],
+    "answer": "The energy needed to reduce material from infinite size to 100 micrometers",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How do operators typically determine that a hammermill has finished grinding its load?",
+    "options": [
+      "By looking into the chamber",
+      "By listening for a change in pitch",
+      "By monitoring the ammeter until it returns to the no-load value",
+      "By weighing the collection bag"
+    ],
+    "answer": "By monitoring the ammeter until it returns to the no-load value",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a standard sieve stack, where should the sieve with the largest aperture be placed?",
+    "options": [
+      "At the very bottom",
+      "In the middle",
+      "At the very top",
+      "Position does not matter"
+    ],
+    "answer": "At the very top",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the purpose of the 'Receiver' or 'Pan' in a sieving system?",
+    "options": [
+      "To hold the largest particles",
+      "To catch the finest dust that passes through all sieves",
+      "To vibrate the stack",
+      "To measure the initial feed mass"
+    ],
+    "answer": "To catch the finest dust that passes through all sieves",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does a Mixing Index ($I_s$) approaching 1.0 indicate?",
+    "options": [
+      "The mixture is completely segregated",
+      "The mixture has reached ideal homogeneity",
+      "The mixing drum has stopped rotating",
+      "One component has been crushed into powder"
+    ],
+    "answer": "The mixture has reached ideal homogeneity",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is it necessary to take samples from multiple spatial locations in a mixing experiment?",
+    "options": [
+      "To save time",
+      "To ensure spatial uniqueness and analyze overall distribution",
+      "To clean the drum during sampling",
+      "To increase the total mass of the mixture"
+    ],
+    "answer": "To ensure spatial uniqueness and analyze overall distribution",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which theory of milling efficiency is considered to have the highest practical value for engineering predictions?",
+    "options": [
+      "Rittinger's Surfacial Theory",
+      "Kick's Volumetric Theory",
+      "Bond's Law",
+      "Newton's Law of Impact"
+    ],
+    "answer": "Bond's Law",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In grinding calculations, what does the symbol '$D_p$' typically represent?",
+    "options": [
+      "Density of the particle",
+      "The 80% passing size",
+      "Distance between hammers",
+      "Depth of the screen"
+    ],
+    "answer": "The 80% passing size",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the physical meaning of 'No-Load Value' on an ammeter during grinding?",
+    "options": [
+      "The machine is turned off",
+      "The machine is at maximum capacity",
+      "The machine is running but the grinding chamber is empty",
+      "The machine has short-circuited"
+    ],
+    "answer": "The machine is running but the grinding chamber is empty",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If a sieve stack is improperly assembled with a small aperture on top of a large one, what will happen?",
+    "options": [
+      "All particles will pass through",
+      "The top sieve will catch everything, making the lower sieves useless",
+      "The vibrations will be stronger",
+      "The receiver will overflow"
+    ],
+    "answer": "The top sieve will catch everything, making the lower sieves useless",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which factor most significantly contributes to low energy efficiency (approx. 20%) in industrial grinding?",
+    "options": [
+      "Vibration of the collection bag",
+      "Heat dissipation",
+      "Color of the material",
+      "Ambient humidity"
+    ],
+    "answer": "Heat dissipation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the mixing equation, what does '$\sigma_e$' represent?",
+    "options": [
+      "The measured standard deviation of samples",
+      "The standard deviation of a completely segregated mixture",
+      "The theoretical standard deviation of an ideal random mixture",
+      "The speed of the mixing drum"
+    ],
+    "answer": "The theoretical standard deviation of an ideal random mixture",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is sampling in a mixing experiment performed at logarithmic time intervals (5s, 15s, 30s, etc.)?",
+    "options": [
+      "Because the drum slows down over time",
+      "To observe the rapid transition from segregation to uniformity",
+      "To make the calculation easier",
+      "To avoid heating the motor"
+    ],
+    "answer": "To observe the rapid transition from segregation to uniformity",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is 'Blinding' in the context of sieving analysis?",
+    "options": [
+      "The operator's inability to see the mesh",
+      "When particles clog the sieve openings, reducing efficiency",
+      "When light reflects off the metal surface",
+      "When the sieves are too shiny"
+    ],
+    "answer": "When particles clog the sieve openings, reducing efficiency",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Rittinger’s Surfacial Theory states that energy is proportional to:",
+    "options": [
+      "The volume of the material",
+      "The new surface area created",
+      "The number of hammers",
+      "The diameter of the rotor"
+    ],
+    "answer": "The new surface area created",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Kick’s Volumetric Theory is primarily based on:",
+    "options": [
+      "Surface friction",
+      "Stress analysis in the elastic limit",
+      "Atomic weight of the solid",
+      "Temperature of the mill"
+    ],
+    "answer": "Stress analysis in the elastic limit",
+    "shuffleOptions": true
+  },
+  {
+    "question": "High humidity in a material being sieved usually leads to:",
+    "options": [
+      "Increased efficiency",
+      "Lower efficiency due to particle sticking",
+      "Faster vibrations",
+      "Longer sieve life"
+    ],
+    "answer": "Lower efficiency due to particle sticking",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What role does the 'Screen' play in a hammermill?",
+    "options": [
+      "It cools the material",
+      "It defines the maximum particle size that can leave the grinding chamber",
+      "It feeds the material into the hammers",
+      "It measures the weight of the product"
+    ],
+    "answer": "It defines the maximum particle size that can leave the grinding chamber",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which bean type would likely segregate to the bottom of a mixer if it were significantly smaller and denser?",
+    "options": [
+      "Both would stay mixed",
+      "The smaller, denser bean",
+      "The larger, lighter bean",
+      "Neither, mixing is always perfect"
+    ],
+    "answer": "The smaller, denser bean",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The Mixing Index $I_s$ is calculated as the ratio of:",
+    "options": [
+      "Measured deviation to Ideal deviation",
+      "Ideal deviation to Measured deviation",
+      "Mass of A to Mass of B",
+      "Mixing time to Drum speed"
+    ],
+    "answer": "Ideal deviation to Measured deviation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the sifting efficiency formula $E = J / (Fa)$, what does '$a$' represent?",
+    "options": [
+      "Atmospheric pressure",
+      "Aperture size in mm",
+      "The fraction of material physically capable of passing the sieve",
+      "The area of the sieve surface"
+    ],
+    "answer": "The fraction of material physically capable of passing the sieve",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why does a hammermill's efficiency drop when the screen is partially clogged?",
+    "options": [
+      "Particles spend too much time in the chamber and get over-ground",
+      "The motor speeds up",
+      "The ammeter shows a no-load value",
+      "The collection bag gets heavy"
+    ],
+    "answer": "Particles spend too much time in the chamber and get over-ground",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does the 'arithmetic average of aperture sizes' help in sieving analysis?",
+    "options": [
+      "It determines the sieve stack height",
+      "It provides a representative diameter ($D_p$) for particles caught between two sieves",
+      "It calculates the vibration frequency",
+      "It measures the humidity of the beans"
+    ],
+    "answer": "It provides a representative diameter ($D_p$) for particles caught between two sieves",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a 'subjective' reason for error in a grinding experiment?",
+    "options": [
+      "Inherent machine inefficiency",
+      "Weighing errors by the operator",
+      "Particle dispersion into the air",
+      "Material sticking to the sieve"
+    ],
+    "answer": "Weighing errors by the operator",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a binary mixture of Soya beans ($C_A$) and Green beans ($C_B$), what is the sum of their mass fractions?",
+    "options": [
+      "0.5",
+      "1.0",
+      "2.0",
+      "Depends on the volume"
+    ],
+    "answer": "1.0",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What physical property proximity between soya beans and green beans supports a more stable mixing process?",
+    "options": [
+      "Approximate specific weight",
+      "Different colors",
+      "Smooth surfaces",
+      "High breakability"
+    ],
+    "answer": "Approximate specific weight",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the relationship between 'mixing time' and 'uniformity' according to the experiment?",
+    "options": [
+      "Uniformity always increases forever",
+      "Uniformity increases until an optimal time, then may fluctuate due to segregation",
+      "Uniformity is reached instantly",
+      "Time has no effect on mixing"
+    ],
+    "answer": "Uniformity increases until an optimal time, then may fluctuate due to segregation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If you are milling 1 ton of material per minute, and the ammeter shows a massive current spike, what is the most likely cause?",
+    "options": [
+      "The chamber is empty",
+      "The machine is at its maximum load or potentially jammed",
+      "The screw feeder is off",
+      "The product is too fine"
+    ],
+    "answer": "The machine is at its maximum load or potentially jammed",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why are 8 samples taken at specific locations inside the rotating drum?",
+    "options": [
+      "To ensure spatial uniqueness and analyze dead zones",
+      "To fill up the cuvettes",
+      "Because 8 is a lucky number",
+      "To speed up the weighing process"
+    ],
+    "answer": "To ensure spatial uniqueness and analyze dead zones",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the context of the grinding ammeter, what does $\\cos\\varphi$ represent?",
+    "options": [
+      "Cost of electricity",
+      "Power factor of the motor",
+      "Cosine of the hammer angle",
+      "Speed of the screw feeder"
+    ],
+    "answer": "Power factor of the motor",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which milling theory is most convenient for calculations involving both dry and wet processes?",
+    "options": [
+      "Bond's Law",
+      "Kick's Law",
+      "Rittinger's Law",
+      "Coulomb's Law"
+    ],
+    "answer": "Bond's Law",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the consequence of particles being 'very light and small' during the weighing phase after sifting?",
+    "options": [
+      "They are easier to catch",
+      "They easily disperse into the environment, causing higher error",
+      "They increase sifting efficiency",
+      "They require less vibration"
+    ],
+    "answer": "They easily disperse into the environment, causing higher error",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What effect does a 'flat surface of the sieve' have on performance?",
+    "options": [
+      "It reduces efficiency",
+      "It helps achieve high sifting efficiency (e.g., 97%)",
+      "It makes the stack heavier",
+      "It prevents vibration"
+    ],
+    "answer": "It helps achieve high sifting efficiency (e.g., 97%)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "When calculating sifting efficiency, what is $J$?",
+    "options": [
+      "The mass of the sieve itself",
+      "The material mass passing through the sieve",
+      "The vibration intensity",
+      "The total time of sifting"
+    ],
+    "answer": "The material mass passing through the sieve",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is the hammermill rotor started *before* the feed is introduced?",
+    "options": [
+      "To warm up the room",
+      "To prevent the motor from stalling under the weight of the material",
+      "To clean the screen",
+      "To test the ammeter"
+    ],
+    "answer": "To prevent the motor from stalling under the weight of the material",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the mixing experiment, what does '$n$' represent in the ideal deviation formula $\\sigma_e = \\sqrt{C_A C_B / n}$?",
+    "options": [
+      "Number of mixing drums",
+      "Number of particles in a sample",
+      "Number of operators",
+      "Total minutes of mixing"
+    ],
+    "answer": "Number of particles in a sample",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A student finds that after 300s, the Mixing Index $I_s$ is lower than it was at 120s. What phenomenon likely occurred?",
+    "options": [
+      "Ideal mixing was reached at 120s, and segregation occurred by 300s",
+      "The motor speed increased",
+      "The beans got larger",
+      "The scale broke"
+    ],
+    "answer": "Ideal mixing was reached at 120s, and segregation occurred by 300s",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is an 'objective' reason for error in sifting?",
+    "options": [
+      "Miscounting the number of sieves",
+      "Inherent machine design and particle sticking to surfaces",
+      "Forgetfulness in starting the stopwatch",
+      "Spilling material on the floor"
+    ],
+    "answer": "Inherent machine design and particle sticking to surfaces",
+    "shuffleOptions": true
+  }
+]

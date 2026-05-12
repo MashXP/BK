@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the primary difference between the 'Constant Rate' and 'Falling Rate' drying periods?",
+    "options": [
+      "The temperature of the air",
+      "Whether the surface of the solid is fully saturated with moisture",
+      "The speed of the blower",
+      "The color of the material"
+    ],
+    "answer": "Whether the surface of the solid is fully saturated with moisture",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Wet-Bulb Temperature' ($t_w$) represents:",
+    "options": [
+      "The boiling point of water",
+      "The temperature of the heating element",
+      "The lowest temperature reachable by evaporating water into air",
+      "The temperature inside the dry solid"
+    ],
+    "answer": "The lowest temperature reachable by evaporating water into air",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a double pipe heat exchanger, which flow arrangement is generally more thermally efficient?",
+    "options": [
+      "Parallel flow",
+      "Counter-current flow",
+      "Cross flow",
+      "Stationary flow"
+    ],
+    "answer": "Counter-current flow",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does the 'Nusselt Number' ($Nu$) characterize?",
+    "options": [
+      "The ratio of inertial to viscous forces",
+      "The ratio of convective to conductive heat transfer",
+      "The mass of the pipe",
+      "The humidity of the air"
+    ],
+    "answer": "The ratio of convective to conductive heat transfer",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which dimensionless number relates momentum diffusivity to thermal diffusivity?",
+    "options": [
+      "Reynolds Number ($Re$)",
+      "Prandtl Number ($Pr$)",
+      "Grashof Number ($Gr$)",
+      "Nusselt Number ($Nu$)"
+    ],
+    "answer": "Prandtl Number ($Pr$)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the 'Dew Point' ($T_{dp}$) of moist air?",
+    "options": [
+      "The temperature at which water boils",
+      "The temperature at which condensation begins during isobaric cooling",
+      "The temperature of the wet-bulb",
+      "The temperature of the dryer walls"
+    ],
+    "answer": "The temperature at which condensation begins during isobaric cooling",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the drying rate formula $N = - (L/A) (dx/d\\tau)$, what does '$L$' represent?",
+    "options": [
+      "Length of the dryer",
+      "Mass of the dry solid",
+      "Latent heat of vaporization",
+      "Linear velocity of air"
+    ],
+    "answer": "Mass of the dry solid",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is the LMTD (Log Mean Temperature Difference) used instead of a simple arithmetic average in heat exchanger calculations?",
+    "options": [
+      "Because temperature profiles along the pipe are non-linear",
+      "To make the math harder",
+      "Because it accounts for the weight of the water",
+      "It is only used for parallel flow"
+    ],
+    "answer": "Because temperature profiles along the pipe are non-linear",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What happens to the drying rate during the 'Falling Rate Period'?",
+    "options": [
+      "It stays constant",
+      "It increases exponentially",
+      "It decreases because internal diffusion becomes the limiting factor",
+      "It drops to zero instantly"
+    ],
+    "answer": "It decreases because internal diffusion becomes the limiting factor",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Specific Heat of Dry Air' ($C_{kkk}$) is approximately:",
+    "options": [
+      "1.0 kJ/kg.°C",
+      "4.18 kJ/kg.°C",
+      "2493 kJ/kg.°C",
+      "0.5 kJ/kg.°C"
+    ],
+    "answer": "1.0 kJ/kg.°C",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which parameter describes how 'full' of water vapor the air is compared to its maximum capacity?",
+    "options": [
+      "Absolute humidity",
+      "Relative humidity ($\\varphi$)",
+      "Enthalpy",
+      "Drying potential"
+    ],
+    "answer": "Relative humidity ($\\varphi$)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a convective dryer, 'Non-recirculation mode' means:",
+    "options": [
+      "The air is recycled forever",
+      "Hot air passes through the material once and is completely vented out",
+      "The material moves in circles",
+      "The blower direction is reversed"
+    ],
+    "answer": "Hot air passes through the material once and is completely vented out",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Thermal efficiency ($\\eta$) of a heat exchanger is the ratio of:",
+    "options": [
+      "$Q_{\\text{lost}}$ to $Q_{\\text{supplied}}$",
+      "$Q_{\\text{absorbed}}$ to $Q_{\\text{supplied}}$",
+      "Temperature in to Temperature out",
+      "Flow rate 1 to Flow rate 2"
+    ],
+    "answer": "$Q_{\\text{absorbed}}$ to $Q_{\\text{supplied}}$",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is 'Sensible Heat' in the context of moist air enthalpy?",
+    "options": [
+      "Heat that causes a change in phase",
+      "Heat that causes a change in temperature without phase change",
+      "The heat of the motor",
+      "The heat lost to the room"
+    ],
+    "answer": "Heat that causes a change in temperature without phase change",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Grashof Number' ($Gr$) is primarily used to characterize:",
+    "options": [
+      "Forced convection",
+      "Natural (buoyancy-driven) convection",
+      "Radiation",
+      "Conduction through copper"
+    ],
+    "answer": "Natural (buoyancy-driven) convection",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If the Reynolds Number ($Re$) is less than 2300 in a pipe, the flow is considered:",
+    "options": [
+      "Turbulent",
+      "Laminar",
+      "Supersonic",
+      "Stationary"
+    ],
+    "answer": "Laminar",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the physical meaning of 'Drying Potential' ($\\varepsilon$)?",
+    "options": [
+      "The electrical voltage of the dryer",
+      "The difference between Dry Bulb and Wet Bulb temperatures",
+      "The weight of the wet solid",
+      "The speed of the air blower"
+    ],
+    "answer": "The difference between Dry Bulb and Wet Bulb temperatures",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why does a 'Counter-Current' heat exchanger allow the cold fluid to potentially reach a higher exit temperature than the hot fluid's exit temperature?",
+    "options": [
+      "Because of the 'cross-over' in temperature profiles",
+      "Because it uses more electricity",
+      "Because it is longer",
+      "It doesn't; that's physically impossible"
+    ],
+    "answer": "Because of the 'cross-over' in temperature profiles",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the enthalpy formula $H = t + (2493 + 1.97t) \\cdot x$, what does the value 2493 represent?",
+    "options": [
+      "The year the formula was invented",
+      "Latent heat of vaporization of water at 0°C",
+      "Specific heat of copper",
+      "The density of air"
+    ],
+    "answer": "Latent heat of vaporization of water at 0°C",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why must air velocity be measured at multiple points (or averaged) in a pipe?",
+    "options": [
+      "To check if the pipe is leaking",
+      "Because velocity varies across the cross-section (faster in center, slower at walls)",
+      "To calibrate the stopwatch",
+      "To find the dew point"
+    ],
+    "answer": "Because velocity varies across the cross-section (faster in center, slower at walls)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the 'Critical Moisture Content' ($x_c$)?",
+    "options": [
+      "The point where the solid starts to burn",
+      "The moisture level where the constant rate period ends and falling rate begins",
+      "The moisture level of the air",
+      "The moisture level where the solid is completely dry"
+    ],
+    "answer": "The moisture level where the constant rate period ends and falling rate begins",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which parameter determines the enthalpy of the vapor component in moist air?",
+    "options": [
+      "Absolute humidity ($x$)",
+      "Relative humidity ($\\varphi$)",
+      "Dew point",
+      "Air velocity"
+    ],
+    "answer": "Absolute humidity ($x$)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a 'Double Pipe' setup, if we increase the flow rate of the hot fluid, what happens to the overall heat transfer coefficient ($K$)?",
+    "options": [
+      "It decreases",
+      "It generally increases due to higher turbulence (Reynolds Number)",
+      "It stays exactly the same",
+      "It drops to zero"
+    ],
+    "answer": "It generally increases due to higher turbulence (Reynolds Number)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the consequence of 'Heat Loss to the Room' during a heat exchanger experiment?",
+    "options": [
+      "The cold fluid gets hotter than the hot fluid",
+      "The heat lost by the hot fluid is greater than the heat gained by the cold fluid",
+      "The efficiency becomes 100%",
+      "The LMTD becomes zero"
+    ],
+    "answer": "The heat lost by the hot fluid is greater than the heat gained by the cold fluid",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is 'Unsaturated Moist Air'?",
+    "options": [
+      "Air that can still hold more water vapor",
+      "Air that has reached its maximum vapor capacity",
+      "Air that contains liquid water droplets (fog)",
+      "Pure steam"
+    ],
+    "answer": "Air that can still hold more water vapor",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Volume Expansion Coefficient' ($\\beta$) is a key parameter in which dimensionless number?",
+    "options": [
+      "Reynolds Number",
+      "Prandtl Number",
+      "Grashof Number",
+      "Nusselt Number"
+    ],
+    "answer": "Grashof Number",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the 'Driving Force' for heat transfer in an exchanger?",
+    "options": [
+      "Velocity difference",
+      "Pressure difference",
+      "Temperature difference ($\\Delta t$)",
+      "Concentration difference"
+    ],
+    "answer": "Temperature difference ($\\Delta t$)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In drying kinetics, 'Equilibrium Moisture Content' ($x^*$) is:",
+    "options": [
+      "The moisture level where the solid is at 100% humidity",
+      "The minimum moisture level the solid can reach under given air conditions",
+      "The moisture level when the solid is first weighed",
+      "The moisture level in the reboiler"
+    ],
+    "answer": "The minimum moisture level the solid can reach under given air conditions",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is 'Copper' often used for the inner pipe of a heat exchanger?",
+    "options": [
+      "It is cheap",
+      "It has very high thermal conductivity ($\\lambda$)",
+      "It is magnetic",
+      "It is transparent"
+    ],
+    "answer": "It has very high thermal conductivity ($\\lambda$)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If you cool moist air below its dew point, what happens?",
+    "options": [
+      "Relative humidity decreases",
+      "Water vapor condenses into liquid (dehumidification)",
+      "Enthalpy increases",
+      "The air disappears"
+    ],
+    "answer": "Water vapor condenses into liquid (dehumidification)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the 'Specific Heat of Steam' ($C_h$) used in the enthalpy formula?",
+    "options": [
+      "1.97 kJ/kg.°C",
+      "4.18 kJ/kg.°C",
+      "1.0 kJ/kg.°C",
+      "0.5 kJ/kg.°C"
+    ],
+    "answer": "1.97 kJ/kg.°C",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the experiment for Thermodynamics, why is it important to use a 'Wet Muslin' wrap for one thermometer?",
+    "options": [
+      "To keep it clean",
+      "To measure the Wet Bulb temperature via adiabatic evaporation",
+      "To insulate it from the room",
+      "To prevent it from breaking"
+    ],
+    "answer": "To measure the Wet Bulb temperature via adiabatic evaporation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does a 'High Reynolds Number' (e.g., > 10,000) imply about the flow?",
+    "options": [
+      "It is laminar and smooth",
+      "It is turbulent and well-mixed",
+      "It is stationary",
+      "The fluid is very thick (viscous)"
+    ],
+    "answer": "It is turbulent and well-mixed",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If the temperature of the wall ($t_{1w}$) is unknown, how is it typically determined in engineering?",
+    "options": [
+      "By guessing",
+      "By iterative calculation using heat flux equality",
+      "By ignoring the wall resistance",
+      "By using a ruler"
+    ],
+    "answer": "By iterative calculation using heat flux equality",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which phase of drying is limited by the 'external' conditions like air speed?",
+    "options": [
+      "Constant Rate Period",
+      "Falling Rate Period",
+      "Secondary Period",
+      "Final Equilibrium"
+    ],
+    "answer": "Constant Rate Period",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is 'Supersaturated Moist Air'?",
+    "options": [
+      "Air with 0% humidity",
+      "Air that contains more moisture than the maximum possible at that temperature (contains condensate)",
+      "Air in a vacuum",
+      "Pure oxygen"
+    ],
+    "answer": "Air that contains more moisture than the maximum possible at that temperature (contains condensate)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Adiabatic' assumption in a drying process means:",
+    "options": [
+      "Heat is lost to the surroundings",
+      "No heat is exchanged with the surroundings",
+      "Temperature is always constant",
+      "Pressure is always constant"
+    ],
+    "answer": "No heat is exchanged with the surroundings",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which parameter increases the 'Cooling Capacity' requirements of an air conditioner?",
+    "options": [
+      "Higher input air enthalpy ($H$)",
+      "Lower air velocity",
+      "Smaller pipe diameter",
+      "Lower room temperature"
+    ],
+    "answer": "Higher input air enthalpy ($H$)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the LMTD formula, if $\\Delta t_{\\max} = \\Delta t_{\\min}$, the LMTD is simply:",
+    "options": [
+      "Zero",
+      "Infinite",
+      "Equal to $\\Delta t_{\\max}$",
+      "One"
+    ],
+    "answer": "Equal to $\\Delta t_{\\max}$",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does a 'Psychrometric Chart' visualize?",
+    "options": [
+      "The relationship between dry-bulb, wet-bulb, humidity, and enthalpy",
+      "The internal structure of the dryer",
+      "The price of electricity",
+      "The chemical composition of copper"
+    ],
+    "answer": "The relationship between dry-bulb, wet-bulb, humidity, and enthalpy",
+    "shuffleOptions": true
+  }
+]
