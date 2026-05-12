@@ -1,0 +1,442 @@
+[
+  {
+    "question": "Sau Cách mạng Tháng Tám 1945, vận mệnh dân tộc Việt Nam được ví như tình thế nào?",
+    "options": [
+      "Trứng nước mới sinh",
+      "Ngàn cân treo sợi tóc",
+      "Nước sôi lửa bỏng",
+      "Gió táp mưa sa"
+    ],
+    "answer": "Ngàn cân treo sợi tóc",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Kẻ thù chính của dân tộc Việt Nam được xác định trong Chỉ thị 'Kháng chiến kiến quốc' (25/11/1945) là:",
+    "options": [
+      "Quân đội Trung Hoa Dân quốc",
+      "Thực dân Pháp xâm lược",
+      "Phát xít Nhật còn sót lại",
+      "Các đảng phái phản động trong nước"
+    ],
+    "answer": "Thực dân Pháp xâm lược",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Sách lược của Đảng đối với quân Tưởng Giới Thạch trong giai đoạn từ 9/1945 đến trước 6/3/1946 là gì?",
+    "options": [
+      "Hòa hoãn để tập trung đánh Pháp ở miền Nam",
+      "Kiên quyết đấu tranh vũ trang để đuổi quân Tưởng",
+      "Bắt tay với quân Tưởng để đánh Pháp",
+      "Hòa hoãn với cả Pháp và Tưởng"
+    ],
+    "answer": "Hòa hoãn để tập trung đánh Pháp ở miền Nam",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Việc Đảng tuyên bố 'tự giải tán' (thực chất là rút vào hoạt động bí mật) ngày 11/11/1945 nhằm mục đích gì?",
+    "options": [
+      "Để tập trung xây dựng chính quyền",
+      "Để phá tan âm mưu lợi dụng danh nghĩa 'diệt cộng' của quân Tưởng và các đảng phái phản động",
+      "Vì Đảng không còn đủ thực lực lãnh đạo",
+      "Để chuẩn bị cho Tổng tuyển cử"
+    ],
+    "answer": "Để phá tan âm mưu lợi dụng danh nghĩa 'diệt cộng' của quân Tưởng và các đảng phái phản động",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Hiệp định Sơ bộ (6/3/1946) đã công nhận nước Việt Nam là:",
+    "options": [
+      "Một quốc gia độc lập hoàn toàn",
+      "Một quốc gia tự do nằm trong Liên bang Đông Dương và Liên hiệp Pháp",
+      "Một nước thuộc địa của Pháp có quyền tự trị",
+      "Một phần của khối Liên hiệp Pháp"
+    ],
+    "answer": "Một quốc gia tự do nằm trong Liên bang Đông Dương và Liên hiệp Pháp",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Sách lược 'Hòa để tiến' thông qua Hiệp định Sơ bộ 6/3/1946 nhằm mục đích quan trọng nhất là:",
+    "options": [
+      "Hợp pháp hóa quân đội Pháp ở miền Bắc",
+      "Đuổi nhanh quân Tưởng về nước và tranh thủ thời gian hòa bình để chuẩn bị lực lượng",
+      "Kết thúc cuộc kháng chiến ở miền Nam",
+      "Nhận được sự công nhận của Chính phủ Pháp"
+    ],
+    "answer": "Đuổi nhanh quân Tưởng về nước và tranh thủ thời gian hòa bình để chuẩn bị lực lượng",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Đường lối kháng chiến chống Pháp của Đảng xác định các phương châm cơ bản là:",
+    "options": [
+      "Toàn dân, toàn diện, lâu dài, dựa vào sức mình là chính",
+      "Đánh nhanh thắng nhanh, tập trung quân sự",
+      "Dựa vào sự giúp đỡ của Liên Xô và Trung Quốc",
+      "Vừa đánh vừa đàm, ưu tiên ngoại giao"
+    ],
+    "answer": "Toàn dân, toàn diện, lâu dài, dựa vào sức mình là chính",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Văn kiện nào được coi là tác phẩm lý luận giải thích đầy đủ nhất đường lối kháng chiến của Đảng?",
+    "options": [
+      "Lời kêu gọi toàn quốc kháng chiến",
+      "Kháng chiến kiến quốc",
+      "Kháng chiến nhất định thắng lợi",
+      "Chính cương Đảng Lao động Việt Nam"
+    ],
+    "answer": "Kháng chiến nhất định thắng lợi",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Chiến dịch quân sự nào đã đưa cuộc kháng chiến chống Pháp chuyển sang giai đoạn ta giành được thế chủ động chiến lược trên chiến trường chính?",
+    "options": [
+      "Chiến dịch Việt Bắc Thu Đông 1947",
+      "Chiến dịch Biên giới Thu Đông 1950",
+      "Chiến dịch Hòa Bình 1951",
+      "Chiến dịch Điện Biên Phủ 1954"
+    ],
+    "answer": "Chiến dịch Biên giới Thu Đông 1950",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Tại Đại hội II (1951), Đảng đã quyết định đổi tên thành:",
+    "options": [
+      "Đảng Cộng sản Đông Dương",
+      "Đảng Lao động Việt Nam",
+      "Đảng Cộng sản Việt Nam",
+      "Mặt trận Việt Minh"
+    ],
+    "answer": "Đảng Lao động Việt Nam",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Chính cương Đảng Lao động Việt Nam (1951) xác định tính chất xã hội Việt Nam lúc bấy giờ là:",
+    "options": [
+      "Thuộc địa, nửa phong kiến",
+      "Dân chủ nhân dân, một phần thuộc địa và nửa phong kiến",
+      "Đang quá độ lên chủ nghĩa xã hội",
+      "Xã hội phong kiến suy tàn"
+    ],
+    "answer": "Dân chủ nhân dân, một phần thuộc địa và nửa phong kiến",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Mục tiêu tối cao của chiến dịch Điện Biên Phủ năm 1954 là gì?",
+    "options": [
+      "Tiêu diệt tập đoàn cứ điểm mạnh nhất của Pháp để kết thúc chiến tranh về mặt quân sự",
+      "Giải phóng vùng Tây Bắc",
+      "Phá tan kế hoạch Rơ-ve của Pháp",
+      "Làm thất bại âm mưu can thiệp của Mỹ"
+    ],
+    "answer": "Tiêu diệt tập đoàn cứ điểm mạnh nhất của Pháp để kết thúc chiến tranh về mặt quân sự",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Ý nghĩa lịch sử quan trọng nhất của Hiệp định Giơ-ne-vơ 1954 đối với Việt Nam là:",
+    "options": [
+      "Chấm dứt hoàn toàn sự can thiệp của Mỹ",
+      "Các nước tham dự công nhận độc lập, chủ quyền, thống nhất và toàn vẹn lãnh thổ của Việt Nam",
+      "Giải phóng hoàn toàn miền Nam",
+      "Đưa Việt Nam trở thành thành viên Liên hợp quốc"
+    ],
+    "answer": "Các nước tham dự công nhận độc lập, chủ quyền, thống nhất và toàn vẹn lãnh thổ của Việt Nam",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Sau năm 1954, đặc điểm lớn nhất của tình hình nước ta là gì?",
+    "options": [
+      "Đất nước hoàn toàn độc lập, đi lên chủ nghĩa xã hội",
+      "Đất nước tạm thời bị chia cắt làm hai miền với hai chế độ chính trị khác nhau",
+      "Khủng hoảng kinh tế trầm trọng ở cả hai miền",
+      "Nhân dân hai miền đồng loạt nổi dậy chống Mỹ"
+    ],
+    "answer": "Đất nước tạm thời bị chia cắt làm hai miền với hai chế độ chính trị khác nhau",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Nghị quyết Trung ương 15 (khóa II - 1/1959) đã có chủ trương quan trọng nào cho cách mạng miền Nam?",
+    "options": [
+      "Tiếp tục đấu tranh chính trị là chủ yếu",
+      "Sử dụng bạo lực cách mạng để tự cứu mình, kết hợp đấu tranh chính trị với đấu tranh vũ trang",
+      "Tiến hành tổng tiến công ngay lập tức",
+      "Chờ đợi sự giúp đỡ của quốc tế"
+    ],
+    "answer": "Sử dụng bạo lực cách mạng để tự cứu mình, kết hợp đấu tranh chính trị với đấu tranh vũ trang",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Phong trào nào đã chuyển cách mạng miền Nam từ thế giữ gìn lực lượng sang thế tiến công?",
+    "options": [
+      "Phong trào phá ấp chiến lược",
+      "Phong trào 'Đồng khởi' (1959-1960)",
+      "Phong trào đấu tranh của phật tử",
+      "Phong trào Nam tiến"
+    ],
+    "answer": "Phong trào 'Đồng khởi' (1959-1960)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Đại hội đại biểu toàn quốc lần thứ III của Đảng (9/1960) xác định vai trò của cách mạng miền Bắc là:",
+    "options": [
+      "Quyết định trực tiếp đối với sự nghiệp giải phóng miền Nam",
+      "Quyết định nhất đối với sự phát triển của toàn bộ cách mạng Việt Nam",
+      "Là tiền tuyến của cả nước",
+      "Có vai trò hỗ trợ về mặt ngoại giao"
+    ],
+    "answer": "Quyết định nhất đối với sự phát triển của toàn bộ cách mạng Việt Nam",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Cách mạng miền Nam có vai trò như thế nào đối với sự nghiệp thống nhất đất nước theo Đại hội III?",
+    "options": [
+      "Quyết định nhất",
+      "Quyết định trực tiếp",
+      "Quyết định một phần",
+      "Là hậu phương trực tiếp"
+    ],
+    "answer": "Quyết định trực tiếp",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Chiến lược 'Chiến tranh đặc biệt' của Mỹ ở miền Nam (1961-1965) được thực hiện bằng công thức nào?",
+    "options": [
+      "Quân Mỹ và quân đồng minh tham chiến trực tiếp",
+      "Quân đội Sài Gòn, vũ khí và cố vấn Mỹ",
+      "Dùng người Đông Dương đánh người Đông Dương",
+      "Hủy diệt bằng không quân và hải quân"
+    ],
+    "answer": "Quân đội Sài Gòn, vũ khí và cố vấn Mỹ",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Chủ trương 'đánh địch trên cả 3 vùng chiến lược' bao gồm những vùng nào?",
+    "options": [
+      "Rừng núi, Nông thôn đồng bằng và Đô thị",
+      "Ven biển, Hải đảo và Rừng núi",
+      "Thành thị, Biên giới và Vùng giải phóng",
+      "Miền Bắc, Miền Nam và Lào-Campuchia"
+    ],
+    "answer": "Rừng núi, Nông thôn đồng bằng và Đô thị",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Sự kiện nào đánh dấu sự phá sản của chiến lược 'Chiến tranh đặc biệt'?",
+    "options": [
+      "Chiến thắng Ấp Bắc",
+      "Chiến thắng Bình Giã, Ba Gia, Đồng Xoài",
+      "Cuộc đảo chính Ngô Đình Diệm",
+      "Phong trào phá ấp chiến lược"
+    ],
+    "answer": "Chiến thắng Bình Giã, Ba Gia, Đồng Xoài",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Mỹ chuyển sang chiến lược 'Chiến tranh cục bộ' ở miền Nam vào năm nào?",
+    "options": [
+      "1961",
+      "1965",
+      "1968",
+      "1969"
+    ],
+    "answer": "1965",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Điểm khác biệt lớn nhất giữa 'Chiến tranh cục bộ' và 'Chiến tranh đặc biệt' là:",
+    "options": [
+      "Có sự tham gia của cố vấn Mỹ",
+      "Sử dụng vũ khí hiện đại hơn",
+      "Có sự tham gia trực tiếp của quân viễn chinh Mỹ và quân các nước đồng minh",
+      "Tăng cường xây dựng ấp chiến lược"
+    ],
+    "answer": "Có sự tham gia trực tiếp của quân viễn chinh Mỹ và quân các nước đồng minh",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Ý nghĩa lớn nhất của cuộc Tổng tiến công và nổi dậy Tết Mậu Thân 1968 là gì?",
+    "options": [
+      "Tiêu diệt hoàn toàn quân Mỹ ở miền Nam",
+      "Buộc Mỹ phải xuống thang chiến tranh, ngừng ném bom miền Bắc và chấp nhận đàm phán tại Paris",
+      "Giải phóng được nhiều đô thị lớn",
+      "Mỹ phải rút hết quân về nước ngay lập tức"
+    ],
+    "answer": "Buộc Mỹ phải xuống thang chiến tranh, ngừng ném bom miền Bắc và chấp nhận đàm phán tại Paris",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Chiến lược 'Việt Nam hóa chiến tranh' của Mỹ (từ 1969) thực chất là thực hiện âm mưu:",
+    "options": [
+      "Rút quân Mỹ để giảm thiệt hại, dùng người Việt đánh người Việt",
+      "Chấm dứt chiến tranh trong danh dự",
+      "Tăng cường tối đa quân Mỹ tham chiến",
+      "Xây dựng miền Nam thành cường quốc quân sự"
+    ],
+    "answer": "Rút quân Mỹ để giảm thiệt hại, dùng người Việt đánh người Việt",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Trận 'Điện Biên Phủ trên không' (12/1972) là chiến thắng của quân dân miền Bắc trước cuộc tập kích bằng loại vũ khí nào của Mỹ?",
+    "options": [
+      "Tên lửa hành trình",
+      "Máy bay ném bom chiến lược B-52",
+      "Bom nguyên tử",
+      "Hải quân hạm đội 7"
+    ],
+    "answer": "Máy bay ném bom chiến lược B-52",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Hiệp định Paris năm 1973 đã tạo ra cục diện như thế nào cho cách mạng Việt Nam?",
+    "options": [
+      "Giải phóng hoàn toàn miền Nam",
+      "Lập lại hòa bình vĩnh viễn trên toàn cõi Đông Dương",
+      "Mỹ phải rút hết quân viễn chinh, tạo điều kiện thuận lợi để ta tiến tới giải phóng hoàn toàn miền Nam",
+      "Miền Bắc được rảnh tay để xây dựng chủ nghĩa xã hội"
+    ],
+    "answer": "Mỹ phải rút hết quân viễn chinh, tạo điều kiện thuận lợi để ta tiến tới giải phóng hoàn toàn miền Nam",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Chiến dịch mở màn cho cuộc Tổng tiến công và nổi dậy mùa Xuân năm 1975 là:",
+    "options": [
+      "Chiến dịch Huế - Đà Nẵng",
+      "Chiến dịch Tây Nguyên",
+      "Chiến dịch Hồ Chí Minh",
+      "Chiến dịch Trị Thiên"
+    ],
+    "answer": "Chiến dịch Tây Nguyên",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Thời điểm kết thúc thắng lợi hoàn toàn cuộc kháng chiến chống Mỹ, cứu nước là:",
+    "options": [
+      "27/1/1973",
+      "10/3/1975",
+      "30/4/1975",
+      "2/9/1975"
+    ],
+    "answer": "30/4/1975",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Bài học kinh nghiệm hàng đầu đảm bảo thắng lợi cho hai cuộc kháng chiến chống Pháp và Mỹ là:",
+    "options": [
+      "Sự giúp đỡ của quốc tế",
+      "Vũ khí trang bị hiện đại",
+      "Giương cao ngọn cờ độc lập dân tộc gắn liền với chủ nghĩa xã hội và sự lãnh đạo đúng đắn của Đảng",
+      "Địa hình hiểm trở thuận lợi cho chiến tranh du kích"
+    ],
+    "answer": "Giương cao ngọn cờ độc lập dân tộc gắn liền với chủ nghĩa xã hội và sự lãnh đạo đúng đắn của Đảng",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Sách lược 'Hoa - Việt thân thiện' được Đảng sử dụng nhằm mục đích gì?",
+    "options": [
+      "Đoàn kết với nhân dân Trung Quốc chống Pháp",
+      "Hòa hoãn với quân Tưởng Giới Thạch để tránh đối đầu cùng lúc với nhiều kẻ thù",
+      "Nhờ quân Tưởng đánh đuổi quân Anh",
+      "Phát triển kinh tế thông qua giao thương với Trung Quốc"
+    ],
+    "answer": "Hòa hoãn với quân Tưởng Giới Thạch để tránh đối đầu cùng lúc với nhiều kẻ thù",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Trong cuộc kháng chiến chống Pháp, phương châm 'Tự lực cánh sinh' được đề ra vì:",
+    "options": [
+      "Ta không muốn nhận sự giúp đỡ của bên ngoài",
+      "Ta bị bao vây, cô lập và chưa nhận được sự ủng hộ, công nhận của quốc tế trong giai đoạn đầu",
+      "Kẻ thù quá yếu nên ta không cần giúp đỡ",
+      "Để rèn luyện tinh thần chiến đấu cho nhân dân"
+    ],
+    "answer": "Ta bị bao vây, cô lập và chưa nhận được sự ủng hộ, công nhận của quốc tế trong giai đoạn đầu",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Nhiệm vụ hàng đầu của miền Bắc giai đoạn 1965-1968 là gì?",
+    "options": [
+      "Hoàn thành cải tạo XHCN",
+      "Đánh thắng chiến tranh phá hoại, bảo vệ miền Bắc và chi viện sức người sức của cho miền Nam",
+      "Tiến hành công nghiệp hóa nặng",
+      "Đàm phán với Mỹ để kết thúc chiến tranh"
+    ],
+    "answer": "Đánh thắng chiến tranh phá hoại, bảo vệ miền Bắc và chi viện sức người sức của cho miền Nam",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Mối quan hệ giữa hai nhiệm vụ chiến lược ở hai miền sau 1954 được Đảng xác định là:",
+    "options": [
+      "Hai nhiệm vụ độc lập, không liên quan đến nhau",
+      "Miền Bắc là tiền tuyến, miền Nam là hậu phương",
+      "Có quan hệ mật thiết, tác động thúc đẩy lẫn nhau",
+      "Chỉ tập trung cho nhiệm vụ ở miền Bắc trước"
+    ],
+    "answer": "Có quan hệ mật thiết, tác động thúc đẩy lẫn nhau",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Vì sao ta ký Tạm ước 14/9/1946 với Pháp?",
+    "options": [
+      "Để chấm dứt hoàn toàn chiến tranh",
+      "Để Pháp công nhận độc lập cho Việt Nam",
+      "Để kéo dài thời gian hòa bình chuẩn bị thực lực cho cuộc kháng chiến không thể tránh khỏi",
+      "Vì ta đã cạn kiệt lực lượng"
+    ],
+    "answer": "Để kéo dài thời gian hòa bình chuẩn bị thực lực cho cuộc kháng chiến không thể tránh khỏi",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Khẩu hiệu nào sau đây phản ánh tinh thần kháng chiến toàn dân của nhân dân ta?",
+    "options": [
+      "Phá kho thóc giải quyết nạn đói",
+      "Mỗi người dân là một người lính, mỗi làng xóm là một pháo đài",
+      "Dân tộc trên hết, Tổ quốc trên hết",
+      "Hòa bình, thống nhất, độc lập, dân chủ"
+    ],
+    "answer": "Mỗi người dân là một người lính, mỗi làng xóm là một pháo đài",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Trong chiến lược 'Chiến tranh cục bộ', Mỹ hy vọng dùng loại hình chiến tranh nào để bẻ gãy ý chí của ta?",
+    "options": [
+      "Chiến tranh du kích",
+      "Chiến tranh tổng lực với bom nguyên tử",
+      "Chiến tranh tiêu hao với quân viễn chinh đông đảo",
+      "Chiến tranh tâm lý và ngoại giao"
+    ],
+    "answer": "Chiến tranh tiêu hao với quân viễn chinh đông đảo",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Vai trò 'quyết định trực tiếp' của cách mạng miền Nam có nghĩa là:",
+    "options": [
+      "Miền Nam tự giải phóng mà không cần miền Bắc",
+      "Miền Nam là chiến trường trực tiếp đánh đuổi kẻ thù để giải phóng vùng đất của mình",
+      "Miền Nam có thực lực quân sự mạnh hơn miền Bắc",
+      "Miền Nam lãnh đạo toàn bộ tiến trình thống nhất"
+    ],
+    "answer": "Miền Nam là chiến trường trực tiếp đánh đuổi kẻ thù để giải phóng vùng đất của mình",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Sai lầm 'tả khuynh' trong cải cách ruộng đất ở miền Bắc (1954-1956) đã được Đảng xử lý như thế nào?",
+    "options": [
+      "Tiếp tục thực hiện để hoàn thành mục tiêu",
+      "Giữ bí mật về những sai lầm",
+      "Nghiêm túc tự phê bình, kiểm điểm và ra sức sửa chữa sai lầm tại Hội nghị Trung ương 10",
+      "Đổ lỗi hoàn toàn cho các địa phương"
+    ],
+    "answer": "Nghiêm túc tự phê bình, kiểm điểm và ra sức sửa chữa sai lầm tại Hội nghị Trung ương 10",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Tại sao cuộc kháng chiến chống Mỹ lại kéo dài và gian khổ hơn chống Pháp?",
+    "options": [
+      "Vì ta không có sự chuẩn bị",
+      "Vì đế quốc Mỹ có tiềm lực kinh tế, quân sự khổng lồ và những thủ đoạn chiến tranh tàn bạo",
+      "Vì nhân dân không ủng hộ",
+      "Vì thiếu sự giúp đỡ của quốc tế"
+    ],
+    "answer": "Vì đế quốc Mỹ có tiềm lực kinh tế, quân sự khổng lồ và những thủ đoạn chiến tranh tàn bạo",
+    "shuffleOptions": true
+  }
+]
