@@ -1,5 +1,5 @@
-Me 😛 +2 every day
-## 2026-01-13
+C Phong +2 every day
+### 2026-01-13
 G1 +8
 G2 +8
 G3 +6
@@ -125,11 +125,43 @@ V.Bảo +4
 	V.Anh
 }
 
+### 2026-05-12
++10 {
+	Thùy Anh
+	Mẫn
+	Thư
+	Khang
+	Trang
+	Ngọc
+	Q.Bảo
+	Thịnh
+	T.Khang
+	Kiên
+	H Khang
+	Bách
+	Tú Anh
+	Tùng
+	Vương Bảo
+	Phương
+	Vy
+	Nhi
+	Huy
+	Trúc
+	Linh
+	Tài
+	Minh Nghĩa
+	Chính Nghĩa
+	Phát
+	L Phong
+	C. Phong
+	Mai
+}
+
 ---
 # GROUP MEMBERS list
 G1: Kiên, Thịnh, Q.Bảo, T.Khang, Bách
-G2: H.Khang, Tùng, G.Bảo. Vy, Nguyệt 
+G2: H.Khang, Tùng, G.Bảo. Vy, Nguyệt, V.Bảo
 G3: Q.Huy, Phương, X.Nhi, T.Anh, L.Phong
-G4: Thùy Anh, N.Mẫn, Thư, Trang, V.Anh
+G4: Thùy Anh, N.Mẫn, Thư, Trang, V.Anh, Ngọc
 G5: Trúc, Linh, Tài, Mai, Đạt 
 G6: C.Phong, Phát, Nguyên, C.Nghĩa, M.Nghĩa, Lập

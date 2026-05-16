@@ -1,0 +1,220 @@
+﻿VIETNAM NATIONAL UNIVERSITY HO CHI MINH CITY
+HO CHI MINH CITY UNIVERSITY OF TECHNOLOGY
+FACULTY OF CHEMICAL ENGINEERING
+🙞···☼···🙜
+ Tập tin:Logo-hcmut.svg – Wikipedia tiếng Việt 
+
+
+
+MICROBIAL FERMENTATION
+________________
+
+
+A COMPREHENSIVE REVIEW OF ESSENTIAL AMINO ACID PRODUCTION USING INDUSTRIALIZED MICROBES
+________________
+CLASS CC01  —  GROUP 06  —  SEMESTER 252
+Instructor: Dr. Hoang Anh Hoang
+________________
+
+
+MEMBER TASK DELEGATION
+No.
+	Student Name
+	Student ID
+	1
+	Đinh Chấn Phong
+	2352902
+	2
+	Huỳnh Vũ Tự Lập
+	2352671
+	3
+	Dương Thành Phát
+	2352882
+	4
+	Đinh Nguyễn Chính Nghĩa
+	2352804
+	5
+	Nguyễn Lĩnh Phong
+	2352907
+	________________
+
+
+TABLES OF CONTENT
+ABSTRACT        1
+Scope & Synthesis        1
+Significance        1
+1. INTRODUCTION        2
+1.1. Overview of Amino Acids        2
+1.2. The Shift in Global Demand        2
+1.3. Sustainability and Circular Economy        3
+2. INDUSTRIAL STRAINS & GENETIC OPTIMIZATION        5
+2.1. The "Workhorses" of Fermentation        5
+2.2. Metabolic Engineering Strategies        6
+2.2.1. Secretion Systems and Amino Acid Biosynthesis        7
+2.2.2. Metabolic pathways optimization        8
+3. FERMENTATION TECHNOLOGY & PROCESS CONTROL        10
+3.1. Medium Optimization        10
+3.2. Advanced Fermentation Modes        11
+3.3. Bioreactor Control        12
+4. DOWNSTREAM PROCESSING        13
+4.1. Primary Recovery and Biomass Separation        13
+4.2. Core Purification via Ion-Exchange Chromatography        13
+4.2.1. Resin Interaction and Binding        14
+4.2.2. Selective Elusion and Recovery        14
+4.2.3. Process Optimization        14
+4.3. Final Product Formulation        14
+4.3.1. Decolorization and Polishing        15
+4.3.2. Crystallization and Dehydration        15
+4.3.3. Drying and Quality Grading        15
+5. CONCLUSION & FUTURE DIRECTIONS        16
+5.1. Integration of Systems Biology        16
+5.2. Future Outlook        16
+5.3. Summary of Industrial Impact        16
+REFERENCE        17
+
+
+ABSTRACT
+Amino acids act as a cornerstone in modern industry, especially those revolving around agriculture, food processing and pharmaceuticals since they assist in their growth, development and recovery, which solidify their position in the foreseeable economy. This report evaluates integrating modern biotechnological advances from strain engineering to downstream processing.
+Scope & Synthesis
+The main microbes that will be discussed in this report are C. glutamicum and E. coli, both of which are considered the backbone of the aforementioned industries in quantity and quality, respectively. Using a diversified substrate source, especially utilizing waste products, both organic and inorganic, combined with fed-batch fermentation processes, aims to maximize efficiency and to minimize adverse effects in the long run. The products that they make need to satisfy strict industrial purity and safety protocols, in which downstream processing, particularly those of ion-exchange types, plays a critical role in achieving such standards.
+Significance
+Systems biology and synthetic biology, two of the most important branches currently, are pioneering and leading the transition towards a sustainable, bio-based circular economy.
+________________
+1. INTRODUCTION 
+1.1. Overview of Amino Acids
+Amino acids are the fundamental building blocks for proteins which are essential to all living organisms. From structural support to neurotransmitters, life couldn’t exist without amino acids. For instance, in animal muscle fibers, muscle cells—myocytes packed with bundles of threadlike myofibrils, consisting of thick myosins and thin actin protein filaments which work in tandem to provide coordinated muscle contraction and relaxation. A typical G-actin monomer (such as α-skeletal actin) consists of approximately 375 amino acid residues. They contain a rare post-translational modification: 3-methylhistidine at position His73 which is speculated to aid in structural stability, along with a high proportion of acidic amino acids like Aspartate and Glutamate profile, contributing to its ability to facilitate Mg2+ ions and ATP binding [6]. Aside from biological importance, glutamate-rich food contributes vastly to the savory taste also known as “umami”. 
+Despite its importance, our body can only biologically synthesize 11 out of 20 essential amino acids, the rest of them must be obtained daily via diet, for example Tryptophan, Phenylalanine, Histidine,... to perform mandatory life functions like protein synthesis, muscle repair, and immune response.
+1.2. The Shift in Global Demand
+While amino acid production via fermentation is traditionally known for making food for lifestocks, the process has already been widely implemented and there’s not much left to make a profit from. This raises the demand for a more revolutionized solution—a global shift towards the use of amino acids in pharmaceutical and medicinal treatments. 
+Instead of bulk processing of “dirty” amino acids, this approach aims for a more refined product suitable for analytical applications. Mindt et al. suggested genetically modified microbes via CRISPR/Cas9 and Adaptive Laboratory Evolution (ALE) to create bacterial strains that is capable of producing N-functionalized compounds (where chemical groups like alkyl, hydroxy, or acyl are added to the nitrogen atom). One notable application of this technology is the reductive alkylamination of 2-oxo acids or methylamine addition to glutamate, the derivatives have shown to increase lipophilicity and improve the stability of peptide-based drugs. The researchers also proved that Acetyl-CoA dependent transfer of acyl groups has led to high-titer production of N-acetylglucosamine (GlcNAc) (up to 130 g/L in B. subtilis). [2]
+1.3. Sustainability and Circular Economy
+As of 2026, industrial fermentation processes mainly utilize glucose as the main carbon source from agricultural crops like corn or sugarcanes. While this provides an efficient substrate for product efficiency, this also contributed to the rising cost in human food products which led to ethical dilemmas regarding world hunger in poor rural countries as edible food was used for industrial purposes rather than feeding humans. In addition, to obtain pure industrial-grade glucose, multiple refinery measures have to be taken into consideration. This inevitably produces more harmful toxic waste for the environment, and raises production cost by a huge margin. A viable solution is to upcycle food waste, as these are rich in complex sugars and proteins—extremely suitable for growing bacteria. Theoretically, this approach will not only solve the sustainability issue with human food source competitiveness, it will aid greatly in organic waste management and reduce the necessity for expensive imports of glucose while being economically viable. 
+Zhou et al. has discovered by adding trace amounts of specific amino acids (like Cysteine) to the bioreactors, bacteria will be able to break down food waste up to 13% times quicker than the control group and produce more lactic acid/amino acids, and break down complex trash more efficiently. Cysteine addition increased α-glucosidase activity and hydrolysis rate and simultaneously enhanced the abundance of Lactobacillus at the acidification stage as well as lactate dehydrogenase, which also favoured lactic acid production. [5]
+The ultimate goal is to achieve fully circular and closed process where the waste of a process is the input of another process, the loop is briefly described as: the growth of crops using amino acids as fertilizers, and then the produce will be consumed by humans or livestock whose waste will then be fermented, and broken back down to amino acids for fertilizers. This will result in an infinitely sustainable process where nothing goes to waste.  
+
+
+________________
+2. INDUSTRIAL STRAINS & GENETIC OPTIMIZATION
+2.1. The "Workhorses" of Fermentation
+The quality of production in the amino acids fermentation process is highly dependent on microbial strain with such characteristics as high productivity, genetic stability and tolerance to industrial conditions[8]. In this paper, Escherichia coli and Corynebacterium glutamicum , main microorganisms in producing aromatic amino acids or AAA  and many others vital amino acids[7][8], is selected for it widely used over the past decades, due to its efficiency in mass production and easily to construct its genetic for target uses[9].
+Corynebacterium glutamicum has been commonly utilized for industrial scale production of many vital amino acids, including L-lysine and L-glutamate [9]. It is a Gram-positive, aerobic and short rod shape bacterium with many industrial advantages such as rapid growth, low pathogenicity, high substrate conversion efficiency including growing on simple medium, etc [9]. Over decades of industrial development, metabolic engineering has significantly improved fermentation strategies for higher lysine yield rate. For example, by optimizing the metabolic pathways associated with the TCA cycle ( Tricarboxylic Acid cycle) and other biosynthesis pathways. Corynebacterium glutamicum superiority lies with their natural ability to excrete glutamate under biotin-limited conditions making it suitable for commercial fermentation process. Subsequently, this strain is often used in industrial process  due to its flexible carbon metabolism and the ability to redirect metabolic flux toward amino acid synthesis through targeted genetic modifications [9] 
+On the other hand, Escherichia coli is commonly employed as a more versatile platform for the production of aromatic amino acids such as tryptophan, phenylalanine, and tyrosine[7][8]. Different from Corynebacterium glutamicum, E.coli offers exceptional flexibility in recombinant DNA technology where it allows the insertion and expression of multiple heterologous genes with highly efficient traits. The E.coli biosynthesis pathway for aromatic amino acids mainly include the central metabolic pathway, the common aromatic amino acid pathway, and the L-tryptophan branch pathway[7]. Additionally, E. coli appears with rapid growth kinetics and can adapt to a widely broad range of fermentation conditions, making it favorable for industrial-scale fed-batch cultivation.
+These two strains have shown many successful results for mass production and cost efficiency in the amino acid fermentation process. Their genomes have been extensively studied, enabling researchers to implement advanced engineering approaches, for example genetic modification. Corynebacterium glutamicum produces about 350000 tons of L-glutamate annually, 180000 t/a with strains of C.glutamicum or subspecies[9]. Following up to the E.coli, the highest the highest L-tryptophan yield (54.5 g·L−1) was achieved by E. coli AGX1757/pSC101 with a conversion rate (L-tryptophan yield on glucose) of 0.23 g·g−1[7]. These massive numbers and results could possibly be achieved by optimizing and modifying the targeted-product through many engineering fermentation processes.
+2.2. Metabolic Engineering Strategies
+The modern day amino acid fermentation process depends on metabolic engineering to maximize productivity and minimize the formation of unwanted by-products. As mentioned earlier, traditional strains have been improved  through random mutagenesis and adaptive evolution by rational genetic engineering approaches that directly target metabolic pathways contributing in amino acids biosynthesis. Also there are various ideas to optimize the fermentation batch without genetic modification like designing a rich nutritional medium, adding regulators or enzymes to achieve the target results.
+  
+
+Figure 1: Metabolic pathways of E.coli to overproduce aromatic amino acids and derived compound [1]
+2.2.1. Secretion Systems and Amino Acid Biosynthesis 
+Amino acid biosynthesis in microorganisms happens through many metabolic pathways that convert carbon and nitrogen sources into essential cellular building blocks. Industrial fermentation process bacteria strains like E. coli and C. glutamicum are usually raised in a glucose rich environment since glucose is converted through glycolysis and TCA cycle to produce important precursor molecules required for amino acid synthesis. At the same time, Lysine production occurs through the aspartate pathway in C. glutamicum, while aromatic amino acids are synthesized through the shikimate pathway in E. coli [8][9].
+During fermentation, amino acids must be efficiently transported out of the cell to prevent intracellular accumulation and feedback inhibition. This step is carried out by membrane transporter proteins known as secretion systems. Especially with C. glutamicum, glutamate secretion can be stimulated under biotin limitation or membrane stress conditions which give the microorganism more advantages to be used in industrial production.  
+The secretion system in microorganism synthesis refers to the transport mechanism in which synthesized amino acids are transported from inside the cell to the extracellular medium. During cell fermentation, amino acid is stored inside the cytoplasm after being synthesized through metabolic pathways. If the intracellular concentration is too high, it can cause feedback inhibition, where key enzymes slow down or stop amino acid synthesis. This phenomenon can decrease the synthesis process which leads to a rapid drop of productions at the end of the batch.
+In order to improve productivity, metabolic engineering often targets overexpressing transporter genes, modifying the permeability of membranes, etc. Modern tools such as CRISPR/Cas genome editing and Adaptive Laboratory Evolution (ALE) are also applied to develop strains with improved secretion capacity  and tolerance levels in industrial conditions.
+2.2.2. Metabolic pathways optimization 
+One major approach to optimize the productivity of amino acid fermentation is to remove feedback inhibition mechanisms. As mentioned before, when the intracellular concentration is too high, key enzymes inhibit the synthesis process[7][8]. Researchers have resolved this problem by designing feedback-resistant enzymes that help microorganisms continuously function even under high concentration of products[7]. For example, mutations in aspartokinase increase lysine production in Corynebacterium glutamicum, while deregulation of anthranilate synthase enhances tryptophan production in Escherichia coli [7][9].
+  
+
+Figure 2: Effects of enzymes on recombinants lysine secretion of C.glutamicum[2]
+Another important strategy is redirecting carbon flux toward the desired biosynthetic pathway. Most of the converted glucose and other carbon sources are used for energy production, cell growth, and only a small portion is used for creating amino acids. Through gene overexpression and pathway modification, precursor molecules such as phosphoenolpyruvate and erythrose-4-phosphate can be increased to improve aromatic amino acid synthesis[8][9].
+________________
+3. FERMENTATION TECHNOLOGY & PROCESS CONTROL
+3.1. Medium Optimization
+Carbon and nitrogen are major sources of materials and energy for important metabolic pathways in living cells. Previous studies have shown that the changing of the ratio of carbon and nitrogen affects the production of amino acids and metabolism of microbes [13][14]. Particularly in the study by Van Peteghem et al. (2022), different ratios of C/N were evaluated to determine the optimal condition for producing microbial protein [13]. The results show that when shifting the ratio toward carbon, the protein/biomass production drops significantly compared to a more balanced ratio. The same outcome previously occurred in the study by Raghunath et al. (2013), where they suggest that a low ratio of C/N, i.e., a more balanced rate, contributed to both the growth and formation of essential enzyme products [14]. A more focused study by Fahimitabar et al. (2021) on a strain of C. glutamicum found that the optimum C/N ratio is roughly around 10 [16]. However the researchers also stated that a higher yield of nitrogen may raise the total cost of production as it greatly affects other downstream processes [13]. Thus, for Van Peteghem et al. (2022), the most suitable fraction should be around 20 [13]
+While carbon/ nitrogen ratio is proven to affect the development of bacteria, other factors such as coenzymes also come into play during the metabolic cycle of living cells. One of such cofactors is biotin, also known as vitamin B7, which does its role as a catalyst to enzymatic activities. Biotin-dependent enzymes are found across different prokaryotes, involving in the synthesis of amino acids and supplementing oxaloacetate to the Krebs cycle [10][11]. As for Escherichia coli, the importance of this substance remains in the making of fatty acids [10]. In the context of amino acid production by microbes, Ochiai et al. (2024) showed that during the synthesis of glutamic acid in Corynebacterium glutamicum, the content of biotin in the medium strongly affect the type of oxaloacetate replenishing pathway used during TCA cycle and the yield of glutamic acid produced [15]. Moreover, because of the bacteria’s initial lack of tools for the biosynthesis of biotin, this enzyme should be added during fermentation to induce the growth of this microorganism [15].  Nevertheless, studies also suggested that only a limited content of biotin should be supplied to the medium as an oversupplement of biotin could induce the loss of permeability of the bacterial membrane, leading to low productivity and difficulties in product recovery [15][17].
+Precursor feeding is identified as one of the main concerns during the production of amino acids through overproduction in microorganisms, with studies implying that undersupplement of precursor limits the performance of essential amino acids production [18] . This strategy is usually coupled with engineering of microbial strain to acquire the highest yield. For example, using an engineered strain of Corynebacterium crenatum ,  Guo et al. (2017) identified that by supplying appropriate content of precursor such as L-aspartate, L-glutamine and L-glutamate while also improving the enzymatic activity by overexpressing certain genes, they obtained a higher yield of wanted product, herein L-arginine [20].  Nonetheless, the addition of these precursors during fermentation will certainly raise the production cost.
+3.2. Advanced Fermentation Modes
+Batch and fed-batch are two common feeding strategies of the fermentation process, with different characteristics. In batch fermentation, the essential nutrients are added at the initial steps, the culture components remain unchanged throughout the process. The growth of microorganisms is at maximum during the exponential phase then quickly deteriorates during the stationary phase due to the accumulation of toxic compounds. To combat this problem, the fed-batch method is applied, where the culture and each nutritional ingredient are added aseptically during the fermentation process. In a recombinant bacterial model like Escherichia coli, the work of Cheng et al. (2012) demonstrated that by adding a high-concentrated solution of glucose during glucose deprivation, they have maintained an ideal growing condition while preventing the buildup of acetic acid that can reduce the efficiency of the overall system [21][22]. Acetate aggregation is a usual complication for fermentation procedures, as it slows the growth and causes viable microbes to use the supplemented carbon source on unwanted products [21].  Cheng et al. (2012) also proved that the yielding of L-tryptophan is strictly constrained when acetate concentration pass a certain threshold, for which they suggested a combined strategy of control glucose feeding and pseudo-exponential fed-batch, and finally achieving significant cell development and a competent rate of converting from glucose to L-tryptophan [21].
+3.3. Bioreactor Control
+During fermentation processes, the value of pH, dissolved oxygen (DO) and the concentration of metabolic by-products are all important numbers that need constant monitoring. In the context of using a bioreactor, all these factors are tracked usually by specifically designed sensors, as some of them could affect directly to the overall success of fermentation. For example, low pH is said to be one of the major impact factors to the attainment of fermenting product but also could increase the cost for succeeding processes such as purifying and recovery of product [19][23]. For dissolved oxygen (DO), the process of monitoring could be automated through the insertion of aeration and agitation technologies, with the content of oxygen being trackable throughout the process by built in measuring tools.
+________________
+4. DOWNSTREAM PROCESSING
+Downstream processing (DSP) plays an important role in the amino acid industry, as it accounts for a significant portion of the total production cost. The recovery of amino acids required a specialized sequence of process operations to remove biomass, purify impurities and obtain the desired final products.[2]
+4.1. Primary Recovery and Biomass Separation
+The initial stage of recovery focuses on the efficient removal of microbial strains such as Escherichia coli or Corynebacterium glutamicum from the metabolic broth.[4] While industrial-scale centrifugation remains the conventional approach for primary separation by leveraging density differences to remove the bulk of the biomass. This method however often required an auxiliary cooling system to prevent the thermal denaturation of heat sensitive amino acids.[2], [12] Consequently, to enhance the quality, the integration of membrane-based filtration such as microfiltration and ultrafiltration is necessary.[1] These systems can provide a refined permeate by removing intact cells and also submicron debris and other macromolecular compounds that affect the quality of the final products.[1], [12]
+4.2. Core Purification via Ion-Exchange Chromatography
+Ion-exchange Chromatography (IEX) remains one of the most critical operation units in the industrial purification process of amino acids, favored for its large sample-handling capacity, high resolution, robust performance, scalability and  required moderate cost.[12]  This technique takes advantage of the amphoteric nature of amino acids molecules by ionizing these compounds and adjusting pH in solution to change the net charge of the product, which later absorbed onto a charged surface.[2], [12]
+4.2.1. Resin Interaction and Binding
+The strong acids cation-exchange resins are the standard in industrial applications, typically sulfonated polystyrene-divinylbenzene copolymers. [12] Lowering pH by acidify the fermentation broth below the amino acid isoelectric point (pl), the molecules can get a net positive charge and then bind to sulfonic groups’ negative charge of the resin.[2] This selective absorption technique allows the removal of neutral compounds such as sugars, organic acids and other anionic metabolic byproducts more effectively, which are washed away during the initial column rinsing phase. [1], [5]
+4.2.2. Selective Elusion and Recovery
+The recovery of target amino acids is obtained through an adjusted pH-shift or an increase in ionic strength of the compounds. As the pH of the solution gradually increases-often using ammonia or sodium hydroxide-the amino acid reaches its isoelectric point, loses its affinity to the resin and is released into the eluate. [2], [12] According to the recent studies indicate that a good-optimized IEX process can archive purity of the product up to 99% with the recovery yield as high as 98%.[12] 
+4.2.3. Process Optimization
+Advanced optimized systems now combine with neutralization dialysis to maintain precise pH control without any error of chemical addition, therefore can reduce amino acid loss to less than 15%. Parameters such as resin cross-linking density and flowrate are critical for minimizing error and operation costs, also ensuring consistent high quality recovery output from complex substances. [5], [12]
+ 4.3. Final Product Formulation
+The transition from a purified eluate to a stable commercial-grade solid product requires a series of finishing steps which are designed to meet specific regulatory and application standards. [1], [2] 
+4.3.1. Decolorization and Polishing
+To ensure the aesthetic and chemical purity required for pharmaceutical and food grades,  activated carbon adsorption method is used to remove remaining pigments such as melanoidins. [1] These impurities are often generated during heat-intensitive fermentation process or derived from other complex carbon sources. They must be eliminated from the substances to achieve a transparent, high-whiteness final product. [1], [5]
+4.3.2. Crystallization and Dehydration
+The purified solution is concentrated using vacuum evaporation technique to induce supersaturation, which can trigger controlled crystallization. [2] This process acts as a secondary purification mechanism, as the crystal molecular network naturally excludes trace of impurities. [12]
+4.3.3. Drying and Quality Grading
+The final formulation is designed for the product’s end-use. While feed-grade amino acids can be processed through spray drying for economic efficiency, pharmaceutical-grade products on the other hand need to undergo rigorous vacuum drying and milling to ensure precise particle size distribution and long-term chemical stability [1], [2]. These stringent finishing processes are essential to meet the global quality standards for medical and nutritional supplements [19]. 
+________________
+
+
+5. CONCLUSION & FUTURE DIRECTIONS
+5.1. Integration of Systems Biology
+To optimize the microbes further, as opposed to changing a single gene in them, we now integrate the branch of Systems Biology to modify the whole genome. We use a combination of mathematical formulas to make a model of the microbes and see how they eat and grow all at once. This helps us know exactly where they go fast or slow so when we fix the whole system, they make more products for downstream processing specifically and the whole process in general [1][2].
+5.2. Future Outlook
+Before, the microbes only consume nutritious media but it costs a lot of money to operate, which will affect the industries economically, so future researchers give them next-generation substrates that are more available, thus lowering the operating costs, and train them to eat trash, under-utilized organic compounds or even CO2 [3][5]. Also, a new way that researchers will use in the foreseeable future is to apply Synthetic Biology in large-scale settings where they take the best parts from many microbes and put them together, making "super microbes" that do not exist in nature; this will exponentially increase the product output [5][6].
+5.3. Summary of Industrial Impact
+All of the aforementioned advancements are major breakthroughs for humanity, because we now look at the genome of microbes and give them cheap trash as food, we can produce a variety of things such as biofuels, medicine, biomaterials and many organic-based products. Microbes will now do the hard work so that we get more products while using less materials; and so, the benefits that they bring will change the world forever [4][5].
+________________
+REFERENCE
+[1] Liu, L., Bilal, M., Luo, H., Zhao, Y., & Iqbal, H. M. N. (2019). Metabolic Engineering and Fermentation Process Strategies for L-Tryptophan Production by Escherichia coli. Processes, 7(4), 213. https://doi.org/10.3390/pr7040213
+[2] Mindt, M., Walter, T., Kugler, P., & Wendisch, V. F. (2020). Microbial Engineering for Production of N-Functionalized Amino Acids and Amines. Biotechnology Journal, 15(10), 2000041. https://doi.org/10.1002/biot.201900451
+[3] Rodriguez, A., Martínez, J. A., Flores, N., Escalante, A., Gosset, G., & Bolivar, F. (2014). Engineering Escherichia coli to overproduce aromatic amino acids and derived compounds. Microbial Cell Factories, 13(1), 126. https://doi.org/10.1186/s12934-014-0126-z
+[4] Sahm, H., Eggeling, L., Eikmanns, B., & Krämer, R. (1995). Metabolic design in amino acid producing bacterium Corynebacterium glutamicum. FEMS Microbiology Reviews, 16(2-3), 243-252. https://doi.org/10.1111/j.1574-6976.1995.tb00171.x
+[5] Zhou, Y., Zhang, X., Wang, Y., & Liu, H. (2024). Mechanism and Effect of Amino Acids on Lactic Acid Production in Acidic Fermentation of Food Waste. Fermentation, 10(4), 179. https://doi.org/10.3390/fermentation10040179
+[6] Pollard, T. D. (2016). Actin and Actin-Binding Proteins. Cold Spring Harbor Perspectives in Biology. DOI: 10.1101/cshperspect.a018226 .
+
+
+[7] Liu, L., Bilal, M., Luo, H., Zhao, Y., & Iqbal, H. M. N. (2019). Metabolic engineering and fermentation process strategies for L-tryptophan production by Escherichia coli. Processes, 7(4), 213. https://doi.org/10.3390/pr7040213 
+
+
+[8] Rodriguez, A., Martínez, J. A., Flores, N., Escalante, A., Gosset, G., & Bolivar, F. (2014). Engineering Escherichia coli to overproduce aromatic amino acids and derived compounds. Microbial Cell Factories, 13(1), 126. https://doi.org/10.1186/s12934-014-0126-z 
+
+
+[9] Sahm, H., Eggeling, L., Eikmanns, B., & Krämer, R. (1995). Metabolic design in amino acid producing bacterium Corynebacterium glutamicum. FEMS Microbiology Reviews, 16(2–3), 243–252. https://doi.org/10.1111/j.1574-6976.1995.tb00171.x
+[10] Satiaputra, J., Shearwin, K. E., Booker, G. W., & Polyak, S. W. (2016). Mechanisms of biotin-regulated gene expression in microbes. Synthetic and Systems Biotechnology, 1(1), 17–24. https://doi.org/10.1016/j.synbio.2016.01.005 
+
+
+[11] Jitrapakdee, S., St. Maurice, M., Rayment, I., Cleland, W. W., Wallace, J. C., & Attwood, P. V. (2008). Structure, mechanism and regulation of pyruvate carboxylase. Biochemical Journal, 413(3), 369–387. https://doi.org/10.1042/BJ20080709 
+
+
+[12] Masoodi, K. Z., Lone, S. M., & Rasool, R. S. (2020). Advanced methods in molecular biology and biotechnology: a practical lab manual. Academic Press. https://doi.org/10.1016/B978-0-12-824449-4.00027-X.
+
+
+[13] Van Peteghem, L., Sakarika, M., Matassa, S., & Rabaey, K. (2022). The role of microorganisms and carbon-to-nitrogen ratios for microbial protein production from bioethanol. Applied and Environmental Microbiology, 88(22), e01188-22. https://doi.org/10.1128/aem.01188-22 
+
+
+[14] Dinarvand, M., Rezaee, M., Masomian, M., Jazayeri, S. D., Zareian, M., Abbasi, S., & Ariff, A. B. (2013). Effect of C/N ratio and media optimization through response surface methodology on simultaneous productions of intra- and extracellular inulinase and invertase from Aspergillus niger ATCC 20611. BioMed Research International, 2013, 508968. https://doi.org/10.1155/2013/508968 
+
+
+
+
+[15] Ochiai, T., Wachi, M., & Hirasawa, T. (2024). Biotin concentration affects anaplerotic reactions functioning in glutamic acid production in Corynebacterium glutamicum. Microbiology, 170(10), 001507. https://doi.org/10.1099/mic.0.001507 
+
+
+[16] Fahimitabar, A., Razavian, S. M. H., & Rezaei, S. A. (2021). Application of RSM for optimization of glutamic acid production by Corynebacterium glutamicum in bath culture. Heliyon, 7(7), e07359. https://doi.org/10.1016/j.heliyon.2021.e07359 
+
+
+[17] Niaz, B., Rajoka, M. I., Al-Ghanim, K. A., Yousaf, S., Mahboob, S., & Nadeem, S. (2017). Optimizing the concentration of biotin for L-glutamic acid production by a locally isolated coryneform strain. The Journal of Animal & Plant Sciences, 27(4), 1217–1224. 
+
+
+[18] Yu, S., Zheng, B., Chen, Z., & Huo, Y.-X. (2022). Advances in microbial production of feed amino acid. Advances in Applied Microbiology, 120, 1–33. https://doi.org/10.1016/bs.aambs.2022.05.001 
+
+
+[19] D'Este, M., Alvarado-Morales, M., & Angelidaki, I. (2018). Amino acids production focusing on fermentation technologies–A review. Biotechnology advances, 36(1), 14-25. https://doi.org/10.1016/j.biotechadv.2017.09.001
+
+
+[20] Guo, J., Man, Z., Rao, Z., Xu, M., Yang, T., Zhang, X., & Xu, Z. (2017). Improvement of the ammonia assimilation for enhancing L-arginine production of Corynebacterium crenatum. Journal of Industrial Microbiology & Biotechnology, 44(3), 443–451. https://doi.org/10.1007/s10295-017-1900-9 
+
+
+[21] Cheng, L.-K., Wang, J., Xu, Q.-Y., Xie, X.-X., Zhang, Y.-J., Chen, N., & Zhao, C.-G. (2012). Effect of feeding strategy on L-tryptophan production by recombinant Escherichia coli. Annals of Microbiology, 62(4), 1625–1634. https://doi.org/10.1007/s13213-012-0419-6 
+[22] Shen, T., Liu, Q., Xie, X., Xu, Q., & Chen, N. (2012). Improved production of tryptophan in genetically engineered Escherichia coli with tktA and ppsA overexpression. Journal of Biomedicine and Biotechnology, 2012, 605219. https://doi.org/10.1155/2012/605219 
+
+
+[23] Çalık, P., Bilir, E., Çalık, G., & Özdamar, T. H. (2003). Bioreactor operation parameters as tools for metabolic regulations in fermentation processes: Influence of pH conditions. Chemical Engineering Science, 58(3-6), 759–766. 
+Ho Chi Minh City, May 2026
+________________
+[1] Adriana Rodriguez, José A. Martínez, Nora Flores, Alejandro Escalante, Georgina Gosset, and Francisco Bolivar, “Engineering Escherichia coli to Overproduce Aromatic Amino Acids and Derived Compounds,” Microbial Cell Factories 13, no. 1 (2014): 126, https://doi.org/10.1186/s12934-014-0126-z.
+[2] Hermann Sahm, Lothar Eggeling, and Anton A. de Graaf, “Metabolic Design in Amino Acid Producing Bacterium Corynebacterium glutamicum,” FEMS Microbiology Reviews 16, no. 2–3 (1995): 243–252, https://doi.org/10.1111/j.1574-6976.1995.tb00171.x.

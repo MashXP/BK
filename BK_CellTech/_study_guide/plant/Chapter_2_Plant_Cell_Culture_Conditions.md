@@ -58,6 +58,7 @@ The goal of sterilization is to obtain a **sterile and living sample**. Several 
 - **Aseptic Technique**: The skill and rigor of the operator in maintaining a sterile environment.
 
 **Common Disinfectants**:
+
 | Disinfectant | Concentration (%) | Exposure Time (min) |
 | :--- | :---: | :---: |
 | Calcium hypochlorite | 9-10 | 5-30 |
