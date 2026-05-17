@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline Lịch sử Đảng Cộng sản Việt Nam - Chi Tiết</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0a0f1d;
+            --text-color: #e2e8f0;
+            --accent-ch1: #ffaa00;
+            --accent-ch2: #ef4444;
+            --accent-ch3: #06b6d4;
+            --glass-bg: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --font-main: 'Inter', sans-serif;
+            --font-title: 'Outfit', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(6, 182, 212, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(239, 68, 68, 0.1) 0px, transparent 50%),
+                radial-gradient(at 50% 100%, rgba(255, 170, 0, 0.05) 0px, transparent 50%);
+            color: var(--text-color);
+            font-family: var(--font-main);
+            min-height: 100vh;
+            overflow-x: hidden;
+            background-attachment: fixed;
+        }
+
+        header {
+            text-align: center;
+            padding: 3rem 1rem 1rem;
+            position: relative;
+            z-index: 10;
+        }
+
+        h1 {
+            font-family: var(--font-title);
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(to right, #fff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.025em;
+        }
+
+        p.subtitle {
+            color: #64748b;
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+
+        /* Navigation / Filters */
+        .filters {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 2rem 0;
+            position: sticky;
+            top: 1rem;
+            z-index: 100;
+            background: rgba(10, 15, 29, 0.8);
+            backdrop-filter: blur(12px);
+            padding: 0.75rem;
+            border-radius: 50px;
+            width: max-content;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid var(--glass-border);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+
+        .filter-btn {
+            background: transparent;
+            border: none;
+            color: #64748b;
+            padding: 0.5rem 1.25rem;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .filter-btn.active[data-chapter="all"] { color: #fff; background: rgba(255,255,255,0.1); }
+        .filter-btn.active[data-chapter="1"] { color: #0a0f1d; background: var(--accent-ch1); }
+        .filter-btn.active[data-chapter="2"] { color: #fff; background: var(--accent-ch2); }
+        .filter-btn.active[data-chapter="3"] { color: #fff; background: var(--accent-ch3); }
+
+        .filter-btn:hover:not(.active) {
+            color: #f1f5f9;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        /* Timeline Structure */
+        .timeline-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem 5rem;
+            position: relative;
+        }
+
+        .timeline-line {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, 
+                transparent, 
+                var(--glass-border) 5%, 
+                var(--glass-border) 95%, 
+                transparent);
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 3rem;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            z-index: 2;
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+
+        .timeline-item.hidden {
+            opacity: 0;
+            transform: translateY(20px);
+            pointer-events: none;
+            position: absolute;
+            width: 0;
+            height: 0;
+            overflow: hidden;
+            margin: 0;
+        }
+
+        /* Nodes */
+        .timeline-node {
+            position: absolute;
+            left: 50%;
+            top: 24px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: var(--bg-color);
+            border: 3px solid #64748b;
+            transform: translateX(-50%);
+            transition: all 0.3s ease;
+            box-shadow: 0 0 0 4px var(--bg-color);
+        }
+
+        .timeline-item[data-chapter="1"] .timeline-node { border-color: var(--accent-ch1); }
+        .timeline-item[data-chapter="2"] .timeline-node { border-color: var(--accent-ch2); }
+        .timeline-item[data-chapter="3"] .timeline-node { border-color: var(--accent-ch3); }
+
+        .timeline-item:hover .timeline-node {
+            transform: translateX(-50%) scale(1.3);
+            box-shadow: 0 0 15px currentColor;
+        }
+
+        /* Cards */
+        .timeline-card {
+            width: calc(50% - 30px);
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            backdrop-filter: blur(10px);
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        /* Alternating sides */
+        .timeline-item:nth-child(even) .timeline-card {
+            margin-left: auto;
+        }
+        .timeline-item:nth-child(odd) .timeline-card {
+            margin-right: auto;
+        }
+
+        .timeline-card:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .year {
+            font-family: var(--font-title);
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .timeline-item[data-chapter="1"] .year { color: var(--accent-ch1); }
+        .timeline-item[data-chapter="2"] .year { color: var(--accent-ch2); }
+        .timeline-item[data-chapter="3"] .year { color: var(--accent-ch3); }
+
+        .title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #f1f5f9;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        /* Expandable Content Level 1 */
+        .card-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            opacity: 0;
+        }
+
+        .timeline-card.expanded .card-content {
+            max-height: 1000px; /* Large enough for both levels */
+            opacity: 1;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--glass-border);
+        }
+
+        .card-content ul {
+            list-style: none;
+        }
+
+        .card-content li {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #cbd5e1;
+            margin-bottom: 0.75rem;
+            padding-left: 1.25rem;
+            position: relative;
+        }
+
+        .card-content li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #64748b;
+        }
+
+        .timeline-item[data-chapter="1"] .card-content li::before { color: var(--accent-ch1); }
+        .timeline-item[data-chapter="2"] .card-content li::before { color: var(--accent-ch2); }
+        .timeline-item[data-chapter="3"] .card-content li::before { color: var(--accent-ch3); }
+
+        /* Level 2: Deep Details */
+        .deep-details-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--glass-border);
+            color: #94a3b8;
+            padding: 0.4rem 0.8rem;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 0.5rem;
+            transition: all 0.3s ease;
+            width: 100%;
+            text-align: center;
+        }
+
+        .deep-details-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .deep-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            opacity: 0;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            margin-top: 0.5rem;
+        }
+
+        .deep-content.visible {
+            max-height: 500px;
+            opacity: 1;
+            padding: 1rem;
+            margin-top: 0.5rem;
+            border: 1px dashed var(--glass-border);
+        }
+
+        .deep-content p {
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: #94a3b8;
+        }
+
+        .deep-content strong {
+            color: #f1f5f9;
+        }
+
+        /* Prompts */
+        .click-prompt {
+            font-size: 0.8rem;
+            color: #475569;
+            text-align: right;
+            margin-top: 0.5rem;
+        }
+
+        .timeline-card:hover .click-prompt {
+            color: #94a3b8;
+        }
+
+        .timeline-card.expanded .click-prompt {
+            display: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .timeline-line { left: 20px; }
+            .timeline-node { left: 20px; }
+            .timeline-card {
+                width: calc(100% - 50px);
+                margin-left: 50px !important;
+                margin-right: 0 !important;
+            }
+            .filters { width: 90%; overflow-x: auto; justify-content: flex-start; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Timeline Lịch sử Đảng</h1>
+        <p class="subtitle">Click vào thẻ để xem tóm tắt, click "Xem chi tiết" để mở rộng phân tích sâu hơn.</p>
+    </header>
+
+    <div class="filters">
+        <button class="filter-btn active" data-chapter="all">Tất cả</button>
+        <button class="filter-btn" data-chapter="1">Chương I</button>
+        <button class="filter-btn" data-chapter="2">Chương II</button>
+        <button class="filter-btn" data-chapter="3">Chương III</button>
+    </div>
+
+    <div class="timeline-container">
+        <div class="timeline-line"></div>
+        <div id="timeline-items-container">
+            <!-- Items will be generated here -->
+        </div>
+    </div>
+
+    <script>
+        const timelineData = [
+            {
+                year: "1930",
+                title: "Thành lập Đảng & Cương lĩnh đầu tiên",
+                chapter: 1,
+                details: [
+                    "<strong>Thành lập Đảng Cộng sản Việt Nam</strong> (2/1930) tại Hương Cảng.",
+                    "Thông qua <strong>Cương lĩnh chính trị đầu tiên</strong> do Nguyễn Ái Quốc soạn thảo.",
+                    "Hội nghị tháng 10/1930 thông qua <strong>Luận cương chính trị</strong> của Trần Phú."
+                ],
+                deepDetails: "<strong>Cương lĩnh (2/1930):</strong> Xác định nhiệm vụ cốt lõi là <strong>chống đế quốc</strong> và <strong>phong kiến</strong>. Lực lượng bao gồm <strong>công nông</strong> là gốc, nhưng biết tranh thủ <strong>tiểu tư sản</strong>, <strong>trí thức</strong>. <br><br><strong>Luận cương (10/1930):</strong> Đổi tên thành <strong>Đảng CS Đông Dương</strong>. Đặt nặng <strong>đấu tranh giai cấp</strong>. <em>Hạn chế:</em> Chưa đặt nhiệm vụ <strong>giải phóng dân tộc</strong> lên hàng đầu, máy móc trong giải quyết vấn đề giai cấp."
+            },
+            {
+                year: "1930 - 1931",
+                title: "Cao trào Xô viết Nghệ Tĩnh",
+                chapter: 1,
+                details: [
+                    "Phong trào cách mạng đỉnh cao tại <strong>Nghệ An</strong> và <strong>Hà Tĩnh</strong>.",
+                    "Thành lập <strong>chính quyền Xô Viết</strong> của công nông.",
+                    "Cuộc <strong>tổng diễn tập đầu tiên</strong> cho Cách mạng Tháng Tám."
+                ],
+                deepDetails: "<strong>Bối cảnh:</strong> Khủng hoảng kinh tế thế giới tác động sâu sắc. Thực dân Pháp <strong>khủng bố dã man</strong>.<br><br><strong>Ý nghĩa:</strong> Khẳng định <strong>quyền lãnh đạo</strong> của giai cấp vô sản và khối <strong>liên minh công nông</strong>. Để lại bài học về sử dụng <strong>bạo lực cách mạng</strong> và xây dựng chính quyền."
+            },
+            {
+                year: "1936 - 1939",
+                title: "Cuộc vận động dân chủ",
+                chapter: 1,
+                details: [
+                    "Đấu tranh đòi <strong>tự do, dân sinh, dân chủ, cơm áo, hòa bình</strong>.",
+                    "Tạm gác khẩu hiệu <strong>độc lập dân tộc</strong> và <strong>cách mạng ruộng đất</strong>.",
+                    "Sử dụng các hình thức đấu tranh <strong>công khai, hợp pháp</strong>."
+                ],
+                deepDetails: "<strong>Bối cảnh:</strong> <strong>Mặt trận Nhân dân Pháp</strong> lên cầm quyền, nới lỏng chính sách ở thuộc địa. Nguy cơ <strong>phát xít</strong> xuất hiện.<br><br><strong>Nhận thức mới:</strong> Văn kiện 'Chung quanh vấn đề chiến sách mới' (10/1936) khẳng định cuộc dân tộc giải phóng <strong>không nhất thiết</strong> phải kết hợp chặt chẽ với cách mạng điền địa."
+            },
+            {
+                year: "1939 - 1945",
+                title: "Phong trào giải phóng dân tộc",
+                chapter: 1,
+                details: [
+                    "Hội nghị TW 8 (5/1941) đặt nhiệm vụ <strong>giải phóng dân tộc</strong> lên hàng đầu.",
+                    "Thành lập <strong>Mặt trận Việt Minh</strong> (1941).",
+                    "Chuẩn bị <strong>khởi nghĩa vũ trang</strong> là nhiệm vụ trung tâm."
+                ],
+                deepDetails: "<strong>Hội nghị TW 8:</strong> Do <strong>Nguyễn Ái Quốc</strong> chủ trì. Khắc phục triệt để hạn chế của Luận cương 1930. Quyết định thành lập <strong>Việt Nam độc lập đồng minh</strong> (Việt Minh), xây dựng <strong>căn cứ địa</strong> và <strong>lực lượng vũ trang</strong>."
+            },
+            {
+                year: "1945",
+                title: "Cách mạng Tháng Tám",
+                chapter: 1,
+                details: [
+                    "Chớp <strong>thời cơ</strong> Nhật đầu hàng Đồng minh.",
+                    "<strong>Tổng khởi nghĩa</strong> giành chính quyền trên cả nước.",
+                    "<strong>Tuyên ngôn Độc lập</strong> (2/9), khai sinh nước VNDCCH."
+                ],
+                deepDetails: "<strong>Thời cơ vàng:</strong> Diễn ra trong khoảng từ khi <strong>Nhật đầu hàng</strong> (14/8) đến trước khi <strong>quân Đồng minh</strong> vào (đầu tháng 9).<br><br><strong>Tính chất:</strong> Là một cuộc <strong>cách mạng giải phóng dân tộc</strong> điển hình, có tính chất <strong>dân chủ mới</strong>."
+            },
+            {
+                year: "1945 - 1946",
+                title: "Kháng chiến kiến quốc & Hòa hoãn",
+                chapter: 2,
+                details: [
+                    "Chỉ thị '<strong>Kháng chiến kiến quốc</strong>' (25/11/1945).",
+                    "Sách lược khôn khéo: <strong>Hòa với Tưởng</strong> và <strong>Hòa với Pháp</strong>.",
+                    "<strong>Hiệp định Sơ bộ</strong> (6/3/1946) và <strong>Tạm ước</strong> (14/9/1946)."
+                ],
+                deepDetails: "<strong>Thế ngàn cân treo sợi tóc:</strong> <strong>Giặc đói</strong>, <strong>giặc dốt</strong>, <strong>giặc ngoại xâm</strong> (Quân Tưởng ở miền Bắc, quân Anh-Pháp ở miền Nam).<br><br><strong>Sách lược:</strong> Trước 6/3/1946: <strong>Hòa Tưởng để đánh Pháp</strong>. Sau 6/3/1946: <strong>Hòa Pháp để đuổi Tưởng</strong>, tranh thủ thời gian chuẩn bị kháng chiến."
+            },
+            {
+                year: "1946",
+                title: "Toàn quốc kháng chiến",
+                chapter: 2,
+                details: [
+                    "Đêm 19/12/1946, Chủ tịch Hồ Chí Minh ra <strong>Lời kêu gọi toàn quốc kháng chiến</strong>.",
+                    "Đường lối: <strong>Toàn dân, toàn diện, trường kỳ, tự lực cánh sinh</strong>."
+                ],
+                deepDetails: "<strong>Đường lối kháng chiến:</strong> Được hình thành qua các văn kiện: Toàn dân kháng chiến, Lời kêu gọi, và tác phẩm '<strong>Kháng chiến nhất định thắng lợi</strong>' (Trường Chinh). Nhấn mạnh '<strong>Dựa vào sức mình là chính</strong>' vì lúc này ta bị bao vây cô lập."
+            },
+            {
+                year: "1951",
+                title: "Đại hội II - Đảng Lao động Việt Nam",
+                chapter: 2,
+                details: [
+                    "Đổi tên Đảng thành <strong>Đảng Lao động Việt Nam</strong>.",
+                    "Tách Đảng để lãnh đạo riêng cách mạng từng nước Đông Dương.",
+                    "Đẩy mạnh cuộc kháng chiến đến thắng lợi."
+                ],
+                deepDetails: "<strong>Chính cương Đảng Lao động VN:</strong> Xác định xã hội VN có tính chất '<strong>dân chủ nhân dân, một phần thuộc địa và nửa phong kiến</strong>'. Con đường đi lên CNXH gồm <strong>3 giai đoạn</strong>."
+            },
+            {
+                year: "1954",
+                title: "Điện Biên Phủ & Hiệp định Giơ-ne-vơ",
+                chapter: 2,
+                details: [
+                    "Chiến thắng <strong>Điện Biên Phủ</strong> đánh bại kế hoạch Nava.",
+                    "Ký kết <strong>Hiệp định Giơ-ne-vơ</strong>, lập lại hòa bình ở Đông Dương."
+                ],
+                deepDetails: "<strong>Điện Biên Phủ:</strong> Phương châm chuyển từ 'Đánh nhanh, thắng nhanh' sang '<strong>Đánh chắc, tiến chắc</strong>'.<br><br><strong>Hiệp định Giơ-ne-vơ:</strong> Thừa nhận <strong>độc lập, chủ quyền</strong> của 3 nước Đông Dương. Quy định <strong>vĩ tuyến 17</strong> là giới tuyến quân sự tạm thời."
+            },
+            {
+                year: "1959",
+                title: "Nghị quyết 15 - Con đường bạo lực",
+                chapter: 2,
+                details: [
+                    "Xác định con đường cơ bản của cách mạng miền Nam là <strong>bạo lực cách mạng</strong>.",
+                    "Kết hợp <strong>đấu tranh chính trị</strong> với <strong>đấu tranh vũ trang</strong>."
+                ],
+                deepDetails: "<strong>Ý nghĩa:</strong> Giải quyết tình trạng bế tắc về đường lối của cách mạng miền Nam sau 1954 khi Mỹ-Diệm dùng <strong>bạo lực phản cách mạng</strong> (Luật 10/59)."
+            },
+            {
+                year: "1960",
+                title: "Đại hội III & Phong trào Đồng khởi",
+                chapter: 2,
+                details: [
+                    "Đại hội III xác định <strong>2 nhiệm vụ chiến lược</strong>.",
+                    "Phong trào <strong>Đồng khởi</strong> bùng nổ, làm lung lay chế độ Mỹ-Diệm."
+                ],
+                deepDetails: "<strong>Hai nhiệm vụ chiến lược:</strong> <br>1. Cách mạng XHCN ở miền Bắc (vai trò <em><strong>quyết định nhất</strong></em>).<br>2. Cách mạng DTDCND ở miền Nam (vai trò <em><strong>quyết định trực tiếp</strong></em>).<br><br><strong>Đồng khởi:</strong> Chuyển cách mạng miền Nam từ thế giữ gìn lực lượng sang <strong>thế tiến công</strong>."
+            },
+            {
+                year: "1965",
+                title: "Chiến tranh cục bộ & Kháng chiến toàn quốc",
+                chapter: 2,
+                details: [
+                    "Mỹ đưa quân viễn chinh vào miền Nam, tiến hành '<strong>Chiến tranh cục bộ</strong>'.",
+                    "Mỹ leo thang <strong>đánh phá miền Bắc</strong> lần thứ nhất."
+                ],
+                deepDetails: "<strong>Đường lối kháng chiến chống Mỹ:</strong> Khẳng định <strong>quyết tâm đánh thắng</strong> giặc Mỹ. Tư tưởng chỉ đạo ở miền Nam là <strong>giữ vững thế tiến công</strong>. Miền Bắc <strong>chuyển hướng xây dựng kinh tế</strong> thời chiến."
+            },
+            {
+                year: "1968",
+                title: "Tổng tiến công Tết Mậu Thân",
+                chapter: 2,
+                details: [
+                    "Đòn tấn công bất ngờ vào các <strong>đô thị miền Nam</strong>.",
+                    "Làm lung lay <strong>ý chí xâm lược</strong> của Mỹ."
+                ],
+                deepDetails: "<strong>Ý nghĩa:</strong> Buộc Mỹ phải chấm dứt không điều kiện chiến tranh phá hoại miền Bắc, chấp nhận đàm phán tại Paris. Mở ra cục diện '<strong>vừa đánh vừa đàm</strong>'."
+            },
+            {
+                year: "1973",
+                title: "Hiệp định Pa-ri",
+                chapter: 2,
+                details: [
+                    "Mỹ cam kết tôn trọng <strong>độc lập, chủ quyền</strong> của VN.",
+                    "Quân Mỹ và đồng minh <strong>rút hết về nước</strong>."
+                ],
+                deepDetails: "<strong>Ý nghĩa:</strong> Tạo ra bước ngoặt mới. Ta đã hoàn thành mục tiêu '<strong>Đánh cho Mỹ cút</strong>', tạo điều kiện thuận lợi để tiến tới 'Đánh cho Ngụy nhào'."
+            },
+            {
+                year: "1975",
+                title: "Giải phóng miền Nam",
+                chapter: 2,
+                details: [
+                    "Cuộc <strong>Tổng tiến công và nổi dậy</strong> mùa Xuân 1975.",
+                    "Chiến dịch <strong>Hồ Chí Minh</strong> lịch sử thắng lợi ngày 30/4."
+                ],
+                deepDetails: "<strong>Các chiến dịch lớn:</strong> Chiến dịch Tây Nguyên $\rightarrow$ Chiến dịch Huế - Đà Nẵng $\rightarrow$ Chiến dịch Hồ Chí Minh."
+            },
+            {
+                year: "1986",
+                title: "Đại hội VI - Khởi xướng Đổi mới",
+                chapter: 3,
+                details: [
+                    "Xóa bỏ cơ chế <strong>kế hoạch hóa tập trung quan liêu bao cấp</strong>.",
+                    "Phát triển nền <strong>kinh tế nhiều thành phần</strong>."
+                ],
+                deepDetails: "<strong>Đột phá tư duy:</strong> <strong>Nhìn thẳng vào sự thật</strong>. Thừa nhận sự tồn tại của sản xuất hàng hóa và thị trường. Thực hiện <strong>3 chương trình mục tiêu</strong>: Lương thực - thực phẩm, Hàng tiêu dùng, Hàng xuất khẩu."
+            },
+            {
+                year: "1991",
+                title: "Cương lĩnh 1991",
+                chapter: 3,
+                details: [
+                    "Ra đời trong bối cảnh <strong>LX và Đông Âu sụp đổ</strong>.",
+                    "Xác định <strong>6 đặc trưng</strong> của xã hội XHCN."
+                ],
+                deepDetails: "<strong>Giá trị:</strong> Là <strong>ngọn cờ dẫn đường</strong> cho công cuộc đổi mới trong bối cảnh CNXH thế giới lâm vào khủng hoảng thoái trào."
+            },
+            {
+                year: "2001",
+                title: "Mô hình KTTT định hướng XHCN",
+                chapter: 3,
+                details: [
+                    "Đại hội IX chính thức gọi tên <strong>mô hình kinh tế</strong>.",
+                    "KTTT là <strong>thành tựu chung</strong> của nhân loại."
+                ],
+                deepDetails: "<strong>Nhận thức mới:</strong> Coi Kinh tế thị trường không chỉ là công cụ quản lý mà là một <strong>chỉnh thể</strong>, là cơ sở kinh tế để đi lên CNXH trong thời kỳ quá độ."
+            },
+            {
+                year: "2011",
+                title: "Cương lĩnh 2011 (Bổ sung)",
+                chapter: 3,
+                details: [
+                    "Bổ sung, phát triển <strong>Cương lĩnh 1991</strong>.",
+                    "Xác định <strong>8 đặc trưng</strong> và <strong>8 phương hướng</strong> cơ bản."
+                ],
+                deepDetails: "<strong>Phát triển nhận thức:</strong> Xác định mục tiêu tổng quát là '<strong>Dân giàu, nước mạnh, dân chủ, công bằng, văn minh</strong>'. Bổ sung đặc trưng về <strong>Nhà nước pháp quyền XHCN</strong>."
+            },
+            {
+                year: "2021",
+                title: "Đại hội XIII - Tầm nhìn tương lai",
+                chapter: 3,
+                details: [
+                    "Xác định <strong>mục tiêu phát triển</strong> đến 2025, 2030 và 2045."
+                ],
+                deepDetails: "<strong>Tầm nhìn:</strong> Đến 2030 (100 năm lập Đảng) thành nước đang phát triển có <strong>công nghiệp hiện đại</strong>, thu nhập trung bình cao. Đến 2045 (100 năm lập nước) thành <strong>nước phát triển</strong>, thu nhập cao."
+            }
+        ];
+
+        const container = document.getElementById('timeline-items-container');
+
+        // Generate HTML
+        timelineData.forEach((item, index) => {
+            const itemEl = document.createElement('div');
+            itemEl.classList.add('timeline-item');
+            itemEl.setAttribute('data-chapter', item.chapter);
+            
+            itemEl.innerHTML = `
+                <div class="timeline-node"></div>
+                <div class="timeline-card">
+                    <div class="card-header">
+                        <span class="year">${item.year}</span>
+                        <span class="chapter-tag">Chương ${item.chapter}</span>
+                    </div>
+                    <div class="title">${item.title}</div>
+                    <div class="card-content">
+                        <ul>
+                            ${item.details.map(detail => `<li>${detail}</li>`).join('')}
+                        </ul>
+                        
+                        ${item.deepDetails ? `
+                            <button class="deep-details-btn">Xem chi tiết phân tích ↓</button>
+                            <div class="deep-content">
+                                <p>${item.deepDetails}</p>
+                            </div>
+                        ` : ''}
+                        
+                    </div>
+                    <div class="click-prompt">Click để xem tóm tắt ↓</div>
+                </div>
+            `;
+            
+            container.appendChild(itemEl);
+        });
+
+        // Add Click Event for expansion (Level 1)
+        const cards = document.querySelectorAll('.timeline-card');
+        cards.forEach(card => {
+            card.addEventListener('click', (e) => {
+                // Only toggle if we didn't click the deep details button
+                if (!e.target.classList.contains('deep-details-btn')) {
+                    card.classList.toggle('expanded');
+                }
+            });
+        });
+
+        // Add Click Event for Deep Details (Level 2)
+        const deepBtns = document.querySelectorAll('.deep-details-btn');
+        deepBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const deepContent = btn.nextElementSibling;
+                deepContent.classList.toggle('visible');
+                
+                if (deepContent.classList.contains('visible')) {
+                    btn.textContent = 'Thu gọn bớt ↑';
+                } else {
+                    btn.textContent = 'Xem chi tiết phân tích ↓';
+                }
+            });
+        });
+
+        // Filter Functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const items = document.querySelectorAll('.timeline-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                const chapter = btn.getAttribute('data-chapter');
+                
+                items.forEach(item => {
+                    if (chapter === 'all' || item.getAttribute('data-chapter') === chapter) {
+                        item.classList.remove('hidden');
+                    } else {
+                        item.classList.add('hidden');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
