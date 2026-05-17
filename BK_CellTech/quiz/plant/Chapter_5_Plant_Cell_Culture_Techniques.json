@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is a callus in plant tissue culture?",
+    "options": [
+      "A mass of organized, differentiated cells",
+      "A mass of unorganized, undifferentiated cells",
+      "A specialized root structure",
+      "A type of synthetic seed"
+    ],
+    "answer": "A mass of unorganized, undifferentiated cells",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following induces callus formation?",
+    "options": [
+      "Wounding + Plant growth regulators",
+      "High light intensity + Low temperature",
+      "Sterilization + Centrifugation",
+      "Subculturing + Liquid medium"
+    ],
+    "answer": "Wounding + Plant growth regulators",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What are the two main purposes of callus formation listed in the material?",
+    "options": [
+      "Photosynthesis and Respiration",
+      "Micropropagation and Secondary Metabolite Production",
+      "Genetic modification and Protoplast fusion",
+      "Biomass determination and Cell counting"
+    ],
+    "answer": "Micropropagation and Secondary Metabolite Production",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which light condition is typically associated with callus formation and growth?",
+    "options": [
+      "Continuous bright light",
+      "Dark condition",
+      "Red light only",
+      "UV light"
+    ],
+    "answer": "Dark condition",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the correct sequence of stages in callus culture?",
+    "options": [
+      "Sterilization → Inoculation → Selection → Subculturing",
+      "Selection → Sterilization → Inoculation → Subculturing",
+      "Inoculation → Subculturing → Selection → Sterilization",
+      "Subculturing → Selection → Sterilization → Inoculation"
+    ],
+    "answer": "Selection → Sterilization → Inoculation → Subculturing",
+    "shuffleOptions": true
+  },
+  {
+    "question": "According to the material, what type of explant age/tissue is preferred for callus formation?",
+    "options": [
+      "Old organs/tissues",
+      "Young organs/tissues",
+      "Dormant seeds",
+      "Dead tissues"
+    ],
+    "answer": "Young organs/tissues",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a cell suspension culture?",
+    "options": [
+      "Cells growing on solid agar",
+      "A population of undifferentiated plant cells growing in a liquid medium",
+      "A culture of protoplasts",
+      "A culture of specific organs like roots"
+    ],
+    "answer": "A population of undifferentiated plant cells growing in a liquid medium",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is an advantage of suspension culture over callus culture?",
+    "options": [
+      "Faster growth",
+      "Less risk of contamination",
+      "No need for shaking",
+      "Cells are less fragile"
+    ],
+    "answer": "Faster growth",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is nutrient and oxygen exchange better in suspension cultures compared to callus cultures?",
+    "options": [
+      "Because the cells are larger",
+      "Because the medium is solid",
+      "Because the cells are in a liquid medium and typically shaken",
+      "Because cells are differentiated"
+    ],
+    "answer": "Because the cells are in a liquid medium and typically shaken",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a disadvantage of cell suspension cultures?",
+    "options": [
+      "Slower growth",
+      "Harder to scale up",
+      "Cells can be fragile",
+      "Poor nutrient exchange"
+    ],
+    "answer": "Cells can be fragile",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is required to maintain a cell suspension culture?",
+    "options": [
+      "Constant shaking",
+      "Static incubation",
+      "Solid medium",
+      "Low humidity"
+    ],
+    "answer": "Constant shaking",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following can be used as a source for establishing cell suspension cultures?",
+    "options": [
+      "Callus",
+      "Seedlings",
+      "Embryo",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "shuffleOptions": false
+  },
+  {
+    "question": "In cell suspension culture, what happens if the inoculum density is too low?",
+    "options": [
+      "Nutrient competition increases",
+      "Cell division reduces due to loss of \"community effect\"",
+      "Cells grow faster",
+      "Contamination increases"
+    ],
+    "answer": "Cell division reduces due to loss of \"community effect\"",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the consequence of having an inoculum density that is too high in a suspension culture?",
+    "options": [
+      "Loss of community effect",
+      "Nutrient competition",
+      "Increased cell division",
+      "Cells become less fragile"
+    ],
+    "answer": "Nutrient competition",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The growth requirements for cell suspension cultures (regulators, light, temp) are similar to which stage?",
+    "options": [
+      "Acclimation stage",
+      "Callus induction stage",
+      "Protoplast fusion stage",
+      "Organogenesis stage"
+    ],
+    "answer": "Callus induction stage",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the correct order of phases in the cell suspension growth curve?",
+    "options": [
+      "Exponential → Lag → Stationary → Deceleration",
+      "Lag → Exponential → Deceleration → Stationary",
+      "Stationary → Deceleration → Exponential → Lag",
+      "Lag → Deceleration → Exponential → Stationary"
+    ],
+    "answer": "Lag → Exponential → Deceleration → Stationary",
+    "shuffleOptions": true
+  },
+  {
+    "question": "When is the optimal time for subculturing a cell suspension culture?",
+    "options": [
+      "During the lag phase",
+      "During the mid-exponential phase",
+      "During the early stationary phase",
+      "After the stationary phase declines"
+    ],
+    "answer": "During the early stationary phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT listed as a method for biomass determination?",
+    "options": [
+      "SCV (settled cell volume)",
+      "PCV (packed cell volume)",
+      "Fresh weight (FW)",
+      "DNA sequencing"
+    ],
+    "answer": "DNA sequencing",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does SCV stand for in biomass determination?",
+    "options": [
+      "Settled cell volume",
+      "Suspended cell volume",
+      "Specific cell volume",
+      "Standard cell volume"
+    ],
+    "answer": "Settled cell volume",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does PCV stand for in biomass determination?",
+    "options": [
+      "Partial cell volume",
+      "Packed cell volume",
+      "Pure cell volume",
+      "Protoplast cell volume"
+    ],
+    "answer": "Packed cell volume",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does FW stand for in biomass determination?",
+    "options": [
+      "Final weight",
+      "Fresh weight",
+      "Fast weight",
+      "Fixed weight"
+    ],
+    "answer": "Fresh weight",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does DW stand for in biomass determination?",
+    "options": [
+      "Dead weight",
+      "Dry weight",
+      "Direct weight",
+      "Dense weight"
+    ],
+    "answer": "Dry weight",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which method of biomass determination involves letting cells settle without centrifugation?",
+    "options": [
+      "PCV",
+      "SCV",
+      "FW",
+      "pH"
+    ],
+    "answer": "SCV",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which method of biomass determination likely involves centrifugation to pack cells?",
+    "options": [
+      "SCV",
+      "PCV",
+      "DW",
+      "Electrical conductivity"
+    ],
+    "answer": "PCV",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why might electrical conductivity be used to determine biomass?",
+    "options": [
+      "It measures the weight of the cells directly",
+      "It measures the consumption of ions/nutrients from the medium by cells",
+      "It measures the color of the medium",
+      "It measures the speed of the shaker"
+    ],
+    "answer": "It measures the consumption of ions/nutrients from the medium by cells",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why might pH be used as an indicator of biomass or growth?",
+    "options": [
+      "Because cells produce metabolites that change the pH of the medium",
+      "Because pH directly measures cell volume",
+      "Because pH determines the shaker speed",
+      "Because pH is not affected by growth"
+    ],
+    "answer": "Because cells produce metabolites that change the pH of the medium",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the growth curve, what is the phase characterized by rapid cell division?",
+    "options": [
+      "Lag phase",
+      "Exponential phase",
+      "Deceleration phase",
+      "Stationary phase"
+    ],
+    "answer": "Exponential phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the phase where cell division slows down before reaching the stationary phase?",
+    "options": [
+      "Lag phase",
+      "Exponential phase",
+      "Deceleration phase",
+      "Death phase"
+    ],
+    "answer": "Deceleration phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the phase at the beginning where cells are adapting and not dividing much?",
+    "options": [
+      "Lag phase",
+      "Exponential phase",
+      "Deceleration phase",
+      "Stationary phase"
+    ],
+    "answer": "Lag phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the phase where the rate of cell division equals the rate of cell death or cell number remains constant?",
+    "options": [
+      "Lag phase",
+      "Exponential phase",
+      "Deceleration phase",
+      "Stationary phase"
+    ],
+    "answer": "Stationary phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Scenario: A researcher forgets to turn on the shaker for a suspension culture. What is the most likely consequence?",
+    "options": [
+      "The cells will grow faster",
+      "The cells will settle and suffer from poor nutrient/oxygen exchange",
+      "The culture will become a callus automatically",
+      "The cells will become less fragile"
+    ],
+    "answer": "The cells will settle and suffer from poor nutrient/oxygen exchange",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the initial phase of adaptation where cell number does not increase significantly?",
+    "options": [
+      "Lag phase",
+      "Exponential phase",
+      "Deceleration phase",
+      "Stationary phase"
+    ],
+    "answer": "Lag phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Scenario: You need to scale up the production of a specific drug from plant cells. Why would you prefer suspension culture over callus culture?",
+    "options": [
+      "Because callus culture is too fast",
+      "Because suspension culture allows for easier scale-up in bioreactors and better nutrient exchange",
+      "Because suspension culture requires less maintenance",
+      "Because callus culture produces more contaminants"
+    ],
+    "answer": "Because suspension culture allows for easier scale-up in bioreactors and better nutrient exchange",
+    "shuffleOptions": true
+  },
+  {
+    "question": "If you subculture too late (deep into the stationary phase), what might happen?",
+    "options": [
+      "Cells divide too rapidly",
+      "Cells may lose viability or take longer to enter the exponential phase in the new culture",
+      "The community effect is maximized",
+      "Nutrient competition is eliminated"
+    ],
+    "answer": "Cells may lose viability or take longer to enter the exponential phase in the new culture",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a method for directly counting cells?",
+    "options": [
+      "SCV",
+      "PCV",
+      "Cell counting",
+      "FW"
+    ],
+    "answer": "Cell counting",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the role of Auxin or Auxin+Cytokinin in the methods for establishing cell suspension?",
+    "options": [
+      "They are used to sterilize the explant",
+      "They are included in the medium to support cell division and growth",
+      "They are used to count cells",
+      "They are used to measure pH"
+    ],
+    "answer": "They are included in the medium to support cell division and growth",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT listed as a source for cell suspension?",
+    "options": [
+      "Callus",
+      "Shoot meristem",
+      "Mature wood",
+      "Seedlings"
+    ],
+    "answer": "Mature wood",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The shaker speed in suspension culture depends on:",
+    "options": [
+      "The color of the medium",
+      "The age of the researcher",
+      "Flask shape and size",
+      "The type of light used"
+    ],
+    "answer": "Flask shape and size",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following best describes the \"community effect\" mentioned in the text?",
+    "options": [
+      "Cells compete for nutrients",
+      "Cells produce substances that promote the growth of neighboring cells, requiring a minimum density",
+      "Cells form a community to resist contamination",
+      "Cells differentiate into different tissues"
+    ],
+    "answer": "Cells produce substances that promote the growth of neighboring cells, requiring a minimum density",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is \"Contamination\" listed as a disadvantage for suspension culture?",
+    "options": [
+      "Because liquid medium is less prone to contamination than solid medium",
+      "Because contamination can spread rapidly in a liquid medium and ruin the whole batch",
+      "Because bacteria cannot grow in liquid medium",
+      "Because cells are resistant to bacteria"
+    ],
+    "answer": "Because contamination can spread rapidly in a liquid medium and ruin the whole batch",
+    "shuffleOptions": true
+  }
+]

@@ -70,9 +70,9 @@
 ---
 
 ## 4. Applications of Plant Tissue Culture
-a. **Rapid Propagation**: Mass production of clones.
-b. **Conservation**: Protecting endangered species (especially medicinal plants).
-c. **Secondary Metabolites**: Production of cosmetics and pharmaceuticals.
+a. **Rapid Propagation**: Mass production of clones.  
+b. **Conservation**: Protecting endangered species (especially medicinal plants).  
+c. **Secondary Metabolites**: Production of cosmetics and pharmaceuticals.  
 d. **Synthetic Seeds**: Production of artificial seeds.
 
 ---
