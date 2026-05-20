@@ -1,0 +1,1157 @@
+[
+  {
+    "question": "What is the primary definition of an animal cell culture?",
+    "options": [
+      "Cells maintained as independent units in a homogeneous population",
+      "Cells grown within a living organism to study physiology",
+      "Heterogeneous mixtures of different tissue types in a bioreactor",
+      "Fixed tissue sections prepared for histological examination"
+    ],
+    "answer": "Cells maintained as independent units in a homogeneous population",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is NOT a primary purpose of animal cell technology?",
+    "options": [
+      "Investigating normal cell physiology",
+      "Producing artificial skin tissue",
+      "Synthesizing viral vaccines",
+      "Cloning whole organisms from single somatic cells"
+    ],
+    "answer": "Cloning whole organisms from single somatic cells",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a significant advantage of using cell cultures over animal models?",
+    "options": [
+      "Increased complexity of systemic interactions",
+      "Precise control of environmental factors",
+      "Total elimination of ethical concerns for all culture types",
+      "Higher variability in experimental results"
+    ],
+    "answer": "Precise control of environmental factors",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which equipment is essential for maintaining a sterile work area to prevent contamination?",
+    "options": [
+      "Inverted Microscope",
+      "Laminar Flow Cabinet",
+      "Centrifuge",
+      "CO2 Incubator"
+    ],
+    "answer": "Laminar Flow Cabinet",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What are the standard conditions maintained by a typical cell culture incubator?",
+    "options": [
+      "High CO2, High Humidity, Optimal Temperature",
+      "Vacuum environment, Low Temperature, Light-shielded",
+      "Pure Oxygen atmosphere, Dry conditions, 37°C",
+      "Atmospheric air, 10% Humidity, 40°C"
+    ],
+    "answer": "High CO2, High Humidity, Optimal Temperature",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is an inverted microscope specifically used in cell culture labs?",
+    "options": [
+      "To allow viewing of cells floating at the surface of the media",
+      "To view cells attached to the bottom of culture vessels through the objective from below",
+      "Because it has higher magnification than standard compound microscopes",
+      "To protect the user from harmful UV radiation used to visualize cells"
+    ],
+    "answer": "To view cells attached to the bottom of culture vessels through the objective from below",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which buffering system is commonly used in media that requires a CO2 atmosphere?",
+    "options": [
+      "HEPES Buffer",
+      "Bicarbonate-CO2 Buffer",
+      "Phosphate Buffered Saline (PBS)",
+      "TRIS Buffer"
+    ],
+    "answer": "Bicarbonate-CO2 Buffer",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What color does Phenol Red turn when the culture medium becomes acidic due to bacterial contamination?",
+    "options": [
+      "Red",
+      "Pink",
+      "Yellow",
+      "Purple"
+    ],
+    "answer": "Yellow",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which amino acid is critical as a carbon and nitrogen source but is notoriously unstable in media?",
+    "options": [
+      "Leucine",
+      "Glutamine",
+      "Alanine",
+      "Tryptophan"
+    ],
+    "answer": "Glutamine",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a major disadvantage of using serum (like FBS) in cell culture media?",
+    "options": [
+      "It inhibits cell growth",
+      "It is too cheap to be effective",
+      "It has high batch-to-batch variability",
+      "It eliminates the need for antibiotics"
+    ],
+    "answer": "It has high batch-to-batch variability",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which medium allows for fibroblast growth in the absence of a CO2-enriched atmosphere?",
+    "options": [
+      "Leibovitz",
+      "BME",
+      "GMEM",
+      "199"
+    ],
+    "answer": "Leibovitz",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary origin of a 'Primary Culture'?",
+    "options": [
+      "Cells derived directly from tissue via disaggregation",
+      "Cells derived from established tumor cell lines",
+      "Cells that have undergone spontaneous immortalization",
+      "Cells purchased from a commercial cell bank"
+    ],
+    "answer": "Cells derived directly from tissue via disaggregation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a cell growth curve, which phase is characterized by no increase in cell number as cells adapt to the environment?",
+    "options": [
+      "Log Phase",
+      "Stationary Phase",
+      "Lag Phase",
+      "Decline Phase"
+    ],
+    "answer": "Lag Phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does Forward Scatter (FSC) correlate with in flow cytometry?",
+    "options": [
+      "Granularity",
+      "Cell Size",
+      "Fluorescence intensity",
+      "DNA content"
+    ],
+    "answer": "Cell Size",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does Side Scatter (SSC) measure in flow cytometry?",
+    "options": [
+      "Cell length",
+      "External markers",
+      "Internal complexity/granularity",
+      "Surface charge"
+    ],
+    "answer": "Internal complexity/granularity",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Cells that are Annexin V positive but PI negative are in which state?",
+    "options": [
+      "Live",
+      "Early Apoptosis",
+      "Late Apoptosis",
+      "Necrosis"
+    ],
+    "answer": "Early Apoptosis",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does Magnetic Cell Sorting (MACS) separate cells?",
+    "options": [
+      "By using lasers to push cells into different containers",
+      "By using antibodies conjugated to magnetic microbeads",
+      "By using density gradients in a centrifuge",
+      "By using electric fields to attract charged cells"
+    ],
+    "answer": "By using antibodies conjugated to magnetic microbeads",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is the correct order of stages in establishing a continuous cell line?",
+    "options": [
+      "Primary Culture -> Subculture -> Cell Line -> Continuous Cell Line",
+      "Cell Line -> Primary Culture -> Subculture -> Continuous Cell Line",
+      "Subculture -> Primary Culture -> Cell Line -> Continuous Cell Line",
+      "Continuous Cell Line -> Cell Line -> Subculture -> Primary Culture"
+    ],
+    "answer": "Primary Culture -> Subculture -> Cell Line -> Continuous Cell Line",
+    "shuffleOptions": false
+  },
+  {
+    "question": "What happens to normal cells during senescence?",
+    "options": [
+      "They transform into tumor cells",
+      "They stop dividing after a finite number of doublings",
+      "They begin to divide at an accelerated rate",
+      "They lose their requirement for anchorage"
+    ],
+    "answer": "They stop dividing after a finite number of doublings",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which feature is characteristic of transformed cells compared to normal cells?",
+    "options": [
+      "High serum requirement",
+      "Strict density-dependent inhibition",
+      "Reduced dependence on anchorage (can grow in agar)",
+      "Stable diploid genetics"
+    ],
+    "answer": "Reduced dependence on anchorage (can grow in agar)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which phase of the cell cycle is dedicated to DNA replication?",
+    "options": [
+      "G1 Phase",
+      "S Phase",
+      "G2 Phase",
+      "M Phase"
+    ],
+    "answer": "S Phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which proteins are the primary regulators of the cell cycle?",
+    "options": [
+      "Albumin and Globulin",
+      "Cyclins and Cyclin-Dependent Kinases (CDKs)",
+      "Insulin and Glucagon",
+      "Hemoglobin and Myoglobin"
+    ],
+    "answer": "Cyclins and Cyclin-Dependent Kinases (CDKs)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a primary function of telomeres at the ends of chromosomes?",
+    "options": [
+      "Encoding essential enzymes for metabolism",
+      "Protecting chromosome ends from degradation",
+      "Acting as the site for ribosome attachment",
+      "Regulating the transport of mRNA out of the nucleus"
+    ],
+    "answer": "Protecting chromosome ends from degradation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "SV40 Large T-Antigen bypasses senescence by targeting which two 'guardian' proteins?",
+    "options": [
+      "Actin and Myosin",
+      "p53 and pRb",
+      "Ras and Myc",
+      "CDK4 and Cyclin D"
+    ],
+    "answer": "p53 and pRb",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which viral system is specifically preferred for the immortalization of epithelial cells?",
+    "options": [
+      "EBV",
+      "SV40",
+      "HPV E6/E7",
+      "Adenovirus"
+    ],
+    "answer": "HPV E6/E7",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the specific role of the HPV E6 protein in immortalization?",
+    "options": [
+      "It binds pRb to release E2F",
+      "It recruits ubiquitin ligase to p53 for proteasomal degradation",
+      "It inhibits telomerase activity",
+      "It mimics the CD40 receptor"
+    ],
+    "answer": "It recruits ubiquitin ligase to p53 for proteasomal degradation",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which virus is considered the 'gold standard' for immortalizing human B-lymphocytes?",
+    "options": [
+      "SV40",
+      "HPV",
+      "EBV",
+      "HIV"
+    ],
+    "answer": "EBV",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does the RasV12 mutant provide to a cell in an immortalization system?",
+    "options": [
+      "Constitutively active growth factor signaling (MAPK/ERK)",
+      "Degradation of pRb",
+      "Extension of telomeres",
+      "Reversal of apoptosis"
+    ],
+    "answer": "Constitutively active growth factor signaling (MAPK/ERK)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which dye is commonly used in the dye exclusion method to distinguish live cells from dead cells?",
+    "options": [
+      "Phenol Red",
+      "Trypan Blue",
+      "MTT",
+      "Annexin V"
+    ],
+    "answer": "Trypan Blue",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the standard formula to calculate cells per ml using a Haemocytometer?",
+    "options": [
+      "Cells per ml = Total count * 10^2",
+      "Cells per ml = (Total count * 10^4) / Number of squares counted",
+      "Cells per ml = Total count / 10^4",
+      "Cells per ml = (Total count * Volume) / 100"
+    ],
+    "answer": "Cells per ml = (Total count * 10^4) / Number of squares counted",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which assay is used for protein determination as an indirect measure of cell number?",
+    "options": [
+      "MTT Assay",
+      "Lowry Assay",
+      "Glucose Oxidase Assay",
+      "LDH Assay"
+    ],
+    "answer": "Lowry Assay",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The MTT assay measures viability based on which cellular component's activity?",
+    "options": [
+      "Cell membrane integrity",
+      "Mitochondrial activity",
+      "Nucleus size",
+      "Ribosome count"
+    ],
+    "answer": "Mitochondrial activity",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What does the leakage of Lactate Dehydrogenase (LDH) into the culture medium indicate?",
+    "options": [
+      "High rate of cell division",
+      "Loss of membrane integrity and cell death",
+      "Active protein synthesis",
+      "Adequate nutrient supply"
+    ],
+    "answer": "Loss of membrane integrity and cell death",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How can intracellular energy charge be measured to assess viability?",
+    "options": [
+      "By measuring glucose levels in the media",
+      "By measuring ATP levels using Luciferase or Chromatography",
+      "By counting the number of mitochondria per cell",
+      "By observing the color of Phenol Red"
+    ],
+    "answer": "By measuring ATP levels using Luciferase or Chromatography",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the most common type of serum used as a supplement in animal cell culture media?",
+    "options": [
+      "Human Serum",
+      "Fetal Bovine Serum (FBS)",
+      "Horse Serum",
+      "Chicken Serum"
+    ],
+    "answer": "Fetal Bovine Serum (FBS)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "How does Albumin in serum benefit cell cultures?",
+    "options": [
+      "It acts as a primary energy source like glucose",
+      "It protects cells from shear forces and pH fluctuations",
+      "It is a specific antibiotic against Gram-negative bacteria",
+      "It triggers apoptosis in old cells"
+    ],
+    "answer": "It protects cells from shear forces and pH fluctuations",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which component is added to serum-free media to facilitate iron delivery to the cells?",
+    "options": [
+      "Insulin",
+      "Transferrin",
+      "Albumin",
+      "Glucose"
+    ],
+    "answer": "Transferrin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which phase of the cell growth curve is characterized by an exponential increase in cell number?",
+    "options": [
+      "Lag Phase",
+      "Log (Growth) Phase",
+      "Stationary Phase",
+      "Decline Phase"
+    ],
+    "answer": "Log (Growth) Phase",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which enzyme is commonly used to detach anchorage-dependent cells from a culture vessel during subculture?",
+    "options": [
+      "Ligase",
+      "Trypsin",
+      "Polymerase",
+      "Amylase"
+    ],
+    "answer": "Trypsin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary goal of cryopreservation?",
+    "options": [
+      "To accelerate cell growth",
+      "To stop biological time and preserve cells for long-term storage",
+      "To induce genetic mutations",
+      "To sterilize the culture"
+    ],
+    "answer": "To stop biological time and preserve cells for long-term storage",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What type of damage occurs during 'Ice Injury' caused by rapid cooling?",
+    "options": [
+      "Dehydration due to high salt concentration",
+      "Formation of intracellular ice crystals that damage organelles",
+      "Overheating of the mitochondria",
+      "Loss of nutrients through the cell wall"
+    ],
+    "answer": "Formation of intracellular ice crystals that damage organelles",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the optimal cooling rate for cell cryopreservation?",
+    "options": [
+      "10\u00b0C per minute",
+      "1\u00b0C per minute",
+      "0.1\u00b0C per minute",
+      "Instant freezing in liquid nitrogen"
+    ],
+    "answer": "1\u00b0C per minute",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a common cryoprotectant used in cell culture?",
+    "options": [
+      "Ethanol",
+      "DMSO (Dimethyl Sulfoxide)",
+      "Trypan Blue",
+      "PBS"
+    ],
+    "answer": "DMSO (Dimethyl Sulfoxide)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "At what speed should cells be thawed for optimal recovery?",
+    "options": [
+      "Slowly, at room temperature over several hours",
+      "Rapidly, at 35-37\u00b0C",
+      "By placing them directly in a microwave",
+      "Thawing is not required; they should be used frozen"
+    ],
+    "answer": "Rapidly, at 35-37\u00b0C",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary purpose of microcarrier culture?",
+    "options": [
+      "To grow lymphocytes in suspension without any surface",
+      "To allow anchorage-dependent cells to be grown in suspension by providing a small floating surface",
+      "To encapsulate cells in a semi-permeable membrane for transplantation",
+      "To count cells automatically using lasers"
+    ],
+    "answer": "To allow anchorage-dependent cells to be grown in suspension by providing a small floating surface",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is gentle stirring critical in microcarrier culture?",
+    "options": [
+      "To maximize the temperature of the media",
+      "To keep beads in suspension without causing shear damage to the cells",
+      "To ensure the cells stay inside the beads",
+      "To prevent the media from becoming acidic"
+    ],
+    "answer": "To keep beads in suspension without causing shear damage to the cells",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary goal of cell encapsulation for transplantation?",
+    "options": [
+      "To make the cells grow faster in the host",
+      "To protect the transplanted cells from the host immune system (immune isolation)",
+      "To prevent the cells from producing therapeutic products",
+      "To change the genetic makeup of the cells"
+    ],
+    "answer": "To protect the transplanted cells from the host immune system (immune isolation)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which method is used for generating 3D spheroids or Embryoid Bodies (EBs)?",
+    "options": [
+      "Microcarrier Culture",
+      "Hanging Drop Method",
+      "Trypsinization",
+      "Centrifugation"
+    ],
+    "answer": "Hanging Drop Method",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary motivation for using disposable (single-use) bioreactors?",
+    "options": [
+      "To increase the cost of production",
+      "To reduce cleaning validation and eliminate the risk of cross-contamination",
+      "To allow for higher temperatures than stainless steel",
+      "Because plastic bags are stronger than steel"
+    ],
+    "answer": "To reduce cleaning validation and eliminate the risk of cross-contamination",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The Wave Bioreactor achieves mixing and aeration through which type of motion?",
+    "options": [
+      "High-speed rotation",
+      "Rocking motion",
+      "Vibration",
+      "Magnetic stirring from the bottom"
+    ],
+    "answer": "Rocking motion",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In a CeLLine bioreactor, the product concentration is highest in the:",
+    "options": [
+      "Medium compartment",
+      "Cell compartment (trapped by semi-permeable membrane)",
+      "Silicone membrane",
+      "Waste reservoir"
+    ],
+    "answer": "Cell compartment (trapped by semi-permeable membrane)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which bioreactor design mimics 'in vivo' vascularization?",
+    "options": [
+      "Wave Bioreactor",
+      "Hollow Fiber Bioreactor",
+      "Fixed-Bed Reactor",
+      "CeLLine"
+    ],
+    "answer": "Hollow Fiber Bioreactor",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the core principle that allows a single plant cell to develop into an entire organism?",
+    "options": [
+      "Cell Theory",
+      "Totipotency",
+      "Organogenesis",
+      "Photosynthesis"
+    ],
+    "answer": "Totipotency",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the process of plant tissue culture, what is the 'explant'?",
+    "options": [
+      "The nutrient medium used for growth",
+      "A mass of undifferentiated cells",
+      "The small piece of plant tissue used to start the culture",
+      "A fully developed plantlet ready for soil"
+    ],
+    "answer": "The small piece of plant tissue used to start the culture",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is 'callus' in plant tissue culture?",
+    "options": [
+      "A specialized organ like a root or shoot",
+      "A mass of undifferentiated cells",
+      "The tool used to isolate the explant",
+      "A specific type of growth regulator"
+    ],
+    "answer": "A mass of undifferentiated cells",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which scientists discovered that the ratio of cytokinin to auxin controls organogenesis in 1957?",
+    "options": [
+      "Murashige and Skoog",
+      "Gautheret and White",
+      "Skoog and Miller",
+      "Haberlandt and Darwin"
+    ],
+    "answer": "Skoog and Miller",
+    "shuffleOptions": true
+  },
+  {
+    "question": "A medium with a high cytokinin to auxin ratio will primarily induce the formation of:",
+    "options": [
+      "Roots",
+      "Shoots",
+      "Callus",
+      "Seeds"
+    ],
+    "answer": "Shoots",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the most extensively used culture medium in plant tissue culture today, formulated in 1962?",
+    "options": [
+      "White's medium",
+      "MS medium",
+      "Yeast extract medium",
+      "B vitamin medium"
+    ],
+    "answer": "MS medium",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What was the significance of Haberlandt's experiment in 1902?",
+    "options": [
+      "He proved that single cells could divide indefinitely",
+      "He demonstrated that differentiated cells could survive in culture, though they didn't divide",
+      "He invented the MS medium",
+      "He successfully fused protoplasts"
+    ],
+    "answer": "He demonstrated that differentiated cells could survive in culture, though they didn't divide",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which piece of equipment is specifically used for measuring milligrams of plant hormones and vitamins?",
+    "options": [
+      "Precision balance",
+      "Analytical balance",
+      "Volumetric flask",
+      "Graduated cylinder"
+    ],
+    "answer": "Analytical balance",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary function of an Autoclave in the media preparation room?",
+    "options": [
+      "Measuring liquid volumes",
+      "Distilling water",
+      "Steam sterilization of media and equipment",
+      "Adjusting the pH of the medium"
+    ],
+    "answer": "Steam sterilization of media and equipment",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The HEPA filter in a Laminar Flow Cabinet is designed to remove what percentage of airborne particles?",
+    "options": [
+      "50.00%",
+      "75.50%",
+      "95.00%",
+      "99.97%"
+    ],
+    "answer": "99.97%",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Most plant tissue culture media are adjusted to a standard pH of:",
+    "options": [
+      "4.5 +/- 0.1",
+      "5.8 +/- 0.02",
+      "7.0 +/- 0.5",
+      "8.2 +/- 0.02"
+    ],
+    "answer": "5.8 +/- 0.02",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which sterilization method is used for heat-sensitive chemicals like certain vitamins or hormones?",
+    "options": [
+      "Autoclaving",
+      "Flaming",
+      "Filter sterilization",
+      "UV irradiation"
+    ],
+    "answer": "Filter sterilization",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the final step in the surface sterilization process for an explant?",
+    "options": [
+      "Wiping with 76% alcohol",
+      "Rinsing with tap water",
+      "Multiple rinses with sterile distilled water",
+      "Dipping in soapy water"
+    ],
+    "answer": "Multiple rinses with sterile distilled water",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which element is the central component of the chlorophyll molecule?",
+    "options": [
+      "Nitrogen",
+      "Magnesium",
+      "Calcium",
+      "Phosphorus"
+    ],
+    "answer": "Magnesium",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is Iron (Fe) usually provided in a chelated form (FeEDTA)?",
+    "options": [
+      "To increase its toxicity to microbes",
+      "To prevent it from precipitating out of the solution",
+      "To make it act as a gelling agent",
+      "To adjust the pH of the medium"
+    ],
+    "answer": "To prevent it from precipitating out of the solution",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the standard carbon source used in plant tissue culture media?",
+    "options": [
+      "Glucose",
+      "Fructose",
+      "Sucrose",
+      "Starch"
+    ],
+    "answer": "Sucrose",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which additive is used to absorb toxic compounds and can also stimulate root formation by darkening the medium?",
+    "options": [
+      "Coconut water",
+      "Activated charcoal",
+      "Gelling agent",
+      "Ethyl alcohol"
+    ],
+    "answer": "Activated charcoal",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following represents the correct general workflow of micropropagation?",
+    "options": [
+      "Establishment -> Rooting -> Shoot Multiplication -> Acclimatization",
+      "Shoot Multiplication -> Establishment -> Rooting -> Acclimatization",
+      "Establishment -> Shoot Multiplication -> Rooting -> Acclimatization",
+      "Rooting -> Establishment -> Shoot Multiplication -> Acclimatization"
+    ],
+    "answer": "Establishment -> Shoot Multiplication -> Rooting -> Acclimatization",
+    "shuffleOptions": false
+  },
+  {
+    "question": "In axillary shoot proliferation, what is specifically required to break apical dominance?",
+    "options": [
+      "Auxin",
+      "Cytokinin",
+      "Abscisic acid",
+      "Gibberellic acid"
+    ],
+    "answer": "Cytokinin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Meristem shoot tip culture is primarily used to produce plants free of:",
+    "options": [
+      "Fungi",
+      "Bacteria",
+      "Viruses",
+      "Genetic mutations"
+    ],
+    "answer": "Viruses",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Vitrification (Hyperhydricity) is characterized by plants that appear:",
+    "options": [
+      "Brown and dried out",
+      "Translucent, water-soaked, and brittle",
+      "Dark green and woody",
+      "Tall and spindly"
+    ],
+    "answer": "Translucent, water-soaked, and brittle",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Browning phenomenon is mainly caused by the oxidation of:",
+    "options": [
+      "Sugars",
+      "Proteins",
+      "Exudate phenolic compounds",
+      "Vitamins"
+    ],
+    "answer": "Exudate phenolic compounds",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary energy source for plants in a Photoautotrophic micropropagation system?",
+    "options": [
+      "Sucrose",
+      "Photosynthesis (Light + CO2)",
+      "Amino acids",
+      "Activated charcoal"
+    ],
+    "answer": "Photosynthesis (Light + CO2)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What are the two primary pathways of regeneration in plant tissue culture?",
+    "options": [
+      "Photosynthesis and Respiration",
+      "Mitosis and Meiosis",
+      "Organogenesis and Somatic Embryogenesis",
+      "Pollination and Fertilization"
+    ],
+    "answer": "Organogenesis and Somatic Embryogenesis",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What defines an 'adventitious shoot'?",
+    "options": [
+      "A shoot formed at the apex of a stem",
+      "A shoot formed from an axillary bud",
+      "A shoot that forms in a location other than typical apical or axillary buds",
+      "A shoot that grows only in the dark"
+    ],
+    "answer": "A shoot that forms in a location other than typical apical or axillary buds",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which hormone is most essential for inducing adventitious shoots in most plant species?",
+    "options": [
+      "Auxin",
+      "Cytokinin",
+      "Abscisic acid",
+      "Ethylene"
+    ],
+    "answer": "Cytokinin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is a 'somatic embryo'?",
+    "options": [
+      "An embryo formed by the fusion of sperm and egg",
+      "An embryo developed from a single non-reproductive somatic cell",
+      "A fully grown plant ready for the field",
+      "A type of callus that never differentiates"
+    ],
+    "answer": "An embryo developed from a single non-reproductive somatic cell",
+    "shuffleOptions": true
+  },
+  {
+    "question": "The 'Induction Phase' of somatic embryogenesis specifically requires which hormone?",
+    "options": [
+      "Cytokinin",
+      "Auxin",
+      "Gibberellin",
+      "Ethylene"
+    ],
+    "answer": "Auxin",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which plant growth regulator is crucial for the maturation of somatic embryos?",
+    "options": [
+      "Auxin",
+      "Cytokinin",
+      "Abscisic Acid (ABA)",
+      "IAA"
+    ],
+    "answer": "Abscisic Acid (ABA)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the primary difference between Organogenesis and Somatic Embryogenesis?",
+    "options": [
+      "Organogenesis only produces roots",
+      "Somatic embryogenesis produces a bipolar structure, while organogenesis produces individual organs",
+      "Organogenesis is faster",
+      "Somatic embryogenesis doesn't require nutrients"
+    ],
+    "answer": "Somatic embryogenesis produces a bipolar structure, while organogenesis produces individual organs",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following induces callus formation?",
+    "options": [
+      "Wounding + Plant growth regulators",
+      "High light intensity + Low temperature",
+      "Sterilization + Centrifugation",
+      "Subculturing + Liquid medium"
+    ],
+    "answer": "Wounding + Plant growth regulators",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is an advantage of suspension culture over callus culture?",
+    "options": [
+      "Faster growth",
+      "Less risk of contamination",
+      "No need for shaking",
+      "Cells are less fragile"
+    ],
+    "answer": "Faster growth",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the correct order of phases in the cell suspension growth curve?",
+    "options": [
+      "Exponential \u2192 Lag \u2192 Stationary \u2192 Deceleration",
+      "Lag \u2192 Exponential \u2192 Deceleration \u2192 Stationary",
+      "Stationary \u2192 Deceleration \u2192 Exponential \u2192 Lag",
+      "Lag \u2192 Deceleration \u2192 Exponential \u2192 Stationary"
+    ],
+    "answer": "Lag \u2192 Exponential \u2192 Deceleration \u2192 Stationary",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which method of biomass determination involves letting cells settle without centrifugation?",
+    "options": [
+      "PCV",
+      "SCV",
+      "FW",
+      "pH"
+    ],
+    "answer": "SCV",
+    "shuffleOptions": true
+  },
+  {
+    "question": "To isolate a target cell population expressing two simultaneous markers, what initial population assessment is required?",
+    "options": [
+      "Measuring DNA content via Hoechst stain",
+      "Classifying cell clusters based on Forward Scatter (FSC) and Side Scatter (SSC)",
+      "Determining protein concentration via Lowry assay",
+      "Observing mitochondrial activity via MTT"
+    ],
+    "answer": "Classifying cell clusters based on Forward Scatter (FSC) and Side Scatter (SSC)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the HPV E6/E7 immortalization system, what is the role of the E6 protein?",
+    "options": [
+      "Binds pRb to release E2F",
+      "Recruits ubiquitin ligase to p53 for proteasomal degradation and induces hTERT expression",
+      "Mimics CD40 signaling",
+      "Extends telomeres via homologous recombination"
+    ],
+    "answer": "Recruits ubiquitin ligase to p53 for proteasomal degradation and induces hTERT expression",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the specific role of HPV E7 in driving the cell cycle?",
+    "options": [
+      "Degrades p53",
+      "Binds to and inactivates pRb, displacing the transcription factor E2F",
+      "Activates the MAPK/ERK pathway",
+      "Inhibits the mTORC1 pathway"
+    ],
+    "answer": "Binds to and inactivates pRb, displacing the transcription factor E2F",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which of the following is a mechanism for indirect interaction at the cell-to-cell level?",
+    "options": [
+      "Receptor-ligand binding on membranes",
+      "Signaling via hormones and cytokines activating intracellular pathways",
+      "Direct gap junction communication",
+      "CRISPR-Cas9 gene editing"
+    ],
+    "answer": "Signaling via hormones and cytokines activating intracellular pathways",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which antibiotic is used specifically to inhibit fungal contamination in animal cell culture?",
+    "options": [
+      "Penicillin G",
+      "Streptomycin",
+      "Amphotericin B",
+      "Gentamicin"
+    ],
+    "answer": "Amphotericin B",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which gradient centrifugation media are used for isolating specific cell types in primary culture?",
+    "options": [
+      "Sucrose and Glucose",
+      "Ficoll and Percoll",
+      "DMSO and Glycerol",
+      "Agar and Gelrite"
+    ],
+    "answer": "Ficoll and Percoll",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What modification to the mineral concentration of MS medium is often made for plant rooting (Stage 3)?",
+    "options": [
+      "Doubled concentration",
+      "Reduced (e.g., half-strength)",
+      "Replaced with pure sucrose",
+      "Replaced with distilled water"
+    ],
+    "answer": "Reduced (e.g., half-strength)",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which signaling pathways are triggered by the EBV LMP-1 protein to ensure B-lymphocyte survival?",
+    "options": [
+      "MAPK and ERK",
+      "NF-\u03baB and PI3K/Akt",
+      "Wnt and Notch",
+      "p53 and pRb"
+    ],
+    "answer": "NF-\u03baB and PI3K/Akt",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the function of the EBNA-2 protein in EBV-infected cells?",
+    "options": [
+      "It degrades p53",
+      "It acts as a transcriptional activator of host genes like c-myc",
+      "It binds to magnetic microbeads",
+      "It prevents the cell from attaching to a substrate"
+    ],
+    "answer": "It acts as a transcriptional activator of host genes like c-myc",
+    "shuffleOptions": true
+  },
+  {
+    "question": "In the context of photoautotrophic micropropagation, why is a sugar-free medium beneficial?",
+    "options": [
+      "It promotes faster root growth",
+      "It significantly reduces the risk of microbial contamination",
+      "It eliminates the need for light",
+      "It prevents the plant from reaching the stationary phase"
+    ],
+    "answer": "It significantly reduces the risk of microbial contamination",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What structural feature of plant shoot tips allows them to remain virus-free?",
+    "options": [
+      "Thick waxy cuticle",
+      "Lack of vascular bundles and plasmodesmata",
+      "High concentration of secondary metabolites",
+      "Presence of specialized immune cells"
+    ],
+    "answer": "Lack of vascular bundles and plasmodesmata",
+    "shuffleOptions": true
+  },
+  {
+    "question": "During cryopreservation, what does 'Solute Injury' refer to?",
+    "options": [
+      "Internal ice crystal formation",
+      "Osmotic imbalance and dehydration as water freezes outside the cell",
+      "The toxicity of liquid nitrogen",
+      "The breakdown of proteins by UV light"
+    ],
+    "answer": "Osmotic imbalance and dehydration as water freezes outside the cell",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the typical diameter of a microcarrier bead?",
+    "options": [
+      "1-10 nm",
+      "100-300 \u00b5m",
+      "1-5 mm",
+      "10 cm"
+    ],
+    "answer": "100-300 \u00b5m",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which microcarrier is specifically characterized as having a macroporous cellulose matrix?",
+    "options": [
+      "Cytodex 1",
+      "Cytodex 3",
+      "Cytopore",
+      "Cytoline"
+    ],
+    "answer": "Cytopore",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Hanging drop method is particularly useful for the formation of:",
+    "options": [
+      "Single-cell clones",
+      "Embryoid Bodies (EBs) from stem cells",
+      "Hairy root cultures",
+      "Protoplast fusion"
+    ],
+    "answer": "Embryoid Bodies (EBs) from stem cells",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which component allows gas exchange at the base of the cell compartment in a CeLLine bioreactor?",
+    "options": [
+      "Stainless steel mesh",
+      "Silicone membrane",
+      "Semi-permeable 10 kDa membrane",
+      "Hollow fiber"
+    ],
+    "answer": "Silicone membrane",
+    "shuffleOptions": true
+  },
+  {
+    "question": "What is the 'ECS' in the context of hollow fiber bioreactors?",
+    "options": [
+      "External Control System",
+      "Extracapillary Space",
+      "Essential Cell Supplement",
+      "Enzymatic Cleaning Solution"
+    ],
+    "answer": "Extracapillary Space",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Which type of microcarrier is coated with Collagen type I?",
+    "options": [
+      "Cytodex 1",
+      "Cytodex 3",
+      "Cytopore",
+      "Cytoline"
+    ],
+    "answer": "Cytodex 3",
+    "shuffleOptions": true
+  },
+  {
+    "question": "Why is the inoculum for a bioreactor typically 1/3 of the total volume initially?",
+    "options": [
+      "To save media costs",
+      "To allow for better cell attachment to microcarriers before topping up",
+      "Because cells cannot grow in large volumes",
+      "To prevent the stir speed from being too high"
+    ],
+    "answer": "To allow for better cell attachment to microcarriers before topping up",
+    "shuffleOptions": true
+  }
+]

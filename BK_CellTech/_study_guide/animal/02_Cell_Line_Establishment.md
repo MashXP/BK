@@ -74,8 +74,32 @@ The gold standard for creating **human B-lymphocytes** (LCLs).
 *   **LMP-1**: Mimics a constitutively active CD40 receptor, triggering NF-κB and PI3K/Akt survival pathways.
 *   **EBNA-2**: Transcriptional activator of host genes like *c-myc*.
 
-#### 4. Oncogenic Synergy: MycT58A and RasV12
-Usually delivered via viral vectors to provide a "push" to the cell cycle.
-*   **MycT58A**: Stabilized mutant of *c-myc* that drives rapid cycle progression and metabolic change.
-*   **RasV12**: Constitutively active Ras providing constant growth factor signaling (MAPK/ERK).
-*   **Cooperation**: Often used with SV40 or E6/E7 to prevent **Oncogene-Induced Senescence (OIS)**.
+#### 4. Myc Immortalization System
+*c-Myc* is a transcription factor that drives expression of genes needed for cell-cycle entry (Cyclin D, CDK4, E2F targets).
+
+**Immortalization mechanism:**
+*   Overexpressed Myc suppresses p21/p27 (CDK inhibitors) and activates **hTERT** (telomerase), bypassing replicative senescence.
+*   Used in combination with p53/Rb inactivation (e.g., SV40 or E6/E7) to prevent **Oncogene-Induced Senescence (OIS)**.
+
+**Regulating Myc expression:**
+*   **Transcriptional control:** Wnt, Notch, and MAPK/ERK growth factor pathways induce *c-myc* transcription; withdrawal of growth signals suppresses it.
+*   **Post-translational stability:**
+    *   **Phospho-S62 (stabilizing):** Activated by Ras/ERK → protects Myc from degradation.
+    *   **Phospho-T58 (destabilizing):** Activated by GSK-3β → recruits Fbxw7 ubiquitin ligase → proteasomal degradation.
+    *   **MycT58A mutant**: T58A substitution prevents GSK-3β phosphorylation → constitutively stable Myc used for robust immortalization.
+*   **Inducible systems:** Tet-On (doxycycline-controlled) promoters allow researchers to switch Myc expression on/off experimentally.
+
+#### 5. Ras Immortalization System
+Ras is a **GTPase signal transducer** located downstream of growth factor receptors; it propagates proliferative signals via **MAPK/ERK** and **PI3K/Akt** pathways.
+
+**Immortalization mechanism:**
+*   Normal Ras cycles between GTP-bound (active) and GDP-bound (inactive) states.
+*   **RasV12 (G12V mutant):** Point mutation abolishes intrinsic GTPase activity → Ras is locked in the GTP-bound active state → constitutive proliferative signaling.
+*   Downstream: MAPK/ERK drives cyclin D expression; PI3K/Akt inhibits apoptosis.
+
+**Managing Ras expression:**
+*   **GEFs (Guanine nucleotide Exchange Factors):** Promote GDP→GTP exchange → activate Ras.
+*   **GAPs (GTPase-Activating Proteins):** Stimulate GTP hydrolysis → inactivate Ras. (RasV12 is insensitive to GAPs.)
+*   **Inducible expression systems (Tet-On/Tet-Off):** Allow conditional activation/silencing of RasV12 to study its effects or avoid OIS during establishment.
+*   **Combination with p53 inactivation:** Required because constitutive Ras signaling triggers p53-dependent OIS in normal cells; combining RasV12 with SV40 T-antigen or E6/E7 overcomes this.
+*   **Downstream inhibitors:** MEK inhibitors (e.g., PD98059) or PI3K inhibitors can be used to titrate signaling output experimentally.

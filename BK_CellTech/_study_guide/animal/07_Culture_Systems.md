@@ -8,13 +8,21 @@ Shift towards single-use systems to reduce cleaning validation and cross-contami
 *   **Advantages**: Low contamination risk (<1%), no cleaning required, flexible.
 *   **Example**: **Wave Bioreactor** (Rocking motion provides mixing and aeration).
 
-## 2. Two-Compartment Bioreactors
-Designed to increase cell density and product concentration.
-*   **Examples**: **CeLLine**, **miniPerm**.
-*   **Design**:
-    *   **Cell Compartment**: Small volume, cells trapped by semi-permeable membrane. High product concentration.
-    *   **Medium Compartment**: Large volume, provides nutrients across the membrane.
-    *   **Silicone Membrane**: Allows gas exchange (O2/CO2) at the bottom.
+## 2. Two-Compartment Bioreactors (CELLine / miniPerm)
+Designed to increase cell density and product concentration by **separating** the nutrient reservoir from the cell chamber.
+
+### CELLine Bioreactor Design
+*   **Cell Compartment** and **Medium Compartment** are separated by a **10 kDa semi-permeable membrane**.
+    *   The membrane allows continuous diffusion of small-molecular-weight nutrients into the cell compartment → cells always receive fresh medium.
+    *   Larger molecules (secreted products, waste metabolites) are retained in/excluded from the cell compartment → less product inhibition, reduced contamination from the bulk medium.
+*   **Silicon Gas-Exchange Membrane** forms the floor of the cell compartment:
+    *   Provides optimal O₂ supply and CO₂ removal via a short diffusion path directly into the cell space.
+
+### Drawback
+*   The **cell loading inlet and product harvest outlet share the same port** → every manipulation risks introducing contamination and potentially increases inhibitory compound concentration in the cell compartment.
+
+### miniPerm
+Similar two-compartment principle; used for smaller-scale monoclonal antibody production.
 
 ## 3. Hollow Fiber Bioreactors
 *   **Design**: Bundle of porous fibers inside a cartridge.

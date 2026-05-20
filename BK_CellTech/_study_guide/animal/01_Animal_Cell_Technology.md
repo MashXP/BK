@@ -16,6 +16,12 @@
 - **Disadvantages:**
     - Cell characteristics can change after a period of continuous growth (differentiation loss).
     - Ethical concerns (specifically for primary cultures).
+- **Applications:**
+    - **Gene therapy**: engineering cells to correct genetic defects.
+    - **Stem cell therapy**: expanding and differentiating stem cells.
+    - **Biologically active products**: viral vaccines, monoclonal antibodies, recombinant glycoproteins.
+    - **Tissue engineering / regenerative medicine**: producing artificial skin.
+    - **Pharmacokinetic testing**: studying drug compound effects on specific cell types (ADME).
 
 ## 2. Basic Equipment
 To maintain a sterile and controlled environment:
@@ -70,16 +76,34 @@ To maintain a sterile and controlled environment:
 
 ## 4. Characteristics of Cells in Culture
 
-### A. Primary Culture
-- **Origin:** Cells derived directly from tissue (mechanical or enzymatic disaggregation).
-- **Lifespan:** Finite. Survives 30–50 generations before senescence (Crisis phase).
-- **Isolation Methods:**
-    - Dissection -> Mincing -> Enzymatic digestion (Trypsin/Collagenase).
-    - **Selection:** Use selective media, growth inhibitors, or gradient centrifugation (Ficoll/Percoll) to isolate specific cell types.
-- **Morphology:**
-    1.  **Fibroblastic:** Bipolar or multipolar, elongated, grow attached to substrate.
-    2.  **Epithelial-like:** Polygonal, grow in attached discrete patches.
-    3.  **Lymphoblast-like:** Spherical, grow in suspension (do not attach).
+### A. Primary Culture vs. Cell Lines — Comparison
+
+| Feature | Primary Culture | Cell Line |
+| :--- | :--- | :--- |
+| **Origin** | Directly from living tissue/organ (mechanical or enzymatic disaggregation) | Derived from primary culture via genetic transformation or repeated subculture/selection |
+| **Lifespan** | Finite — 30–50 generations then senescence | Indefinite (continuous division) |
+| **Contamination risk** | Higher | Lower (continuous subculture selects against contaminants) |
+| **Homogeneity** | Heterogeneous (mixed cell types from tissue) | Homogeneous (clonally derived from single cell) |
+| **Division capacity** | Limited | Unlimited (immortalized) |
+
+**Developing primary cells into a cell line:**
+1. Harvest tissue/organ sample.
+2. Mechanical mincing + enzymatic digestion (Trypsin/Collagenase) to obtain single cells.
+3. Culture under appropriate conditions; continuously subculture.
+4. Cells proliferate → progeny share the same origin.
+5. Introduce genetic changes (e.g., viral immortalization with SV40 T-antigen or HPV E6/E7).
+6. Select clonal cell line.
+7. Verify genotype, biological properties, and functional activity.
+8. Cryopreserve.
+
+**Primary culture isolation methods:**
+- Dissection → Mincing → Enzymatic digestion (Trypsin/Collagenase).
+- **Selection:** Selective media, growth inhibitors, or gradient centrifugation (**Ficoll** / **Percoll**) to enrich specific cell types.
+
+**Primary culture morphology:**
+1.  **Fibroblastic:** Bipolar or multipolar, elongated, grow attached to substrate.
+2.  **Epithelial-like:** Polygonal, grow in attached discrete patches.
+3.  **Lymphoblast-like:** Spherical, grow in suspension (do not attach).
 
 ### B. Cell Lines (Continuous/Immortalized)
 - **Origin:** Primary cultures that have undergone transformation (spontaneous or induced via viral/chemical mutagens).
@@ -111,6 +135,22 @@ To classify or sort cells based on markers or physical properties.
     - T-helper: `CD3+`, `CD4+`
     - T-cytotoxic: `CD3+`, `CD8+`
 
+#### Dual-Marker Isolation (Isolating cells positive for 2 simultaneous markers)
+**Example: isolating erythroid precursors co-expressing Ter119 and CD71.**
+
+1. **Prepare single-cell suspension:** Centrifuge tissue homogenate at appropriate speed → discard supernatant → collect single cells.
+2. **Assess cell populations:** Measure FSC and SSC to classify cell clusters by size and granularity → guides choice of appropriate markers.
+3. **Label with two fluorescent antibodies:** Add anti-Ter119 and anti-CD71 (each conjugated to a distinct fluorochrome) to the single-cell suspension.
+4. **Run through Flow Cytometer:** Cells pass through laser beam → detector reads fluorescence signal intensity for each channel.
+5. **Interpret 4-quadrant outcome:**
+    - **Q1 (double positive):** Express both markers → target population.
+    - **Q2 (marker 1 only):** Ter119⁺ / CD71⁻.
+    - **Q3 (marker 2 only):** Ter119⁻ / CD71⁺.
+    - **Q4 (double negative):** Express neither marker.
+6. **Gate on double-positive population:** Cells whose fluorescence intensity exceeds the negative control threshold in **both** channels are selected.
+    - *Rule:* If sample fluorescence > control fluorescence → cell is positive for that antibody. The further apart the two signal distributions, the more definitive the result.
+7. **Sort (FACS):** Electrostatically deflect double-positive droplets into collection tube.
+
 #### Apoptosis Analysis (Annexin V / PI)
 - **The Axes**:
     - **X-Axis (Annexin FITC)**: Measures Annexin V (binds to cells in early apoptosis).
@@ -130,3 +170,22 @@ To classify or sort cells based on markers or physical properties.
     2.  Pass through a column in a magnetic field.
     3.  **Positive Selection:** Labeled cells stick to the column; elute after removing magnet.
     4.  **Negative Selection (Depletion):** Unlabeled cells flow through; labeled unwanted cells stay in column.
+
+## 6. Levels of Cellular Interaction for Controlling Animal Cells
+Based on cell structure and function, there are four levels at which we can intervene to control animal cell behaviour.
+
+### ❖ Level 1 — Intracellular
+- Use **regulatory factors / transcription factors** to modulate gene expression.
+- Adjust **ion channels** to influence cell activity (e.g., membrane potential, calcium signaling).
+
+### ❖ Level 2 — Cell–Cell Interaction
+- **Direct interaction:** Communication via **receptor–ligand binding** on cell membranes (e.g., Notch signaling, juxtacrine signaling).
+- **Indirect interaction:** Secreted molecules — **hormones**, **cytokines**, and other signaling molecules → activate or inhibit intracellular signaling cascades.
+
+### ❖ Level 3 — Cell–Environment Interaction
+- Alter biochemical conditions: **growth factors**, **nutrients**, **pH**.
+- Physical parameters: **light**, **temperature**, **mechanical stimuli** (shear stress, substrate stiffness).
+
+### ❖ Level 4 — Molecular (Genetic) Level
+- **CRISPR-Cas9**: Precise genome editing → permanently change genetic properties.
+- **siRNA / miRNA**: Post-transcriptional gene silencing → reduce or abolish target protein expression.
