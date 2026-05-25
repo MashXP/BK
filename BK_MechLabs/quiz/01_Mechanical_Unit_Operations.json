@@ -143,7 +143,7 @@
     "shuffleOptions": true
   },
   {
-    "question": "In the mixing equation, what does '$\sigma_e$' represent?",
+    "question": "In the mixing equation, what does '$\\sigma_e$' represent?",
     "options": [
       "The measured standard deviation of samples",
       "The standard deviation of a completely segregated mixture",

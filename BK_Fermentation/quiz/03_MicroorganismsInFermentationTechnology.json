@@ -253,14 +253,14 @@
     "shuffleOptions": true
   },
   {
-    "question": "Which culture collection is located in the Czech Republic?",
+    "question": "What is the primary technical function of a culture collection acting as an International Depository Authority (IDA)?",
     "options": [
-      "DSMZ",
-      "CBS",
-      "CCM",
-      "CNCM"
+      "To provide free samples to any commercial entity",
+      "To ensure the availability of a patented microorganism for the duration of the patent",
+      "To act as the sole manufacturer of the patented product",
+      "To genetically modify the strain for better performance"
     ],
-    "answer": "CCM",
+    "answer": "To ensure the availability of a patented microorganism for the duration of the patent",
     "shuffleOptions": true
   },
   {
