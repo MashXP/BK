@@ -46,6 +46,7 @@ Two main types of reactions contribute to the loss of nutrient quality during he
 2. **Degradation of heat-labile components**: Vitamins, amino acids, and proteins can be degraded during steam sterilization.
 
 **Table: The Effect of Sterilization Time on Glucose Remaining (at 121°C)**
+
 | Time at 121°C (min) | Amount of Added Glucose Remaining (%) |
 | :--- | :--- |
 | 30 | 64% |
@@ -90,6 +91,7 @@ Where:
 
 **Dry Heat Sterilization**
 Performed in drying ovens for glassware and metal equipment.
+
 | Temperature | Time |
 | :--- | :--- |
 | $150^\circ\text{C}$ | 2 hours 30 min |
@@ -122,12 +124,13 @@ Filtration is used for both liquids and gases. Microorganisms are removed via fo
 - **Surface Filter**: Pores are smaller than the particles. Particles deposit on the surface, forming a "cake."
 - **Depth Filter**: Pores are larger than the particles; removal relies on mechanisms like inertial impaction and diffusion.
 - **Classification by Retention Size**:
-  | Type | Retention Range ($\mu m$) | Targeted Contaminants |
-  | :--- | :--- | :--- |
-  | Microfiltration (MF) | $0.10$ to $1.0$ | Bacteria |
-  | Ultrafiltration (UF) | $0.01$ to $0.10$ | Viruses, Macromolecules, Colloids |
-  | Nanofiltration (NF) | $0.001$ to $0.01$ | Proteins, Sugars, Dyes |
-  | Reverse Osmosis (RO) | $0.0001$ to $0.001$ | Ions, Salts, Heavy Metals |
+
+| Type | Retention Range ($\mu m$) | Targeted Contaminants |
+| :--- | :--- | :--- |
+| Microfiltration (MF) | $0.10$ to $1.0$ | Bacteria |
+| Ultrafiltration (UF) | $0.01$ to $0.10$ | Viruses, Macromolecules, Colloids |
+| Nanofiltration (NF) | $0.001$ to $0.01$ | Proteins, Sugars, Dyes |
+| Reverse Osmosis (RO) | $0.0001$ to $0.001$ | Ions, Salts, Heavy Metals |
 
 **Filter Sterilization Targets**
 - **Liquids**: Bulk medium, nutrient feeds, water, pH control agents (acids/alkalis/buffers), and antifoams.
