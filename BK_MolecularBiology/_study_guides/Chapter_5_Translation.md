@@ -1,8 +1,14 @@
 # Chapter 5: Translation
 
 ### 1. Comparison
-*   **Prokaryote (70S)**: 50S (5S, 23S rRNA) + 30S (16S rRNA). Shine-Dalgarno sequence. fMet initiator. Simultaneous transcription/translation.
-*   **Eukaryote (80S)**: 60S (5S, 5.8S, 28S rRNA) + 40S (18S rRNA). 5' Cap dependent. Met initiator. Separated processes.
+
+| Feature | Prokaryote (70S) | Eukaryote (80S) |
+| :--- | :--- | :--- |
+| **Ribosome Subunits** | Large: 50S<br>Small: 30S | Large: 60S<br>Small: 40S |
+| **rRNA Components** | 5S, 23S rRNA (in 50S)<br>16S rRNA (in 30S) | 5S, 5.8S, 28S rRNA (in 60S)<br>18S rRNA (in 40S) |
+| **mRNA Binding Site** | Shine-Dalgarno sequence | 5' Cap dependent (or IRES) |
+| **Initiator Amino Acid** | fMet (Formylmethionine) | Met (Methionine) |
+| **Process Coupling** | Coupled (Simultaneous transcription/translation) | Separated (Transcription in nucleus, translation in cytoplasm) |
 
 ### 2. Mechanism (Prokaryote)
 *   **Initiation**: 30S subunit binds IFs and mRNA (Shine-Dalgarno). fMet-tRNA binds. 50S joins.

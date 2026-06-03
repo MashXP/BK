@@ -5,6 +5,8 @@
 ### 1. Hammermill Grinding:
 - Understand the structure of the hammermill and the feeding system (specifically the primary function of the screw feeder).
 - Safe operating procedure: Start-up sequence, feeding method, and determining the end of the grinding time by continuously monitoring the indicating instruments (e.g., the ammeter returning to the no-load value).
+- Grinding theories: Differentiating the physical principles and practical limitations of Rittinger's Surfacial Theory, Kick's Volumetric Theory, and Bond's Law.
+- Grinding efficiency and error analysis: Distinguishing between objective equipment limitations (heat dissipation, particle dispersion) and subjective experimental errors (measurement and timing inaccuracies).
 
 ### 2. Sieving Analysis:
 - Rules for assembling the sieving system (gradually decreasing mesh/aperture sizes from top to bottom, and the position of the solid collecting pan/receiver at the bottom).
@@ -12,7 +14,7 @@
 
 ### 3. Solid Mixing:
 - Application scope of the rotating drum mixer (highly suitable for dry, free-flowing granular solids or powders).
-- Homogeneity evaluation: The random sampling procedure at specific locations inside the rotating drum and the practical significance of the Mixing Index.
+- Homogeneity evaluation: The random sampling procedure at specific locations inside the rotating drum, the practical significance and calculation of the Mixing Index ($I_s$), the sample standard deviation ($s$), and the theoretical ideal standard deviation ($\sigma_e$).
 
 ## II. Heat Transfer - Thermodynamics - Drying Group
 
@@ -42,4 +44,5 @@
 
 ### 3. Residence Time Distribution (RTD):
 - Objectives: Determining the actual Residence Time Distribution (RTD) function and comparing it with theoretical models (such as the tanks-in-series model).
+- Method: Understanding the pulse injection stimulus-response technique and its mathematical representation using the Dirac Delta Function ($\delta(t)$).
 - Calculations: Mastering equations for the theoretical mean retention time and the actual average retention time.
