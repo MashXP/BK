@@ -1,0 +1,280 @@
+Based on the previous response and the paper here, redo the previous query.
+
+Protease-Accelerated Fish Sauce Production
+The attached paper argues that the best protease for fish sauce is not the enzyme with the highest laboratory
+hydrolysis rate, but the one that still works under 20–25% salt, limits bitterness, preserves aroma development, and
+stays within tight cost constraints (). Across the broader literature, that framing fits the evidence: proteases clearly
+shorten fish sauce processing, but the practical winner is usually a staged system that combines initial proteolysis
+with subsequent microbial maturation rather than a single fast endopeptidase alone (Lê et al., 2015; Yang et al.,
+2025).
+
+
+Mechanism
+
+Endopeptidases such as Alcalase, trypsin, and papain cleave internal peptide bonds in actomyosin and collagen,
+which rapidly lowers viscosity and drives liquefaction (Rianingsih et al., 2016). Exopeptidases then trim terminal
+residues and are needed to raise amino nitrogen yield and release glutamate- and aspartate-rich amino acids that
+build umami ().
+
+A fast endopeptidase-only process tends to stall at bitter oligopeptides, especially hydrophobic 500–3000 Da
+fragments, which is why the attached paper recommends endo/exo synergy instead of maximal cleavage speed
+alone (). That pattern appears outside fish sauce too: alkaline protease alone reached 29.1% hydrolysis in clam
+substrate, but adding an A. oryzae aminopeptidase complex increased hydrolysis to 49.8% while reducing
+bitterness and improving umami (Zhao et al., 2026).
+
+Cysteine proteases such as bromelain and the Bacillus megaterium KLP-98 acid protease act through a sulfhydryl-
+dependent mechanism, whereas trypsin is a serine protease source commonly exploited from viscera or added
+directly (Pramita et al., 2020; Fu et al., 2008; Ciou et al., 2020). The attached paper’s broader mechanistic point is
+that catalytic class matters less than whether the enzyme’s pH and temperature window matches fish mash and
+whether activity survives brine ().
+
+Protein breakdown in accelerated systems is visible as disappearance of major myofibrillar bands over time,
+showing conversion of large structural proteins into soluble peptides and amino acids. (Fig 2: Degree of hydrolysis
+vs. time of hydrolysis obtained without exogenous enzyme and with Protamex and Protex 51FP under diff erent
+saline conditions (0, 10, 20 and 30 % NaCl) from: a) sardine and b) anchovy.The data represent the mean
+values±standard error of triplicate determinations)
+
+
+Operating Window
+
+Parameter            Practical Industrial Range            Why It Matters
+
+
+Salt during          7–25% NaCl                            Low salt speeds enzymes, but high salt controls spoilage
+hydrolysis                                                 and histamine (Okubo et al., 2022)
+
+
+Temperature          30–45°C for fermentation; 50–         Higher temperature accelerates hydrolysis, but
+                     55°C for short autolysis steps        prolonged heat can shift flavor or safety (Okubo et al.,
+                                                           2022; Kim et al., 2022)
+
+
+Protease type        Halotolerant microbial blends         Standard enzymes often lose major activity above 10–
+                     preferred                             12% salt (Chau et al., 2021)
+
+
+
+
+                                                         1 / 5
+Parameter               Practical Industrial Range                 Why It Matters
+
+
+Residence time          24 h to 15 d for hydrolysis; extra         Very rapid hydrolysis can miss authentic fish sauce
+                        maturation if aroma is needed              bouquet (Gao et al., 2020)
+
+
+Target quality          High AAN/TN, low bitterness,               Product value depends on taste and safety, not
+                        low biogenic amines                        hydrolysis alone (Yang et al., 2025)
+
+
+FIGURE 1 Industrial operating window for protease-assisted fish sauce production.
+
+
+Commercial enzymes still function in strong brine, but performance falls as salt rises. Protamex and Protex 51FP
+remained active even at 30% NaCl over six hours, yet hydrolysis decreased progressively with higher salinity (Lê et
+al., 2015). A salt-tolerant acid protease from B. megaterium retained only 5% activity at 25% NaCl, but still improved
+anchovy sauce when temperature and pH were favorable (Fu et al., 2008).
+
+The literature supports two workable process philosophies rather than one. One uses conventional high salt with
+halotolerant enzymes or starters and accepts slower but authentic maturation (Nakano et al., 1986; Chau et al.,
+2021; Bai et al., 2025). The other deliberately lowers salt or separates the steps, using one-week or shorter
+hydrolysis at 7–8% salt and 21–45°C, then adding constraints such as pCO2, heating, or later salting to recover
+safety and flavor control (Gao et al., 2020; Okubo et al., 2022).
+
+
+Industrial Workflow
+
+  flowchart TD
+  A[Raw fish or by-products receiving] --> B[Sorting, mincing, size reduction]
+  B --> C[Salt strategy selection]
+  C -->|High-salt route 20-25%| D[Add halotolerant protease or starter]
+  C -->|Low-salt route 7-8%| E[Short hot hydrolysis with protease]
+  D --> F[Liquefaction and peptide release]
+  E --> F
+  F --> G[Debittering or exopeptidase step]
+  G --> H[Controlled maturation with halophilic microbes]
+  H --> I[Pressing or centrifugation]
+  I --> J[Heat stabilization / pasteurization]
+  J --> K[Clarification, filtration, bottling]
+
+
+ • Raw material choice strongly affects kinetics; anchovy liquefies faster than sardine under the same enzyme and
+
+    salt conditions (Lê et al., 2015).
+ • By-products are feasible feedstocks, including viscera, internal organs, tuna cooking juice, and salmon frames
+
+    (Ciou et al., 2020; Yanohara et al., 2022; Valdivia et al., 2025).
+ • Aroma still needs maturation because authentic fish sauce volatiles arise from halophilic fermentation and
+
+    amino-carbonyl reactions, not proteolysis alone (Narayan & Gopal, 2023).
+ • Histamine control is critical if hydrolysis begins warm and low-salt before brining (Taoka et al., 2019).
+
+
+
+
+                                                                2 / 5
+Costs And Capacity
+
+The attached paper gives the clearest economic rule: enzyme cost should stay within 2–5% of total raw material
+cost per batch, and food-grade regulatory status is non-negotiable (). It also suggests realistic bulk enzyme pricing
+below about $15–25/kg for crude fungal or bacterial preparations rather than purified recombinant enzymes ().
+
+Direct large-scale fish sauce capacity data are sparse in the supplied papers, but the industry scale is large enough
+that enzyme economics matter: Thailand alone is reported to produce more than 400 million liters annually
+(Narayan & Gopal, 2023). For activity-based enzyme selection, Alcalase gave the lowest cost per unit activity and
+the best protein recovery economics at 4.3 kg extracted protein per USD, while Flavourzyme gave higher
+hydrolysis and lower bitterness but at higher cost (Valdivia et al., 2025).
+
+Microbial enzyme production itself can be intensified, which matters if a manufacturer wants in-house protease
+supply rather than purchased formulations. One optimized B. velezensis process reached 1160.3 U/mL protease
+activity, but that study was still flask-scale and explicitly lacked techno-economic validation for industrial reactors
+above 1000 L (Fergany et al., 2026).
+
+
+Efficiency Equations
+
+Protease efficiency in fish sauce is usually tracked by degree of hydrolysis or amino nitrogen release. One fish
+sauce paper defines DH as 10% TCA-soluble nitrogen divided by total nitrogen ×100 (Narayan & Gopal, 2023):
+
+[ DH(%)=\frac{N_{\text{TCA-soluble}}}{N_{\text{total}}}\times100 ]
+
+The attached paper emphasizes A_N/T_N as the industrially meaningful target because free amino acids, not just
+solubilized peptides, drive sauce quality (). A practical quality expression is therefore:
+
+[ \text{Amino Nitrogen Ratio}(%)=\frac{A_N}{T_N}\times100 ]
+
+Classical enzyme kinetics still matter for screening. The attached paper points to low (K_m) and high (k_{cat}/K_m)
+on dense fish substrates as the theoretical ideal (). A characterized fish-sauce-relevant protease from B.
+megaterium showed (K_m=2.1) mg/mL and (k_{cat}=6.1\ \text{s}^{-1}) against azocasein (Fu et al., 2008), and
+another microbial protease study reported (K_m=0.207) mM with Michaelis-Menten behavior (Fergany et al.,
+2026):
+
+[ v=\frac{V_{\max}[S]}{K_m+[S]}, \qquad k_{cat}=\frac{V_{\max}}{[E]T}, \qquad \text{Catalytic
+efficiency}=\frac{k{cat}}{K_m} ]
+
+For comparing commercial proteases at equivalent activity, the most useful supplied model fits the hydrolysis
+progress curve with a logarithmic equation and estimates specific activity from the slope of parameter (a) versus
+dose (Valdivia et al., 2025):
+
+[ P(t)=\frac{1}{b}\ln(1+abt) ]
+
+where (P(t)) is product release or hydrolysis progress, (a) is the initial hydrolysis constant linked to enzyme dose,
+and (b) captures the slowdown from substrate depletion or inactivation (Valdivia et al., 2025). The fitted progression
+curves show why equivalent-dose comparison is better than comparing supplier label doses directly. (Fig 4:
+Progression curves during hydrolysis of a 1:1 SF/water mixture by commercial proteases at different doses: (a)
+4.2U/g, (b) 8.4U/g and (c) 16.8U/g. Reaction conditions: 50°C, pH7.5 and 50% SF. The continuous line corresponds
+to the fitted logarithmic equation (Eq. 1).)
+
+In practice, the most useful economic screen is:
+
+[ \text{Cost efficiency}=\frac{\text{kg protein recovered}}{\text{USD enzyme}} ]
+
+
+
+
+                                                          3 / 5
+because the cheapest enzyme per kilogram is not necessarily the cheapest per unit useful hydrolysis (Valdivia et al.,
+2025).
+
+Protease can clearly reduce fish sauce fermentation time, but the attached paper is right that the best industrial
+choice is the enzyme system that balances salt tolerance, debittering, aroma maturation, safety, and cost, not
+the one with the highest laboratory DH alone. A large-scale process is therefore best designed as controlled
+liquefaction plus maturation, with efficiency judged by AAN/TN, DH, flavor, biogenic amines, and cost per useful
+activity.
+
+These search results were found and analyzed using Consensus, an AI-powered search engine for research. Try it at
+https://consensus.app. © 2026 Consensus NLP, Inc. Personal, non-commercial use only; redistribution requires
+copyright holders’ consent.
+
+
+References
+Selecting a protease for fish sauce production: theoretical enzymatic efficiency vs. practical manufacturing
+realities.
+
+Bai, N., He, J., Hong, B.-H., Wu, Z., Wang, L., & Shao, Z.-Z. (2025). Fast Preparation of Fish Sauce Treated With
+                 ‐
+Marine Protease Producing Bacillus zhangzhouensis sp.. Journal of Food Processing and Preservation.
+https://doi.org/10.1155/jfpp/6298724
+
+Chau, L. T. M., Ngoc, H., Moreno, C., Bruzac, S., Bergé, J., & Vu, H. (2021). Protex 51FP as a starter for accelerating
+fish sauce fermentation from anchovy (Stolephorus commersonii). Emirates Journal of Food and Agriculture.
+https://doi.org/10.9755/ejfa.2021.v33.i5.2701
+
+Ciou, J., Hsieh, L.-S., Lee, T.-T., & Hsieh, C.-W. (2020). Enhancement of Agricultural Processed By-Products:
+Qualities Analysis of Fermentation Method in Gradient Salt Adding Treatment of Tuna Cooking Juice with Black
+Bean Koji Added. Foods, 9. https://doi.org/10.3390/foods9030320
+
+Fergany, S. N., Salem, S., Abdel-Naby, M., Abdelghany, T., & Abu-Hussien, S. H. (2026). Harnessing Bacillus
+velezensis for enhanced protease biosynthesis: optimization, purification, and kinetic profiling. BMC Microbiology,
+26. https://doi.org/10.1186/s12866-026-04782-6
+
+                                                                              ‐
+Fu, X.-T., You, S.-G., & Kim, S. M. (2008). CHARACTERIZATION OF A SALT TOLERANT ACID PROTEASE
+                                                 ‐
+PRODUCED BY BACILLUS MEGATERIUM KLP 98 AND ITS POTENTIAL AS A FERMENTATION STARTER FOR
+THE MANUFACTURE OF FISH SAUCE. Journal of Food Biochemistry, 32, 279-298. https://doi.org/10.1111/j.1745-
+4514.2008.00155.x
+
+Gao, R.-C., Zhou, J., Leng, W., Shi, T., Jin, W., & Yuan, L. (2020). Screening of aPlanococcusbacterium producing a
+     ‐                                               ‐
+cold adapted protease and its application in low salt fish sauce fermentation. Journal of Food Processing and
+Preservation. https://doi.org/10.1111/jfpp.14625
+
+Kim, H.-J., Dewitt, C. M. A., & Park, J. W. (2022). Application of ohmic heating for accelerating Pacific whiting fish
+sauce fermentation. LWT. https://doi.org/10.1016/j.lwt.2022.114299
+
+                                                         ễ
+Lê, C., Donnay-Moreno, C., Bruzac, S., Baron, R., Nguy n, H. T., & Bergé, J. (2015). Proteolysis of Sardine (Sardina
+pilchardus) and Anchovy (Stolephorus commersonii) by Commercial Enzymes in Saline Solutions.. Food technology
+and biotechnology, 53 1, 87-90. https://doi.org/10.17113/ftb.53.01.15.3893
+
+                                       ươ
+Nakano, T., Watanabe, H., Hata, M., D ng, Q. V., & Miura, T. (1986). An application of protease produced by a
+moderately halophilic marine bacterium to fish sauce processing.. Nippon Suisan Gakkaishi, 52, 1581-1587.
+https://doi.org/10.2331/suisan.52.1581
+
+
+
+
+                                                         4 / 5
+Narayan, B., & Gopal, S. (2023). Comparative Analysis of Bioactive Components of Enzymatically and
+Fermentatively Produced Fish Sauce from Sardine. Turkish Journal of Fisheries and Aquatic Sciences.
+https://doi.org/10.4194/trjfas22102
+
+Okubo, A., Noma, S., Demura, M., & Hayashi, N. (2022). Accelerated production of reduced-salt sardine fish sauce
+under pressurized carbon dioxide, combining mild heating and proteolysis. Food Science and Technology
+Research. https://doi.org/10.3136/fstr.fstr-d-21-00303
+
+Pramita, E., F., R., & Ula, R. (2020). MUTU KIMIA DAN ORGANOLEPTIK KECAP IKAN LAYANG (Decapterus spp.)
+DENGAN PENAMBAHAN ENZIM BROMELIN. 139-146. https://doi.org/10.47384/kauderni.v2i2.48
+
+Rianingsih, L., Ibrahim, R., & Anggo, A. D. (2016). EFFECT OF DIFFERENT CONCENTRATION SALT AND TRYPSIN
+ON THE PHYSICOCHEMICAL PROPERTIES OF FISH SAUCE MADE FROM SEA CATFISH (Arius sp.) VISCERA.
+https://doi.org/10.11113/jt.v78.8188
+
+Taoka, Y., Nakamura, M., Nagai, S., Nagasaka, N., Tanaka, R., & Uchida, K. (2019). Production of Anserine-Rich Fish
+                                                                        γ
+Sauce from Giant Masu Salmon, Oncorhynchus masou masou and -Aminobutyric Acid (GABA)-Enrichment by
+Lactobacillus plantarum Strain N10. Fermentation. https://doi.org/10.3390/fermentation5020045
+
+Valdivia, S., Camus, M. J., Solís, T., Nuñez, S. M., & Valencia, P. (2025). Equivalent dose methodology for activity-
+based comparisons of protease performance during byproduct protein hydrolysis. Food Chemistry: X, 28.
+https://doi.org/10.1016/j.fochx.2025.102596
+
+Yang, J., Li, Z., Lin, X., Zhang, S.-F., & Ji, C. (2025). Impact of Enzyme–Microbe Combined Fermentation on the
+Safety and Quality of Soy Paste Fermented with Grass Carp By-Products. Foods, 14.
+https://doi.org/10.3390/foods14010106
+
+Yanohara, T., Taoka, Y., & Yamamoto, M. (2022). Rapid Production of Fish Sauce from the Internal Organs of White
+Sturgeon, Acipenser transmontanus Richardson, 1836. Fermentation.
+https://doi.org/10.3390/fermentation8050238
+
+Zhao, T., He, Y., Han, Y., Liu, Q.-H., Jian, X.-Q., Zhao, W., Zhang, C., Xu, X.-B., Nian, Y., Wang, Z.-Y., Du, M., Liu, P., &
+Sun, L. (2026). Impact of Aspergillus oryzae-Derived Aminopeptidase Complex in Developing the Flavor Profile of
+Clam Hydrolysate. Foods, 15. https://doi.org/10.3390/foods15101753
+
+
+
+
+                                                           5 / 5
+
