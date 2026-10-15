@@ -1,10 +1,11 @@
-# 15-Slide Deck Plan: Protease Application in Fish Sauce Production (Mechanistic Engineering)
+# 16-Slide Deck Plan (Cover + 15 Slides): Protease Application in Fish Sauce Production (Mechanistic Engineering)
 
 **Project:** Group G3 Course Presentation  
 **Course:** Fundamentals in Protein & Enzyme Engineering  
 **File Location:** `_presentation/Slide_Deck_Plan_Fish_Sauce_Protease.md`  
 **Parent MOC:** [[../00_MOC_Prot_and_Enzyme|Map of Content]]  
 **References:** [[Necessary _citation_.txt|Necessary Citation]], [[protease.txt|Literature Corpus]]  
+**Structure:** 1 Cover Slide + 15 Content Slides (including Slide 2: Table of Contents / Executive Agenda)  
 **Strategic Balance:** Application-driven narrative grounded in rigorous, active-site biochemical and biophysical mechanisms.  
 **Design Directive:** "Less is More" — high-density punchy anchors, active assertion headlines, zero text walls.
 
@@ -23,7 +24,26 @@
 
 ---
 
-### [SLIDE 2: INDUSTRIAL CONTEXT & THE AUTOLYTIC BOTTLENECK]
+### [SLIDE 2: AGENDA / TABLE OF CONTENTS]
+* **Title:** Presentation Overview: Project Roadmap
+* **Layout:** Split Hero (Editorial List + Overview KPI Cards)
+* **Text:**
+  * **Kicker:** AGENDA
+  * **Headline:** Presentation Overview
+  * **Content:**
+    * *01. The Problem:* Why traditional fermentation takes 12–18 months.
+    * *02. How Enzymes Work:* The mechanism of breaking down fish protein.
+    * *03. Taste & Salt Challenges:* Fixing bitterness and surviving high salt.
+    * *04. Factory Process:* A two-stage setup and food safety controls.
+    * *05. Economics & Summary:* Cost feasibility and final recommendations.
+  * **KPI Cards:**
+    * `5 Topics`: STRUCTURE
+    * `60–90 Days`: TARGET CYCLE
+* **Visual:** Split layout with structured bullet anchors on the left and stacked high-contrast overview cards on the right.
+
+---
+
+### [SLIDE 3: INDUSTRIAL CONTEXT & THE AUTOLYTIC BOTTLENECK]
 * **Title:** The Traditional 18-Month Bottleneck: Endogenous Protease Collapse
 * **Layout:** Split Hero (Industrial Problem + Biochemical Root Cause)
 * **Text:**
@@ -41,7 +61,7 @@
 
 ---
 
-### [SLIDE 3: SUBSTRATE MATRIX BIOCHEMISTRY]
+### [SLIDE 4: SUBSTRATE MATRIX BIOCHEMISTRY]
 * **Title:** The Insoluble Substrate Matrix: Actomyosin & Collagen Stroma
 * **Layout:** Two-Card Structural Comparison
 * **Text:**
@@ -55,7 +75,7 @@
 
 ---
 
-### [SLIDE 4: CORE CATALYTIC MECHANISM: THE SERINE TRIAD]
+### [SLIDE 5: CORE CATALYTIC MECHANISM: THE SERINE TRIAD]
 * **Title:** Catalytic Machinery: The $\text{Ser}-\text{His}-\text{Asp}$ Charge-Relay Network
 * **Layout:** Process Flow (Active-Site Electron Transfer Cascade)
 * **Text:**
@@ -70,7 +90,7 @@
 
 ---
 
-### [SLIDE 5: TRANSITION-STATE STABILIZATION: THE OXYANION HOLE]
+### [SLIDE 6: TRANSITION-STATE STABILIZATION: THE OXYANION HOLE]
 * **Title:** Transition-State Stabilization: The Oxyanion Hole Engine
 * **Layout:** Split Hero (Oxyanion Architecture + Free Energy Impact)
 * **Text:**
@@ -84,7 +104,7 @@
 
 ---
 
-### [SLIDE 6: SUBSITE SPECIFICITY & THE BITTERNESS TRAP]
+### [SLIDE 7: SUBSITE SPECIFICITY & THE BITTERNESS TRAP]
 * **Title:** Subsite Specificity (Schechter & Berger) & The Bitterness Trap
 * **Layout:** Process Flow ($S_1\text{--}S_4$ Subsite Binding $\to$ Oligopeptide Release)
 * **Text:**
@@ -98,7 +118,7 @@
 
 ---
 
-### [SLIDE 7: SENSORY BIOCHEMISTRY: NEY'S Q-RULE & DEBITTERING]
+### [SLIDE 8: SENSORY BIOCHEMISTRY: NEY'S Q-RULE & DEBITTERING]
 * **Title:** Sensory Remediation: Ney's Q-Rule & Aminopeptidase Debittering
 * **Layout:** Split Hero (Thermodynamic Q-Rule + Enzymatic Remedy)
 * **Text:**
@@ -113,7 +133,7 @@
 
 ---
 
-### [SLIDE 8: ENDO- VS. EXO-PEPTIDASE SYNERGISTIC KINETICS]
+### [SLIDE 9: ENDO- VS. EXO-PEPTIDASE SYNERGISTIC KINETICS]
 * **Title:** Dual-Enzyme Synergy: Driving Viscosity Drop and Umami Yield
 * **Layout:** Process Flow (Sequential Digestion Cascade)
 * **Text:**
@@ -128,7 +148,7 @@
 
 ---
 
-### [SLIDE 9: BIOPHYSICS OF HALOTOLERANCE: SURVIVING 20–25% NaCl]
+### [SLIDE 10: BIOPHYSICS OF HALOTOLERANCE: SURVIVING 20–25% NaCl]
 * **Title:** Biophysics of Halotolerance: Structural Integrity in 4 M Brine
 * **Layout:** Two-Card Structural Comparison (Mesophile vs. Halotolerant)
 * **Text:**
@@ -143,7 +163,7 @@
 
 ---
 
-### [SLIDE 10: SALT-INDUCED KINETIC MODULATION & PROGRESS MODELING]
+### [SLIDE 11: SALT-INDUCED KINETIC MODULATION & PROGRESS MODELING]
 * **Title:** Reaction Kinetics Under Salt Stress: The Logarithmic Progress Model
 * **Layout:** Split Hero (Thermodynamic Penalty + Logarithmic Curve)
 * **Text:**
@@ -160,7 +180,7 @@
 
 ---
 
-### [SLIDE 11: THERMAL DYNAMICS & CALCIUM AUTOLYSIS PROTECTION]
+### [SLIDE 12: THERMAL DYNAMICS & CALCIUM AUTOLYSIS PROTECTION]
 * **Title:** Enzyme Structural Dynamics: Autolysis Protection & Calcium Loops
 * **Layout:** Two-Card Structural Feature (Self-Cleavage vs. Calcium Capping)
 * **Text:**
@@ -174,7 +194,7 @@
 
 ---
 
-### [SLIDE 12: PROCESS ARCHITECTURE: THE TWO-STAGE STAGED MODEL]
+### [SLIDE 13: PROCESS ARCHITECTURE: THE TWO-STAGE STAGED MODEL]
 * **Title:** Process Architecture: Decoupled Enzymatic Liquefaction & Microbial Aging
 * **Layout:** Process Flow (Two-Stage Decoupled System)
 * **Text:**
@@ -189,7 +209,7 @@
 
 ---
 
-### [SLIDE 13: FOOD SAFETY MECHANISM: HISTIDINE DECARBOXYLASE SUPPRESSION]
+### [SLIDE 14: FOOD SAFETY MECHANISM: HISTIDINE DECARBOXYLASE SUPPRESSION]
 * **Title:** Safety Imperative: Suppressing Bacterial Histidine Decarboxylase
 * **Layout:** Split Hero (Biochemical Mechanism + Regulatory Thresholds)
 * **Text:**
@@ -204,7 +224,7 @@
 
 ---
 
-### [SLIDE 14: INDUSTRIAL FLOWSHEET & TECHNO-ECONOMIC CEILINGS]
+### [SLIDE 15: INDUSTRIAL FLOWSHEET & TECHNO-ECONOMIC CEILINGS]
 * **Title:** Industrial Manufacturing Flowsheet & Enzyme Cost Ceilings
 * **Layout:** Process Flow + KPI Grid (Unit Operations & Economics)
 * **Text:**
@@ -220,7 +240,7 @@
 
 ---
 
-### [SLIDE 15: STRATEGIC MATRIX & FINAL VERDICT]
+### [SLIDE 16: STRATEGIC MATRIX & FINAL VERDICT]
 * **Title:** Strategic Enzyme Selection Matrix & Executive Blueprint
 * **Layout:** Styled 5-Column Data Table + Scorecard
 * **Text:**
@@ -248,20 +268,21 @@
 | Slide | Topic Focus | Layout Archetype | Key Biochemical & Engineering Metric |
 | :---: | :--- | :--- | :--- |
 | **01** | Cover Slide | Hero Cover | Subtilisin Active-Site Fold |
-| **02** | The 18-Month Bottleneck | Split Hero + KPIs | Endogenous Autolysis & Salt Inactivation |
-| **03** | Substrate Matrix Biochemistry | Two-Card Contrast | Insoluble Actomyosin & Tropocollagen Stroma |
-| **04** | Serine Protease Catalytic Triad | Process Flow | $\text{Asp102}-\text{His57}-\text{Ser195}$ Charge Relay |
-| **05** | Oxyanion Hole Stabilization | Split Hero | Backbone $\text{N}-\text{H}$ H-bonding, Acyl-Enzyme |
-| **06** | Subsite Specificity & Bitterness | Process Flow | Schechter-Berger $S_1$ Hydrophobic Cleft |
-| **07** | Sensory Biochemistry & Ney's Rule | Split Hero | $Q = \sum \Delta f / n > 1,400\text{ cal/mol}$, Aminopeptidase |
-| **08** | Dual-Enzyme Synergy | Process Flow | Viscosity Collapse to Free Glu/Asp ($A_N/T_N > 50\%$) |
-| **09** | Biophysics of Halotolerance | Two-Card Comparison | Acidic Surface Envelope ($\text{Asp}^-/\text{Glu}^-$) in 4 M Brine |
-| **10** | Salt-Induced Kinetics & Modeling | Split Hero | $a_w \approx 0.75$, $P(t) = \frac{1}{b}\ln(1+abt)$ |
-| **11** | Thermal Dynamics & $\text{Ca}^{2+}$ Loops | Two-Card Feature | Structural Calcium Lock, $T_m > 15^\circ\text{C}$ Boost |
-| **12** | Two-Stage Process Architecture | Process Flow | Decoupled 48h Liquefaction $\to$ 60d Microbial Aging |
-| **13** | Histidine Decarboxylase Safety | Split Hero | Suppressing Bacterial Decarboxylase ($<50\text{ ppm}$) |
-| **14** | Industrial Flowsheet & Economics | Flow + KPI Grid | 5-Step Pipeline, Enzyme Cost $\le 2\text{--}5\%$ |
-| **15** | Strategic Matrix & Blueprint | 5-Column Table + Scorecard | Integrated Formulation Scorecard (-75% Time) |
+| **02** | Presentation Overview (Agenda) | Split Hero | 5 Core Topics Overview |
+| **03** | The 18-Month Bottleneck | Split Hero + KPIs | Endogenous Autolysis & Salt Inactivation |
+| **04** | Substrate Matrix Biochemistry | Two-Card Contrast | Insoluble Actomyosin & Tropocollagen Stroma |
+| **05** | Serine Protease Catalytic Triad | Process Flow | $\text{Asp102}-\text{His57}-\text{Ser195}$ Charge Relay |
+| **06** | Oxyanion Hole Stabilization | Split Hero | Backbone $\text{N}-\text{H}$ H-bonding, Acyl-Enzyme |
+| **07** | Subsite Specificity & Bitterness | Process Flow | Schechter-Berger $S_1$ Hydrophobic Cleft |
+| **08** | Sensory Biochemistry & Ney's Rule | Split Hero | $Q = \sum \Delta f / n > 1,400\text{ cal/mol}$, Aminopeptidase |
+| **09** | Dual-Enzyme Synergy | Process Flow | Viscosity Collapse to Free Glu/Asp ($A_N/T_N > 50\%$) |
+| **10** | Biophysics of Halotolerance | Two-Card Comparison | Acidic Surface Envelope ($\text{Asp}^-/\text{Glu}^-$) in 4 M Brine |
+| **11** | Salt-Induced Kinetics & Modeling | Split Hero | $a_w \approx 0.75$, $P(t) = \frac{1}{b}\ln(1+abt)$ |
+| **12** | Thermal Dynamics & $\text{Ca}^{2+}$ Loops | Two-Card Feature | Structural Calcium Lock, $T_m > 15^\circ\text{C}$ Boost |
+| **13** | Two-Stage Process Architecture | Process Flow | Decoupled 48h Liquefaction $\to$ 60d Microbial Aging |
+| **14** | Histidine Decarboxylase Safety | Split Hero | Suppressing Bacterial Decarboxylase ($<50\text{ ppm}$) |
+| **15** | Industrial Flowsheet & Economics | Flow + KPI Grid | 5-Step Pipeline, Enzyme Cost $\le 2\text{--}5\%$ |
+| **16** | Strategic Matrix & Blueprint | 5-Column Table + Scorecard | Integrated Formulation Scorecard (-75% Time) |
 
 ---
 

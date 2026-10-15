@@ -1,7 +1,7 @@
 # 03 — Enzyme Catalysis & Kinetics
 
 **Module:** 03  
-**Parent:** [[00_MOC_Prot_and_Enzyme|Index / MOC]] | **Previous:** [[02_Protein_Structure_and_Folding|02 — Protein Structure & Folding]]  
+**Parent:** [[00_MOC_Prot_and_Enzyme|Index / MOC]] | **Previous:** [[02_Protein_Structure_and_Folding|02 — Protein Structure & Folding]] | **Next:** [[04_Protein_and_Enzyme_Recovery_Techniques|04 — Protein & Enzyme Recovery Techniques]]  
 **Topics:** Biocatalysis, EC Classification (1–6 & 7), Reaction Free Energy & Eyring Equation, Equilibrium Invariance, Transition-State Stabilization, Michaelis–Menten Derivation & Interpretation, Course Project
 
 ---

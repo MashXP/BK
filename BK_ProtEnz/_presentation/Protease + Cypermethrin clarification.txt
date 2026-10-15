@@ -1,0 +1,220 @@
+I should've clarify that the protease here is used in the fish sauce industry and
+the pesticide mentioned before, analyse whether discussed microorganisms
+can transform pesticides, specifically cypermethrin if information is available,
+to non-toxic compounds?
+
+Yes, microorganisms transform cypermethrin into non-toxic compounds via ester
+cleavage and ring cleavage pathways.
+Can microorganisms transform cypermethrin into non-toxic compounds?
+Requires at least 5 papers that directly answer your question. Try adjusting your query to find more papers.
+
+
+
+Published research shows strong consensus that diverse bacterial and fungal isolates metabolize cypermethrin into
+non-toxic aliphatic compounds, carbon dioxide, and water.
+FIGURE 1 Scientific consensus on microbial transformation of cypermethrin into non-toxic end products.
+
+
+Microorganisms actively mineralize cypermethrin by cleaving its ester linkage, degrading intermediate metabolites
+such as 3-phenoxybenzaldehyde, and opening aromatic rings to yield non-toxic molecules (Kansal et al., 2023;
+Huang et al., 2018).
+
+
+Industrial Protease in Fish Sauce Fermentation
+
+In the fish sauce industry, manufacturing traditionally requires mixing fresh fish with 30% to 40% sea salt and
+fermenting the biomass for up to two years (Bai et al., 2025). Because traditional processing produces undesirable
+flavor metabolites, protracted processing times, and elevated biogenic amines, external proteolytic systems and
+specialized bacterial starter cultures are introduced to optimize liquefaction (Bai et al., 2025; Lê et al., 2015). In
+                              ướ     ắ
+Vietnamese fish sauce ("n c m m"), metagenomic profiling reveals that Tetragenococcus halophilus dominates
+fermentations, utilizing prolidases and aminopeptidases alongside Bacillus and Staphylococcus proteases to
+release free amino acids under extreme salinity (Vu et al., 2026).
+
+Exogenous and microbial proteases significantly shorten processing durations from years to days or months (Bai et
+al., 2025; Fu et al., 2008; Nakano et al., 1986). Inoculation with Bacillus zhangzhouensis produces comparable
+volatile profiles in 7 days while substantially decreasing toxic biogenic amines relative to 2-year traditional sauce
+(Bai et al., 2025). Similar accelerated proteolysis occurs using salt-tolerant acid proteases from Bacillus megaterium
+KLP-98, marine Pseudomonas proteases, and psychrotolerant Planococcus maritimus XJ2, though high sodium
+chloride concentrations generally reduce the relative rate of peptide bond cleavage (Gao et al., 2020; Lê et al.,
+2015; Fu et al., 2008; Nakano et al., 1986). Combining starter cultures like Tetragenococcus halophilus with
+commercial proteases similarly accelerates protein recovery from fish processing by-products and reduces total
+volatile basic nitrogen (Yang et al., 2025).
+
+
+Cypermethrin Degradation Pathways
+Bacterial and fungal isolates eliminate cypermethrin through sequential enzymatic actions that detoxify both the
+parent compound and downstream aromatic intermediates (Kansal et al., 2023; Kaur & Singh, 2021; Saied et al.,
+2021; Hu et al., 2018). The initial step relies primarily on carboxylesterase or esterase enzymes that cleave the
+central ester linkage, splitting cypermethrin into cyclopropane carboxylic acid derivatives and unstable
+cyanohydrins (Kansal et al., 2023; Pankaj et al., 2016; Kannan et al., 2024).
+
+
+
+
+                                                                1 / 4
+ • Primary ester cleavage yields $\alpha$-hydroxy-3-phenoxybenzeneacetonitrile and 3-(2,2-dichlorovinyl)-2,2-
+
+   dimethylcyclopropanecarboxylate, observed in Bacillus sp. SG2 and Micrococcus strains (Saied et al., 2021;
+   Pankaj et al., 2016; Cycoń & Piotrowska-Seget, 2016).
+ • Oxidation of aromatic intermediates rapidly converts the cyanohydrin into 3-phenoxybenzaldehyde (3-PBA)
+
+   and 3-phenoxybenzoic acid, compounds that possess antimicrobial activity but undergo further cleavage by
+   adapted degraders (Kansal et al., 2023; Saied et al., 2021; Pankaj et al., 2016).
+ • Ring hydroxylations and cleavage metabolize 3-PBA into phenol, catechol, 4-hydroxybenzoate, and
+
+   protocatechuate, which entry into the tricarboxylic acid cycle as harmless aliphatic metabolites (Saied et al.,
+   2021; Pankaj et al., 2016; Hu et al., 2018).
+The complete pathway diagram illustrates how parent pyrethroids are routed through these intermediate steps
+toward total mineralization.
+
+Figure 3: Metabolic pathways involved in microbial degradation of CP ( Bacillus SG2-Red arrow, Bacillus BSFO1-
+Blue arrow, and common in both strains-Green arrow).
+
+
+Microbial Biotransformation Evidence
+
+Single strains and microbial consortia demonstrate high degradation efficiency while neutralizing the acute
+phytotoxicity and cytotoxicity associated with cypermethrin residues (Kansal et al., 2023; He et al., 2022; Saied et
+al., 2021).
+
+                        Degradation                Key Intermediates & End
+Microorganism           Efficiency                 Products                            Non-Toxic Confirmation
+
+
+Lysinibacillus          86.9% in broth; 93.1%      1,2-Benzenedicarboxylic             Enhanced Zea mays
+cresolivuorans          in soil (Saied et al.,     acid, lower-weight aliphatics       germination, abolished Vero
+HIS7                    2021)                      (Saied et al., 2021)                cytotoxicity (Saied et al.,
+                                                                                       2021)
+
+
+Proteus                 Resists up to 1,500        Acetic acid, 3-PBA via              Increased seed germination
+myxofaciens             ppm; degraded M, C         esterase (Est) cleavage             index in phytoremediation
+VITVJ1                  & F (Vaishnavi &           (Vaishnavi & Osborne, 2024)         trials (Vaishnavi & Osborne,
+                        Osborne, 2024)                                                 2024)
+
+
+Rhodococcus JQ-         100% of 100 mg/L           JQ-L produces 3-PBA; A-3            Overcomes 3-PBA
+L + Comamonas           cypermethrin cleared       clears 100 mg/L 3-PBA in 15         accumulation and feedback
+A-3                     in 24 h (He et al.,        h (He et al., 2022)                 inhibition (He et al., 2022)
+                        2022)
+
+
+Bacillus sp. SG2        81.6% degradation          Phenol, 4-hydroxybenzoate,          Complete conversion into
+                        within 15 days (Pankaj     1-dodecanol (Pankaj et al.,         non-toxic aliphatic end
+                        et al., 2016)              2016)                               products (Saied et al., 2021;
+                                                                                       Pankaj et al., 2016)
+
+
+
+
+                                                           2 / 4
+                           Degradation                         Key Intermediates & End
+Microorganism              Efficiency                          Products                          Non-Toxic Confirmation
+
+
+Eurotium                   Rapid clearance fitted              3-PBA, phenol, catechol (Hu       Successful catabolism of
+cristatum ET1              to first-order kinetics             et al., 2018)                     toxic intermediates in
+                           (Hu et al., 2018)                                                     fermented foods (Hu et al.,
+                                                                                                 2018)
+
+
+FIGURE 2 Degradation metrics, metabolic pathways, and biological safety validations across cypermethrin-transforming strains.
+
+
+Although single bacterial isolates can stall at 3-PBA, microbial consortia and strains possessing ring-cleavage
+dioxygenases completely mineralize cypermethrin into non-hazardous biomass and environmentally benign end
+products (Huang et al., 2018; He et al., 2022; Pankaj et al., 2016).
+
+These search results were found and analyzed using Consensus, an AI-powered search engine for research. Try it at
+https://consensus.app. © 2026 Consensus NLP, Inc. Personal, non-commercial use only; redistribution requires
+copyright holders’ consent.
+
+
+References
+
+P., Sharma, A., Gangola, S., Khati, P., Kumar, G., & Srivastava, A. (2016). Novel pathway of cypermethrin
+biodegradation in a Bacillus sp. strain SG2 isolated from cypermethrin-contaminated agriculture field. 3 Biotech, 6.
+https://doi.org/10.1007/s13205-016-0372-3
+
+Bai, N., He, J., Hong, B.-H., Wu, Z., Wang, L., & Shao, Z.-Z. (2025). Fast Preparation of Fish Sauce Treated With
+                   ‐
+Marine Protease Producing Bacillus zhangzhouensis sp.. Journal of Food Processing and Preservation.
+https://doi.org/10.1155/jfpp/6298724
+
+Cycoń, M., & Piotrowska-Seget, Z. (2016). Pyrethroid-Degrading Microorganisms and Their Potential for the
+Bioremediation of Contaminated Soils: A Review. Frontiers in Microbiology, 7.
+https://doi.org/10.3389/fmicb.2016.01463
+
+                                                                                         ‐
+Fu, X.-T., You, S.-G., & Kim, S. M. (2008). CHARACTERIZATION OF A SALT TOLERANT ACID PROTEASE
+                                                       ‐
+PRODUCED BY BACILLUS MEGATERIUM KLP 98 AND ITS POTENTIAL AS A FERMENTATION STARTER FOR
+THE MANUFACTURE OF FISH SAUCE. Journal of Food Biochemistry, 32, 279-298. https://doi.org/10.1111/j.1745-
+4514.2008.00155.x
+
+Gao, R.-C., Zhou, J., Leng, W., Shi, T., Jin, W., & Yuan, L. (2020). Screening of aPlanococcusbacterium producing a
+     ‐                                                     ‐
+cold adapted protease and its application in low salt fish sauce fermentation. Journal of Food Processing and
+Preservation. https://doi.org/10.1111/jfpp.14625
+
+He, J., Zhang, K., Wang, L., Du, Y., Yang, Y., & Yuan, C. (2022). Highly efficient degradation of cypermethrin by a co-
+culture of Rhodococcus sp. JQ-L and Comamonas sp. A-3. Frontiers in Microbiology, 13.
+https://doi.org/10.3389/fmicb.2022.1003820
+
+Hu, K.-D., Deng, W.-Q., Zhu, Y.-T., Yao, K., Li, J., Liu, A.-P., Ao, X., Zou, L., Zhou, K., He, L., Chen, S., Yang, Y., & Liu,
+S.-L. (2018). Simultaneous degradation of        β‐cypermethrin and 3‐phenoxybenzoic acid by Eurotium cristatum ET1, a
+novel “golden flower fungus” strain isolated from Fu Brick Tea. MicrobiologyOpen, 8.
+https://doi.org/10.1002/mbo3.776
+
+
+
+
+                                                                     3 / 4
+Huang, Y.-C., Xiao, L., Li, F., Xiao, M., Lin, D.-R., Long, X., & Wu, Z. (2018). Microbial Degradation of Pesticide
+Residues and an Emphasis on the Degradation of Cypermethrin and 3-phenoxy Benzoic Acid: A Review. Molecules
+: A Journal of Synthetic Chemistry and Natural Product Chemistry, 23.
+https://doi.org/10.3390/molecules23092313
+
+Kannan, P., Baskaran, H., & Saeid, A. (2024). Mycotransformation of Commercial Grade Cypermethrin Dispersion
+by Aspergillus terreus PDB-B Strain Isolated from Lake Sediments of Kulamangalam, Madurai. Molecules, 29.
+https://doi.org/10.3390/molecules29071446
+
+Kansal, I., Kapoor, A., Solanki, S., & Singh, R. (2023). Cypermethrin toxicity in the environment: analytical Insight
+into detection methods and microbial degradation pathways.. Journal of applied microbiology.
+https://doi.org/10.1093/jambio/lxad105
+
+Kaur, R., & Singh, J. (2021). Toxicity, Monitoring, and Biodegradation of Cypermethrin Insecticide: A Review. Nature
+Environment and Pollution Technology. https://doi.org/10.46488/nept.2021.v20i05.016
+
+                                                          ễ
+Lê, C., Donnay-Moreno, C., Bruzac, S., Baron, R., Nguy n, H. T., & Bergé, J. (2015). Proteolysis of Sardine (Sardina
+pilchardus) and Anchovy (Stolephorus commersonii) by Commercial Enzymes in Saline Solutions.. Food technology
+and biotechnology, 53 1, 87-90. https://doi.org/10.17113/ftb.53.01.15.3893
+
+                                        ươ
+Nakano, T., Watanabe, H., Hata, M., D ng, Q. V., & Miura, T. (1986). An application of protease produced by a
+moderately halophilic marine bacterium to fish sauce processing.. Nippon Suisan Gakkaishi, 52, 1581-1587.
+https://doi.org/10.2331/suisan.52.1581
+
+Saied, E., Fouda, A., Alemam, A. M., Sultan, M. H., Barghoth, M. G., Radwan, A., Desouky, S. G., Azab, I. E. E.,
+Nahhas, N. E., & Hassan, S. (2021). Evaluate the Toxicity of Pyrethroid Insecticide Cypermethrin before and after
+Biodegradation by Lysinibacillus cresolivuorans Strain HIS7. Plants, 10. https://doi.org/10.3390/plants10091903
+
+Vaishnavi, J., & Osborne, J. (2024). Biodegradation of monocrotophos, cypermethrin & fipronil by Proteus
+myxofaciens VITVJ1: A plant - microbe based remediation. Heliyon, 10.
+https://doi.org/10.1016/j.heliyon.2024.e37384
+
+Vu, T. T. T., Valentino, V., Tran, T., Trinh, N.-N., Nguyen, T., Nguyen, K. H., De Filippis, F., & Dam, S.-M. (2026).
+Dynamic changes in microbiome during traditional Vietnamese fish sauce fermentation revealed by metagenomics
+analysis. Applied Food Research. https://doi.org/10.1016/j.afres.2026.102125
+
+Yang, J., Li, Z., Lin, X., Zhang, S.-F., & Ji, C. (2025). Impact of Enzyme–Microbe Combined Fermentation on the
+Safety and Quality of Soy Paste Fermented with Grass Carp By-Products. Foods, 14.
+https://doi.org/10.3390/foods14010106
+
+
+
+
+                                                          4 / 4
+

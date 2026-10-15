@@ -1,0 +1,247 @@
+**PREPARATION OF 1X PBS BUFFER**
+
+Formula: mass (g) = concentration (mol/L) × volume (L) × molecular
+weight (g/mol)
+
+Final concentrations: **137 mM NaCl, 2.7 mM KCl, 10 mM Na₂HPO₄, 1.8 mM
+KH₂PO₄.**
+
+  ----------------- ----------- ---------------- ------------
+     **Reagent**       **MW     **Calculation (1  **Mass to
+                     (g/mol)**        L)**         weigh**
+
+        NaCl           58.44      0.137 × 1 ×     **8.00 g**
+                                     58.44       
+
+         KCl           74.55      0.0027 × 1 ×    **0.20 g**
+                                     74.55       
+
+       Na₂HPO₄        141.96      0.010 × 1 ×     **1.42 g**
+     (anhydrous)                     141.96      
+
+       KH₂PO₄         136.09      0.0018 × 1 ×    **0.24 g**
+                                     136.09      
+  ----------------- ----------- ---------------- ------------
+
+Procedure:
+
+1.  **Weigh components separately:** Weigh each salt separately
+    according to the calculated amounts for 1 L of buffer (137 mM NaCl,
+    2.7 mM KCl, 10 mM Na2HPO4, and 1.8 mM KH2PO4).
+
+2.  **Initial dissolution:** Dissolve all weighed salts in approximately
+    800 mL of distilled water in a beaker using a magnetic stirrer.
+
+3.  **pH adjustment:** Place the pH probe into the stirring solution.
+    Carefully adjust the pH to 7.4 by adding 1 M HCl or 1 M NaOH
+    dropwise.
+
+4.  **Final volume bringing:** Top up the solution with distilled water
+    to reach the final volume of 1000 mL (1 L), then mix thoroughly.
+
+**MATERIAL PREPARATION**
+
+- Wash the sweet potato, peel it, and cut it into small pieces.
+
+- Place into a clean beaker and weigh exactly 20g.
+
+- Measure 60mL of cold PBS buffer using a graduated cylinder.
+
+**EXTRACTION & FILTRATION (1:3 W/V RATIO)**
+
+> Procedure:
+
+1.  **Pre-chilling setup:** Pre-chill the mortar, pestle, and PBS buffer
+    on an ice bath (0-4°C) prior to extraction to prevent enzyme thermal
+    denaturation.
+
+2.  **Buffer volume allocation:** For 20 g of sample, a total volume of
+    60 mL cold PBS buffer is required for extraction.
+
+3.  **Sequential grinding:** Pour an initial small portion 30 mL of cold
+    PBS buffer into the pre-chilled mortar to grind the sample into a
+    smooth homogenate without splashing.
+
+4.  **Filtration & residue rinsing:** Filter the homogenate through
+    layers of cheesecloth. Use the remaining cold buffer in small
+    portions to rinse the mortar, pestle, and the plant residue on the
+    cheesecloth to maximize enzyme recovery.
+
+5.  **Collection:** Collect the combined filtrate to reach the target
+    volume of approximately 60 mL.
+
+# **Salt precipitation** Giả sử: độ bão hoà 70%
+
+# **Lượng muối bão hòa cần thêm**
+
+V_muối = V₀ × (S₂ − S₁) / (1 − S₂)
+
+Với V₀ = 20 mL extract 2, S₁ = 0, S₂ = 0,70:
+
+**V_muối** = 20 × 0,70 / 0,30 = **46,7 mL.**
+
+**Pha (NH₄)₂SO₄ bão hòa**
+
+**Pha trước 1 ngày, vì dung dịch cần để qua đêm ở 4°C.**
+
+Độ tan của (NH₄)₂SO₄ khoảng 71-72 g/100 mL nước (0-20°C).
+
+m_muối = V_nước × (độ tan / 100)
+
+**m muối** = 50 x (71/100) \~ **35,5g**
+
+Vậy với 50ml nước cất thì cần 35,5g muối (NH₄)₂SO₄
+
+**Cách làm:**
+
+- Cho 50 mL nước cất vào beaker, khuấy.
+
+- Cho muối vào từng phần nhỏ, khuấy.
+
+- Bỏ vào tủ lạnh, để qua đêm.
+
+- Khi dùng giữ trong chậu đá.
+
+## **Thêm muối lần lượt theo bảng (nhỏ giọt chậm)**
+
+  ---------- --------------------- ----------------- -------------------------
+   **Lượt**     **Thể tích thêm     **Tổng muối đã     **Thể tích dung dịch
+                    (mL)**            thêm (mL)**     (mL) + 20ml extract 2**
+
+      1              10,0                10,0                  30,0
+
+      2              10,0                20,0                  40,0
+
+      3              10,0                30,0                  50,0
+
+      4              10,0                40,0                  60,0
+
+      5               6,7                46,7                  66,7
+  ---------- --------------------- ----------------- -------------------------
+
+## **Các bước thực hiện**
+
+- Để 20 mL extract 2 vào beaker, đặt trong chậu đá,
+
+- Thêm muối bão hòa theo bảng nhỏ giọt chậm bằng pipet hoặc buret, khuấy
+  liên tục.
+
+- Sau khi protein tủa thành các fragments thì ly tâm lạnh 4000g 10 phút
+  2 lần
+
+- Hòa cặn bằng 1 mL buffer lạnh
+
+- Đưa mẫu vào túi thẩm tách.
+
+- Giữ mẫu ở 4°C cho đến khi thẩm tách.
+
+**Dialysis (6 tiếng)**
+
+- Đặt cốc trong ice bath, thả túi ngập hoàn toàn, khuấy nhẹ trong suốt
+  thời gian thẩm tách.
+
+- Mỗi 2 tiếng thay buffer mới
+
+### **Thu mẫu và ly tâm 2 lần**
+
+- Lấy túi ra, lau khô bên ngoài, mở một đầu và pipet toàn bộ dịch bên
+  trong vào ống.
+
+- Ly tâm lạnh lần 1: 10.000 g, 10 phút. Chuyển phần dịch nổi sang ống
+  mới, bỏ cặn.
+
+- Ly tâm lần 2: 10.000 g, 10 phút. Lấy phần dịch nổi.
+
+- Phần dịch trong thu được là crude enzyme 2.
+
+**Gel chromatography\**
+
+#### **1. Resin Hydration & Degassing**
+
+- Weigh the required dry resin matrix (e.g., Sephadex) and suspend in
+  150 mL of PBS buffer. Allow the beads to swell completely (e.g., 3--6
+  hours at room temperature, or 1 hour in a 90°C water bath depending on
+  resin grade).
+
+- Allow the resin to settle under gravity. Carefully decant the
+  supernatant to remove fine, broken particles (\"fines\") that clog
+  column frits.
+
+- Resuspend settled beads in fresh PBS to create a 50%--75% slurry, and
+  degas under a vacuum desiccator for 15--20 minutes to eliminate
+  dissolved air.
+
+#### **2. Column Packing & Equilibration**
+
+- Mount the chromatography column vertically using a spirit level and
+  clamp it securely in a vibration-free rack.
+
+- Introduce 10 mL of degassed PBS into the bottom of the column to wet
+  the net and eliminate trapped air bubbles below the frit.
+
+- Pour the degassed slurry down the inside wall of the column in a
+  single, continuous stream using a glass rod or packing reservoir.
+
+- Open the column outlet to allow buffer to drain under gravity until
+  the packed bed settles to a stable height corresponding to a final bed
+  volume ($V_{c}$) of 80 mL.
+
+- Equilibrate the column with 2 to 3 column volumes (160--240 mL) of
+  degassed PBS to stabilize packing density. Verify that the effluent pH
+  and UV baseline are stable.
+
+#### **3. Sample Preparation & Loading**
+
+- Clarify the crude sample by centrifugation at 4,000 × g for 15-20
+  minutes at 4°C (or filter through a 0.45 µm low-protein-binding
+  syringe filter).
+
+- Drain the buffer head until the meniscus sits flush with the top of
+  the settled bed surface, then close the outlet. *Do not allow the bed
+  to dry.*
+
+- Gently apply 1.0 to 1.6 mL of clarified supernatant (1.2%--2% of
+  $V_{c}$) directly onto the center of the bed surface using a
+  micropipette.
+
+- Open the outlet to let the sample fully enter the resin bed. Wash the
+  column walls with 0.5 mL of PBS and allow it to penetrate the bed
+  before adding bulk buffer.
+
+**4. Elution & Fractionation**
+
+- Top up column with PBS buffer and maintain a constant gravity flow
+  rate (\~1--2 mL/min).
+
+- Allow the first 25 mL of effluent (void volume) to drain into a
+  measuring cylinder/waste flask.
+
+- Once 25 mL has drained, immediately begin collecting into 12 numbered
+  tubes:
+
+- Collect exactly 4.0 mL per tube (Tubes 1 to 12), spanning cumulative
+  volume 25 mL to 73 mL.
+
+- Store collected tubes on ice prior to spectrophotometric and enzymatic
+  testing.
+
+#### **5. Analytical Assays**
+
+- **Total Protein Determination:** Measure absorbance at 280 nm
+  (OD~280~) for all fractions using PBS as the optical blank to generate
+  the protein elution profile.
+
+- **Amylase Activity (DNS Method):**
+
+  1.  *Enzymatic Reaction:* Combine 100 µL of fraction sample with 500
+      µL of 1% (w/v) soluble starch solution in PBS. Incubate at 37°C
+      for 10 minutes.
+
+  2.  *Color Development:* Terminate the reaction by adding 1.0 mL of
+      DNS reagent. Place the tubes into a boiling water bath (100°C) for
+      5--10 minutes.
+
+  3.  *Measurement:* Cool to room temperature, add 2.0 mL of deionized
+      water to dilute if absorbance is off-scale, and read optical
+      density at 540 nm (OD~540~) against a reagent blank (PBS
+      substituted for sample).
