@@ -2,7 +2,7 @@
 
 **Module:** 04  
 **Parent:** [[00_MOC_Prot_and_Enzyme|Index / MOC]] | **Previous:** [[03_Enzyme_Catalysis_and_Kinetics|03 — Enzyme Catalysis & Kinetics]]  
-**Topics:** Downstream Processing, Activity-Centered Recovery Workflow (Release → Enrich → Condition), Cell Disruption & Tissue Pretreatment, Physical & Chemical Lysis, Detergent Chemistry, Centrifugation Mechanics, Differential Centrifugation, Ultrafiltration
+**Topics:** Downstream Processing, Activity-Centered Recovery Workflow (Release → Enrich → Condition), Cell Disruption & Tissue Pretreatment, Physical & Chemical Lysis, Detergent Chemistry, Centrifugation Mechanics, Differential Centrifugation, Density-Gradient Centrifugation, Ultrafiltration, Precipitation & Fractional Precipitation (organic solvents, ammonium sulfate, isoelectric), Other Precipitants
 
 ---
 
@@ -213,7 +213,27 @@ flowchart TD
 
 ---
 
-### 4.3 Centrifuge Classification Matrix
+### 4.3 Density-Gradient Centrifugation
+
+Sample is layered on top of a pre-formed gradient; particles migrate until they band. Fractions resolve by **sedimentation rate** (size and mass), not by pelleting.
+
+* **Principle:** sucrose/glycol gradient (e.g. 15–30 %) separates by size and mass.
+* **Benefits:** native state preserved; small sample volumes.
+* **Requirements:** gradient maker, suitable tubes, **swing-out rotor** (§4.1 — the long fluid column is what lets bands form).
+
+```
+ (a) Fill gradient     (b) Load sample      (c) Spin           (d) Collect
+   ┌ 15 % ┐           ▓▓ sample layer      ╭ band 1           pipette off
+   │ 20 % │           ░░░ homogenate       ├ band 2           each band
+   │ 25 % │           (applied by pipette) ├ band 3           from the top
+   └ 30 % ┘ bottom                         ╰ pellet
+```
+
+(a) tube pre-filled with gradient → (b) sample applied on top with a pipette → (c) spin, sample resolves into distinct bands → (d) collect the resolved bands.
+
+---
+
+### 4.4 Centrifuge Classification Matrix
 
 | Metric / Application | Low-Speed Benchtop | High-Speed Centrifuge | Ultracentrifuge / Micro-Ultra |
 | :--- | :---: | :---: | :---: |
@@ -233,7 +253,7 @@ flowchart TD
 
 ---
 
-### 4.4 Centrifugal Ultrafiltration (Membrane Spin Columns)
+### 4.5 Centrifugal Ultrafiltration (Membrane Spin Columns)
 
 Centrifugal filter devices (e.g., Amicon Ultra, Vivaspin) perform rapid concentration and desalting:
 
@@ -255,3 +275,75 @@ Step 1: Load Sample       Step 2: Centrifuge         Step 3: Discard Filtrate   
 $$\text{MWCO}_{\text{optimal}} \le \frac{\text{MW}_{\text{target}}}{3}$$
 
 * **Application in Dialysis Alternative:** Centrifugal diafiltration accomplishes buffer exchange in 2–3 wash cycles without the prolonged diffusion delays of dialysis tubing.
+
+---
+
+## 5. Precipitation & Fractional Precipitation (2.1.3)
+
+**Precipitants strip the hydration shell.** Soluble proteins are stabilised by charged surfaces and a hydration layer. Precipitants remove water or neutralise charge, so protein–protein interactions dominate and aggregates form.
+
+```
+  Hydrated protein                     After precipitant
+  ╭──────────╮  ← H₂O shell           ╭──────────╮
+  │ protein  │  ← surface charge       │ protein  │   water removed / charge neutralised
+  ╰──────────╯                         ╰──────────╯
+      stays dissolved                      protein–protein contact → aggregate → precipitate
+```
+
+### 5.1 Precipitant 1 — Organic Solvents
+
+Ethanol or acetone, always cold.
+
+| Solvent | Ratio | Temperature |
+| :--- | :--- | :--- |
+| **Ethanol** | 3 volumes ice-cold ethanol : 1 volume sample | ≤ 4 °C, ideally ≤ −5 °C |
+| **Acetone** | 4 volumes acetone : 1 volume sample | Pre-chill to −20 °C |
+
+* **Risk:** organic solvents readily denature proteins.
+
+### 5.2 Precipitant 2 — Ammonium Sulfate (AS)
+
+**Gentle, cheap, selective** — the standard salting-out agent.
+
+| | Property |
+| :--- | :--- |
+| **EFFECTIVE** | Most proteins precipitate at full saturation (~4 M) |
+| **PRACTICAL** | No heat on dissolving; low density (1.25 g/cm³) eases centrifugation |
+| **PROTECTIVE** | Non-denaturing and bacteriostatic |
+| **SELECTIVE** | Proteins precipitate at different % saturation → fractional precipitation |
+
+* **Example:** serum + 0.8 M AS precipitates **fibrinogen**; raising to 2.4 M precipitates **serum albumin**.
+* **Salting out — ions compete for water:** in plain water the proteins stay hydrated; at high AS concentration NH₄⁺ and SO₄²⁻ sequester water molecules, exposed hydrophobic patches associate, and the proteins precipitate.
+* **Reference table:** grams of AS per litre (20 °C) to go from an initial saturation to a target saturation — rows are initial %, columns are target %. Anchors: 0 → 20 % = 114 g/L, 0 → 100 % = 767 g/L (full table on the slide).
+* **In this module:** [[lab/Supplementary|S2 — Ammonium sulfate saturation]] gives the volume equation $V_{\text{salt}} = V_0 \frac{S_2 - S_1}{1 - S_2}$ and the empirical endpoint (add salt a few grains at a time until dry crystals remain).
+
+### 5.3 Precipitant 3 — Isoelectric Precipitation
+
+**At pH = pI, solubility is minimal.**
+
+* Net charge is zero at pI; pH > pI → net negative; pH < pI → net positive.
+* At pI there is **no electrostatic repulsion** between molecules, so they aggregate.
+* Precipitation is **slow and incomplete**.
+* **Least denaturing** of all the methods.
+* Solubility (mg/mL) against pH shows a sharp minimum at pI.
+
+### 5.4 Other Precipitants
+
+Mechanisms are read from the slide's diagram, not the table text — check the wording against the slide.
+
+| Precipitant | Mechanism | Effect |
+| :--- | :--- | :--- |
+| **Polyethylene glycol (PEG)** | Neutral polymer excludes water | Often retains activity |
+| **Protamine sulfate** | Basic peptide binding | Mild |
+| **Heavy metal salts** (e.g. Hg²⁺) | Cross-linking | Denaturing |
+| **Trichloroacetic acid (TCA)** | Strong-acid precipitation | Denatured |
+
+**Choose by the need to keep activity:** TCA is for **analysis only**, never for active protein.
+
+---
+
+## Related
+
+* [[00_MOC_Prot_and_Enzyme|MOC — Protein & Enzyme]]
+* [[03_Enzyme_Catalysis_and_Kinetics|03 — Enzyme Catalysis & Kinetics]]
+* [[lab/LAB_PROTOCOL_Sweet_Potato_Amylase_Purification_and_Activity_Assay|Lab — Sweet Potato Amylase]] — the 70 % saturation cut in practice
