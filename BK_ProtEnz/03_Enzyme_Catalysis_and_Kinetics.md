@@ -2,7 +2,7 @@
 
 **Module:** 03  
 **Parent:** [[00_MOC_Prot_and_Enzyme|Index / MOC]] | **Previous:** [[02_Protein_Structure_and_Folding|02 — Protein Structure & Folding]] | **Next:** [[04_Protein_and_Enzyme_Recovery_Techniques|04 — Protein & Enzyme Recovery Techniques]]  
-**Topics:** Biocatalysis, EC Classification (1–6 & 7), Reaction Free Energy & Eyring Equation, Equilibrium Invariance, Transition-State Stabilization, Michaelis–Menten Derivation & Interpretation, Course Project
+**Topics:** Biocatalysis, EC Classification (1–6 & 7), Reaction Free Energy & Eyring Equation, Equilibrium Invariance, Transition-State Stabilization, Michaelis–Menten Derivation & Interpretation, 3 substrate regimes, Diffusion Limit on $k_{\text{cat}}/K_m$, Reversible Inhibition Types & Diagnostics, Rate Constant → Half-Life, Course Project
 
 ---
 
@@ -61,6 +61,26 @@ Free Energy (G)
   $$k = \frac{k_B T}{h} \exp\left(-\frac{\Delta G^\ddagger}{RT}\right)$$
   * Reaction rate constant $k$ is exponentially dependent on activation free energy $\Delta G^\ddagger$.
   * Lowering $\Delta G^\ddagger$ exponentially enhances reaction rate.
+  * **Arrhenius Form (empirical activation energy $E_a$):**
+  $$k = A \exp\left(-\frac{E_a}{RT}\right)$$
+  * $A$: pre-exponential (attempt frequency); $E_a$: activation energy. Eyring's $\frac{k_B T}{h} \approx 6.2\times 10^{12}\ \text{s}^{-1}$ at 25 °C plays the role of $A$.
+  * **Rate Constant → Half-Life:** for first-order decay $[\text{S}](t) = [\text{S}]_0 e^{-kt}$, setting $[\text{S}] = \tfrac{1}{2}[\text{S}]_0$ gives $e^{-kt} = \tfrac{1}{2} \implies kt = \ln 2$:
+  $$t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{k}$$
+  * **Worked example** ($RT = 2.48\ \text{kJ mol}^{-1}$ at 25 °C):
+  ```text
+  k = (k_B T/h) exp(−ΔG‡/RT)
+  k = 6.2×10¹² × exp(−100 / 2.48)          # uncatalysed
+  k = 1.9×10⁻⁵ s⁻¹   →   t½ = 0.693/1.9×10⁻⁵ = 3.6×10⁴ s ≈ 10 h
+
+  k = (k_B T/h) exp(−ΔG‡/RT)
+  k = 6.2×10¹² × exp(−80 / 2.48)           # enzyme lowers barrier by 20 kJ/mol
+  k = 6.1×10⁻² s⁻¹   →   t½ = 0.693/6.1×10⁻² = 11.4 s
+
+  fold = exp(ΔΔG‡/RT)
+  fold = exp(20 / 2.48)
+  fold = 3.2×10³ ≈ 3200×
+  ```
+  * Cutting the barrier by 20 % (100 → 80 kJ/mol) multiplies the rate by ~3200, because the rate factor is **exponential** in the barrier, not linear. Rate is set by the **highest single step** (rate-determining step), not by the number of steps, so a lower multi-step path beats a single high barrier. The enzyme changes rate only: $\Delta G^\circ$ and $K_{eq}$ are untouched (Section 4).
 * **Catalyzed Reaction Intermediates:**
   $$\text{E} + \text{S} \rightleftharpoons \text{ES} \to \text{EP} \rightleftharpoons \text{E} + \text{P}$$
   * Enzymes replace a single high barrier ($\Delta G^\ddagger_{\text{uncat}}$) with discrete, lower activation barriers passing through $\text{ES}$ and $\text{EP}$ complexes ($\Delta G^\ddagger_{\text{cat}} \ll \Delta G^\ddagger_{\text{uncat}}$).
@@ -189,7 +209,7 @@ $$\text{When } [\text{S}] \ll K_m \implies K_m + [\text{S}] \approx K_m \implies
 
 * **Kinetics:** **First-order** with respect to substrate $[\text{S}]$.
 * **Behavior:** Rate increases linearly with $[\text{S}]$. Most enzyme molecules exist in free form ($[\text{E}] \approx [\text{E}]_T$).
-* **Catalytic Efficiency:** The slope $\frac{V_{\max}}{K_m} = \frac{k_{\text{cat}}[\text{E}]_T}{K_m}$ reflects the apparent second-order rate constant, with $\frac{k_{\text{cat}}}{K_m}$ representing enzyme **specificity / catalytic efficiency** ($\text{M}^{-1}\text{s}^{-1}$).
+* **Catalytic Efficiency:** The slope $\frac{V_{\max}}{K_m} = \frac{k_{\text{cat}}[\text{E}]_T}{K_m}$ reflects the apparent second-order rate constant, with $\frac{k_{\text{cat}}}{K_m}$ representing enzyme **specificity / catalytic efficiency** ($\text{M}^{-1}\text{s}^{-1}$), whose upper bound is set by diffusion (Section 9).
 
 ### 8.2 Half-Maximal Saturation ($[\text{S}] = K_m$)
 When substrate concentration equals the Michaelis constant:
@@ -215,3 +235,118 @@ $$\text{When } [\text{S}] \gg K_m \implies K_m + [\text{S}] \approx [\text{S}] \
 | **Low $[\text{S}]$** | $[\text{S}] \ll K_m$ | $v_0 \approx \left(\frac{V_{\max}}{K_m}\right)[\text{S}]$ | **1st Order** | Free enzyme ($[\text{E}] \approx [\text{E}]_T$); linear rate increase |
 | **Half-Saturation** | $[\text{S}] = K_m$ | $v_0 = \frac{V_{\max}}{2}$ | Mixed | Half of active sites occupied ($[\text{ES}] = \frac{1}{2}[\text{E}]_T$) |
 | **Saturated $[\text{S}]$** | $[\text{S}] \gg K_m$ | $v_0 \approx V_{\max}$ | **0th Order** | Enzyme fully saturated ($[\text{ES}] \approx [\text{E}]_T$); plateau phase |
+
+### 8.5 Double-Reciprocal Linearisation (Lineweaver–Burk)
+
+Taking the reciprocal of the Michaelis–Menten equation gives a straight line:
+
+$$\frac{1}{v_0} = \frac{K_m}{V_{\max}}\cdot\frac{1}{[\text{S}]} + \frac{1}{V_{\max}}$$
+
+With $y = \frac{1}{v_0}$ and $x = \frac{1}{[\text{S}]}$:
+
+* **Slope** $= \dfrac{K_m}{V_{\max}}$
+* **$y$-intercept** $= \dfrac{1}{V_{\max}}$  (read at $x = 0$, i.e. saturating $[\text{S}]$)
+* **$x$-intercept** $= -\dfrac{1}{K_m}$
+
+**Worked numbers** ($V_{\max} = 100\ \mu\text{M/s}$, $K_m = 20\ \mu\text{M}$, competitive inhibitor with $\alpha = 2$, $\alpha' = 1$):
+
+```text
+1/v = (K_m/V_max)(1/[S]) + 1/V_max
+no inhibitor:      1/v = (20/100)(1/[S]) + 1/100    slope 0.2,  intercept 0.01
+with inhibitor:    1/v = (40/100)(1/[S]) + 1/100    slope 0.4,  intercept 0.01
+
+set 1/[S] = 0  →  1/v = 1/V_max = 0.01  →  v = V_max = 100 µM/s   (both lines)
+K_m^app = slope × V_max = 0.4 × 100 = 40 µM = α K_m
+```
+
+Both lines cross the $y$-axis at the same point → $V_{\max}$ unchanged; slope doubled → apparent $K_m$ doubled.
+
+**Three linearisations of the same data:**
+
+| Plot | $y$ | $x$ | Slope | Intercept |
+| :--- | :--- | :--- | :--- | :--- |
+| **Lineweaver–Burk** | $1/v_0$ | $1/[\text{S}]$ | $K_m/V_{\max}$ | $1/V_{\max}$ |
+| **Eadie–Hofstee** | $v_0$ | $v_0/[\text{S}]$ | $-K_m$ | $V_{\max}$ |
+| **Hanes–Woolf** | $[\text{S}]/v_0$ | $[\text{S}]$ | $K_m/V_{\max}$ | $1/V_{\max}$ |
+
+**Interpretation rule:** the reciprocal plot is a *diagnostic* tool for reading inhibition type from line geometry. It magnifies low-$[\text{S}]$ scatter, so quantitative parameters are fitted by nonlinear regression on the hyperbola; the linear plot stays the visual classifier.
+
+---
+
+
+## 9. Diffusion Limit on $k_{\text{cat}}/K_m$
+
+Collision (Smoluchowski) rate for two spherical partners in solution:
+
+$$k_{\text{coll}} = 4\pi N_A (r_{\text{E}} + r_{\text{S}})(D_{\text{E}} + D_{\text{S}})$$
+
+$$k_{\text{coll}} \approx 10^{10}\ \text{M}^{-1}\text{s}^{-1} \quad (r \approx 500\ \text{pm},\ D \approx 10^{-9}\ \text{m}^2\text{s}^{-1})$$
+
+Observed ceiling is lower: orientation requirements, steric gating, and an activation barrier reduce the effective rate to
+
+$$\frac{k_{\text{cat}}}{K_m} \lesssim 10^{8} - 10^{9}\ \text{M}^{-1}\text{s}^{-1}$$
+
+Enzymes near this ceiling are called **kinetically perfect** (diffusion-limited). A measured value far below the ceiling means chemistry, not capture, is rate-limiting.
+
+**Worked comparison:** $k_{\text{cat}} = 500\ \text{s}^{-1}$, $K_m = 20\ \mu\text{M}$:
+
+$$\frac{k_{\text{cat}}}{K_m} = \frac{500\ \text{s}^{-1}}{20\ \mu\text{M}} = 25\ \mu\text{M}^{-1}\text{s}^{-1} = 2.5\times 10^{7}\ \text{M}^{-1}\text{s}^{-1}$$
+
+$$\frac{2.5\times 10^{7}}{10^{9}} = 2.5\% \text{ of the diffusion ceiling}$$
+
+---
+## 10. Reversible Inhibition: Scheme & $\alpha/\alpha'$ Formalism
+
+**General scheme (steady state with inhibitor):**
+
+$$\text{E} + \text{S} \overset{k_1}{\underset{k_{-1}}{\rightleftharpoons}} \text{ES} \xrightarrow{k_{\text{cat}}} \text{E} + \text{P}$$
+$$\text{E} + \text{I} \overset{}{\underset{K_i}{\rightleftharpoons}} \text{EI} \qquad \text{ES} + \text{I} \overset{}{\underset{K_i'}{\rightleftharpoons}} \text{ESI}$$
+
+**Multiplier definitions:**
+
+$$\alpha = 1 + \frac{[\text{I}]}{K_i} \qquad \alpha' = 1 + \frac{[\text{I}]}{K_i'}$$
+
+**Rate equation in the presence of inhibitor:**
+
+$$v = \frac{V_{\max}[\text{S}]}{\alpha K_m + \alpha'[\text{S}]}$$
+
+Apparent parameters: $V_{\max}^{\text{app}} = \dfrac{V_{\max}}{\alpha'}$, $\quad K_m^{\text{app}} = \dfrac{\alpha}{\alpha'}K_m$.
+
+**Boundary cases:**
+
+* $\alpha' = 1$ (I binds E only) $\to$ **competitive**
+* $\alpha = \alpha'$ (I binds E and ES with equal affinity) $\to$ **pure noncompetitive**
+* $\alpha = 1$ (I binds ES only) $\to$ **uncompetitive**
+
+---
+
+## 11. Inhibitor Classification Cheat Sheet
+
+| Type | Binding target | Complexes formed | $V_{\max}$ | $K_m$ | $k_{\text{cat}}/K_m$ | Reversible by $[\text{S}]$? |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Competitive** | Free E, active site | EI only (ESI dead-end) | **unchanged** | **up** ($\alpha K_m$) | down | **Yes** (high $[\text{S}]$ outcompetes) |
+| **Pure noncompetitive** | E and ES, equal affinity | EI + ESI | **down** ($V_{\max}/\alpha$) | **unchanged** | down | **No** |
+| **Uncompetitive** | ES only | ESI only | **down** ($V_{\max}/\alpha'$) | **down** ($K_m/\alpha'$) | unchanged | **No** |
+| **Mixed** ($\alpha > \alpha'$) | E and ES, E favoured | EI + ESI | **down** | **up** | down | **No** |
+| **Mixed** ($\alpha' > \alpha$) | E and ES, ES favoured | EI + ESI | **down** | **down** | down | **No** |
+
+**Diagnostics:** measure $v$ vs $[\text{S}]$ at fixed $[\text{I}]$. Lineweaver–Burk intersection: competitive lines meet on the $y$-axis ($V_{\max}$ fixed); noncompetitive meet on the $x$-axis ($K_m$ fixed); uncompetitive lines are parallel; mixed intersect left of the $y$-axis.
+
+**Direction rule for affinity:** $K_m^{\text{app}}$ up $\Rightarrow$ apparent affinity down; $K_m^{\text{app}}$ down $\Rightarrow$ apparent affinity up. Affinity is inversely related to $K_m$.
+
+---
+
+## 12. Complex Formation Diagrams
+
+```text
+Competitive:      E + I ⇌ EI                S cannot bind when I is bound
+                  ES → E + P                high [S] displaces I
+                  ESI = dead-end (not formed)
+
+Pure noncompetitive:  E + I ⇌ EI
+                      ES + I ⇌ ESI          dead-end, no product
+
+Uncompetitive:        ES + I ⇌ ESI          I binds only the ES form
+
+Mixed:                E + I ⇌ EI   and   ES + I ⇌ ESI   (affinities differ)
+```
